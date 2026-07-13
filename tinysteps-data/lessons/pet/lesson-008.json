@@ -1,0 +1,250 @@
+{
+  "id": "pet_lesson_008",
+  "level": "pet",
+  "topic_id": "topic_restaurant",
+  "order": 8,
+  "title": "At the restaurant",
+  "scenario": "You are in a customer role. Use English naturally in this restaurant situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "Local restaurant, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "customer"
+      },
+      {
+        "id": "char_b",
+        "name": "Waiter",
+        "role": "waiter"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good afternoon. Could we have the bill, please?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Of course. Was everything satisfactory today?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "The food was excellent, but the service was a bit slow."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I apologise for that. We were very busy this evening."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. The quality makes up for it."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If you sign up for our membership, you will receive a discount."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That sounds worthwhile. I often dine here."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Wonderful. I will bring you the application form."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_002",
+    "pet_vocab_003",
+    "pet_vocab_008",
+    "pet_vocab_017",
+    "pet_vocab_096",
+    "pet_vocab_097",
+    "pet_vocab_098",
+    "pet_vocab_099",
+    "pet_vocab_100",
+    "pet_vocab_101",
+    "pet_vocab_102",
+    "pet_vocab_103",
+    "pet_vocab_104",
+    "pet_vocab_105",
+    "pet_vocab_106",
+    "pet_vocab_107",
+    "pet_vocab_108"
+  ],
+  "grammar_ids": [
+    "pet_grammar_005",
+    "pet_grammar_006"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a green leaf logo with the letter V on a salad bowl",
+          "correct_answer": "vegetarian"
+        },
+        {
+          "image_hint": "a 'Reserved' tent card sitting on an elegant restaurant table",
+          "correct_answer": "reservation"
+        },
+        {
+          "image_hint": "a letter with five stars stamped at the top",
+          "correct_answer": "recommendation"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "procedure",
+            "safety",
+            "everyone",
+            "must",
+            "followed",
+            ".",
+            "The",
+            "be",
+            "by"
+          ],
+          "correct_answer": "The safety procedure must be followed by everyone."
+        },
+        {
+          "words": [
+            "before",
+            "Friday",
+            "confirmed",
+            "should",
+            ".",
+            "reservation",
+            "The",
+            "be"
+          ],
+          "correct_answer": "The reservation should be confirmed before Friday."
+        },
+        {
+          "words": [
+            "The",
+            "bought",
+            "ticket",
+            "can",
+            "be",
+            "the",
+            "at",
+            "airport",
+            "."
+          ],
+          "correct_answer": "The ticket can be bought at the airport."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "The safety procedure must be followed by everyone.",
+          "options": [
+            "The safety procedure must be followed by everyone.",
+            "The reservation should be confirmed before Friday.",
+            "The ticket can be bought at the airport."
+          ],
+          "correct_answer": "The safety procedure must be followed by everyone."
+        },
+        {
+          "audio_text": "The reservation should be confirmed before Friday.",
+          "options": [
+            "The reservation should be confirmed before Friday.",
+            "The ticket can be bought at the airport.",
+            "The safety procedure must be followed by everyone."
+          ],
+          "correct_answer": "The reservation should be confirmed before Friday."
+        },
+        {
+          "audio_text": "The ticket can be bought at the airport.",
+          "options": [
+            "The safety procedure must be followed by everyone.",
+            "The reservation should be confirmed before Friday.",
+            "The ticket can be bought at the airport."
+          ],
+          "correct_answer": "The ticket can be bought at the airport."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "The safety procedure must ___ followed by everyone.",
+          "correct_answer": "be"
+        },
+        {
+          "prompt": "The reservation should ___ confirmed before Friday.",
+          "correct_answer": "be"
+        },
+        {
+          "prompt": "The ticket can ___ bought at the airport.",
+          "correct_answer": "be"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a green leaf logo with the letter V on a salad bowl). What is this?",
+          "options": [
+            "vegetarian",
+            "recommendation",
+            "reservation"
+          ],
+          "correct_answer": "vegetarian"
+        },
+        {
+          "prompt": "Look at the picture (a 'Reserved' tent card sitting on an elegant restaurant table). What is this?",
+          "options": [
+            "reservation",
+            "recommendation",
+            "vegetarian"
+          ],
+          "correct_answer": "reservation"
+        },
+        {
+          "prompt": "Look at the picture (a letter with five stars stamped at the top). What is this?",
+          "options": [
+            "vegetarian",
+            "recommendation",
+            "reservation"
+          ],
+          "correct_answer": "recommendation"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "waiter",
+    "scenario": "Take an order from a diner at a restaurant.",
+    "opening_line": "Welcome! What would you like to order today?",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_005",
+        "pet_grammar_006"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_002",
+        "pet_vocab_003",
+        "pet_vocab_008"
+      ]
+    },
+    "success_criteria": "Learner orders food, states preferences, and asks for the bill."
+  }
+}

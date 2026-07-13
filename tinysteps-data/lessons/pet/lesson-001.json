@@ -1,0 +1,249 @@
+{
+  "id": "pet_lesson_001",
+  "level": "pet",
+  "topic_id": "topic_before_class",
+  "order": 1,
+  "title": "Preparing for class",
+  "scenario": "You are in a teacher role. Use English naturally in this before class situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "Teachers room, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Minh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Mr. Binh",
+        "role": "colleague"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good morning. I'd like to check the school schedule before class."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Sure. The principal updated the timetable this morning."
+      },
+      {
+        "character_id": "char_a",
+        "text": "We should inform the other teachers about the change."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I have already sent them an email with the new details."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Furthermore, we need to prepare worksheets for Period Three."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I agree. If we finish early, we will have time to review."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Let me explain the new procedure to the staff members."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. Your preparation is always very helpful."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_001",
+    "pet_vocab_013",
+    "pet_vocab_021",
+    "pet_vocab_032",
+    "pet_vocab_002",
+    "pet_vocab_003",
+    "pet_vocab_004",
+    "pet_vocab_005",
+    "pet_vocab_006",
+    "pet_vocab_007",
+    "pet_vocab_008",
+    "pet_vocab_009",
+    "pet_vocab_010",
+    "pet_vocab_011",
+    "pet_vocab_012",
+    "pet_vocab_014",
+    "pet_vocab_015"
+  ],
+  "grammar_ids": [
+    "pet_grammar_002"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a step-by-step flowchart diagram on school safety",
+          "correct_answer": "procedure"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a timetable",
+          "correct_answer": "timetable"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a board",
+          "correct_answer": "board"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            ".",
+            "teaching",
+            "for",
+            "been",
+            "I've",
+            "here",
+            "years",
+            "ten"
+          ],
+          "correct_answer": "I've been teaching here for ten years."
+        },
+        {
+          "words": [
+            ".",
+            "lesson",
+            "We've",
+            "since",
+            "morning",
+            "been",
+            "preparing",
+            "this"
+          ],
+          "correct_answer": "We've been preparing this lesson since morning."
+        },
+        {
+          "words": [
+            "My",
+            "the",
+            "schedule",
+            "has",
+            "been",
+            ".",
+            "headteacher",
+            "with",
+            "colleague",
+            "discussing",
+            "the"
+          ],
+          "correct_answer": "My colleague has been discussing the schedule with the headteacher."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I've been teaching here for ten years.",
+          "options": [
+            "My colleague has been discussing the schedule with the headteacher.",
+            "I've been teaching here for ten years.",
+            "We've been preparing this lesson since morning."
+          ],
+          "correct_answer": "I've been teaching here for ten years."
+        },
+        {
+          "audio_text": "We've been preparing this lesson since morning.",
+          "options": [
+            "I've been teaching here for ten years.",
+            "We've been preparing this lesson since morning.",
+            "My colleague has been discussing the schedule with the headteacher."
+          ],
+          "correct_answer": "We've been preparing this lesson since morning."
+        },
+        {
+          "audio_text": "My colleague has been discussing the schedule with the headteacher.",
+          "options": [
+            "My colleague has been discussing the schedule with the headteacher.",
+            "We've been preparing this lesson since morning.",
+            "I've been teaching here for ten years."
+          ],
+          "correct_answer": "My colleague has been discussing the schedule with the headteacher."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I've ___ teaching here for ten years.",
+          "correct_answer": "been"
+        },
+        {
+          "prompt": "We've ___ preparing this lesson since morning.",
+          "correct_answer": "been"
+        },
+        {
+          "prompt": "My colleague has ___ discussing the schedule with the headteacher.",
+          "correct_answer": "been"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a step-by-step flowchart diagram on school safety). What is this?",
+          "options": [
+            "board",
+            "procedure",
+            "timetable"
+          ],
+          "correct_answer": "procedure"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a timetable). What is this?",
+          "options": [
+            "procedure",
+            "timetable",
+            "board"
+          ],
+          "correct_answer": "timetable"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a board). What is this?",
+          "options": [
+            "timetable",
+            "procedure",
+            "board"
+          ],
+          "correct_answer": "board"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Talk about class preparation before the lesson starts.",
+    "opening_line": "Good morning! Have you finished the lesson preparation?",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_002"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_001",
+        "pet_vocab_013",
+        "pet_vocab_021"
+      ]
+    },
+    "success_criteria": "Learner answers appropriately and describes a classroom preparation task."
+  }
+}

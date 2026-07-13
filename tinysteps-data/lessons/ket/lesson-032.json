@@ -1,0 +1,243 @@
+{
+  "id": "ket_lesson_032",
+  "level": "ket",
+  "topic_id": "topic_restaurant",
+  "order": 32,
+  "title": "At the restaurant",
+  "scenario": "You are in a customer role. Use English naturally in this restaurant situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "Local restaurant, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "An",
+        "role": "customer"
+      },
+      {
+        "id": "char_b",
+        "name": "Waiter",
+        "role": "waiter"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good afternoon. Could we have the bill, please?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Of course. Was everything satisfactory today?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "The food was excellent, but the service was a bit slow."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I apologise for that. We were very busy this evening."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. The quality makes up for it."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If you sign up for our membership, you will receive a discount."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That sounds worthwhile. I often dine here."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Wonderful. I will bring you the application form."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_001",
+    "ket_vocab_002",
+    "ket_vocab_055",
+    "ket_vocab_056",
+    "ket_vocab_381",
+    "ket_vocab_382",
+    "ket_vocab_383",
+    "ket_vocab_384",
+    "ket_vocab_385",
+    "ket_vocab_386",
+    "ket_vocab_387",
+    "ket_vocab_388",
+    "ket_vocab_389",
+    "ket_vocab_390",
+    "ket_vocab_391",
+    "ket_vocab_392"
+  ],
+  "grammar_ids": [
+    "ket_grammar_002",
+    "ket_grammar_007"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "two cups (tea and coffee) with a green checkmark next to the tea",
+          "correct_answer": "prefer"
+        },
+        {
+          "image_hint": "a plate of pasta with steam rising, looking very tasty",
+          "correct_answer": "delicious"
+        },
+        {
+          "image_hint": "a menu with dietary restriction labels",
+          "correct_answer": "dietary"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "?",
+            "dish",
+            "good",
+            "you",
+            "Could",
+            "a",
+            "recommend"
+          ],
+          "correct_answer": "Could you recommend a good dish?"
+        },
+        {
+          "words": [
+            "Could",
+            "check",
+            "my",
+            "you",
+            "schedule",
+            "?"
+          ],
+          "correct_answer": "Could you check my schedule?"
+        },
+        {
+          "words": [
+            "Could",
+            "?",
+            "together",
+            "we",
+            "the",
+            "correct",
+            "mistakes"
+          ],
+          "correct_answer": "Could we correct the mistakes together?"
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Could you recommend a good dish?",
+          "options": [
+            "Could you recommend a good dish?",
+            "Could you check my schedule?",
+            "Could we correct the mistakes together?"
+          ],
+          "correct_answer": "Could you recommend a good dish?"
+        },
+        {
+          "audio_text": "Could you check my schedule?",
+          "options": [
+            "Could we correct the mistakes together?",
+            "Could you recommend a good dish?",
+            "Could you check my schedule?"
+          ],
+          "correct_answer": "Could you check my schedule?"
+        },
+        {
+          "audio_text": "Could we correct the mistakes together?",
+          "options": [
+            "Could we correct the mistakes together?",
+            "Could you check my schedule?",
+            "Could you recommend a good dish?"
+          ],
+          "correct_answer": "Could we correct the mistakes together?"
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ you recommend a good dish?",
+          "correct_answer": "Could"
+        },
+        {
+          "prompt": "___ you check my schedule?",
+          "correct_answer": "Could"
+        },
+        {
+          "prompt": "___ we correct the mistakes together?",
+          "correct_answer": "Could"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (two cups (tea and coffee) with a green checkmark next to the tea). What is this?",
+          "options": [
+            "prefer",
+            "dietary",
+            "delicious"
+          ],
+          "correct_answer": "prefer"
+        },
+        {
+          "prompt": "Look at the picture (a plate of pasta with steam rising, looking very tasty). What is this?",
+          "options": [
+            "prefer",
+            "dietary",
+            "delicious"
+          ],
+          "correct_answer": "delicious"
+        },
+        {
+          "prompt": "Look at the picture (a menu with dietary restriction labels). What is this?",
+          "options": [
+            "dietary",
+            "prefer",
+            "delicious"
+          ],
+          "correct_answer": "dietary"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "waiter",
+    "scenario": "Take an order from a diner at a restaurant.",
+    "opening_line": "Welcome! What would you like to order today?",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_002",
+        "ket_grammar_007"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_001",
+        "ket_vocab_002",
+        "ket_vocab_055"
+      ]
+    },
+    "success_criteria": "Learner orders food, states preferences, and asks for the bill."
+  }
+}

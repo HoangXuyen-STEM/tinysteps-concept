@@ -1,0 +1,248 @@
+{
+  "id": "ket_lesson_006",
+  "level": "ket",
+  "topic_id": "topic_school_communication",
+  "order": 6,
+  "title": "School communication",
+  "scenario": "You are in a teacher role. Use English naturally in this school communication situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "School meeting room, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Duc",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Mrs. Mai",
+        "role": "parent"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "I'd like to discuss the feedback from last week's parent meeting."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, several parents raised concerns about homework volume."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. We should adjust our policy accordingly."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I have drafted a new homework schedule for your review."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Thank you. I will review it and reply by Wednesday."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Furthermore, the principal has asked for a formal report."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I will prepare the report and submit it by Friday."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If we address the concerns early, we can avoid bigger issues."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_004",
+    "ket_vocab_044",
+    "ket_vocab_045",
+    "ket_vocab_046",
+    "ket_vocab_069",
+    "ket_vocab_070",
+    "ket_vocab_071",
+    "ket_vocab_072",
+    "ket_vocab_073",
+    "ket_vocab_074",
+    "ket_vocab_075",
+    "ket_vocab_076",
+    "ket_vocab_077",
+    "ket_vocab_078",
+    "ket_vocab_079",
+    "ket_vocab_080"
+  ],
+  "grammar_ids": [
+    "ket_grammar_001",
+    "ket_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a weekly calendar grid on a wall board",
+          "correct_answer": "schedule"
+        },
+        {
+          "image_hint": "a stack of official school documentation",
+          "correct_answer": "documentation"
+        },
+        {
+          "image_hint": "a school administration office with staff inside",
+          "correct_answer": "administration"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "for",
+            ".",
+            "I",
+            "here",
+            "five",
+            "have",
+            "years",
+            "worked"
+          ],
+          "correct_answer": "I have worked here for five years."
+        },
+        {
+          "words": [
+            ".",
+            "student",
+            "has",
+            "Monday",
+            "here",
+            "a",
+            "since",
+            "been",
+            "He"
+          ],
+          "correct_answer": "He has been a student here since Monday."
+        },
+        {
+          "words": [
+            "We",
+            "have",
+            ".",
+            "January",
+            "this",
+            "schedule",
+            "had",
+            "since"
+          ],
+          "correct_answer": "We have had this schedule since January."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I have worked here for five years.",
+          "options": [
+            "He has been a student here since Monday.",
+            "We have had this schedule since January.",
+            "I have worked here for five years."
+          ],
+          "correct_answer": "I have worked here for five years."
+        },
+        {
+          "audio_text": "He has been a student here since Monday.",
+          "options": [
+            "He has been a student here since Monday.",
+            "We have had this schedule since January.",
+            "I have worked here for five years."
+          ],
+          "correct_answer": "He has been a student here since Monday."
+        },
+        {
+          "audio_text": "We have had this schedule since January.",
+          "options": [
+            "I have worked here for five years.",
+            "He has been a student here since Monday.",
+            "We have had this schedule since January."
+          ],
+          "correct_answer": "We have had this schedule since January."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ worked here for five years.",
+          "correct_answer": "have"
+        },
+        {
+          "prompt": "He ___ been a student here since Monday.",
+          "correct_answer": "has"
+        },
+        {
+          "prompt": "We ___ had this schedule since January.",
+          "correct_answer": "have"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a weekly calendar grid on a wall board). What is this?",
+          "options": [
+            "administration",
+            "documentation",
+            "schedule"
+          ],
+          "correct_answer": "schedule"
+        },
+        {
+          "prompt": "Look at the picture (a stack of official school documentation). What is this?",
+          "options": [
+            "administration",
+            "schedule",
+            "documentation"
+          ],
+          "correct_answer": "documentation"
+        },
+        {
+          "prompt": "Look at the picture (a school administration office with staff inside). What is this?",
+          "options": [
+            "documentation",
+            "schedule",
+            "administration"
+          ],
+          "correct_answer": "administration"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "parent",
+    "scenario": "Ask about student progress at parent-teacher meeting.",
+    "opening_line": "Hello, teacher. I wanted to ask about my child's progress.",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_001",
+        "ket_grammar_003"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_004",
+        "ket_vocab_044",
+        "ket_vocab_045"
+      ]
+    },
+    "success_criteria": "Learner discusses student progress and provides constructive advice."
+  }
+}

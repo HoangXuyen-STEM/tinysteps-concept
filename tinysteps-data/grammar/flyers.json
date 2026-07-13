@@ -1,0 +1,440 @@
+{
+  "level": "flyers",
+  "total_points": 10,
+  "grammar_points": [
+    {
+      "id": "flyers_grammar_001",
+      "name": "present_perfect_simple",
+      "pattern": "Subject + have/has + Verb-ed/3",
+      "topic_ids": [
+        "topic_school_communication",
+        "topic_market",
+        "topic_travel",
+        "topic_phone"
+      ],
+      "examples": [
+        {
+          "sentence": "I have sent you an email.",
+          "context": "reporting school task status"
+        },
+        {
+          "sentence": "He has finished the homework.",
+          "context": "checking progress"
+        },
+        {
+          "sentence": "I have bought the fruit.",
+          "context": "shopping at market"
+        },
+        {
+          "sentence": "We have bought a train ticket.",
+          "context": "travel prep"
+        },
+        {
+          "sentence": "The parent has called me.",
+          "context": "communication status"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I sent you an email already.",
+          "correct": "I have sent you an email."
+        },
+        {
+          "wrong": "He have finished the homework.",
+          "correct": "He has finished the homework."
+        }
+      ],
+      "builds_on": [
+        "movers_grammar_002",
+        "movers_grammar_003"
+      ]
+    },
+    {
+      "id": "flyers_grammar_002",
+      "name": "going_to_verb",
+      "pattern": "Subject + am/is/are + going to + Verb-infinitive",
+      "topic_ids": [
+        "topic_travel",
+        "topic_social",
+        "topic_phone"
+      ],
+      "examples": [
+        {
+          "sentence": "I'm going to travel by train.",
+          "context": "travel plan"
+        },
+        {
+          "sentence": "She is going to call the doctor.",
+          "context": "health concern"
+        },
+        {
+          "sentence": "We are going to have a meeting.",
+          "context": "school meeting plan"
+        },
+        {
+          "sentence": "I am going to explain the word.",
+          "context": "classroom instruction"
+        },
+        {
+          "sentence": "What are you going to do today?",
+          "context": "social small talk"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I going to explain the word.",
+          "correct": "I am going to explain the word."
+        },
+        {
+          "wrong": "I am going to explaining the word.",
+          "correct": "I am going to explain the word."
+        }
+      ]
+    },
+    {
+      "id": "flyers_grammar_003",
+      "name": "must_mustnt",
+      "pattern": "Subject + must/mustn't + Verb-infinitive",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_checking_understanding"
+      ],
+      "examples": [
+        {
+          "sentence": "You must follow the instructions.",
+          "context": "firm classroom rule"
+        },
+        {
+          "sentence": "You mustn't make a mistake in this test.",
+          "context": "emphasizing accuracy"
+        },
+        {
+          "sentence": "We must explain the word clearly.",
+          "context": "teaching guideline"
+        },
+        {
+          "sentence": "You must listen to the doctor.",
+          "context": "health advice"
+        },
+        {
+          "sentence": "The student must clean the board.",
+          "context": "classroom task"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "You must to follow the instructions.",
+          "correct": "You must follow the instructions."
+        },
+        {
+          "wrong": "You must not to run.",
+          "correct": "You mustn't run."
+        }
+      ]
+    },
+    {
+      "id": "flyers_grammar_004",
+      "name": "should_shouldnt",
+      "pattern": "Subject + should/shouldn't + Verb-infinitive",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_checking_understanding",
+        "topic_praise_correction",
+        "topic_health"
+      ],
+      "examples": [
+        {
+          "sentence": "You should explain the word.",
+          "context": "giving advice to student"
+        },
+        {
+          "sentence": "You shouldn't make a mistake like this.",
+          "context": "gentle error correction"
+        },
+        {
+          "sentence": "He should see a doctor.",
+          "context": "health suggestion"
+        },
+        {
+          "sentence": "We should have a meeting about this.",
+          "context": "colleague query"
+        },
+        {
+          "sentence": "You should check the bill, please.",
+          "context": "at a restaurant"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "You should to explain the word.",
+          "correct": "You should explain the word."
+        },
+        {
+          "wrong": "You should not making mistakes.",
+          "correct": "You shouldn't make mistakes."
+        }
+      ]
+    },
+    {
+      "id": "flyers_grammar_005",
+      "name": "reported_commands",
+      "pattern": "Subject + told + object + to + Verb-infinitive",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_giving_instructions",
+        "topic_school_communication"
+      ],
+      "examples": [
+        {
+          "sentence": "The teacher told us to open the book.",
+          "context": "reporting an instruction"
+        },
+        {
+          "sentence": "She told me to clean the board.",
+          "context": "explaining a task delegation"
+        },
+        {
+          "sentence": "I told the parent to call the doctor.",
+          "context": "giving advice on child health"
+        },
+        {
+          "sentence": "My colleague told me to send the email.",
+          "context": "discussing tasks"
+        },
+        {
+          "sentence": "The doctor told him to take the medicine.",
+          "context": "explaining medical orders"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "The teacher told us open the book.",
+          "correct": "The teacher told us to open the book."
+        },
+        {
+          "wrong": "She told to me clean the board.",
+          "correct": "She told me to clean the board."
+        }
+      ]
+    },
+    {
+      "id": "flyers_grammar_006",
+      "name": "superlative_adjectives",
+      "pattern": "the + adjective-est + noun | the most + adjective + noun",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_market",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "He is the best student in class.",
+          "context": "praising a student"
+        },
+        {
+          "sentence": "This is the cheapest fruit at the market.",
+          "context": "shopping for value"
+        },
+        {
+          "sentence": "That was the most interesting lesson.",
+          "context": "end-of-day reflection"
+        },
+        {
+          "sentence": "She is the tallest student in the school.",
+          "context": "describing a classmate"
+        },
+        {
+          "sentence": "It was the longest meeting this week.",
+          "context": "colleague small talk"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "He is the most best student.",
+          "correct": "He is the best student."
+        },
+        {
+          "wrong": "This is most cheap.",
+          "correct": "This is the cheapest."
+        }
+      ],
+      "builds_on": [
+        "movers_grammar_007"
+      ]
+    },
+    {
+      "id": "flyers_grammar_007",
+      "name": "adverbs_of_frequency",
+      "pattern": "Subject + always/usually/often/sometimes/never + verb",
+      "topic_ids": [
+        "topic_social",
+        "topic_in_class",
+        "topic_health"
+      ],
+      "examples": [
+        {
+          "sentence": "I always do my homework.",
+          "context": "describing a good habit"
+        },
+        {
+          "sentence": "She sometimes helps the teacher.",
+          "context": "classroom routine"
+        },
+        {
+          "sentence": "We never go to school on Sunday.",
+          "context": "talking about schedule"
+        },
+        {
+          "sentence": "He usually takes the bus to school.",
+          "context": "travel routine"
+        },
+        {
+          "sentence": "They often meet at the market.",
+          "context": "social habit"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I go always to school.",
+          "correct": "I always go to school."
+        },
+        {
+          "wrong": "He never is late.",
+          "correct": "He is never late."
+        }
+      ],
+      "builds_on": [
+        "starters_grammar_004"
+      ]
+    },
+    {
+      "id": "flyers_grammar_008",
+      "name": "first_conditional",
+      "pattern": "If + subject + present simple, subject + will + verb",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_travel",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "If it rains, we will stay inside.",
+          "context": "planning outdoor activity"
+        },
+        {
+          "sentence": "If you finish early, you can go home.",
+          "context": "teacher instruction"
+        },
+        {
+          "sentence": "If you study hard, you will do well.",
+          "context": "encouraging a student"
+        },
+        {
+          "sentence": "If I buy a ticket, I will travel to Hue.",
+          "context": "planning a trip"
+        },
+        {
+          "sentence": "If the meeting is late, I will call you.",
+          "context": "colleague arrangement"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "If it will rain, we stay inside.",
+          "correct": "If it rains, we will stay inside."
+        },
+        {
+          "wrong": "If you will study, you pass.",
+          "correct": "If you study, you will pass."
+        }
+      ]
+    },
+    {
+      "id": "flyers_grammar_009",
+      "name": "question_how_long_often",
+      "pattern": "How long/How often + auxiliary + subject + verb?",
+      "topic_ids": [
+        "topic_social",
+        "topic_health",
+        "topic_travel"
+      ],
+      "examples": [
+        {
+          "sentence": "How long is the meeting?",
+          "context": "checking schedule"
+        },
+        {
+          "sentence": "How often do you go to the market?",
+          "context": "social chat"
+        },
+        {
+          "sentence": "How long have you been a teacher?",
+          "context": "getting to know a colleague"
+        },
+        {
+          "sentence": "How often does he take medicine?",
+          "context": "health check"
+        },
+        {
+          "sentence": "How long is the train journey?",
+          "context": "planning travel"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "How long you study English?",
+          "correct": "How long have you studied English?"
+        },
+        {
+          "wrong": "How often you go?",
+          "correct": "How often do you go?"
+        }
+      ],
+      "builds_on": [
+        "movers_grammar_009"
+      ]
+    },
+    {
+      "id": "flyers_grammar_010",
+      "name": "too_adjective",
+      "pattern": "too + adjective + (to + verb)",
+      "topic_ids": [
+        "topic_market",
+        "topic_health",
+        "topic_in_class"
+      ],
+      "examples": [
+        {
+          "sentence": "The bill is too expensive.",
+          "context": "complaining about a price"
+        },
+        {
+          "sentence": "This exercise is too difficult for me.",
+          "context": "student asking for help"
+        },
+        {
+          "sentence": "It is too hot to go outside.",
+          "context": "weather comment"
+        },
+        {
+          "sentence": "The music is too loud.",
+          "context": "asking to turn it down"
+        },
+        {
+          "sentence": "The instructions are too long.",
+          "context": "giving feedback on a task"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "The bill is very too expensive.",
+          "correct": "The bill is too expensive."
+        },
+        {
+          "wrong": "It too hot.",
+          "correct": "It is too hot."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "ket_lesson_024",
+  "level": "ket",
+  "topic_id": "topic_social",
+  "order": 24,
+  "title": "Social conversations",
+  "scenario": "You are in a friend role. Use English naturally in this social situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "Park, sunny afternoon, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Nam",
+        "role": "friend"
+      },
+      {
+        "id": "char_b",
+        "name": "An",
+        "role": "friend"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "What a lovely afternoon! How have you been lately?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Very well, thank you. I have been quite busy with school."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. I have been working on a new project."
+      },
+      {
+        "character_id": "char_b",
+        "text": "What kind of project? It sounds interesting."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I am developing new English activities for the students."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Furthermore, a social event for teachers would be a great idea."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I agree completely. Let's discuss the details over coffee."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If I had known earlier, I would have planned something already."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_001",
+    "ket_vocab_077",
+    "ket_vocab_078",
+    "ket_vocab_079",
+    "ket_vocab_285",
+    "ket_vocab_286",
+    "ket_vocab_287",
+    "ket_vocab_288",
+    "ket_vocab_289",
+    "ket_vocab_290",
+    "ket_vocab_291",
+    "ket_vocab_292",
+    "ket_vocab_293",
+    "ket_vocab_294",
+    "ket_vocab_295",
+    "ket_vocab_296"
+  ],
+  "grammar_ids": [
+    "ket_grammar_001",
+    "ket_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "two cups (tea and coffee) with a green checkmark next to the tea",
+          "correct_answer": "prefer"
+        },
+        {
+          "image_hint": "two people looking at the same thing from different angles",
+          "correct_answer": "perspective"
+        },
+        {
+          "image_hint": "a diverse community of people working together",
+          "correct_answer": "community"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "five",
+            "here",
+            "I",
+            "for",
+            ".",
+            "worked",
+            "have",
+            "years"
+          ],
+          "correct_answer": "I have worked here for five years."
+        },
+        {
+          "words": [
+            "been",
+            "He",
+            "since",
+            ".",
+            "Monday",
+            "has",
+            "here",
+            "a",
+            "student"
+          ],
+          "correct_answer": "He has been a student here since Monday."
+        },
+        {
+          "words": [
+            "had",
+            "have",
+            "We",
+            "January",
+            ".",
+            "this",
+            "schedule",
+            "since"
+          ],
+          "correct_answer": "We have had this schedule since January."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I have worked here for five years.",
+          "options": [
+            "We have had this schedule since January.",
+            "He has been a student here since Monday.",
+            "I have worked here for five years."
+          ],
+          "correct_answer": "I have worked here for five years."
+        },
+        {
+          "audio_text": "He has been a student here since Monday.",
+          "options": [
+            "I have worked here for five years.",
+            "He has been a student here since Monday.",
+            "We have had this schedule since January."
+          ],
+          "correct_answer": "He has been a student here since Monday."
+        },
+        {
+          "audio_text": "We have had this schedule since January.",
+          "options": [
+            "He has been a student here since Monday.",
+            "I have worked here for five years.",
+            "We have had this schedule since January."
+          ],
+          "correct_answer": "We have had this schedule since January."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ worked here for five years.",
+          "correct_answer": "have"
+        },
+        {
+          "prompt": "He ___ been a student here since Monday.",
+          "correct_answer": "has"
+        },
+        {
+          "prompt": "We ___ had this schedule since January.",
+          "correct_answer": "have"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (two cups (tea and coffee) with a green checkmark next to the tea). What is this?",
+          "options": [
+            "prefer",
+            "perspective",
+            "community"
+          ],
+          "correct_answer": "prefer"
+        },
+        {
+          "prompt": "Look at the picture (two people looking at the same thing from different angles). What is this?",
+          "options": [
+            "community",
+            "prefer",
+            "perspective"
+          ],
+          "correct_answer": "perspective"
+        },
+        {
+          "prompt": "Look at the picture (a diverse community of people working together). What is this?",
+          "options": [
+            "community",
+            "prefer",
+            "perspective"
+          ],
+          "correct_answer": "community"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Have casual chat about weekend plans.",
+    "opening_line": "Hi! What a nice day. What are your plans for the weekend?",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_001",
+        "ket_grammar_003"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_001",
+        "ket_vocab_077",
+        "ket_vocab_078"
+      ]
+    },
+    "success_criteria": "Learner makes friendly small talk and discusses personal hobbies."
+  }
+}

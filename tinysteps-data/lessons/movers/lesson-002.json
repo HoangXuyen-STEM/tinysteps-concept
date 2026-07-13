@@ -1,0 +1,241 @@
+{
+  "id": "movers_lesson_002",
+  "level": "movers",
+  "topic_id": "topic_in_class",
+  "order": 2,
+  "title": "Learning in the classroom",
+  "scenario": "You are in a teacher role. Use English naturally in this in class situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "Classroom, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Huong",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Nam",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Did you bring your book today?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, teacher. Here is my book."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Good. Open it to page twelve."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I opened it. Should I read aloud?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, read the first sentence, please."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I am reading it now."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Excellent. Very good progress!"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_001",
+    "movers_vocab_004",
+    "movers_vocab_031",
+    "movers_vocab_032",
+    "movers_vocab_017",
+    "movers_vocab_018",
+    "movers_vocab_019",
+    "movers_vocab_020",
+    "movers_vocab_021",
+    "movers_vocab_022",
+    "movers_vocab_023",
+    "movers_vocab_024",
+    "movers_vocab_025",
+    "movers_vocab_026",
+    "movers_vocab_027",
+    "movers_vocab_028",
+    "movers_vocab_029",
+    "movers_vocab_030"
+  ],
+  "grammar_ids": [
+    "movers_grammar_001",
+    "movers_grammar_002"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a notebook with written exercises and a red checkmark",
+          "correct_answer": "homework"
+        },
+        {
+          "image_hint": "a hand wiping a whiteboard clean with an eraser",
+          "correct_answer": "clean"
+        },
+        {
+          "image_hint": "a worksheet page with numbered exercises",
+          "correct_answer": "exercise"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "writing",
+            "book",
+            "my",
+            ".",
+            "in",
+            "am",
+            "I"
+          ],
+          "correct_answer": "I am writing in my book."
+        },
+        {
+          "words": [
+            "cleaning",
+            "board",
+            "is",
+            ".",
+            "the",
+            "He"
+          ],
+          "correct_answer": "He is cleaning the board."
+        },
+        {
+          "words": [
+            ".",
+            "to",
+            "the",
+            "teacher",
+            "are",
+            "They",
+            "listening"
+          ],
+          "correct_answer": "They are listening to the teacher."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I am writing in my book.",
+          "options": [
+            "They are listening to the teacher.",
+            "I am writing in my book.",
+            "He is cleaning the board."
+          ],
+          "correct_answer": "I am writing in my book."
+        },
+        {
+          "audio_text": "He is cleaning the board.",
+          "options": [
+            "I am writing in my book.",
+            "They are listening to the teacher.",
+            "He is cleaning the board."
+          ],
+          "correct_answer": "He is cleaning the board."
+        },
+        {
+          "audio_text": "They are listening to the teacher.",
+          "options": [
+            "I am writing in my book.",
+            "They are listening to the teacher.",
+            "He is cleaning the board."
+          ],
+          "correct_answer": "They are listening to the teacher."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ writing in my book.",
+          "correct_answer": "am"
+        },
+        {
+          "prompt": "He ___ cleaning the board.",
+          "correct_answer": "is"
+        },
+        {
+          "prompt": "They ___ listening to the teacher.",
+          "correct_answer": "are"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a notebook with written exercises and a red checkmark). What is this?",
+          "options": [
+            "exercise",
+            "clean",
+            "homework"
+          ],
+          "correct_answer": "homework"
+        },
+        {
+          "prompt": "Look at the picture (a hand wiping a whiteboard clean with an eraser). What is this?",
+          "options": [
+            "clean",
+            "exercise",
+            "homework"
+          ],
+          "correct_answer": "clean"
+        },
+        {
+          "prompt": "Look at the picture (a worksheet page with numbered exercises). What is this?",
+          "options": [
+            "homework",
+            "exercise",
+            "clean"
+          ],
+          "correct_answer": "exercise"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Ask questions during class about the lesson.",
+    "opening_line": "Teacher, can you help me? I don't understand the task.",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_001",
+        "movers_grammar_002"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_001",
+        "movers_vocab_004",
+        "movers_vocab_031"
+      ]
+    },
+    "success_criteria": "Learner explains the task clearly using simple English."
+  }
+}

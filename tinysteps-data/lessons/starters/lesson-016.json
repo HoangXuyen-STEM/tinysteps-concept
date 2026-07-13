@@ -1,0 +1,220 @@
+{
+  "id": "starters_lesson_016",
+  "level": "starters",
+  "topic_id": "topic_checking_understanding",
+  "order": 16,
+  "title": "Checking understanding",
+  "scenario": "You are in a teacher role. Use English naturally in this checking understanding situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "English lab, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Linh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Lan",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Listen to me. Look at the board."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, teacher. We are looking."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Is this a good student?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes! He is a very good student."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_010",
+    "starters_vocab_018",
+    "starters_vocab_029",
+    "starters_vocab_039",
+    "starters_vocab_155",
+    "starters_vocab_156",
+    "starters_vocab_157",
+    "starters_vocab_158",
+    "starters_vocab_159",
+    "starters_vocab_160",
+    "starters_vocab_161",
+    "starters_vocab_162",
+    "starters_vocab_163",
+    "starters_vocab_164"
+  ],
+  "grammar_ids": [
+    "starters_grammar_006",
+    "starters_grammar_009"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a student cupping their hand to their ear",
+          "correct_answer": "listen"
+        },
+        {
+          "image_hint": "an action illustration showing a person to comprehend",
+          "correct_answer": "comprehend"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a quiz",
+          "correct_answer": "quiz"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "pen",
+            "This",
+            ".",
+            "a",
+            "is"
+          ],
+          "correct_answer": "This is a pen."
+        },
+        {
+          "words": [
+            ".",
+            "a",
+            "book",
+            "That",
+            "is"
+          ],
+          "correct_answer": "That is a book."
+        },
+        {
+          "words": [
+            ".",
+            "These",
+            "my",
+            "are",
+            "students"
+          ],
+          "correct_answer": "These are my students."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "This is a pen.",
+          "options": [
+            "This is a pen.",
+            "These are my students.",
+            "That is a book."
+          ],
+          "correct_answer": "This is a pen."
+        },
+        {
+          "audio_text": "That is a book.",
+          "options": [
+            "These are my students.",
+            "This is a pen.",
+            "That is a book."
+          ],
+          "correct_answer": "That is a book."
+        },
+        {
+          "audio_text": "These are my students.",
+          "options": [
+            "This is a pen.",
+            "These are my students.",
+            "That is a book."
+          ],
+          "correct_answer": "These are my students."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ is a pen.",
+          "correct_answer": "This"
+        },
+        {
+          "prompt": "___ is a book.",
+          "correct_answer": "That"
+        },
+        {
+          "prompt": "___ are my students.",
+          "correct_answer": "These"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a student cupping their hand to their ear). What is this?",
+          "options": [
+            "quiz",
+            "comprehend",
+            "listen"
+          ],
+          "correct_answer": "listen"
+        },
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to comprehend). What is this?",
+          "options": [
+            "quiz",
+            "comprehend",
+            "listen"
+          ],
+          "correct_answer": "comprehend"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a quiz). What is this?",
+          "options": [
+            "quiz",
+            "listen",
+            "comprehend"
+          ],
+          "correct_answer": "quiz"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Confirm comprehension of the classroom rules.",
+    "opening_line": "Teacher, are we supposed to explain or just write it?",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_006",
+        "starters_grammar_009"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_010",
+        "starters_vocab_018",
+        "starters_vocab_029"
+      ]
+    },
+    "success_criteria": "Learner checks understanding and gently clarifies rules."
+  }
+}

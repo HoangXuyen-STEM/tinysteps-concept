@@ -1,0 +1,243 @@
+{
+  "id": "flyers_lesson_021",
+  "level": "flyers",
+  "topic_id": "topic_travel",
+  "order": 21,
+  "title": "Travel and directions",
+  "scenario": "You are in a traveler role. Use English naturally in this travel situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "Bus terminal, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Nam",
+        "role": "traveler"
+      },
+      {
+        "id": "char_b",
+        "name": "Agent",
+        "role": "agent"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "I would like to buy a train ticket to Hue, please."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Certainly. When would you like to travel?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "This Saturday morning, if possible."
+      },
+      {
+        "character_id": "char_b",
+        "text": "There is a train at eight thirty that arrives at noon."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Could you recommend a good hotel near the old city?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, the Heritage Hotel is close to all the attractions."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I will confirm my hotel reservation tonight."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Safe travels. Enjoy your visit to Hue!"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_006",
+    "flyers_vocab_059",
+    "flyers_vocab_060",
+    "flyers_vocab_061",
+    "flyers_vocab_268",
+    "flyers_vocab_269",
+    "flyers_vocab_270",
+    "flyers_vocab_271",
+    "flyers_vocab_272",
+    "flyers_vocab_273",
+    "flyers_vocab_274",
+    "flyers_vocab_275",
+    "flyers_vocab_276",
+    "flyers_vocab_277",
+    "flyers_vocab_278",
+    "flyers_vocab_279",
+    "flyers_vocab_280"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_001",
+    "flyers_grammar_002"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a paper ticket with a barcode showing train travel details",
+          "correct_answer": "ticket"
+        },
+        {
+          "image_hint": "a pin on a map marking a destination",
+          "correct_answer": "destination"
+        },
+        {
+          "image_hint": "a departures board at an airport terminal",
+          "correct_answer": "departure"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "I",
+            "an",
+            "have",
+            "you",
+            "email",
+            ".",
+            "sent"
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "words": [
+            "has",
+            "the",
+            ".",
+            "finished",
+            "He",
+            "homework"
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "words": [
+            ".",
+            "have",
+            "I",
+            "bought",
+            "fruit",
+            "the"
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I have sent you an email.",
+          "options": [
+            "I have bought the fruit.",
+            "He has finished the homework.",
+            "I have sent you an email."
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "audio_text": "He has finished the homework.",
+          "options": [
+            "I have sent you an email.",
+            "He has finished the homework.",
+            "I have bought the fruit."
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "audio_text": "I have bought the fruit.",
+          "options": [
+            "He has finished the homework.",
+            "I have sent you an email.",
+            "I have bought the fruit."
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ sent you an email.",
+          "correct_answer": "have"
+        },
+        {
+          "prompt": "He ___ finished the homework.",
+          "correct_answer": "has"
+        },
+        {
+          "prompt": "I ___ bought the fruit.",
+          "correct_answer": "have"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a paper ticket with a barcode showing train travel details). What is this?",
+          "options": [
+            "departure",
+            "destination",
+            "ticket"
+          ],
+          "correct_answer": "ticket"
+        },
+        {
+          "prompt": "Look at the picture (a pin on a map marking a destination). What is this?",
+          "options": [
+            "departure",
+            "destination",
+            "ticket"
+          ],
+          "correct_answer": "destination"
+        },
+        {
+          "prompt": "Look at the picture (a departures board at an airport terminal). What is this?",
+          "options": [
+            "destination",
+            "ticket",
+            "departure"
+          ],
+          "correct_answer": "departure"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "agent",
+    "scenario": "Help a traveler book tickets and find directions.",
+    "opening_line": "Hello! Where are you traveling to today?",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_001",
+        "flyers_grammar_002"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_006",
+        "flyers_vocab_059",
+        "flyers_vocab_060"
+      ]
+    },
+    "success_criteria": "Learner asks for directions and travel booking help politely."
+  }
+}

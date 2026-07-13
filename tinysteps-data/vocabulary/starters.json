@@ -1,0 +1,3634 @@
+{
+  "level": "starters",
+  "total_words": 300,
+  "words": [
+    {
+      "id": "starters_vocab_001",
+      "word": "hello",
+      "ipa": "/həˈləʊ/",
+      "pos": "interjection",
+      "topic_ids": [
+        "topic_social",
+        "topic_before_class"
+      ],
+      "example_sentence": "Hello! How are you?",
+      "image_hint": "two teachers waving and smiling at each other",
+      "related_words": [
+        "starters_vocab_002"
+      ],
+      "frequency_rank": 1
+    },
+    {
+      "id": "starters_vocab_002",
+      "word": "goodbye",
+      "ipa": "/ˌɡʊdˈbaɪ/",
+      "pos": "interjection",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Goodbye! See you tomorrow.",
+      "image_hint": "a student waving goodbye at the school gate",
+      "related_words": [
+        "starters_vocab_001"
+      ],
+      "frequency_rank": 2
+    },
+    {
+      "id": "starters_vocab_003",
+      "word": "morning",
+      "ipa": "/ˈmɔː.nɪŋ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_social"
+      ],
+      "example_sentence": "Good morning, class!",
+      "image_hint": "the sun rising over a school building",
+      "frequency_rank": 3
+    },
+    {
+      "id": "starters_vocab_004",
+      "word": "book",
+      "ipa": "/bʊk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Open your book.",
+      "image_hint": "an open English textbook on a desk",
+      "related_words": [
+        "starters_vocab_005"
+      ],
+      "frequency_rank": 4
+    },
+    {
+      "id": "starters_vocab_005",
+      "word": "pen",
+      "ipa": "/pen/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "This is a blue pen.",
+      "image_hint": "a blue ink pen lying on a notebook",
+      "related_words": [
+        "starters_vocab_004"
+      ],
+      "frequency_rank": 5
+    },
+    {
+      "id": "starters_vocab_006",
+      "word": "teacher",
+      "ipa": "/ˈtiː.tʃər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_in_class"
+      ],
+      "example_sentence": "I am a teacher.",
+      "image_hint": "a female teacher smiling at the front of a class",
+      "related_words": [
+        "starters_vocab_007"
+      ],
+      "frequency_rank": 6
+    },
+    {
+      "id": "starters_vocab_007",
+      "word": "student",
+      "ipa": "/ˈstjuː.dənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_praise_correction"
+      ],
+      "example_sentence": "He is a good student.",
+      "image_hint": "a young student raising their hand in class",
+      "related_words": [
+        "starters_vocab_006"
+      ],
+      "frequency_rank": 7
+    },
+    {
+      "id": "starters_vocab_008",
+      "word": "class",
+      "ipa": "/klɑːs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Stand up, class.",
+      "image_hint": "a classroom full of students sitting at desks",
+      "frequency_rank": 8
+    },
+    {
+      "id": "starters_vocab_009",
+      "word": "look",
+      "ipa": "/lʊk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_in_class"
+      ],
+      "example_sentence": "Look at the board.",
+      "image_hint": "a teacher pointing to a white board",
+      "frequency_rank": 9
+    },
+    {
+      "id": "starters_vocab_010",
+      "word": "listen",
+      "ipa": "/ˈlɪs.ən/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Listen to me, please.",
+      "image_hint": "a student cupping their hand to their ear",
+      "frequency_rank": 10
+    },
+    {
+      "id": "starters_vocab_011",
+      "word": "good",
+      "ipa": "/ɡʊd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Good job!",
+      "image_hint": "a thumbs-up icon with a gold star",
+      "frequency_rank": 11
+    },
+    {
+      "id": "starters_vocab_012",
+      "word": "market",
+      "ipa": "/ˈmɑː.kɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I go to the market.",
+      "image_hint": "a bustling fresh food market in Vietnam",
+      "frequency_rank": 12
+    },
+    {
+      "id": "starters_vocab_013",
+      "word": "rice",
+      "ipa": "/raɪs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market",
+        "topic_restaurant"
+      ],
+      "example_sentence": "I like rice.",
+      "image_hint": "a steaming bowl of white jasmine rice",
+      "frequency_rank": 13
+    },
+    {
+      "id": "starters_vocab_014",
+      "word": "water",
+      "ipa": "/ˈwɔː.tər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Water, please.",
+      "image_hint": "a clean glass of water on a table",
+      "frequency_rank": 14
+    },
+    {
+      "id": "starters_vocab_015",
+      "word": "fine",
+      "ipa": "/faɪn/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I'm fine, thank you.",
+      "image_hint": "a happy smiling face with okay hand gesture",
+      "frequency_rank": 15
+    },
+    {
+      "id": "starters_vocab_016",
+      "word": "help",
+      "ipa": "/help/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Look at the help.",
+      "image_hint": "an action illustration showing a person to help",
+      "frequency_rank": 17
+    },
+    {
+      "id": "starters_vocab_017",
+      "word": "rule",
+      "ipa": "/ruːl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Close your rule.",
+      "image_hint": "a clean graphic illustration of a rule",
+      "frequency_rank": 18
+    },
+    {
+      "id": "starters_vocab_018",
+      "word": "comprehend",
+      "ipa": "/ˌkɒm.prɪˈhend/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Is this a comprehend?",
+      "image_hint": "an action illustration showing a person to comprehend",
+      "frequency_rank": 19
+    },
+    {
+      "id": "starters_vocab_019",
+      "word": "nice",
+      "ipa": "/naɪs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Good nice!",
+      "image_hint": "a simple, clear colorful visualization of nice",
+      "frequency_rank": 20
+    },
+    {
+      "id": "starters_vocab_020",
+      "word": "report",
+      "ipa": "/rɪˈpɔːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Hello, report!",
+      "image_hint": "a clean graphic illustration of a report",
+      "frequency_rank": 21
+    },
+    {
+      "id": "starters_vocab_021",
+      "word": "buy",
+      "ipa": "/baɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I like buy.",
+      "image_hint": "an action illustration showing a person to buy",
+      "frequency_rank": 22
+    },
+    {
+      "id": "starters_vocab_022",
+      "word": "meat",
+      "ipa": "/miːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Rice and meat, please.",
+      "image_hint": "a clean graphic illustration of a meat",
+      "frequency_rank": 23
+    },
+    {
+      "id": "starters_vocab_023",
+      "word": "direction",
+      "ipa": "/daɪˈrek.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "See the direction.",
+      "image_hint": "a clean graphic illustration of a direction",
+      "frequency_rank": 24
+    },
+    {
+      "id": "starters_vocab_024",
+      "word": "medicine",
+      "ipa": "/ˈmed.sn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I see a medicine.",
+      "image_hint": "a clean graphic illustration of a medicine",
+      "frequency_rank": 26
+    },
+    {
+      "id": "starters_vocab_025",
+      "word": "walk",
+      "ipa": "/wɔːk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Goodbye, walk!",
+      "image_hint": "an action illustration showing a person to walk",
+      "frequency_rank": 27
+    },
+    {
+      "id": "starters_vocab_026",
+      "word": "organize",
+      "ipa": "/ˈɔː.ɡən.aɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Ready for organize?",
+      "image_hint": "an action illustration showing a person to organize",
+      "frequency_rank": 28
+    },
+    {
+      "id": "starters_vocab_027",
+      "word": "reading",
+      "ipa": "/ˈriː.dɪŋ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Draw a reading.",
+      "image_hint": "a clean graphic illustration of a reading",
+      "frequency_rank": 29
+    },
+    {
+      "id": "starters_vocab_028",
+      "word": "suggest",
+      "ipa": "/səˈdʒest/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Show your suggest.",
+      "image_hint": "an action illustration showing a person to suggest",
+      "frequency_rank": 30
+    },
+    {
+      "id": "starters_vocab_029",
+      "word": "quiz",
+      "ipa": "/kwɪz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Do you see the quiz?",
+      "image_hint": "a clean graphic illustration of a quiz",
+      "frequency_rank": 31
+    },
+    {
+      "id": "starters_vocab_030",
+      "word": "fresh",
+      "ipa": "/freʃ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I want fresh.",
+      "image_hint": "a simple, clear colorful visualization of fresh",
+      "frequency_rank": 34
+    },
+    {
+      "id": "starters_vocab_031",
+      "word": "recommend",
+      "ipa": "/ˌrek.əˈmend/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "More recommend, please.",
+      "image_hint": "an action illustration showing a person to recommend",
+      "frequency_rank": 35
+    },
+    {
+      "id": "starters_vocab_032",
+      "word": "guide",
+      "ipa": "/ɡaɪd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I go to the guide.",
+      "image_hint": "a clean graphic illustration of a guide",
+      "frequency_rank": 36
+    },
+    {
+      "id": "starters_vocab_033",
+      "word": "number",
+      "ipa": "/ˈnʌm.bər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Call the number.",
+      "image_hint": "a clean graphic illustration of a number",
+      "frequency_rank": 37
+    },
+    {
+      "id": "starters_vocab_034",
+      "word": "rest",
+      "ipa": "/rest/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "He is rest today.",
+      "image_hint": "an action illustration showing a person to rest",
+      "frequency_rank": 38
+    },
+    {
+      "id": "starters_vocab_035",
+      "word": "family",
+      "ipa": "/ˈfæm.əl.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "How are you, family?",
+      "image_hint": "a clean graphic illustration of a family",
+      "frequency_rank": 39
+    },
+    {
+      "id": "starters_vocab_036",
+      "word": "coordinate",
+      "ipa": "/kəʊˈɔː.dɪ.neɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Welcome, coordinate!",
+      "image_hint": "an action illustration showing a person to coordinate",
+      "frequency_rank": 40
+    },
+    {
+      "id": "starters_vocab_037",
+      "word": "whiteboard",
+      "ipa": "/ˈwaɪt.bɔːd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Open your whiteboard.",
+      "image_hint": "a clean graphic illustration of a whiteboard",
+      "frequency_rank": 41
+    },
+    {
+      "id": "starters_vocab_038",
+      "word": "repeat",
+      "ipa": "/rɪˈpiːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Listen to the repeat.",
+      "image_hint": "an action illustration showing a person to repeat",
+      "frequency_rank": 42
+    },
+    {
+      "id": "starters_vocab_039",
+      "word": "true",
+      "ipa": "/truː/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Look at the true.",
+      "image_hint": "a simple, clear colorful visualization of true",
+      "frequency_rank": 43
+    },
+    {
+      "id": "starters_vocab_040",
+      "word": "gift",
+      "ipa": "/ɡɪft/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Yes, this is gift.",
+      "image_hint": "a clean graphic illustration of a gift",
+      "frequency_rank": 44
+    },
+    {
+      "id": "starters_vocab_041",
+      "word": "behavior",
+      "ipa": "/bɪˈheɪ.vjər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Bye, behavior!",
+      "image_hint": "a clean graphic illustration of a behavior",
+      "frequency_rank": 45
+    },
+    {
+      "id": "starters_vocab_042",
+      "word": "stall",
+      "ipa": "/stɔːl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I go to the stall.",
+      "image_hint": "a clean graphic illustration of a stall",
+      "frequency_rank": 46
+    },
+    {
+      "id": "starters_vocab_043",
+      "word": "cup",
+      "ipa": "/kʌp/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I like cup.",
+      "image_hint": "a clean graphic illustration of a cup",
+      "frequency_rank": 47
+    },
+    {
+      "id": "starters_vocab_044",
+      "word": "left",
+      "ipa": "/left/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Let's go to left.",
+      "image_hint": "a clean graphic illustration of a left",
+      "frequency_rank": 48
+    },
+    {
+      "id": "starters_vocab_045",
+      "word": "hear",
+      "ipa": "/hɪər/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Answer the hear.",
+      "image_hint": "an action illustration showing a person to hear",
+      "frequency_rank": 49
+    },
+    {
+      "id": "starters_vocab_046",
+      "word": "energy",
+      "ipa": "/ˈen.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I see a energy.",
+      "image_hint": "a clean graphic illustration of a energy",
+      "frequency_rank": 50
+    },
+    {
+      "id": "starters_vocab_047",
+      "word": "talk",
+      "ipa": "/tɔːk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Hello, talk!",
+      "image_hint": "an action illustration showing a person to talk",
+      "frequency_rank": 51
+    },
+    {
+      "id": "starters_vocab_048",
+      "word": "paper",
+      "ipa": "/ˈpeɪ.pər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Hello, paper!",
+      "image_hint": "a clean graphic illustration of a paper",
+      "frequency_rank": 52
+    },
+    {
+      "id": "starters_vocab_049",
+      "word": "score",
+      "ipa": "/skɔːr/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "This is a score.",
+      "image_hint": "a clean graphic illustration of a score",
+      "frequency_rank": 53
+    },
+    {
+      "id": "starters_vocab_050",
+      "word": "turn",
+      "ipa": "/tɜːn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Write the turn.",
+      "image_hint": "an action illustration showing a person to turn",
+      "frequency_rank": 54
+    },
+    {
+      "id": "starters_vocab_051",
+      "word": "quietly",
+      "ipa": "/ˈkwaɪ.ət.li/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Point to the quietly.",
+      "image_hint": "a simple diagram illustrating how to do something quietly",
+      "frequency_rank": 55
+    },
+    {
+      "id": "starters_vocab_052",
+      "word": "colleague",
+      "ipa": "/ˈkɒl.iːɡ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Good morning, colleague!",
+      "image_hint": "a clean graphic illustration of a colleague",
+      "frequency_rank": 57
+    },
+    {
+      "id": "starters_vocab_053",
+      "word": "bike",
+      "ipa": "/baɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "See the bike.",
+      "image_hint": "a clean graphic illustration of a bike",
+      "frequency_rank": 59
+    },
+    {
+      "id": "starters_vocab_054",
+      "word": "tired",
+      "ipa": "/ˈtaɪəd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "It is tired.",
+      "image_hint": "a simple, clear colorful visualization of tired",
+      "frequency_rank": 61
+    },
+    {
+      "id": "starters_vocab_055",
+      "word": "cold",
+      "ipa": "/kəʊld/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Goodbye, cold!",
+      "image_hint": "a simple, clear colorful visualization of cold",
+      "frequency_rank": 62
+    },
+    {
+      "id": "starters_vocab_056",
+      "word": "plan",
+      "ipa": "/plæn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Ready for plan?",
+      "image_hint": "a clean graphic illustration of a plan",
+      "frequency_rank": 63
+    },
+    {
+      "id": "starters_vocab_057",
+      "word": "mistake",
+      "ipa": "/mɪˈsteɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Very good, mistake!",
+      "image_hint": "a clean graphic illustration of a mistake",
+      "frequency_rank": 67
+    },
+    {
+      "id": "starters_vocab_058",
+      "word": "cheap",
+      "ipa": "/tʃiːp/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I want cheap.",
+      "image_hint": "a simple, clear colorful visualization of cheap",
+      "frequency_rank": 69
+    },
+    {
+      "id": "starters_vocab_059",
+      "word": "table",
+      "ipa": "/ˈteɪ.bəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "More table, please.",
+      "image_hint": "a clean graphic illustration of a table",
+      "frequency_rank": 70
+    },
+    {
+      "id": "starters_vocab_060",
+      "word": "flight",
+      "ipa": "/flaɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I go to the flight.",
+      "image_hint": "a clean graphic illustration of a flight",
+      "frequency_rank": 71
+    },
+    {
+      "id": "starters_vocab_061",
+      "word": "contact",
+      "ipa": "/ˈkɒn.tækt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Call the contact.",
+      "image_hint": "an action illustration showing a person to contact",
+      "frequency_rank": 72
+    },
+    {
+      "id": "starters_vocab_062",
+      "word": "flu",
+      "ipa": "/fluː/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "He is flu today.",
+      "image_hint": "a clean graphic illustration of a flu",
+      "frequency_rank": 73
+    },
+    {
+      "id": "starters_vocab_063",
+      "word": "debate",
+      "ipa": "/dɪˈbeɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "How are you, debate?",
+      "image_hint": "a clean graphic illustration of a debate",
+      "frequency_rank": 74
+    },
+    {
+      "id": "starters_vocab_064",
+      "word": "desk",
+      "ipa": "/desk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Welcome, desk!",
+      "image_hint": "a clean graphic illustration of a desk",
+      "frequency_rank": 75
+    },
+    {
+      "id": "starters_vocab_065",
+      "word": "pattern",
+      "ipa": "/ˈpæt.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Listen to the pattern.",
+      "image_hint": "a clean graphic illustration of a pattern",
+      "frequency_rank": 77
+    },
+    {
+      "id": "starters_vocab_066",
+      "word": "meaning",
+      "ipa": "/ˈmiː.nɪŋ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Look at the meaning.",
+      "image_hint": "a clean graphic illustration of a meaning",
+      "frequency_rank": 78
+    },
+    {
+      "id": "starters_vocab_067",
+      "word": "wonderful",
+      "ipa": "/ˈwʌn.də.fəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Yes, this is wonderful.",
+      "image_hint": "a simple, clear colorful visualization of wonderful",
+      "frequency_rank": 79
+    },
+    {
+      "id": "starters_vocab_068",
+      "word": "lost",
+      "ipa": "/lɒst/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Let's go to lost.",
+      "image_hint": "a simple, clear colorful visualization of lost",
+      "frequency_rank": 83
+    },
+    {
+      "id": "starters_vocab_069",
+      "word": "screen",
+      "ipa": "/skriːn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Answer the screen.",
+      "image_hint": "a clean graphic illustration of a screen",
+      "frequency_rank": 84
+    },
+    {
+      "id": "starters_vocab_070",
+      "word": "hurt",
+      "ipa": "/hɜːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Please hurt.",
+      "image_hint": "an action illustration showing a person to hurt",
+      "frequency_rank": 85
+    },
+    {
+      "id": "starters_vocab_071",
+      "word": "game",
+      "ipa": "/ɡeɪm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Hello, game!",
+      "image_hint": "a clean graphic illustration of a game",
+      "frequency_rank": 86
+    },
+    {
+      "id": "starters_vocab_072",
+      "word": "bell",
+      "ipa": "/bel/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Hello, bell!",
+      "image_hint": "a clean graphic illustration of a bell",
+      "frequency_rank": 87
+    },
+    {
+      "id": "starters_vocab_073",
+      "word": "translate",
+      "ipa": "/trænzˈleɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "This is a translate.",
+      "image_hint": "an action illustration showing a person to translate",
+      "frequency_rank": 88
+    },
+    {
+      "id": "starters_vocab_074",
+      "word": "circle",
+      "ipa": "/ˈsɜː.kəl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Write the circle.",
+      "image_hint": "an action illustration showing a person to circle",
+      "frequency_rank": 89
+    },
+    {
+      "id": "starters_vocab_075",
+      "word": "helping",
+      "ipa": "/help/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Point to the helping.",
+      "image_hint": "an action illustration showing a person to helping",
+      "frequency_rank": 90
+    },
+    {
+      "id": "starters_vocab_076",
+      "word": "again",
+      "ipa": "/əˈɡen/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Good job, again!",
+      "image_hint": "a simple diagram illustrating how to do something again",
+      "frequency_rank": 91
+    },
+    {
+      "id": "starters_vocab_077",
+      "word": "basket",
+      "ipa": "/ˈbɑː.skɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I like basket.",
+      "image_hint": "a clean graphic illustration of a basket",
+      "frequency_rank": 92
+    },
+    {
+      "id": "starters_vocab_078",
+      "word": "sweet",
+      "ipa": "/swiːt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Rice and sweet, please.",
+      "image_hint": "a simple, clear colorful visualization of sweet",
+      "frequency_rank": 93
+    },
+    {
+      "id": "starters_vocab_079",
+      "word": "travel",
+      "ipa": "/ˈtræv.əl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "See the travel.",
+      "image_hint": "an action illustration showing a person to travel",
+      "frequency_rank": 94
+    },
+    {
+      "id": "starters_vocab_080",
+      "word": "call",
+      "ipa": "/kɔːl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Hello, call!",
+      "image_hint": "an action illustration showing a person to call",
+      "frequency_rank": 95
+    },
+    {
+      "id": "starters_vocab_081",
+      "word": "well",
+      "ipa": "/wel/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "It is well.",
+      "image_hint": "a simple, clear colorful visualization of well",
+      "frequency_rank": 96
+    },
+    {
+      "id": "starters_vocab_082",
+      "word": "name",
+      "ipa": "/neɪm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Goodbye, name!",
+      "image_hint": "a clean graphic illustration of a name",
+      "frequency_rank": 97
+    },
+    {
+      "id": "starters_vocab_083",
+      "word": "prepare",
+      "ipa": "/prɪˈpeər/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Ready for prepare?",
+      "image_hint": "an action illustration showing a person to prepare",
+      "frequency_rank": 98
+    },
+    {
+      "id": "starters_vocab_084",
+      "word": "answer",
+      "ipa": "/ˈɑːn.sər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Draw a answer.",
+      "image_hint": "a clean graphic illustration of a answer",
+      "frequency_rank": 99
+    },
+    {
+      "id": "starters_vocab_085",
+      "word": "sit",
+      "ipa": "/sɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Show your sit.",
+      "image_hint": "an action illustration showing a person to sit",
+      "frequency_rank": 100
+    },
+    {
+      "id": "starters_vocab_086",
+      "word": "improve",
+      "ipa": "/ɪmˈpruːv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Do you see the improve?",
+      "image_hint": "an action illustration showing a person to improve",
+      "frequency_rank": 101
+    },
+    {
+      "id": "starters_vocab_087",
+      "word": "correct",
+      "ipa": "/kəˈrekt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Very good, correct!",
+      "image_hint": "a simple, clear colorful visualization of correct",
+      "frequency_rank": 102
+    },
+    {
+      "id": "starters_vocab_088",
+      "word": "discussion",
+      "ipa": "/dɪˈskʌʃ.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "This is a discussion.",
+      "image_hint": "a clean graphic illustration of a discussion",
+      "frequency_rank": 103
+    },
+    {
+      "id": "starters_vocab_089",
+      "word": "money",
+      "ipa": "/ˈmʌn.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I want money.",
+      "image_hint": "a clean graphic illustration of a money",
+      "frequency_rank": 104
+    },
+    {
+      "id": "starters_vocab_090",
+      "word": "hungry",
+      "ipa": "/ˈhʌŋ.ɡri/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "More hungry, please.",
+      "image_hint": "a simple, clear colorful visualization of hungry",
+      "frequency_rank": 105
+    },
+    {
+      "id": "starters_vocab_091",
+      "word": "cancel",
+      "ipa": "/ˈkæn.səl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I go to the cancel.",
+      "image_hint": "an action illustration showing a person to cancel",
+      "frequency_rank": 106
+    },
+    {
+      "id": "starters_vocab_092",
+      "word": "mobile",
+      "ipa": "/ˈməʊ.baɪl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Call the mobile.",
+      "image_hint": "a clean graphic illustration of a mobile",
+      "frequency_rank": 107
+    },
+    {
+      "id": "starters_vocab_093",
+      "word": "sport",
+      "ipa": "/spɔːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "How are you, sport?",
+      "image_hint": "a clean graphic illustration of a sport",
+      "frequency_rank": 109
+    },
+    {
+      "id": "starters_vocab_094",
+      "word": "textbook",
+      "ipa": "/ˈtekst.bʊk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Welcome, textbook!",
+      "image_hint": "a clean graphic illustration of a textbook",
+      "frequency_rank": 110
+    },
+    {
+      "id": "starters_vocab_095",
+      "word": "group",
+      "ipa": "/ɡruːp/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Open your group.",
+      "image_hint": "a clean graphic illustration of a group",
+      "frequency_rank": 111
+    },
+    {
+      "id": "starters_vocab_096",
+      "word": "verify",
+      "ipa": "/ˈver.ɪ.faɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Look at the verify.",
+      "image_hint": "an action illustration showing a person to verify",
+      "frequency_rank": 113
+    },
+    {
+      "id": "starters_vocab_097",
+      "word": "correction",
+      "ipa": "/kəˈrek.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Yes, this is correction.",
+      "image_hint": "a clean graphic illustration of a correction",
+      "frequency_rank": 114
+    },
+    {
+      "id": "starters_vocab_098",
+      "word": "principal",
+      "ipa": "/ˈprɪn.sɪ.pəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Bye, principal!",
+      "image_hint": "a clean graphic illustration of a principal",
+      "frequency_rank": 115
+    },
+    {
+      "id": "starters_vocab_099",
+      "word": "cash",
+      "ipa": "/kæʃ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I go to the cash.",
+      "image_hint": "a clean graphic illustration of a cash",
+      "frequency_rank": 116
+    },
+    {
+      "id": "starters_vocab_100",
+      "word": "dessert",
+      "ipa": "/dɪˈzɜːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I like dessert.",
+      "image_hint": "a clean graphic illustration of a dessert",
+      "frequency_rank": 117
+    },
+    {
+      "id": "starters_vocab_101",
+      "word": "journey",
+      "ipa": "/ˈdʒɜː.ni/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Let's go to journey.",
+      "image_hint": "a clean graphic illustration of a journey",
+      "frequency_rank": 118
+    },
+    {
+      "id": "starters_vocab_102",
+      "word": "dentist",
+      "ipa": "/ˈden.tɪst/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I see a dentist.",
+      "image_hint": "a clean graphic illustration of a dentist",
+      "frequency_rank": 120
+    },
+    {
+      "id": "starters_vocab_103",
+      "word": "welcome",
+      "ipa": "/ˈwel.kəm/",
+      "pos": "phrase",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Hello, welcome!",
+      "image_hint": "a friendly speech bubble displaying welcome",
+      "frequency_rank": 121
+    },
+    {
+      "id": "starters_vocab_104",
+      "word": "prep",
+      "ipa": "/prep/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Hello, prep!",
+      "image_hint": "a clean graphic illustration of a prep",
+      "frequency_rank": 122
+    },
+    {
+      "id": "starters_vocab_105",
+      "word": "pronounce",
+      "ipa": "/prəˈnaʊns/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "This is a pronounce.",
+      "image_hint": "an action illustration showing a person to pronounce",
+      "frequency_rank": 123
+    },
+    {
+      "id": "starters_vocab_106",
+      "word": "color",
+      "ipa": "/ˈkʌl.ər/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Write the color.",
+      "image_hint": "an action illustration showing a person to color",
+      "frequency_rank": 124
+    },
+    {
+      "id": "starters_vocab_107",
+      "word": "sure",
+      "ipa": "/ʃɔːr/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Point to the sure.",
+      "image_hint": "a simple, clear colorful visualization of sure",
+      "frequency_rank": 125
+    },
+    {
+      "id": "starters_vocab_108",
+      "word": "quick",
+      "ipa": "/kwɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Good job, quick!",
+      "image_hint": "a simple, clear colorful visualization of quick",
+      "frequency_rank": 126
+    },
+    {
+      "id": "starters_vocab_109",
+      "word": "event",
+      "ipa": "/ɪˈvent/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Good morning, event!",
+      "image_hint": "a clean graphic illustration of a event",
+      "frequency_rank": 127
+    },
+    {
+      "id": "starters_vocab_110",
+      "word": "local",
+      "ipa": "/ˈləʊ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Buy local, please.",
+      "image_hint": "a simple, clear colorful visualization of local",
+      "frequency_rank": 128
+    },
+    {
+      "id": "starters_vocab_111",
+      "word": "knife",
+      "ipa": "/naɪf/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Eat the knife.",
+      "image_hint": "a clean graphic illustration of a knife",
+      "frequency_rank": 129
+    },
+    {
+      "id": "starters_vocab_112",
+      "word": "drive",
+      "ipa": "/draɪv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Run to the drive.",
+      "image_hint": "an action illustration showing a person to drive",
+      "frequency_rank": 130
+    },
+    {
+      "id": "starters_vocab_113",
+      "word": "sleep",
+      "ipa": "/sliːp/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I am sleep.",
+      "image_hint": "a clean graphic illustration of a sleep",
+      "frequency_rank": 132
+    },
+    {
+      "id": "starters_vocab_114",
+      "word": "walking",
+      "ipa": "/wɔːk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "How are you, walking?",
+      "image_hint": "an action illustration showing a person to walking",
+      "frequency_rank": 144
+    },
+    {
+      "id": "starters_vocab_115",
+      "word": "organizing",
+      "ipa": "/ˈɔː.ɡən.aɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Please organizing.",
+      "image_hint": "an action illustration showing a person to organizeing",
+      "frequency_rank": 145
+    },
+    {
+      "id": "starters_vocab_116",
+      "word": "suggesting",
+      "ipa": "/səˈdʒest/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Listen to the suggesting.",
+      "image_hint": "an action illustration showing a person to suggesting",
+      "frequency_rank": 147
+    },
+    {
+      "id": "starters_vocab_117",
+      "word": "resting",
+      "ipa": "/rest/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Please resting.",
+      "image_hint": "an action illustration showing a person to resting",
+      "frequency_rank": 155
+    },
+    {
+      "id": "starters_vocab_118",
+      "word": "coordinating",
+      "ipa": "/kəʊˈɔː.dɪ.neɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Please coordinating.",
+      "image_hint": "an action illustration showing a person to coordinateing",
+      "frequency_rank": 157
+    },
+    {
+      "id": "starters_vocab_119",
+      "word": "repeating",
+      "ipa": "/rɪˈpiːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Write the repeating.",
+      "image_hint": "an action illustration showing a person to repeating",
+      "frequency_rank": 159
+    },
+    {
+      "id": "starters_vocab_120",
+      "word": "talking",
+      "ipa": "/tɔːk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Goodbye, talking!",
+      "image_hint": "an action illustration showing a person to talking",
+      "frequency_rank": 167
+    },
+    {
+      "id": "starters_vocab_121",
+      "word": "turning",
+      "ipa": "/tɜːn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Show your turning.",
+      "image_hint": "an action illustration showing a person to turning",
+      "frequency_rank": 170
+    },
+    {
+      "id": "starters_vocab_122",
+      "word": "opinions",
+      "ipa": "/əˈpɪn.jən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Look at the opinions.",
+      "image_hint": "a clean graphic illustration of a opinions",
+      "frequency_rank": 177
+    },
+    {
+      "id": "starters_vocab_123",
+      "word": "musting",
+      "ipa": "/mʌst/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Close your musting.",
+      "image_hint": "an action illustration showing a person to musting",
+      "frequency_rank": 178
+    },
+    {
+      "id": "starters_vocab_124",
+      "word": "arguments",
+      "ipa": "/ˈɑːɡ.jə.mənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Bye, arguments!",
+      "image_hint": "a clean graphic illustration of a arguments",
+      "frequency_rank": 180
+    },
+    {
+      "id": "starters_vocab_125",
+      "word": "contacting",
+      "ipa": "/ˈkɒn.tækt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Answer the contacting.",
+      "image_hint": "an action illustration showing a person to contacting",
+      "frequency_rank": 184
+    },
+    {
+      "id": "starters_vocab_126",
+      "word": "complaints",
+      "ipa": "/kəmˈpleɪnt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I like complaints.",
+      "image_hint": "a clean graphic illustration of a complaints",
+      "frequency_rank": 192
+    },
+    {
+      "id": "starters_vocab_127",
+      "word": "hurting",
+      "ipa": "/hɜːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Please hurting.",
+      "image_hint": "an action illustration showing a person to hurting",
+      "frequency_rank": 196
+    },
+    {
+      "id": "starters_vocab_128",
+      "word": "translating",
+      "ipa": "/trænzˈleɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Please translating.",
+      "image_hint": "an action illustration showing a person to translateing",
+      "frequency_rank": 199
+    },
+    {
+      "id": "starters_vocab_129",
+      "word": "circling",
+      "ipa": "/ˈsɜː.kəl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Please circling.",
+      "image_hint": "an action illustration showing a person to circleing",
+      "frequency_rank": 200
+    },
+    {
+      "id": "starters_vocab_130",
+      "word": "traveling",
+      "ipa": "/ˈtræv.əl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "See the traveling.",
+      "image_hint": "an action illustration showing a person to traveling",
+      "frequency_rank": 204
+    },
+    {
+      "id": "starters_vocab_131",
+      "word": "preparing",
+      "ipa": "/prɪˈpeər/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Please preparing.",
+      "image_hint": "an action illustration showing a person to prepareing",
+      "frequency_rank": 208
+    },
+    {
+      "id": "starters_vocab_132",
+      "word": "siting",
+      "ipa": "/sɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Show your siting.",
+      "image_hint": "an action illustration showing a person to siting",
+      "frequency_rank": 210
+    },
+    {
+      "id": "starters_vocab_133",
+      "word": "improving",
+      "ipa": "/ɪmˈpruːv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Please improving.",
+      "image_hint": "an action illustration showing a person to improveing",
+      "frequency_rank": 211
+    },
+    {
+      "id": "starters_vocab_134",
+      "word": "symptoms",
+      "ipa": "/ˈsɪmp.təm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "He is symptoms today.",
+      "image_hint": "a clean graphic illustration of a symptoms",
+      "frequency_rank": 218
+    },
+    {
+      "id": "starters_vocab_135",
+      "word": "verifying",
+      "ipa": "/ˈver.ɪ.faɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Look at the verifying.",
+      "image_hint": "an action illustration showing a person to verifying",
+      "frequency_rank": 223
+    },
+    {
+      "id": "starters_vocab_136",
+      "word": "pronouncing",
+      "ipa": "/prəˈnaʊns/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Please pronouncing.",
+      "image_hint": "an action illustration showing a person to pronounceing",
+      "frequency_rank": 233
+    },
+    {
+      "id": "starters_vocab_137",
+      "word": "coloring",
+      "ipa": "/ˈkʌl.ər/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Write the coloring.",
+      "image_hint": "an action illustration showing a person to coloring",
+      "frequency_rank": 234
+    },
+    {
+      "id": "starters_vocab_138",
+      "word": "driving",
+      "ipa": "/draɪv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Please driving.",
+      "image_hint": "an action illustration showing a person to driveing",
+      "frequency_rank": 240
+    },
+    {
+      "id": "starters_vocab_139",
+      "word": "hall",
+      "ipa": "/hɔːl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I see the hall.",
+      "image_hint": "a school entrance hall with doors and chairs",
+      "frequency_rank": 139
+    },
+    {
+      "id": "starters_vocab_140",
+      "word": "office",
+      "ipa": "/ˈɒf.ɪs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "She is in the office.",
+      "image_hint": "a small school office with a desk",
+      "frequency_rank": 140
+    },
+    {
+      "id": "starters_vocab_141",
+      "word": "key",
+      "ipa": "/kiː/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I have a key.",
+      "image_hint": "a small silver key on a desk",
+      "frequency_rank": 141
+    },
+    {
+      "id": "starters_vocab_142",
+      "word": "note",
+      "ipa": "/nəʊt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Read the note.",
+      "image_hint": "a small white paper note on a board",
+      "frequency_rank": 142
+    },
+    {
+      "id": "starters_vocab_143",
+      "word": "uniform",
+      "ipa": "/ˈjuː.nɪ.fɔːm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "This is my uniform.",
+      "image_hint": "a neat school uniform hanging on a hook",
+      "frequency_rank": 143
+    },
+    {
+      "id": "starters_vocab_144",
+      "word": "late",
+      "ipa": "/leɪt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I am late.",
+      "image_hint": "a clock showing 8:15 with a worried face",
+      "frequency_rank": 144
+    },
+    {
+      "id": "starters_vocab_145",
+      "word": "flag",
+      "ipa": "/flæɡ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I see the flag.",
+      "image_hint": "a flag on a pole in a school yard",
+      "frequency_rank": 145
+    },
+    {
+      "id": "starters_vocab_146",
+      "word": "word",
+      "ipa": "/wɜːd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Write the word.",
+      "image_hint": "a single word written on a whiteboard",
+      "frequency_rank": 146
+    },
+    {
+      "id": "starters_vocab_147",
+      "word": "letter",
+      "ipa": "/ˈlet.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "This is the letter A.",
+      "image_hint": "the letter A drawn in bright red on paper",
+      "frequency_rank": 147
+    },
+    {
+      "id": "starters_vocab_148",
+      "word": "line",
+      "ipa": "/laɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Draw a line.",
+      "image_hint": "a straight line drawn with a ruler on paper",
+      "frequency_rank": 148
+    },
+    {
+      "id": "starters_vocab_149",
+      "word": "shape",
+      "ipa": "/ʃeɪp/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "What shape is this?",
+      "image_hint": "simple colourful shapes on a worksheet",
+      "frequency_rank": 149
+    },
+    {
+      "id": "starters_vocab_150",
+      "word": "colour",
+      "ipa": "/ˈkʌl.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "What colour is it?",
+      "image_hint": "a row of colourful crayons side by side",
+      "frequency_rank": 150
+    },
+    {
+      "id": "starters_vocab_151",
+      "word": "draw",
+      "ipa": "/drɔː/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Draw a house.",
+      "image_hint": "a child drawing a house with a pencil",
+      "frequency_rank": 151
+    },
+    {
+      "id": "starters_vocab_152",
+      "word": "fill",
+      "ipa": "/fɪl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Fill in the blank.",
+      "image_hint": "a blank worksheet with spaces to fill in",
+      "frequency_rank": 152
+    },
+    {
+      "id": "starters_vocab_153",
+      "word": "tick",
+      "ipa": "/tɪk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Tick the box.",
+      "image_hint": "a green tick next to a correct answer",
+      "frequency_rank": 153
+    },
+    {
+      "id": "starters_vocab_154",
+      "word": "wrong",
+      "ipa": "/rɒŋ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "That is wrong.",
+      "image_hint": "a red cross next to an incorrect answer",
+      "frequency_rank": 154
+    },
+    {
+      "id": "starters_vocab_155",
+      "word": "stop",
+      "ipa": "/stɒp/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Stop now, please.",
+      "image_hint": "a red stop sign on a white background",
+      "frequency_rank": 155
+    },
+    {
+      "id": "starters_vocab_156",
+      "word": "come",
+      "ipa": "/kʌm/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Come here, please.",
+      "image_hint": "a teacher gesturing students to come forward",
+      "frequency_rank": 156
+    },
+    {
+      "id": "starters_vocab_157",
+      "word": "touch",
+      "ipa": "/tʌtʃ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Touch the picture.",
+      "image_hint": "a finger touching a picture on a board",
+      "frequency_rank": 157
+    },
+    {
+      "id": "starters_vocab_158",
+      "word": "hold",
+      "ipa": "/həʊld/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Hold the book up.",
+      "image_hint": "two hands holding up a book",
+      "frequency_rank": 158
+    },
+    {
+      "id": "starters_vocab_159",
+      "word": "put",
+      "ipa": "/pʊt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Put it down.",
+      "image_hint": "a pen being placed on a desk",
+      "frequency_rank": 159
+    },
+    {
+      "id": "starters_vocab_160",
+      "word": "take",
+      "ipa": "/teɪk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Take a pencil.",
+      "image_hint": "a hand taking a pencil from a case",
+      "frequency_rank": 160
+    },
+    {
+      "id": "starters_vocab_161",
+      "word": "pick",
+      "ipa": "/pɪk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Pick up the card.",
+      "image_hint": "a hand picking up a card from a table",
+      "frequency_rank": 161
+    },
+    {
+      "id": "starters_vocab_162",
+      "word": "close",
+      "ipa": "/kləʊz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Close your book.",
+      "image_hint": "a hand closing a notebook on a desk",
+      "frequency_rank": 162
+    },
+    {
+      "id": "starters_vocab_163",
+      "word": "open",
+      "ipa": "/ˈəʊ.pən/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Open your book.",
+      "image_hint": "hands opening a colourful textbook",
+      "frequency_rank": 163
+    },
+    {
+      "id": "starters_vocab_164",
+      "word": "show",
+      "ipa": "/ʃəʊ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Show me your work.",
+      "image_hint": "a student showing homework to the teacher",
+      "frequency_rank": 164
+    },
+    {
+      "id": "starters_vocab_165",
+      "word": "write",
+      "ipa": "/raɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Write your name.",
+      "image_hint": "a hand writing on lined paper with a pen",
+      "frequency_rank": 165
+    },
+    {
+      "id": "starters_vocab_166",
+      "word": "yes",
+      "ipa": "/jes/",
+      "pos": "interjection",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Yes, I understand.",
+      "image_hint": "a smiling face nodding yes",
+      "frequency_rank": 166
+    },
+    {
+      "id": "starters_vocab_167",
+      "word": "no",
+      "ipa": "/nəʊ/",
+      "pos": "interjection",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "No, I don't know.",
+      "image_hint": "a face shaking no with a gentle smile",
+      "frequency_rank": 167
+    },
+    {
+      "id": "starters_vocab_168",
+      "word": "know",
+      "ipa": "/nəʊ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I know it.",
+      "image_hint": "a student tapping their head showing knowledge",
+      "frequency_rank": 168
+    },
+    {
+      "id": "starters_vocab_169",
+      "word": "see",
+      "ipa": "/siː/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I see it.",
+      "image_hint": "a student looking carefully at a worksheet",
+      "frequency_rank": 169
+    },
+    {
+      "id": "starters_vocab_170",
+      "word": "try",
+      "ipa": "/traɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Try again.",
+      "image_hint": "a student trying to write an answer carefully",
+      "frequency_rank": 170
+    },
+    {
+      "id": "starters_vocab_171",
+      "word": "more",
+      "ipa": "/mɔːr/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "More, please.",
+      "image_hint": "a speech bubble saying 'more please'",
+      "frequency_rank": 171
+    },
+    {
+      "id": "starters_vocab_172",
+      "word": "slow",
+      "ipa": "/sləʊ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Go slow, please.",
+      "image_hint": "a turtle walking slowly on a path",
+      "frequency_rank": 172
+    },
+    {
+      "id": "starters_vocab_173",
+      "word": "loud",
+      "ipa": "/laʊd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Speak loud.",
+      "image_hint": "a speaker icon with sound waves",
+      "frequency_rank": 173
+    },
+    {
+      "id": "starters_vocab_174",
+      "word": "bravo",
+      "ipa": "/ˈbrɑː.vəʊ/",
+      "pos": "interjection",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Bravo! Very good!",
+      "image_hint": "a teacher clapping hands with a big smile",
+      "frequency_rank": 174
+    },
+    {
+      "id": "starters_vocab_175",
+      "word": "wow",
+      "ipa": "/waʊ/",
+      "pos": "interjection",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Wow! That is great!",
+      "image_hint": "a student looking amazed at a gold star",
+      "frequency_rank": 175
+    },
+    {
+      "id": "starters_vocab_176",
+      "word": "super",
+      "ipa": "/ˈsuː.pər/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Super! Well done!",
+      "image_hint": "a superhero thumb-up with a yellow star badge",
+      "frequency_rank": 176
+    },
+    {
+      "id": "starters_vocab_177",
+      "word": "smart",
+      "ipa": "/smɑːt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "You are smart!",
+      "image_hint": "a student wearing glasses with a bright idea lightbulb",
+      "frequency_rank": 177
+    },
+    {
+      "id": "starters_vocab_178",
+      "word": "visit",
+      "ipa": "/ˈvɪz.ɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Please visit us.",
+      "image_hint": "a parent visiting a teacher at school",
+      "frequency_rank": 178
+    },
+    {
+      "id": "starters_vocab_179",
+      "word": "send",
+      "ipa": "/send/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Send this letter.",
+      "image_hint": "a hand dropping a letter into a post box",
+      "frequency_rank": 179
+    },
+    {
+      "id": "starters_vocab_180",
+      "word": "read",
+      "ipa": "/riːd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Read this, please.",
+      "image_hint": "a student reading a book at their desk",
+      "frequency_rank": 180
+    },
+    {
+      "id": "starters_vocab_181",
+      "word": "sign",
+      "ipa": "/saɪn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Sign the paper.",
+      "image_hint": "a hand signing a paper with a pen",
+      "frequency_rank": 181
+    },
+    {
+      "id": "starters_vocab_182",
+      "word": "apple",
+      "ipa": "/ˈæp.əl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I want an apple.",
+      "image_hint": "a shiny red apple on a market stall",
+      "frequency_rank": 182
+    },
+    {
+      "id": "starters_vocab_183",
+      "word": "banana",
+      "ipa": "/bəˈnɑː.nə/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Buy a banana.",
+      "image_hint": "a bunch of yellow bananas on a market stall",
+      "frequency_rank": 183
+    },
+    {
+      "id": "starters_vocab_184",
+      "word": "egg",
+      "ipa": "/eɡ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I need one egg.",
+      "image_hint": "a basket of white eggs at a market stall",
+      "frequency_rank": 184
+    },
+    {
+      "id": "starters_vocab_185",
+      "word": "milk",
+      "ipa": "/mɪlk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I like milk.",
+      "image_hint": "a carton of fresh milk on a wooden shelf",
+      "frequency_rank": 185
+    },
+    {
+      "id": "starters_vocab_186",
+      "word": "bread",
+      "ipa": "/bred/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I want bread.",
+      "image_hint": "a freshly baked round loaf of bread",
+      "frequency_rank": 186
+    },
+    {
+      "id": "starters_vocab_187",
+      "word": "onion",
+      "ipa": "/ˈʌn.jən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I buy onions.",
+      "image_hint": "a pile of purple onions at a market stall",
+      "frequency_rank": 187
+    },
+    {
+      "id": "starters_vocab_188",
+      "word": "tomato",
+      "ipa": "/təˈmɑː.təʊ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I see tomatoes.",
+      "image_hint": "red ripe tomatoes in a basket at the market",
+      "frequency_rank": 188
+    },
+    {
+      "id": "starters_vocab_189",
+      "word": "carrot",
+      "ipa": "/ˈkær.ət/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I like carrots.",
+      "image_hint": "bright orange carrots tied in a bundle",
+      "frequency_rank": 189
+    },
+    {
+      "id": "starters_vocab_190",
+      "word": "bag",
+      "ipa": "/bæɡ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "A bag of rice.",
+      "image_hint": "a plastic bag full of market vegetables",
+      "frequency_rank": 190
+    },
+    {
+      "id": "starters_vocab_191",
+      "word": "food",
+      "ipa": "/fuːd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I like food.",
+      "image_hint": "a colourful plate of Vietnamese food",
+      "frequency_rank": 191
+    },
+    {
+      "id": "starters_vocab_192",
+      "word": "eat",
+      "ipa": "/iːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I want to eat.",
+      "image_hint": "a person eating a bowl of soup with chopsticks",
+      "frequency_rank": 192
+    },
+    {
+      "id": "starters_vocab_193",
+      "word": "drink",
+      "ipa": "/drɪŋk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I want to drink.",
+      "image_hint": "a person drinking juice through a straw",
+      "frequency_rank": 193
+    },
+    {
+      "id": "starters_vocab_194",
+      "word": "full",
+      "ipa": "/fʊl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I am full.",
+      "image_hint": "a happy face with a full stomach after eating",
+      "frequency_rank": 194
+    },
+    {
+      "id": "starters_vocab_195",
+      "word": "order",
+      "ipa": "/ˈɔː.dər/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I want to order.",
+      "image_hint": "a waiter writing an order in a notepad",
+      "frequency_rank": 195
+    },
+    {
+      "id": "starters_vocab_196",
+      "word": "glass",
+      "ipa": "/ɡlɑːs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "A glass of juice.",
+      "image_hint": "a clear glass of orange juice on a table",
+      "frequency_rank": 196
+    },
+    {
+      "id": "starters_vocab_197",
+      "word": "noodle",
+      "ipa": "/ˈnuː.dəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I like noodles.",
+      "image_hint": "a bowl of noodle soup with chopsticks",
+      "frequency_rank": 197
+    },
+    {
+      "id": "starters_vocab_198",
+      "word": "soup",
+      "ipa": "/suːp/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I want soup.",
+      "image_hint": "a steaming bowl of clear broth soup",
+      "frequency_rank": 198
+    },
+    {
+      "id": "starters_vocab_199",
+      "word": "bus",
+      "ipa": "/bʌs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Take the bus.",
+      "image_hint": "a yellow school bus parked on a road",
+      "frequency_rank": 199
+    },
+    {
+      "id": "starters_vocab_200",
+      "word": "car",
+      "ipa": "/kɑːr/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Go by car.",
+      "image_hint": "a small red car driving on a sunny road",
+      "frequency_rank": 200
+    },
+    {
+      "id": "starters_vocab_201",
+      "word": "road",
+      "ipa": "/rəʊd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Cross the road.",
+      "image_hint": "a wide straight road with lane markings",
+      "frequency_rank": 201
+    },
+    {
+      "id": "starters_vocab_202",
+      "word": "near",
+      "ipa": "/nɪər/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "It is near here.",
+      "image_hint": "two houses close together on a quiet street",
+      "frequency_rank": 202
+    },
+    {
+      "id": "starters_vocab_203",
+      "word": "far",
+      "ipa": "/fɑːr/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Is it far?",
+      "image_hint": "a person looking at a distant mountain",
+      "frequency_rank": 203
+    },
+    {
+      "id": "starters_vocab_204",
+      "word": "here",
+      "ipa": "/hɪər/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Come here.",
+      "image_hint": "a hand pointing downward to a spot on a map",
+      "frequency_rank": 204
+    },
+    {
+      "id": "starters_vocab_205",
+      "word": "there",
+      "ipa": "/ðeər/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Go there.",
+      "image_hint": "an arm pointing to a destination on a map",
+      "frequency_rank": 205
+    },
+    {
+      "id": "starters_vocab_206",
+      "word": "straight",
+      "ipa": "/streɪt/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Go straight.",
+      "image_hint": "a straight ahead arrow on a road sign",
+      "frequency_rank": 206
+    },
+    {
+      "id": "starters_vocab_207",
+      "word": "hot",
+      "ipa": "/hɒt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I feel hot.",
+      "image_hint": "a face with a fever and a red thermometer",
+      "frequency_rank": 207
+    },
+    {
+      "id": "starters_vocab_208",
+      "word": "head",
+      "ipa": "/hed/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "My head hurts.",
+      "image_hint": "a cartoon head with a star showing a headache",
+      "frequency_rank": 208
+    },
+    {
+      "id": "starters_vocab_209",
+      "word": "stomach",
+      "ipa": "/ˈstʌm.ək/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "My stomach hurts.",
+      "image_hint": "a cartoon stomach with a pain signal",
+      "frequency_rank": 209
+    },
+    {
+      "id": "starters_vocab_210",
+      "word": "tooth",
+      "ipa": "/tuːθ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "My tooth hurts.",
+      "image_hint": "a cartoon tooth with a sad face",
+      "frequency_rank": 210
+    },
+    {
+      "id": "starters_vocab_211",
+      "word": "arm",
+      "ipa": "/ɑːm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "My arm hurts.",
+      "image_hint": "a raised arm showing a simple bandage",
+      "frequency_rank": 211
+    },
+    {
+      "id": "starters_vocab_212",
+      "word": "leg",
+      "ipa": "/leɡ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "My leg hurts.",
+      "image_hint": "a cartoon leg with a bandage wrapped around",
+      "frequency_rank": 212
+    },
+    {
+      "id": "starters_vocab_213",
+      "word": "eye",
+      "ipa": "/aɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "My eye hurts.",
+      "image_hint": "a close-up of a friendly cartoon eye",
+      "frequency_rank": 213
+    },
+    {
+      "id": "starters_vocab_214",
+      "word": "ear",
+      "ipa": "/ɪər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "My ear hurts.",
+      "image_hint": "a cartoon ear with a small music note",
+      "frequency_rank": 214
+    },
+    {
+      "id": "starters_vocab_215",
+      "word": "friend",
+      "ipa": "/frend/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She is my friend.",
+      "image_hint": "two children holding hands and smiling together",
+      "frequency_rank": 215
+    },
+    {
+      "id": "starters_vocab_216",
+      "word": "happy",
+      "ipa": "/ˈhæp.i/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I am happy.",
+      "image_hint": "a bright smiley face on a sunny background",
+      "frequency_rank": 216
+    },
+    {
+      "id": "starters_vocab_217",
+      "word": "sad",
+      "ipa": "/sæd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "He is sad.",
+      "image_hint": "a cartoon face with a downturned mouth",
+      "frequency_rank": 217
+    },
+    {
+      "id": "starters_vocab_218",
+      "word": "like",
+      "ipa": "/laɪk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I like it.",
+      "image_hint": "a thumb-up icon with a heart",
+      "frequency_rank": 218
+    },
+    {
+      "id": "starters_vocab_219",
+      "word": "love",
+      "ipa": "/lʌv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I love school.",
+      "image_hint": "a red heart surrounded by smaller hearts",
+      "frequency_rank": 219
+    },
+    {
+      "id": "starters_vocab_220",
+      "word": "home",
+      "ipa": "/həʊm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I go home.",
+      "image_hint": "a small house with a garden and smoke from chimney",
+      "frequency_rank": 220
+    },
+    {
+      "id": "starters_vocab_221",
+      "word": "fun",
+      "ipa": "/fʌn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "School is fun.",
+      "image_hint": "children laughing while playing a game together",
+      "frequency_rank": 221
+    },
+    {
+      "id": "starters_vocab_222",
+      "word": "today",
+      "ipa": "/təˈdeɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "See you today.",
+      "image_hint": "a calendar page with a circle around today",
+      "frequency_rank": 222
+    },
+    {
+      "id": "starters_vocab_223",
+      "word": "sunny",
+      "ipa": "/ˈsʌn.i/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It is sunny today.",
+      "image_hint": "a bright sun shining with rays on a blue sky",
+      "frequency_rank": 223
+    },
+    {
+      "id": "starters_vocab_224",
+      "word": "mother",
+      "ipa": "/ˈmʌð.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "My mother is here.",
+      "image_hint": "a warm mother and child hugging at a school gate",
+      "frequency_rank": 224
+    },
+    {
+      "id": "starters_vocab_225",
+      "word": "father",
+      "ipa": "/ˈfɑː.ðər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "My father walks.",
+      "image_hint": "a father and child walking together with backpacks",
+      "frequency_rank": 225
+    },
+    {
+      "id": "starters_vocab_226",
+      "word": "sister",
+      "ipa": "/ˈsɪs.tər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "This is my sister.",
+      "image_hint": "two girls in matching school uniforms smiling",
+      "frequency_rank": 226
+    },
+    {
+      "id": "starters_vocab_227",
+      "word": "brother",
+      "ipa": "/ˈbrʌð.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "He is my brother.",
+      "image_hint": "two boys with matching backpacks outside school",
+      "frequency_rank": 227
+    },
+    {
+      "id": "starters_vocab_228",
+      "word": "red",
+      "ipa": "/red/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It is red.",
+      "image_hint": "a bright red crayon on a white background",
+      "frequency_rank": 228
+    },
+    {
+      "id": "starters_vocab_229",
+      "word": "blue",
+      "ipa": "/bluː/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "My pen is blue.",
+      "image_hint": "a bright blue crayon next to a blue shape",
+      "frequency_rank": 229
+    },
+    {
+      "id": "starters_vocab_230",
+      "word": "green",
+      "ipa": "/ɡriːn/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Grass is green.",
+      "image_hint": "a green leaf on a sunny background",
+      "frequency_rank": 230
+    },
+    {
+      "id": "starters_vocab_231",
+      "word": "yellow",
+      "ipa": "/ˈjel.əʊ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It is yellow.",
+      "image_hint": "a bright yellow banana in sunlight",
+      "frequency_rank": 231
+    },
+    {
+      "id": "starters_vocab_232",
+      "word": "big",
+      "ipa": "/bɪɡ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It is big.",
+      "image_hint": "a large elephant next to a tiny mouse",
+      "frequency_rank": 232
+    },
+    {
+      "id": "starters_vocab_233",
+      "word": "small",
+      "ipa": "/smɔːl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It is small.",
+      "image_hint": "a tiny mouse next to a large elephant",
+      "frequency_rank": 233
+    },
+    {
+      "id": "starters_vocab_234",
+      "word": "new",
+      "ipa": "/njuː/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "This is new.",
+      "image_hint": "a brand new pencil in its original packaging",
+      "frequency_rank": 234
+    },
+    {
+      "id": "starters_vocab_235",
+      "word": "old",
+      "ipa": "/əʊld/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "This book is old.",
+      "image_hint": "a worn old book with a faded cover",
+      "frequency_rank": 235
+    },
+    {
+      "id": "starters_vocab_236",
+      "word": "tidy",
+      "ipa": "/ˈtaɪ.di/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "He is tidy.",
+      "image_hint": "an image clearly illustrating the quality tidy",
+      "frequency_rank": 236
+    },
+    {
+      "id": "starters_vocab_237",
+      "word": "shine",
+      "ipa": "/ʃaɪn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Please shine.",
+      "image_hint": "a person performing the action of shine",
+      "frequency_rank": 237
+    },
+    {
+      "id": "starters_vocab_238",
+      "word": "space",
+      "ipa": "/speɪs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I have space.",
+      "image_hint": "a clear image showing space in context",
+      "frequency_rank": 238
+    },
+    {
+      "id": "starters_vocab_239",
+      "word": "wall",
+      "ipa": "/wɔːl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "This is wall.",
+      "image_hint": "a clear image showing wall in context",
+      "frequency_rank": 239
+    },
+    {
+      "id": "starters_vocab_240",
+      "word": "floor",
+      "ipa": "/flɔːr/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "This is floor.",
+      "image_hint": "a clear image showing floor in context",
+      "frequency_rank": 240
+    },
+    {
+      "id": "starters_vocab_241",
+      "word": "light",
+      "ipa": "/laɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "This is light.",
+      "image_hint": "a clear image showing light in context",
+      "frequency_rank": 241
+    },
+    {
+      "id": "starters_vocab_242",
+      "word": "computer",
+      "ipa": "/kəmˈpjuː.tər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "This is computer.",
+      "image_hint": "a clear image showing computer in context",
+      "frequency_rank": 242
+    },
+    {
+      "id": "starters_vocab_243",
+      "word": "count",
+      "ipa": "/kaʊnt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "We count here.",
+      "image_hint": "a person performing the action of count",
+      "frequency_rank": 243
+    },
+    {
+      "id": "starters_vocab_244",
+      "word": "form",
+      "ipa": "/fɔːm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "This is form.",
+      "image_hint": "a clear image showing form in context",
+      "frequency_rank": 244
+    },
+    {
+      "id": "starters_vocab_245",
+      "word": "date",
+      "ipa": "/deɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "This is date.",
+      "image_hint": "a clear image showing date in context",
+      "frequency_rank": 245
+    },
+    {
+      "id": "starters_vocab_246",
+      "word": "orange",
+      "ipa": "/ˈɒr.ɪndʒ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Look at orange.",
+      "image_hint": "a clear image showing orange in context",
+      "frequency_rank": 246
+    },
+    {
+      "id": "starters_vocab_247",
+      "word": "strawberry",
+      "ipa": "/ˈstrɔː.bər.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I see strawberry.",
+      "image_hint": "a clear image showing strawberry in context",
+      "frequency_rank": 247
+    },
+    {
+      "id": "starters_vocab_248",
+      "word": "corn",
+      "ipa": "/kɔːn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I see corn.",
+      "image_hint": "a clear image showing corn in context",
+      "frequency_rank": 248
+    },
+    {
+      "id": "starters_vocab_249",
+      "word": "peanut",
+      "ipa": "/ˈpiː.nʌt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I have peanut.",
+      "image_hint": "a clear image showing peanut in context",
+      "frequency_rank": 249
+    },
+    {
+      "id": "starters_vocab_250",
+      "word": "cucumber",
+      "ipa": "/ˈkjuː.kʌm.bər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I have cucumber.",
+      "image_hint": "a clear image showing cucumber in context",
+      "frequency_rank": 250
+    },
+    {
+      "id": "starters_vocab_251",
+      "word": "cabbage",
+      "ipa": "/ˈkæb.ɪdʒ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I have cabbage.",
+      "image_hint": "a clear image showing cabbage in context",
+      "frequency_rank": 251
+    },
+    {
+      "id": "starters_vocab_252",
+      "word": "coffee",
+      "ipa": "/ˈkɒf.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Look at coffee.",
+      "image_hint": "a clear image showing coffee in context",
+      "frequency_rank": 252
+    },
+    {
+      "id": "starters_vocab_253",
+      "word": "juice",
+      "ipa": "/dʒuːs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I see juice.",
+      "image_hint": "a clear image showing juice in context",
+      "frequency_rank": 253
+    },
+    {
+      "id": "starters_vocab_254",
+      "word": "cake",
+      "ipa": "/keɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I see cake.",
+      "image_hint": "a clear image showing cake in context",
+      "frequency_rank": 254
+    },
+    {
+      "id": "starters_vocab_255",
+      "word": "ice",
+      "ipa": "/aɪs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I see ice.",
+      "image_hint": "a clear image showing ice in context",
+      "frequency_rank": 255
+    },
+    {
+      "id": "starters_vocab_256",
+      "word": "fork",
+      "ipa": "/fɔːk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I see fork.",
+      "image_hint": "a clear image showing fork in context",
+      "frequency_rank": 256
+    },
+    {
+      "id": "starters_vocab_257",
+      "word": "spoon",
+      "ipa": "/spuːn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Look at spoon.",
+      "image_hint": "a clear image showing spoon in context",
+      "frequency_rank": 257
+    },
+    {
+      "id": "starters_vocab_258",
+      "word": "chopsticks",
+      "ipa": "/ˈtʃɒp.stɪks/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I have chopsticks.",
+      "image_hint": "a clear image showing chopsticks in context",
+      "frequency_rank": 258
+    },
+    {
+      "id": "starters_vocab_259",
+      "word": "bowl",
+      "ipa": "/bəʊl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Look at bowl.",
+      "image_hint": "a clear image showing bowl in context",
+      "frequency_rank": 259
+    },
+    {
+      "id": "starters_vocab_260",
+      "word": "street",
+      "ipa": "/striːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I have street.",
+      "image_hint": "a clear image showing street in context",
+      "frequency_rank": 260
+    },
+    {
+      "id": "starters_vocab_261",
+      "word": "bridge",
+      "ipa": "/brɪdʒ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "This is bridge.",
+      "image_hint": "a clear image showing bridge in context",
+      "frequency_rank": 261
+    },
+    {
+      "id": "starters_vocab_262",
+      "word": "park",
+      "ipa": "/pɑːk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Look at park.",
+      "image_hint": "a clear image showing park in context",
+      "frequency_rank": 262
+    },
+    {
+      "id": "starters_vocab_263",
+      "word": "text",
+      "ipa": "/tekst/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "This is text.",
+      "image_hint": "a clear image showing text in context",
+      "frequency_rank": 263
+    },
+    {
+      "id": "starters_vocab_264",
+      "word": "cough",
+      "ipa": "/kɒf/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I cough now.",
+      "image_hint": "a person performing the action of cough",
+      "frequency_rank": 264
+    },
+    {
+      "id": "starters_vocab_265",
+      "word": "sneeze",
+      "ipa": "/sniːz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "We sneeze here.",
+      "image_hint": "a person performing the action of sneeze",
+      "frequency_rank": 265
+    },
+    {
+      "id": "starters_vocab_266",
+      "word": "bandage",
+      "ipa": "/ˈbæn.dɪdʒ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Look at bandage.",
+      "image_hint": "a clear image showing bandage in context",
+      "frequency_rank": 266
+    },
+    {
+      "id": "starters_vocab_267",
+      "word": "tablet",
+      "ipa": "/ˈtæb.lɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I have tablet.",
+      "image_hint": "a clear image showing tablet in context",
+      "frequency_rank": 267
+    },
+    {
+      "id": "starters_vocab_268",
+      "word": "hospital",
+      "ipa": "/ˈhɒs.pɪ.təl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "This is hospital.",
+      "image_hint": "a clear image showing hospital in context",
+      "frequency_rank": 268
+    },
+    {
+      "id": "starters_vocab_269",
+      "word": "age",
+      "ipa": "/eɪdʒ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I see age.",
+      "image_hint": "a clear image showing age in context",
+      "frequency_rank": 269
+    },
+    {
+      "id": "starters_vocab_270",
+      "word": "birthday",
+      "ipa": "/ˈbɜːθ.deɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "This is birthday.",
+      "image_hint": "a clear image showing birthday in context",
+      "frequency_rank": 270
+    },
+    {
+      "id": "starters_vocab_271",
+      "word": "present",
+      "ipa": "/ˈprez.ənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I see present.",
+      "image_hint": "a clear image showing present in context",
+      "frequency_rank": 271
+    },
+    {
+      "id": "starters_vocab_272",
+      "word": "pet",
+      "ipa": "/pet/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I have pet.",
+      "image_hint": "a clear image showing pet in context",
+      "frequency_rank": 272
+    },
+    {
+      "id": "starters_vocab_273",
+      "word": "cat",
+      "ipa": "/kæt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I see cat.",
+      "image_hint": "a clear image showing cat in context",
+      "frequency_rank": 273
+    },
+    {
+      "id": "starters_vocab_274",
+      "word": "dog",
+      "ipa": "/dɒɡ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I have dog.",
+      "image_hint": "a clear image showing dog in context",
+      "frequency_rank": 274
+    },
+    {
+      "id": "starters_vocab_275",
+      "word": "funny",
+      "ipa": "/ˈfʌn.i/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It looks funny.",
+      "image_hint": "an image clearly illustrating the quality funny",
+      "frequency_rank": 275
+    },
+    {
+      "id": "starters_vocab_276",
+      "word": "kind",
+      "ipa": "/kaɪnd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "He is kind.",
+      "image_hint": "an image clearly illustrating the quality kind",
+      "frequency_rank": 276
+    },
+    {
+      "id": "starters_vocab_277",
+      "word": "tall",
+      "ipa": "/tɔːl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "That is tall.",
+      "image_hint": "an image clearly illustrating the quality tall",
+      "frequency_rank": 277
+    },
+    {
+      "id": "starters_vocab_278",
+      "word": "short",
+      "ipa": "/ʃɔːt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "That is short.",
+      "image_hint": "an image clearly illustrating the quality short",
+      "frequency_rank": 278
+    },
+    {
+      "id": "starters_vocab_279",
+      "word": "fast",
+      "ipa": "/fɑːst/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It looks fast.",
+      "image_hint": "an image clearly illustrating the quality fast",
+      "frequency_rank": 279
+    },
+    {
+      "id": "starters_vocab_280",
+      "word": "long",
+      "ipa": "/lɒŋ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "He is long.",
+      "image_hint": "an image clearly illustrating the quality long",
+      "frequency_rank": 280
+    },
+    {
+      "id": "starters_vocab_281",
+      "word": "pink",
+      "ipa": "/pɪŋk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It is pink.",
+      "image_hint": "an image illustrating the quality of being pink",
+      "frequency_rank": 281
+    },
+    {
+      "id": "starters_vocab_282",
+      "word": "purple",
+      "ipa": "/ˈpɜː.pəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "He is purple.",
+      "image_hint": "an image illustrating the quality of being purple",
+      "frequency_rank": 282
+    },
+    {
+      "id": "starters_vocab_283",
+      "word": "black",
+      "ipa": "/blæk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "He is black.",
+      "image_hint": "an image illustrating the quality of being black",
+      "frequency_rank": 283
+    },
+    {
+      "id": "starters_vocab_284",
+      "word": "white",
+      "ipa": "/waɪt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "He is white.",
+      "image_hint": "an image illustrating the quality of being white",
+      "frequency_rank": 284
+    },
+    {
+      "id": "starters_vocab_285",
+      "word": "brown",
+      "ipa": "/braʊn/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It is brown.",
+      "image_hint": "an image illustrating the quality of being brown",
+      "frequency_rank": 285
+    },
+    {
+      "id": "starters_vocab_286",
+      "word": "bird",
+      "ipa": "/bɜːd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I see bird.",
+      "image_hint": "a clear image showing bird",
+      "frequency_rank": 286
+    },
+    {
+      "id": "starters_vocab_287",
+      "word": "tree",
+      "ipa": "/triː/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I see tree.",
+      "image_hint": "a clear image showing tree",
+      "frequency_rank": 287
+    },
+    {
+      "id": "starters_vocab_288",
+      "word": "flower",
+      "ipa": "/ˈflaʊ.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I have flower.",
+      "image_hint": "a clear image showing flower",
+      "frequency_rank": 288
+    },
+    {
+      "id": "starters_vocab_289",
+      "word": "sun",
+      "ipa": "/sʌn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I see sun.",
+      "image_hint": "a clear image showing sun",
+      "frequency_rank": 289
+    },
+    {
+      "id": "starters_vocab_290",
+      "word": "moon",
+      "ipa": "/muːn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "This is moon.",
+      "image_hint": "a clear image showing moon",
+      "frequency_rank": 290
+    },
+    {
+      "id": "starters_vocab_291",
+      "word": "house",
+      "ipa": "/haʊs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "This is house.",
+      "image_hint": "a clear image showing house",
+      "frequency_rank": 291
+    },
+    {
+      "id": "starters_vocab_292",
+      "word": "room",
+      "ipa": "/ruːm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I see room.",
+      "image_hint": "a clear image showing room",
+      "frequency_rank": 292
+    },
+    {
+      "id": "starters_vocab_293",
+      "word": "bed",
+      "ipa": "/bed/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I have bed.",
+      "image_hint": "a clear image showing bed",
+      "frequency_rank": 293
+    },
+    {
+      "id": "starters_vocab_294",
+      "word": "ball",
+      "ipa": "/bɔːl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "This is ball.",
+      "image_hint": "a clear image showing ball",
+      "frequency_rank": 294
+    },
+    {
+      "id": "starters_vocab_295",
+      "word": "smile",
+      "ipa": "/smaɪl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Please smile.",
+      "image_hint": "a person doing the action of smile",
+      "frequency_rank": 295
+    },
+    {
+      "id": "starters_vocab_296",
+      "word": "wave",
+      "ipa": "/weɪv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I wave now.",
+      "image_hint": "a person doing the action of wave",
+      "frequency_rank": 296
+    },
+    {
+      "id": "starters_vocab_297",
+      "word": "nod",
+      "ipa": "/nɒd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I nod now.",
+      "image_hint": "a person doing the action of nod",
+      "frequency_rank": 297
+    },
+    {
+      "id": "starters_vocab_298",
+      "word": "rabbit",
+      "ipa": "/ˈræb.ɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "This is rabbit.",
+      "image_hint": "a visual of rabbit",
+      "frequency_rank": 298
+    },
+    {
+      "id": "starters_vocab_299",
+      "word": "horse",
+      "ipa": "/hɔːs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "This is horse.",
+      "image_hint": "a visual of horse",
+      "frequency_rank": 299
+    },
+    {
+      "id": "starters_vocab_300",
+      "word": "duck",
+      "ipa": "/dʌk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "This is duck.",
+      "image_hint": "a visual of duck",
+      "frequency_rank": 300
+    }
+  ]
+}

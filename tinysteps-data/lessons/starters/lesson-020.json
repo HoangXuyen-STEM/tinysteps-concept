@@ -1,0 +1,218 @@
+{
+  "id": "starters_lesson_020",
+  "level": "starters",
+  "topic_id": "topic_restaurant",
+  "order": 20,
+  "title": "At the restaurant",
+  "scenario": "You are in a customer role. Use English naturally in this restaurant situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "Local restaurant, Friday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "customer"
+      },
+      {
+        "id": "char_b",
+        "name": "Waiter",
+        "role": "waiter"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good morning! I like rice."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Good morning! We have fresh rice today."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I want rice and water, please."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Here you go. Enjoy your meal."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_013",
+    "starters_vocab_014",
+    "starters_vocab_022",
+    "starters_vocab_031",
+    "starters_vocab_195",
+    "starters_vocab_196",
+    "starters_vocab_197",
+    "starters_vocab_198",
+    "starters_vocab_199",
+    "starters_vocab_200",
+    "starters_vocab_201",
+    "starters_vocab_202",
+    "starters_vocab_203",
+    "starters_vocab_204"
+  ],
+  "grammar_ids": [
+    "starters_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a steaming bowl of white jasmine rice",
+          "correct_answer": "rice"
+        },
+        {
+          "image_hint": "a clean glass of water on a table",
+          "correct_answer": "water"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a meat",
+          "correct_answer": "meat"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "to",
+            ".",
+            "go",
+            "market",
+            "the",
+            "I"
+          ],
+          "correct_answer": "I go to the market."
+        },
+        {
+          "words": [
+            "like",
+            "I",
+            ".",
+            "rice"
+          ],
+          "correct_answer": "I like rice."
+        },
+        {
+          "words": [
+            "We",
+            "class",
+            ".",
+            "like",
+            "English"
+          ],
+          "correct_answer": "We like English class."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I go to the market.",
+          "options": [
+            "I like rice.",
+            "We like English class.",
+            "I go to the market."
+          ],
+          "correct_answer": "I go to the market."
+        },
+        {
+          "audio_text": "I like rice.",
+          "options": [
+            "We like English class.",
+            "I go to the market.",
+            "I like rice."
+          ],
+          "correct_answer": "I like rice."
+        },
+        {
+          "audio_text": "We like English class.",
+          "options": [
+            "I like rice.",
+            "We like English class.",
+            "I go to the market."
+          ],
+          "correct_answer": "We like English class."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ to the market.",
+          "correct_answer": "go"
+        },
+        {
+          "prompt": "I ___ rice.",
+          "correct_answer": "like"
+        },
+        {
+          "prompt": "We ___ English class.",
+          "correct_answer": "like"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a steaming bowl of white jasmine rice). What is this?",
+          "options": [
+            "rice",
+            "meat",
+            "water"
+          ],
+          "correct_answer": "rice"
+        },
+        {
+          "prompt": "Look at the picture (a clean glass of water on a table). What is this?",
+          "options": [
+            "water",
+            "meat",
+            "rice"
+          ],
+          "correct_answer": "water"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a meat). What is this?",
+          "options": [
+            "rice",
+            "meat",
+            "water"
+          ],
+          "correct_answer": "meat"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "waiter",
+    "scenario": "Take an order from a diner at a restaurant.",
+    "opening_line": "Welcome! What would you like to order today?",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_004"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_013",
+        "starters_vocab_014",
+        "starters_vocab_022"
+      ]
+    },
+    "success_criteria": "Learner orders food, states preferences, and asks for the bill."
+  }
+}

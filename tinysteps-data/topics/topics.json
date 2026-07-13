@@ -1,0 +1,1411 @@
+{
+  "total_topics": 12,
+  "topic_groups": [
+    {
+      "group_id": "school",
+      "group_name": "School & Teaching",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_in_class",
+        "topic_giving_instructions",
+        "topic_checking_understanding",
+        "topic_praise_correction",
+        "topic_school_communication"
+      ]
+    },
+    {
+      "group_id": "daily_life",
+      "group_name": "Daily Life",
+      "topic_ids": [
+        "topic_market",
+        "topic_restaurant",
+        "topic_travel",
+        "topic_phone",
+        "topic_health",
+        "topic_social"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "topic_before_class",
+      "name": "Before class",
+      "description": "Preparing for lessons, morning routines at school, greeting colleagues",
+      "group_id": "school",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Basic greetings and teacher identity in the morning",
+          "can_do_statement": "Can greet colleagues and state their role in the morning",
+          "example_sentences": [
+            "Good morning!",
+            "Hello! I am a teacher.",
+            "Ready for class?"
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_001",
+            "starters_vocab_003",
+            "starters_vocab_006",
+            "starters_vocab_026",
+            "starters_vocab_036",
+            "starters_vocab_048"
+          ],
+          "grammar_ids": [
+            "starters_grammar_003"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Describing yesterday's routine before school",
+          "can_do_statement": "Can talk about when they arrived at school yesterday",
+          "example_sentences": [
+            "I arrived early yesterday.",
+            "I prepared the classroom before class."
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_002",
+            "movers_vocab_012",
+            "movers_vocab_023",
+            "movers_vocab_024",
+            "movers_vocab_025",
+            "movers_vocab_026"
+          ],
+          "grammar_ids": [
+            "movers_grammar_001",
+            "movers_grammar_002",
+            "movers_grammar_003"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Coordinating with colleagues and morning meetings",
+          "can_do_statement": "Can talk to colleagues about morning meetings and prep work",
+          "example_sentences": [
+            "He is my colleague at school.",
+            "We have a staff meeting before class."
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_008",
+            "flyers_vocab_011",
+            "flyers_vocab_012",
+            "flyers_vocab_013",
+            "flyers_vocab_014",
+            "flyers_vocab_015"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_001"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Checking schedules and planning sessions",
+          "can_do_statement": "Can check and discuss schedules with other teachers",
+          "example_sentences": [
+            "Let me check the school schedule.",
+            "I'd like to suggest we check the schedule."
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_004",
+            "ket_vocab_009",
+            "ket_vocab_010",
+            "ket_vocab_011",
+            "ket_vocab_012",
+            "ket_vocab_013"
+          ],
+          "grammar_ids": [
+            "ket_grammar_003"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Discussing complex lesson prep procedures",
+          "can_do_statement": "Can explain safety and lesson preparation procedures to colleagues",
+          "example_sentences": [
+            "Let me explain the safety procedure before class.",
+            "The lesson procedure was discussed with my colleague."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_001",
+            "pet_vocab_013",
+            "pet_vocab_021",
+            "pet_vocab_032",
+            "pet_vocab_042",
+            "pet_vocab_052"
+          ],
+          "grammar_ids": [
+            "pet_grammar_002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_in_class",
+      "name": "In class",
+      "description": "Managing activities, interacting with students during lessons",
+      "group_id": "school",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Basic classroom items and actions",
+          "can_do_statement": "Can identify books and pens and tell students to look",
+          "example_sentences": [
+            "Open your book.",
+            "This is a blue pen.",
+            "Look at the board."
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_004",
+            "starters_vocab_005",
+            "starters_vocab_006",
+            "starters_vocab_007",
+            "starters_vocab_008",
+            "starters_vocab_009"
+          ],
+          "grammar_ids": [
+            "starters_grammar_001",
+            "starters_grammar_003",
+            "starters_grammar_005",
+            "starters_grammar_006",
+            "starters_grammar_007",
+            "starters_grammar_008",
+            "starters_grammar_009",
+            "starters_grammar_010"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Asking students about homework and helping",
+          "can_do_statement": "Can ask students for homework and offer help during activities",
+          "example_sentences": [
+            "Show me your homework, please.",
+            "Can you help me clean the board?"
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_001",
+            "movers_vocab_004",
+            "movers_vocab_031",
+            "movers_vocab_032",
+            "movers_vocab_033",
+            "movers_vocab_034"
+          ],
+          "grammar_ids": [
+            "movers_grammar_001",
+            "movers_grammar_002",
+            "movers_grammar_006",
+            "movers_grammar_007",
+            "movers_grammar_008"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Explaining concepts and tasks in class",
+          "can_do_statement": "Can explain simple words and direct student activities",
+          "example_sentences": [
+            "Can you explain this word?",
+            "She told me to clean the board."
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_003",
+            "flyers_vocab_022",
+            "flyers_vocab_023",
+            "flyers_vocab_024",
+            "flyers_vocab_025",
+            "flyers_vocab_026"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_005",
+            "flyers_grammar_006",
+            "flyers_grammar_007",
+            "flyers_grammar_010"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Monitoring progress and giving classroom opinions",
+          "can_do_statement": "Can monitor student progress and ask for opinions on tasks",
+          "example_sentences": [
+            "The student is making progress in class.",
+            "What is your opinion on this topic?"
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_018",
+            "ket_vocab_019",
+            "ket_vocab_020",
+            "ket_vocab_021",
+            "ket_vocab_022",
+            "ket_vocab_023"
+          ],
+          "grammar_ids": [
+            "ket_grammar_005",
+            "ket_grammar_006",
+            "ket_grammar_009"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Improving classroom communication techniques",
+          "can_do_statement": "Can discuss ways to improve classroom engagement",
+          "example_sentences": [
+            "You should try to improve your speaking in class.",
+            "If I had a question, I would ask the teacher."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_033",
+            "pet_vocab_043",
+            "pet_vocab_053",
+            "pet_vocab_064",
+            "pet_vocab_075",
+            "pet_vocab_082"
+          ],
+          "grammar_ids": [
+            "pet_grammar_001",
+            "pet_grammar_003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_giving_instructions",
+      "name": "Giving instructions",
+      "description": "Telling students what to do, explaining tasks and activities",
+      "group_id": "school",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Basic imperatives for actions",
+          "can_do_statement": "Can give simple commands like 'look' and 'listen'",
+          "example_sentences": [
+            "Look at the board.",
+            "Listen to me, please."
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_004",
+            "starters_vocab_005",
+            "starters_vocab_008",
+            "starters_vocab_009",
+            "starters_vocab_010",
+            "starters_vocab_017"
+          ],
+          "grammar_ids": [
+            "starters_grammar_001",
+            "starters_grammar_002",
+            "starters_grammar_008"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Giving instructions for homework and classroom chores",
+          "can_do_statement": "Can instruct students to clean the board or do homework",
+          "example_sentences": [
+            "Clean the board, please.",
+            "Do your homework now."
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_001",
+            "movers_vocab_004",
+            "movers_vocab_019",
+            "movers_vocab_022",
+            "movers_vocab_039",
+            "movers_vocab_040"
+          ],
+          "grammar_ids": [
+            "movers_grammar_004"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Polite rules and mandatory instructions",
+          "can_do_statement": "Can explain rules and give structured task instructions",
+          "example_sentences": [
+            "You must follow my instructions.",
+            "You should listen carefully."
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_002",
+            "flyers_vocab_031",
+            "flyers_vocab_032",
+            "flyers_vocab_033",
+            "flyers_vocab_034",
+            "flyers_vocab_035"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_003",
+            "flyers_grammar_004",
+            "flyers_grammar_005",
+            "flyers_grammar_008"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Making polite instructions and requests",
+          "can_do_statement": "Can give instructions using soft requests and suggestions",
+          "example_sentences": [
+            "Could you check the instructions?",
+            "I'd like to suggest you follow the schedule."
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_028",
+            "ket_vocab_029",
+            "ket_vocab_030",
+            "ket_vocab_031",
+            "ket_vocab_032",
+            "ket_vocab_033"
+          ],
+          "grammar_ids": [
+            "ket_grammar_002",
+            "ket_grammar_007"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Explaining complex procedures and instructions",
+          "can_do_statement": "Can outline detailed safety and lesson procedures",
+          "example_sentences": [
+            "Let me explain the safety procedure.",
+            "The procedure should be done by Friday."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_001",
+            "pet_vocab_014",
+            "pet_vocab_022",
+            "pet_vocab_034",
+            "pet_vocab_044",
+            "pet_vocab_054"
+          ],
+          "grammar_ids": [
+            "pet_grammar_005",
+            "pet_grammar_007",
+            "pet_grammar_010"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_checking_understanding",
+      "name": "Checking understanding",
+      "description": "Asking if students understand, confirming comprehension",
+      "group_id": "school",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Basic confirmation checks",
+          "can_do_statement": "Can tell students to listen and check if they see",
+          "example_sentences": [
+            "Listen to me.",
+            "Look here."
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_010",
+            "starters_vocab_018",
+            "starters_vocab_029",
+            "starters_vocab_039",
+            "starters_vocab_051",
+            "starters_vocab_066"
+          ],
+          "grammar_ids": [
+            "starters_grammar_006",
+            "starters_grammar_009"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Direct comprehension checks",
+          "can_do_statement": "Can ask students directly if they understand a task",
+          "example_sentences": [
+            "Do you understand?",
+            "Can you help me check if they understand?"
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_005",
+            "movers_vocab_043",
+            "movers_vocab_044",
+            "movers_vocab_045",
+            "movers_vocab_046"
+          ],
+          "grammar_ids": [
+            "movers_grammar_004",
+            "movers_grammar_009"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Asking students to explain their comprehension",
+          "can_do_statement": "Can ask students to explain a word to verify understanding",
+          "example_sentences": [
+            "Can you explain this word to the class?",
+            "Should I explain it again?"
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_003",
+            "flyers_vocab_036",
+            "flyers_vocab_037",
+            "flyers_vocab_038",
+            "flyers_vocab_039",
+            "flyers_vocab_040"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_003",
+            "flyers_grammar_004"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Measuring academic progress",
+          "can_do_statement": "Can check if students are making progress on their tasks",
+          "example_sentences": [
+            "The student is making progress, isn't he?",
+            "I'd like to check your progress."
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_034",
+            "ket_vocab_035",
+            "ket_vocab_036",
+            "ket_vocab_037",
+            "ket_vocab_038"
+          ],
+          "grammar_ids": [
+            "ket_grammar_010"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Giving detailed constructive feedback",
+          "can_do_statement": "Can suggest ways for students to improve based on understanding checks",
+          "example_sentences": [
+            "You should try to improve your understanding.",
+            "If they didn't understand, I would explain it again."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_015",
+            "pet_vocab_023",
+            "pet_vocab_055",
+            "pet_vocab_066",
+            "pet_vocab_083",
+            "pet_vocab_094"
+          ],
+          "grammar_ids": [
+            "pet_grammar_001",
+            "pet_grammar_009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_praise_correction",
+      "name": "Praise & correction",
+      "description": "Encouraging students, correcting mistakes positively",
+      "group_id": "school",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Basic praise phrases",
+          "can_do_statement": "Can praise a student using simple positive words",
+          "example_sentences": [
+            "Good job!",
+            "Very good, student!"
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_007",
+            "starters_vocab_011",
+            "starters_vocab_019",
+            "starters_vocab_040",
+            "starters_vocab_057",
+            "starters_vocab_067"
+          ],
+          "grammar_ids": [
+            "starters_grammar_003"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Giving positive feedback on answers",
+          "can_do_statement": "Can praise a student's answer using adjectives",
+          "example_sentences": [
+            "That is a great answer!",
+            "Great job on your homework."
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_006",
+            "movers_vocab_014",
+            "movers_vocab_020",
+            "movers_vocab_021",
+            "movers_vocab_047",
+            "movers_vocab_048"
+          ],
+          "grammar_ids": [
+            "movers_grammar_002",
+            "movers_grammar_004",
+            "movers_grammar_010"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Polite error correction",
+          "can_do_statement": "Can encourage students when they make a mistake",
+          "example_sentences": [
+            "It is okay to make a mistake.",
+            "That is the correct answer."
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_041",
+            "flyers_vocab_042",
+            "flyers_vocab_043",
+            "flyers_vocab_044"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_004"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Checking progress and gentle correction",
+          "can_do_statement": "Can highlight progress while correcting work",
+          "example_sentences": [
+            "You are making good progress.",
+            "Could we correct the mistakes together?"
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_039",
+            "ket_vocab_040",
+            "ket_vocab_041",
+            "ket_vocab_042",
+            "ket_vocab_043"
+          ],
+          "grammar_ids": [
+            "ket_grammar_002",
+            "ket_grammar_008"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Strategic improvement suggestions",
+          "can_do_statement": "Can guide students to improve and self-correct",
+          "example_sentences": [
+            "You should try to improve your writing.",
+            "I apologize for making a mistake in the correction."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_024",
+            "pet_vocab_035",
+            "pet_vocab_045",
+            "pet_vocab_056",
+            "pet_vocab_067",
+            "pet_vocab_095"
+          ],
+          "grammar_ids": [
+            "pet_grammar_003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_school_communication",
+      "name": "School communication",
+      "description": "Parent meetings, emails, colleague discussions, reports",
+      "group_id": "school",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Basic greetings with school staff",
+          "can_do_statement": "Can greet colleagues in the morning",
+          "example_sentences": [
+            "Hello, teacher!",
+            "Good morning."
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_020",
+            "starters_vocab_041",
+            "starters_vocab_052",
+            "starters_vocab_088",
+            "starters_vocab_098",
+            "starters_vocab_109"
+          ],
+          "grammar_ids": [
+            "starters_grammar_003"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Calling parents about absences",
+          "can_do_statement": "Can make a short phone call to report a sick student",
+          "example_sentences": [
+            "He is sick today.",
+            "Please call the parent."
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_009",
+            "movers_vocab_015",
+            "movers_vocab_016",
+            "movers_vocab_017",
+            "movers_vocab_018",
+            "movers_vocab_052"
+          ],
+          "grammar_ids": [
+            "movers_grammar_008"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Polite email communication",
+          "can_do_statement": "Can send short, clear emails to colleagues or parents",
+          "example_sentences": [
+            "I sent you an email.",
+            "The parent called me about the meeting."
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_001",
+            "flyers_vocab_007",
+            "flyers_vocab_008",
+            "flyers_vocab_009",
+            "flyers_vocab_045",
+            "flyers_vocab_046"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_001",
+            "flyers_grammar_005"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Writing student reports and suggestions",
+          "can_do_statement": "Can complete reports and make school recommendations",
+          "example_sentences": [
+            "I finished the student reports.",
+            "I suggest we confirm the schedule."
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_004",
+            "ket_vocab_044",
+            "ket_vocab_045",
+            "ket_vocab_046",
+            "ket_vocab_047",
+            "ket_vocab_048"
+          ],
+          "grammar_ids": [
+            "ket_grammar_001",
+            "ket_grammar_003",
+            "ket_grammar_005",
+            "ket_grammar_007"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Participating in formal professional discussions",
+          "can_do_statement": "Can voice arguments, apologize for issues, and make formal reports",
+          "example_sentences": [
+            "We had a long discussion about school policy.",
+            "Furthermore, I apologize for the delay in reports."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_004",
+            "pet_vocab_006",
+            "pet_vocab_007",
+            "pet_vocab_008",
+            "pet_vocab_025",
+            "pet_vocab_036"
+          ],
+          "grammar_ids": [
+            "pet_grammar_002",
+            "pet_grammar_004",
+            "pet_grammar_006",
+            "pet_grammar_007",
+            "pet_grammar_008",
+            "pet_grammar_010"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_market",
+      "name": "At the market",
+      "description": "Shopping for food and goods, asking prices, bargaining",
+      "group_id": "daily_life",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Naming basic foods at the market",
+          "can_do_statement": "Can state they go to the market and name simple food preferences",
+          "example_sentences": [
+            "I go to the market.",
+            "I like rice."
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_012",
+            "starters_vocab_013",
+            "starters_vocab_021",
+            "starters_vocab_030",
+            "starters_vocab_042",
+            "starters_vocab_058"
+          ],
+          "grammar_ids": [
+            "starters_grammar_004",
+            "starters_grammar_006",
+            "starters_grammar_007",
+            "starters_grammar_010"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Stating intentions to buy food",
+          "can_do_statement": "Can express a desire to buy fruit or chicken at the market",
+          "example_sentences": [
+            "I want to buy fruit.",
+            "I bought chicken yesterday."
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_003",
+            "movers_vocab_007",
+            "movers_vocab_053",
+            "movers_vocab_054",
+            "movers_vocab_055",
+            "movers_vocab_056"
+          ],
+          "grammar_ids": [
+            "movers_grammar_003",
+            "movers_grammar_005",
+            "movers_grammar_007"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Polite transactions at market stalls",
+          "can_do_statement": "Can ask for price lists or total bills politely",
+          "example_sentences": [
+            "Could I see the bill, please?",
+            "I have already bought the fruit."
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_005",
+            "flyers_vocab_050",
+            "flyers_vocab_051",
+            "flyers_vocab_052",
+            "flyers_vocab_053",
+            "flyers_vocab_054"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_001",
+            "flyers_grammar_006",
+            "flyers_grammar_010"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Bargaining and price negotiations",
+          "can_do_statement": "Can negotiate and complain about high prices",
+          "example_sentences": [
+            "The price is too high.",
+            "I always bargain at the market."
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_007",
+            "ket_vocab_008",
+            "ket_vocab_050",
+            "ket_vocab_051",
+            "ket_vocab_052",
+            "ket_vocab_053"
+          ],
+          "grammar_ids": [
+            "ket_grammar_004",
+            "ket_grammar_009"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Resolving market purchasing complaints",
+          "can_do_statement": "Can discuss bad market experiences or handle purchase issues",
+          "example_sentences": [
+            "I made a complaint about the price delay.",
+            "If the price were lower, I would buy more."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_009",
+            "pet_vocab_016",
+            "pet_vocab_026",
+            "pet_vocab_037",
+            "pet_vocab_047",
+            "pet_vocab_058"
+          ],
+          "grammar_ids": [
+            "pet_grammar_001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_restaurant",
+      "name": "At a restaurant",
+      "description": "Ordering food, asking for menu, paying the bill",
+      "group_id": "daily_life",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Expressing simple drink requests",
+          "can_do_statement": "Can ask for basic drinks like water",
+          "example_sentences": [
+            "Water, please.",
+            "I like rice."
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_013",
+            "starters_vocab_014",
+            "starters_vocab_022",
+            "starters_vocab_031",
+            "starters_vocab_043",
+            "starters_vocab_059"
+          ],
+          "grammar_ids": [
+            "starters_grammar_004"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Stating food desires",
+          "can_do_statement": "Can express hunger and state they want chicken",
+          "example_sentences": [
+            "I am hungry.",
+            "I want chicken and rice."
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_003",
+            "movers_vocab_007",
+            "movers_vocab_063",
+            "movers_vocab_064",
+            "movers_vocab_065",
+            "movers_vocab_066"
+          ],
+          "grammar_ids": [
+            "movers_grammar_005",
+            "movers_grammar_006",
+            "movers_grammar_010"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Polite requests to restaurant staff",
+          "can_do_statement": "Can ask for the menu and the bill politely",
+          "example_sentences": [
+            "Could I see the menu, please?",
+            "Can we have the bill?"
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_004",
+            "flyers_vocab_005",
+            "flyers_vocab_055",
+            "flyers_vocab_056",
+            "flyers_vocab_057",
+            "flyers_vocab_058"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_004"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Asking for recommendations and expressing preferences",
+          "can_do_statement": "Can ask for recommendations and state dining preferences",
+          "example_sentences": [
+            "Could you recommend a good dish?",
+            "I prefer chicken to rice."
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_001",
+            "ket_vocab_002",
+            "ket_vocab_055",
+            "ket_vocab_056",
+            "ket_vocab_057",
+            "ket_vocab_058"
+          ],
+          "grammar_ids": [
+            "ket_grammar_002",
+            "ket_grammar_007",
+            "ket_grammar_008"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Expressing dietary needs and making reservations",
+          "can_do_statement": "Can specify dietary preferences and make dining bookings",
+          "example_sentences": [
+            "Do you have any vegetarian options?",
+            "I want to make a dinner reservation."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_002",
+            "pet_vocab_003",
+            "pet_vocab_008",
+            "pet_vocab_017",
+            "pet_vocab_027",
+            "pet_vocab_038"
+          ],
+          "grammar_ids": [
+            "pet_grammar_005",
+            "pet_grammar_006",
+            "pet_grammar_009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_travel",
+      "name": "Travel & directions",
+      "description": "Asking for directions, booking tickets, at the airport/hotel",
+      "group_id": "daily_life",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Basic movement statements",
+          "can_do_statement": "Can say they are going to the market or school",
+          "example_sentences": [
+            "I go to the market."
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_023",
+            "starters_vocab_032",
+            "starters_vocab_044",
+            "starters_vocab_053",
+            "starters_vocab_060",
+            "starters_vocab_068"
+          ],
+          "grammar_ids": [
+            "starters_grammar_004"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Stating past trips",
+          "can_do_statement": "Can talk about a simple trip they took yesterday",
+          "example_sentences": [
+            "I went to school yesterday.",
+            "Can you help me?"
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_070",
+            "movers_vocab_071",
+            "movers_vocab_072",
+            "movers_vocab_073",
+            "movers_vocab_074",
+            "movers_vocab_075"
+          ],
+          "grammar_ids": [
+            "movers_grammar_003",
+            "movers_grammar_009"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Polite direction and booking queries",
+          "can_do_statement": "Can purchase travel tickets and ask for directions",
+          "example_sentences": [
+            "I bought a train ticket.",
+            "Ask for directions, please."
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_006",
+            "flyers_vocab_059",
+            "flyers_vocab_060",
+            "flyers_vocab_061",
+            "flyers_vocab_062",
+            "flyers_vocab_063"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_001",
+            "flyers_grammar_002",
+            "flyers_grammar_008",
+            "flyers_grammar_009"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Interactions at transit points",
+          "can_do_statement": "Can handle simple transit tasks at locations like airports",
+          "example_sentences": [
+            "I am waiting at the airport.",
+            "Could you recommend a travel schedule?"
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_003",
+            "ket_vocab_061",
+            "ket_vocab_062",
+            "ket_vocab_063",
+            "ket_vocab_064",
+            "ket_vocab_065"
+          ],
+          "grammar_ids": [
+            "ket_grammar_002",
+            "ket_grammar_006"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Handling travel delays and formal bookings",
+          "can_do_statement": "Can discuss travel disruptions and handle accommodation bookings",
+          "example_sentences": [
+            "I am sorry for the flight delay.",
+            "The reservation should be confirmed."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_003",
+            "pet_vocab_004",
+            "pet_vocab_010",
+            "pet_vocab_018",
+            "pet_vocab_028",
+            "pet_vocab_039"
+          ],
+          "grammar_ids": [
+            "pet_grammar_005",
+            "pet_grammar_007",
+            "pet_grammar_008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_phone",
+      "name": "Phone calls",
+      "description": "Making and receiving phone calls, leaving messages",
+      "group_id": "daily_life",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Basic conversational instructions",
+          "can_do_statement": "Can respond to a basic phone call call-to-action",
+          "example_sentences": [
+            "Listen to me."
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_033",
+            "starters_vocab_045",
+            "starters_vocab_061",
+            "starters_vocab_069",
+            "starters_vocab_080",
+            "starters_vocab_092"
+          ],
+          "grammar_ids": [
+            "starters_grammar_001"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Receiving simple calls",
+          "can_do_statement": "Can answer the phone and request someone to call back",
+          "example_sentences": [
+            "Answer the phone.",
+            "Please call the parent."
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_010",
+            "movers_vocab_013",
+            "movers_vocab_077",
+            "movers_vocab_078",
+            "movers_vocab_079"
+          ],
+          "grammar_ids": [
+            "movers_grammar_005"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Leaving phone text messages",
+          "can_do_statement": "Can request to leave or send messages via phone",
+          "example_sentences": [
+            "Please leave a message.",
+            "I sent you an email message."
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_001",
+            "flyers_vocab_007",
+            "flyers_vocab_009",
+            "flyers_vocab_065",
+            "flyers_vocab_066",
+            "flyers_vocab_067"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_001",
+            "flyers_grammar_002"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Handling urgent business calls",
+          "can_do_statement": "Can manage urgent phone confirmations",
+          "example_sentences": [
+            "This is an urgent call.",
+            "Please confirm the meeting time on the phone."
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_068",
+            "ket_vocab_069",
+            "ket_vocab_070"
+          ],
+          "grammar_ids": [
+            "ket_grammar_003",
+            "ket_grammar_006"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Formal phone inquiries and complaints",
+          "can_do_statement": "Can make formal apologies and handle complaints over the phone",
+          "example_sentences": [
+            "I called to apologize for the delay.",
+            "If they called, I would answer immediately."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_011",
+            "pet_vocab_019",
+            "pet_vocab_029",
+            "pet_vocab_040",
+            "pet_vocab_050",
+            "pet_vocab_072"
+          ],
+          "grammar_ids": [
+            "pet_grammar_001",
+            "pet_grammar_004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_health",
+      "name": "Health & doctor",
+      "description": "Describing symptoms, visiting a doctor, buying medicine",
+      "group_id": "daily_life",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Stating physical condition simply",
+          "can_do_statement": "Can say if they are fine",
+          "example_sentences": [
+            "I'm fine, thank you."
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_024",
+            "starters_vocab_034",
+            "starters_vocab_046",
+            "starters_vocab_054",
+            "starters_vocab_062",
+            "starters_vocab_070"
+          ],
+          "grammar_ids": [
+            "starters_grammar_003"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Expressing illness and hunger",
+          "can_do_statement": "Can describe basic physical needs and sickness",
+          "example_sentences": [
+            "He is sick today.",
+            "I am hungry."
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_008",
+            "movers_vocab_009",
+            "movers_vocab_080",
+            "movers_vocab_081",
+            "movers_vocab_082",
+            "movers_vocab_083"
+          ],
+          "grammar_ids": [
+            "movers_grammar_003"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Purchasing and taking medicine",
+          "can_do_statement": "Can understand simple medical instructions about taking medicine",
+          "example_sentences": [
+            "Take this medicine after meals.",
+            "You should see the doctor."
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_069",
+            "flyers_vocab_070",
+            "flyers_vocab_071",
+            "flyers_vocab_072",
+            "flyers_vocab_073",
+            "flyers_vocab_074"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_004",
+            "flyers_grammar_007",
+            "flyers_grammar_009",
+            "flyers_grammar_010"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Describing specific minor ailments",
+          "can_do_statement": "Can describe common minor illnesses like a fever or headache",
+          "example_sentences": [
+            "I have a terrible headache.",
+            "He has a high fever, doesn't he?"
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_005",
+            "ket_vocab_006",
+            "ket_vocab_071",
+            "ket_vocab_072",
+            "ket_vocab_073",
+            "ket_vocab_074"
+          ],
+          "grammar_ids": [
+            "ket_grammar_005",
+            "ket_grammar_009",
+            "ket_grammar_010"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Discussing diagnoses and prescriptions",
+          "can_do_statement": "Can describe specific symptoms and deal with prescriptions",
+          "example_sentences": [
+            "Describe your medical symptoms.",
+            "The doctor wrote a prescription."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_002",
+            "pet_vocab_005",
+            "pet_vocab_020",
+            "pet_vocab_030",
+            "pet_vocab_051",
+            "pet_vocab_061"
+          ],
+          "grammar_ids": [
+            "pet_grammar_004",
+            "pet_grammar_005",
+            "pet_grammar_008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic_social",
+      "name": "Social conversations",
+      "description": "Greetings, small talk, introductions, weather, hobbies",
+      "group_id": "daily_life",
+      "spiral": [
+        {
+          "level": "starters",
+          "focus": "Basic conversational exchanges",
+          "can_do_statement": "Can greet someone, ask how they are, and say goodbye",
+          "example_sentences": [
+            "Hello! How are you?",
+            "I'm fine, thank you.",
+            "Goodbye!"
+          ],
+          "vocabulary_ids": [
+            "starters_vocab_001",
+            "starters_vocab_002",
+            "starters_vocab_003",
+            "starters_vocab_015",
+            "starters_vocab_025",
+            "starters_vocab_035"
+          ],
+          "grammar_ids": [
+            "starters_grammar_003",
+            "starters_grammar_004"
+          ]
+        },
+        {
+          "level": "movers",
+          "focus": "Small talk about yesterday and the weather",
+          "can_do_statement": "Can talk about the weather and yesterday's simple actions",
+          "example_sentences": [
+            "The weather is very nice today.",
+            "Yesterday I walked to school."
+          ],
+          "vocabulary_ids": [
+            "movers_vocab_002",
+            "movers_vocab_011",
+            "movers_vocab_085",
+            "movers_vocab_086",
+            "movers_vocab_087",
+            "movers_vocab_088"
+          ],
+          "grammar_ids": [
+            "movers_grammar_003",
+            "movers_grammar_004",
+            "movers_grammar_006",
+            "movers_grammar_007",
+            "movers_grammar_008",
+            "movers_grammar_009",
+            "movers_grammar_010"
+          ]
+        },
+        {
+          "level": "flyers",
+          "focus": "Chatting about personal hobbies",
+          "can_do_statement": "Can discuss simple hobbies and introduce interests",
+          "example_sentences": [
+            "Gardening is my favorite hobby.",
+            "I'm going to share my hobby."
+          ],
+          "vocabulary_ids": [
+            "flyers_vocab_010",
+            "flyers_vocab_075",
+            "flyers_vocab_076",
+            "flyers_vocab_077",
+            "flyers_vocab_078",
+            "flyers_vocab_079"
+          ],
+          "grammar_ids": [
+            "flyers_grammar_002",
+            "flyers_grammar_006",
+            "flyers_grammar_007",
+            "flyers_grammar_008",
+            "flyers_grammar_009"
+          ]
+        },
+        {
+          "level": "ket",
+          "focus": "Polite advice and relative statements in small talk",
+          "can_do_statement": "Can suggest social activities and introduce friends with details",
+          "example_sentences": [
+            "I suggest we meet on Friday.",
+            "What is your opinion on this?"
+          ],
+          "vocabulary_ids": [
+            "ket_vocab_001",
+            "ket_vocab_077",
+            "ket_vocab_078",
+            "ket_vocab_079",
+            "ket_vocab_080",
+            "ket_vocab_081"
+          ],
+          "grammar_ids": [
+            "ket_grammar_001",
+            "ket_grammar_003",
+            "ket_grammar_004",
+            "ket_grammar_008",
+            "ket_grammar_010"
+          ]
+        },
+        {
+          "level": "pet",
+          "focus": "Discussing hypothetical options and complex hobbies",
+          "can_do_statement": "Can hold active, polite debates about opinions and social themes",
+          "example_sentences": [
+            "Furthermore, the discussion was very useful.",
+            "If I had time, I would try a new hobby."
+          ],
+          "vocabulary_ids": [
+            "pet_vocab_006",
+            "pet_vocab_007",
+            "pet_vocab_012",
+            "pet_vocab_031",
+            "pet_vocab_041",
+            "pet_vocab_062"
+          ],
+          "grammar_ids": [
+            "pet_grammar_001",
+            "pet_grammar_003",
+            "pet_grammar_006",
+            "pet_grammar_009",
+            "pet_grammar_010"
+          ]
+        }
+      ]
+    }
+  ]
+}

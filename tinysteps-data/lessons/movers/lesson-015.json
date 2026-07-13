@@ -1,0 +1,232 @@
+{
+  "id": "movers_lesson_015",
+  "level": "movers",
+  "topic_id": "topic_giving_instructions",
+  "order": 15,
+  "title": "Giving instructions",
+  "scenario": "You are in a teacher role. Use English naturally in this giving instructions situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "Classroom, Friday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Huong",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Khang",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Clean the board, please."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, I am cleaning it right now."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Then open your book and do the exercise."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Should we do the vocabulary task too?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, please. Help your partner."
+      },
+      {
+        "character_id": "char_b",
+        "text": "We will start immediately."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_001",
+    "movers_vocab_004",
+    "movers_vocab_019",
+    "movers_vocab_022",
+    "movers_vocab_200",
+    "movers_vocab_201",
+    "movers_vocab_202",
+    "movers_vocab_203",
+    "movers_vocab_204",
+    "movers_vocab_205",
+    "movers_vocab_206",
+    "movers_vocab_207",
+    "movers_vocab_208",
+    "movers_vocab_209",
+    "movers_vocab_210",
+    "movers_vocab_211",
+    "movers_vocab_212",
+    "movers_vocab_213"
+  ],
+  "grammar_ids": [
+    "movers_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a notebook with written exercises and a red checkmark",
+          "correct_answer": "homework"
+        },
+        {
+          "image_hint": "a hand wiping a whiteboard clean with an eraser",
+          "correct_answer": "clean"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a guidelines",
+          "correct_answer": "guideliness"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "help",
+            "?",
+            "Can",
+            "me",
+            "you"
+          ],
+          "correct_answer": "Can you help me?"
+        },
+        {
+          "words": [
+            "can",
+            "the",
+            "teacher",
+            "I",
+            ".",
+            "understand"
+          ],
+          "correct_answer": "I can understand the teacher."
+        },
+        {
+          "words": [
+            "hear",
+            ".",
+            "can't",
+            "He",
+            "speaker",
+            "the"
+          ],
+          "correct_answer": "He can't hear the speaker."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Can you help me?",
+          "options": [
+            "He can't hear the speaker.",
+            "I can understand the teacher.",
+            "Can you help me?"
+          ],
+          "correct_answer": "Can you help me?"
+        },
+        {
+          "audio_text": "I can understand the teacher.",
+          "options": [
+            "I can understand the teacher.",
+            "Can you help me?",
+            "He can't hear the speaker."
+          ],
+          "correct_answer": "I can understand the teacher."
+        },
+        {
+          "audio_text": "He can't hear the speaker.",
+          "options": [
+            "He can't hear the speaker.",
+            "Can you help me?",
+            "I can understand the teacher."
+          ],
+          "correct_answer": "He can't hear the speaker."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ you help me?",
+          "correct_answer": "Can"
+        },
+        {
+          "prompt": "I ___ understand the teacher.",
+          "correct_answer": "can"
+        },
+        {
+          "prompt": "He ___ hear the speaker.",
+          "correct_answer": "can't"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a notebook with written exercises and a red checkmark). What is this?",
+          "options": [
+            "homework",
+            "guideliness",
+            "clean"
+          ],
+          "correct_answer": "homework"
+        },
+        {
+          "prompt": "Look at the picture (a hand wiping a whiteboard clean with an eraser). What is this?",
+          "options": [
+            "clean",
+            "homework",
+            "guideliness"
+          ],
+          "correct_answer": "clean"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a guidelines). What is this?",
+          "options": [
+            "homework",
+            "clean",
+            "guideliness"
+          ],
+          "correct_answer": "guideliness"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Ask for clarification about task instructions.",
+    "opening_line": "Teacher, should we open our books or start writing?",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_004"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_001",
+        "movers_vocab_004",
+        "movers_vocab_019"
+      ]
+    },
+    "success_criteria": "Learner gives clear, polite instructions using imperatives or modal verbs."
+  }
+}

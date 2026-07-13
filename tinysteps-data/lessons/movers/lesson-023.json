@@ -1,0 +1,235 @@
+{
+  "id": "movers_lesson_023",
+  "level": "movers",
+  "topic_id": "topic_health",
+  "order": 23,
+  "title": "Health and the doctor",
+  "scenario": "You are in a patient role. Use English naturally in this health situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "School clinic, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Nam",
+        "role": "patient"
+      },
+      {
+        "id": "char_b",
+        "name": "Doctor",
+        "role": "doctor"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "He is sick today. He has a fever."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I understand. When did the fever start?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "It started yesterday afternoon."
+      },
+      {
+        "character_id": "char_b",
+        "text": "He should stay at home and drink warm water."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Should I bring him to the clinic tomorrow?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, bring him if the fever does not go down."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_008",
+    "movers_vocab_009",
+    "movers_vocab_080",
+    "movers_vocab_081",
+    "movers_vocab_312",
+    "movers_vocab_313",
+    "movers_vocab_314",
+    "movers_vocab_315",
+    "movers_vocab_316",
+    "movers_vocab_317",
+    "movers_vocab_318",
+    "movers_vocab_319",
+    "movers_vocab_320",
+    "movers_vocab_321",
+    "movers_vocab_322",
+    "movers_vocab_323",
+    "movers_vocab_324",
+    "movers_vocab_325"
+  ],
+  "grammar_ids": [
+    "movers_grammar_001"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a friendly doctor with a stethoscope around their neck",
+          "correct_answer": "doctor"
+        },
+        {
+          "image_hint": "a person in bed with a thermometer in their mouth",
+          "correct_answer": "sick"
+        },
+        {
+          "image_hint": "a digital thermometer showing a reading",
+          "correct_answer": "temperature"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "my",
+            "I",
+            "in",
+            "am",
+            "book",
+            ".",
+            "writing"
+          ],
+          "correct_answer": "I am writing in my book."
+        },
+        {
+          "words": [
+            "He",
+            "is",
+            "board",
+            ".",
+            "cleaning",
+            "the"
+          ],
+          "correct_answer": "He is cleaning the board."
+        },
+        {
+          "words": [
+            "They",
+            "teacher",
+            "the",
+            "to",
+            ".",
+            "listening",
+            "are"
+          ],
+          "correct_answer": "They are listening to the teacher."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I am writing in my book.",
+          "options": [
+            "He is cleaning the board.",
+            "I am writing in my book.",
+            "They are listening to the teacher."
+          ],
+          "correct_answer": "I am writing in my book."
+        },
+        {
+          "audio_text": "He is cleaning the board.",
+          "options": [
+            "I am writing in my book.",
+            "They are listening to the teacher.",
+            "He is cleaning the board."
+          ],
+          "correct_answer": "He is cleaning the board."
+        },
+        {
+          "audio_text": "They are listening to the teacher.",
+          "options": [
+            "He is cleaning the board.",
+            "They are listening to the teacher.",
+            "I am writing in my book."
+          ],
+          "correct_answer": "They are listening to the teacher."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ writing in my book.",
+          "correct_answer": "am"
+        },
+        {
+          "prompt": "He ___ cleaning the board.",
+          "correct_answer": "is"
+        },
+        {
+          "prompt": "They ___ listening to the teacher.",
+          "correct_answer": "are"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a friendly doctor with a stethoscope around their neck). What is this?",
+          "options": [
+            "temperature",
+            "doctor",
+            "sick"
+          ],
+          "correct_answer": "doctor"
+        },
+        {
+          "prompt": "Look at the picture (a person in bed with a thermometer in their mouth). What is this?",
+          "options": [
+            "sick",
+            "doctor",
+            "temperature"
+          ],
+          "correct_answer": "sick"
+        },
+        {
+          "prompt": "Look at the picture (a digital thermometer showing a reading). What is this?",
+          "options": [
+            "sick",
+            "temperature",
+            "doctor"
+          ],
+          "correct_answer": "temperature"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "doctor",
+    "scenario": "Diagnose a patient's symptoms at the clinic.",
+    "opening_line": "Hello. Please sit down. What are your symptoms today?",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_001"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_008",
+        "movers_vocab_009",
+        "movers_vocab_080"
+      ]
+    },
+    "success_criteria": "Learner describes symptoms clearly and asks for medical advice."
+  }
+}

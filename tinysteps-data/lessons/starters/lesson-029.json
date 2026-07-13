@@ -1,0 +1,221 @@
+{
+  "id": "starters_lesson_029",
+  "level": "starters",
+  "topic_id": "topic_praise_correction",
+  "order": 29,
+  "title": "Praise and correction",
+  "scenario": "You are in a teacher role. Use English naturally in this praise correction situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "Front of classroom, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Hoa",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "An",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good job, Nam! Very good!",
+        "note": "(thumbs up)"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you, teacher! I am happy."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Look at this. That is correct."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Great! I like this lesson."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_007",
+    "starters_vocab_011",
+    "starters_vocab_019",
+    "starters_vocab_040",
+    "starters_vocab_285",
+    "starters_vocab_286",
+    "starters_vocab_287",
+    "starters_vocab_288",
+    "starters_vocab_289",
+    "starters_vocab_290",
+    "starters_vocab_291",
+    "starters_vocab_292",
+    "starters_vocab_293",
+    "starters_vocab_294"
+  ],
+  "grammar_ids": [
+    "starters_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a young student raising their hand in class",
+          "correct_answer": "student"
+        },
+        {
+          "image_hint": "a thumbs-up icon with a gold star",
+          "correct_answer": "good"
+        },
+        {
+          "image_hint": "a simple, clear colorful visualization of nice",
+          "correct_answer": "nice"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "a",
+            "teacher",
+            ".",
+            "I",
+            "am"
+          ],
+          "correct_answer": "I am a teacher."
+        },
+        {
+          "words": [
+            "good",
+            "is",
+            "a",
+            ".",
+            "student",
+            "He"
+          ],
+          "correct_answer": "He is a good student."
+        },
+        {
+          "words": [
+            "fine",
+            "thank",
+            "I'm",
+            ",",
+            ".",
+            "you"
+          ],
+          "correct_answer": "I'm fine, thank you."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I am a teacher.",
+          "options": [
+            "I am a teacher.",
+            "He is a good student.",
+            "I'm fine, thank you."
+          ],
+          "correct_answer": "I am a teacher."
+        },
+        {
+          "audio_text": "He is a good student.",
+          "options": [
+            "I am a teacher.",
+            "He is a good student.",
+            "I'm fine, thank you."
+          ],
+          "correct_answer": "He is a good student."
+        },
+        {
+          "audio_text": "I'm fine, thank you.",
+          "options": [
+            "He is a good student.",
+            "I'm fine, thank you.",
+            "I am a teacher."
+          ],
+          "correct_answer": "I'm fine, thank you."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ a teacher.",
+          "correct_answer": "am"
+        },
+        {
+          "prompt": "He ___ a good student.",
+          "correct_answer": "is"
+        },
+        {
+          "prompt": "___ fine, thank you.",
+          "correct_answer": "I'm"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a young student raising their hand in class). What is this?",
+          "options": [
+            "student",
+            "good",
+            "nice"
+          ],
+          "correct_answer": "student"
+        },
+        {
+          "prompt": "Look at the picture (a thumbs-up icon with a gold star). What is this?",
+          "options": [
+            "nice",
+            "good",
+            "student"
+          ],
+          "correct_answer": "good"
+        },
+        {
+          "prompt": "Look at the picture (a simple, clear colorful visualization of nice). What is this?",
+          "options": [
+            "nice",
+            "good",
+            "student"
+          ],
+          "correct_answer": "nice"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Receive feedback and correct a spelling error.",
+    "opening_line": "Teacher, did I do a good job on my homework?",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_003"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_007",
+        "starters_vocab_011",
+        "starters_vocab_019"
+      ]
+    },
+    "success_criteria": "Learner praises the student and guides correction of the mistake."
+  }
+}

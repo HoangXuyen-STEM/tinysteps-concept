@@ -1,0 +1,234 @@
+{
+  "id": "movers_lesson_028",
+  "level": "movers",
+  "topic_id": "topic_checking_understanding",
+  "order": 28,
+  "title": "Checking understanding",
+  "scenario": "You are in a teacher role. Use English naturally in this checking understanding situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "English lab, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Trang",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Nam",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Vy, did you understand the homework instructions?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "I understood most of it, but I have one question."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Of course. Ask your question."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Should we write the answers in full sentences?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, always write in full sentences."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. Now I understand completely."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_005",
+    "movers_vocab_043",
+    "movers_vocab_044",
+    "movers_vocab_045",
+    "movers_vocab_382",
+    "movers_vocab_383",
+    "movers_vocab_384",
+    "movers_vocab_385",
+    "movers_vocab_386",
+    "movers_vocab_387",
+    "movers_vocab_388",
+    "movers_vocab_389",
+    "movers_vocab_390",
+    "movers_vocab_391",
+    "movers_vocab_392",
+    "movers_vocab_393",
+    "movers_vocab_394",
+    "movers_vocab_395"
+  ],
+  "grammar_ids": [
+    "movers_grammar_004",
+    "movers_grammar_009"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a lightbulb glowing bright above a smiling head",
+          "correct_answer": "understand"
+        },
+        {
+          "image_hint": "a lightbulb above a person's head",
+          "correct_answer": "idea"
+        },
+        {
+          "image_hint": "a turtle with a speech bubble showing slow speech",
+          "correct_answer": "slowly"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "help",
+            "Can",
+            "you",
+            "?",
+            "me"
+          ],
+          "correct_answer": "Can you help me?"
+        },
+        {
+          "words": [
+            "the",
+            "teacher",
+            "I",
+            "understand",
+            "can",
+            "."
+          ],
+          "correct_answer": "I can understand the teacher."
+        },
+        {
+          "words": [
+            ".",
+            "He",
+            "the",
+            "can't",
+            "speaker",
+            "hear"
+          ],
+          "correct_answer": "He can't hear the speaker."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Can you help me?",
+          "options": [
+            "I can understand the teacher.",
+            "He can't hear the speaker.",
+            "Can you help me?"
+          ],
+          "correct_answer": "Can you help me?"
+        },
+        {
+          "audio_text": "I can understand the teacher.",
+          "options": [
+            "I can understand the teacher.",
+            "He can't hear the speaker.",
+            "Can you help me?"
+          ],
+          "correct_answer": "I can understand the teacher."
+        },
+        {
+          "audio_text": "He can't hear the speaker.",
+          "options": [
+            "Can you help me?",
+            "He can't hear the speaker.",
+            "I can understand the teacher."
+          ],
+          "correct_answer": "He can't hear the speaker."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ you help me?",
+          "correct_answer": "Can"
+        },
+        {
+          "prompt": "I ___ understand the teacher.",
+          "correct_answer": "can"
+        },
+        {
+          "prompt": "He ___ hear the speaker.",
+          "correct_answer": "can't"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a lightbulb glowing bright above a smiling head). What is this?",
+          "options": [
+            "idea",
+            "understand",
+            "slowly"
+          ],
+          "correct_answer": "understand"
+        },
+        {
+          "prompt": "Look at the picture (a lightbulb above a person's head). What is this?",
+          "options": [
+            "slowly",
+            "idea",
+            "understand"
+          ],
+          "correct_answer": "idea"
+        },
+        {
+          "prompt": "Look at the picture (a turtle with a speech bubble showing slow speech). What is this?",
+          "options": [
+            "understand",
+            "idea",
+            "slowly"
+          ],
+          "correct_answer": "slowly"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Confirm comprehension of the classroom rules.",
+    "opening_line": "Teacher, are we supposed to explain or just write it?",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_004",
+        "movers_grammar_009"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_005",
+        "movers_vocab_043",
+        "movers_vocab_044"
+      ]
+    },
+    "success_criteria": "Learner checks understanding and gently clarifies rules."
+  }
+}

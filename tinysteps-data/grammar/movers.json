@@ -1,0 +1,436 @@
+{
+  "level": "movers",
+  "total_points": 10,
+  "grammar_points": [
+    {
+      "id": "movers_grammar_001",
+      "name": "present_continuous",
+      "pattern": "Subject + am/is/are + Verb-ing",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_before_class"
+      ],
+      "examples": [
+        {
+          "sentence": "I am writing in my book.",
+          "context": "describing classroom action"
+        },
+        {
+          "sentence": "He is cleaning the board.",
+          "context": "student helping teacher"
+        },
+        {
+          "sentence": "They are listening to the teacher.",
+          "context": "monitoring class activity"
+        },
+        {
+          "sentence": "What are you doing?",
+          "context": "checking on a student"
+        },
+        {
+          "sentence": "The students are doing homework.",
+          "context": "monitoring work"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I writing my book.",
+          "correct": "I am writing in my book."
+        },
+        {
+          "wrong": "He is write on the board.",
+          "correct": "He is writing on the board."
+        }
+      ],
+      "builds_on": [
+        "starters_grammar_003"
+      ]
+    },
+    {
+      "id": "movers_grammar_002",
+      "name": "past_simple_regular",
+      "pattern": "Subject + Verb-ed + (object/complement)",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_in_class",
+        "topic_praise_correction"
+      ],
+      "examples": [
+        {
+          "sentence": "I cleaned the board.",
+          "context": "describing a past task"
+        },
+        {
+          "sentence": "We prepared the class.",
+          "context": "morning teacher routine"
+        },
+        {
+          "sentence": "He helped me yesterday.",
+          "context": "praising a student's help"
+        },
+        {
+          "sentence": "The student finished the homework.",
+          "context": "checking progress"
+        },
+        {
+          "sentence": "She answered the question.",
+          "context": "describing lesson interaction"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Yesterday I help the teacher.",
+          "correct": "Yesterday I helped the teacher."
+        },
+        {
+          "wrong": "He clean the board yesterday.",
+          "correct": "He cleaned the board yesterday."
+        }
+      ]
+    },
+    {
+      "id": "movers_grammar_003",
+      "name": "past_simple_irregular",
+      "pattern": "Subject + Verb-2 + (object/complement)",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_social",
+        "topic_travel",
+        "topic_market"
+      ],
+      "examples": [
+        {
+          "sentence": "I went to school yesterday.",
+          "context": "describing past routine"
+        },
+        {
+          "sentence": "I bought chicken at the market.",
+          "context": "buying food"
+        },
+        {
+          "sentence": "She came to the class early.",
+          "context": "describing morning arrival"
+        },
+        {
+          "sentence": "He made a mistake yesterday.",
+          "context": "talking about past classwork"
+        },
+        {
+          "sentence": "The doctor gave me water.",
+          "context": "medical checkup details"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I go to school yesterday.",
+          "correct": "I went to school yesterday."
+        },
+        {
+          "wrong": "I buyed chicken yesterday.",
+          "correct": "I bought chicken yesterday."
+        }
+      ]
+    },
+    {
+      "id": "movers_grammar_004",
+      "name": "can_cant",
+      "pattern": "Subject + can/can't + Verb-infinitive",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_checking_understanding",
+        "topic_praise_correction",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "Can you help me?",
+          "context": "asking for assistance"
+        },
+        {
+          "sentence": "I can understand the teacher.",
+          "context": "confirming comprehension"
+        },
+        {
+          "sentence": "He can't hear the speaker.",
+          "context": "reporting listening issue"
+        },
+        {
+          "sentence": "Can you write your name?",
+          "context": "checking student ability"
+        },
+        {
+          "sentence": "I can speak a little English.",
+          "context": "introducing oneself"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I can to help you.",
+          "correct": "I can help you."
+        },
+        {
+          "wrong": "Can you helping me?",
+          "correct": "Can you help me?"
+        }
+      ]
+    },
+    {
+      "id": "movers_grammar_005",
+      "name": "want_to_verb",
+      "pattern": "Subject + want/wants + to + Verb-infinitive",
+      "topic_ids": [
+        "topic_restaurant",
+        "topic_market",
+        "topic_phone"
+      ],
+      "examples": [
+        {
+          "sentence": "I want to buy fruit.",
+          "context": "shopping at market"
+        },
+        {
+          "sentence": "I want to order chicken, please.",
+          "context": "ordering food"
+        },
+        {
+          "sentence": "The student wants to ask a question.",
+          "context": "classroom request"
+        },
+        {
+          "sentence": "Do you want to clean the board?",
+          "context": "inviting a helper"
+        },
+        {
+          "sentence": "I want to call the parent.",
+          "context": "dealing with student issue"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I want buy fruit.",
+          "correct": "I want to buy fruit."
+        },
+        {
+          "wrong": "She want to buy fruit.",
+          "correct": "She wants to buy fruit."
+        }
+      ]
+    },
+    {
+      "id": "movers_grammar_006",
+      "name": "like_verb_ing",
+      "pattern": "Subject + like/likes + Verb-ing",
+      "topic_ids": [
+        "topic_social",
+        "topic_in_class",
+        "topic_restaurant"
+      ],
+      "examples": [
+        {
+          "sentence": "I like reading books.",
+          "context": "talking about hobbies"
+        },
+        {
+          "sentence": "She likes cooking chicken.",
+          "context": "describing daily routine"
+        },
+        {
+          "sentence": "Do you like learning English?",
+          "context": "classroom chat"
+        },
+        {
+          "sentence": "They like helping the teacher.",
+          "context": "praising students"
+        },
+        {
+          "sentence": "He likes buying fruit at the market.",
+          "context": "weekend routine"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I like read books.",
+          "correct": "I like reading books."
+        },
+        {
+          "wrong": "She like cooking.",
+          "correct": "She likes cooking."
+        }
+      ],
+      "builds_on": [
+        "starters_grammar_004"
+      ]
+    },
+    {
+      "id": "movers_grammar_007",
+      "name": "comparative_adjectives",
+      "pattern": "noun + is + adjective-er + than + noun | more + adjective + than",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_market",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "This book is bigger than that one.",
+          "context": "comparing classroom items"
+        },
+        {
+          "sentence": "Today is hotter than yesterday.",
+          "context": "weather small talk"
+        },
+        {
+          "sentence": "Chicken is cheaper than fruit.",
+          "context": "comparing prices at market"
+        },
+        {
+          "sentence": "She is taller than her friend.",
+          "context": "describing classmates"
+        },
+        {
+          "sentence": "My homework is better than before.",
+          "context": "teacher giving feedback"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "This is more bigger.",
+          "correct": "This is bigger."
+        },
+        {
+          "wrong": "She is more tall than me.",
+          "correct": "She is taller than me."
+        }
+      ]
+    },
+    {
+      "id": "movers_grammar_008",
+      "name": "possessives",
+      "pattern": "my/your/his/her/our/their + noun",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_social",
+        "topic_school_communication"
+      ],
+      "examples": [
+        {
+          "sentence": "This is my book.",
+          "context": "claiming classroom item"
+        },
+        {
+          "sentence": "Where is your homework?",
+          "context": "teacher checking work"
+        },
+        {
+          "sentence": "His pen is on the desk.",
+          "context": "identifying belongings"
+        },
+        {
+          "sentence": "Her name is Lan.",
+          "context": "introducing a colleague"
+        },
+        {
+          "sentence": "Our class is very good.",
+          "context": "teacher praising the class"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I book is here.",
+          "correct": "My book is here."
+        },
+        {
+          "wrong": "She pen is blue.",
+          "correct": "Her pen is blue."
+        }
+      ]
+    },
+    {
+      "id": "movers_grammar_009",
+      "name": "question_where_when_who",
+      "pattern": "Where/When/Who + auxiliary + subject + verb?",
+      "topic_ids": [
+        "topic_travel",
+        "topic_social",
+        "topic_checking_understanding"
+      ],
+      "examples": [
+        {
+          "sentence": "Where is the market?",
+          "context": "asking for directions"
+        },
+        {
+          "sentence": "When did you go to school?",
+          "context": "social chat about routine"
+        },
+        {
+          "sentence": "Who is your teacher?",
+          "context": "getting to know someone"
+        },
+        {
+          "sentence": "Where did you buy the fruit?",
+          "context": "talking about shopping"
+        },
+        {
+          "sentence": "When is the class?",
+          "context": "checking schedule"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Where the market is?",
+          "correct": "Where is the market?"
+        },
+        {
+          "wrong": "When you go to school?",
+          "correct": "When did you go to school?"
+        }
+      ],
+      "builds_on": [
+        "starters_grammar_009"
+      ]
+    },
+    {
+      "id": "movers_grammar_010",
+      "name": "conjunctions_and_but_because",
+      "pattern": "clause + and/but/because + clause",
+      "topic_ids": [
+        "topic_social",
+        "topic_praise_correction",
+        "topic_restaurant"
+      ],
+      "examples": [
+        {
+          "sentence": "I like chicken and rice.",
+          "context": "ordering food"
+        },
+        {
+          "sentence": "I am hungry but I have no food.",
+          "context": "expressing need"
+        },
+        {
+          "sentence": "He is sick because the weather is cold.",
+          "context": "explaining absence"
+        },
+        {
+          "sentence": "The answer is good but not great.",
+          "context": "giving feedback"
+        },
+        {
+          "sentence": "I called you because I need help.",
+          "context": "explaining a phone call"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I like chicken, because I hungry.",
+          "correct": "I like chicken because I am hungry."
+        },
+        {
+          "wrong": "He sick but he come school.",
+          "correct": "He is sick but he came to school."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "ket_lesson_028",
+  "level": "ket",
+  "topic_id": "topic_checking_understanding",
+  "order": 28,
+  "title": "Checking understanding",
+  "scenario": "You are in a teacher role. Use English naturally in this checking understanding situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "English lab, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Trang",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Vy",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Let's check if everyone understood the listening exercise."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I followed the main idea, but missed some details."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That is fine for now. What was the main topic?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "The speakers were discussing a school event."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Correct. You should try to improve your note-taking skills."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If I practised more often, would my listening improve?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Definitely. Regular practice makes a big difference."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I will start practising every day from now on."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_034",
+    "ket_vocab_035",
+    "ket_vocab_036",
+    "ket_vocab_037",
+    "ket_vocab_333",
+    "ket_vocab_334",
+    "ket_vocab_335",
+    "ket_vocab_336",
+    "ket_vocab_337",
+    "ket_vocab_338",
+    "ket_vocab_339",
+    "ket_vocab_340",
+    "ket_vocab_341",
+    "ket_vocab_342",
+    "ket_vocab_343",
+    "ket_vocab_344"
+  ],
+  "grammar_ids": [
+    "ket_grammar_010"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a person carefully analysing a text with a highlighter",
+          "correct_answer": "analyse"
+        },
+        {
+          "image_hint": "a student writing a short summary of a passage",
+          "correct_answer": "summarise"
+        },
+        {
+          "image_hint": "a person interpreting a graph or data chart",
+          "correct_answer": "interpret"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "isn't",
+            ",",
+            "?",
+            "hot",
+            "it",
+            "today",
+            "It",
+            "is"
+          ],
+          "correct_answer": "It is hot today, isn't it?"
+        },
+        {
+          "words": [
+            "lesson",
+            "understand",
+            "?",
+            "the",
+            "You",
+            "you",
+            "don't",
+            ","
+          ],
+          "correct_answer": "You understand the lesson, don't you?"
+        },
+        {
+          "words": [
+            "good",
+            "she",
+            "She",
+            "a",
+            "isn't",
+            "is",
+            ",",
+            "?",
+            "student"
+          ],
+          "correct_answer": "She is a good student, isn't she?"
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "It is hot today, isn't it?",
+          "options": [
+            "She is a good student, isn't she?",
+            "You understand the lesson, don't you?",
+            "It is hot today, isn't it?"
+          ],
+          "correct_answer": "It is hot today, isn't it?"
+        },
+        {
+          "audio_text": "You understand the lesson, don't you?",
+          "options": [
+            "You understand the lesson, don't you?",
+            "It is hot today, isn't it?",
+            "She is a good student, isn't she?"
+          ],
+          "correct_answer": "You understand the lesson, don't you?"
+        },
+        {
+          "audio_text": "She is a good student, isn't she?",
+          "options": [
+            "She is a good student, isn't she?",
+            "It is hot today, isn't it?",
+            "You understand the lesson, don't you?"
+          ],
+          "correct_answer": "She is a good student, isn't she?"
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ is hot today, isn't it?",
+          "correct_answer": "It"
+        },
+        {
+          "prompt": "___ understand the lesson, don't you?",
+          "correct_answer": "You"
+        },
+        {
+          "prompt": "___ is a good student, isn't she?",
+          "correct_answer": "She"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a person carefully analysing a text with a highlighter). What is this?",
+          "options": [
+            "summarise",
+            "analyse",
+            "interpret"
+          ],
+          "correct_answer": "analyse"
+        },
+        {
+          "prompt": "Look at the picture (a student writing a short summary of a passage). What is this?",
+          "options": [
+            "interpret",
+            "analyse",
+            "summarise"
+          ],
+          "correct_answer": "summarise"
+        },
+        {
+          "prompt": "Look at the picture (a person interpreting a graph or data chart). What is this?",
+          "options": [
+            "analyse",
+            "summarise",
+            "interpret"
+          ],
+          "correct_answer": "interpret"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Confirm comprehension of the classroom rules.",
+    "opening_line": "Teacher, are we supposed to explain or just write it?",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_010"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_034",
+        "ket_vocab_035",
+        "ket_vocab_036"
+      ]
+    },
+    "success_criteria": "Learner checks understanding and gently clarifies rules."
+  }
+}

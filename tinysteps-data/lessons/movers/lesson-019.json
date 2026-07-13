@@ -1,0 +1,237 @@
+{
+  "id": "movers_lesson_019",
+  "level": "movers",
+  "topic_id": "topic_market",
+  "order": 19,
+  "title": "At the market",
+  "scenario": "You are in a buyer role. Use English naturally in this market situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "Local market stall, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Nam",
+        "role": "buyer"
+      },
+      {
+        "id": "char_b",
+        "name": "Seller",
+        "role": "seller"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "I want to buy some fruit, please."
+      },
+      {
+        "character_id": "char_b",
+        "text": "The fruit is very fresh. I bought it this morning."
+      },
+      {
+        "character_id": "char_a",
+        "text": "How much is the mango?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "It is thirty thousand dong per kilo."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Okay, I will buy two kilos."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Here you are. Thank you!"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_003",
+    "movers_vocab_007",
+    "movers_vocab_053",
+    "movers_vocab_054",
+    "movers_vocab_256",
+    "movers_vocab_257",
+    "movers_vocab_258",
+    "movers_vocab_259",
+    "movers_vocab_260",
+    "movers_vocab_261",
+    "movers_vocab_262",
+    "movers_vocab_263",
+    "movers_vocab_264",
+    "movers_vocab_265",
+    "movers_vocab_266",
+    "movers_vocab_267",
+    "movers_vocab_268",
+    "movers_vocab_269"
+  ],
+  "grammar_ids": [
+    "movers_grammar_003",
+    "movers_grammar_005"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a plate of roasted chicken next to rice",
+          "correct_answer": "chicken"
+        },
+        {
+          "image_hint": "a basket of fresh apples, bananas, and oranges",
+          "correct_answer": "fruit"
+        },
+        {
+          "image_hint": "a pile of fresh mixed vegetables at a market stall",
+          "correct_answer": "vegetable"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "yesterday",
+            "school",
+            "I",
+            "to",
+            "went",
+            "."
+          ],
+          "correct_answer": "I went to school yesterday."
+        },
+        {
+          "words": [
+            "market",
+            "chicken",
+            "at",
+            "the",
+            ".",
+            "bought",
+            "I"
+          ],
+          "correct_answer": "I bought chicken at the market."
+        },
+        {
+          "words": [
+            "She",
+            ".",
+            "came",
+            "the",
+            "class",
+            "early",
+            "to"
+          ],
+          "correct_answer": "She came to the class early."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I went to school yesterday.",
+          "options": [
+            "I went to school yesterday.",
+            "She came to the class early.",
+            "I bought chicken at the market."
+          ],
+          "correct_answer": "I went to school yesterday."
+        },
+        {
+          "audio_text": "I bought chicken at the market.",
+          "options": [
+            "I bought chicken at the market.",
+            "She came to the class early.",
+            "I went to school yesterday."
+          ],
+          "correct_answer": "I bought chicken at the market."
+        },
+        {
+          "audio_text": "She came to the class early.",
+          "options": [
+            "I bought chicken at the market.",
+            "She came to the class early.",
+            "I went to school yesterday."
+          ],
+          "correct_answer": "She came to the class early."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ to school yesterday.",
+          "correct_answer": "went"
+        },
+        {
+          "prompt": "I ___ chicken at the market.",
+          "correct_answer": "bought"
+        },
+        {
+          "prompt": "She ___ to the class early.",
+          "correct_answer": "came"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a plate of roasted chicken next to rice). What is this?",
+          "options": [
+            "chicken",
+            "vegetable",
+            "fruit"
+          ],
+          "correct_answer": "chicken"
+        },
+        {
+          "prompt": "Look at the picture (a basket of fresh apples, bananas, and oranges). What is this?",
+          "options": [
+            "fruit",
+            "vegetable",
+            "chicken"
+          ],
+          "correct_answer": "fruit"
+        },
+        {
+          "prompt": "Look at the picture (a pile of fresh mixed vegetables at a market stall). What is this?",
+          "options": [
+            "vegetable",
+            "chicken",
+            "fruit"
+          ],
+          "correct_answer": "vegetable"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "seller",
+    "scenario": "Bargain with a buyer at the market stall.",
+    "opening_line": "Fresh vegetables here! Would you like to buy some?",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_003",
+        "movers_grammar_005"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_003",
+        "movers_vocab_007",
+        "movers_vocab_053"
+      ]
+    },
+    "success_criteria": "Learner asks for prices and negotiates politely."
+  }
+}

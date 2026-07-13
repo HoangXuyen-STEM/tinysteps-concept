@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TinySteps Vocabulary File",
+  "description": "Vocabulary data for one CEFR level",
+  "type": "object",
+  "required": ["level", "total_words", "words"],
+  "properties": {
+    "level": {
+      "type": "string",
+      "enum": ["starters", "movers", "flyers", "ket", "pet"]
+    },
+    "total_words": {
+      "type": "integer",
+      "description": "Total number of words in this file"
+    },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "word", "ipa", "pos", "topic_ids", "example_sentence", "image_hint"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(starters|movers|flyers|ket|pet)_vocab_\\d{3}$",
+            "description": "Unique ID. Format: {level}_vocab_{3-digit number}"
+          },
+          "word": {
+            "type": "string",
+            "description": "The English word or short phrase"
+          },
+          "ipa": {
+            "type": "string",
+            "description": "IPA pronunciation. Example: /ˈæp.əl/"
+          },
+          "pos": {
+            "type": "string",
+            "enum": ["noun", "verb", "adjective", "adverb", "preposition", "conjunction", "pronoun", "determiner", "interjection", "phrase"],
+            "description": "Part of speech"
+          },
+          "topic_ids": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "List of topic IDs this word belongs to. A word can belong to multiple topics."
+          },
+          "example_sentence": {
+            "type": "string",
+            "description": "A natural example sentence using this word, appropriate for the level"
+          },
+          "image_hint": {
+            "type": "string",
+            "description": "Short English description for image generation. Example: 'a red apple on a wooden table'"
+          },
+          "related_words": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Optional. IDs of related vocabulary items (synonyms, antonyms, same word family)"
+          },
+          "frequency_rank": {
+            "type": "integer",
+            "description": "Optional. Word frequency rank (lower = more common)"
+          }
+        }
+      }
+    }
+  },
+
+  "examples": [
+    {
+      "level": "starters",
+      "total_words": 2,
+      "words": [
+        {
+          "id": "starters_vocab_001",
+          "word": "hello",
+          "ipa": "/həˈləʊ/",
+          "pos": "interjection",
+          "topic_ids": ["topic_social", "topic_before_class"],
+          "example_sentence": "Hello! How are you today?",
+          "image_hint": "two people waving and smiling at each other",
+          "related_words": ["starters_vocab_002"],
+          "frequency_rank": 1
+        },
+        {
+          "id": "starters_vocab_002",
+          "word": "goodbye",
+          "ipa": "/ɡʊdˈbaɪ/",
+          "pos": "interjection",
+          "topic_ids": ["topic_social"],
+          "example_sentence": "Goodbye! See you tomorrow.",
+          "image_hint": "a person waving goodbye at a school gate",
+          "related_words": ["starters_vocab_001"],
+          "frequency_rank": 2
+        }
+      ]
+    }
+  ]
+}

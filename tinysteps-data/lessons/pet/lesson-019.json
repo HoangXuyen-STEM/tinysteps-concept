@@ -1,0 +1,257 @@
+{
+  "id": "pet_lesson_019",
+  "level": "pet",
+  "topic_id": "topic_market",
+  "order": 19,
+  "title": "At the market",
+  "scenario": "You are in a buyer role. Use English naturally in this market situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "Local market stall, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "buyer"
+      },
+      {
+        "id": "char_b",
+        "name": "Seller",
+        "role": "seller"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Could I see the price list for these items, please?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Of course. Here is today's price list."
+      },
+      {
+        "character_id": "char_a",
+        "text": "The price for organic vegetables is quite high."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I apologise, but the quality is excellent."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I always bargain at the market. Can we negotiate?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "If you buy five kilos, I will give you a ten percent discount."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That sounds fair. I will take five kilos."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. Here is your bill and your change."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_009",
+    "pet_vocab_016",
+    "pet_vocab_026",
+    "pet_vocab_037",
+    "pet_vocab_239",
+    "pet_vocab_240",
+    "pet_vocab_241",
+    "pet_vocab_242",
+    "pet_vocab_243",
+    "pet_vocab_244",
+    "pet_vocab_245",
+    "pet_vocab_246",
+    "pet_vocab_247",
+    "pet_vocab_248",
+    "pet_vocab_249",
+    "pet_vocab_250",
+    "pet_vocab_251"
+  ],
+  "grammar_ids": [
+    "pet_grammar_001"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a clean graphic illustration of a chicken",
+          "correct_answer": "chickens"
+        },
+        {
+          "image_hint": "a simple, clear colorful visualization of expensive",
+          "correct_answer": "expensive"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a refund",
+          "correct_answer": "refund"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "question",
+            "a",
+            "would",
+            "I",
+            "If",
+            ",",
+            "the",
+            "ask",
+            "I",
+            "had",
+            ".",
+            "teacher"
+          ],
+          "correct_answer": "If I had a question, I would ask the teacher."
+        },
+        {
+          "words": [
+            ",",
+            "understand",
+            "it",
+            "I",
+            "would",
+            "didn't",
+            "they",
+            "If",
+            ".",
+            "again",
+            "explain"
+          ],
+          "correct_answer": "If they didn't understand, I would explain it again."
+        },
+        {
+          "words": [
+            "price",
+            "the",
+            "were",
+            "I",
+            "would",
+            "lower",
+            "fruit",
+            "If",
+            ",",
+            "more",
+            ".",
+            "buy"
+          ],
+          "correct_answer": "If the price were lower, I would buy more fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "If I had a question, I would ask the teacher.",
+          "options": [
+            "If they didn't understand, I would explain it again.",
+            "If the price were lower, I would buy more fruit.",
+            "If I had a question, I would ask the teacher."
+          ],
+          "correct_answer": "If I had a question, I would ask the teacher."
+        },
+        {
+          "audio_text": "If they didn't understand, I would explain it again.",
+          "options": [
+            "If the price were lower, I would buy more fruit.",
+            "If they didn't understand, I would explain it again.",
+            "If I had a question, I would ask the teacher."
+          ],
+          "correct_answer": "If they didn't understand, I would explain it again."
+        },
+        {
+          "audio_text": "If the price were lower, I would buy more fruit.",
+          "options": [
+            "If they didn't understand, I would explain it again.",
+            "If I had a question, I would ask the teacher.",
+            "If the price were lower, I would buy more fruit."
+          ],
+          "correct_answer": "If the price were lower, I would buy more fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "If I had a question, I ___ ask the teacher.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "If they didn't understand, I ___ explain it again.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "If the price were lower, I ___ buy more fruit.",
+          "correct_answer": "would"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a chicken). What is this?",
+          "options": [
+            "chickens",
+            "expensive",
+            "refund"
+          ],
+          "correct_answer": "chickens"
+        },
+        {
+          "prompt": "Look at the picture (a simple, clear colorful visualization of expensive). What is this?",
+          "options": [
+            "refund",
+            "chickens",
+            "expensive"
+          ],
+          "correct_answer": "expensive"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a refund). What is this?",
+          "options": [
+            "expensive",
+            "chickens",
+            "refund"
+          ],
+          "correct_answer": "refund"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "seller",
+    "scenario": "Bargain with a buyer at the market stall.",
+    "opening_line": "Fresh vegetables here! Would you like to buy some?",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_001"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_009",
+        "pet_vocab_016",
+        "pet_vocab_026"
+      ]
+    },
+    "success_criteria": "Learner asks for prices and negotiates politely."
+  }
+}

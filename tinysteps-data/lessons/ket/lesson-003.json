@@ -1,0 +1,243 @@
+{
+  "id": "ket_lesson_003",
+  "level": "ket",
+  "topic_id": "topic_giving_instructions",
+  "order": 3,
+  "title": "Giving instructions",
+  "scenario": "You are in a teacher role. Use English naturally in this giving instructions situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "Classroom, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Linh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "An",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "You must follow the instructions carefully during the test."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Understood, teacher. Should we write our names on the paper?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, write your full name at the top of the page."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Could we use a dictionary for the reading section?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "No, this is a closed-book test. Please put it away."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If we make a mistake, should we cross it out neatly?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, draw one line through the wrong answer and rewrite."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you for the clear instructions."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_028",
+    "ket_vocab_029",
+    "ket_vocab_030",
+    "ket_vocab_031",
+    "ket_vocab_033",
+    "ket_vocab_034",
+    "ket_vocab_035",
+    "ket_vocab_036",
+    "ket_vocab_037",
+    "ket_vocab_038",
+    "ket_vocab_039",
+    "ket_vocab_040",
+    "ket_vocab_041",
+    "ket_vocab_042",
+    "ket_vocab_043",
+    "ket_vocab_044"
+  ],
+  "grammar_ids": [
+    "ket_grammar_002",
+    "ket_grammar_007"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a requirements list for a classroom task",
+          "correct_answer": "requirement"
+        },
+        {
+          "image_hint": "a teacher clarifying an instruction to a student",
+          "correct_answer": "clarify"
+        },
+        {
+          "image_hint": "a teacher underlining a key instruction on the board",
+          "correct_answer": "emphasise"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "you",
+            "good",
+            "?",
+            "a",
+            "Could",
+            "dish",
+            "recommend"
+          ],
+          "correct_answer": "Could you recommend a good dish?"
+        },
+        {
+          "words": [
+            "Could",
+            "you",
+            "schedule",
+            "my",
+            "?",
+            "check"
+          ],
+          "correct_answer": "Could you check my schedule?"
+        },
+        {
+          "words": [
+            "together",
+            "we",
+            "mistakes",
+            "correct",
+            "?",
+            "the",
+            "Could"
+          ],
+          "correct_answer": "Could we correct the mistakes together?"
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Could you recommend a good dish?",
+          "options": [
+            "Could we correct the mistakes together?",
+            "Could you check my schedule?",
+            "Could you recommend a good dish?"
+          ],
+          "correct_answer": "Could you recommend a good dish?"
+        },
+        {
+          "audio_text": "Could you check my schedule?",
+          "options": [
+            "Could you check my schedule?",
+            "Could we correct the mistakes together?",
+            "Could you recommend a good dish?"
+          ],
+          "correct_answer": "Could you check my schedule?"
+        },
+        {
+          "audio_text": "Could we correct the mistakes together?",
+          "options": [
+            "Could you check my schedule?",
+            "Could we correct the mistakes together?",
+            "Could you recommend a good dish?"
+          ],
+          "correct_answer": "Could we correct the mistakes together?"
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ you recommend a good dish?",
+          "correct_answer": "Could"
+        },
+        {
+          "prompt": "___ you check my schedule?",
+          "correct_answer": "Could"
+        },
+        {
+          "prompt": "___ we correct the mistakes together?",
+          "correct_answer": "Could"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a requirements list for a classroom task). What is this?",
+          "options": [
+            "emphasise",
+            "requirement",
+            "clarify"
+          ],
+          "correct_answer": "requirement"
+        },
+        {
+          "prompt": "Look at the picture (a teacher clarifying an instruction to a student). What is this?",
+          "options": [
+            "emphasise",
+            "clarify",
+            "requirement"
+          ],
+          "correct_answer": "clarify"
+        },
+        {
+          "prompt": "Look at the picture (a teacher underlining a key instruction on the board). What is this?",
+          "options": [
+            "clarify",
+            "requirement",
+            "emphasise"
+          ],
+          "correct_answer": "emphasise"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Ask for clarification about task instructions.",
+    "opening_line": "Teacher, should we open our books or start writing?",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_002",
+        "ket_grammar_007"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_028",
+        "ket_vocab_029",
+        "ket_vocab_030"
+      ]
+    },
+    "success_criteria": "Learner gives clear, polite instructions using imperatives or modal verbs."
+  }
+}

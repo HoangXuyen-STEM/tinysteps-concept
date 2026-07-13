@@ -1,0 +1,6013 @@
+{
+  "level": "pet",
+  "total_words": 500,
+  "words": [
+    {
+      "id": "pet_vocab_001",
+      "word": "procedure",
+      "ipa": "/prəˈsiː.dʒər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_before_class"
+      ],
+      "example_sentence": "Let me explain the safety procedure.",
+      "image_hint": "a step-by-step flowchart diagram on school safety",
+      "frequency_rank": 1
+    },
+    {
+      "id": "pet_vocab_002",
+      "word": "vegetarian",
+      "ipa": "/ˌvedʒ.ɪˈteə.ri.ən/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_restaurant",
+        "topic_health"
+      ],
+      "example_sentence": "Do you have any vegetarian options?",
+      "image_hint": "a green leaf logo with the letter V on a salad bowl",
+      "frequency_rank": 4
+    },
+    {
+      "id": "pet_vocab_003",
+      "word": "reservation",
+      "ipa": "/ˌrez.əˈveɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant",
+        "topic_travel"
+      ],
+      "example_sentence": "I want to make a dinner reservation.",
+      "image_hint": "a 'Reserved' tent card sitting on an elegant restaurant table",
+      "frequency_rank": 5
+    },
+    {
+      "id": "pet_vocab_004",
+      "word": "delay",
+      "ipa": "/dɪˈleɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel",
+        "topic_school_communication"
+      ],
+      "example_sentence": "I am sorry for the delay.",
+      "image_hint": "a departure board showing 'DELAYED' next to flights",
+      "frequency_rank": 6
+    },
+    {
+      "id": "pet_vocab_005",
+      "word": "prescription",
+      "ipa": "/prɪˈskrɪp.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The doctor wrote a prescription.",
+      "image_hint": "a medical paper sheet with prescription details and stamp",
+      "frequency_rank": 8
+    },
+    {
+      "id": "pet_vocab_006",
+      "word": "apologize",
+      "ipa": "/əˈpɒl.ə.dʒaɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication",
+        "topic_social"
+      ],
+      "example_sentence": "I apologize for my mistake.",
+      "image_hint": "a person holding their hands together showing a sorry face",
+      "frequency_rank": 9
+    },
+    {
+      "id": "pet_vocab_007",
+      "word": "furthermore",
+      "ipa": "/ˌfɜː.ðəˈmɔːr/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_school_communication",
+        "topic_social"
+      ],
+      "example_sentence": "Furthermore, the lesson was very useful.",
+      "image_hint": "an arrow pointing to additional detail cards",
+      "frequency_rank": 10
+    },
+    {
+      "id": "pet_vocab_008",
+      "word": "recommendation",
+      "ipa": "/ˌrek.ə.menˈdeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication",
+        "topic_restaurant"
+      ],
+      "example_sentence": "I followed your recommendation.",
+      "image_hint": "a letter with five stars stamped at the top",
+      "frequency_rank": 13
+    },
+    {
+      "id": "pet_vocab_009",
+      "word": "chickens",
+      "ipa": "/ˈtʃɪk.ɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If the market price were lower, chickens.",
+      "image_hint": "a clean graphic illustration of a chicken",
+      "frequency_rank": 56
+    },
+    {
+      "id": "pet_vocab_010",
+      "word": "train",
+      "ipa": "/treɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The reservation should be confirmed for train.",
+      "image_hint": "a clean graphic illustration of a train",
+      "frequency_rank": 58
+    },
+    {
+      "id": "pet_vocab_011",
+      "word": "say",
+      "ipa": "/seɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "I called to apologize for say delay.",
+      "image_hint": "an action illustration showing a person to say",
+      "frequency_rank": 59
+    },
+    {
+      "id": "pet_vocab_012",
+      "word": "warm",
+      "ipa": "/wɔːm/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I wish I apologized to my warm yesterday.",
+      "image_hint": "a simple, clear colorful visualization of warm",
+      "frequency_rank": 61
+    },
+    {
+      "id": "pet_vocab_013",
+      "word": "timetable",
+      "ipa": "/ˈtaɪm.teɪ.bəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "The safety procedure must be followed by timetable.",
+      "image_hint": "a clean graphic illustration of a timetable",
+      "frequency_rank": 62
+    },
+    {
+      "id": "pet_vocab_014",
+      "word": "should",
+      "ipa": "/ʃʊd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Let me explain the should procedure clearly.",
+      "image_hint": "an action illustration showing a person to should",
+      "frequency_rank": 64
+    },
+    {
+      "id": "pet_vocab_015",
+      "word": "ask",
+      "ipa": "/ɑːsk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If they didn't understand, I would ask.",
+      "image_hint": "an action illustration showing a person to ask",
+      "frequency_rank": 65
+    },
+    {
+      "id": "pet_vocab_016",
+      "word": "expensive",
+      "ipa": "/ɪkˈspen.sɪv/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I wish the expensive at the market were lower.",
+      "image_hint": "a simple, clear colorful visualization of expensive",
+      "frequency_rank": 68
+    },
+    {
+      "id": "pet_vocab_017",
+      "word": "chair",
+      "ipa": "/tʃeər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Do you have any vegetarian chair options?",
+      "image_hint": "a clean graphic illustration of a chair",
+      "frequency_rank": 69
+    },
+    {
+      "id": "pet_vocab_018",
+      "word": "station",
+      "ipa": "/ˈsteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The station reservation should be confirmed.",
+      "image_hint": "a clean graphic illustration of a station",
+      "frequency_rank": 70
+    },
+    {
+      "id": "pet_vocab_019",
+      "word": "dial",
+      "ipa": "/ˈdaɪ.əl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "The parent has been waiting on dial.",
+      "image_hint": "an action illustration showing a person to dial",
+      "frequency_rank": 71
+    },
+    {
+      "id": "pet_vocab_020",
+      "word": "health",
+      "ipa": "/helθ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The doctor said that I needed health.",
+      "image_hint": "a clean graphic illustration of a health",
+      "frequency_rank": 72
+    },
+    {
+      "id": "pet_vocab_021",
+      "word": "board",
+      "ipa": "/bɔːd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Let me explain the prep board procedure.",
+      "image_hint": "a clean graphic illustration of a board",
+      "frequency_rank": 74
+    },
+    {
+      "id": "pet_vocab_022",
+      "word": "attention",
+      "ipa": "/əˈten.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The safety attention must be followed carefully.",
+      "image_hint": "a clean graphic illustration of a attention",
+      "frequency_rank": 76
+    },
+    {
+      "id": "pet_vocab_023",
+      "word": "definition",
+      "ipa": "/ˌdef.ɪˈnɪʃ.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "The feedback could be improved with definition.",
+      "image_hint": "a clean graphic illustration of a definition",
+      "frequency_rank": 77
+    },
+    {
+      "id": "pet_vocab_024",
+      "word": "perfect",
+      "ipa": "/ˈpɜː.fekt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "I apology for the perfect in my correction.",
+      "image_hint": "a simple, clear colorful visualization of perfect",
+      "frequency_rank": 78
+    },
+    {
+      "id": "pet_vocab_025",
+      "word": "feedback",
+      "ipa": "/ˈfiːd.bæk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "We had a long feedback about school policy.",
+      "image_hint": "a clean graphic illustration of a feedback",
+      "frequency_rank": 79
+    },
+    {
+      "id": "pet_vocab_026",
+      "word": "refund",
+      "ipa": "/ˈriː.fʌnd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If the price were lower, I'd refund.",
+      "image_hint": "a clean graphic illustration of a refund",
+      "frequency_rank": 80
+    },
+    {
+      "id": "pet_vocab_027",
+      "word": "service",
+      "ipa": "/ˈsɜː.vɪs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "She wishes she had a vegetarian service.",
+      "image_hint": "a clean graphic illustration of a service",
+      "frequency_rank": 81
+    },
+    {
+      "id": "pet_vocab_028",
+      "word": "find",
+      "ipa": "/faɪnd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The ticket can be bought at the find.",
+      "image_hint": "an action illustration showing a person to find",
+      "frequency_rank": 82
+    },
+    {
+      "id": "pet_vocab_029",
+      "word": "button",
+      "ipa": "/ˈbʌt.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If the colleague called, I would button.",
+      "image_hint": "a clean graphic illustration of a button",
+      "frequency_rank": 83
+    },
+    {
+      "id": "pet_vocab_030",
+      "word": "bleed",
+      "ipa": "/bliːd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Describe your medical bleed clearly.",
+      "image_hint": "an action illustration showing a person to bleed",
+      "frequency_rank": 84
+    },
+    {
+      "id": "pet_vocab_031",
+      "word": "play",
+      "ipa": "/pleɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "If I had time, I'd try play.",
+      "image_hint": "an action illustration showing a person to play",
+      "frequency_rank": 85
+    },
+    {
+      "id": "pet_vocab_032",
+      "word": "gate",
+      "ipa": "/ɡeɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "We've been preparing this gate since morning.",
+      "image_hint": "a clean graphic illustration of a gate",
+      "frequency_rank": 86
+    },
+    {
+      "id": "pet_vocab_033",
+      "word": "grammar",
+      "ipa": "/ˈɡræm.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The lesson plans could be improved grammar.",
+      "image_hint": "a clean graphic illustration of a grammar",
+      "frequency_rank": 87
+    },
+    {
+      "id": "pet_vocab_034",
+      "word": "underline",
+      "ipa": "/ˌʌn.dəˈlaɪn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I wish the underline were more detailed.",
+      "image_hint": "an action illustration showing a person to underline",
+      "frequency_rank": 88
+    },
+    {
+      "id": "pet_vocab_035",
+      "word": "better",
+      "ipa": "/ˈbet.ər/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "I apologize for making a better mistake.",
+      "image_hint": "a simple, clear colorful visualization of better",
+      "frequency_rank": 90
+    },
+    {
+      "id": "pet_vocab_036",
+      "word": "share",
+      "ipa": "/ʃeər/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Furthermore, the share was very useful.",
+      "image_hint": "an action illustration showing a person to share",
+      "frequency_rank": 91
+    },
+    {
+      "id": "pet_vocab_037",
+      "word": "weight",
+      "ipa": "/weɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "They complained about the weight at the market.",
+      "image_hint": "a clean graphic illustration of a weight",
+      "frequency_rank": 92
+    },
+    {
+      "id": "pet_vocab_038",
+      "word": "restaurant",
+      "ipa": "/ˈres.trɒnt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "She said she preferred vegetarian restaurant.",
+      "image_hint": "a clean graphic illustration of a restaurant",
+      "frequency_rank": 93
+    },
+    {
+      "id": "pet_vocab_039",
+      "word": "go",
+      "ipa": "/ɡəʊ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I am sorry for the flight go.",
+      "image_hint": "an action illustration showing a person to go",
+      "frequency_rank": 94
+    },
+    {
+      "id": "pet_vocab_040",
+      "word": "speak",
+      "ipa": "/spiːk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If they called, I would answer speak.",
+      "image_hint": "an action illustration showing a person to speak",
+      "frequency_rank": 95
+    },
+    {
+      "id": "pet_vocab_041",
+      "word": "meet",
+      "ipa": "/miːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "On the other hand, the meet was nice.",
+      "image_hint": "an action illustration showing a person to meet",
+      "frequency_rank": 97
+    },
+    {
+      "id": "pet_vocab_042",
+      "word": "schedules",
+      "ipa": "/ˈʃed.juːl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I wish the safety schedules were simpler.",
+      "image_hint": "a clean graphic illustration of a schedule",
+      "frequency_rank": 98
+    },
+    {
+      "id": "pet_vocab_043",
+      "word": "explaining",
+      "ipa": "/ɪkˈspleɪn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "You should try to improve your explaining.",
+      "image_hint": "an action illustration showing a person to explain",
+      "frequency_rank": 99
+    },
+    {
+      "id": "pet_vocab_044",
+      "word": "stand",
+      "ipa": "/stænd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The stand should be done by Friday.",
+      "image_hint": "an action illustration showing a person to stand",
+      "frequency_rank": 100
+    },
+    {
+      "id": "pet_vocab_045",
+      "word": "star",
+      "ipa": "/stɑːr/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "The feedback could be improved with star.",
+      "image_hint": "a clean graphic illustration of a star",
+      "frequency_rank": 102
+    },
+    {
+      "id": "pet_vocab_046",
+      "word": "apologizing",
+      "ipa": "/əˈpɒl.ə.dʒaɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "If I had time, I would apologizing more.",
+      "image_hint": "an action illustration showing a person to apologizeing",
+      "frequency_rank": 103
+    },
+    {
+      "id": "pet_vocab_047",
+      "word": "dong",
+      "ipa": "/dɒŋ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I made a complaint about dong prices.",
+      "image_hint": "a clean graphic illustration of a dong",
+      "frequency_rank": 104
+    },
+    {
+      "id": "pet_vocab_048",
+      "word": "thirsty",
+      "ipa": "/ˈθɜː.sti/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I want to make a dinner thirsty.",
+      "image_hint": "a simple, clear colorful visualization of thirsty",
+      "frequency_rank": 105
+    },
+    {
+      "id": "pet_vocab_049",
+      "word": "passport",
+      "ipa": "/ˈpɑː.spɔːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Despite the passport, we arrived on time.",
+      "image_hint": "a clean graphic illustration of a passport",
+      "frequency_rank": 106
+    },
+    {
+      "id": "pet_vocab_050",
+      "word": "signal",
+      "ipa": "/ˈsɪɡ.nəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "He said that he was waiting for signal.",
+      "image_hint": "a clean graphic illustration of a signal",
+      "frequency_rank": 107
+    },
+    {
+      "id": "pet_vocab_051",
+      "word": "pain",
+      "ipa": "/peɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The medicine should be taken after pain.",
+      "image_hint": "a clean graphic illustration of a pain",
+      "frequency_rank": 108
+    },
+    {
+      "id": "pet_vocab_052",
+      "word": "folder",
+      "ipa": "/ˈfəʊl.dər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "The folder was discussed with my colleague.",
+      "image_hint": "a clean graphic illustration of a folder",
+      "frequency_rank": 110
+    },
+    {
+      "id": "pet_vocab_053",
+      "word": "activity",
+      "ipa": "/ækˈtɪv.ə.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I wish I could improve my activity faster.",
+      "image_hint": "a clean graphic illustration of a activity",
+      "frequency_rank": 111
+    },
+    {
+      "id": "pet_vocab_054",
+      "word": "process",
+      "ipa": "/ˈprəʊ.ses/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The instructions should be explained in process.",
+      "image_hint": "a clean graphic illustration of a process",
+      "frequency_rank": 112
+    },
+    {
+      "id": "pet_vocab_055",
+      "word": "follow",
+      "ipa": "/ˈfɒl.əʊ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If they didn't understand, I'd check follow.",
+      "image_hint": "an action illustration showing a person to follow",
+      "frequency_rank": 113
+    },
+    {
+      "id": "pet_vocab_056",
+      "word": "encouragement",
+      "ipa": "/ɪnˈkʌr.ɪdʒ.mənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "You should try to improve your encouragement.",
+      "image_hint": "a clean graphic illustration of a encouragement",
+      "frequency_rank": 114
+    },
+    {
+      "id": "pet_vocab_057",
+      "word": "headteacher",
+      "ipa": "/hedˈtiː.tʃər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "I apologize for the delay in headteacher.",
+      "image_hint": "a clean graphic illustration of a headteacher",
+      "frequency_rank": 115
+    },
+    {
+      "id": "pet_vocab_058",
+      "word": "vendor",
+      "ipa": "/ˈven.dər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If the market price were lower, vendor.",
+      "image_hint": "a clean graphic illustration of a vendor",
+      "frequency_rank": 116
+    },
+    {
+      "id": "pet_vocab_059",
+      "word": "salad",
+      "ipa": "/ˈsæl.əd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "The reservation should be confirmed before salad.",
+      "image_hint": "a clean graphic illustration of a salad",
+      "frequency_rank": 117
+    },
+    {
+      "id": "pet_vocab_060",
+      "word": "tickets",
+      "ipa": "/ˈtɪk.ɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The reservation should be confirmed for tickets.",
+      "image_hint": "a clean graphic illustration of a ticket",
+      "frequency_rank": 118
+    },
+    {
+      "id": "pet_vocab_061",
+      "word": "nurse",
+      "ipa": "/nɜːs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The doctor wrote a medical nurse.",
+      "image_hint": "a clean graphic illustration of a nurse",
+      "frequency_rank": 120
+    },
+    {
+      "id": "pet_vocab_062",
+      "word": "hobbys",
+      "ipa": "/ˈhɒb.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I wish I apologized to my hobbys yesterday.",
+      "image_hint": "a clean graphic illustration of a hobby",
+      "frequency_rank": 121
+    },
+    {
+      "id": "pet_vocab_063",
+      "word": "staff",
+      "ipa": "/stɑːf/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "The safety procedure must be followed by staff.",
+      "image_hint": "a clean graphic illustration of a staff",
+      "frequency_rank": 122
+    },
+    {
+      "id": "pet_vocab_064",
+      "word": "sentence",
+      "ipa": "/ˈsen.təns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If they didn't understand, I would sentence.",
+      "image_hint": "a clean graphic illustration of a sentence",
+      "frequency_rank": 123
+    },
+    {
+      "id": "pet_vocab_065",
+      "word": "match",
+      "ipa": "/mætʃ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Let me explain the match procedure clearly.",
+      "image_hint": "an action illustration showing a person to match",
+      "frequency_rank": 124
+    },
+    {
+      "id": "pet_vocab_066",
+      "word": "confused",
+      "ipa": "/kənˈfjuːzd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If they didn't understand, I would confused.",
+      "image_hint": "a simple, clear colorful visualization of confused",
+      "frequency_rank": 125
+    },
+    {
+      "id": "pet_vocab_067",
+      "word": "careful",
+      "ipa": "/ˈkeə.fəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "I wish you didn't make that careful.",
+      "image_hint": "a simple, clear colorful visualization of careful",
+      "frequency_rank": 126
+    },
+    {
+      "id": "pet_vocab_068",
+      "word": "party",
+      "ipa": "/ˈpɑː.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "They have been complaining about the party.",
+      "image_hint": "a clean graphic illustration of a party",
+      "frequency_rank": 127
+    },
+    {
+      "id": "pet_vocab_069",
+      "word": "healthy",
+      "ipa": "/ˈhel.θi/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I wish the healthy at the market were lower.",
+      "image_hint": "a simple, clear colorful visualization of healthy",
+      "frequency_rank": 128
+    },
+    {
+      "id": "pet_vocab_070",
+      "word": "salt",
+      "ipa": "/sɒlt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Do you have any vegetarian salt options?",
+      "image_hint": "a clean graphic illustration of a salt",
+      "frequency_rank": 129
+    },
+    {
+      "id": "pet_vocab_071",
+      "word": "fly",
+      "ipa": "/flaɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The fly reservation should be confirmed.",
+      "image_hint": "an action illustration showing a person to fly",
+      "frequency_rank": 130
+    },
+    {
+      "id": "pet_vocab_072",
+      "word": "teachers",
+      "ipa": "/ˈtiː.tʃər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "The parent has been waiting on teachers.",
+      "image_hint": "a clean graphic illustration of a teacher",
+      "frequency_rank": 131
+    },
+    {
+      "id": "pet_vocab_073",
+      "word": "relax",
+      "ipa": "/rɪˈlæks/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The doctor said that I needed relax.",
+      "image_hint": "an action illustration showing a person to relax",
+      "frequency_rank": 132
+    },
+    {
+      "id": "pet_vocab_074",
+      "word": "arrive",
+      "ipa": "/əˈraɪv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Let me explain the prep arrive procedure.",
+      "image_hint": "an action illustration showing a person to arrive",
+      "frequency_rank": 134
+    },
+    {
+      "id": "pet_vocab_075",
+      "word": "cleaning",
+      "ipa": "/kliːn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If I had a question, I would cleaning.",
+      "image_hint": "an action illustration showing a person to clean",
+      "frequency_rank": 135
+    },
+    {
+      "id": "pet_vocab_076",
+      "word": "following",
+      "ipa": "/ˈfɒl.əʊ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The safety following must be followed carefully.",
+      "image_hint": "an action illustration showing a person to following",
+      "frequency_rank": 136
+    },
+    {
+      "id": "pet_vocab_077",
+      "word": "want",
+      "ipa": "/wɒnt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If the price were lower, I'd want.",
+      "image_hint": "an action illustration showing a person to want",
+      "frequency_rank": 140
+    },
+    {
+      "id": "pet_vocab_078",
+      "word": "fish",
+      "ipa": "/fɪʃ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "She wishes she had a vegetarian fish.",
+      "image_hint": "a clean graphic illustration of a fish",
+      "frequency_rank": 141
+    },
+    {
+      "id": "pet_vocab_079",
+      "word": "map",
+      "ipa": "/mæp/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The ticket can be bought at the map.",
+      "image_hint": "a clean graphic illustration of a map",
+      "frequency_rank": 142
+    },
+    {
+      "id": "pet_vocab_080",
+      "word": "headaches",
+      "ipa": "/ˈhedeɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Describe your medical headaches clearly.",
+      "image_hint": "a clean graphic illustration of a headache",
+      "frequency_rank": 144
+    },
+    {
+      "id": "pet_vocab_081",
+      "word": "run",
+      "ipa": "/rân/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "If I had time, I'd try run.",
+      "image_hint": "an action illustration showing a person to run",
+      "frequency_rank": 145
+    },
+    {
+      "id": "pet_vocab_082",
+      "word": "listening",
+      "ipa": "/ˈlɪs.ən.ɪŋ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The lesson plans could be improved listening.",
+      "image_hint": "a clean graphic illustration of a listening",
+      "frequency_rank": 147
+    },
+    {
+      "id": "pet_vocab_083",
+      "word": "exam",
+      "ipa": "/ɪɡˈzæm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "You should try to improve your exam.",
+      "image_hint": "a clean graphic illustration of a exam",
+      "frequency_rank": 149
+    },
+    {
+      "id": "pet_vocab_084",
+      "word": "document",
+      "ipa": "/ˈdɒk.jʊ.mənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "I apologize for the delay in document.",
+      "image_hint": "a clean graphic illustration of a document",
+      "frequency_rank": 150
+    },
+    {
+      "id": "pet_vocab_085",
+      "word": "list",
+      "ipa": "/lɪst/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If the market price were lower, list.",
+      "image_hint": "a clean graphic illustration of a list",
+      "frequency_rank": 151
+    },
+    {
+      "id": "pet_vocab_086",
+      "word": "prefering",
+      "ipa": "/prɪˈfɜːr/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "The reservation should be confirmed before prefering.",
+      "image_hint": "an action illustration showing a person to prefer",
+      "frequency_rank": 152
+    },
+    {
+      "id": "pet_vocab_087",
+      "word": "hotel",
+      "ipa": "/həʊˈtel/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The reservation should be confirmed for hotel.",
+      "image_hint": "a clean graphic illustration of a hotel",
+      "frequency_rank": 153
+    },
+    {
+      "id": "pet_vocab_088",
+      "word": "ring",
+      "ipa": "/rɪŋ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "I called to apologize for ring delay.",
+      "image_hint": "an action illustration showing a person to ring",
+      "frequency_rank": 154
+    },
+    {
+      "id": "pet_vocab_089",
+      "word": "sleeping",
+      "ipa": "/sliːp/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The doctor wrote a medical sleeping.",
+      "image_hint": "an action illustration showing a person to sleep",
+      "frequency_rank": 155
+    },
+    {
+      "id": "pet_vocab_090",
+      "word": "chat",
+      "ipa": "/tʃæt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I wish I apologized to my chat yesterday.",
+      "image_hint": "an action illustration showing a person to chat",
+      "frequency_rank": 156
+    },
+    {
+      "id": "pet_vocab_091",
+      "word": "prompt",
+      "ipa": "/prɒmpt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "The safety procedure must be followed by prompt.",
+      "image_hint": "a simple, clear colorful visualization of prompt",
+      "frequency_rank": 157
+    },
+    {
+      "id": "pet_vocab_092",
+      "word": "pencil",
+      "ipa": "/ˈpen.səl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If they didn't understand, I would pencil.",
+      "image_hint": "a clean graphic illustration of a pencil",
+      "frequency_rank": 158
+    },
+    {
+      "id": "pet_vocab_093",
+      "word": "copy",
+      "ipa": "/ˈkɒp.i/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Let me explain the copy procedure clearly.",
+      "image_hint": "an action illustration showing a person to copy",
+      "frequency_rank": 159
+    },
+    {
+      "id": "pet_vocab_094",
+      "word": "false",
+      "ipa": "/fɒls/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If they didn't understand, I would false.",
+      "image_hint": "a simple, clear colorful visualization of false",
+      "frequency_rank": 160
+    },
+    {
+      "id": "pet_vocab_095",
+      "word": "point",
+      "ipa": "/pɔɪnt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "I wish you didn't make that point.",
+      "image_hint": "a clean graphic illustration of a point",
+      "frequency_rank": 161
+    },
+    {
+      "id": "pet_vocab_096",
+      "word": "absence",
+      "ipa": "/ˈæb.səns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "They have been complaining about the absence.",
+      "image_hint": "a clean graphic illustration of a absence",
+      "frequency_rank": 162
+    },
+    {
+      "id": "pet_vocab_097",
+      "word": "seller",
+      "ipa": "/ˈsel.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I wish the seller at the market were lower.",
+      "image_hint": "a clean graphic illustration of a seller",
+      "frequency_rank": 163
+    },
+    {
+      "id": "pet_vocab_098",
+      "word": "plate",
+      "ipa": "/pleɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Do you have any vegetarian plate options?",
+      "image_hint": "a clean graphic illustration of a plate",
+      "frequency_rank": 164
+    },
+    {
+      "id": "pet_vocab_099",
+      "word": "right",
+      "ipa": "/raɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The right reservation should be confirmed.",
+      "image_hint": "a clean graphic illustration of a right",
+      "frequency_rank": 165
+    },
+    {
+      "id": "pet_vocab_100",
+      "word": "diet",
+      "ipa": "/ˈdaɪ.ət/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I need to have my diet checked.",
+      "image_hint": "a clean graphic illustration of a diet",
+      "frequency_rank": 166
+    },
+    {
+      "id": "pet_vocab_101",
+      "word": "laugh",
+      "ipa": "/lɑːf/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "On the other hand, the laugh was nice.",
+      "image_hint": "an action illustration showing a person to laugh",
+      "frequency_rank": 167
+    },
+    {
+      "id": "pet_vocab_102",
+      "word": "print",
+      "ipa": "/prɪnt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I wish the safety print were simpler.",
+      "image_hint": "an action illustration showing a person to print",
+      "frequency_rank": 168
+    },
+    {
+      "id": "pet_vocab_103",
+      "word": "grade",
+      "ipa": "/ɡreɪd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "You should try to improve your grade.",
+      "image_hint": "a clean graphic illustration of a grade",
+      "frequency_rank": 169
+    },
+    {
+      "id": "pet_vocab_104",
+      "word": "page",
+      "ipa": "/peɪdʒ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The page should be done by Friday.",
+      "image_hint": "a clean graphic illustration of a page",
+      "frequency_rank": 170
+    },
+    {
+      "id": "pet_vocab_105",
+      "word": "check",
+      "ipa": "/tʃek/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I wish you didn't make that check mistake.",
+      "image_hint": "an action illustration showing a person to check",
+      "frequency_rank": 171
+    },
+    {
+      "id": "pet_vocab_106",
+      "word": "saying",
+      "ipa": "/seɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If they called, I would answer saying.",
+      "image_hint": "an action illustration showing a person to saying",
+      "frequency_rank": 175
+    },
+    {
+      "id": "pet_vocab_107",
+      "word": "shoulding",
+      "ipa": "/ʃʊd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Let me explain the shoulding procedure clearly.",
+      "image_hint": "an action illustration showing a person to shoulding",
+      "frequency_rank": 179
+    },
+    {
+      "id": "pet_vocab_108",
+      "word": "dialing",
+      "ipa": "/ˈdaɪ.əl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If they called, I would answer dialing.",
+      "image_hint": "an action illustration showing a person to dialing",
+      "frequency_rank": 185
+    },
+    {
+      "id": "pet_vocab_109",
+      "word": "finding",
+      "ipa": "/faɪnd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The ticket can be bought at the finding.",
+      "image_hint": "an action illustration showing a person to finding",
+      "frequency_rank": 192
+    },
+    {
+      "id": "pet_vocab_110",
+      "word": "playing",
+      "ipa": "/pleɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "If I had time, I'd try playing.",
+      "image_hint": "an action illustration showing a person to playing",
+      "frequency_rank": 195
+    },
+    {
+      "id": "pet_vocab_111",
+      "word": "underlining",
+      "ipa": "/ˌʌn.dəˈlaɪn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "If I had time, I would underlining more.",
+      "image_hint": "an action illustration showing a person to underlineing",
+      "frequency_rank": 198
+    },
+    {
+      "id": "pet_vocab_112",
+      "word": "sharing",
+      "ipa": "/ʃeər/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "If I had time, I would sharing more.",
+      "image_hint": "an action illustration showing a person to shareing",
+      "frequency_rank": 201
+    },
+    {
+      "id": "pet_vocab_113",
+      "word": "going",
+      "ipa": "/ɡəʊ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I am sorry for the flight going.",
+      "image_hint": "an action illustration showing a person to going",
+      "frequency_rank": 204
+    },
+    {
+      "id": "pet_vocab_114",
+      "word": "speaking",
+      "ipa": "/spiːk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If they called, I would answer speaking.",
+      "image_hint": "an action illustration showing a person to speaking",
+      "frequency_rank": 205
+    },
+    {
+      "id": "pet_vocab_115",
+      "word": "standing",
+      "ipa": "/stænd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I wish the standing were more detailed.",
+      "image_hint": "an action illustration showing a person to standing",
+      "frequency_rank": 208
+    },
+    {
+      "id": "pet_vocab_116",
+      "word": "matching",
+      "ipa": "/mætʃ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I wish the matching were more detailed.",
+      "image_hint": "an action illustration showing a person to matching",
+      "frequency_rank": 228
+    },
+    {
+      "id": "pet_vocab_117",
+      "word": "flying",
+      "ipa": "/flaɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I am sorry for the flight flying.",
+      "image_hint": "an action illustration showing a person to flying",
+      "frequency_rank": 234
+    },
+    {
+      "id": "pet_vocab_118",
+      "word": "relaxing",
+      "ipa": "/rɪˈlæks/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I need to have my relaxing checked.",
+      "image_hint": "an action illustration showing a person to relaxing",
+      "frequency_rank": 236
+    },
+    {
+      "id": "pet_vocab_119",
+      "word": "arriving",
+      "ipa": "/əˈraɪv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "If I had time, I would arriving more.",
+      "image_hint": "an action illustration showing a person to arriveing",
+      "frequency_rank": 238
+    },
+    {
+      "id": "pet_vocab_120",
+      "word": "wanting",
+      "ipa": "/wɒnt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If the market price were lower, wanting.",
+      "image_hint": "an action illustration showing a person to wanting",
+      "frequency_rank": 241
+    },
+    {
+      "id": "pet_vocab_121",
+      "word": "runing",
+      "ipa": "/rân/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I wish I apologized to my runing yesterday.",
+      "image_hint": "an action illustration showing a person to runing",
+      "frequency_rank": 246
+    },
+    {
+      "id": "pet_vocab_122",
+      "word": "chating",
+      "ipa": "/tʃæt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I wish I apologized to my chating yesterday.",
+      "image_hint": "an action illustration showing a person to chating",
+      "frequency_rank": 256
+    },
+    {
+      "id": "pet_vocab_123",
+      "word": "copying",
+      "ipa": "/ˈkɒp.i/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Let me explain the copying procedure clearly.",
+      "image_hint": "an action illustration showing a person to copying",
+      "frequency_rank": 259
+    },
+    {
+      "id": "pet_vocab_124",
+      "word": "laughing",
+      "ipa": "/lɑːf/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "On the other hand, the laughing was nice.",
+      "image_hint": "an action illustration showing a person to laughing",
+      "frequency_rank": 267
+    },
+    {
+      "id": "pet_vocab_125",
+      "word": "printing",
+      "ipa": "/prɪnt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I wish the safety printing were simpler.",
+      "image_hint": "an action illustration showing a person to printing",
+      "frequency_rank": 268
+    },
+    {
+      "id": "pet_vocab_126",
+      "word": "checking",
+      "ipa": "/tʃek/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I wish you didn't make that checking mistake.",
+      "image_hint": "an action illustration showing a person to checking",
+      "frequency_rank": 271
+    },
+    {
+      "id": "pet_vocab_127",
+      "word": "methodology",
+      "ipa": "/ˌmeθ.əˈdɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Study the methodology.",
+      "image_hint": "a textbook open to a teaching methodology chapter",
+      "frequency_rank": 127
+    },
+    {
+      "id": "pet_vocab_128",
+      "word": "curriculum",
+      "ipa": "/kəˈrɪk.jʊ.ləm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Review the curriculum.",
+      "image_hint": "a structured curriculum document on a teacher's desk",
+      "frequency_rank": 128
+    },
+    {
+      "id": "pet_vocab_129",
+      "word": "assessment",
+      "ipa": "/əˈses.mənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Prepare the assessment.",
+      "image_hint": "a teacher assessing student work against criteria",
+      "frequency_rank": 129
+    },
+    {
+      "id": "pet_vocab_130",
+      "word": "autonomy",
+      "ipa": "/ɔːˈtɒn.ə.mi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Encourage autonomy.",
+      "image_hint": "a self-directed learner working independently",
+      "frequency_rank": 130
+    },
+    {
+      "id": "pet_vocab_131",
+      "word": "scaffolding",
+      "ipa": "/ˈskæf.əl.dɪŋ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Use scaffolding.",
+      "image_hint": "a teacher providing a scaffolded writing template",
+      "frequency_rank": 131
+    },
+    {
+      "id": "pet_vocab_132",
+      "word": "differentiation",
+      "ipa": "/ˌdɪf.ər.en.ʃiˈeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Apply differentiation.",
+      "image_hint": "different task levels provided for students",
+      "frequency_rank": 132
+    },
+    {
+      "id": "pet_vocab_133",
+      "word": "syllabus",
+      "ipa": "/ˈsɪl.ə.bəs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Read the syllabus.",
+      "image_hint": "a printed syllabus for an English course",
+      "frequency_rank": 133
+    },
+    {
+      "id": "pet_vocab_134",
+      "word": "critical",
+      "ipa": "/ˈkrɪt.ɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Think critically.",
+      "image_hint": "a student thinking critically while reading a text",
+      "frequency_rank": 134
+    },
+    {
+      "id": "pet_vocab_135",
+      "word": "analytical",
+      "ipa": "/ˌæn.əˈlɪt.ɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Use analytical skills.",
+      "image_hint": "a person solving an analytical problem on a board",
+      "frequency_rank": 135
+    },
+    {
+      "id": "pet_vocab_136",
+      "word": "coherent",
+      "ipa": "/kəʊˈhɪər.ənt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Be coherent.",
+      "image_hint": "a well-organised essay with clear paragraph structure",
+      "frequency_rank": 136
+    },
+    {
+      "id": "pet_vocab_137",
+      "word": "elaborate",
+      "ipa": "/ɪˈlæb.ər.eɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Please elaborate.",
+      "image_hint": "a student adding detail to a short written answer",
+      "frequency_rank": 137
+    },
+    {
+      "id": "pet_vocab_138",
+      "word": "paraphrase",
+      "ipa": "/ˈpær.ə.freɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Paraphrase the sentence.",
+      "image_hint": "two versions of the same sentence in different words",
+      "frequency_rank": 138
+    },
+    {
+      "id": "pet_vocab_139",
+      "word": "infer",
+      "ipa": "/ɪnˈfɜːr/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Infer the meaning.",
+      "image_hint": "a student inferring meaning from context clues",
+      "frequency_rank": 139
+    },
+    {
+      "id": "pet_vocab_140",
+      "word": "deduce",
+      "ipa": "/dɪˈdjuːs/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Deduce the answer.",
+      "image_hint": "a person deducing an answer from clues",
+      "frequency_rank": 140
+    },
+    {
+      "id": "pet_vocab_141",
+      "word": "hypothesis",
+      "ipa": "/haɪˈpɒθ.ɪ.sɪs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Form a hypothesis.",
+      "image_hint": "a hypothesis written on a whiteboard for testing",
+      "frequency_rank": 141
+    },
+    {
+      "id": "pet_vocab_142",
+      "word": "constraint",
+      "ipa": "/kənˈstreɪnt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Note the constraints.",
+      "image_hint": "a list of constraints next to a task description",
+      "frequency_rank": 142
+    },
+    {
+      "id": "pet_vocab_143",
+      "word": "criteria",
+      "ipa": "/kraɪˈtɪər.i.ə/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Follow the criteria.",
+      "image_hint": "an assessment criteria rubric for a task",
+      "frequency_rank": 143
+    },
+    {
+      "id": "pet_vocab_144",
+      "word": "specification",
+      "ipa": "/ˌspes.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Read the specification.",
+      "image_hint": "a technical specification document on a desk",
+      "frequency_rank": 144
+    },
+    {
+      "id": "pet_vocab_145",
+      "word": "comply",
+      "ipa": "/kəmˈplaɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Comply with the rules.",
+      "image_hint": "a student complying with classroom regulations",
+      "frequency_rank": 145
+    },
+    {
+      "id": "pet_vocab_146",
+      "word": "adhere",
+      "ipa": "/ədˈhɪər/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Adhere to guidelines.",
+      "image_hint": "a person adhering to a strict set of guidelines",
+      "frequency_rank": 146
+    },
+    {
+      "id": "pet_vocab_147",
+      "word": "reflection",
+      "ipa": "/rɪˈflek.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Write a reflection.",
+      "image_hint": "a student writing a reflective journal entry",
+      "frequency_rank": 147
+    },
+    {
+      "id": "pet_vocab_148",
+      "word": "evaluation",
+      "ipa": "/ɪˌvæl.jʊˈeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Complete the evaluation.",
+      "image_hint": "a teacher conducting a lesson evaluation form",
+      "frequency_rank": 148
+    },
+    {
+      "id": "pet_vocab_149",
+      "word": "implication",
+      "ipa": "/ˌɪm.plɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Consider the implications.",
+      "image_hint": "a diagram showing implications flowing from a decision",
+      "frequency_rank": 149
+    },
+    {
+      "id": "pet_vocab_150",
+      "word": "insight",
+      "ipa": "/ˈɪn.saɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Share your insight.",
+      "image_hint": "a lightbulb moment with a creative thought bubble",
+      "frequency_rank": 150
+    },
+    {
+      "id": "pet_vocab_151",
+      "word": "nuance",
+      "ipa": "/ˈnjuː.ɑːns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Notice the nuance.",
+      "image_hint": "two similar words with subtle differences highlighted",
+      "frequency_rank": 151
+    },
+    {
+      "id": "pet_vocab_152",
+      "word": "acknowledgement",
+      "ipa": "/əkˈnɒl.ɪdʒ.mənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Give acknowledgement.",
+      "image_hint": "a teacher acknowledging a student's contribution",
+      "frequency_rank": 152
+    },
+    {
+      "id": "pet_vocab_153",
+      "word": "exemplary",
+      "ipa": "/ɪɡˈzem.plər.i/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Exemplary effort!",
+      "image_hint": "a student's exemplary work displayed on the wall",
+      "frequency_rank": 153
+    },
+    {
+      "id": "pet_vocab_154",
+      "word": "critique",
+      "ipa": "/krɪˈtiːk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Write a critique.",
+      "image_hint": "a written critique with detailed comments in red ink",
+      "frequency_rank": 154
+    },
+    {
+      "id": "pet_vocab_155",
+      "word": "rephrase",
+      "ipa": "/ˌriːˈfreɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Please rephrase this.",
+      "image_hint": "a teacher suggesting a better way to phrase a sentence",
+      "frequency_rank": 155
+    },
+    {
+      "id": "pet_vocab_156",
+      "word": "misconception",
+      "ipa": "/ˌmɪs.kənˈsep.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Address the misconception.",
+      "image_hint": "a student realising a misconception while studying",
+      "frequency_rank": 156
+    },
+    {
+      "id": "pet_vocab_157",
+      "word": "mediation",
+      "ipa": "/ˌmiː.diˈeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Use mediation.",
+      "image_hint": "a mediator helping two parties reach an agreement",
+      "frequency_rank": 157
+    },
+    {
+      "id": "pet_vocab_158",
+      "word": "protocol",
+      "ipa": "/ˈprəʊ.tə.kɒl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Follow the protocol.",
+      "image_hint": "a school communication protocol document",
+      "frequency_rank": 158
+    },
+    {
+      "id": "pet_vocab_159",
+      "word": "stakeholder",
+      "ipa": "/ˈsteɪk.həʊl.dər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Involve the stakeholders.",
+      "image_hint": "parents and teachers as school stakeholders in a meeting",
+      "frequency_rank": 159
+    },
+    {
+      "id": "pet_vocab_160",
+      "word": "transparency",
+      "ipa": "/trænsˈpær.ən.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Maintain transparency.",
+      "image_hint": "open communication represented by a clear glass barrier",
+      "frequency_rank": 160
+    },
+    {
+      "id": "pet_vocab_161",
+      "word": "accountability",
+      "ipa": "/əˌkaʊn.təˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Show accountability.",
+      "image_hint": "a teacher accountable for their students' progress",
+      "frequency_rank": 161
+    },
+    {
+      "id": "pet_vocab_162",
+      "word": "formal",
+      "ipa": "/ˈfɔː.məl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Write a formal letter.",
+      "image_hint": "a formal letter on headed school paper",
+      "frequency_rank": 162
+    },
+    {
+      "id": "pet_vocab_163",
+      "word": "fluctuation",
+      "ipa": "/ˌflʌk.tʃuˈeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Note the fluctuation.",
+      "image_hint": "a price chart showing price fluctuations over time",
+      "frequency_rank": 163
+    },
+    {
+      "id": "pet_vocab_164",
+      "word": "commodity",
+      "ipa": "/kəˈmɒd.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Buy basic commodities.",
+      "image_hint": "a range of basic food commodities at a market",
+      "frequency_rank": 164
+    },
+    {
+      "id": "pet_vocab_165",
+      "word": "surplus",
+      "ipa": "/ˈsɜː.pləs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "There is a surplus.",
+      "image_hint": "a market stall with an excess surplus of produce",
+      "frequency_rank": 165
+    },
+    {
+      "id": "pet_vocab_166",
+      "word": "shortage",
+      "ipa": "/ˈʃɔː.tɪdʒ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "There is a shortage.",
+      "image_hint": "an empty market shelf showing a shortage",
+      "frequency_rank": 166
+    },
+    {
+      "id": "pet_vocab_167",
+      "word": "wholesale",
+      "ipa": "/ˈhəʊl.seɪl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Buy at wholesale price.",
+      "image_hint": "large boxes of wholesale goods in a warehouse",
+      "frequency_rank": 167
+    },
+    {
+      "id": "pet_vocab_168",
+      "word": "ambiance",
+      "ipa": "/ˈæm.bi.ɑːns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I love the ambiance.",
+      "image_hint": "a beautifully lit restaurant with warm ambiance",
+      "frequency_rank": 168
+    },
+    {
+      "id": "pet_vocab_169",
+      "word": "complimentary",
+      "ipa": "/ˌkɒm.plɪˈmen.tri/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "It is complimentary.",
+      "image_hint": "a waiter bringing a complimentary drink to a table",
+      "frequency_rank": 169
+    },
+    {
+      "id": "pet_vocab_170",
+      "word": "fusion",
+      "ipa": "/ˈfjuː.ʒən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Try the fusion menu.",
+      "image_hint": "a fusion dish blending two cultural food styles",
+      "frequency_rank": 170
+    },
+    {
+      "id": "pet_vocab_171",
+      "word": "sommelier",
+      "ipa": "/ˈsɒm.əl.jeɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Ask the sommelier.",
+      "image_hint": "a sommelier presenting a wine bottle at the table",
+      "frequency_rank": 171
+    },
+    {
+      "id": "pet_vocab_172",
+      "word": "patron",
+      "ipa": "/ˈpeɪ.trən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "A loyal patron.",
+      "image_hint": "regular patrons enjoying dinner at a favourite restaurant",
+      "frequency_rank": 172
+    },
+    {
+      "id": "pet_vocab_173",
+      "word": "expedition",
+      "ipa": "/ˌek.spɪˈdɪʃ.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Plan the expedition.",
+      "image_hint": "a group on an expedition through a mountain landscape",
+      "frequency_rank": 173
+    },
+    {
+      "id": "pet_vocab_174",
+      "word": "excursion",
+      "ipa": "/ɪkˈskɜː.ʒən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Join the excursion.",
+      "image_hint": "a school excursion group on a coach bus",
+      "frequency_rank": 174
+    },
+    {
+      "id": "pet_vocab_175",
+      "word": "visa",
+      "ipa": "/ˈviː.zə/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Apply for a visa.",
+      "image_hint": "a passport open to a page with a visa stamp",
+      "frequency_rank": 175
+    },
+    {
+      "id": "pet_vocab_176",
+      "word": "disruption",
+      "ipa": "/dɪsˈrʌp.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Report the disruption.",
+      "image_hint": "a travel disruption sign at an airport departure gate",
+      "frequency_rank": 176
+    },
+    {
+      "id": "pet_vocab_177",
+      "word": "embark",
+      "ipa": "/ɪmˈbɑːk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "We will embark soon.",
+      "image_hint": "passengers embarking on a cruise ship",
+      "frequency_rank": 177
+    },
+    {
+      "id": "pet_vocab_178",
+      "word": "correspondence",
+      "ipa": "/ˌkɒr.ɪˈspɒn.dəns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Review the correspondence.",
+      "image_hint": "a series of email or written correspondence messages",
+      "frequency_rank": 178
+    },
+    {
+      "id": "pet_vocab_179",
+      "word": "grievance",
+      "ipa": "/ˈɡriː.vəns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Address the grievance.",
+      "image_hint": "a person filing a grievance formally at a desk",
+      "frequency_rank": 179
+    },
+    {
+      "id": "pet_vocab_180",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Be concise.",
+      "image_hint": "a short concise message on a phone screen",
+      "frequency_rank": 180
+    },
+    {
+      "id": "pet_vocab_181",
+      "word": "articulate",
+      "ipa": "/ɑːˈtɪk.jʊ.leɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Articulate clearly.",
+      "image_hint": "a person speaking articulately and clearly",
+      "frequency_rank": 181
+    },
+    {
+      "id": "pet_vocab_182",
+      "word": "rehabilitation",
+      "ipa": "/ˌriː.həˌbɪl.ɪˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Start rehabilitation.",
+      "image_hint": "a patient undergoing rehabilitation exercises",
+      "frequency_rank": 182
+    },
+    {
+      "id": "pet_vocab_183",
+      "word": "deteriorate",
+      "ipa": "/dɪˈtɪər.i.ər.eɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Do not let it deteriorate.",
+      "image_hint": "a health chart showing a deteriorating condition",
+      "frequency_rank": 183
+    },
+    {
+      "id": "pet_vocab_184",
+      "word": "holistic",
+      "ipa": "/həʊˈlɪs.tɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Take a holistic approach.",
+      "image_hint": "a holistic health diagram showing mind body and spirit",
+      "frequency_rank": 184
+    },
+    {
+      "id": "pet_vocab_185",
+      "word": "sedentary",
+      "ipa": "/ˈsed.ən.tri/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Avoid a sedentary lifestyle.",
+      "image_hint": "a person sitting at a desk all day with no exercise",
+      "frequency_rank": 185
+    },
+    {
+      "id": "pet_vocab_186",
+      "word": "nourishment",
+      "ipa": "/ˈnʌr.ɪʃ.mənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Get proper nourishment.",
+      "image_hint": "a balanced meal providing full nourishment",
+      "frequency_rank": 186
+    },
+    {
+      "id": "pet_vocab_187",
+      "word": "phenomenon",
+      "ipa": "/fɪˈnɒm.ɪ.nɒn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "An interesting phenomenon.",
+      "image_hint": "a striking natural phenomenon shown in a photo",
+      "frequency_rank": 187
+    },
+    {
+      "id": "pet_vocab_188",
+      "word": "discourse",
+      "ipa": "/ˈdɪs.kɔːs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Join the discourse.",
+      "image_hint": "people engaged in an intellectual discourse at a table",
+      "frequency_rank": 188
+    },
+    {
+      "id": "pet_vocab_189",
+      "word": "consensus",
+      "ipa": "/kənˈsen.səs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "We reached a consensus.",
+      "image_hint": "a group of people nodding in agreement and consensus",
+      "frequency_rank": 189
+    },
+    {
+      "id": "pet_vocab_190",
+      "word": "empathy",
+      "ipa": "/ˈem.pə.θi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Show empathy.",
+      "image_hint": "a person listening compassionately to another person",
+      "frequency_rank": 190
+    },
+    {
+      "id": "pet_vocab_191",
+      "word": "resilience",
+      "ipa": "/rɪˈzɪl.i.əns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Build resilience.",
+      "image_hint": "a person bouncing back from a setback with a smile",
+      "frequency_rank": 191
+    },
+    {
+      "id": "pet_vocab_192",
+      "word": "initiative",
+      "ipa": "/ɪˈnɪʃ.ɪ.tɪv/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Take initiative.",
+      "image_hint": "a person taking the initiative to lead a project",
+      "frequency_rank": 192
+    },
+    {
+      "id": "pet_vocab_193",
+      "word": "introspective",
+      "ipa": "/ˌɪn.trəˈspek.tɪv/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Be introspective.",
+      "image_hint": "a person in quiet thought and introspection",
+      "frequency_rank": 193
+    },
+    {
+      "id": "pet_vocab_194",
+      "word": "epistemological",
+      "ipa": "/ɪˌpɪs.tɪ.məˈlɒdʒ.ɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "If it were epistemological, I would agree.",
+      "image_hint": "an image clearly illustrating the quality epistemological",
+      "frequency_rank": 194
+    },
+    {
+      "id": "pet_vocab_195",
+      "word": "heuristic",
+      "ipa": "/hjʊˈrɪs.tɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "She said that it was heuristic.",
+      "image_hint": "an image clearly illustrating the quality heuristic",
+      "frequency_rank": 195
+    },
+    {
+      "id": "pet_vocab_196",
+      "word": "paradigm",
+      "ipa": "/ˈpær.ə.daɪm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "If I had a better paradigm, I would use it.",
+      "image_hint": "a clear image showing paradigm in context",
+      "frequency_rank": 196
+    },
+    {
+      "id": "pet_vocab_197",
+      "word": "praxis",
+      "ipa": "/ˈpræk.sɪs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "The praxis should be confirmed by Friday.",
+      "image_hint": "a clear image showing praxis in context",
+      "frequency_rank": 197
+    },
+    {
+      "id": "pet_vocab_198",
+      "word": "disposition",
+      "ipa": "/ˌdɪs.pəˈzɪʃ.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "If I had a better disposition, I would use it.",
+      "image_hint": "a clear image showing disposition in context",
+      "frequency_rank": 198
+    },
+    {
+      "id": "pet_vocab_199",
+      "word": "prerequisite",
+      "ipa": "/ˌpriːˈrek.wɪ.zɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "If I had a better prerequisite, I would use it.",
+      "image_hint": "a clear image showing prerequisite in context",
+      "frequency_rank": 199
+    },
+    {
+      "id": "pet_vocab_200",
+      "word": "contingency",
+      "ipa": "/kənˈtɪn.dʒən.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "If I had a better contingency, I would use it.",
+      "image_hint": "a clear image showing contingency in context",
+      "frequency_rank": 200
+    },
+    {
+      "id": "pet_vocab_201",
+      "word": "taxonomy",
+      "ipa": "/tækˈsɒn.ə.mi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "If I had a better taxonomy, I would use it.",
+      "image_hint": "a clear image showing taxonomy in context",
+      "frequency_rank": 201
+    },
+    {
+      "id": "pet_vocab_202",
+      "word": "meta-cognition",
+      "ipa": "/ˌmet.ə.kɒɡˈnɪʃ.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "The meta-cognition should be confirmed by Friday.",
+      "image_hint": "a clear image showing meta-cognition in context",
+      "frequency_rank": 202
+    },
+    {
+      "id": "pet_vocab_203",
+      "word": "rhetoric",
+      "ipa": "/ˈret.ər.ɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If I had a better rhetoric, I would use it.",
+      "image_hint": "a clear image showing rhetoric in context",
+      "frequency_rank": 203
+    },
+    {
+      "id": "pet_vocab_204",
+      "word": "dialectic",
+      "ipa": "/ˌdaɪ.əˈlek.tɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If I had a better dialectic, I would use it.",
+      "image_hint": "a clear image showing dialectic in context",
+      "frequency_rank": 204
+    },
+    {
+      "id": "pet_vocab_205",
+      "word": "synthesis",
+      "ipa": "/ˈsɪn.θə.sɪs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If I had a better synthesis, I would use it.",
+      "image_hint": "a clear image showing synthesis in context",
+      "frequency_rank": 205
+    },
+    {
+      "id": "pet_vocab_206",
+      "word": "abstraction",
+      "ipa": "/æbˈstræk.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If I had a better abstraction, I would use it.",
+      "image_hint": "a clear image showing abstraction in context",
+      "frequency_rank": 206
+    },
+    {
+      "id": "pet_vocab_207",
+      "word": "conceptualise",
+      "ipa": "/kənˈsep.tʃʊ.ə.laɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If I had time, I would conceptualise more.",
+      "image_hint": "a person performing the action of conceptualise",
+      "frequency_rank": 207
+    },
+    {
+      "id": "pet_vocab_208",
+      "word": "contextualise",
+      "ipa": "/kənˈteks.tʃʊ.ə.laɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I wish I could contextualise better.",
+      "image_hint": "a person performing the action of contextualise",
+      "frequency_rank": 208
+    },
+    {
+      "id": "pet_vocab_209",
+      "word": "operationalise",
+      "ipa": "/ˌɒp.ər.ˈeɪʃ.ən.ə.laɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If I had time, I would operationalise more.",
+      "image_hint": "a person performing the action of operationalise",
+      "frequency_rank": 209
+    },
+    {
+      "id": "pet_vocab_210",
+      "word": "problematise",
+      "ipa": "/ˈprɒb.ləm.ə.taɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If I had time, I would problematise more.",
+      "image_hint": "a person performing the action of problematise",
+      "frequency_rank": 210
+    },
+    {
+      "id": "pet_vocab_211",
+      "word": "interrogate",
+      "ipa": "/ɪnˈter.ə.ɡeɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I wish I could interrogate better.",
+      "image_hint": "a person performing the action of interrogate",
+      "frequency_rank": 211
+    },
+    {
+      "id": "pet_vocab_212",
+      "word": "circumscribe",
+      "ipa": "/ˈsɜː.kəm.skraɪb/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I wish I could circumscribe better.",
+      "image_hint": "a person performing the action of circumscribe",
+      "frequency_rank": 212
+    },
+    {
+      "id": "pet_vocab_213",
+      "word": "delineate",
+      "ipa": "/dɪˈlɪn.i.eɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "If I had time, I would delineate more.",
+      "image_hint": "a person performing the action of delineate",
+      "frequency_rank": 213
+    },
+    {
+      "id": "pet_vocab_214",
+      "word": "stipulate",
+      "ipa": "/ˈstɪp.jʊ.leɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I wish I could stipulate better.",
+      "image_hint": "a person performing the action of stipulate",
+      "frequency_rank": 214
+    },
+    {
+      "id": "pet_vocab_215",
+      "word": "mandate",
+      "ipa": "/ˈmæn.deɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I wish I could mandate better.",
+      "image_hint": "a person performing the action of mandate",
+      "frequency_rank": 215
+    },
+    {
+      "id": "pet_vocab_216",
+      "word": "prescribe",
+      "ipa": "/prɪˈskraɪb/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I wish I could prescribe better.",
+      "image_hint": "a person performing the action of prescribe",
+      "frequency_rank": 216
+    },
+    {
+      "id": "pet_vocab_217",
+      "word": "proscribe",
+      "ipa": "/prəʊˈskraɪb/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "If I had time, I would proscribe more.",
+      "image_hint": "a person performing the action of proscribe",
+      "frequency_rank": 217
+    },
+    {
+      "id": "pet_vocab_218",
+      "word": "sanction",
+      "ipa": "/ˈsæŋk.ʃən/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I wish I could sanction better.",
+      "image_hint": "a person performing the action of sanction",
+      "frequency_rank": 218
+    },
+    {
+      "id": "pet_vocab_219",
+      "word": "enforce",
+      "ipa": "/ɪnˈfɔːs/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "If I had time, I would enforce more.",
+      "image_hint": "a person performing the action of enforce",
+      "frequency_rank": 219
+    },
+    {
+      "id": "pet_vocab_220",
+      "word": "regulate",
+      "ipa": "/ˈreɡ.jʊ.leɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I wish I could regulate better.",
+      "image_hint": "a person performing the action of regulate",
+      "frequency_rank": 220
+    },
+    {
+      "id": "pet_vocab_221",
+      "word": "govern",
+      "ipa": "/ˈɡʌv.ən/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "If I had time, I would govern more.",
+      "image_hint": "a person performing the action of govern",
+      "frequency_rank": 221
+    },
+    {
+      "id": "pet_vocab_222",
+      "word": "epistemology",
+      "ipa": "/ɪˌpɪs.tɪˈmɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If I had a better epistemology, I would use it.",
+      "image_hint": "a clear image showing epistemology in context",
+      "frequency_rank": 222
+    },
+    {
+      "id": "pet_vocab_223",
+      "word": "ontology",
+      "ipa": "/ɒnˈtɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "The ontology should be confirmed by Friday.",
+      "image_hint": "a clear image showing ontology in context",
+      "frequency_rank": 223
+    },
+    {
+      "id": "pet_vocab_224",
+      "word": "phenomenology",
+      "ipa": "/fɪˌnɒm.ɪˈnɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If I had a better phenomenology, I would use it.",
+      "image_hint": "a clear image showing phenomenology in context",
+      "frequency_rank": 224
+    },
+    {
+      "id": "pet_vocab_225",
+      "word": "hermeneutics",
+      "ipa": "/ˌhɜː.mɪˈnjuː.tɪks/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "The hermeneutics should be confirmed by Friday.",
+      "image_hint": "a clear image showing hermeneutics in context",
+      "frequency_rank": 225
+    },
+    {
+      "id": "pet_vocab_226",
+      "word": "deconstruct",
+      "ipa": "/ˌdiː.kənˈstrʌkt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I wish I could deconstruct better.",
+      "image_hint": "a person performing the action of deconstruct",
+      "frequency_rank": 226
+    },
+    {
+      "id": "pet_vocab_227",
+      "word": "recontextualise",
+      "ipa": "/ˌriː.kənˈteks.tʃʊ.ə.laɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I wish I could recontextualise better.",
+      "image_hint": "a person performing the action of recontextualise",
+      "frequency_rank": 227
+    },
+    {
+      "id": "pet_vocab_228",
+      "word": "meta-analyse",
+      "ipa": "/ˌmet.əˈæn.ə.laɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I wish I could meta-analyse better.",
+      "image_hint": "a person performing the action of meta-analyse",
+      "frequency_rank": 228
+    },
+    {
+      "id": "pet_vocab_229",
+      "word": "synthesise",
+      "ipa": "/ˈsɪn.θə.saɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If I had time, I would synthesise more.",
+      "image_hint": "a person performing the action of synthesise",
+      "frequency_rank": 229
+    },
+    {
+      "id": "pet_vocab_230",
+      "word": "extrapolate",
+      "ipa": "/ɪkˈstræp.ə.leɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If I had time, I would extrapolate more.",
+      "image_hint": "a person performing the action of extrapolate",
+      "frequency_rank": 230
+    },
+    {
+      "id": "pet_vocab_231",
+      "word": "exemplar",
+      "ipa": "/ɪɡˈzem.plər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "The exemplar should be confirmed by Friday.",
+      "image_hint": "a clear image showing exemplar in context",
+      "frequency_rank": 231
+    },
+    {
+      "id": "pet_vocab_232",
+      "word": "commendation",
+      "ipa": "/ˌkɒm.enˈdeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "If I had a better commendation, I would use it.",
+      "image_hint": "a clear image showing commendation in context",
+      "frequency_rank": 232
+    },
+    {
+      "id": "pet_vocab_233",
+      "word": "distinction",
+      "ipa": "/dɪˈstɪŋk.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "If I had a better distinction, I would use it.",
+      "image_hint": "a clear image showing distinction in context",
+      "frequency_rank": 233
+    },
+    {
+      "id": "pet_vocab_234",
+      "word": "meritorious",
+      "ipa": "/ˌmer.ɪˈtɔː.ri.əs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "If it were meritorious, I would agree.",
+      "image_hint": "an image clearly illustrating the quality meritorious",
+      "frequency_rank": 234
+    },
+    {
+      "id": "pet_vocab_235",
+      "word": "praiseworthy",
+      "ipa": "/ˈpreɪz.wɜː.ði/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "If it were praiseworthy, I would agree.",
+      "image_hint": "an image clearly illustrating the quality praiseworthy",
+      "frequency_rank": 235
+    },
+    {
+      "id": "pet_vocab_236",
+      "word": "noteworthy",
+      "ipa": "/ˈnəʊt.wɜː.ði/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "She said that it was noteworthy.",
+      "image_hint": "an image clearly illustrating the quality noteworthy",
+      "frequency_rank": 236
+    },
+    {
+      "id": "pet_vocab_237",
+      "word": "outstanding",
+      "ipa": "/ˌaʊtˈstæn.dɪŋ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "If it were outstanding, I would agree.",
+      "image_hint": "an image clearly illustrating the quality outstanding",
+      "frequency_rank": 237
+    },
+    {
+      "id": "pet_vocab_238",
+      "word": "commendable",
+      "ipa": "/kəˈmen.də.bəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "She said that it was commendable.",
+      "image_hint": "an image clearly illustrating the quality commendable",
+      "frequency_rank": 238
+    },
+    {
+      "id": "pet_vocab_239",
+      "word": "impeccable",
+      "ipa": "/ɪmˈpek.ə.bəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "She said that it was impeccable.",
+      "image_hint": "an image clearly illustrating the quality impeccable",
+      "frequency_rank": 239
+    },
+    {
+      "id": "pet_vocab_240",
+      "word": "communiqué",
+      "ipa": "/kəˈmjuː.nɪ.keɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "If I had a better communiqué, I would use it.",
+      "image_hint": "a clear image showing communiqué in context",
+      "frequency_rank": 240
+    },
+    {
+      "id": "pet_vocab_241",
+      "word": "memorandum",
+      "ipa": "/ˌmem.əˈræn.dəm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "If I had a better memorandum, I would use it.",
+      "image_hint": "a clear image showing memorandum in context",
+      "frequency_rank": 241
+    },
+    {
+      "id": "pet_vocab_242",
+      "word": "manifesto",
+      "ipa": "/ˌmæn.ɪˈfes.təʊ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The manifesto should be confirmed by Friday.",
+      "image_hint": "a clear image showing manifesto in context",
+      "frequency_rank": 242
+    },
+    {
+      "id": "pet_vocab_243",
+      "word": "ombudsman",
+      "ipa": "/ˈɒm.bʊdz.mən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The ombudsman should be confirmed by Friday.",
+      "image_hint": "a clear image showing ombudsman in context",
+      "frequency_rank": 243
+    },
+    {
+      "id": "pet_vocab_244",
+      "word": "arbitration",
+      "ipa": "/ˌɑː.bɪˈtreɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "If I had a better arbitration, I would use it.",
+      "image_hint": "a clear image showing arbitration in context",
+      "frequency_rank": 244
+    },
+    {
+      "id": "pet_vocab_245",
+      "word": "adjudication",
+      "ipa": "/ədˌdʒuː.dɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The adjudication should be confirmed by Friday.",
+      "image_hint": "a clear image showing adjudication in context",
+      "frequency_rank": 245
+    },
+    {
+      "id": "pet_vocab_246",
+      "word": "deliberation",
+      "ipa": "/dɪˌlɪb.ərˈeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "If I had a better deliberation, I would use it.",
+      "image_hint": "a clear image showing deliberation in context",
+      "frequency_rank": 246
+    },
+    {
+      "id": "pet_vocab_247",
+      "word": "ratification",
+      "ipa": "/ˌræt.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The ratification should be confirmed by Friday.",
+      "image_hint": "a clear image showing ratification in context",
+      "frequency_rank": 247
+    },
+    {
+      "id": "pet_vocab_248",
+      "word": "promulgation",
+      "ipa": "/ˌprɒm.ʌlˈɡeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The promulgation should be confirmed by Friday.",
+      "image_hint": "a clear image showing promulgation in context",
+      "frequency_rank": 248
+    },
+    {
+      "id": "pet_vocab_249",
+      "word": "macroeconomics",
+      "ipa": "/ˌmæk.rəʊˌiː.kəˈnɒm.ɪks/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If I had a better macroeconomics, I would use it.",
+      "image_hint": "a clear image showing macroeconomics in context",
+      "frequency_rank": 249
+    },
+    {
+      "id": "pet_vocab_250",
+      "word": "microeconomics",
+      "ipa": "/ˌmaɪ.krəʊˌiː.kəˈnɒm.ɪks/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If I had a better microeconomics, I would use it.",
+      "image_hint": "a clear image showing microeconomics in context",
+      "frequency_rank": 250
+    },
+    {
+      "id": "pet_vocab_251",
+      "word": "equilibrium",
+      "ipa": "/ˌiː.kwɪˈlɪb.ri.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If I had a better equilibrium, I would use it.",
+      "image_hint": "a clear image showing equilibrium in context",
+      "frequency_rank": 251
+    },
+    {
+      "id": "pet_vocab_252",
+      "word": "oligopoly",
+      "ipa": "/ˌɒl.ɪˈɡɒp.ə.li/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "The oligopoly should be confirmed by Friday.",
+      "image_hint": "a clear image showing oligopoly in context",
+      "frequency_rank": 252
+    },
+    {
+      "id": "pet_vocab_253",
+      "word": "monopoly",
+      "ipa": "/məˈnɒp.ə.li/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "The monopoly should be confirmed by Friday.",
+      "image_hint": "a clear image showing monopoly in context",
+      "frequency_rank": 253
+    },
+    {
+      "id": "pet_vocab_254",
+      "word": "elasticity",
+      "ipa": "/ˌɪ.læsˈtɪs.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If I had a better elasticity, I would use it.",
+      "image_hint": "a clear image showing elasticity in context",
+      "frequency_rank": 254
+    },
+    {
+      "id": "pet_vocab_255",
+      "word": "depreciation",
+      "ipa": "/dɪˌpriː.ʃiˈeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If I had a better depreciation, I would use it.",
+      "image_hint": "a clear image showing depreciation in context",
+      "frequency_rank": 255
+    },
+    {
+      "id": "pet_vocab_256",
+      "word": "appreciation",
+      "ipa": "/əˌpriː.ʃiˈeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "The appreciation should be confirmed by Friday.",
+      "image_hint": "a clear image showing appreciation in context",
+      "frequency_rank": 256
+    },
+    {
+      "id": "pet_vocab_257",
+      "word": "liquidity",
+      "ipa": "/lɪˈkwɪd.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "The liquidity should be confirmed by Friday.",
+      "image_hint": "a clear image showing liquidity in context",
+      "frequency_rank": 257
+    },
+    {
+      "id": "pet_vocab_258",
+      "word": "volatility",
+      "ipa": "/ˌvɒl.əˈtɪl.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "If I had a better volatility, I would use it.",
+      "image_hint": "a clear image showing volatility in context",
+      "frequency_rank": 258
+    },
+    {
+      "id": "pet_vocab_259",
+      "word": "gastronomy",
+      "ipa": "/ɡæsˈtrɒn.ə.mi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "The gastronomy should be confirmed by Friday.",
+      "image_hint": "a clear image showing gastronomy in context",
+      "frequency_rank": 259
+    },
+    {
+      "id": "pet_vocab_260",
+      "word": "culinary",
+      "ipa": "/ˈkʌl.ɪ.nər.i/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "She said that it was culinary.",
+      "image_hint": "an image clearly illustrating the quality culinary",
+      "frequency_rank": 260
+    },
+    {
+      "id": "pet_vocab_261",
+      "word": "epicurean",
+      "ipa": "/ˌep.ɪˈkjʊər.i.ən/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "If it were epicurean, I would agree.",
+      "image_hint": "an image clearly illustrating the quality epicurean",
+      "frequency_rank": 261
+    },
+    {
+      "id": "pet_vocab_262",
+      "word": "delicacy",
+      "ipa": "/ˈdel.ɪ.kə.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "The delicacy should be confirmed by Friday.",
+      "image_hint": "a clear image showing delicacy in context",
+      "frequency_rank": 262
+    },
+    {
+      "id": "pet_vocab_263",
+      "word": "connoisseur",
+      "ipa": "/ˌkɒn.ɪˈsɜːr/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "If I had a better connoisseur, I would use it.",
+      "image_hint": "a clear image showing connoisseur in context",
+      "frequency_rank": 263
+    },
+    {
+      "id": "pet_vocab_264",
+      "word": "palate",
+      "ipa": "/ˈpæl.ɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "The palate should be confirmed by Friday.",
+      "image_hint": "a clear image showing palate in context",
+      "frequency_rank": 264
+    },
+    {
+      "id": "pet_vocab_265",
+      "word": "bouquet",
+      "ipa": "/buːˈkeɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "If I had a better bouquet, I would use it.",
+      "image_hint": "a clear image showing bouquet in context",
+      "frequency_rank": 265
+    },
+    {
+      "id": "pet_vocab_266",
+      "word": "degustation",
+      "ipa": "/ˌdeɡ.ʌˈsteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "The degustation should be confirmed by Friday.",
+      "image_hint": "a clear image showing degustation in context",
+      "frequency_rank": 266
+    },
+    {
+      "id": "pet_vocab_267",
+      "word": "provenance",
+      "ipa": "/ˈprɒv.ɪ.nəns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "If I had a better provenance, I would use it.",
+      "image_hint": "a clear image showing provenance in context",
+      "frequency_rank": 267
+    },
+    {
+      "id": "pet_vocab_268",
+      "word": "fermentation",
+      "ipa": "/ˌfɜː.menˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "The fermentation should be confirmed by Friday.",
+      "image_hint": "a clear image showing fermentation in context",
+      "frequency_rank": 268
+    },
+    {
+      "id": "pet_vocab_269",
+      "word": "geopolitical",
+      "ipa": "/ˌdʒiː.əʊ.pəˈlɪt.ɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She said that it was geopolitical.",
+      "image_hint": "an image clearly illustrating the quality geopolitical",
+      "frequency_rank": 269
+    },
+    {
+      "id": "pet_vocab_270",
+      "word": "sovereignty",
+      "ipa": "/ˈsɒv.rɪn.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The sovereignty should be confirmed by Friday.",
+      "image_hint": "a clear image showing sovereignty in context",
+      "frequency_rank": 270
+    },
+    {
+      "id": "pet_vocab_271",
+      "word": "diaspora",
+      "ipa": "/daɪˈæs.pər.ə/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The diaspora should be confirmed by Friday.",
+      "image_hint": "a clear image showing diaspora in context",
+      "frequency_rank": 271
+    },
+    {
+      "id": "pet_vocab_272",
+      "word": "globalisation",
+      "ipa": "/ˌɡləʊ.bəl.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "If I had a better globalisation, I would use it.",
+      "image_hint": "a clear image showing globalisation in context",
+      "frequency_rank": 272
+    },
+    {
+      "id": "pet_vocab_273",
+      "word": "pilgrimage",
+      "ipa": "/ˈpɪl.ɡrɪ.mɪdʒ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The pilgrimage should be confirmed by Friday.",
+      "image_hint": "a clear image showing pilgrimage in context",
+      "frequency_rank": 273
+    },
+    {
+      "id": "pet_vocab_274",
+      "word": "nomadic",
+      "ipa": "/nəʊˈmæd.ɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She said that it was nomadic.",
+      "image_hint": "an image clearly illustrating the quality nomadic",
+      "frequency_rank": 274
+    },
+    {
+      "id": "pet_vocab_275",
+      "word": "cosmopolitan",
+      "ipa": "/ˌkɒz.məˈpɒl.ɪ.tən/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She said that it was cosmopolitan.",
+      "image_hint": "an image clearly illustrating the quality cosmopolitan",
+      "frequency_rank": 275
+    },
+    {
+      "id": "pet_vocab_276",
+      "word": "indigenous",
+      "ipa": "/ɪnˈdɪdʒ.ɪ.nəs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "If it were indigenous, I would agree.",
+      "image_hint": "an image clearly illustrating the quality indigenous",
+      "frequency_rank": 276
+    },
+    {
+      "id": "pet_vocab_277",
+      "word": "repatriation",
+      "ipa": "/riːˌpæt.riˈeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "The repatriation should be confirmed by Friday.",
+      "image_hint": "a clear image showing repatriation in context",
+      "frequency_rank": 277
+    },
+    {
+      "id": "pet_vocab_278",
+      "word": "emigration",
+      "ipa": "/ˌem.ɪˈɡreɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "If I had a better emigration, I would use it.",
+      "image_hint": "a clear image showing emigration in context",
+      "frequency_rank": 278
+    },
+    {
+      "id": "pet_vocab_279",
+      "word": "cybersecurity",
+      "ipa": "/ˌsaɪ.bə.sɪˈkjʊər.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If I had a better cybersecurity, I would use it.",
+      "image_hint": "a clear image showing cybersecurity in context",
+      "frequency_rank": 279
+    },
+    {
+      "id": "pet_vocab_280",
+      "word": "phishing",
+      "ipa": "/ˈfɪʃ.ɪŋ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If I had a better phishing, I would use it.",
+      "image_hint": "a clear image showing phishing in context",
+      "frequency_rank": 280
+    },
+    {
+      "id": "pet_vocab_281",
+      "word": "malware",
+      "ipa": "/ˈmæl.weər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If I had a better malware, I would use it.",
+      "image_hint": "a clear image showing malware in context",
+      "frequency_rank": 281
+    },
+    {
+      "id": "pet_vocab_282",
+      "word": "authentication",
+      "ipa": "/ɔːˌθen.tɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If I had a better authentication, I would use it.",
+      "image_hint": "a clear image showing authentication in context",
+      "frequency_rank": 282
+    },
+    {
+      "id": "pet_vocab_283",
+      "word": "cryptography",
+      "ipa": "/krɪpˈtɒɡ.rə.fi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "The cryptography should be confirmed by Friday.",
+      "image_hint": "a clear image showing cryptography in context",
+      "frequency_rank": 283
+    },
+    {
+      "id": "pet_vocab_284",
+      "word": "firewall",
+      "ipa": "/ˈfaɪər.wɔːl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If I had a better firewall, I would use it.",
+      "image_hint": "a clear image showing firewall in context",
+      "frequency_rank": 284
+    },
+    {
+      "id": "pet_vocab_285",
+      "word": "surveillance",
+      "ipa": "/səˈveɪ.ləns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If I had a better surveillance, I would use it.",
+      "image_hint": "a clear image showing surveillance in context",
+      "frequency_rank": 285
+    },
+    {
+      "id": "pet_vocab_286",
+      "word": "anonymity",
+      "ipa": "/ˌæn.əˈnɪm.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "If I had a better anonymity, I would use it.",
+      "image_hint": "a clear image showing anonymity in context",
+      "frequency_rank": 286
+    },
+    {
+      "id": "pet_vocab_287",
+      "word": "aetiology",
+      "ipa": "/ˌiː.ti.ˈɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "If I had a better aetiology, I would use it.",
+      "image_hint": "a clear image showing aetiology in context",
+      "frequency_rank": 287
+    },
+    {
+      "id": "pet_vocab_288",
+      "word": "epidemiology",
+      "ipa": "/ˌep.ɪˌdiː.miˈɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The epidemiology should be confirmed by Friday.",
+      "image_hint": "a clear image showing epidemiology in context",
+      "frequency_rank": 288
+    },
+    {
+      "id": "pet_vocab_289",
+      "word": "pharmacology",
+      "ipa": "/ˌfɑː.məˈkɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "If I had a better pharmacology, I would use it.",
+      "image_hint": "a clear image showing pharmacology in context",
+      "frequency_rank": 289
+    },
+    {
+      "id": "pet_vocab_290",
+      "word": "oncology",
+      "ipa": "/ɒŋˈkɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The oncology should be confirmed by Friday.",
+      "image_hint": "a clear image showing oncology in context",
+      "frequency_rank": 290
+    },
+    {
+      "id": "pet_vocab_291",
+      "word": "haematology",
+      "ipa": "/ˌhiː.məˈtɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "If I had a better haematology, I would use it.",
+      "image_hint": "a clear image showing haematology in context",
+      "frequency_rank": 291
+    },
+    {
+      "id": "pet_vocab_292",
+      "word": "immunology",
+      "ipa": "/ˌɪm.jʊˈnɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The immunology should be confirmed by Friday.",
+      "image_hint": "a clear image showing immunology in context",
+      "frequency_rank": 292
+    },
+    {
+      "id": "pet_vocab_293",
+      "word": "endocrinology",
+      "ipa": "/ˌen.dəʊ.krɪˈnɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "If I had a better endocrinology, I would use it.",
+      "image_hint": "a clear image showing endocrinology in context",
+      "frequency_rank": 293
+    },
+    {
+      "id": "pet_vocab_294",
+      "word": "gastroenterology",
+      "ipa": "/ˌɡæs.trəʊˌen.tərˈɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The gastroenterology should be confirmed by Friday.",
+      "image_hint": "a clear image showing gastroenterology in context",
+      "frequency_rank": 294
+    },
+    {
+      "id": "pet_vocab_295",
+      "word": "dermatology",
+      "ipa": "/ˌdɜː.məˈtɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The dermatology should be confirmed by Friday.",
+      "image_hint": "a clear image showing dermatology in context",
+      "frequency_rank": 295
+    },
+    {
+      "id": "pet_vocab_296",
+      "word": "psychiatry",
+      "ipa": "/saɪˈkaɪ.ə.tri/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The psychiatry should be confirmed by Friday.",
+      "image_hint": "a clear image showing psychiatry in context",
+      "frequency_rank": 296
+    },
+    {
+      "id": "pet_vocab_297",
+      "word": "phenomenological",
+      "ipa": "/fɪˌnɒm.ɪ.nəˈlɒdʒ.ɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "If it were phenomenological, I would agree.",
+      "image_hint": "an image clearly illustrating the quality phenomenological",
+      "frequency_rank": 297
+    },
+    {
+      "id": "pet_vocab_298",
+      "word": "anthropological",
+      "ipa": "/ˌæn.θrə.pəˈlɒdʒ.ɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She said that it was anthropological.",
+      "image_hint": "an image clearly illustrating the quality anthropological",
+      "frequency_rank": 298
+    },
+    {
+      "id": "pet_vocab_299",
+      "word": "sociological",
+      "ipa": "/ˌsəʊ.si.əˈlɒdʒ.ɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She said that it was sociological.",
+      "image_hint": "an image clearly illustrating the quality sociological",
+      "frequency_rank": 299
+    },
+    {
+      "id": "pet_vocab_300",
+      "word": "philosophical",
+      "ipa": "/ˌfɪl.əˈsɒf.ɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "If it were philosophical, I would agree.",
+      "image_hint": "an image clearly illustrating the quality philosophical",
+      "frequency_rank": 300
+    },
+    {
+      "id": "pet_vocab_301",
+      "word": "postmodernist",
+      "ipa": "/ˌpəʊst.ˈmɒd.ən.ɪst/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "If it were postmodernist, I would agree.",
+      "image_hint": "an image clearly illustrating the quality postmodernist",
+      "frequency_rank": 301
+    },
+    {
+      "id": "pet_vocab_302",
+      "word": "deconstructionist",
+      "ipa": "/ˌdiː.kənˈstrʌk.ʃən.ɪst/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "If it were deconstructionist, I would agree.",
+      "image_hint": "an image clearly illustrating the quality deconstructionist",
+      "frequency_rank": 302
+    },
+    {
+      "id": "pet_vocab_303",
+      "word": "intersectionality",
+      "ipa": "/ˌɪn.tə.sek.ʃəˈnæl.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The intersectionality should be confirmed by Friday.",
+      "image_hint": "a clear image showing intersectionality in context",
+      "frequency_rank": 303
+    },
+    {
+      "id": "pet_vocab_304",
+      "word": "hegemony",
+      "ipa": "/hɪˈdʒem.ə.ni/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The hegemony should be confirmed by Friday.",
+      "image_hint": "a clear image showing hegemony in context",
+      "frequency_rank": 304
+    },
+    {
+      "id": "pet_vocab_305",
+      "word": "juxtaposition",
+      "ipa": "/ˌdʒʌk.stə.pəˈzɪʃ.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The juxtaposition should be confirmed by Friday.",
+      "image_hint": "a clear image showing juxtaposition in context",
+      "frequency_rank": 305
+    },
+    {
+      "id": "pet_vocab_306",
+      "word": "acknowledge",
+      "ipa": "/əkˈnɒl.ɪdʒ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "I wish I could acknowledge better.",
+      "image_hint": "a person doing the action of acknowledge",
+      "frequency_rank": 306
+    },
+    {
+      "id": "pet_vocab_307",
+      "word": "advocate",
+      "ipa": "/ˈæd.və.keɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "If I had time, I would advocate more.",
+      "image_hint": "a person doing the action of advocate",
+      "frequency_rank": 307
+    },
+    {
+      "id": "pet_vocab_308",
+      "word": "assert",
+      "ipa": "/əˈsɜːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "I wish I could assert better.",
+      "image_hint": "a person doing the action of assert",
+      "frequency_rank": 308
+    },
+    {
+      "id": "pet_vocab_309",
+      "word": "assume",
+      "ipa": "/əˈsjuːm/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I wish I could assume better.",
+      "image_hint": "a person doing the action of assume",
+      "frequency_rank": 309
+    },
+    {
+      "id": "pet_vocab_310",
+      "word": "attribute",
+      "ipa": "/əˈtrɪb.juːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I wish I could attribute better.",
+      "image_hint": "a person doing the action of attribute",
+      "frequency_rank": 310
+    },
+    {
+      "id": "pet_vocab_311",
+      "word": "characterise",
+      "ipa": "/ˈkær.ɪk.tər.aɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I wish I could characterise better.",
+      "image_hint": "a person doing the action of characterise",
+      "frequency_rank": 311
+    },
+    {
+      "id": "pet_vocab_312",
+      "word": "consolidate",
+      "ipa": "/kənˈsɒl.ɪ.deɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "If I had time, I would consolidate more.",
+      "image_hint": "a person doing the action of consolidate",
+      "frequency_rank": 312
+    },
+    {
+      "id": "pet_vocab_313",
+      "word": "contradict",
+      "ipa": "/ˌkɒn.trəˈdɪkt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I wish I could contradict better.",
+      "image_hint": "a person doing the action of contradict",
+      "frequency_rank": 313
+    },
+    {
+      "id": "pet_vocab_314",
+      "word": "correlate",
+      "ipa": "/ˈkɒr.ɪ.leɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If I had time, I would correlate more.",
+      "image_hint": "a person doing the action of correlate",
+      "frequency_rank": 314
+    },
+    {
+      "id": "pet_vocab_315",
+      "word": "customize",
+      "ipa": "/ˈkʌs.tə.maɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I wish I could customize better.",
+      "image_hint": "a person doing the action of customize",
+      "frequency_rank": 315
+    },
+    {
+      "id": "pet_vocab_316",
+      "word": "generate",
+      "ipa": "/ˈdʒen.ər.eɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If I had time, I would generate more.",
+      "image_hint": "a person doing the action of generate",
+      "frequency_rank": 316
+    },
+    {
+      "id": "pet_vocab_317",
+      "word": "maintain",
+      "ipa": "/meɪnˈteɪn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "I wish I could maintain better.",
+      "image_hint": "a person doing the action of maintain",
+      "frequency_rank": 317
+    },
+    {
+      "id": "pet_vocab_318",
+      "word": "manifest",
+      "ipa": "/ˈmæn.ɪ.fest/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I wish I could manifest better.",
+      "image_hint": "a person doing the action of manifest",
+      "frequency_rank": 318
+    },
+    {
+      "id": "pet_vocab_319",
+      "word": "ambiguity",
+      "ipa": "/ˌæm.bɪˈɡjuː.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If I had a better ambiguity, I would use it.",
+      "image_hint": "a clear image showing ambiguity",
+      "frequency_rank": 319
+    },
+    {
+      "id": "pet_vocab_320",
+      "word": "assumption",
+      "ipa": "/əˈsʌmp.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "The assumption should be confirmed by Friday.",
+      "image_hint": "a clear image showing assumption",
+      "frequency_rank": 320
+    },
+    {
+      "id": "pet_vocab_321",
+      "word": "circumstance",
+      "ipa": "/ˈsɜː.kəm.stæns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The circumstance should be confirmed by Friday.",
+      "image_hint": "a clear image showing circumstance",
+      "frequency_rank": 321
+    },
+    {
+      "id": "pet_vocab_322",
+      "word": "commitment",
+      "ipa": "/kəˈmɪt.mənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "The commitment should be confirmed by Friday.",
+      "image_hint": "a clear image showing commitment",
+      "frequency_rank": 322
+    },
+    {
+      "id": "pet_vocab_323",
+      "word": "consequence",
+      "ipa": "/ˈkɒn.sɪ.kwəns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "If I had a better consequence, I would use it.",
+      "image_hint": "a clear image showing consequence",
+      "frequency_rank": 323
+    },
+    {
+      "id": "pet_vocab_324",
+      "word": "contradiction",
+      "ipa": "/ˌkɒn.trəˈdɪk.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If I had a better contradiction, I would use it.",
+      "image_hint": "a clear image showing contradiction",
+      "frequency_rank": 324
+    },
+    {
+      "id": "pet_vocab_325",
+      "word": "controversy",
+      "ipa": "/ˈkɒn.trə.vɜː.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The controversy should be confirmed by Friday.",
+      "image_hint": "a clear image showing controversy",
+      "frequency_rank": 325
+    },
+    {
+      "id": "pet_vocab_326",
+      "word": "convention",
+      "ipa": "/kənˈven.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The convention should be confirmed by Friday.",
+      "image_hint": "a clear image showing convention",
+      "frequency_rank": 326
+    },
+    {
+      "id": "pet_vocab_327",
+      "word": "credentials",
+      "ipa": "/krɪˈden.ʃəlz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The credentials should be confirmed by Friday.",
+      "image_hint": "a clear image showing credentials",
+      "frequency_rank": 327
+    },
+    {
+      "id": "pet_vocab_328",
+      "word": "discrepancy",
+      "ipa": "/dɪˈskrep.ən.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If I had a better discrepancy, I would use it.",
+      "image_hint": "a clear image showing discrepancy",
+      "frequency_rank": 328
+    },
+    {
+      "id": "pet_vocab_329",
+      "word": "efficiency",
+      "ipa": "/ɪˈfɪʃ.ən.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "If I had a better efficiency, I would use it.",
+      "image_hint": "a clear image showing efficiency",
+      "frequency_rank": 329
+    },
+    {
+      "id": "pet_vocab_330",
+      "word": "endorsement",
+      "ipa": "/ɪnˈdɔːs.mənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "If I had a better endorsement, I would use it.",
+      "image_hint": "a clear image showing endorsement",
+      "frequency_rank": 330
+    },
+    {
+      "id": "pet_vocab_331",
+      "word": "expectation",
+      "ipa": "/ˌek.spekˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "If I had a better expectation, I would use it.",
+      "image_hint": "a clear image showing expectation",
+      "frequency_rank": 331
+    },
+    {
+      "id": "pet_vocab_332",
+      "word": "foundation",
+      "ipa": "/faʊnˈdeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The foundation should be confirmed by Friday.",
+      "image_hint": "a clear image showing foundation",
+      "frequency_rank": 332
+    },
+    {
+      "id": "pet_vocab_333",
+      "word": "incentive",
+      "ipa": "/ɪnˈsen.tɪv/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "The incentive should be confirmed by Friday.",
+      "image_hint": "a clear image showing incentive",
+      "frequency_rank": 333
+    },
+    {
+      "id": "pet_vocab_334",
+      "word": "inconsistency",
+      "ipa": "/ˌɪn.kənˈsɪs.tən.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "If I had a better inconsistency, I would use it.",
+      "image_hint": "a clear image showing inconsistency",
+      "frequency_rank": 334
+    },
+    {
+      "id": "pet_vocab_335",
+      "word": "independence",
+      "ipa": "/ˌɪn.dɪˈpen.dəns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "If I had a better independence, I would use it.",
+      "image_hint": "a clear image showing independence",
+      "frequency_rank": 335
+    },
+    {
+      "id": "pet_vocab_336",
+      "word": "inference",
+      "ipa": "/ˈɪn.fər.əns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The inference should be confirmed by Friday.",
+      "image_hint": "a clear image showing inference",
+      "frequency_rank": 336
+    },
+    {
+      "id": "pet_vocab_337",
+      "word": "influence",
+      "ipa": "/ˈɪn.flu.əns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The influence should be confirmed by Friday.",
+      "image_hint": "a clear image showing influence",
+      "frequency_rank": 337
+    },
+    {
+      "id": "pet_vocab_338",
+      "word": "interpretation",
+      "ipa": "/ɪnˌtɜː.prɪˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "The interpretation should be confirmed by Friday.",
+      "image_hint": "a clear image showing interpretation",
+      "frequency_rank": 338
+    },
+    {
+      "id": "pet_vocab_339",
+      "word": "limitation",
+      "ipa": "/ˌlɪm.ɪˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The limitation should be confirmed by Friday.",
+      "image_hint": "a clear image showing limitation",
+      "frequency_rank": 339
+    },
+    {
+      "id": "pet_vocab_340",
+      "word": "mechanism",
+      "ipa": "/ˈmek.ə.nɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "If I had a better mechanism, I would use it.",
+      "image_hint": "a clear image showing mechanism",
+      "frequency_rank": 340
+    },
+    {
+      "id": "pet_vocab_341",
+      "word": "obstacle",
+      "ipa": "/ˈɒb.stɪ.kəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The obstacle should be confirmed by Friday.",
+      "image_hint": "a clear image showing obstacle",
+      "frequency_rank": 341
+    },
+    {
+      "id": "pet_vocab_342",
+      "word": "abstract",
+      "ipa": "/ˈæb.strækt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She said that it was abstract.",
+      "image_hint": "an image illustrating the quality of being abstract",
+      "frequency_rank": 342
+    },
+    {
+      "id": "pet_vocab_343",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡ.ju.əs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "She said that it was ambiguous.",
+      "image_hint": "an image illustrating the quality of being ambiguous",
+      "frequency_rank": 343
+    },
+    {
+      "id": "pet_vocab_344",
+      "word": "arbitrary",
+      "ipa": "/ˈɑː.bɪ.trər.i/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She said that it was arbitrary.",
+      "image_hint": "an image illustrating the quality of being arbitrary",
+      "frequency_rank": 344
+    },
+    {
+      "id": "pet_vocab_345",
+      "word": "compelling",
+      "ipa": "/kəmˈpel.ɪŋ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She said that it was compelling.",
+      "image_hint": "an image illustrating the quality of being compelling",
+      "frequency_rank": 345
+    },
+    {
+      "id": "pet_vocab_346",
+      "word": "comprehensive",
+      "ipa": "/ˌkɒm.prɪˈhen.sɪv/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Despite being comprehensive, she continued.",
+      "image_hint": "an image illustrating the quality of being comprehensive",
+      "frequency_rank": 346
+    },
+    {
+      "id": "pet_vocab_347",
+      "word": "controversial",
+      "ipa": "/ˌkɒn.trəˈvɜː.ʃəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Despite being controversial, she continued.",
+      "image_hint": "an image illustrating the quality of being controversial",
+      "frequency_rank": 347
+    },
+    {
+      "id": "pet_vocab_348",
+      "word": "credible",
+      "ipa": "/ˈkred.ɪ.bəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "She said that it was credible.",
+      "image_hint": "an image illustrating the quality of being credible",
+      "frequency_rank": 348
+    },
+    {
+      "id": "pet_vocab_349",
+      "word": "decisive",
+      "ipa": "/dɪˈsaɪ.sɪv/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "She said that it was decisive.",
+      "image_hint": "an image illustrating the quality of being decisive",
+      "frequency_rank": 349
+    },
+    {
+      "id": "pet_vocab_350",
+      "word": "deliberate",
+      "ipa": "/dɪˈlɪb.ər.ɪt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Despite being deliberate, she continued.",
+      "image_hint": "an image illustrating the quality of being deliberate",
+      "frequency_rank": 350
+    },
+    {
+      "id": "pet_vocab_351",
+      "word": "diverse",
+      "ipa": "/daɪˈvɜːs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She said that it was diverse.",
+      "image_hint": "an image illustrating the quality of being diverse",
+      "frequency_rank": 351
+    },
+    {
+      "id": "pet_vocab_352",
+      "word": "dominant",
+      "ipa": "/ˈdɒm.ɪ.nənt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Despite being dominant, she continued.",
+      "image_hint": "an image illustrating the quality of being dominant",
+      "frequency_rank": 352
+    },
+    {
+      "id": "pet_vocab_353",
+      "word": "explicit",
+      "ipa": "/ɪkˈsplɪs.ɪt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Despite being explicit, she continued.",
+      "image_hint": "an image illustrating the quality of being explicit",
+      "frequency_rank": 353
+    },
+    {
+      "id": "pet_vocab_354",
+      "word": "fundamental",
+      "ipa": "/ˌfʌn.dəˈmen.tl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Despite being fundamental, she continued.",
+      "image_hint": "an image illustrating the quality of being fundamental",
+      "frequency_rank": 354
+    },
+    {
+      "id": "pet_vocab_355",
+      "word": "implicit",
+      "ipa": "/ɪmˈplɪs.ɪt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Despite being implicit, she continued.",
+      "image_hint": "an image illustrating the quality of being implicit",
+      "frequency_rank": 355
+    },
+    {
+      "id": "pet_vocab_356",
+      "word": "inadequate",
+      "ipa": "/ɪnˈæd.ɪ.kwɪt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Despite being inadequate, she continued.",
+      "image_hint": "an image illustrating the quality of being inadequate",
+      "frequency_rank": 356
+    },
+    {
+      "id": "pet_vocab_357",
+      "word": "inevitable",
+      "ipa": "/ɪnˈev.ɪ.tə.bəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She said that it was inevitable.",
+      "image_hint": "an image illustrating the quality of being inevitable",
+      "frequency_rank": 357
+    },
+    {
+      "id": "pet_vocab_358",
+      "word": "inherent",
+      "ipa": "/ɪnˈhɪər.ənt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She said that it was inherent.",
+      "image_hint": "an image illustrating the quality of being inherent",
+      "frequency_rank": 358
+    },
+    {
+      "id": "pet_vocab_359",
+      "word": "intrinsic",
+      "ipa": "/ɪnˈtrɪn.zɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Despite being intrinsic, she continued.",
+      "image_hint": "an image illustrating the quality of being intrinsic",
+      "frequency_rank": 359
+    },
+    {
+      "id": "pet_vocab_360",
+      "word": "logical",
+      "ipa": "/ˈlɒdʒ.ɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She said that it was logical.",
+      "image_hint": "an image illustrating the quality of being logical",
+      "frequency_rank": 360
+    },
+    {
+      "id": "pet_vocab_361",
+      "word": "marginal",
+      "ipa": "/ˈmɑː.dʒɪ.nəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Despite being marginal, she continued.",
+      "image_hint": "an image illustrating the quality of being marginal",
+      "frequency_rank": 361
+    },
+    {
+      "id": "pet_vocab_362",
+      "word": "neutral",
+      "ipa": "/ˈnjuː.trəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Despite being neutral, she continued.",
+      "image_hint": "an image illustrating the quality of being neutral",
+      "frequency_rank": 362
+    },
+    {
+      "id": "pet_vocab_363",
+      "word": "partial",
+      "ipa": "/ˈpɑː.ʃəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Despite being partial, she continued.",
+      "image_hint": "an image illustrating the quality of being partial",
+      "frequency_rank": 363
+    },
+    {
+      "id": "pet_vocab_364",
+      "word": "prevalent",
+      "ipa": "/ˈprev.ə.lənt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Despite being prevalent, she continued.",
+      "image_hint": "an image illustrating the quality of being prevalent",
+      "frequency_rank": 364
+    },
+    {
+      "id": "pet_vocab_365",
+      "word": "profound",
+      "ipa": "/prəˈfaʊnd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Despite being profound, she continued.",
+      "image_hint": "an image illustrating the quality of being profound",
+      "frequency_rank": 365
+    },
+    {
+      "id": "pet_vocab_366",
+      "word": "rational",
+      "ipa": "/ˈræʃ.ən.əl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Despite being rational, she continued.",
+      "image_hint": "an image illustrating the quality of being rational",
+      "frequency_rank": 366
+    },
+    {
+      "id": "pet_vocab_367",
+      "word": "strategic",
+      "ipa": "/strəˈtiː.dʒɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Despite being strategic, she continued.",
+      "image_hint": "an image illustrating the quality of being strategic",
+      "frequency_rank": 367
+    },
+    {
+      "id": "pet_vocab_368",
+      "word": "tangible",
+      "ipa": "/ˈtæn.dʒɪ.bəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Despite being tangible, she continued.",
+      "image_hint": "an image illustrating the quality of being tangible",
+      "frequency_rank": 368
+    },
+    {
+      "id": "pet_vocab_369",
+      "word": "subtlety",
+      "ipa": "/ˈsʌt.l.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "The subtlety should be confirmed.",
+      "image_hint": "a visual of subtlety",
+      "frequency_rank": 369
+    },
+    {
+      "id": "pet_vocab_370",
+      "word": "intricacy",
+      "ipa": "/ˈɪn.trɪ.kə.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The intricacy should be confirmed.",
+      "image_hint": "a visual of intricacy",
+      "frequency_rank": 370
+    },
+    {
+      "id": "pet_vocab_371",
+      "word": "complexity",
+      "ipa": "/kəmˈplek.sɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The complexity should be confirmed.",
+      "image_hint": "a visual of complexity",
+      "frequency_rank": 371
+    },
+    {
+      "id": "pet_vocab_372",
+      "word": "paradox",
+      "ipa": "/ˈpær.ə.dɒks/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The paradox should be confirmed.",
+      "image_hint": "a visual of paradox",
+      "frequency_rank": 372
+    },
+    {
+      "id": "pet_vocab_373",
+      "word": "dilemma",
+      "ipa": "/dɪˈlem.ə/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The dilemma should be confirmed.",
+      "image_hint": "a visual of dilemma",
+      "frequency_rank": 373
+    },
+    {
+      "id": "pet_vocab_374",
+      "word": "preconception",
+      "ipa": "/ˌpriː.kənˈsep.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "The preconception should be confirmed.",
+      "image_hint": "a visual of preconception",
+      "frequency_rank": 374
+    },
+    {
+      "id": "pet_vocab_375",
+      "word": "connotation",
+      "ipa": "/ˌkɒn.əˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The connotation should be confirmed.",
+      "image_hint": "a visual of connotation",
+      "frequency_rank": 375
+    },
+    {
+      "id": "pet_vocab_376",
+      "word": "denotation",
+      "ipa": "/ˌdiː.nəʊˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The denotation should be confirmed.",
+      "image_hint": "a visual of denotation",
+      "frequency_rank": 376
+    },
+    {
+      "id": "pet_vocab_377",
+      "word": "justification",
+      "ipa": "/ˌdʒʌs.tɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The justification should be confirmed.",
+      "image_hint": "a visual of justification",
+      "frequency_rank": 377
+    },
+    {
+      "id": "pet_vocab_378",
+      "word": "substantiation",
+      "ipa": "/səbˌstæn.ʃiˈeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "The substantiation should be confirmed.",
+      "image_hint": "a visual of substantiation",
+      "frequency_rank": 378
+    },
+    {
+      "id": "pet_vocab_379",
+      "word": "corroboration",
+      "ipa": "/kəˌrɒb.əˈreɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "The corroboration should be confirmed.",
+      "image_hint": "a visual of corroboration",
+      "frequency_rank": 379
+    },
+    {
+      "id": "pet_vocab_380",
+      "word": "elaboration",
+      "ipa": "/ɪˌlæb.əˈreɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The elaboration should be confirmed.",
+      "image_hint": "a visual of elaboration",
+      "frequency_rank": 380
+    },
+    {
+      "id": "pet_vocab_381",
+      "word": "qualification",
+      "ipa": "/ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The qualification should be confirmed.",
+      "image_hint": "a visual of qualification",
+      "frequency_rank": 381
+    },
+    {
+      "id": "pet_vocab_382",
+      "word": "modification",
+      "ipa": "/ˌmɒd.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The modification should be confirmed.",
+      "image_hint": "a visual of modification",
+      "frequency_rank": 382
+    },
+    {
+      "id": "pet_vocab_383",
+      "word": "adaptation",
+      "ipa": "/ˌæd.æpˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The adaptation should be confirmed.",
+      "image_hint": "a visual of adaptation",
+      "frequency_rank": 383
+    },
+    {
+      "id": "pet_vocab_384",
+      "word": "credibility",
+      "ipa": "/ˌkred.ɪˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The credibility should be confirmed.",
+      "image_hint": "a visual of credibility",
+      "frequency_rank": 384
+    },
+    {
+      "id": "pet_vocab_385",
+      "word": "legitimacy",
+      "ipa": "/lɪˈdʒɪt.ɪ.mə.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The legitimacy should be confirmed.",
+      "image_hint": "a visual of legitimacy",
+      "frequency_rank": 385
+    },
+    {
+      "id": "pet_vocab_386",
+      "word": "authority",
+      "ipa": "/ɔːˈθɒr.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The authority should be confirmed.",
+      "image_hint": "a visual of authority",
+      "frequency_rank": 386
+    },
+    {
+      "id": "pet_vocab_387",
+      "word": "jurisdiction",
+      "ipa": "/ˌdʒʊər.ɪsˈdɪk.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The jurisdiction should be confirmed.",
+      "image_hint": "a visual of jurisdiction",
+      "frequency_rank": 387
+    },
+    {
+      "id": "pet_vocab_388",
+      "word": "reciprocity",
+      "ipa": "/ˌres.ɪˈprɒs.ɪ.ti/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The reciprocity should be confirmed.",
+      "image_hint": "a visual of reciprocity",
+      "frequency_rank": 388
+    },
+    {
+      "id": "pet_vocab_389",
+      "word": "synergy",
+      "ipa": "/ˈsɪn.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The synergy should be confirmed.",
+      "image_hint": "a visual of synergy",
+      "frequency_rank": 389
+    },
+    {
+      "id": "pet_vocab_390",
+      "word": "momentum",
+      "ipa": "/məˈmen.təm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The momentum should be confirmed.",
+      "image_hint": "a visual of momentum",
+      "frequency_rank": 390
+    },
+    {
+      "id": "pet_vocab_391",
+      "word": "trajectory",
+      "ipa": "/trəˈdʒek.tər.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The trajectory should be confirmed.",
+      "image_hint": "a visual of trajectory",
+      "frequency_rank": 391
+    },
+    {
+      "id": "pet_vocab_392",
+      "word": "catalyst",
+      "ipa": "/ˈkæt.ə.lɪst/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The catalyst should be confirmed.",
+      "image_hint": "a visual of catalyst",
+      "frequency_rank": 392
+    },
+    {
+      "id": "pet_vocab_393",
+      "word": "plausible",
+      "ipa": "/ˈplɔː.zɪ.bəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Despite being plausible, she continued.",
+      "image_hint": "a visual of plausible",
+      "frequency_rank": 393
+    },
+    {
+      "id": "pet_vocab_394",
+      "word": "convincing",
+      "ipa": "/kənˈvɪns.ɪŋ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Despite being convincing, she continued.",
+      "image_hint": "a visual of convincing",
+      "frequency_rank": 394
+    },
+    {
+      "id": "pet_vocab_395",
+      "word": "authoritative",
+      "ipa": "/ɔːˈθɒr.ɪ.tə.tɪv/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Despite being authoritative, she continued.",
+      "image_hint": "a visual of authoritative",
+      "frequency_rank": 395
+    },
+    {
+      "id": "pet_vocab_396",
+      "word": "definitive",
+      "ipa": "/dɪˈfɪn.ɪ.tɪv/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Despite being definitive, she continued.",
+      "image_hint": "a visual of definitive",
+      "frequency_rank": 396
+    },
+    {
+      "id": "pet_vocab_397",
+      "word": "conclusive",
+      "ipa": "/kənˈkluː.sɪv/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Despite being conclusive, she continued.",
+      "image_hint": "a visual of conclusive",
+      "frequency_rank": 397
+    },
+    {
+      "id": "pet_vocab_398",
+      "word": "inconclusive",
+      "ipa": "/ˌɪn.kənˈkluː.sɪv/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Despite being inconclusive, she continued.",
+      "image_hint": "a visual of inconclusive",
+      "frequency_rank": 398
+    },
+    {
+      "id": "pet_vocab_399",
+      "word": "vague",
+      "ipa": "/veɪɡ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Despite being vague, she continued.",
+      "image_hint": "a visual of vague",
+      "frequency_rank": 399
+    },
+    {
+      "id": "pet_vocab_400",
+      "word": "extrinsic",
+      "ipa": "/ekˈstrɪn.zɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Despite being extrinsic, she continued.",
+      "image_hint": "a visual of extrinsic",
+      "frequency_rank": 400
+    },
+    {
+      "id": "pet_vocab_401",
+      "word": "intangible",
+      "ipa": "/ɪnˈtæn.dʒɪ.bəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Despite being intangible, she continued.",
+      "image_hint": "a visual of intangible",
+      "frequency_rank": 401
+    },
+    {
+      "id": "pet_vocab_402",
+      "word": "immeasurable",
+      "ipa": "/ɪˈmeʒ.ər.ə.bəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Despite being immeasurable, she continued.",
+      "image_hint": "a visual of immeasurable",
+      "frequency_rank": 402
+    },
+    {
+      "id": "pet_vocab_403",
+      "word": "pragmatic",
+      "ipa": "/præɡˈmæt.ɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Despite being pragmatic, she continued.",
+      "image_hint": "a visual of pragmatic",
+      "frequency_rank": 403
+    },
+    {
+      "id": "pet_vocab_404",
+      "word": "idealistic",
+      "ipa": "/aɪˌdɪə.lˈɪs.tɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Despite being idealistic, she continued.",
+      "image_hint": "a visual of idealistic",
+      "frequency_rank": 404
+    },
+    {
+      "id": "pet_vocab_405",
+      "word": "optimistic",
+      "ipa": "/ˌɒp.tɪˈmɪs.tɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Despite being optimistic, she continued.",
+      "image_hint": "a visual of optimistic",
+      "frequency_rank": 405
+    },
+    {
+      "id": "pet_vocab_406",
+      "word": "pessimistic",
+      "ipa": "/ˌpes.ɪˈmɪs.tɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Despite being pessimistic, she continued.",
+      "image_hint": "a visual of pessimistic",
+      "frequency_rank": 406
+    },
+    {
+      "id": "pet_vocab_407",
+      "word": "cynical",
+      "ipa": "/ˈsɪn.ɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Despite being cynical, she continued.",
+      "image_hint": "a visual of cynical",
+      "frequency_rank": 407
+    },
+    {
+      "id": "pet_vocab_408",
+      "word": "sceptical",
+      "ipa": "/ˈskep.tɪ.kəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Despite being sceptical, she continued.",
+      "image_hint": "a visual of sceptical",
+      "frequency_rank": 408
+    },
+    {
+      "id": "pet_vocab_409",
+      "word": "credulous",
+      "ipa": "/ˈkredʒ.ʊ.ləs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Despite being credulous, she continued.",
+      "image_hint": "a visual of credulous",
+      "frequency_rank": 409
+    },
+    {
+      "id": "pet_vocab_410",
+      "word": "manifestation",
+      "ipa": "/ˌmæn.ɪ.fesˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The manifestation should be confirmed.",
+      "image_hint": "a visual of manifestation",
+      "frequency_rank": 410
+    },
+    {
+      "id": "pet_vocab_411",
+      "word": "representation",
+      "ipa": "/ˌrep.rɪ.zenˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The representation should be confirmed.",
+      "image_hint": "a visual of representation",
+      "frequency_rank": 411
+    },
+    {
+      "id": "pet_vocab_412",
+      "word": "characterisation",
+      "ipa": "/ˌkær.ɪk.tər.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The characterisation should be confirmed.",
+      "image_hint": "a visual of characterisation",
+      "frequency_rank": 412
+    },
+    {
+      "id": "pet_vocab_413",
+      "word": "portrayal",
+      "ipa": "/pɔːˈtreɪ.əl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The portrayal should be confirmed.",
+      "image_hint": "a visual of portrayal",
+      "frequency_rank": 413
+    },
+    {
+      "id": "pet_vocab_414",
+      "word": "depiction",
+      "ipa": "/dɪˈpɪk.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The depiction should be confirmed.",
+      "image_hint": "a visual of depiction",
+      "frequency_rank": 414
+    },
+    {
+      "id": "pet_vocab_415",
+      "word": "illustration",
+      "ipa": "/ˌɪl.əˈstreɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The illustration should be confirmed.",
+      "image_hint": "a visual of illustration",
+      "frequency_rank": 415
+    },
+    {
+      "id": "pet_vocab_416",
+      "word": "demonstration",
+      "ipa": "/ˌdem.ənˈstreɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The demonstration should be confirmed.",
+      "image_hint": "a visual of demonstration",
+      "frequency_rank": 416
+    },
+    {
+      "id": "pet_vocab_417",
+      "word": "exemplification",
+      "ipa": "/ɪɡˌzem.plɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The exemplification should be confirmed.",
+      "image_hint": "a visual of exemplification",
+      "frequency_rank": 417
+    },
+    {
+      "id": "pet_vocab_418",
+      "word": "generalisation",
+      "ipa": "/ˌdʒen.ər.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The generalisation should be confirmed.",
+      "image_hint": "a visual of generalisation",
+      "frequency_rank": 418
+    },
+    {
+      "id": "pet_vocab_419",
+      "word": "conceptualisation",
+      "ipa": "/kənˌsep.tʃʊ.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The conceptualisation should be confirmed.",
+      "image_hint": "a visual of conceptualisation",
+      "frequency_rank": 419
+    },
+    {
+      "id": "pet_vocab_420",
+      "word": "theorisation",
+      "ipa": "/ˌθɪər.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The theorisation should be confirmed.",
+      "image_hint": "a visual of theorisation",
+      "frequency_rank": 420
+    },
+    {
+      "id": "pet_vocab_421",
+      "word": "contextualisation",
+      "ipa": "/kənˌteks.tʃʊ.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The contextualisation should be confirmed.",
+      "image_hint": "a visual of contextualisation",
+      "frequency_rank": 421
+    },
+    {
+      "id": "pet_vocab_422",
+      "word": "operationalisation",
+      "ipa": "/ˌɒp.ər.eɪʃ.ən.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The operationalisation should be confirmed.",
+      "image_hint": "a visual of operationalisation",
+      "frequency_rank": 422
+    },
+    {
+      "id": "pet_vocab_423",
+      "word": "problematisation",
+      "ipa": "/ˌprɒb.ləm.ə.taɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The problematisation should be confirmed.",
+      "image_hint": "a visual of problematisation",
+      "frequency_rank": 423
+    },
+    {
+      "id": "pet_vocab_424",
+      "word": "deconstruction",
+      "ipa": "/ˌdiː.kənˈstrʌk.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The deconstruction should be confirmed.",
+      "image_hint": "a visual of deconstruction",
+      "frequency_rank": 424
+    },
+    {
+      "id": "pet_vocab_425",
+      "word": "reconstruction",
+      "ipa": "/ˌriː.kənˈstrʌk.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The reconstruction should be confirmed.",
+      "image_hint": "a visual of reconstruction",
+      "frequency_rank": 425
+    },
+    {
+      "id": "pet_vocab_426",
+      "word": "recontextualisation",
+      "ipa": "/ˌriː.kənˌteks.tʃʊ.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The recontextualisation should be confirmed.",
+      "image_hint": "a visual of recontextualisation",
+      "frequency_rank": 426
+    },
+    {
+      "id": "pet_vocab_427",
+      "word": "transformation",
+      "ipa": "/ˌtræns.fəˈmeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The transformation should be confirmed.",
+      "image_hint": "a visual of transformation",
+      "frequency_rank": 427
+    },
+    {
+      "id": "pet_vocab_428",
+      "word": "evolution",
+      "ipa": "/ˌev.əˈluː.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The evolution should be confirmed.",
+      "image_hint": "a visual of evolution",
+      "frequency_rank": 428
+    },
+    {
+      "id": "pet_vocab_429",
+      "word": "revolution",
+      "ipa": "/ˌrev.əˈluː.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The revolution should be confirmed.",
+      "image_hint": "a visual of revolution",
+      "frequency_rank": 429
+    },
+    {
+      "id": "pet_vocab_430",
+      "word": "innovation",
+      "ipa": "/ˌɪn.əˈveɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The innovation should be confirmed.",
+      "image_hint": "a visual of innovation",
+      "frequency_rank": 430
+    },
+    {
+      "id": "pet_vocab_431",
+      "word": "emergence",
+      "ipa": "/ɪˈmɜː.dʒəns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The emergence should be confirmed.",
+      "image_hint": "a visual of emergence",
+      "frequency_rank": 431
+    },
+    {
+      "id": "pet_vocab_432",
+      "word": "convergence",
+      "ipa": "/kənˈvɜː.dʒəns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The convergence should be confirmed.",
+      "image_hint": "a visual of convergence",
+      "frequency_rank": 432
+    },
+    {
+      "id": "pet_vocab_433",
+      "word": "divergence",
+      "ipa": "/daɪˈvɜː.dʒəns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The divergence should be confirmed.",
+      "image_hint": "a visual of divergence",
+      "frequency_rank": 433
+    },
+    {
+      "id": "pet_vocab_434",
+      "word": "polarisation",
+      "ipa": "/ˌpəʊ.lər.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The polarisation should be confirmed.",
+      "image_hint": "a visual of polarisation",
+      "frequency_rank": 434
+    },
+    {
+      "id": "pet_vocab_435",
+      "word": "fragmentation",
+      "ipa": "/ˌfræɡ.menˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The fragmentation should be confirmed.",
+      "image_hint": "a visual of fragmentation",
+      "frequency_rank": 435
+    },
+    {
+      "id": "pet_vocab_436",
+      "word": "assimilation",
+      "ipa": "/əˌsɪm.ɪˈleɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The assimilation should be confirmed.",
+      "image_hint": "a visual of assimilation",
+      "frequency_rank": 436
+    },
+    {
+      "id": "pet_vocab_437",
+      "word": "stratification",
+      "ipa": "/ˌstræt.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The stratification should be confirmed.",
+      "image_hint": "a visual of stratification",
+      "frequency_rank": 437
+    },
+    {
+      "id": "pet_vocab_438",
+      "word": "homogenisation",
+      "ipa": "/həˌmɒdʒ.ɪ.naɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The homogenisation should be confirmed.",
+      "image_hint": "a visual of homogenisation",
+      "frequency_rank": 438
+    },
+    {
+      "id": "pet_vocab_439",
+      "word": "standardisation",
+      "ipa": "/ˌstæn.də.daɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The standardisation should be confirmed.",
+      "image_hint": "a visual of standardisation",
+      "frequency_rank": 439
+    },
+    {
+      "id": "pet_vocab_440",
+      "word": "normalisation",
+      "ipa": "/ˌnɔː.mə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The normalisation should be confirmed.",
+      "image_hint": "a visual of normalisation",
+      "frequency_rank": 440
+    },
+    {
+      "id": "pet_vocab_441",
+      "word": "institutionalisation",
+      "ipa": "/ˌɪn.stɪ.tjuː.ʃən.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The institutionalisation should be confirmed.",
+      "image_hint": "a visual of institutionalisation",
+      "frequency_rank": 441
+    },
+    {
+      "id": "pet_vocab_442",
+      "word": "bureaucratisation",
+      "ipa": "/bjʊˌrɒk.rə.taɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The bureaucratisation should be confirmed.",
+      "image_hint": "a visual of bureaucratisation",
+      "frequency_rank": 442
+    },
+    {
+      "id": "pet_vocab_443",
+      "word": "professionalisation",
+      "ipa": "/prəˌfeʃ.ən.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The professionalisation should be confirmed.",
+      "image_hint": "a visual of professionalisation",
+      "frequency_rank": 443
+    },
+    {
+      "id": "pet_vocab_444",
+      "word": "commodification",
+      "ipa": "/kəˌmɒd.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "The commodification should be confirmed.",
+      "image_hint": "a visual of commodification",
+      "frequency_rank": 444
+    },
+    {
+      "id": "pet_vocab_445",
+      "word": "commercialisation",
+      "ipa": "/kəˌmɜː.ʃəl.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "The commercialisation should be confirmed.",
+      "image_hint": "a visual of commercialisation",
+      "frequency_rank": 445
+    },
+    {
+      "id": "pet_vocab_446",
+      "word": "privatisation",
+      "ipa": "/ˌpraɪ.vɪ.taɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The privatisation should be confirmed.",
+      "image_hint": "a visual of privatisation",
+      "frequency_rank": 446
+    },
+    {
+      "id": "pet_vocab_447",
+      "word": "nationalisation",
+      "ipa": "/ˌnæʃ.ən.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The nationalisation should be confirmed.",
+      "image_hint": "a visual of nationalisation",
+      "frequency_rank": 447
+    },
+    {
+      "id": "pet_vocab_448",
+      "word": "decentralisation",
+      "ipa": "/ˌdiː.ˈsen.trə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The decentralisation should be confirmed.",
+      "image_hint": "a visual of decentralisation",
+      "frequency_rank": 448
+    },
+    {
+      "id": "pet_vocab_449",
+      "word": "democratisation",
+      "ipa": "/dɪˌmɒk.rə.taɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The democratisation should be confirmed.",
+      "image_hint": "a visual of democratisation",
+      "frequency_rank": 449
+    },
+    {
+      "id": "pet_vocab_450",
+      "word": "liberalisation",
+      "ipa": "/ˌlɪb.ər.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The liberalisation should be confirmed.",
+      "image_hint": "a visual of liberalisation",
+      "frequency_rank": 450
+    },
+    {
+      "id": "pet_vocab_451",
+      "word": "deregulation",
+      "ipa": "/ˌdiː.ˌreɡ.jʊˈleɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "The deregulation should be confirmed.",
+      "image_hint": "a visual of deregulation",
+      "frequency_rank": 451
+    },
+    {
+      "id": "pet_vocab_452",
+      "word": "localisation",
+      "ipa": "/ˌləʊ.kəl.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The localisation should be confirmed.",
+      "image_hint": "a visual of localisation",
+      "frequency_rank": 452
+    },
+    {
+      "id": "pet_vocab_453",
+      "word": "urbanisation",
+      "ipa": "/ˌɜː.bən.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The urbanisation should be confirmed.",
+      "image_hint": "a visual of urbanisation",
+      "frequency_rank": 453
+    },
+    {
+      "id": "pet_vocab_454",
+      "word": "industrialisation",
+      "ipa": "/ɪnˌdʌs.tri.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The industrialisation should be confirmed.",
+      "image_hint": "a visual of industrialisation",
+      "frequency_rank": 454
+    },
+    {
+      "id": "pet_vocab_455",
+      "word": "modernisation",
+      "ipa": "/ˌmɒd.ən.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The modernisation should be confirmed.",
+      "image_hint": "a visual of modernisation",
+      "frequency_rank": 455
+    },
+    {
+      "id": "pet_vocab_456",
+      "word": "digitalisation",
+      "ipa": "/ˌdɪdʒ.ɪ.tə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The digitalisation should be confirmed.",
+      "image_hint": "a visual of digitalisation",
+      "frequency_rank": 456
+    },
+    {
+      "id": "pet_vocab_457",
+      "word": "automation",
+      "ipa": "/ˌɔː.təˈmeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The automation should be confirmed.",
+      "image_hint": "a visual of automation",
+      "frequency_rank": 457
+    },
+    {
+      "id": "pet_vocab_458",
+      "word": "virtualisation",
+      "ipa": "/ˌvɜː.tʃʊ.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The virtualisation should be confirmed.",
+      "image_hint": "a visual of virtualisation",
+      "frequency_rank": 458
+    },
+    {
+      "id": "pet_vocab_459",
+      "word": "gamification",
+      "ipa": "/ˌɡeɪ.mɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The gamification should be confirmed.",
+      "image_hint": "a visual of gamification",
+      "frequency_rank": 459
+    },
+    {
+      "id": "pet_vocab_460",
+      "word": "personalisation",
+      "ipa": "/ˌpɜː.sən.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The personalisation should be confirmed.",
+      "image_hint": "a visual of personalisation",
+      "frequency_rank": 460
+    },
+    {
+      "id": "pet_vocab_461",
+      "word": "customisation",
+      "ipa": "/ˌkʌs.tə.maɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The customisation should be confirmed.",
+      "image_hint": "a visual of customisation",
+      "frequency_rank": 461
+    },
+    {
+      "id": "pet_vocab_462",
+      "word": "optimisation",
+      "ipa": "/ˌɒp.tɪ.maɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "The optimisation should be confirmed.",
+      "image_hint": "a visual of optimisation",
+      "frequency_rank": 462
+    },
+    {
+      "id": "pet_vocab_463",
+      "word": "maximisation",
+      "ipa": "/ˌmæk.sɪ.maɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "The maximisation should be confirmed.",
+      "image_hint": "a visual of maximisation",
+      "frequency_rank": 463
+    },
+    {
+      "id": "pet_vocab_464",
+      "word": "minimisation",
+      "ipa": "/ˌmɪn.ɪ.maɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The minimisation should be confirmed.",
+      "image_hint": "a visual of minimisation",
+      "frequency_rank": 464
+    },
+    {
+      "id": "pet_vocab_465",
+      "word": "systematisation",
+      "ipa": "/ˌsɪs.tɪ.mə.taɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The systematisation should be confirmed.",
+      "image_hint": "a visual of systematisation",
+      "frequency_rank": 465
+    },
+    {
+      "id": "pet_vocab_466",
+      "word": "rationalisation",
+      "ipa": "/ˌræʃ.ən.ə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The rationalisation should be confirmed.",
+      "image_hint": "a visual of rationalisation",
+      "frequency_rank": 466
+    },
+    {
+      "id": "pet_vocab_467",
+      "word": "prioritisation",
+      "ipa": "/praɪˌɒr.ɪ.taɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The prioritisation should be confirmed.",
+      "image_hint": "a visual of prioritisation",
+      "frequency_rank": 467
+    },
+    {
+      "id": "pet_vocab_468",
+      "word": "categorisation",
+      "ipa": "/ˌkæt.ɪ.ɡər.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The categorisation should be confirmed.",
+      "image_hint": "a visual of categorisation",
+      "frequency_rank": 468
+    },
+    {
+      "id": "pet_vocab_469",
+      "word": "classification",
+      "ipa": "/ˌklæs.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The classification should be confirmed.",
+      "image_hint": "a visual of classification",
+      "frequency_rank": 469
+    },
+    {
+      "id": "pet_vocab_470",
+      "word": "hierarchisation",
+      "ipa": "/haɪˌɑː.kɪ.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The hierarchisation should be confirmed.",
+      "image_hint": "a visual of hierarchisation",
+      "frequency_rank": 470
+    },
+    {
+      "id": "pet_vocab_471",
+      "word": "sequentialisation",
+      "ipa": "/sɪˌkwen.ʃəl.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The sequentialisation should be confirmed.",
+      "image_hint": "a visual of sequentialisation",
+      "frequency_rank": 471
+    },
+    {
+      "id": "pet_vocab_472",
+      "word": "instrumentalisation",
+      "ipa": "/ˌɪn.strʊ.men.tə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The instrumentalisation should be confirmed.",
+      "image_hint": "a visual of instrumentalisation",
+      "frequency_rank": 472
+    },
+    {
+      "id": "pet_vocab_473",
+      "word": "externalisation",
+      "ipa": "/ɪkˌstɜː.nə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The externalisation should be confirmed.",
+      "image_hint": "a visual of externalisation",
+      "frequency_rank": 473
+    },
+    {
+      "id": "pet_vocab_474",
+      "word": "internalisation",
+      "ipa": "/ɪnˌtɜː.nə.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The internalisation should be confirmed.",
+      "image_hint": "a visual of internalisation",
+      "frequency_rank": 474
+    },
+    {
+      "id": "pet_vocab_475",
+      "word": "appropriation",
+      "ipa": "/əˌprəʊ.priˈeɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The appropriation should be confirmed.",
+      "image_hint": "a visual of appropriation",
+      "frequency_rank": 475
+    },
+    {
+      "id": "pet_vocab_476",
+      "word": "confrontation",
+      "ipa": "/ˌkɒn.frʌnˈteɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The confrontation should be confirmed.",
+      "image_hint": "a visual of confrontation",
+      "frequency_rank": 476
+    },
+    {
+      "id": "pet_vocab_477",
+      "word": "competition",
+      "ipa": "/ˌkɒm.pɪˈtɪʃ.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The competition should be confirmed.",
+      "image_hint": "a visual of competition",
+      "frequency_rank": 477
+    },
+    {
+      "id": "pet_vocab_478",
+      "word": "regulation",
+      "ipa": "/ˌreɡ.jʊˈleɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "The regulation should be confirmed.",
+      "image_hint": "a visual of regulation",
+      "frequency_rank": 478
+    },
+    {
+      "id": "pet_vocab_479",
+      "word": "legislation",
+      "ipa": "/ˌledʒ.ɪˈsleɪ.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "The legislation should be confirmed.",
+      "image_hint": "a visual of legislation",
+      "frequency_rank": 479
+    },
+    {
+      "id": "pet_vocab_480",
+      "word": "teleology",
+      "ipa": "/ˌtiː.liˈɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The teleology should be confirmed.",
+      "image_hint": "a diagram illustrating teleology",
+      "frequency_rank": 480
+    },
+    {
+      "id": "pet_vocab_481",
+      "word": "axiology",
+      "ipa": "/ˌæk.siˈɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The axiology should be confirmed.",
+      "image_hint": "a diagram illustrating axiology",
+      "frequency_rank": 481
+    },
+    {
+      "id": "pet_vocab_482",
+      "word": "deontology",
+      "ipa": "/ˌdiː.ɒnˈtɒl.ə.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The deontology should be confirmed.",
+      "image_hint": "a diagram illustrating deontology",
+      "frequency_rank": 482
+    },
+    {
+      "id": "pet_vocab_483",
+      "word": "consequentialism",
+      "ipa": "/ˌkɒn.sɪˈkwent.ʃəl.ɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The consequentialism should be confirmed.",
+      "image_hint": "a diagram illustrating consequentialism",
+      "frequency_rank": 483
+    },
+    {
+      "id": "pet_vocab_484",
+      "word": "utilitarianism",
+      "ipa": "/juːˌtɪl.ɪˈteər.i.ə.nɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The utilitarianism should be confirmed.",
+      "image_hint": "a diagram illustrating utilitarianism",
+      "frequency_rank": 484
+    },
+    {
+      "id": "pet_vocab_485",
+      "word": "functionalism",
+      "ipa": "/ˈfʌŋk.ʃən.ə.lɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The functionalism should be confirmed.",
+      "image_hint": "a diagram illustrating functionalism",
+      "frequency_rank": 485
+    },
+    {
+      "id": "pet_vocab_486",
+      "word": "structuralism",
+      "ipa": "/ˈstrʌk.tʃər.ə.lɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The structuralism should be confirmed.",
+      "image_hint": "a diagram illustrating structuralism",
+      "frequency_rank": 486
+    },
+    {
+      "id": "pet_vocab_487",
+      "word": "poststructuralism",
+      "ipa": "/ˌpəʊst.ˈstrʌk.tʃər.ə.lɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The poststructuralism should be confirmed.",
+      "image_hint": "a diagram illustrating poststructuralism",
+      "frequency_rank": 487
+    },
+    {
+      "id": "pet_vocab_488",
+      "word": "postmodernism",
+      "ipa": "/ˌpəʊst.ˈmɒd.ən.ɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The postmodernism should be confirmed.",
+      "image_hint": "a diagram illustrating postmodernism",
+      "frequency_rank": 488
+    },
+    {
+      "id": "pet_vocab_489",
+      "word": "constructivism",
+      "ipa": "/kənˈstrʌk.tɪ.vɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The constructivism should be confirmed.",
+      "image_hint": "a diagram illustrating constructivism",
+      "frequency_rank": 489
+    },
+    {
+      "id": "pet_vocab_490",
+      "word": "cognitivism",
+      "ipa": "/ˈkɒɡ.nɪ.tɪ.vɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The cognitivism should be confirmed.",
+      "image_hint": "a diagram illustrating cognitivism",
+      "frequency_rank": 490
+    },
+    {
+      "id": "pet_vocab_491",
+      "word": "behaviourism",
+      "ipa": "/bɪˈheɪ.vjər.ɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The behaviourism should be confirmed.",
+      "image_hint": "a diagram illustrating behaviourism",
+      "frequency_rank": 491
+    },
+    {
+      "id": "pet_vocab_492",
+      "word": "humanism",
+      "ipa": "/ˈhjuː.mə.nɪ.zəm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The humanism should be confirmed.",
+      "image_hint": "a diagram illustrating humanism",
+      "frequency_rank": 492
+    },
+    {
+      "id": "pet_vocab_493",
+      "word": "pragmatism",
+      "ipa": "/ˈpræɡ.mə.tɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The pragmatism should be confirmed.",
+      "image_hint": "a diagram illustrating pragmatism",
+      "frequency_rank": 493
+    },
+    {
+      "id": "pet_vocab_494",
+      "word": "empiricism",
+      "ipa": "/ɪmˈpɪr.ɪ.sɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The empiricism should be confirmed.",
+      "image_hint": "a diagram illustrating empiricism",
+      "frequency_rank": 494
+    },
+    {
+      "id": "pet_vocab_495",
+      "word": "rationalism",
+      "ipa": "/ˈræʃ.ən.ə.lɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The rationalism should be confirmed.",
+      "image_hint": "a diagram illustrating rationalism",
+      "frequency_rank": 495
+    },
+    {
+      "id": "pet_vocab_496",
+      "word": "idealism",
+      "ipa": "/aɪˈdɪə.lɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The idealism should be confirmed.",
+      "image_hint": "a diagram illustrating idealism",
+      "frequency_rank": 496
+    },
+    {
+      "id": "pet_vocab_497",
+      "word": "materialism",
+      "ipa": "/məˈtɪər.i.ə.lɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The materialism should be confirmed.",
+      "image_hint": "a diagram illustrating materialism",
+      "frequency_rank": 497
+    },
+    {
+      "id": "pet_vocab_498",
+      "word": "reductionism",
+      "ipa": "/rɪˈdʌk.ʃən.ɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The reductionism was discussed.",
+      "image_hint": "a diagram representing reductionism",
+      "frequency_rank": 498
+    },
+    {
+      "id": "pet_vocab_499",
+      "word": "essentialism",
+      "ipa": "/ɪˈsen.ʃəl.ɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The essentialism was discussed.",
+      "image_hint": "a diagram representing essentialism",
+      "frequency_rank": 499
+    },
+    {
+      "id": "pet_vocab_500",
+      "word": "nominalism",
+      "ipa": "/ˈnɒm.ɪ.nə.lɪz.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "The nominalism was discussed.",
+      "image_hint": "a diagram representing nominalism",
+      "frequency_rank": 500
+    }
+  ]
+}

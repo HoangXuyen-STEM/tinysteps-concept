@@ -1,0 +1,259 @@
+{
+  "id": "pet_lesson_012",
+  "level": "pet",
+  "topic_id": "topic_social",
+  "order": 12,
+  "title": "Social conversations",
+  "scenario": "You are in a friend role. Use English naturally in this social situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "Park, sunny afternoon, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "friend"
+      },
+      {
+        "id": "char_b",
+        "name": "Nam",
+        "role": "friend"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "What a lovely afternoon! How have you been lately?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Very well, thank you. I have been quite busy with school."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. I have been working on a new project."
+      },
+      {
+        "character_id": "char_b",
+        "text": "What kind of project? It sounds interesting."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I am developing new English activities for the students."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Furthermore, a social event for teachers would be a great idea."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I agree completely. Let's discuss the details over coffee."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If I had known earlier, I would have planned something already."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_006",
+    "pet_vocab_007",
+    "pet_vocab_012",
+    "pet_vocab_031",
+    "pet_vocab_148",
+    "pet_vocab_149",
+    "pet_vocab_150",
+    "pet_vocab_151",
+    "pet_vocab_152",
+    "pet_vocab_153",
+    "pet_vocab_154",
+    "pet_vocab_155",
+    "pet_vocab_156",
+    "pet_vocab_157",
+    "pet_vocab_158",
+    "pet_vocab_159",
+    "pet_vocab_160"
+  ],
+  "grammar_ids": [
+    "pet_grammar_001",
+    "pet_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a person holding their hands together showing a sorry face",
+          "correct_answer": "apologize"
+        },
+        {
+          "image_hint": "an arrow pointing to additional detail cards",
+          "correct_answer": "furthermore"
+        },
+        {
+          "image_hint": "a simple, clear colorful visualization of warm",
+          "correct_answer": "warm"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "had",
+            ".",
+            "I",
+            "would",
+            "I",
+            "If",
+            "a",
+            ",",
+            "question",
+            "ask",
+            "the",
+            "teacher"
+          ],
+          "correct_answer": "If I had a question, I would ask the teacher."
+        },
+        {
+          "words": [
+            "it",
+            ",",
+            "didn't",
+            ".",
+            "If",
+            "explain",
+            "understand",
+            "they",
+            "I",
+            "again",
+            "would"
+          ],
+          "correct_answer": "If they didn't understand, I would explain it again."
+        },
+        {
+          "words": [
+            "more",
+            "I",
+            "were",
+            "buy",
+            "would",
+            "price",
+            ",",
+            "the",
+            ".",
+            "fruit",
+            "If",
+            "lower"
+          ],
+          "correct_answer": "If the price were lower, I would buy more fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "If I had a question, I would ask the teacher.",
+          "options": [
+            "If I had a question, I would ask the teacher.",
+            "If the price were lower, I would buy more fruit.",
+            "If they didn't understand, I would explain it again."
+          ],
+          "correct_answer": "If I had a question, I would ask the teacher."
+        },
+        {
+          "audio_text": "If they didn't understand, I would explain it again.",
+          "options": [
+            "If they didn't understand, I would explain it again.",
+            "If I had a question, I would ask the teacher.",
+            "If the price were lower, I would buy more fruit."
+          ],
+          "correct_answer": "If they didn't understand, I would explain it again."
+        },
+        {
+          "audio_text": "If the price were lower, I would buy more fruit.",
+          "options": [
+            "If I had a question, I would ask the teacher.",
+            "If they didn't understand, I would explain it again.",
+            "If the price were lower, I would buy more fruit."
+          ],
+          "correct_answer": "If the price were lower, I would buy more fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "If I had a question, I ___ ask the teacher.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "If they didn't understand, I ___ explain it again.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "If the price were lower, I ___ buy more fruit.",
+          "correct_answer": "would"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a person holding their hands together showing a sorry face). What is this?",
+          "options": [
+            "warm",
+            "furthermore",
+            "apologize"
+          ],
+          "correct_answer": "apologize"
+        },
+        {
+          "prompt": "Look at the picture (an arrow pointing to additional detail cards). What is this?",
+          "options": [
+            "apologize",
+            "furthermore",
+            "warm"
+          ],
+          "correct_answer": "furthermore"
+        },
+        {
+          "prompt": "Look at the picture (a simple, clear colorful visualization of warm). What is this?",
+          "options": [
+            "apologize",
+            "warm",
+            "furthermore"
+          ],
+          "correct_answer": "warm"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Have casual chat about weekend plans.",
+    "opening_line": "Hi! What a nice day. What are your plans for the weekend?",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_001",
+        "pet_grammar_003"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_006",
+        "pet_vocab_007",
+        "pet_vocab_012"
+      ]
+    },
+    "success_criteria": "Learner makes friendly small talk and discusses personal hobbies."
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "id": "pet_lesson_016",
+  "level": "pet",
+  "topic_id": "topic_checking_understanding",
+  "order": 16,
+  "title": "Checking understanding",
+  "scenario": "You are in a teacher role. Use English naturally in this checking understanding situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "English lab, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Hoa",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Phong",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Let's check if everyone understood the listening exercise."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I followed the main idea, but missed some details."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That is fine for now. What was the main topic?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "The speakers were discussing a school event."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Correct. You should try to improve your note-taking skills."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If I practised more often, would my listening improve?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Definitely. Regular practice makes a big difference."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I will start practising every day from now on."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_015",
+    "pet_vocab_023",
+    "pet_vocab_055",
+    "pet_vocab_066",
+    "pet_vocab_200",
+    "pet_vocab_201",
+    "pet_vocab_202",
+    "pet_vocab_203",
+    "pet_vocab_204",
+    "pet_vocab_205",
+    "pet_vocab_206",
+    "pet_vocab_207",
+    "pet_vocab_208",
+    "pet_vocab_209",
+    "pet_vocab_210",
+    "pet_vocab_211",
+    "pet_vocab_212"
+  ],
+  "grammar_ids": [
+    "pet_grammar_001",
+    "pet_grammar_009"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "an action illustration showing a person to ask",
+          "correct_answer": "ask"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a definition",
+          "correct_answer": "definition"
+        },
+        {
+          "image_hint": "an action illustration showing a person to follow",
+          "correct_answer": "follow"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "question",
+            ".",
+            "had",
+            "a",
+            ",",
+            "the",
+            "ask",
+            "I",
+            "would",
+            "If",
+            "I",
+            "teacher"
+          ],
+          "correct_answer": "If I had a question, I would ask the teacher."
+        },
+        {
+          "words": [
+            "would",
+            "explain",
+            "they",
+            "it",
+            ".",
+            ",",
+            "I",
+            "didn't",
+            "again",
+            "If",
+            "understand"
+          ],
+          "correct_answer": "If they didn't understand, I would explain it again."
+        },
+        {
+          "words": [
+            "more",
+            "lower",
+            "buy",
+            "were",
+            "I",
+            "price",
+            "If",
+            "fruit",
+            ".",
+            "the",
+            "would",
+            ","
+          ],
+          "correct_answer": "If the price were lower, I would buy more fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "If I had a question, I would ask the teacher.",
+          "options": [
+            "If they didn't understand, I would explain it again.",
+            "If the price were lower, I would buy more fruit.",
+            "If I had a question, I would ask the teacher."
+          ],
+          "correct_answer": "If I had a question, I would ask the teacher."
+        },
+        {
+          "audio_text": "If they didn't understand, I would explain it again.",
+          "options": [
+            "If they didn't understand, I would explain it again.",
+            "If the price were lower, I would buy more fruit.",
+            "If I had a question, I would ask the teacher."
+          ],
+          "correct_answer": "If they didn't understand, I would explain it again."
+        },
+        {
+          "audio_text": "If the price were lower, I would buy more fruit.",
+          "options": [
+            "If I had a question, I would ask the teacher.",
+            "If they didn't understand, I would explain it again.",
+            "If the price were lower, I would buy more fruit."
+          ],
+          "correct_answer": "If the price were lower, I would buy more fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "If I had a question, I ___ ask the teacher.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "If they didn't understand, I ___ explain it again.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "If the price were lower, I ___ buy more fruit.",
+          "correct_answer": "would"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to ask). What is this?",
+          "options": [
+            "definition",
+            "follow",
+            "ask"
+          ],
+          "correct_answer": "ask"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a definition). What is this?",
+          "options": [
+            "follow",
+            "ask",
+            "definition"
+          ],
+          "correct_answer": "definition"
+        },
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to follow). What is this?",
+          "options": [
+            "follow",
+            "ask",
+            "definition"
+          ],
+          "correct_answer": "follow"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Confirm comprehension of the classroom rules.",
+    "opening_line": "Teacher, are we supposed to explain or just write it?",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_001",
+        "pet_grammar_009"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_015",
+        "pet_vocab_023",
+        "pet_vocab_055"
+      ]
+    },
+    "success_criteria": "Learner checks understanding and gently clarifies rules."
+  }
+}

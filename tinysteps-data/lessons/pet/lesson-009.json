@@ -1,0 +1,250 @@
+{
+  "id": "pet_lesson_009",
+  "level": "pet",
+  "topic_id": "topic_travel",
+  "order": 9,
+  "title": "Travel and directions",
+  "scenario": "You are in a traveler role. Use English naturally in this travel situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "Bus terminal, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "traveler"
+      },
+      {
+        "id": "char_b",
+        "name": "Agent",
+        "role": "agent"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "I would like to buy a train ticket to Hue, please."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Certainly. When would you like to travel?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "This Saturday morning, if possible."
+      },
+      {
+        "character_id": "char_b",
+        "text": "There is a train at eight thirty that arrives at noon."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Could you recommend a good hotel near the old city?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, the Heritage Hotel is close to all the attractions."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I will confirm my hotel reservation tonight."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Safe travels. Enjoy your visit to Hue!"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_003",
+    "pet_vocab_004",
+    "pet_vocab_010",
+    "pet_vocab_018",
+    "pet_vocab_109",
+    "pet_vocab_110",
+    "pet_vocab_111",
+    "pet_vocab_112",
+    "pet_vocab_113",
+    "pet_vocab_114",
+    "pet_vocab_115",
+    "pet_vocab_116",
+    "pet_vocab_117",
+    "pet_vocab_118",
+    "pet_vocab_119",
+    "pet_vocab_120",
+    "pet_vocab_121"
+  ],
+  "grammar_ids": [
+    "pet_grammar_005",
+    "pet_grammar_007"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a 'Reserved' tent card sitting on an elegant restaurant table",
+          "correct_answer": "reservation"
+        },
+        {
+          "image_hint": "a departure board showing 'DELAYED' next to flights",
+          "correct_answer": "delay"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a train",
+          "correct_answer": "train"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "must",
+            "everyone",
+            ".",
+            "be",
+            "safety",
+            "followed",
+            "by",
+            "The",
+            "procedure"
+          ],
+          "correct_answer": "The safety procedure must be followed by everyone."
+        },
+        {
+          "words": [
+            "reservation",
+            "before",
+            "Friday",
+            "should",
+            "confirmed",
+            "The",
+            ".",
+            "be"
+          ],
+          "correct_answer": "The reservation should be confirmed before Friday."
+        },
+        {
+          "words": [
+            "ticket",
+            "can",
+            "be",
+            "bought",
+            ".",
+            "airport",
+            "the",
+            "The",
+            "at"
+          ],
+          "correct_answer": "The ticket can be bought at the airport."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "The safety procedure must be followed by everyone.",
+          "options": [
+            "The reservation should be confirmed before Friday.",
+            "The safety procedure must be followed by everyone.",
+            "The ticket can be bought at the airport."
+          ],
+          "correct_answer": "The safety procedure must be followed by everyone."
+        },
+        {
+          "audio_text": "The reservation should be confirmed before Friday.",
+          "options": [
+            "The safety procedure must be followed by everyone.",
+            "The reservation should be confirmed before Friday.",
+            "The ticket can be bought at the airport."
+          ],
+          "correct_answer": "The reservation should be confirmed before Friday."
+        },
+        {
+          "audio_text": "The ticket can be bought at the airport.",
+          "options": [
+            "The ticket can be bought at the airport.",
+            "The reservation should be confirmed before Friday.",
+            "The safety procedure must be followed by everyone."
+          ],
+          "correct_answer": "The ticket can be bought at the airport."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "The safety procedure must ___ followed by everyone.",
+          "correct_answer": "be"
+        },
+        {
+          "prompt": "The reservation should ___ confirmed before Friday.",
+          "correct_answer": "be"
+        },
+        {
+          "prompt": "The ticket can ___ bought at the airport.",
+          "correct_answer": "be"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a 'Reserved' tent card sitting on an elegant restaurant table). What is this?",
+          "options": [
+            "reservation",
+            "delay",
+            "train"
+          ],
+          "correct_answer": "reservation"
+        },
+        {
+          "prompt": "Look at the picture (a departure board showing 'DELAYED' next to flights). What is this?",
+          "options": [
+            "train",
+            "delay",
+            "reservation"
+          ],
+          "correct_answer": "delay"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a train). What is this?",
+          "options": [
+            "delay",
+            "reservation",
+            "train"
+          ],
+          "correct_answer": "train"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "agent",
+    "scenario": "Help a traveler book tickets and find directions.",
+    "opening_line": "Hello! Where are you traveling to today?",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_005",
+        "pet_grammar_007"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_003",
+        "pet_vocab_004",
+        "pet_vocab_010"
+      ]
+    },
+    "success_criteria": "Learner asks for directions and travel booking help politely."
+  }
+}

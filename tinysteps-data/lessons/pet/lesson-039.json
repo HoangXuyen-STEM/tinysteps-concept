@@ -1,0 +1,250 @@
+{
+  "id": "pet_lesson_039",
+  "level": "pet",
+  "topic_id": "topic_giving_instructions",
+  "order": 39,
+  "title": "Giving instructions",
+  "scenario": "You are in a teacher role. Use English naturally in this giving instructions situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "Classroom, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Binh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Phong",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "You must follow the instructions carefully during the test."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Understood, teacher. Should we write our names on the paper?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, write your full name at the top of the page."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Could we use a dictionary for the reading section?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "No, this is a closed-book test. Please put it away."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If we make a mistake, should we cross it out neatly?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, draw one line through the wrong answer and rewrite."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you for the clear instructions."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_001",
+    "pet_vocab_014",
+    "pet_vocab_022",
+    "pet_vocab_034",
+    "pet_vocab_499",
+    "pet_vocab_500",
+    "pet_vocab_002",
+    "pet_vocab_003",
+    "pet_vocab_004",
+    "pet_vocab_005",
+    "pet_vocab_006",
+    "pet_vocab_007",
+    "pet_vocab_008",
+    "pet_vocab_009",
+    "pet_vocab_010",
+    "pet_vocab_011",
+    "pet_vocab_012"
+  ],
+  "grammar_ids": [
+    "pet_grammar_005",
+    "pet_grammar_007"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a step-by-step flowchart diagram on school safety",
+          "correct_answer": "procedure"
+        },
+        {
+          "image_hint": "an action illustration showing a person to should",
+          "correct_answer": "should"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a attention",
+          "correct_answer": "attention"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "must",
+            "safety",
+            "be",
+            ".",
+            "procedure",
+            "The",
+            "followed",
+            "everyone",
+            "by"
+          ],
+          "correct_answer": "The safety procedure must be followed by everyone."
+        },
+        {
+          "words": [
+            "be",
+            "Friday",
+            "confirmed",
+            ".",
+            "before",
+            "reservation",
+            "should",
+            "The"
+          ],
+          "correct_answer": "The reservation should be confirmed before Friday."
+        },
+        {
+          "words": [
+            ".",
+            "airport",
+            "bought",
+            "be",
+            "ticket",
+            "The",
+            "can",
+            "at",
+            "the"
+          ],
+          "correct_answer": "The ticket can be bought at the airport."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "The safety procedure must be followed by everyone.",
+          "options": [
+            "The safety procedure must be followed by everyone.",
+            "The ticket can be bought at the airport.",
+            "The reservation should be confirmed before Friday."
+          ],
+          "correct_answer": "The safety procedure must be followed by everyone."
+        },
+        {
+          "audio_text": "The reservation should be confirmed before Friday.",
+          "options": [
+            "The reservation should be confirmed before Friday.",
+            "The ticket can be bought at the airport.",
+            "The safety procedure must be followed by everyone."
+          ],
+          "correct_answer": "The reservation should be confirmed before Friday."
+        },
+        {
+          "audio_text": "The ticket can be bought at the airport.",
+          "options": [
+            "The ticket can be bought at the airport.",
+            "The safety procedure must be followed by everyone.",
+            "The reservation should be confirmed before Friday."
+          ],
+          "correct_answer": "The ticket can be bought at the airport."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "The safety procedure must ___ followed by everyone.",
+          "correct_answer": "be"
+        },
+        {
+          "prompt": "The reservation should ___ confirmed before Friday.",
+          "correct_answer": "be"
+        },
+        {
+          "prompt": "The ticket can ___ bought at the airport.",
+          "correct_answer": "be"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a step-by-step flowchart diagram on school safety). What is this?",
+          "options": [
+            "procedure",
+            "attention",
+            "should"
+          ],
+          "correct_answer": "procedure"
+        },
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to should). What is this?",
+          "options": [
+            "attention",
+            "procedure",
+            "should"
+          ],
+          "correct_answer": "should"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a attention). What is this?",
+          "options": [
+            "should",
+            "procedure",
+            "attention"
+          ],
+          "correct_answer": "attention"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Ask for clarification about task instructions.",
+    "opening_line": "Teacher, should we open our books or start writing?",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_005",
+        "pet_grammar_007"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_001",
+        "pet_vocab_014",
+        "pet_vocab_022"
+      ]
+    },
+    "success_criteria": "Learner gives clear, polite instructions using imperatives or modal verbs."
+  }
+}

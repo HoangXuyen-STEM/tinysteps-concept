@@ -1,0 +1,244 @@
+{
+  "id": "flyers_lesson_023",
+  "level": "flyers",
+  "topic_id": "topic_health",
+  "order": 23,
+  "title": "Health and the doctor",
+  "scenario": "You are in a patient role. Use English naturally in this health situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "School clinic, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "patient"
+      },
+      {
+        "id": "char_b",
+        "name": "Doctor",
+        "role": "doctor"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good morning. I have a terrible headache and a high fever."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I am sorry to hear that. How long have you had these symptoms?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "The fever started two days ago and has not improved."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I see. I will write a prescription for you."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Should I describe any other symptoms?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, do you have a sore throat or difficulty breathing?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "No, just the headache and fever."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Please take the medicine after meals and rest completely."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_069",
+    "flyers_vocab_070",
+    "flyers_vocab_071",
+    "flyers_vocab_072",
+    "flyers_vocab_294",
+    "flyers_vocab_295",
+    "flyers_vocab_296",
+    "flyers_vocab_297",
+    "flyers_vocab_298",
+    "flyers_vocab_299",
+    "flyers_vocab_300",
+    "flyers_vocab_301",
+    "flyers_vocab_302",
+    "flyers_vocab_303",
+    "flyers_vocab_304",
+    "flyers_vocab_305",
+    "flyers_vocab_306"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_004",
+    "flyers_grammar_007"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a medical chart showing common cold symptoms",
+          "correct_answer": "symptom"
+        },
+        {
+          "image_hint": "a small medical clinic with a green cross sign",
+          "correct_answer": "clinic"
+        },
+        {
+          "image_hint": "a smiling patient recovering in a hospital bed",
+          "correct_answer": "recover"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "You",
+            ".",
+            "word",
+            "the",
+            "should",
+            "explain"
+          ],
+          "correct_answer": "You should explain the word."
+        },
+        {
+          "words": [
+            "this",
+            "You",
+            "a",
+            "like",
+            "mistake",
+            "make",
+            ".",
+            "shouldn't"
+          ],
+          "correct_answer": "You shouldn't make a mistake like this."
+        },
+        {
+          "words": [
+            "He",
+            "should",
+            "doctor",
+            "see",
+            ".",
+            "a"
+          ],
+          "correct_answer": "He should see a doctor."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "You should explain the word.",
+          "options": [
+            "You shouldn't make a mistake like this.",
+            "He should see a doctor.",
+            "You should explain the word."
+          ],
+          "correct_answer": "You should explain the word."
+        },
+        {
+          "audio_text": "You shouldn't make a mistake like this.",
+          "options": [
+            "He should see a doctor.",
+            "You shouldn't make a mistake like this.",
+            "You should explain the word."
+          ],
+          "correct_answer": "You shouldn't make a mistake like this."
+        },
+        {
+          "audio_text": "He should see a doctor.",
+          "options": [
+            "He should see a doctor.",
+            "You should explain the word.",
+            "You shouldn't make a mistake like this."
+          ],
+          "correct_answer": "He should see a doctor."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "You ___ explain the word.",
+          "correct_answer": "should"
+        },
+        {
+          "prompt": "You ___ make a mistake like this.",
+          "correct_answer": "shouldn't"
+        },
+        {
+          "prompt": "He ___ see a doctor.",
+          "correct_answer": "should"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a medical chart showing common cold symptoms). What is this?",
+          "options": [
+            "recover",
+            "clinic",
+            "symptom"
+          ],
+          "correct_answer": "symptom"
+        },
+        {
+          "prompt": "Look at the picture (a small medical clinic with a green cross sign). What is this?",
+          "options": [
+            "recover",
+            "symptom",
+            "clinic"
+          ],
+          "correct_answer": "clinic"
+        },
+        {
+          "prompt": "Look at the picture (a smiling patient recovering in a hospital bed). What is this?",
+          "options": [
+            "symptom",
+            "recover",
+            "clinic"
+          ],
+          "correct_answer": "recover"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "doctor",
+    "scenario": "Diagnose a patient's symptoms at the clinic.",
+    "opening_line": "Hello. Please sit down. What are your symptoms today?",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_004",
+        "flyers_grammar_007"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_069",
+        "flyers_vocab_070",
+        "flyers_vocab_071"
+      ]
+    },
+    "success_criteria": "Learner describes symptoms clearly and asks for medical advice."
+  }
+}

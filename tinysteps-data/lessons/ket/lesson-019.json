@@ -1,0 +1,253 @@
+{
+  "id": "ket_lesson_019",
+  "level": "ket",
+  "topic_id": "topic_market",
+  "order": 19,
+  "title": "At the market",
+  "scenario": "You are in a buyer role. Use English naturally in this market situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "Local market stall, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Nam",
+        "role": "buyer"
+      },
+      {
+        "id": "char_b",
+        "name": "Seller",
+        "role": "seller"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Could I see the price list for these items, please?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Of course. Here is today's price list."
+      },
+      {
+        "character_id": "char_a",
+        "text": "The price for organic vegetables is quite high."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I apologise, but the quality is excellent."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I always bargain at the market. Can we negotiate?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "If you buy five kilos, I will give you a ten percent discount."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That sounds fair. I will take five kilos."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. Here is your bill and your change."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_007",
+    "ket_vocab_008",
+    "ket_vocab_050",
+    "ket_vocab_051",
+    "ket_vocab_225",
+    "ket_vocab_226",
+    "ket_vocab_227",
+    "ket_vocab_228",
+    "ket_vocab_229",
+    "ket_vocab_230",
+    "ket_vocab_231",
+    "ket_vocab_232",
+    "ket_vocab_233",
+    "ket_vocab_234",
+    "ket_vocab_235",
+    "ket_vocab_236"
+  ],
+  "grammar_ids": [
+    "ket_grammar_004",
+    "ket_grammar_009"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a price tag symbol with dollar or dong marks",
+          "correct_answer": "price"
+        },
+        {
+          "image_hint": "a customer and vendor laughing and negotiating a price",
+          "correct_answer": "bargain"
+        },
+        {
+          "image_hint": "a rising price chart showing inflation",
+          "correct_answer": "inflation"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "to",
+            "used",
+            "the",
+            "when",
+            "at",
+            ".",
+            "young",
+            "bargain",
+            "was",
+            "I",
+            "I",
+            "market"
+          ],
+          "correct_answer": "I used to bargain at the market when I was young."
+        },
+        {
+          "words": [
+            ".",
+            "a",
+            "fever",
+            "winter",
+            "He",
+            "to",
+            "used",
+            "have",
+            "every"
+          ],
+          "correct_answer": "He used to have a fever every winter."
+        },
+        {
+          "words": [
+            "a",
+            "to",
+            "different",
+            "schedule",
+            ".",
+            "school",
+            "used",
+            "have",
+            "We"
+          ],
+          "correct_answer": "We used to have a different school schedule."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I used to bargain at the market when I was young.",
+          "options": [
+            "He used to have a fever every winter.",
+            "I used to bargain at the market when I was young.",
+            "We used to have a different school schedule."
+          ],
+          "correct_answer": "I used to bargain at the market when I was young."
+        },
+        {
+          "audio_text": "He used to have a fever every winter.",
+          "options": [
+            "I used to bargain at the market when I was young.",
+            "We used to have a different school schedule.",
+            "He used to have a fever every winter."
+          ],
+          "correct_answer": "He used to have a fever every winter."
+        },
+        {
+          "audio_text": "We used to have a different school schedule.",
+          "options": [
+            "We used to have a different school schedule.",
+            "I used to bargain at the market when I was young.",
+            "He used to have a fever every winter."
+          ],
+          "correct_answer": "We used to have a different school schedule."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ to bargain at the market when I was young.",
+          "correct_answer": "used"
+        },
+        {
+          "prompt": "He ___ to have a fever every winter.",
+          "correct_answer": "used"
+        },
+        {
+          "prompt": "We ___ to have a different school schedule.",
+          "correct_answer": "used"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a price tag symbol with dollar or dong marks). What is this?",
+          "options": [
+            "bargain",
+            "price",
+            "inflation"
+          ],
+          "correct_answer": "price"
+        },
+        {
+          "prompt": "Look at the picture (a customer and vendor laughing and negotiating a price). What is this?",
+          "options": [
+            "inflation",
+            "price",
+            "bargain"
+          ],
+          "correct_answer": "bargain"
+        },
+        {
+          "prompt": "Look at the picture (a rising price chart showing inflation). What is this?",
+          "options": [
+            "bargain",
+            "inflation",
+            "price"
+          ],
+          "correct_answer": "inflation"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "seller",
+    "scenario": "Bargain with a buyer at the market stall.",
+    "opening_line": "Fresh vegetables here! Would you like to buy some?",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_004",
+        "ket_grammar_009"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_007",
+        "ket_vocab_008",
+        "ket_vocab_050"
+      ]
+    },
+    "success_criteria": "Learner asks for prices and negotiates politely."
+  }
+}

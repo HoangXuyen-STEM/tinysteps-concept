@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TinySteps — Ý tưởng sản phẩm</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --warm: #F5F0E8;
+  --cream: #FFFDF8;
+  --ink: #2C2A25;
+  --ink-light: #6B675E;
+  --accent: #E8734A;
+  --accent-soft: #FFF0EB;
+  --teal: #1D9E75;
+  --teal-soft: #E6F5EE;
+  --blue: #378ADD;
+  --blue-soft: #E6F1FB;
+  --purple: #7F77DD;
+  --purple-soft: #EEEDFE;
+  --amber: #BA7517;
+  --amber-soft: #FDF3E0;
+  --border: #E8E4DB;
+  --shadow: rgba(44, 42, 37, 0.06);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #2C2A25 0%, #3D3A33 100%);
+  color: #F5F0E8;
+  padding: 60px 24px 48px;
+  text-align: center;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 100px;
+  margin-bottom: 24px;
+}
+
+.hero h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.hero h1 span {
+  color: var(--accent);
+}
+
+.hero .subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  color: #B8B4AA;
+  max-width: 480px;
+  margin: 0 auto 32px;
+}
+
+.hero-meta {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 13px;
+  color: #8A8680;
+}
+
+.hero-meta span { display: flex; align-items: center; gap: 6px; }
+
+/* Sections */
+section {
+  padding: 48px 0;
+}
+
+section + section {
+  border-top: 1px solid var(--border);
+}
+
+.section-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-family: 'Noto Serif', serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  color: var(--ink);
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--ink);
+}
+
+p {
+  margin-bottom: 16px;
+  color: var(--ink-light);
+}
+
+p strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+/* Story block */
+.story {
+  background: var(--warm);
+  border-radius: 16px;
+  padding: 28px 24px;
+  margin: 24px 0;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--ink);
+  border-left: 4px solid var(--accent);
+}
+
+.story .attribution {
+  font-style: normal;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 13px;
+  color: var(--ink-light);
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+/* Feature cards */
+.feature-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+@media (min-width: 560px) {
+  .feature-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.feature-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+  transition: transform 0.2s;
+}
+
+.feature-card:hover { transform: translateY(-2px); }
+
+.feature-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.feature-card h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Journey timeline */
+.journey {
+  position: relative;
+  margin: 32px 0;
+  padding-left: 36px;
+}
+
+.journey::before {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--teal), var(--blue), var(--purple));
+  border-radius: 2px;
+}
+
+.journey-step {
+  position: relative;
+  margin-bottom: 32px;
+  padding: 20px 24px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.journey-step:last-child { margin-bottom: 0; }
+
+.journey-dot {
+  position: absolute;
+  left: -30px;
+  top: 24px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px var(--teal);
+  background: var(--teal);
+}
+
+.journey-step:nth-child(2) .journey-dot { background: var(--blue); box-shadow: 0 0 0 2px var(--blue); }
+.journey-step:nth-child(3) .journey-dot { background: var(--blue); box-shadow: 0 0 0 2px var(--blue); }
+.journey-step:nth-child(4) .journey-dot { background: var(--purple); box-shadow: 0 0 0 2px var(--purple); }
+.journey-step:nth-child(5) .journey-dot { background: var(--purple); box-shadow: 0 0 0 2px var(--purple); }
+
+.journey-level {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.journey-step:nth-child(1) .journey-level { color: var(--teal); }
+.journey-step:nth-child(2) .journey-level { color: var(--teal); }
+.journey-step:nth-child(3) .journey-level { color: var(--blue); }
+.journey-step:nth-child(4) .journey-level { color: var(--blue); }
+.journey-step:nth-child(5) .journey-level { color: var(--purple); }
+
+.journey-step h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.journey-step p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.journey-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.journey-examples span {
+  background: var(--warm);
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: var(--ink);
+  font-weight: 400;
+}
+
+/* Screen mockup */
+.screen-flow {
+  margin: 32px 0;
+}
+
+.screen-step {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 28px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--border);
+}
+
+.screen-step:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+.screen-number {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen-content h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.screen-content p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.screen-content .screen-detail {
+  background: var(--warm);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+
+/* Principle cards */
+.principle {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.principle-number {
+  flex-shrink: 0;
+  font-family: 'Noto Serif', serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--accent);
+  line-height: 1;
+  margin-top: 2px;
+}
+
+.principle h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.principle p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* Comparison */
+.comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+@media (max-width: 480px) {
+  .comparison { grid-template-columns: 1fr; }
+}
+
+.comp-card {
+  padding: 20px;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+.comp-card.old {
+  background: #FFF5F5;
+  border: 1px solid #FECACA;
+}
+
+.comp-card.new {
+  background: var(--teal-soft);
+  border: 1px solid #A7F3D0;
+}
+
+.comp-card h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.comp-card.old h4 { color: #B91C1C; }
+.comp-card.new h4 { color: #047857; }
+
+.comp-card li {
+  margin-bottom: 6px;
+  padding-left: 4px;
+  list-style: none;
+  line-height: 1.5;
+}
+
+.comp-card.old li::before { content: '✕ '; color: #DC2626; font-weight: 600; }
+.comp-card.new li::before { content: '✓ '; color: #059669; font-weight: 600; }
+
+/* FAQ */
+.faq-item {
+  margin-bottom: 20px;
+  padding: 20px 24px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.faq-item h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--ink);
+}
+
+.faq-item p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* Feedback section */
+.feedback-section {
+  background: var(--warm);
+  border-radius: 20px;
+  padding: 40px 32px;
+  margin: 32px 0;
+  text-align: center;
+}
+
+.feedback-section h3 {
+  font-family: 'Noto Serif', serif;
+  font-size: 22px;
+}
+
+.feedback-questions {
+  text-align: left;
+  max-width: 520px;
+  margin: 20px auto 0;
+}
+
+.feedback-questions li {
+  font-size: 15px;
+  margin-bottom: 12px;
+  padding-left: 8px;
+  list-style: none;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.feedback-questions li::before {
+  content: '→ ';
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 40px 24px;
+  font-size: 13px;
+  color: var(--ink-light);
+  border-top: 1px solid var(--border);
+}
+
+.footer strong { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<div class="hero">
+  <div class="hero-badge">Tài liệu thảo luận</div>
+  <h1>Tiny<span>Steps</span></h1>
+  <p class="subtitle">Ứng dụng học tiếng Anh dành cho giáo viên Việt Nam — từ bước nhỏ nhất đến giao tiếp tự tin</p>
+  <div class="hero-meta">
+    <span>Phiên bản 1.0</span>
+    <span>Tháng 5/2026</span>
+    <span>XuyenLab</span>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- Section 1: Vì sao cần TinySteps -->
+<section>
+  <div class="section-label">Bối cảnh</div>
+  <h2>Vì sao chúng ta cần TinySteps?</h2>
+
+  <p>Ngày càng nhiều trường yêu cầu giáo viên <strong>sử dụng tiếng Anh như ngôn ngữ thứ 2</strong> trong công việc. Nhưng thực tế, đa số giáo viên đã học tiếng Anh ở trường sư phạm nhưng không có cơ hội thực hành, dần dần quên gần hết.</p>
+
+  <p>Kết quả: <strong>biết là cần, nhưng sợ sai, ngại nói, không biết bắt đầu từ đâu.</strong></p>
+
+  <div class="story">
+    "Tôi học tiếng Anh được vì bị lừa. Khi tìm tài liệu cho con gái 5 tuổi, tôi phát hiện bộ Cambridge Starters. Lần đầu tiếp xúc, tôi thấy nó dễ — không cần câu phức tạp vẫn diễn đạt được. Nghe 5-7 lần là hiểu. Bài tập có bối cảnh thực tế. Tôi học được vì tưởng nó dễ."
+    <p class="attribution">— Thầy Xuyên, giáo viên Hóa học, Đắk Lắk</p>
+  </div>
+
+  <p>TinySteps được xây dựng dựa trên chính trải nghiệm này: <strong>bắt đầu từ bước nhỏ đến mức không thể từ chối</strong>, rồi tích lũy dần đến khi bạn tự tin giao tiếp.</p>
+</section>
+
+<!-- Section 2: TinySteps hoạt động như thế nào -->
+<section>
+  <div class="section-label">Cách hoạt động</div>
+  <h2>TinySteps hoạt động như thế nào?</h2>
+
+  <p>App được thiết kế theo <strong>4 nguyên tắc cốt lõi</strong>, lấy cảm hứng từ cách Cambridge thiết kế chương trình Starters → Movers → Flyers:</p>
+
+  <div class="principle">
+    <div class="principle-number">1</div>
+    <div>
+      <h4>Bắt đầu dễ đến mức không thể từ chối</h4>
+      <p>Bài đầu tiên hoàn thành trong 2 phút. Không cần biết gì về tiếng Anh. Bạn sẽ nghĩ "cái này dễ mà" — và đó chính là mục đích.</p>
+    </div>
+  </div>
+
+  <div class="principle">
+    <div class="principle-number">2</div>
+    <div>
+      <h4>Không dạy ngữ pháp trực tiếp</h4>
+      <p>Bạn sẽ không thấy bài giảng "Thì hiện tại đơn là gì". Thay vào đó, bạn nghe và làm theo các tình huống thực tế — ngữ pháp được "hấp thụ" tự nhiên qua lặp lại, giống cách trẻ con học nói.</p>
+    </div>
+  </div>
+
+  <div class="principle">
+    <div class="principle-number">3</div>
+    <div>
+      <h4>Xoáy ốc — cùng chủ đề, phức tạp dần</h4>
+      <p>Chủ đề "Ăn uống" sẽ quay lại nhiều lần: lần đầu bạn học "I like rice", vài tuần sau là "Can I have the menu, please?", rồi "I'd prefer the grilled chicken". Bạn không nhận ra mình đang tiến bộ — cho đến khi nhìn lại.</p>
+    </div>
+  </div>
+
+  <div class="principle">
+    <div class="principle-number">4</div>
+    <div>
+      <h4>Mỗi bài đều có bối cảnh thực tế</h4>
+      <p>Không bao giờ học từ lẻ. Luôn có một tình huống cụ thể: ở quán cà phê, gọi điện cho phụ huynh, hỏi đường đến trường. Bạn học từ vựng và câu trong bối cảnh mà bạn sẽ thật sự dùng.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Section 3: Một ngày dùng TinySteps -->
+<section>
+  <div class="section-label">Trải nghiệm người dùng</div>
+  <h2>Một ngày dùng TinySteps trông như thế nào?</h2>
+
+  <p>Bạn mở app trên điện thoại — có thể là buổi sáng trước khi dạy, giờ nghỉ trưa, hoặc tối trước khi ngủ. <strong>Mỗi lần chỉ cần 5-10 phút.</strong></p>
+
+  <div class="screen-flow">
+    <div class="screen-step">
+      <div class="screen-number">1</div>
+      <div class="screen-content">
+        <h4>Mở app — thấy bài học hôm nay</h4>
+        <p>App tự động chọn bài phù hợp với trình độ hiện tại của bạn. Không cần suy nghĩ "hôm nay học gì".</p>
+        <div class="screen-detail">
+          Ví dụ: "Chào hỏi đồng nghiệp" — Level Starters<br>
+          Thời gian ước tính: 5 phút<br>
+          Gồm: 8 từ mới + 1 đoạn hội thoại ngắn + 3 bài tập
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-step">
+      <div class="screen-number">2</div>
+      <div class="screen-content">
+        <h4>Nghe và nhìn</h4>
+        <p>Bạn nghe một đoạn hội thoại ngắn (có hình minh họa). Nghe lần 1 thấy lạ, lần 2 bắt đầu hiểu, lần 3-4 hiểu gần hết. Có phụ đề tiếng Anh và dịch tiếng Việt để hỗ trợ.</p>
+        <div class="screen-detail">
+          🔊 "Good morning! How are you today?"<br>
+          🔊 "I'm fine, thank you. And you?"<br>
+          🔊 "I'm good. Ready for class?"<br>
+          <em style="color: var(--ink-light);">Bạn có thể nghe lại bao nhiêu lần tùy thích.</em>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-step">
+      <div class="screen-number">3</div>
+      <div class="screen-content">
+        <h4>Làm bài tập tương tác</h4>
+        <p>Bài tập được thiết kế giống trò chơi — nối hình với từ, sắp xếp câu, chọn đáp án đúng. Sai cũng không sao — app sẽ giải thích nhẹ nhàng và cho thử lại.</p>
+        <div class="screen-detail">
+          Ví dụ bài tập:<br>
+          📝 Sắp xếp: [you / are / How / ?] → "How are you?"<br>
+          🖼️ Nối hình: Hình người vẫy tay → "Hello"<br>
+          👂 Nghe và chọn: Nghe "Good morning" → Chọn ảnh buổi sáng
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-step">
+      <div class="screen-number">4</div>
+      <div class="screen-content">
+        <h4>Ôn tập từ cũ (tự động)</h4>
+        <p>App nhớ bạn đã học gì và khi nào cần ôn lại. Những từ bạn hay quên sẽ xuất hiện thường hơn. Những từ bạn nhớ tốt sẽ ít xuất hiện — tiết kiệm thời gian.</p>
+        <div class="screen-detail">
+          Hệ thống ôn tập thông minh (Spaced Repetition):<br>
+          Ngày 1: Học từ mới → Ôn lại sau 1 ngày<br>
+          Nhớ tốt → Ôn lại sau 3 ngày → 7 ngày → 14 ngày...<br>
+          Quên → Quay lại ôn sớm hơn<br>
+          <em style="color: var(--ink-light);">Bạn không cần tự quyết định ôn gì — app lo hết.</em>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-step">
+      <div class="screen-number">5</div>
+      <div class="screen-content">
+        <h4>Luyện hội thoại với AI (khi sẵn sàng)</h4>
+        <p>Khi bạn đã tích lũy đủ từ vựng, app mở tính năng luyện nói với AI. AI sẽ đóng vai đồng nghiệp, phụ huynh, hoặc học sinh — nói chậm, dùng từ đơn giản, không chê khi bạn sai.</p>
+        <div class="screen-detail">
+          Ví dụ tình huống:<br>
+          🤖 AI (vai phụ huynh): "Hello teacher, I want to ask about my son's exam."<br>
+          🧑 Bạn: "Hello! Yes, please sit down."<br>
+          🤖 AI: "Thank you. How is he doing in class?"<br>
+          <em style="color: var(--ink-light);">AI tự động điều chỉnh độ khó theo level của bạn.</em>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 4: Lộ trình học dài hạn -->
+<section>
+  <div class="section-label">Lộ trình</div>
+  <h2>Hành trình từ "không biết gì" đến giao tiếp được</h2>
+
+  <p>TinySteps theo lộ trình Cambridge — hệ thống đã được hàng triệu người trên thế giới sử dụng. Lộ trình được chia thành <strong>5 giai đoạn</strong>, mỗi giai đoạn khoảng 2-3 tháng nếu học đều 10-15 phút/ngày.</p>
+
+  <div class="journey">
+    <div class="journey-step">
+      <div class="journey-dot"></div>
+      <div class="journey-level">Giai đoạn 1 · Starters</div>
+      <h4>Những bước đầu tiên</h4>
+      <p>Học từ vựng cơ bản nhất qua hình ảnh và âm thanh. Câu rất ngắn, rất đơn giản. Bạn sẽ nghĩ "cái này dễ quá" — tốt, đó là đúng ý.</p>
+      <div class="journey-examples">
+        <span>Hello, goodbye</span>
+        <span>Numbers 1-20</span>
+        <span>Colors, animals</span>
+        <span>I like...</span>
+      </div>
+    </div>
+
+    <div class="journey-step">
+      <div class="journey-dot"></div>
+      <div class="journey-level">Giai đoạn 2 · Movers</div>
+      <h4>Bắt đầu ghép câu</h4>
+      <p>Câu dài hơn một chút, có thì quá khứ đơn giản. Bắt đầu nghe hiểu đoạn hội thoại ngắn. Bạn có thể mô tả đồ vật, kể chuyện đơn giản.</p>
+      <div class="journey-examples">
+        <span>Yesterday I went to...</span>
+        <span>Can you help me?</span>
+        <span>I think... because...</span>
+      </div>
+    </div>
+
+    <div class="journey-step">
+      <div class="journey-dot"></div>
+      <div class="journey-level">Giai đoạn 3 · Flyers (tương đương A2)</div>
+      <h4>Giao tiếp cơ bản được rồi</h4>
+      <p>Hiểu được email đơn giản, viết tin nhắn ngắn, trả lời câu hỏi phỏng vấn cơ bản. Bắt đầu cảm thấy "à, mình dùng được tiếng Anh thật".</p>
+      <div class="journey-examples">
+        <span>Could you please...?</span>
+        <span>I'm sorry, I don't understand</span>
+        <span>Let me check and get back to you</span>
+      </div>
+    </div>
+
+    <div class="journey-step">
+      <div class="journey-dot"></div>
+      <div class="journey-level">Giai đoạn 4 · KET (A2 vững)</div>
+      <h4>Tự tin trong công việc hàng ngày</h4>
+      <p>Đọc hiểu thông báo, biển chỉ dẫn, email công việc. Nói chuyện được với đồng nghiệp về các chủ đề quen thuộc. Gọi điện thoại đơn giản bằng tiếng Anh.</p>
+      <div class="journey-examples">
+        <span>The meeting is at 3pm</span>
+        <span>I'd like to suggest...</span>
+        <span>According to the report...</span>
+      </div>
+    </div>
+
+    <div class="journey-step">
+      <div class="journey-dot"></div>
+      <div class="journey-level">Giai đoạn 5 · PET (B1)</div>
+      <h4>Sử dụng tiếng Anh tại trường học</h4>
+      <p>Trình bày ý kiến trong cuộc họp, viết báo cáo ngắn, hướng dẫn học sinh bằng tiếng Anh. Bạn không hoàn hảo — nhưng bạn giao tiếp được, và đó mới là điều quan trọng.</p>
+      <div class="journey-examples">
+        <span>In my opinion, we should...</span>
+        <span>Let me explain the procedure</span>
+        <span>The results show that...</span>
+      </div>
+    </div>
+  </div>
+
+  <p style="text-align: center; font-size: 15px; color: var(--accent); font-weight: 500;">Mục tiêu cuối cùng: tự tin dùng tiếng Anh trong công việc hàng ngày tại trường — không phải trở thành phiên dịch viên.</p>
+</section>
+
+<!-- Section 5: Khác biệt -->
+<section>
+  <div class="section-label">So sánh</div>
+  <h2>TinySteps khác gì so với cách học truyền thống?</h2>
+
+  <div class="comparison">
+    <div class="comp-card old">
+      <h4>Cách học cũ</h4>
+      <ul>
+        <li>Bắt đầu bằng ngữ pháp phức tạp</li>
+        <li>Học từ vựng theo danh sách dài</li>
+        <li>Sợ sai, sợ bị đánh giá</li>
+        <li>Không có lộ trình rõ ràng</li>
+        <li>Học xong không biết dùng ở đâu</li>
+        <li>Phải dành 1-2 giờ mỗi lần</li>
+      </ul>
+    </div>
+    <div class="comp-card new">
+      <h4>TinySteps</h4>
+      <ul>
+        <li>Bắt đầu từ câu đơn giản nhất</li>
+        <li>Học từ trong tình huống thực tế</li>
+        <li>Sai = cơ hội học, không ai chê</li>
+        <li>Lộ trình rõ ràng theo Cambridge</li>
+        <li>Mỗi bài gắn với công việc thật</li>
+        <li>Chỉ cần 5-10 phút mỗi ngày</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Section 6: Tính năng chính -->
+<section>
+  <div class="section-label">Tính năng</div>
+  <h2>App có những gì?</h2>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <div class="feature-icon" style="background: var(--teal-soft); color: var(--teal);">📖</div>
+      <h4>Bài học theo chủ đề</h4>
+      <p>Mỗi bài là một tình huống thực tế: ở trường, đi chợ, gọi điện, họp phụ huynh. Có hình minh họa và audio để nghe.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon" style="background: var(--blue-soft); color: var(--blue);">🔄</div>
+      <h4>Ôn tập thông minh</h4>
+      <p>App nhớ bạn hay quên từ nào và tự động nhắc ôn đúng lúc. Không cần tự lên kế hoạch — app lo hết.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon" style="background: var(--purple-soft); color: var(--purple);">🎧</div>
+      <h4>Luyện nghe</h4>
+      <p>Nghe hội thoại, nghe chỉ dẫn, nghe thông báo — tất cả đều nói chậm, rõ ràng, phù hợp với trình độ hiện tại.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon" style="background: var(--amber-soft); color: var(--amber);">💬</div>
+      <h4>Luyện nói với AI</h4>
+      <p>Nói chuyện với AI qua tình huống giả lập. AI nhẫn nại, không chê, tự động điều chỉnh để phù hợp với bạn.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon" style="background: var(--teal-soft); color: var(--teal);">📊</div>
+      <h4>Theo dõi tiến độ</h4>
+      <p>Xem bạn đã học bao nhiêu từ, hoàn thành bao nhiêu bài, đang ở level nào. Nhìn thấy mình tiến bộ mỗi tuần.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon" style="background: var(--accent-soft); color: var(--accent);">👥</div>
+      <h4>Học cùng nhóm</h4>
+      <p>Tạo nhóm với đồng nghiệp, xem ai đang ở đâu, động viên nhau. Không cạnh tranh — chỉ cùng nhau tiến bộ.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Section 7: Nội dung cho giáo viên -->
+<section>
+  <div class="section-label">Nội dung đặc biệt</div>
+  <h2>Được thiết kế riêng cho giáo viên</h2>
+
+  <p>Khác với Duolingo hay các app học tiếng Anh chung chung, TinySteps có <strong>nội dung gắn liền với môi trường trường học</strong>:</p>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h4>🏫 Giao tiếp ở trường</h4>
+      <p>Chào đồng nghiệp, họp chuyên môn, viết thông báo, báo cáo kết quả học sinh.</p>
+    </div>
+
+    <div class="feature-card">
+      <h4>👨‍👩‍👧 Họp phụ huynh</h4>
+      <p>Giải thích kết quả học tập, tư vấn phương pháp học, trả lời câu hỏi của phụ huynh.</p>
+    </div>
+
+    <div class="feature-card">
+      <h4>📋 Hành chính</h4>
+      <p>Đọc và viết email công việc, điền biểu mẫu, đọc hiểu tài liệu hướng dẫn.</p>
+    </div>
+
+    <div class="feature-card">
+      <h4>🌍 Phát triển chuyên môn</h4>
+      <p>Đọc tài liệu giáo dục quốc tế, tham gia hội thảo, trao đổi kinh nghiệm với giáo viên nước ngoài.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Section 8: FAQ -->
+<section>
+  <div class="section-label">Câu hỏi thường gặp</div>
+  <h2>Bạn có thể thắc mắc...</h2>
+
+  <div class="faq-item">
+    <h4>Tôi gần 50 tuổi rồi, học tiếng Anh liệu có muộn không?</h4>
+    <p>Không. TinySteps được thiết kế cho người lớn bắt đầu muộn. Não người lớn học khác trẻ con — không nhanh bằng nhưng có lợi thế: kinh nghiệm sống giúp hiểu ngữ cảnh tốt hơn. Chỉ cần 10 phút mỗi ngày, kiên trì 6 tháng, bạn sẽ thấy khác biệt.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>Tôi đã quên hết tiếng Anh từ thời đại học. Bắt đầu từ đâu?</h4>
+    <p>Từ giai đoạn Starters — bước nhỏ nhất có thể. Bạn sẽ ngạc nhiên khi thấy nhiều từ mình vẫn nhớ. App sẽ tự động phát hiện những gì bạn đã biết và bỏ qua, tập trung vào những gì bạn cần học.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>Mỗi ngày cần bao nhiêu thời gian?</h4>
+    <p>Tối thiểu 5 phút, lý tưởng 10-15 phút. Quan trọng nhất là đều đặn mỗi ngày, không phải học dồn vào cuối tuần. 10 phút mỗi ngày hiệu quả hơn 2 tiếng vào Chủ nhật.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>App có cần internet không?</h4>
+    <p>Cần internet để đồng bộ tiến độ và dùng tính năng luyện nói với AI. Tuy nhiên, phần ôn tập từ vựng và bài tập cơ bản có thể dùng ngoại tuyến.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>Dùng trên điện thoại hay máy tính?</h4>
+    <p>Cả hai. App chạy trên trình duyệt web (Chrome, Safari) và được tối ưu cho màn hình điện thoại. Sau này sẽ có app riêng trên App Store và Google Play.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>Có miễn phí không?</h4>
+    <p>Hiện tại dự kiến miễn phí cho nhóm giáo viên thử nghiệm đầu tiên. Chính sách lâu dài sẽ được quyết định sau khi nhận phản hồi.</p>
+  </div>
+</section>
+
+<!-- Feedback -->
+<section>
+  <div class="feedback-section">
+    <div class="section-label" style="color: var(--accent);">Góp ý</div>
+    <h3>Ý kiến của bạn rất quan trọng</h3>
+    <p style="color: var(--ink-light); max-width: 480px; margin: 0 auto 20px;">TinySteps đang trong giai đoạn thiết kế. Mọi ý kiến đóng góp sẽ giúp app phục vụ giáo viên tốt hơn. Hãy suy nghĩ về những câu hỏi sau:</p>
+
+    <div class="feedback-questions">
+      <ul>
+        <li>Bạn thấy cách tiếp cận "bắt đầu từ cái dễ nhất" có phù hợp không? Vì sao?</li>
+        <li>Trong công việc hàng ngày, tình huống nào bạn cần dùng tiếng Anh nhất?</li>
+        <li>Bạn thường có bao nhiêu phút rảnh mỗi ngày để học?</li>
+        <li>Bạn thích học một mình hay cùng nhóm đồng nghiệp?</li>
+        <li>Điều gì khiến bạn ngại nhất khi nói tiếng Anh?</li>
+        <li>Bạn đã thử app học tiếng Anh nào chưa? Thích và không thích gì ở chúng?</li>
+        <li>Nếu chỉ được chọn 1 tính năng, bạn muốn gì nhất: học từ vựng, luyện nghe, hay luyện nói?</li>
+        <li>Còn điều gì khác bạn muốn chia sẻ?</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<div class="footer">
+  <strong>TinySteps</strong> — Một dự án của XuyenLab<br>
+  Tài liệu này dùng để thảo luận nội bộ. Vui lòng gửi góp ý cho thầy Xuyên.
+</div>
+
+</body>
+</html>

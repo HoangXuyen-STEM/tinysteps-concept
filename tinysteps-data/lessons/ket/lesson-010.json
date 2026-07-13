@@ -1,0 +1,249 @@
+{
+  "id": "ket_lesson_010",
+  "level": "ket",
+  "topic_id": "topic_phone",
+  "order": 10,
+  "title": "Making a phone call",
+  "scenario": "You are in a caller role. Use English naturally in this phone situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "Office, on the phone, Friday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Lan",
+        "role": "caller"
+      },
+      {
+        "id": "char_b",
+        "name": "Partner",
+        "role": "receiver"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "I am calling to apologise for the delay in sending the report."
+      },
+      {
+        "character_id": "char_b",
+        "text": "No problem. I understand you were very busy last week."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I will submit the completed report by tomorrow morning."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. Could you also send a digital copy by email?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Of course. I will attach it to my email tonight."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If you had called earlier, I would have helped you."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. I should have contacted you sooner."
+      },
+      {
+        "character_id": "char_b",
+        "text": "No need to worry. I look forward to receiving the report."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_068",
+    "ket_vocab_069",
+    "ket_vocab_070",
+    "ket_vocab_165",
+    "ket_vocab_117",
+    "ket_vocab_118",
+    "ket_vocab_119",
+    "ket_vocab_120",
+    "ket_vocab_121",
+    "ket_vocab_122",
+    "ket_vocab_123",
+    "ket_vocab_124",
+    "ket_vocab_125",
+    "ket_vocab_126",
+    "ket_vocab_127",
+    "ket_vocab_128"
+  ],
+  "grammar_ids": [
+    "ket_grammar_003",
+    "ket_grammar_006"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a sound wave icon representing tone of voice",
+          "correct_answer": "tone"
+        },
+        {
+          "image_hint": "a telephone switchboard in an office",
+          "correct_answer": "switchboard"
+        },
+        {
+          "image_hint": "a person making an enquiry on the phone",
+          "correct_answer": "enquiry"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "we",
+            ".",
+            "check",
+            "schedule",
+            "suggest",
+            "I'd",
+            "like",
+            "to",
+            "the"
+          ],
+          "correct_answer": "I'd like to suggest we check the schedule."
+        },
+        {
+          "words": [
+            ".",
+            "the",
+            "parent",
+            "to",
+            "confirm",
+            "like",
+            "The",
+            "would",
+            "meeting"
+          ],
+          "correct_answer": "The parent would like to confirm the meeting."
+        },
+        {
+          "words": [
+            ".",
+            "to",
+            "my",
+            "would",
+            "colleague",
+            "like",
+            "I",
+            "call"
+          ],
+          "correct_answer": "I would like to call my colleague."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I'd like to suggest we check the schedule.",
+          "options": [
+            "The parent would like to confirm the meeting.",
+            "I would like to call my colleague.",
+            "I'd like to suggest we check the schedule."
+          ],
+          "correct_answer": "I'd like to suggest we check the schedule."
+        },
+        {
+          "audio_text": "The parent would like to confirm the meeting.",
+          "options": [
+            "I would like to call my colleague.",
+            "The parent would like to confirm the meeting.",
+            "I'd like to suggest we check the schedule."
+          ],
+          "correct_answer": "The parent would like to confirm the meeting."
+        },
+        {
+          "audio_text": "I would like to call my colleague.",
+          "options": [
+            "I would like to call my colleague.",
+            "The parent would like to confirm the meeting.",
+            "I'd like to suggest we check the schedule."
+          ],
+          "correct_answer": "I would like to call my colleague."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ like to suggest we check the schedule.",
+          "correct_answer": "I'd"
+        },
+        {
+          "prompt": "The parent ___ like to confirm the meeting.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "I ___ like to call my colleague.",
+          "correct_answer": "would"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a sound wave icon representing tone of voice). What is this?",
+          "options": [
+            "switchboard",
+            "enquiry",
+            "tone"
+          ],
+          "correct_answer": "tone"
+        },
+        {
+          "prompt": "Look at the picture (a telephone switchboard in an office). What is this?",
+          "options": [
+            "enquiry",
+            "switchboard",
+            "tone"
+          ],
+          "correct_answer": "switchboard"
+        },
+        {
+          "prompt": "Look at the picture (a person making an enquiry on the phone). What is this?",
+          "options": [
+            "switchboard",
+            "enquiry",
+            "tone"
+          ],
+          "correct_answer": "enquiry"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Coordinate plans over the phone.",
+    "opening_line": "Hello! This is Minh calling. Can we confirm the schedule?",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_003",
+        "ket_grammar_006"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_068",
+        "ket_vocab_069",
+        "ket_vocab_070"
+      ]
+    },
+    "success_criteria": "Learner coordinates plans and leaves a phone message successfully."
+  }
+}

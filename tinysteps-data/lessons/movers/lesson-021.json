@@ -1,0 +1,237 @@
+{
+  "id": "movers_lesson_021",
+  "level": "movers",
+  "topic_id": "topic_travel",
+  "order": 21,
+  "title": "Travel and directions",
+  "scenario": "You are in a traveler role. Use English naturally in this travel situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "Bus terminal, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "traveler"
+      },
+      {
+        "id": "char_b",
+        "name": "Agent",
+        "role": "agent"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Yesterday I went to school by bicycle."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Really? Did you travel far?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, I went about three kilometres."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Can you help me buy a bus ticket to the city centre?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, let's buy it at that counter."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. You are very helpful!"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_070",
+    "movers_vocab_071",
+    "movers_vocab_072",
+    "movers_vocab_073",
+    "movers_vocab_284",
+    "movers_vocab_285",
+    "movers_vocab_286",
+    "movers_vocab_287",
+    "movers_vocab_288",
+    "movers_vocab_289",
+    "movers_vocab_290",
+    "movers_vocab_291",
+    "movers_vocab_292",
+    "movers_vocab_293",
+    "movers_vocab_294",
+    "movers_vocab_295",
+    "movers_vocab_296",
+    "movers_vocab_297"
+  ],
+  "grammar_ids": [
+    "movers_grammar_003",
+    "movers_grammar_009"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "an aeroplane taking off into a clear blue sky",
+          "correct_answer": "plane"
+        },
+        {
+          "image_hint": "a small wooden boat on a calm river in Vietnam",
+          "correct_answer": "boat"
+        },
+        {
+          "image_hint": "a motorbike parked outside a school gate",
+          "correct_answer": "motorbike"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            ".",
+            "went",
+            "school",
+            "to",
+            "I",
+            "yesterday"
+          ],
+          "correct_answer": "I went to school yesterday."
+        },
+        {
+          "words": [
+            "the",
+            "chicken",
+            "market",
+            "at",
+            "bought",
+            ".",
+            "I"
+          ],
+          "correct_answer": "I bought chicken at the market."
+        },
+        {
+          "words": [
+            "to",
+            ".",
+            "came",
+            "the",
+            "class",
+            "early",
+            "She"
+          ],
+          "correct_answer": "She came to the class early."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I went to school yesterday.",
+          "options": [
+            "I went to school yesterday.",
+            "I bought chicken at the market.",
+            "She came to the class early."
+          ],
+          "correct_answer": "I went to school yesterday."
+        },
+        {
+          "audio_text": "I bought chicken at the market.",
+          "options": [
+            "I went to school yesterday.",
+            "I bought chicken at the market.",
+            "She came to the class early."
+          ],
+          "correct_answer": "I bought chicken at the market."
+        },
+        {
+          "audio_text": "She came to the class early.",
+          "options": [
+            "I went to school yesterday.",
+            "She came to the class early.",
+            "I bought chicken at the market."
+          ],
+          "correct_answer": "She came to the class early."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ to school yesterday.",
+          "correct_answer": "went"
+        },
+        {
+          "prompt": "I ___ chicken at the market.",
+          "correct_answer": "bought"
+        },
+        {
+          "prompt": "She ___ to the class early.",
+          "correct_answer": "came"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (an aeroplane taking off into a clear blue sky). What is this?",
+          "options": [
+            "plane",
+            "motorbike",
+            "boat"
+          ],
+          "correct_answer": "plane"
+        },
+        {
+          "prompt": "Look at the picture (a small wooden boat on a calm river in Vietnam). What is this?",
+          "options": [
+            "plane",
+            "boat",
+            "motorbike"
+          ],
+          "correct_answer": "boat"
+        },
+        {
+          "prompt": "Look at the picture (a motorbike parked outside a school gate). What is this?",
+          "options": [
+            "boat",
+            "plane",
+            "motorbike"
+          ],
+          "correct_answer": "motorbike"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "agent",
+    "scenario": "Help a traveler book tickets and find directions.",
+    "opening_line": "Hello! Where are you traveling to today?",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_003",
+        "movers_grammar_009"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_070",
+        "movers_vocab_071",
+        "movers_vocab_072"
+      ]
+    },
+    "success_criteria": "Learner asks for directions and travel booking help politely."
+  }
+}

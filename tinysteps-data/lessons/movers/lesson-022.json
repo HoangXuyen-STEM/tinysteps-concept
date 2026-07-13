@@ -1,0 +1,237 @@
+{
+  "id": "movers_lesson_022",
+  "level": "movers",
+  "topic_id": "topic_phone",
+  "order": 22,
+  "title": "Making a phone call",
+  "scenario": "You are in a caller role. Use English naturally in this phone situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "Office, on the phone, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Minh",
+        "role": "caller"
+      },
+      {
+        "id": "char_b",
+        "name": "Partner",
+        "role": "receiver"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Hello, this is Mr. Minh. Can I speak to the principal?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Sorry, the principal is busy right now."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Can I leave a message, please?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Of course. What is the message?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Please tell her to call me about Friday's meeting."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I will pass on the message. Goodbye!"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_010",
+    "movers_vocab_013",
+    "movers_vocab_077",
+    "movers_vocab_078",
+    "movers_vocab_298",
+    "movers_vocab_299",
+    "movers_vocab_300",
+    "movers_vocab_301",
+    "movers_vocab_302",
+    "movers_vocab_303",
+    "movers_vocab_304",
+    "movers_vocab_305",
+    "movers_vocab_306",
+    "movers_vocab_307",
+    "movers_vocab_308",
+    "movers_vocab_309",
+    "movers_vocab_310",
+    "movers_vocab_311"
+  ],
+  "grammar_ids": [
+    "movers_grammar_005"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a modern ringing smartphone vibrating on a table",
+          "correct_answer": "phone"
+        },
+        {
+          "image_hint": "a simple, clear colorful visualization of urgent",
+          "correct_answer": "urgent"
+        },
+        {
+          "image_hint": "a phone screen showing a busy tone symbol",
+          "correct_answer": "busy"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "buy",
+            ".",
+            "to",
+            "want",
+            "fruit",
+            "I"
+          ],
+          "correct_answer": "I want to buy fruit."
+        },
+        {
+          "words": [
+            "please",
+            "to",
+            ".",
+            "I",
+            ",",
+            "want",
+            "chicken",
+            "order"
+          ],
+          "correct_answer": "I want to order chicken, please."
+        },
+        {
+          "words": [
+            "ask",
+            "student",
+            "question",
+            "to",
+            "The",
+            "a",
+            "wants",
+            "."
+          ],
+          "correct_answer": "The student wants to ask a question."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I want to buy fruit.",
+          "options": [
+            "I want to buy fruit.",
+            "I want to order chicken, please.",
+            "The student wants to ask a question."
+          ],
+          "correct_answer": "I want to buy fruit."
+        },
+        {
+          "audio_text": "I want to order chicken, please.",
+          "options": [
+            "I want to order chicken, please.",
+            "I want to buy fruit.",
+            "The student wants to ask a question."
+          ],
+          "correct_answer": "I want to order chicken, please."
+        },
+        {
+          "audio_text": "The student wants to ask a question.",
+          "options": [
+            "I want to buy fruit.",
+            "I want to order chicken, please.",
+            "The student wants to ask a question."
+          ],
+          "correct_answer": "The student wants to ask a question."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ to buy fruit.",
+          "correct_answer": "want"
+        },
+        {
+          "prompt": "I ___ to order chicken, please.",
+          "correct_answer": "want"
+        },
+        {
+          "prompt": "The student ___ to ask a question.",
+          "correct_answer": "wants"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a modern ringing smartphone vibrating on a table). What is this?",
+          "options": [
+            "urgent",
+            "busy",
+            "phone"
+          ],
+          "correct_answer": "phone"
+        },
+        {
+          "prompt": "Look at the picture (a simple, clear colorful visualization of urgent). What is this?",
+          "options": [
+            "urgent",
+            "phone",
+            "busy"
+          ],
+          "correct_answer": "urgent"
+        },
+        {
+          "prompt": "Look at the picture (a phone screen showing a busy tone symbol). What is this?",
+          "options": [
+            "phone",
+            "urgent",
+            "busy"
+          ],
+          "correct_answer": "busy"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Coordinate plans over the phone.",
+    "opening_line": "Hello! This is Minh calling. Can we confirm the schedule?",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_005"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_010",
+        "movers_vocab_013",
+        "movers_vocab_077"
+      ]
+    },
+    "success_criteria": "Learner coordinates plans and leaves a phone message successfully."
+  }
+}

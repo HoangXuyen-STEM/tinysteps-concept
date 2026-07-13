@@ -1,0 +1,442 @@
+{
+  "level": "ket",
+  "total_points": 10,
+  "grammar_points": [
+    {
+      "id": "ket_grammar_001",
+      "name": "present_perfect_for_since",
+      "pattern": "Subject + have/has + Verb-ed/3 + for/since + time",
+      "topic_ids": [
+        "topic_school_communication",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "I have worked here for five years.",
+          "context": "describing school teaching career"
+        },
+        {
+          "sentence": "He has been a student here since Monday.",
+          "context": "checking enrollment status"
+        },
+        {
+          "sentence": "We have had this schedule since January.",
+          "context": "discussing routines"
+        },
+        {
+          "sentence": "I have had a headache for two hours.",
+          "context": "describing health symptoms"
+        },
+        {
+          "sentence": "They have known my colleague since yesterday.",
+          "context": "introducing friends"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I work here for five years.",
+          "correct": "I have worked here for five years."
+        },
+        {
+          "wrong": "I have worked here since five years.",
+          "correct": "I have worked here for five years."
+        }
+      ],
+      "builds_on": [
+        "flyers_grammar_001"
+      ]
+    },
+    {
+      "id": "ket_grammar_002",
+      "name": "could_requests",
+      "pattern": "Could + subject + Verb-infinitive + ?",
+      "topic_ids": [
+        "topic_restaurant",
+        "topic_travel",
+        "topic_praise_correction",
+        "topic_giving_instructions"
+      ],
+      "examples": [
+        {
+          "sentence": "Could you recommend a good dish?",
+          "context": "polite dining request"
+        },
+        {
+          "sentence": "Could you check my schedule?",
+          "context": "asking colleague for favor"
+        },
+        {
+          "sentence": "Could we correct the mistakes together?",
+          "context": "collaborative praise/correction"
+        },
+        {
+          "sentence": "Could you show me the airport direction?",
+          "context": "asking for travel help"
+        },
+        {
+          "sentence": "Could I bargain at this market?",
+          "context": "asking about local shopping habits"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Could you to check my schedule?",
+          "correct": "Could you check my schedule?"
+        },
+        {
+          "wrong": "Could you recommending a good dish?",
+          "correct": "Could you recommend a good dish?"
+        }
+      ],
+      "builds_on": [
+        "movers_grammar_004"
+      ]
+    },
+    {
+      "id": "ket_grammar_003",
+      "name": "would_like_to",
+      "pattern": "Subject + would like ('d like) + to + Verb-infinitive",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_school_communication",
+        "topic_phone",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "I'd like to suggest we check the schedule.",
+          "context": "proposing a schedule check"
+        },
+        {
+          "sentence": "The parent would like to confirm the meeting.",
+          "context": "organizing school meetings"
+        },
+        {
+          "sentence": "I would like to call my colleague.",
+          "context": "planning a phone call"
+        },
+        {
+          "sentence": "We'd like to make a recommendation.",
+          "context": "suggesting school improvement"
+        },
+        {
+          "sentence": "She would like to buy fruit.",
+          "context": "market plan"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I like to suggest we check the schedule. (when meaning polite wish)",
+          "correct": "I'd like to suggest we check the schedule."
+        },
+        {
+          "wrong": "I would like suggest a change.",
+          "correct": "I would like to suggest a change."
+        }
+      ],
+      "builds_on": [
+        "movers_grammar_005"
+      ]
+    },
+    {
+      "id": "ket_grammar_004",
+      "name": "used_to",
+      "pattern": "Subject + used to + Verb-infinitive",
+      "topic_ids": [
+        "topic_market",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "I used to bargain at the market when I was young.",
+          "context": "sharing personal stories"
+        },
+        {
+          "sentence": "He used to have a fever every winter.",
+          "context": "health history"
+        },
+        {
+          "sentence": "We used to have a different school schedule.",
+          "context": "talking about past school days"
+        },
+        {
+          "sentence": "I used to walk to school with a colleague.",
+          "context": "sharing school routine history"
+        },
+        {
+          "sentence": "She used to prefer tea to coffee.",
+          "context": "social talk about preferences"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I use to bargain at the market.",
+          "correct": "I used to bargain at the market."
+        },
+        {
+          "wrong": "I am used to bargain at the market. (when meaning past habit)",
+          "correct": "I used to bargain at the market."
+        }
+      ]
+    },
+    {
+      "id": "ket_grammar_005",
+      "name": "relative_clauses_basic",
+      "pattern": "Noun + who/which + Verb/clause",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_school_communication",
+        "topic_health"
+      ],
+      "examples": [
+        {
+          "sentence": "The colleague who teaches English is very kind.",
+          "context": "identifying staff"
+        },
+        {
+          "sentence": "The schedule which we use is simple.",
+          "context": "discussing organization"
+        },
+        {
+          "sentence": "The student who has a headache went home.",
+          "context": "reporting health issue"
+        },
+        {
+          "sentence": "I finished the report which you asked for.",
+          "context": "confirming school task"
+        },
+        {
+          "sentence": "The price which is too high is a problem.",
+          "context": "market complain"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "The colleague which teaches English is kind.",
+          "correct": "The colleague who teaches English is kind."
+        },
+        {
+          "wrong": "The schedule who we use is simple.",
+          "correct": "The schedule which we use is simple."
+        }
+      ]
+    },
+    {
+      "id": "ket_grammar_006",
+      "name": "past_continuous",
+      "pattern": "Subject + was/were + Verb-ing + (when + past simple clause)",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_travel",
+        "topic_phone"
+      ],
+      "examples": [
+        {
+          "sentence": "I was working when the phone rang.",
+          "context": "describing an interruption"
+        },
+        {
+          "sentence": "She was reading when the meeting started.",
+          "context": "explaining lateness"
+        },
+        {
+          "sentence": "We were waiting at the airport.",
+          "context": "travel situation"
+        },
+        {
+          "sentence": "The students were writing when I arrived.",
+          "context": "describing classroom scene"
+        },
+        {
+          "sentence": "He was cooking when I called him.",
+          "context": "phone call timing"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I was work when the phone rang.",
+          "correct": "I was working when the phone rang."
+        },
+        {
+          "wrong": "She was read when it started.",
+          "correct": "She was reading when it started."
+        }
+      ],
+      "builds_on": [
+        "movers_grammar_001",
+        "movers_grammar_002"
+      ]
+    },
+    {
+      "id": "ket_grammar_007",
+      "name": "passive_voice_simple",
+      "pattern": "Subject + was/were + Verb-ed/3 + (by + agent)",
+      "topic_ids": [
+        "topic_school_communication",
+        "topic_giving_instructions",
+        "topic_restaurant"
+      ],
+      "examples": [
+        {
+          "sentence": "The report was written by the teacher.",
+          "context": "discussing school tasks"
+        },
+        {
+          "sentence": "The homework was checked yesterday.",
+          "context": "confirming progress"
+        },
+        {
+          "sentence": "The email was sent this morning.",
+          "context": "updating a colleague"
+        },
+        {
+          "sentence": "The food was prepared by the chef.",
+          "context": "complimenting a meal"
+        },
+        {
+          "sentence": "The meeting was organised by the principal.",
+          "context": "school event"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "The report written by the teacher.",
+          "correct": "The report was written by the teacher."
+        },
+        {
+          "wrong": "The homework was check yesterday.",
+          "correct": "The homework was checked yesterday."
+        }
+      ]
+    },
+    {
+      "id": "ket_grammar_008",
+      "name": "so_such",
+      "pattern": "so + adjective | such + (a/an) + adjective + noun",
+      "topic_ids": [
+        "topic_social",
+        "topic_praise_correction",
+        "topic_restaurant"
+      ],
+      "examples": [
+        {
+          "sentence": "The lesson was so interesting.",
+          "context": "end-of-day feedback"
+        },
+        {
+          "sentence": "He is such a good student.",
+          "context": "praising a learner"
+        },
+        {
+          "sentence": "It was so hot yesterday.",
+          "context": "weather small talk"
+        },
+        {
+          "sentence": "She is such a kind colleague.",
+          "context": "complimenting a workmate"
+        },
+        {
+          "sentence": "The food was so good that we ordered more.",
+          "context": "dining out"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "He is so good student.",
+          "correct": "He is such a good student."
+        },
+        {
+          "wrong": "It was such interesting.",
+          "correct": "It was so interesting."
+        }
+      ]
+    },
+    {
+      "id": "ket_grammar_009",
+      "name": "enough",
+      "pattern": "adjective + enough | enough + noun",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_market",
+        "topic_health"
+      ],
+      "examples": [
+        {
+          "sentence": "Do we have enough chairs for the class?",
+          "context": "preparing the room"
+        },
+        {
+          "sentence": "The room is big enough for the meeting.",
+          "context": "checking venue"
+        },
+        {
+          "sentence": "I don't have enough money to buy this.",
+          "context": "shopping at market"
+        },
+        {
+          "sentence": "Is the student old enough to take the test?",
+          "context": "checking eligibility"
+        },
+        {
+          "sentence": "We have enough time to finish the task.",
+          "context": "managing class time"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "The room is enough big.",
+          "correct": "The room is big enough."
+        },
+        {
+          "wrong": "I have enough not money.",
+          "correct": "I don't have enough money."
+        }
+      ]
+    },
+    {
+      "id": "ket_grammar_010",
+      "name": "question_tags",
+      "pattern": "statement + , + opposite auxiliary + pronoun + ?",
+      "topic_ids": [
+        "topic_checking_understanding",
+        "topic_social",
+        "topic_health"
+      ],
+      "examples": [
+        {
+          "sentence": "It is hot today, isn't it?",
+          "context": "small talk about weather"
+        },
+        {
+          "sentence": "You understand the lesson, don't you?",
+          "context": "checking comprehension"
+        },
+        {
+          "sentence": "She is a good student, isn't she?",
+          "context": "confirming with colleague"
+        },
+        {
+          "sentence": "We should confirm the schedule, shouldn't we?",
+          "context": "planning together"
+        },
+        {
+          "sentence": "The student has a headache, doesn't he?",
+          "context": "checking health concern"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "It is hot today, is it?",
+          "correct": "It is hot today, isn't it?"
+        },
+        {
+          "wrong": "You like chicken, isn't it?",
+          "correct": "You like chicken, don't you?"
+        }
+      ],
+      "builds_on": [
+        "starters_grammar_003"
+      ]
+    }
+  ]
+}

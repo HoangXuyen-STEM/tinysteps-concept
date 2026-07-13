@@ -1,0 +1,219 @@
+{
+  "id": "starters_lesson_021",
+  "level": "starters",
+  "topic_id": "topic_travel",
+  "order": 21,
+  "title": "Travel and directions",
+  "scenario": "You are in a traveler role. Use English naturally in this travel situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "Bus terminal, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "An",
+        "role": "traveler"
+      },
+      {
+        "id": "char_b",
+        "name": "Agent",
+        "role": "agent"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Hello! I want to go to the market.",
+        "note": "(looking at map)"
+      },
+      {
+        "character_id": "char_b",
+        "text": "The market is very near here."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Thank you! I go there every morning."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Have a good trip. Goodbye!"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_023",
+    "starters_vocab_032",
+    "starters_vocab_044",
+    "starters_vocab_053",
+    "starters_vocab_205",
+    "starters_vocab_206",
+    "starters_vocab_207",
+    "starters_vocab_208",
+    "starters_vocab_209",
+    "starters_vocab_210",
+    "starters_vocab_211",
+    "starters_vocab_212",
+    "starters_vocab_213",
+    "starters_vocab_214"
+  ],
+  "grammar_ids": [
+    "starters_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a clean graphic illustration of a direction",
+          "correct_answer": "direction"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a guide",
+          "correct_answer": "guide"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a left",
+          "correct_answer": "left"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "I",
+            "go",
+            "market",
+            "to",
+            "the",
+            "."
+          ],
+          "correct_answer": "I go to the market."
+        },
+        {
+          "words": [
+            "I",
+            "rice",
+            "like",
+            "."
+          ],
+          "correct_answer": "I like rice."
+        },
+        {
+          "words": [
+            "We",
+            "class",
+            "like",
+            ".",
+            "English"
+          ],
+          "correct_answer": "We like English class."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I go to the market.",
+          "options": [
+            "I go to the market.",
+            "We like English class.",
+            "I like rice."
+          ],
+          "correct_answer": "I go to the market."
+        },
+        {
+          "audio_text": "I like rice.",
+          "options": [
+            "We like English class.",
+            "I go to the market.",
+            "I like rice."
+          ],
+          "correct_answer": "I like rice."
+        },
+        {
+          "audio_text": "We like English class.",
+          "options": [
+            "I go to the market.",
+            "We like English class.",
+            "I like rice."
+          ],
+          "correct_answer": "We like English class."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ to the market.",
+          "correct_answer": "go"
+        },
+        {
+          "prompt": "I ___ rice.",
+          "correct_answer": "like"
+        },
+        {
+          "prompt": "We ___ English class.",
+          "correct_answer": "like"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a direction). What is this?",
+          "options": [
+            "left",
+            "guide",
+            "direction"
+          ],
+          "correct_answer": "direction"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a guide). What is this?",
+          "options": [
+            "guide",
+            "left",
+            "direction"
+          ],
+          "correct_answer": "guide"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a left). What is this?",
+          "options": [
+            "direction",
+            "left",
+            "guide"
+          ],
+          "correct_answer": "left"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "agent",
+    "scenario": "Help a traveler book tickets and find directions.",
+    "opening_line": "Hello! Where are you traveling to today?",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_004"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_023",
+        "starters_vocab_032",
+        "starters_vocab_044"
+      ]
+    },
+    "success_criteria": "Learner asks for directions and travel booking help politely."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "id": "starters_lesson_012",
+  "level": "starters",
+  "topic_id": "topic_social",
+  "order": 12,
+  "title": "Social conversations",
+  "scenario": "You are in a friend role. Use English naturally in this social situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "Park, sunny afternoon, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "friend"
+      },
+      {
+        "id": "char_b",
+        "name": "Nam",
+        "role": "friend"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good morning! I am fine today."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Good morning! I am happy too."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I like this weather. It is very good."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes! Goodbye, see you later."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_001",
+    "starters_vocab_002",
+    "starters_vocab_003",
+    "starters_vocab_015",
+    "starters_vocab_115",
+    "starters_vocab_116",
+    "starters_vocab_117",
+    "starters_vocab_118",
+    "starters_vocab_119",
+    "starters_vocab_120",
+    "starters_vocab_121",
+    "starters_vocab_122",
+    "starters_vocab_123",
+    "starters_vocab_124"
+  ],
+  "grammar_ids": [
+    "starters_grammar_003",
+    "starters_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "two teachers waving and smiling at each other",
+          "correct_answer": "hello"
+        },
+        {
+          "image_hint": "a student waving goodbye at the school gate",
+          "correct_answer": "goodbye"
+        },
+        {
+          "image_hint": "the sun rising over a school building",
+          "correct_answer": "morning"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "I",
+            ".",
+            "am",
+            "a",
+            "teacher"
+          ],
+          "correct_answer": "I am a teacher."
+        },
+        {
+          "words": [
+            ".",
+            "He",
+            "a",
+            "student",
+            "is",
+            "good"
+          ],
+          "correct_answer": "He is a good student."
+        },
+        {
+          "words": [
+            "thank",
+            "I'm",
+            ",",
+            "you",
+            ".",
+            "fine"
+          ],
+          "correct_answer": "I'm fine, thank you."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I am a teacher.",
+          "options": [
+            "I'm fine, thank you.",
+            "He is a good student.",
+            "I am a teacher."
+          ],
+          "correct_answer": "I am a teacher."
+        },
+        {
+          "audio_text": "He is a good student.",
+          "options": [
+            "He is a good student.",
+            "I'm fine, thank you.",
+            "I am a teacher."
+          ],
+          "correct_answer": "He is a good student."
+        },
+        {
+          "audio_text": "I'm fine, thank you.",
+          "options": [
+            "He is a good student.",
+            "I'm fine, thank you.",
+            "I am a teacher."
+          ],
+          "correct_answer": "I'm fine, thank you."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ a teacher.",
+          "correct_answer": "am"
+        },
+        {
+          "prompt": "He ___ a good student.",
+          "correct_answer": "is"
+        },
+        {
+          "prompt": "___ fine, thank you.",
+          "correct_answer": "I'm"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (two teachers waving and smiling at each other). What is this?",
+          "options": [
+            "goodbye",
+            "morning",
+            "hello"
+          ],
+          "correct_answer": "hello"
+        },
+        {
+          "prompt": "Look at the picture (a student waving goodbye at the school gate). What is this?",
+          "options": [
+            "hello",
+            "morning",
+            "goodbye"
+          ],
+          "correct_answer": "goodbye"
+        },
+        {
+          "prompt": "Look at the picture (the sun rising over a school building). What is this?",
+          "options": [
+            "morning",
+            "hello",
+            "goodbye"
+          ],
+          "correct_answer": "morning"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Have casual chat about weekend plans.",
+    "opening_line": "Hi! What a nice day. What are your plans for the weekend?",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_003",
+        "starters_grammar_004"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_001",
+        "starters_vocab_002",
+        "starters_vocab_003"
+      ]
+    },
+    "success_criteria": "Learner makes friendly small talk and discusses personal hobbies."
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TinySteps Grammar File",
+  "description": "Grammar points for one CEFR level. NO explicit rule explanations — grammar is learned through example sentences and patterns.",
+  "type": "object",
+  "required": ["level", "total_points", "grammar_points"],
+  "properties": {
+    "level": {
+      "type": "string",
+      "enum": ["starters", "movers", "flyers", "ket", "pet"]
+    },
+    "total_points": {
+      "type": "integer"
+    },
+    "grammar_points": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "pattern", "topic_ids", "examples", "common_mistakes"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(starters|movers|flyers|ket|pet)_grammar_\\d{3}$",
+            "description": "Unique ID. Format: {level}_grammar_{3-digit number}"
+          },
+          "name": {
+            "type": "string",
+            "description": "Short name for internal reference. Example: 'present_simple_positive'"
+          },
+          "pattern": {
+            "type": "string",
+            "description": "The sentence pattern with blanks. Example: 'I/You/We/They + verb' or 'Can + I/you + verb + ?'"
+          },
+          "topic_ids": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Topics where this grammar naturally appears"
+          },
+          "examples": {
+            "type": "array",
+            "minItems": 5,
+            "maxItems": 10,
+            "items": {
+              "type": "object",
+              "required": ["sentence", "context"],
+              "properties": {
+                "sentence": {
+                  "type": "string",
+                  "description": "A natural example sentence using this grammar point"
+                },
+                "context": {
+                  "type": "string",
+                  "description": "Brief context hint. Example: 'teacher greeting students', 'ordering at restaurant'"
+                }
+              }
+            },
+            "description": "5-10 natural example sentences. These ARE the teaching material — learners absorb the pattern by seeing many examples, not by reading rules."
+          },
+          "common_mistakes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["wrong", "correct"],
+              "properties": {
+                "wrong": {
+                  "type": "string",
+                  "description": "Common mistake Vietnamese speakers make"
+                },
+                "correct": {
+                  "type": "string",
+                  "description": "Correct version"
+                }
+              }
+            },
+            "description": "2-3 common mistakes specific to Vietnamese English learners"
+          },
+          "builds_on": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Optional. IDs of grammar points from previous levels that this one extends"
+          }
+        }
+      }
+    }
+  },
+
+  "examples": [
+    {
+      "level": "starters",
+      "total_points": 1,
+      "grammar_points": [
+        {
+          "id": "starters_grammar_001",
+          "name": "imperative_positive",
+          "pattern": "Verb + (object/complement)",
+          "topic_ids": ["topic_in_class", "topic_giving_instructions"],
+          "examples": [
+            { "sentence": "Open your book.", "context": "teacher starting a lesson" },
+            { "sentence": "Stand up, please.", "context": "teacher managing the class" },
+            { "sentence": "Look at the board.", "context": "teacher showing something" },
+            { "sentence": "Write your name.", "context": "teacher giving a task" },
+            { "sentence": "Listen to me.", "context": "teacher getting attention" }
+          ],
+          "common_mistakes": [
+            { "wrong": "You open your book.", "correct": "Open your book." },
+            { "wrong": "Please you listen.", "correct": "Please listen." }
+          ]
+        }
+      ]
+    }
+  ]
+}

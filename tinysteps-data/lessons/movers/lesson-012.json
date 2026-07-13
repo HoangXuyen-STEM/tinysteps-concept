@@ -1,0 +1,237 @@
+{
+  "id": "movers_lesson_012",
+  "level": "movers",
+  "topic_id": "topic_social",
+  "order": 12,
+  "title": "Social conversations",
+  "scenario": "You are in a friend role. Use English naturally in this social situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "Park, sunny afternoon, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Nam",
+        "role": "friend"
+      },
+      {
+        "id": "char_b",
+        "name": "Lan",
+        "role": "friend"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Hello! How was your weekend?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "It was great! I went to the park with my family."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That is wonderful. The weather was very nice on Sunday."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes! I also helped my mother clean the house."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I stayed home and watched an English film."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Good idea! Let's meet for a walk next Saturday."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_002",
+    "movers_vocab_011",
+    "movers_vocab_085",
+    "movers_vocab_086",
+    "movers_vocab_158",
+    "movers_vocab_159",
+    "movers_vocab_160",
+    "movers_vocab_161",
+    "movers_vocab_162",
+    "movers_vocab_163",
+    "movers_vocab_164",
+    "movers_vocab_165",
+    "movers_vocab_166",
+    "movers_vocab_167",
+    "movers_vocab_168",
+    "movers_vocab_169",
+    "movers_vocab_170",
+    "movers_vocab_171"
+  ],
+  "grammar_ids": [
+    "movers_grammar_003",
+    "movers_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a calendar sheet showing the previous day marked",
+          "correct_answer": "yesterday"
+        },
+        {
+          "image_hint": "a bright sun partially covered by a friendly white cloud",
+          "correct_answer": "weather"
+        },
+        {
+          "image_hint": "a calendar showing Saturday and Sunday circled",
+          "correct_answer": "weekend"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "school",
+            "yesterday",
+            ".",
+            "I",
+            "to",
+            "went"
+          ],
+          "correct_answer": "I went to school yesterday."
+        },
+        {
+          "words": [
+            "bought",
+            ".",
+            "chicken",
+            "the",
+            "at",
+            "I",
+            "market"
+          ],
+          "correct_answer": "I bought chicken at the market."
+        },
+        {
+          "words": [
+            "to",
+            "early",
+            ".",
+            "She",
+            "class",
+            "came",
+            "the"
+          ],
+          "correct_answer": "She came to the class early."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I went to school yesterday.",
+          "options": [
+            "I went to school yesterday.",
+            "She came to the class early.",
+            "I bought chicken at the market."
+          ],
+          "correct_answer": "I went to school yesterday."
+        },
+        {
+          "audio_text": "I bought chicken at the market.",
+          "options": [
+            "She came to the class early.",
+            "I went to school yesterday.",
+            "I bought chicken at the market."
+          ],
+          "correct_answer": "I bought chicken at the market."
+        },
+        {
+          "audio_text": "She came to the class early.",
+          "options": [
+            "I went to school yesterday.",
+            "I bought chicken at the market.",
+            "She came to the class early."
+          ],
+          "correct_answer": "She came to the class early."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ to school yesterday.",
+          "correct_answer": "went"
+        },
+        {
+          "prompt": "I ___ chicken at the market.",
+          "correct_answer": "bought"
+        },
+        {
+          "prompt": "She ___ to the class early.",
+          "correct_answer": "came"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a calendar sheet showing the previous day marked). What is this?",
+          "options": [
+            "weekend",
+            "yesterday",
+            "weather"
+          ],
+          "correct_answer": "yesterday"
+        },
+        {
+          "prompt": "Look at the picture (a bright sun partially covered by a friendly white cloud). What is this?",
+          "options": [
+            "weather",
+            "yesterday",
+            "weekend"
+          ],
+          "correct_answer": "weather"
+        },
+        {
+          "prompt": "Look at the picture (a calendar showing Saturday and Sunday circled). What is this?",
+          "options": [
+            "yesterday",
+            "weekend",
+            "weather"
+          ],
+          "correct_answer": "weekend"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Have casual chat about weekend plans.",
+    "opening_line": "Hi! What a nice day. What are your plans for the weekend?",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_003",
+        "movers_grammar_004"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_002",
+        "movers_vocab_011",
+        "movers_vocab_085"
+      ]
+    },
+    "success_criteria": "Learner makes friendly small talk and discusses personal hobbies."
+  }
+}

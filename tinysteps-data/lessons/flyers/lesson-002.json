@@ -1,0 +1,250 @@
+{
+  "id": "flyers_lesson_002",
+  "level": "flyers",
+  "topic_id": "topic_in_class",
+  "order": 2,
+  "title": "Learning in the classroom",
+  "scenario": "You are in a teacher role. Use English naturally in this in class situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "Classroom, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Huong",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Lan",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Today we are going to discuss classroom communication."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I have been thinking about ways to improve my speaking."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That is great. You should also focus on listening carefully."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Could you recommend some practice activities?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, I suggest you join the after-school English club."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I would if I had more free time after school."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. Even ten minutes of daily practice helps."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you, teacher. I will try my best."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_003",
+    "flyers_vocab_022",
+    "flyers_vocab_023",
+    "flyers_vocab_024",
+    "flyers_vocab_018",
+    "flyers_vocab_019",
+    "flyers_vocab_020",
+    "flyers_vocab_021",
+    "flyers_vocab_025",
+    "flyers_vocab_026",
+    "flyers_vocab_027",
+    "flyers_vocab_028",
+    "flyers_vocab_029",
+    "flyers_vocab_030",
+    "flyers_vocab_031",
+    "flyers_vocab_032",
+    "flyers_vocab_033"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_005",
+    "flyers_grammar_006"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a teacher writing a diagram on the blackboard to explain a concept",
+          "correct_answer": "explain"
+        },
+        {
+          "image_hint": "a notebook with new vocabulary words listed",
+          "correct_answer": "vocabulary"
+        },
+        {
+          "image_hint": "mouth diagrams showing pronunciation of sounds",
+          "correct_answer": "pronunciation"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "teacher",
+            "The",
+            "book",
+            "told",
+            "the",
+            "us",
+            "to",
+            "open",
+            "."
+          ],
+          "correct_answer": "The teacher told us to open the book."
+        },
+        {
+          "words": [
+            "me",
+            "the",
+            "She",
+            ".",
+            "clean",
+            "board",
+            "told",
+            "to"
+          ],
+          "correct_answer": "She told me to clean the board."
+        },
+        {
+          "words": [
+            "I",
+            "parent",
+            ".",
+            "told",
+            "call",
+            "the",
+            "to",
+            "doctor",
+            "the"
+          ],
+          "correct_answer": "I told the parent to call the doctor."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "The teacher told us to open the book.",
+          "options": [
+            "She told me to clean the board.",
+            "I told the parent to call the doctor.",
+            "The teacher told us to open the book."
+          ],
+          "correct_answer": "The teacher told us to open the book."
+        },
+        {
+          "audio_text": "She told me to clean the board.",
+          "options": [
+            "The teacher told us to open the book.",
+            "She told me to clean the board.",
+            "I told the parent to call the doctor."
+          ],
+          "correct_answer": "She told me to clean the board."
+        },
+        {
+          "audio_text": "I told the parent to call the doctor.",
+          "options": [
+            "I told the parent to call the doctor.",
+            "The teacher told us to open the book.",
+            "She told me to clean the board."
+          ],
+          "correct_answer": "I told the parent to call the doctor."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "The teacher ___ us to open the book.",
+          "correct_answer": "told"
+        },
+        {
+          "prompt": "She ___ me to clean the board.",
+          "correct_answer": "told"
+        },
+        {
+          "prompt": "I ___ the parent to call the doctor.",
+          "correct_answer": "told"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a teacher writing a diagram on the blackboard to explain a concept). What is this?",
+          "options": [
+            "vocabulary",
+            "explain",
+            "pronunciation"
+          ],
+          "correct_answer": "explain"
+        },
+        {
+          "prompt": "Look at the picture (a notebook with new vocabulary words listed). What is this?",
+          "options": [
+            "pronunciation",
+            "vocabulary",
+            "explain"
+          ],
+          "correct_answer": "vocabulary"
+        },
+        {
+          "prompt": "Look at the picture (mouth diagrams showing pronunciation of sounds). What is this?",
+          "options": [
+            "vocabulary",
+            "explain",
+            "pronunciation"
+          ],
+          "correct_answer": "pronunciation"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Ask questions during class about the lesson.",
+    "opening_line": "Teacher, can you help me? I don't understand the task.",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_005",
+        "flyers_grammar_006"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_003",
+        "flyers_vocab_022",
+        "flyers_vocab_023"
+      ]
+    },
+    "success_criteria": "Learner explains the task clearly using simple English."
+  }
+}

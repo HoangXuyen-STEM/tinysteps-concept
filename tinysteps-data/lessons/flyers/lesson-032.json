@@ -1,0 +1,241 @@
+{
+  "id": "flyers_lesson_032",
+  "level": "flyers",
+  "topic_id": "topic_restaurant",
+  "order": 32,
+  "title": "At the restaurant",
+  "scenario": "You are in a customer role. Use English naturally in this restaurant situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "Local restaurant, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "customer"
+      },
+      {
+        "id": "char_b",
+        "name": "Waiter",
+        "role": "waiter"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good afternoon. Could we have the bill, please?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Of course. Was everything satisfactory today?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "The food was excellent, but the service was a bit slow."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I apologise for that. We were very busy this evening."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. The quality makes up for it."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If you sign up for our membership, you will receive a discount."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That sounds worthwhile. I often dine here."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Wonderful. I will bring you the application form."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_004",
+    "flyers_vocab_005",
+    "flyers_vocab_055",
+    "flyers_vocab_056",
+    "flyers_vocab_411",
+    "flyers_vocab_412",
+    "flyers_vocab_413",
+    "flyers_vocab_414",
+    "flyers_vocab_415",
+    "flyers_vocab_416",
+    "flyers_vocab_417",
+    "flyers_vocab_418",
+    "flyers_vocab_419",
+    "flyers_vocab_420",
+    "flyers_vocab_421",
+    "flyers_vocab_422",
+    "flyers_vocab_423"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_001"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a elegant restaurant menu card with food icons",
+          "correct_answer": "menu"
+        },
+        {
+          "image_hint": "a small leather folder holding a receipt on a table",
+          "correct_answer": "bill"
+        },
+        {
+          "image_hint": "a well-plated portion of food on a white plate",
+          "correct_answer": "portion"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            ".",
+            "have",
+            "an",
+            "sent",
+            "you",
+            "I",
+            "email"
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "words": [
+            "the",
+            "has",
+            ".",
+            "homework",
+            "He",
+            "finished"
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "words": [
+            "the",
+            "fruit",
+            "bought",
+            "have",
+            ".",
+            "I"
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I have sent you an email.",
+          "options": [
+            "I have sent you an email.",
+            "He has finished the homework.",
+            "I have bought the fruit."
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "audio_text": "He has finished the homework.",
+          "options": [
+            "I have bought the fruit.",
+            "He has finished the homework.",
+            "I have sent you an email."
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "audio_text": "I have bought the fruit.",
+          "options": [
+            "I have bought the fruit.",
+            "He has finished the homework.",
+            "I have sent you an email."
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ sent you an email.",
+          "correct_answer": "have"
+        },
+        {
+          "prompt": "He ___ finished the homework.",
+          "correct_answer": "has"
+        },
+        {
+          "prompt": "I ___ bought the fruit.",
+          "correct_answer": "have"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a elegant restaurant menu card with food icons). What is this?",
+          "options": [
+            "bill",
+            "portion",
+            "menu"
+          ],
+          "correct_answer": "menu"
+        },
+        {
+          "prompt": "Look at the picture (a small leather folder holding a receipt on a table). What is this?",
+          "options": [
+            "portion",
+            "bill",
+            "menu"
+          ],
+          "correct_answer": "bill"
+        },
+        {
+          "prompt": "Look at the picture (a well-plated portion of food on a white plate). What is this?",
+          "options": [
+            "bill",
+            "menu",
+            "portion"
+          ],
+          "correct_answer": "portion"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "waiter",
+    "scenario": "Take an order from a diner at a restaurant.",
+    "opening_line": "Welcome! What would you like to order today?",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_001"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_004",
+        "flyers_vocab_005",
+        "flyers_vocab_055"
+      ]
+    },
+    "success_criteria": "Learner orders food, states preferences, and asks for the bill."
+  }
+}

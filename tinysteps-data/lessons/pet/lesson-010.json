@@ -1,0 +1,259 @@
+{
+  "id": "pet_lesson_010",
+  "level": "pet",
+  "topic_id": "topic_phone",
+  "order": 10,
+  "title": "Making a phone call",
+  "scenario": "You are in a caller role. Use English naturally in this phone situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "Office, on the phone, Friday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Lan",
+        "role": "caller"
+      },
+      {
+        "id": "char_b",
+        "name": "Partner",
+        "role": "receiver"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "I am calling to apologise for the delay in sending the report."
+      },
+      {
+        "character_id": "char_b",
+        "text": "No problem. I understand you were very busy last week."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I will submit the completed report by tomorrow morning."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. Could you also send a digital copy by email?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Of course. I will attach it to my email tonight."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If you had called earlier, I would have helped you."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. I should have contacted you sooner."
+      },
+      {
+        "character_id": "char_b",
+        "text": "No need to worry. I look forward to receiving the report."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_011",
+    "pet_vocab_019",
+    "pet_vocab_029",
+    "pet_vocab_040",
+    "pet_vocab_122",
+    "pet_vocab_123",
+    "pet_vocab_124",
+    "pet_vocab_125",
+    "pet_vocab_126",
+    "pet_vocab_127",
+    "pet_vocab_128",
+    "pet_vocab_129",
+    "pet_vocab_130",
+    "pet_vocab_131",
+    "pet_vocab_132",
+    "pet_vocab_133",
+    "pet_vocab_134"
+  ],
+  "grammar_ids": [
+    "pet_grammar_001",
+    "pet_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "an action illustration showing a person to say",
+          "correct_answer": "say"
+        },
+        {
+          "image_hint": "an action illustration showing a person to dial",
+          "correct_answer": "dial"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a button",
+          "correct_answer": "button"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            ",",
+            "If",
+            "a",
+            "question",
+            "had",
+            "teacher",
+            "would",
+            "I",
+            ".",
+            "I",
+            "the",
+            "ask"
+          ],
+          "correct_answer": "If I had a question, I would ask the teacher."
+        },
+        {
+          "words": [
+            "explain",
+            "it",
+            "didn't",
+            "understand",
+            "If",
+            "I",
+            "again",
+            "would",
+            ".",
+            ",",
+            "they"
+          ],
+          "correct_answer": "If they didn't understand, I would explain it again."
+        },
+        {
+          "words": [
+            "buy",
+            "I",
+            "more",
+            "price",
+            ".",
+            "the",
+            "were",
+            "would",
+            ",",
+            "fruit",
+            "lower",
+            "If"
+          ],
+          "correct_answer": "If the price were lower, I would buy more fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "If I had a question, I would ask the teacher.",
+          "options": [
+            "If the price were lower, I would buy more fruit.",
+            "If I had a question, I would ask the teacher.",
+            "If they didn't understand, I would explain it again."
+          ],
+          "correct_answer": "If I had a question, I would ask the teacher."
+        },
+        {
+          "audio_text": "If they didn't understand, I would explain it again.",
+          "options": [
+            "If the price were lower, I would buy more fruit.",
+            "If I had a question, I would ask the teacher.",
+            "If they didn't understand, I would explain it again."
+          ],
+          "correct_answer": "If they didn't understand, I would explain it again."
+        },
+        {
+          "audio_text": "If the price were lower, I would buy more fruit.",
+          "options": [
+            "If the price were lower, I would buy more fruit.",
+            "If I had a question, I would ask the teacher.",
+            "If they didn't understand, I would explain it again."
+          ],
+          "correct_answer": "If the price were lower, I would buy more fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "If I had a question, I ___ ask the teacher.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "If they didn't understand, I ___ explain it again.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "If the price were lower, I ___ buy more fruit.",
+          "correct_answer": "would"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to say). What is this?",
+          "options": [
+            "button",
+            "say",
+            "dial"
+          ],
+          "correct_answer": "say"
+        },
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to dial). What is this?",
+          "options": [
+            "button",
+            "dial",
+            "say"
+          ],
+          "correct_answer": "dial"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a button). What is this?",
+          "options": [
+            "button",
+            "say",
+            "dial"
+          ],
+          "correct_answer": "button"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Coordinate plans over the phone.",
+    "opening_line": "Hello! This is Minh calling. Can we confirm the schedule?",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_001",
+        "pet_grammar_004"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_011",
+        "pet_vocab_019",
+        "pet_vocab_029"
+      ]
+    },
+    "success_criteria": "Learner coordinates plans and leaves a phone message successfully."
+  }
+}

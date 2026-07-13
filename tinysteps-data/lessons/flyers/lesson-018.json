@@ -1,0 +1,243 @@
+{
+  "id": "flyers_lesson_018",
+  "level": "flyers",
+  "topic_id": "topic_school_communication",
+  "order": 18,
+  "title": "School communication",
+  "scenario": "You are in a teacher role. Use English naturally in this school communication situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "School meeting room, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Duc",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Mr. Dung",
+        "role": "parent"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "I'd like to discuss the feedback from last week's parent meeting."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, several parents raised concerns about homework volume."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. We should adjust our policy accordingly."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I have drafted a new homework schedule for your review."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Thank you. I will review it and reply by Wednesday."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Furthermore, the principal has asked for a formal report."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I will prepare the report and submit it by Friday."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If we address the concerns early, we can avoid bigger issues."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_001",
+    "flyers_vocab_007",
+    "flyers_vocab_008",
+    "flyers_vocab_009",
+    "flyers_vocab_229",
+    "flyers_vocab_230",
+    "flyers_vocab_231",
+    "flyers_vocab_232",
+    "flyers_vocab_233",
+    "flyers_vocab_234",
+    "flyers_vocab_235",
+    "flyers_vocab_236",
+    "flyers_vocab_237",
+    "flyers_vocab_238",
+    "flyers_vocab_239",
+    "flyers_vocab_240",
+    "flyers_vocab_241"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_001",
+    "flyers_grammar_005"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "an open laptop displaying an email inbox layout",
+          "correct_answer": "email"
+        },
+        {
+          "image_hint": "a mother and father sitting together at a meeting desk",
+          "correct_answer": "parent"
+        },
+        {
+          "image_hint": "a group of teachers sitting around a conference table",
+          "correct_answer": "meeting"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "an",
+            "I",
+            "have",
+            ".",
+            "you",
+            "sent",
+            "email"
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "words": [
+            "the",
+            ".",
+            "finished",
+            "He",
+            "has",
+            "homework"
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "words": [
+            "bought",
+            "the",
+            "I",
+            "have",
+            "fruit",
+            "."
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I have sent you an email.",
+          "options": [
+            "I have sent you an email.",
+            "He has finished the homework.",
+            "I have bought the fruit."
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "audio_text": "He has finished the homework.",
+          "options": [
+            "He has finished the homework.",
+            "I have bought the fruit.",
+            "I have sent you an email."
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "audio_text": "I have bought the fruit.",
+          "options": [
+            "He has finished the homework.",
+            "I have sent you an email.",
+            "I have bought the fruit."
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ sent you an email.",
+          "correct_answer": "have"
+        },
+        {
+          "prompt": "He ___ finished the homework.",
+          "correct_answer": "has"
+        },
+        {
+          "prompt": "I ___ bought the fruit.",
+          "correct_answer": "have"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (an open laptop displaying an email inbox layout). What is this?",
+          "options": [
+            "parent",
+            "email",
+            "meeting"
+          ],
+          "correct_answer": "email"
+        },
+        {
+          "prompt": "Look at the picture (a mother and father sitting together at a meeting desk). What is this?",
+          "options": [
+            "email",
+            "meeting",
+            "parent"
+          ],
+          "correct_answer": "parent"
+        },
+        {
+          "prompt": "Look at the picture (a group of teachers sitting around a conference table). What is this?",
+          "options": [
+            "parent",
+            "email",
+            "meeting"
+          ],
+          "correct_answer": "meeting"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "parent",
+    "scenario": "Ask about student progress at parent-teacher meeting.",
+    "opening_line": "Hello, teacher. I wanted to ask about my child's progress.",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_001",
+        "flyers_grammar_005"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_001",
+        "flyers_vocab_007",
+        "flyers_vocab_008"
+      ]
+    },
+    "success_criteria": "Learner discusses student progress and provides constructive advice."
+  }
+}

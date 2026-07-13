@@ -1,0 +1,239 @@
+{
+  "id": "movers_lesson_008",
+  "level": "movers",
+  "topic_id": "topic_restaurant",
+  "order": 8,
+  "title": "At the restaurant",
+  "scenario": "You are in a customer role. Use English naturally in this restaurant situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "Local restaurant, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Nam",
+        "role": "customer"
+      },
+      {
+        "id": "char_b",
+        "name": "Waiter",
+        "role": "waiter"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Hello! I came to this restaurant yesterday."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Welcome back! What would you like today?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "I want the same as yesterday — soup and rice."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Of course. Would you like extra vegetables?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, please. And a bottle of water."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I will bring your order very soon."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_003",
+    "movers_vocab_007",
+    "movers_vocab_063",
+    "movers_vocab_064",
+    "movers_vocab_102",
+    "movers_vocab_103",
+    "movers_vocab_104",
+    "movers_vocab_105",
+    "movers_vocab_106",
+    "movers_vocab_107",
+    "movers_vocab_108",
+    "movers_vocab_109",
+    "movers_vocab_110",
+    "movers_vocab_111",
+    "movers_vocab_112",
+    "movers_vocab_113",
+    "movers_vocab_114",
+    "movers_vocab_115"
+  ],
+  "grammar_ids": [
+    "movers_grammar_005",
+    "movers_grammar_006"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a plate of roasted chicken next to rice",
+          "correct_answer": "chicken"
+        },
+        {
+          "image_hint": "a basket of fresh apples, bananas, and oranges",
+          "correct_answer": "fruit"
+        },
+        {
+          "image_hint": "a smiling waiter in uniform holding a notepad",
+          "correct_answer": "waiter"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "buy",
+            "to",
+            "I",
+            "fruit",
+            ".",
+            "want"
+          ],
+          "correct_answer": "I want to buy fruit."
+        },
+        {
+          "words": [
+            ",",
+            "please",
+            "I",
+            "order",
+            "want",
+            "to",
+            "chicken",
+            "."
+          ],
+          "correct_answer": "I want to order chicken, please."
+        },
+        {
+          "words": [
+            "wants",
+            "to",
+            "a",
+            "question",
+            "student",
+            "ask",
+            "The",
+            "."
+          ],
+          "correct_answer": "The student wants to ask a question."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I want to buy fruit.",
+          "options": [
+            "The student wants to ask a question.",
+            "I want to order chicken, please.",
+            "I want to buy fruit."
+          ],
+          "correct_answer": "I want to buy fruit."
+        },
+        {
+          "audio_text": "I want to order chicken, please.",
+          "options": [
+            "I want to buy fruit.",
+            "I want to order chicken, please.",
+            "The student wants to ask a question."
+          ],
+          "correct_answer": "I want to order chicken, please."
+        },
+        {
+          "audio_text": "The student wants to ask a question.",
+          "options": [
+            "I want to buy fruit.",
+            "The student wants to ask a question.",
+            "I want to order chicken, please."
+          ],
+          "correct_answer": "The student wants to ask a question."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ to buy fruit.",
+          "correct_answer": "want"
+        },
+        {
+          "prompt": "I ___ to order chicken, please.",
+          "correct_answer": "want"
+        },
+        {
+          "prompt": "The student ___ to ask a question.",
+          "correct_answer": "wants"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a plate of roasted chicken next to rice). What is this?",
+          "options": [
+            "chicken",
+            "fruit",
+            "waiter"
+          ],
+          "correct_answer": "chicken"
+        },
+        {
+          "prompt": "Look at the picture (a basket of fresh apples, bananas, and oranges). What is this?",
+          "options": [
+            "waiter",
+            "chicken",
+            "fruit"
+          ],
+          "correct_answer": "fruit"
+        },
+        {
+          "prompt": "Look at the picture (a smiling waiter in uniform holding a notepad). What is this?",
+          "options": [
+            "chicken",
+            "fruit",
+            "waiter"
+          ],
+          "correct_answer": "waiter"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "waiter",
+    "scenario": "Take an order from a diner at a restaurant.",
+    "opening_line": "Welcome! What would you like to order today?",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_005",
+        "movers_grammar_006"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_003",
+        "movers_vocab_007",
+        "movers_vocab_063"
+      ]
+    },
+    "success_criteria": "Learner orders food, states preferences, and asks for the bill."
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "starters_lesson_010",
+  "level": "starters",
+  "topic_id": "topic_phone",
+  "order": 10,
+  "title": "Making a phone call",
+  "scenario": "You are in a caller role. Use English naturally in this phone situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "Office, on the phone, Friday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Hoa",
+        "role": "caller"
+      },
+      {
+        "id": "char_b",
+        "name": "Partner",
+        "role": "receiver"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Hello! How are you?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "I am fine, thank you. Who is calling?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "I am Ms. Lan from the school."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Oh, hello, Ms. Lan. What is the news?"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_033",
+    "starters_vocab_045",
+    "starters_vocab_061",
+    "starters_vocab_069",
+    "starters_vocab_095",
+    "starters_vocab_096",
+    "starters_vocab_097",
+    "starters_vocab_098",
+    "starters_vocab_099",
+    "starters_vocab_100",
+    "starters_vocab_101",
+    "starters_vocab_102",
+    "starters_vocab_103",
+    "starters_vocab_104"
+  ],
+  "grammar_ids": [
+    "starters_grammar_001"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a clean graphic illustration of a number",
+          "correct_answer": "number"
+        },
+        {
+          "image_hint": "an action illustration showing a person to hear",
+          "correct_answer": "hear"
+        },
+        {
+          "image_hint": "an action illustration showing a person to contact",
+          "correct_answer": "contact"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "Open",
+            ".",
+            "your",
+            "book"
+          ],
+          "correct_answer": "Open your book."
+        },
+        {
+          "words": [
+            "board",
+            "Look",
+            "the",
+            ".",
+            "at"
+          ],
+          "correct_answer": "Look at the board."
+        },
+        {
+          "words": [
+            "to",
+            "Listen",
+            ",",
+            "me",
+            ".",
+            "please"
+          ],
+          "correct_answer": "Listen to me, please."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Open your book.",
+          "options": [
+            "Look at the board.",
+            "Listen to me, please.",
+            "Open your book."
+          ],
+          "correct_answer": "Open your book."
+        },
+        {
+          "audio_text": "Look at the board.",
+          "options": [
+            "Open your book.",
+            "Look at the board.",
+            "Listen to me, please."
+          ],
+          "correct_answer": "Look at the board."
+        },
+        {
+          "audio_text": "Listen to me, please.",
+          "options": [
+            "Look at the board.",
+            "Listen to me, please.",
+            "Open your book."
+          ],
+          "correct_answer": "Listen to me, please."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ your book.",
+          "correct_answer": "Open"
+        },
+        {
+          "prompt": "___ at the board.",
+          "correct_answer": "Look"
+        },
+        {
+          "prompt": "___ to me, please.",
+          "correct_answer": "Listen"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a number). What is this?",
+          "options": [
+            "number",
+            "hear",
+            "contact"
+          ],
+          "correct_answer": "number"
+        },
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to hear). What is this?",
+          "options": [
+            "number",
+            "hear",
+            "contact"
+          ],
+          "correct_answer": "hear"
+        },
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to contact). What is this?",
+          "options": [
+            "number",
+            "contact",
+            "hear"
+          ],
+          "correct_answer": "contact"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Coordinate plans over the phone.",
+    "opening_line": "Hello! This is Minh calling. Can we confirm the schedule?",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_001"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_033",
+        "starters_vocab_045",
+        "starters_vocab_061"
+      ]
+    },
+    "success_criteria": "Learner coordinates plans and leaves a phone message successfully."
+  }
+}

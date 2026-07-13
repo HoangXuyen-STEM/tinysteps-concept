@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spiral Progression Map - TinySteps</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-primary: #0a0f1d;
+      --bg-secondary: rgba(20, 26, 46, 0.6);
+      --glass-border: rgba(255, 255, 255, 0.08);
+      --glass-glow: rgba(0, 242, 254, 0.15);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --color-primary: #00f2fe;
+      --color-secondary: #4facfe;
+      --color-accent: #f59e0b;
+      --gradient-school: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+      --gradient-daily: linear-gradient(135deg, #f59e0b 0%, #e11d48 100%);
+      --gradient-card: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+      --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(245, 158, 11, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(0, 242, 254, 0.08) 0%, transparent 45%);
+      color: var(--text-main);
+      font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      line-height: 1.6;
+      padding-bottom: 5rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+
+    /* Back Button */
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--color-accent);
+      text-decoration: none;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      transition: var(--transition);
+    }
+
+    .back-btn:hover {
+      transform: translateX(-5px);
+      color: #fff;
+    }
+
+    /* Header */
+    header {
+      margin-bottom: 3.5rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+      background: linear-gradient(135deg, #fff, #fed7aa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 800px;
+    }
+
+    /* Master Layout */
+    .layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 2rem;
+    }
+
+    /* Topic List Sidebar */
+    .sidebar {
+      background: var(--bg-secondary);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 1.5rem;
+      height: fit-content;
+      backdrop-filter: blur(10px);
+    }
+
+    .sidebar-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      padding-left: 0.5rem;
+    }
+
+    .topic-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .topic-item {
+      width: 100%;
+    }
+
+    .topic-btn {
+      width: 100%;
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: 12px;
+      padding: 0.75rem 1rem;
+      color: var(--text-muted);
+      text-align: left;
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .topic-btn:hover {
+      background: rgba(255, 255, 255, 0.03);
+      color: #fff;
+    }
+
+    .topic-btn.active {
+      background: rgba(245, 158, 11, 0.1);
+      border-color: rgba(245, 158, 11, 0.2);
+      color: var(--color-accent);
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.05);
+    }
+
+    .group-divider {
+      height: 1px;
+      background: var(--glass-border);
+      margin: 1.5rem 0;
+    }
+
+    /* Spiral Timeline Content */
+    .content-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .topic-meta {
+      background: var(--gradient-card);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 2rem;
+      backdrop-filter: blur(12px);
+    }
+
+    .topic-badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.25rem 0.75rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .topic-badge.school {
+      background: rgba(0, 242, 254, 0.1);
+      border: 1px solid rgba(0, 242, 254, 0.2);
+      color: var(--color-primary);
+    }
+
+    .topic-badge.daily {
+      background: rgba(245, 158, 11, 0.1);
+      border: 1px solid rgba(245, 158, 11, 0.2);
+      color: var(--color-accent);
+    }
+
+    .topic-display-name {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    .topic-display-desc {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    /* Vertical Timeline */
+    .timeline {
+      position: relative;
+      padding-left: 2.5rem;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 1rem;
+      bottom: 2rem;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--color-primary) 0%, var(--color-accent) 100%);
+      opacity: 0.3;
+    }
+
+    .timeline-node {
+      position: relative;
+      margin-bottom: 3rem;
+    }
+
+    .timeline-node:last-child {
+      margin-bottom: 0;
+    }
+
+    .timeline-dot {
+      position: absolute;
+      left: -2.5rem;
+      top: 0.25rem;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--bg-primary);
+      border: 3px solid var(--color-primary);
+      z-index: 2;
+      transition: var(--transition);
+    }
+
+    .timeline-node:nth-child(2) .timeline-dot { border-color: #4facfe; }
+    .timeline-node:nth-child(3) .timeline-dot { border-color: #a5b4fc; }
+    .timeline-node:nth-child(4) .timeline-dot { border-color: #f59e0b; }
+    .timeline-node:nth-child(5) .timeline-dot { border-color: #e11d48; }
+
+    .timeline-node:hover .timeline-dot {
+      transform: scale(1.3);
+      box-shadow: 0 0 12px var(--color-primary);
+    }
+
+    .timeline-card {
+      background: var(--gradient-card);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 1.75rem;
+      backdrop-filter: blur(10px);
+      transition: var(--transition);
+    }
+
+    .timeline-card:hover {
+      border-color: rgba(255, 255, 255, 0.12);
+      transform: translateX(4px);
+    }
+
+    .timeline-level-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 0.15rem 0.5rem;
+      border-radius: 6px;
+      margin-bottom: 0.75rem;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      color: var(--text-main);
+    }
+
+    .timeline-focus {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-cando {
+      font-size: 0.95rem;
+      color: var(--color-primary);
+      font-weight: 500;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .timeline-cando::before {
+      content: '🎯';
+    }
+
+    .timeline-examples-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-examples {
+      list-style: none;
+    }
+
+    .timeline-examples li {
+      font-size: 0.95rem;
+      color: #cbd5e1;
+      margin-bottom: 0.4rem;
+      padding-left: 1.25rem;
+      position: relative;
+    }
+
+    .timeline-examples li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      color: var(--color-accent);
+      font-size: 0.8rem;
+    }
+
+    /* Print styling */
+    @media print {
+      body {
+        background: #fff !important;
+        color: #000 !important;
+      }
+      .back-btn, .sidebar {
+        display: none !important;
+      }
+      .layout {
+        grid-template-columns: 1fr !important;
+      }
+      .timeline-card {
+        background: #fff !important;
+        border: 1px solid #ccc !important;
+        color: #000 !important;
+        page-break-inside: avoid;
+        box-shadow: none !important;
+      }
+      .timeline-focus, .topic-display-name {
+        color: #000 !important;
+      }
+      .timeline::before {
+        background: #000 !important;
+      }
+      h1, .timeline-dot {
+        border-color: #000 !important;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        width: 100%;
+      }
+      .topic-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+      }
+      .group-divider {
+        display: none;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .topic-list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+      .container {
+        padding: 1.5rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-btn">&larr; Back to Dashboard</a>
+    
+    <header>
+      <h1>Spiral Progression Map</h1>
+      <p>Sơ đồ tiến trình phát triển xoắn ốc (Spiral Progression). Chọn một chủ đề từ cột bên trái để theo dõi cách kiến thức và năng lực ngôn ngữ mở rộng qua 5 cấp độ CEFR.</p>
+    </header>
+
+    <div class="layout">
+      <!-- Sidebar Topic list -->
+      <div class="sidebar">
+        <div class="sidebar-title">School & Teaching</div>
+        <div class="topic-list">
+          <button class="topic-btn active" onclick="switchTopic('topic_before_class', this)">🏫 Before class</button>
+          <button class="topic-btn" onclick="switchTopic('topic_in_class', this)">✏️ In class</button>
+          <button class="topic-btn" onclick="switchTopic('topic_giving_instructions', this)">📢 Instructions</button>
+          <button class="topic-btn" onclick="switchTopic('topic_checking_understanding', this)">🧐 Understanding</button>
+          <button class="topic-btn" onclick="switchTopic('topic_praise_correction', this)">⭐ Praise & Correction</button>
+          <button class="topic-btn" onclick="switchTopic('topic_school_communication', this)">💬 School Comm</button>
+        </div>
+
+        <div class="group-divider"></div>
+
+        <div class="sidebar-title">Daily Life</div>
+        <div class="topic-list">
+          <button class="topic-btn" onclick="switchTopic('topic_market', this)">🛒 At the market</button>
+          <button class="topic-btn" onclick="switchTopic('topic_restaurant', this)">🍽️ Restaurant</button>
+          <button class="topic-btn" onclick="switchTopic('topic_travel', this)">✈️ Travel & Map</button>
+          <button class="topic-btn" onclick="switchTopic('topic_phone', this)">📞 Phone call</button>
+          <button class="topic-btn" onclick="switchTopic('topic_health', this)">🩺 Health & Doctor</button>
+          <button class="topic-btn" onclick="switchTopic('topic_social', this)">🤝 Social Chat</button>
+        </div>
+      </div>
+
+      <!-- Main spiral visualization -->
+      <div class="content-panel">
+        <div class="topic-meta" id="topic-meta-panel">
+          <!-- Rendered via JS -->
+        </div>
+
+        <div class="timeline" id="timeline-panel">
+          <!-- Rendered via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Embedded sample topic datasets
+    const topicsData = {
+      topic_before_class: {
+        name: "Before class",
+        description: "Preparing for lessons, morning routines at school, greeting colleagues",
+        group: "school",
+        spiral: [
+          { level: "Starters", focus: "Basic greetings and teacher identity in the morning", cando: "Can greet colleagues and state their role in the morning", examples: ["Good morning!", "Hello! I am a teacher.", "Ready for class?"] },
+          { level: "Movers", focus: "Describing yesterday's routine before school", cando: "Can talk about when they arrived at school yesterday", examples: ["I arrived early yesterday.", "I prepared the classroom before class."] },
+          { level: "Flyers", focus: "Coordinating with colleagues and morning meetings", cando: "Can talk to colleagues about morning meetings and prep work", examples: ["He is my colleague at school.", "We have a staff meeting before class."] },
+          { level: "KET", focus: "Checking schedules and planning sessions", cando: "Can check and discuss schedules with other teachers", examples: ["Let me check the school schedule.", "I'd like to suggest we check the schedule."] },
+          { level: "PET", focus: "Discussing complex lesson prep procedures", cando: "Can explain safety and lesson preparation procedures to colleagues", examples: ["Let me explain the safety procedure before class.", "The lesson procedure was discussed with my colleague."] }
+        ]
+      },
+      topic_in_class: {
+        name: "In class",
+        description: "Managing activities, interacting with students during lessons",
+        group: "school",
+        spiral: [
+          { level: "Starters", focus: "Basic classroom items and actions", cando: "Can identify books and pens and tell students to look", examples: ["Open your book.", "This is a blue pen.", "Look at the board."] },
+          { level: "Movers", focus: "Asking students about homework and helping", cando: "Can ask students for homework and offer help during activities", examples: ["Show me your homework, please.", "Can you help me clean the board?"] },
+          { level: "Flyers", focus: "Explaining concepts and tasks in class", cando: "Can explain simple words and direct student activities", examples: ["Can you explain this word?", "She told me to clean the board."] },
+          { level: "KET", focus: "Monitoring progress and giving classroom opinions", cando: "Can monitor student progress and ask for opinions on tasks", examples: ["The student is making progress in class.", "What is your opinion on this topic?"] },
+          { level: "PET", focus: "Improving classroom communication techniques", cando: "Can discuss ways to improve classroom engagement", examples: ["You should try to improve your speaking in class.", "If I had a question, I would ask the teacher."] }
+        ]
+      },
+      topic_giving_instructions: {
+        name: "Giving instructions",
+        description: "Telling students what to do, explaining tasks and activities",
+        group: "school",
+        spiral: [
+          { level: "Starters", focus: "Basic imperatives for actions", cando: "Can give simple commands like 'look' and 'listen'", examples: ["Look at the board.", "Listen to me, please."] },
+          { level: "Movers", focus: "Giving instructions for homework and classroom chores", cando: "Can instruct students to clean the board or do homework", examples: ["Clean the board, please.", "Do your homework now."] },
+          { level: "Flyers", focus: "Polite rules and mandatory instructions", cando: "Can explain rules and give structured task instructions", examples: ["You must follow my instructions.", "You should listen carefully."] },
+          { level: "KET", focus: "Making polite instructions and requests", cando: "Can give instructions using soft requests and suggestions", examples: ["Could you check the instructions?", "I'd like to suggest you follow the schedule."] },
+          { level: "PET", focus: "Explaining complex procedures and instructions", cando: "Can outline detailed safety and lesson procedures", examples: ["Let me explain the safety procedure.", "The procedure should be done by Friday."] }
+        ]
+      },
+      topic_checking_understanding: {
+        name: "Checking understanding",
+        description: "Asking if students understand, confirming comprehension",
+        group: "school",
+        spiral: [
+          { level: "Starters", focus: "Basic confirmation checks", cando: "Can tell students to listen and check if they see", examples: ["Listen to me.", "Look here."] },
+          { level: "Movers", focus: "Direct comprehension checks", cando: "Can ask students directly if they understand a task", examples: ["Do you understand?", "Can you help me check if they understand?"] },
+          { level: "Flyers", focus: "Asking students to explain their comprehension", cando: "Can ask students to explain a word to verify understanding", examples: ["Can you explain this word to the class?", "Should I explain it again?"] },
+          { level: "KET", focus: "Measuring academic progress", cando: "Can check if students are making progress on their tasks", examples: ["The student is making progress, isn't he?", "I'd like to check your progress."] },
+          { level: "PET", focus: "Giving detailed constructive feedback", cando: "Can suggest ways for students to improve based on understanding checks", examples: ["You should try to improve your understanding.", "If they didn't understand, I would explain it again."] }
+        ]
+      },
+      topic_praise_correction: {
+        name: "Praise & correction",
+        description: "Encouraging students, correcting mistakes positively",
+        group: "school",
+        spiral: [
+          { level: "Starters", focus: "Basic praise phrases", cando: "Can praise a student using simple positive words", examples: ["Good job!", "Very good, student!"] },
+          { level: "Movers", focus: "Giving positive feedback on answers", cando: "Can praise a student's answer using adjectives", examples: ["That is a great answer!", "Great job on your homework."] },
+          { level: "Flyers", focus: "Polite error correction", cando: "Can encourage students when they make a mistake", examples: ["It is okay to make a mistake.", "That is the correct answer."] },
+          { level: "KET", focus: "Checking progress and gentle correction", cando: "Can highlight progress while correcting work", examples: ["You are making good progress.", "Could we correct the mistakes together?"] },
+          { level: "PET", focus: "Strategic improvement suggestions", cando: "Can guide students to improve and self-correct", examples: ["You should try to improve your writing.", "I apologize for making a mistake in the correction."] }
+        ]
+      },
+      topic_school_communication: {
+        name: "School communication",
+        description: "Parent meetings, emails, colleague discussions, reports",
+        group: "school",
+        spiral: [
+          { level: "Starters", focus: "Basic greetings with school staff", cando: "Can greet colleagues in the morning", examples: ["Hello, teacher!", "Good morning."] },
+          { level: "Movers", focus: "Calling parents about absences", cando: "Can make a short phone call to report a sick student", examples: ["He is sick today.", "Please call the parent."] },
+          { level: "Flyers", focus: "Polite email communication", cando: "Can send short, clear emails to colleagues or parents", examples: ["I sent you an email.", "The parent called me about the meeting."] },
+          { level: "KET", focus: "Writing student reports and suggestions", cando: "Can complete reports and make school recommendations", examples: ["I finished the student reports.", "I suggest we confirm the schedule."] },
+          { level: "PET", focus: "Participating in formal professional discussions", cando: "Can voice arguments, apologize for issues, and make formal reports", examples: ["We had a long discussion about school policy.", "Furthermore, I apologize for the delay in reports."] }
+        ]
+      },
+      topic_market: {
+        name: "At the market",
+        description: "Shopping for food and goods, asking prices, bargaining",
+        group: "daily",
+        spiral: [
+          { level: "Starters", focus: "Naming basic foods at the market", cando: "Can state they go to the market and name simple food preferences", examples: ["I go to the market.", "I like rice."] },
+          { level: "Movers", focus: "Stating intentions to buy food", cando: "Can express a desire to buy fruit or chicken at the market", examples: ["I want to buy fruit.", "I bought chicken yesterday."] },
+          { level: "Flyers", focus: "Polite transactions at market stalls", cando: "Can ask for price lists or total bills politely", examples: ["Could I see the bill, please?", "I have already bought the fruit."] },
+          { level: "KET", focus: "Bargaining and price negotiations", cando: "Can negotiate and complain about high prices", examples: ["The price is too high.", "I always bargain at the market."] },
+          { level: "PET", focus: "Resolving market purchasing complaints", cando: "Can discuss bad market experiences or handle purchase issues", examples: ["I made a complaint about the price delay.", "If the price were lower, I would buy more."] }
+        ]
+      },
+      topic_restaurant: {
+        name: "At a restaurant",
+        description: "Ordering food, asking for menu, paying the bill",
+        group: "daily",
+        spiral: [
+          { level: "Starters", focus: "Expressing simple drink requests", cando: "Can ask for basic drinks like water", examples: ["Water, please.", "I like rice."] },
+          { level: "Movers", focus: "Stating food desires", cando: "Can express hunger and state they want chicken", examples: ["I am hungry.", "I want chicken and rice."] },
+          { level: "Flyers", focus: "Polite requests to restaurant staff", cando: "Can ask for the menu and the bill politely", examples: ["Could I see the menu, please?", "Can we have the bill?"] },
+          { level: "KET", focus: "Asking for recommendations and expressing preferences", cando: "Can ask for recommendations and state dining preferences", examples: ["Could you recommend a good dish?", "I prefer chicken to rice."] },
+          { level: "PET", focus: "Expressing dietary needs and making reservations", cando: "Can specify dietary preferences and make dining bookings", examples: ["Do you have any vegetarian options?", "I want to make a dinner reservation."] }
+        ]
+      },
+      topic_travel: {
+        name: "Travel & directions",
+        description: "Asking for directions, booking tickets, at the airport/hotel",
+        group: "daily",
+        spiral: [
+          { level: "Starters", focus: "Basic movement statements", cando: "Can say they are going to the market or school", examples: ["I go to the market."] },
+          { level: "Movers", focus: "Stating past trips", cando: "Can talk about a simple trip they took yesterday", examples: ["I went to school yesterday.", "Can you help me?"] },
+          { level: "Flyers", focus: "Polite direction and booking queries", cando: "Can purchase travel tickets and ask for directions", examples: ["I bought a train ticket.", "Ask for directions, please."] },
+          { level: "KET", focus: "Interactions at transit points", cando: "Can handle simple transit tasks at locations like airports", examples: ["I am waiting at the airport.", "Could you recommend a travel schedule?"] },
+          { level: "PET", focus: "Handling travel delays and formal bookings", cando: "Can discuss travel disruptions and handle accommodation bookings", examples: ["I am sorry for the flight delay.", "The reservation should be confirmed."] }
+        ]
+      },
+      topic_phone: {
+        name: "Phone calls",
+        description: "Making and receiving phone calls, leaving messages",
+        group: "daily",
+        spiral: [
+          { level: "Starters", focus: "Basic conversational instructions", cando: "Can respond to a basic phone call call-to-action", examples: ["Listen to me."] },
+          { level: "Movers", focus: "Receiving simple calls", cando: "Can answer the phone and request someone to call back", examples: ["Answer the phone.", "Please call the parent."] },
+          { level: "Flyers", focus: "Leaving phone text messages", cando: "Can request to leave or send messages via phone", examples: ["Please leave a message.", "I sent you an email message."] },
+          { level: "KET", focus: "Handling urgent business calls", cando: "Can manage urgent phone confirmations", examples: ["This is an urgent call.", "Please confirm the meeting time on the phone."] },
+          { level: "PET", focus: "Formal phone inquiries and complaints", cando: "Can make formal apologies and handle complaints over the phone", examples: ["I called to apologize for the delay.", "If they called, I would answer immediately."] }
+        ]
+      },
+      topic_health: {
+        name: "Health & doctor",
+        description: "Describing symptoms, visiting a doctor, buying medicine",
+        group: "daily",
+        spiral: [
+          { level: "Starters", focus: "Stating physical condition simply", cando: "Can say if they are fine", examples: ["I'm fine, thank you."] },
+          { level: "Movers", focus: "Expressing illness and hunger", cando: "Can describe basic physical needs and sickness", examples: ["He is sick today.", "I am hungry."] },
+          { level: "Flyers", focus: "Purchasing and taking medicine", cando: "Can understand simple medical instructions about taking medicine", examples: ["Take this medicine after meals.", "You should see the doctor."] },
+          { level: "KET", focus: "Describing specific minor ailments", cando: "Can describe common minor illnesses like a fever or headache", examples: ["I have a terrible headache.", "He has a high fever, doesn't he?"] },
+          { level: "PET", focus: "Discussing diagnoses and prescriptions", cando: "Can describe specific symptoms and deal with prescriptions", examples: ["Describe your medical symptoms.", "The doctor wrote a prescription."] }
+        ]
+      },
+      topic_social: {
+        name: "Social conversations",
+        description: "Greetings, small talk, introductions, weather, hobbies",
+        group: "daily",
+        spiral: [
+          { level: "Starters", focus: "Basic conversational exchanges", cando: "Can greet someone, ask how they are, and say goodbye", examples: ["Hello! How are you?", "I'm fine, thank you.", "Goodbye!"] },
+          { level: "Movers", focus: "Small talk about yesterday and the weather", cando: "Can talk about the weather and yesterday's simple actions", examples: ["The weather is very nice today.", "Yesterday I walked to school."] },
+          { level: "Flyers", focus: "Chatting about personal hobbies", cando: "Can discuss simple hobbies and introduce interests", examples: ["Gardening is my favorite hobby.", "I'm going to share my hobby."] },
+          { level: "KET", focus: "Polite advice and relative statements in small talk", cando: "Can suggest social activities and introduce friends with details", examples: ["I suggest we meet on Friday.", "What is your opinion on this?"] },
+          { level: "PET", focus: "Discussing hypothetical options and complex hobbies", cando: "Can hold active, polite debates about opinions and social themes", examples: ["Furthermore, the discussion was very useful.", "If I had time, I would try a new hobby."] }
+        ]
+      }
+    };
+
+    function switchTopic(topicId, btnElement) {
+      // Toggle button active state
+      document.querySelectorAll('.topic-btn').forEach(btn => btn.classList.remove('active'));
+      btnElement.classList.add('active');
+
+      const data = topicsData[topicId];
+      if(!data) return;
+
+      // Meta Panel
+      const metaPanel = document.getElementById('topic-meta-panel');
+      metaPanel.innerHTML = `
+        <span class="topic-badge ${data.group}">${data.group === 'school' ? '🏫 School & Teaching' : '🛒 Daily Life'}</span>
+        <h2 class="topic-display-name">${data.name}</h2>
+        <p class="topic-display-desc">${data.description}</p>
+      `;
+
+      // Timeline Panel
+      const timelinePanel = document.getElementById('timeline-panel');
+      timelinePanel.innerHTML = '';
+      
+      data.spiral.forEach((levelNode, index) => {
+        let examplesHtml = '';
+        levelNode.examples.forEach(ex => {
+          examplesHtml += `<li>"${ex}"</li>`;
+        });
+
+        timelinePanel.innerHTML += `
+          <div class="timeline-node">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-level-badge">Level: ${levelNode.level}</span>
+              <h3 class="timeline-focus">${levelNode.focus}</h3>
+              <div class="timeline-cando">${levelNode.cando}</div>
+              
+              <div class="timeline-examples-title">💡 Ví dụ thực tiễn:</div>
+              <ul class="timeline-examples">
+                ${examplesHtml}
+              </ul>
+            </div>
+          </div>
+        `;
+      });
+    }
+
+    // Default load first topic
+    document.addEventListener("DOMContentLoaded", function() {
+      switchTopic('topic_before_class', document.querySelector('.topic-btn'));
+    });
+  </script>
+</body>
+</html>

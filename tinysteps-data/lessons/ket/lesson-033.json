@@ -1,0 +1,243 @@
+{
+  "id": "ket_lesson_033",
+  "level": "ket",
+  "topic_id": "topic_travel",
+  "order": 33,
+  "title": "Travel and directions",
+  "scenario": "You are in a traveler role. Use English naturally in this travel situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "Bus terminal, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "traveler"
+      },
+      {
+        "id": "char_b",
+        "name": "Agent",
+        "role": "agent"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "I would like to buy a train ticket to Hue, please."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Certainly. When would you like to travel?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "This Saturday morning, if possible."
+      },
+      {
+        "character_id": "char_b",
+        "text": "There is a train at eight thirty that arrives at noon."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Could you recommend a good hotel near the old city?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, the Heritage Hotel is close to all the attractions."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I will confirm my hotel reservation tonight."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Safe travels. Enjoy your visit to Hue!"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_003",
+    "ket_vocab_061",
+    "ket_vocab_062",
+    "ket_vocab_063",
+    "ket_vocab_393",
+    "ket_vocab_394",
+    "ket_vocab_395",
+    "ket_vocab_396",
+    "ket_vocab_397",
+    "ket_vocab_398",
+    "ket_vocab_399",
+    "ket_vocab_400",
+    "ket_vocab_001",
+    "ket_vocab_002",
+    "ket_vocab_004",
+    "ket_vocab_005"
+  ],
+  "grammar_ids": [
+    "ket_grammar_002",
+    "ket_grammar_006"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "an airport terminal window showing airplanes outside",
+          "correct_answer": "airport"
+        },
+        {
+          "image_hint": "a printed travel itinerary with dates and places",
+          "correct_answer": "itinerary"
+        },
+        {
+          "image_hint": "a comfortable hotel room with a view",
+          "correct_answer": "accommodation"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "you",
+            "a",
+            "Could",
+            "recommend",
+            "good",
+            "?",
+            "dish"
+          ],
+          "correct_answer": "Could you recommend a good dish?"
+        },
+        {
+          "words": [
+            "Could",
+            "you",
+            "?",
+            "schedule",
+            "check",
+            "my"
+          ],
+          "correct_answer": "Could you check my schedule?"
+        },
+        {
+          "words": [
+            "the",
+            "mistakes",
+            "correct",
+            "together",
+            "we",
+            "Could",
+            "?"
+          ],
+          "correct_answer": "Could we correct the mistakes together?"
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Could you recommend a good dish?",
+          "options": [
+            "Could you check my schedule?",
+            "Could we correct the mistakes together?",
+            "Could you recommend a good dish?"
+          ],
+          "correct_answer": "Could you recommend a good dish?"
+        },
+        {
+          "audio_text": "Could you check my schedule?",
+          "options": [
+            "Could you recommend a good dish?",
+            "Could you check my schedule?",
+            "Could we correct the mistakes together?"
+          ],
+          "correct_answer": "Could you check my schedule?"
+        },
+        {
+          "audio_text": "Could we correct the mistakes together?",
+          "options": [
+            "Could you check my schedule?",
+            "Could you recommend a good dish?",
+            "Could we correct the mistakes together?"
+          ],
+          "correct_answer": "Could we correct the mistakes together?"
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ you recommend a good dish?",
+          "correct_answer": "Could"
+        },
+        {
+          "prompt": "___ you check my schedule?",
+          "correct_answer": "Could"
+        },
+        {
+          "prompt": "___ we correct the mistakes together?",
+          "correct_answer": "Could"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (an airport terminal window showing airplanes outside). What is this?",
+          "options": [
+            "airport",
+            "itinerary",
+            "accommodation"
+          ],
+          "correct_answer": "airport"
+        },
+        {
+          "prompt": "Look at the picture (a printed travel itinerary with dates and places). What is this?",
+          "options": [
+            "accommodation",
+            "airport",
+            "itinerary"
+          ],
+          "correct_answer": "itinerary"
+        },
+        {
+          "prompt": "Look at the picture (a comfortable hotel room with a view). What is this?",
+          "options": [
+            "airport",
+            "accommodation",
+            "itinerary"
+          ],
+          "correct_answer": "accommodation"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "agent",
+    "scenario": "Help a traveler book tickets and find directions.",
+    "opening_line": "Hello! Where are you traveling to today?",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_002",
+        "ket_grammar_006"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_003",
+        "ket_vocab_061",
+        "ket_vocab_062"
+      ]
+    },
+    "success_criteria": "Learner asks for directions and travel booking help politely."
+  }
+}

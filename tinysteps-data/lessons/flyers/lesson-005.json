@@ -1,0 +1,242 @@
+{
+  "id": "flyers_lesson_005",
+  "level": "flyers",
+  "topic_id": "topic_praise_correction",
+  "order": 5,
+  "title": "Praise and correction",
+  "scenario": "You are in a teacher role. Use English naturally in this praise correction situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "Front of classroom, Friday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Linh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Vy",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "You have made excellent progress in your writing this month."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. I practised a lot during the weekend."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Your paragraph structure is clear and logical."
+      },
+      {
+        "character_id": "char_b",
+        "text": "However, I think I used the wrong tense in one sentence."
+      },
+      {
+        "character_id": "char_a",
+        "text": "You are right. Let's look at it together."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I apologise for the careless mistake."
+      },
+      {
+        "character_id": "char_a",
+        "text": "There is no need to apologise. It is part of learning."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If I reviewed my work more carefully, I would make fewer errors."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_041",
+    "flyers_vocab_042",
+    "flyers_vocab_043",
+    "flyers_vocab_044",
+    "flyers_vocab_060",
+    "flyers_vocab_061",
+    "flyers_vocab_062",
+    "flyers_vocab_063",
+    "flyers_vocab_064",
+    "flyers_vocab_065",
+    "flyers_vocab_066",
+    "flyers_vocab_067",
+    "flyers_vocab_068",
+    "flyers_vocab_069",
+    "flyers_vocab_070",
+    "flyers_vocab_071",
+    "flyers_vocab_072"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a student holding a certificate of achievement",
+          "correct_answer": "achievement"
+        },
+        {
+          "image_hint": "an energised student raising their hand confidently",
+          "correct_answer": "motivation"
+        },
+        {
+          "image_hint": "a confident student standing tall and speaking",
+          "correct_answer": "confidence"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "You",
+            "explain",
+            "word",
+            "the",
+            ".",
+            "should"
+          ],
+          "correct_answer": "You should explain the word."
+        },
+        {
+          "words": [
+            "a",
+            "shouldn't",
+            ".",
+            "You",
+            "make",
+            "like",
+            "mistake",
+            "this"
+          ],
+          "correct_answer": "You shouldn't make a mistake like this."
+        },
+        {
+          "words": [
+            "a",
+            "see",
+            "should",
+            "doctor",
+            ".",
+            "He"
+          ],
+          "correct_answer": "He should see a doctor."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "You should explain the word.",
+          "options": [
+            "He should see a doctor.",
+            "You shouldn't make a mistake like this.",
+            "You should explain the word."
+          ],
+          "correct_answer": "You should explain the word."
+        },
+        {
+          "audio_text": "You shouldn't make a mistake like this.",
+          "options": [
+            "He should see a doctor.",
+            "You should explain the word.",
+            "You shouldn't make a mistake like this."
+          ],
+          "correct_answer": "You shouldn't make a mistake like this."
+        },
+        {
+          "audio_text": "He should see a doctor.",
+          "options": [
+            "You shouldn't make a mistake like this.",
+            "You should explain the word.",
+            "He should see a doctor."
+          ],
+          "correct_answer": "He should see a doctor."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "You ___ explain the word.",
+          "correct_answer": "should"
+        },
+        {
+          "prompt": "You ___ make a mistake like this.",
+          "correct_answer": "shouldn't"
+        },
+        {
+          "prompt": "He ___ see a doctor.",
+          "correct_answer": "should"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a student holding a certificate of achievement). What is this?",
+          "options": [
+            "motivation",
+            "achievement",
+            "confidence"
+          ],
+          "correct_answer": "achievement"
+        },
+        {
+          "prompt": "Look at the picture (an energised student raising their hand confidently). What is this?",
+          "options": [
+            "confidence",
+            "achievement",
+            "motivation"
+          ],
+          "correct_answer": "motivation"
+        },
+        {
+          "prompt": "Look at the picture (a confident student standing tall and speaking). What is this?",
+          "options": [
+            "achievement",
+            "confidence",
+            "motivation"
+          ],
+          "correct_answer": "confidence"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Receive feedback and correct a spelling error.",
+    "opening_line": "Teacher, did I do a good job on my homework?",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_004"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_041",
+        "flyers_vocab_042",
+        "flyers_vocab_043"
+      ]
+    },
+    "success_criteria": "Learner praises the student and guides correction of the mistake."
+  }
+}

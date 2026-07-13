@@ -1,0 +1,249 @@
+{
+  "id": "ket_lesson_023",
+  "level": "ket",
+  "topic_id": "topic_health",
+  "order": 23,
+  "title": "Health and the doctor",
+  "scenario": "You are in a patient role. Use English naturally in this health situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "School clinic, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Lan",
+        "role": "patient"
+      },
+      {
+        "id": "char_b",
+        "name": "Doctor",
+        "role": "doctor"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good morning. I have a terrible headache and a high fever."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I am sorry to hear that. How long have you had these symptoms?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "The fever started two days ago and has not improved."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I see. I will write a prescription for you."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Should I describe any other symptoms?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, do you have a sore throat or difficulty breathing?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "No, just the headache and fever."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Please take the medicine after meals and rest completely."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_005",
+    "ket_vocab_006",
+    "ket_vocab_071",
+    "ket_vocab_072",
+    "ket_vocab_273",
+    "ket_vocab_274",
+    "ket_vocab_275",
+    "ket_vocab_276",
+    "ket_vocab_277",
+    "ket_vocab_278",
+    "ket_vocab_279",
+    "ket_vocab_280",
+    "ket_vocab_281",
+    "ket_vocab_282",
+    "ket_vocab_283",
+    "ket_vocab_284"
+  ],
+  "grammar_ids": [
+    "ket_grammar_005",
+    "ket_grammar_009"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a person holding their temples with an expression of pain",
+          "correct_answer": "headache"
+        },
+        {
+          "image_hint": "a thermometer showing a high temperature level",
+          "correct_answer": "fever"
+        },
+        {
+          "image_hint": "a doctor making a diagnosis after examining a patient",
+          "correct_answer": "diagnosis"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "teaches",
+            "English",
+            "is",
+            "colleague",
+            "kind",
+            ".",
+            "The",
+            "who",
+            "very"
+          ],
+          "correct_answer": "The colleague who teaches English is very kind."
+        },
+        {
+          "words": [
+            "is",
+            "schedule",
+            ".",
+            "simple",
+            "The",
+            "which",
+            "use",
+            "we"
+          ],
+          "correct_answer": "The schedule which we use is simple."
+        },
+        {
+          "words": [
+            "a",
+            "who",
+            "The",
+            "home",
+            "went",
+            ".",
+            "headache",
+            "has",
+            "student"
+          ],
+          "correct_answer": "The student who has a headache went home."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "The colleague who teaches English is very kind.",
+          "options": [
+            "The colleague who teaches English is very kind.",
+            "The schedule which we use is simple.",
+            "The student who has a headache went home."
+          ],
+          "correct_answer": "The colleague who teaches English is very kind."
+        },
+        {
+          "audio_text": "The schedule which we use is simple.",
+          "options": [
+            "The student who has a headache went home.",
+            "The colleague who teaches English is very kind.",
+            "The schedule which we use is simple."
+          ],
+          "correct_answer": "The schedule which we use is simple."
+        },
+        {
+          "audio_text": "The student who has a headache went home.",
+          "options": [
+            "The student who has a headache went home.",
+            "The colleague who teaches English is very kind.",
+            "The schedule which we use is simple."
+          ],
+          "correct_answer": "The student who has a headache went home."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "The colleague ___ teaches English is very kind.",
+          "correct_answer": "who"
+        },
+        {
+          "prompt": "The schedule ___ we use is simple.",
+          "correct_answer": "which"
+        },
+        {
+          "prompt": "The student ___ has a headache went home.",
+          "correct_answer": "who"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a person holding their temples with an expression of pain). What is this?",
+          "options": [
+            "headache",
+            "diagnosis",
+            "fever"
+          ],
+          "correct_answer": "headache"
+        },
+        {
+          "prompt": "Look at the picture (a thermometer showing a high temperature level). What is this?",
+          "options": [
+            "diagnosis",
+            "headache",
+            "fever"
+          ],
+          "correct_answer": "fever"
+        },
+        {
+          "prompt": "Look at the picture (a doctor making a diagnosis after examining a patient). What is this?",
+          "options": [
+            "fever",
+            "headache",
+            "diagnosis"
+          ],
+          "correct_answer": "diagnosis"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "doctor",
+    "scenario": "Diagnose a patient's symptoms at the clinic.",
+    "opening_line": "Hello. Please sit down. What are your symptoms today?",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_005",
+        "ket_grammar_009"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_005",
+        "ket_vocab_006",
+        "ket_vocab_071"
+      ]
+    },
+    "success_criteria": "Learner describes symptoms clearly and asks for medical advice."
+  }
+}

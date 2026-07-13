@@ -1,0 +1,237 @@
+{
+  "id": "movers_lesson_025",
+  "level": "movers",
+  "topic_id": "topic_before_class",
+  "order": 25,
+  "title": "Preparing for class",
+  "scenario": "You are in a teacher role. Use English naturally in this before class situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "Teachers room, Friday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Lan",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Mr. Binh",
+        "role": "colleague"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good morning! Did you arrive early today?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, I arrived before seven o'clock."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I prepared the classroom yesterday afternoon."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Did you clean the board?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, I cleaned the board and wrote the timetable."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Excellent. Let's have a great lesson today!"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_002",
+    "movers_vocab_012",
+    "movers_vocab_023",
+    "movers_vocab_024",
+    "movers_vocab_340",
+    "movers_vocab_341",
+    "movers_vocab_342",
+    "movers_vocab_343",
+    "movers_vocab_344",
+    "movers_vocab_345",
+    "movers_vocab_346",
+    "movers_vocab_347",
+    "movers_vocab_348",
+    "movers_vocab_349",
+    "movers_vocab_350",
+    "movers_vocab_351",
+    "movers_vocab_352",
+    "movers_vocab_353"
+  ],
+  "grammar_ids": [
+    "movers_grammar_001",
+    "movers_grammar_002"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a calendar sheet showing the previous day marked",
+          "correct_answer": "yesterday"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a agenda",
+          "correct_answer": "agendas"
+        },
+        {
+          "image_hint": "a black dry-erase marker on a whiteboard shelf",
+          "correct_answer": "marker"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "in",
+            "am",
+            "book",
+            "writing",
+            ".",
+            "I",
+            "my"
+          ],
+          "correct_answer": "I am writing in my book."
+        },
+        {
+          "words": [
+            "the",
+            "is",
+            ".",
+            "cleaning",
+            "board",
+            "He"
+          ],
+          "correct_answer": "He is cleaning the board."
+        },
+        {
+          "words": [
+            "the",
+            "teacher",
+            "listening",
+            "are",
+            ".",
+            "to",
+            "They"
+          ],
+          "correct_answer": "They are listening to the teacher."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I am writing in my book.",
+          "options": [
+            "They are listening to the teacher.",
+            "I am writing in my book.",
+            "He is cleaning the board."
+          ],
+          "correct_answer": "I am writing in my book."
+        },
+        {
+          "audio_text": "He is cleaning the board.",
+          "options": [
+            "I am writing in my book.",
+            "He is cleaning the board.",
+            "They are listening to the teacher."
+          ],
+          "correct_answer": "He is cleaning the board."
+        },
+        {
+          "audio_text": "They are listening to the teacher.",
+          "options": [
+            "He is cleaning the board.",
+            "They are listening to the teacher.",
+            "I am writing in my book."
+          ],
+          "correct_answer": "They are listening to the teacher."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ writing in my book.",
+          "correct_answer": "am"
+        },
+        {
+          "prompt": "He ___ cleaning the board.",
+          "correct_answer": "is"
+        },
+        {
+          "prompt": "They ___ listening to the teacher.",
+          "correct_answer": "are"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a calendar sheet showing the previous day marked). What is this?",
+          "options": [
+            "agendas",
+            "yesterday",
+            "marker"
+          ],
+          "correct_answer": "yesterday"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a agenda). What is this?",
+          "options": [
+            "marker",
+            "yesterday",
+            "agendas"
+          ],
+          "correct_answer": "agendas"
+        },
+        {
+          "prompt": "Look at the picture (a black dry-erase marker on a whiteboard shelf). What is this?",
+          "options": [
+            "agendas",
+            "yesterday",
+            "marker"
+          ],
+          "correct_answer": "marker"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Talk about class preparation before the lesson starts.",
+    "opening_line": "Good morning! Have you finished the lesson preparation?",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_001",
+        "movers_grammar_002"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_002",
+        "movers_vocab_012",
+        "movers_vocab_023"
+      ]
+    },
+    "success_criteria": "Learner answers appropriately and describes a classroom preparation task."
+  }
+}

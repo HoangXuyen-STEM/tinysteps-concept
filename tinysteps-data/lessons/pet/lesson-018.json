@@ -1,0 +1,251 @@
+{
+  "id": "pet_lesson_018",
+  "level": "pet",
+  "topic_id": "topic_school_communication",
+  "order": 18,
+  "title": "School communication",
+  "scenario": "You are in a teacher role. Use English naturally in this school communication situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "School meeting room, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Trang",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Mrs. Cuc",
+        "role": "parent"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "I'd like to discuss the feedback from last week's parent meeting."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, several parents raised concerns about homework volume."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. We should adjust our policy accordingly."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I have drafted a new homework schedule for your review."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Thank you. I will review it and reply by Wednesday."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Furthermore, the principal has asked for a formal report."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I will prepare the report and submit it by Friday."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If we address the concerns early, we can avoid bigger issues."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_004",
+    "pet_vocab_006",
+    "pet_vocab_007",
+    "pet_vocab_008",
+    "pet_vocab_226",
+    "pet_vocab_227",
+    "pet_vocab_228",
+    "pet_vocab_229",
+    "pet_vocab_230",
+    "pet_vocab_231",
+    "pet_vocab_232",
+    "pet_vocab_233",
+    "pet_vocab_234",
+    "pet_vocab_235",
+    "pet_vocab_236",
+    "pet_vocab_237",
+    "pet_vocab_238"
+  ],
+  "grammar_ids": [
+    "pet_grammar_002",
+    "pet_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a departure board showing 'DELAYED' next to flights",
+          "correct_answer": "delay"
+        },
+        {
+          "image_hint": "a person holding their hands together showing a sorry face",
+          "correct_answer": "apologize"
+        },
+        {
+          "image_hint": "an arrow pointing to additional detail cards",
+          "correct_answer": "furthermore"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "years",
+            "ten",
+            "been",
+            "teaching",
+            "here",
+            ".",
+            "I've",
+            "for"
+          ],
+          "correct_answer": "I've been teaching here for ten years."
+        },
+        {
+          "words": [
+            "lesson",
+            ".",
+            "been",
+            "We've",
+            "morning",
+            "since",
+            "preparing",
+            "this"
+          ],
+          "correct_answer": "We've been preparing this lesson since morning."
+        },
+        {
+          "words": [
+            "been",
+            "My",
+            "the",
+            "headteacher",
+            "discussing",
+            "the",
+            "with",
+            ".",
+            "schedule",
+            "colleague",
+            "has"
+          ],
+          "correct_answer": "My colleague has been discussing the schedule with the headteacher."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I've been teaching here for ten years.",
+          "options": [
+            "We've been preparing this lesson since morning.",
+            "My colleague has been discussing the schedule with the headteacher.",
+            "I've been teaching here for ten years."
+          ],
+          "correct_answer": "I've been teaching here for ten years."
+        },
+        {
+          "audio_text": "We've been preparing this lesson since morning.",
+          "options": [
+            "I've been teaching here for ten years.",
+            "My colleague has been discussing the schedule with the headteacher.",
+            "We've been preparing this lesson since morning."
+          ],
+          "correct_answer": "We've been preparing this lesson since morning."
+        },
+        {
+          "audio_text": "My colleague has been discussing the schedule with the headteacher.",
+          "options": [
+            "My colleague has been discussing the schedule with the headteacher.",
+            "I've been teaching here for ten years.",
+            "We've been preparing this lesson since morning."
+          ],
+          "correct_answer": "My colleague has been discussing the schedule with the headteacher."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I've ___ teaching here for ten years.",
+          "correct_answer": "been"
+        },
+        {
+          "prompt": "We've ___ preparing this lesson since morning.",
+          "correct_answer": "been"
+        },
+        {
+          "prompt": "My colleague has ___ discussing the schedule with the headteacher.",
+          "correct_answer": "been"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a departure board showing 'DELAYED' next to flights). What is this?",
+          "options": [
+            "apologize",
+            "furthermore",
+            "delay"
+          ],
+          "correct_answer": "delay"
+        },
+        {
+          "prompt": "Look at the picture (a person holding their hands together showing a sorry face). What is this?",
+          "options": [
+            "apologize",
+            "furthermore",
+            "delay"
+          ],
+          "correct_answer": "apologize"
+        },
+        {
+          "prompt": "Look at the picture (an arrow pointing to additional detail cards). What is this?",
+          "options": [
+            "apologize",
+            "delay",
+            "furthermore"
+          ],
+          "correct_answer": "furthermore"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "parent",
+    "scenario": "Ask about student progress at parent-teacher meeting.",
+    "opening_line": "Hello, teacher. I wanted to ask about my child's progress.",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_002",
+        "pet_grammar_004"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_004",
+        "pet_vocab_006",
+        "pet_vocab_007"
+      ]
+    },
+    "success_criteria": "Learner discusses student progress and provides constructive advice."
+  }
+}

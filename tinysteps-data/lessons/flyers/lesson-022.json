@@ -1,0 +1,243 @@
+{
+  "id": "flyers_lesson_022",
+  "level": "flyers",
+  "topic_id": "topic_phone",
+  "order": 22,
+  "title": "Making a phone call",
+  "scenario": "You are in a caller role. Use English naturally in this phone situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "Office, on the phone, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Minh",
+        "role": "caller"
+      },
+      {
+        "id": "char_b",
+        "name": "Partner",
+        "role": "receiver"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "I am calling to apologise for the delay in sending the report."
+      },
+      {
+        "character_id": "char_b",
+        "text": "No problem. I understand you were very busy last week."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I will submit the completed report by tomorrow morning."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. Could you also send a digital copy by email?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Of course. I will attach it to my email tonight."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If you had called earlier, I would have helped you."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. I should have contacted you sooner."
+      },
+      {
+        "character_id": "char_b",
+        "text": "No need to worry. I look forward to receiving the report."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_001",
+    "flyers_vocab_007",
+    "flyers_vocab_009",
+    "flyers_vocab_065",
+    "flyers_vocab_281",
+    "flyers_vocab_282",
+    "flyers_vocab_283",
+    "flyers_vocab_284",
+    "flyers_vocab_285",
+    "flyers_vocab_286",
+    "flyers_vocab_287",
+    "flyers_vocab_288",
+    "flyers_vocab_289",
+    "flyers_vocab_290",
+    "flyers_vocab_291",
+    "flyers_vocab_292",
+    "flyers_vocab_293"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_001",
+    "flyers_grammar_002"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "an open laptop displaying an email inbox layout",
+          "correct_answer": "email"
+        },
+        {
+          "image_hint": "a mother and father sitting together at a meeting desk",
+          "correct_answer": "parent"
+        },
+        {
+          "image_hint": "a chat bubble icon on a mobile device",
+          "correct_answer": "message"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "sent",
+            "an",
+            "you",
+            "I",
+            "email",
+            ".",
+            "have"
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "words": [
+            "finished",
+            "He",
+            ".",
+            "the",
+            "has",
+            "homework"
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "words": [
+            ".",
+            "have",
+            "bought",
+            "fruit",
+            "I",
+            "the"
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I have sent you an email.",
+          "options": [
+            "I have sent you an email.",
+            "He has finished the homework.",
+            "I have bought the fruit."
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "audio_text": "He has finished the homework.",
+          "options": [
+            "He has finished the homework.",
+            "I have sent you an email.",
+            "I have bought the fruit."
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "audio_text": "I have bought the fruit.",
+          "options": [
+            "I have bought the fruit.",
+            "I have sent you an email.",
+            "He has finished the homework."
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ sent you an email.",
+          "correct_answer": "have"
+        },
+        {
+          "prompt": "He ___ finished the homework.",
+          "correct_answer": "has"
+        },
+        {
+          "prompt": "I ___ bought the fruit.",
+          "correct_answer": "have"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (an open laptop displaying an email inbox layout). What is this?",
+          "options": [
+            "parent",
+            "email",
+            "message"
+          ],
+          "correct_answer": "email"
+        },
+        {
+          "prompt": "Look at the picture (a mother and father sitting together at a meeting desk). What is this?",
+          "options": [
+            "message",
+            "parent",
+            "email"
+          ],
+          "correct_answer": "parent"
+        },
+        {
+          "prompt": "Look at the picture (a chat bubble icon on a mobile device). What is this?",
+          "options": [
+            "message",
+            "email",
+            "parent"
+          ],
+          "correct_answer": "message"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Coordinate plans over the phone.",
+    "opening_line": "Hello! This is Minh calling. Can we confirm the schedule?",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_001",
+        "flyers_grammar_002"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_001",
+        "flyers_vocab_007",
+        "flyers_vocab_009"
+      ]
+    },
+    "success_criteria": "Learner coordinates plans and leaves a phone message successfully."
+  }
+}

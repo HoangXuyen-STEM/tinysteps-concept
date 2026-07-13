@@ -1,0 +1,221 @@
+{
+  "id": "starters_lesson_007",
+  "level": "starters",
+  "topic_id": "topic_market",
+  "order": 7,
+  "title": "At the market",
+  "scenario": "You are in a buyer role. Use English naturally in this market situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "Local market stall, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "An",
+        "role": "buyer"
+      },
+      {
+        "id": "char_b",
+        "name": "Seller",
+        "role": "seller"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Hello! I want to buy rice, please.",
+        "note": "(pointing at stall)"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Hello! Here is fresh rice."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I like rice. How much is it?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "It is very cheap. Here you go."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_012",
+    "starters_vocab_013",
+    "starters_vocab_021",
+    "starters_vocab_030",
+    "starters_vocab_065",
+    "starters_vocab_066",
+    "starters_vocab_067",
+    "starters_vocab_068",
+    "starters_vocab_069",
+    "starters_vocab_070",
+    "starters_vocab_071",
+    "starters_vocab_072",
+    "starters_vocab_073",
+    "starters_vocab_074"
+  ],
+  "grammar_ids": [
+    "starters_grammar_004",
+    "starters_grammar_006"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a bustling fresh food market in Vietnam",
+          "correct_answer": "market"
+        },
+        {
+          "image_hint": "a steaming bowl of white jasmine rice",
+          "correct_answer": "rice"
+        },
+        {
+          "image_hint": "an action illustration showing a person to buy",
+          "correct_answer": "buy"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "market",
+            "go",
+            "the",
+            ".",
+            "to",
+            "I"
+          ],
+          "correct_answer": "I go to the market."
+        },
+        {
+          "words": [
+            "like",
+            ".",
+            "I",
+            "rice"
+          ],
+          "correct_answer": "I like rice."
+        },
+        {
+          "words": [
+            "like",
+            "English",
+            "We",
+            ".",
+            "class"
+          ],
+          "correct_answer": "We like English class."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I go to the market.",
+          "options": [
+            "We like English class.",
+            "I go to the market.",
+            "I like rice."
+          ],
+          "correct_answer": "I go to the market."
+        },
+        {
+          "audio_text": "I like rice.",
+          "options": [
+            "I like rice.",
+            "I go to the market.",
+            "We like English class."
+          ],
+          "correct_answer": "I like rice."
+        },
+        {
+          "audio_text": "We like English class.",
+          "options": [
+            "I like rice.",
+            "I go to the market.",
+            "We like English class."
+          ],
+          "correct_answer": "We like English class."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ to the market.",
+          "correct_answer": "go"
+        },
+        {
+          "prompt": "I ___ rice.",
+          "correct_answer": "like"
+        },
+        {
+          "prompt": "We ___ English class.",
+          "correct_answer": "like"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a bustling fresh food market in Vietnam). What is this?",
+          "options": [
+            "buy",
+            "rice",
+            "market"
+          ],
+          "correct_answer": "market"
+        },
+        {
+          "prompt": "Look at the picture (a steaming bowl of white jasmine rice). What is this?",
+          "options": [
+            "buy",
+            "market",
+            "rice"
+          ],
+          "correct_answer": "rice"
+        },
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to buy). What is this?",
+          "options": [
+            "rice",
+            "market",
+            "buy"
+          ],
+          "correct_answer": "buy"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "seller",
+    "scenario": "Bargain with a buyer at the market stall.",
+    "opening_line": "Fresh vegetables here! Would you like to buy some?",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_004",
+        "starters_grammar_006"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_012",
+        "starters_vocab_013",
+        "starters_vocab_021"
+      ]
+    },
+    "success_criteria": "Learner asks for prices and negotiates politely."
+  }
+}

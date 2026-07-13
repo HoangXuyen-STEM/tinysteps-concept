@@ -1,0 +1,247 @@
+{
+  "id": "ket_lesson_013",
+  "level": "ket",
+  "topic_id": "topic_before_class",
+  "order": 13,
+  "title": "Preparing for class",
+  "scenario": "You are in a teacher role. Use English naturally in this before class situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "Teachers room, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Hoa",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Mr. Minh",
+        "role": "colleague"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good morning. I'd like to check the school schedule before class."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Sure. The principal updated the timetable this morning."
+      },
+      {
+        "character_id": "char_a",
+        "text": "We should inform the other teachers about the change."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I have already sent them an email with the new details."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Furthermore, we need to prepare worksheets for Period Three."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I agree. If we finish early, we will have time to review."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Let me explain the new procedure to the staff members."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. Your preparation is always very helpful."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_004",
+    "ket_vocab_009",
+    "ket_vocab_010",
+    "ket_vocab_011",
+    "ket_vocab_153",
+    "ket_vocab_154",
+    "ket_vocab_155",
+    "ket_vocab_156",
+    "ket_vocab_157",
+    "ket_vocab_158",
+    "ket_vocab_159",
+    "ket_vocab_160",
+    "ket_vocab_161",
+    "ket_vocab_162",
+    "ket_vocab_163",
+    "ket_vocab_164"
+  ],
+  "grammar_ids": [
+    "ket_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a weekly calendar grid on a wall board",
+          "correct_answer": "schedule"
+        },
+        {
+          "image_hint": "a group coordinating tasks at a whiteboard",
+          "correct_answer": "coordination"
+        },
+        {
+          "image_hint": "a teacher thoroughly preparing lesson materials",
+          "correct_answer": "preparation"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "like",
+            "schedule",
+            ".",
+            "we",
+            "check",
+            "to",
+            "the",
+            "suggest",
+            "I'd"
+          ],
+          "correct_answer": "I'd like to suggest we check the schedule."
+        },
+        {
+          "words": [
+            "confirm",
+            "would",
+            "parent",
+            ".",
+            "to",
+            "The",
+            "the",
+            "like",
+            "meeting"
+          ],
+          "correct_answer": "The parent would like to confirm the meeting."
+        },
+        {
+          "words": [
+            ".",
+            "colleague",
+            "I",
+            "like",
+            "to",
+            "call",
+            "my",
+            "would"
+          ],
+          "correct_answer": "I would like to call my colleague."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I'd like to suggest we check the schedule.",
+          "options": [
+            "I would like to call my colleague.",
+            "I'd like to suggest we check the schedule.",
+            "The parent would like to confirm the meeting."
+          ],
+          "correct_answer": "I'd like to suggest we check the schedule."
+        },
+        {
+          "audio_text": "The parent would like to confirm the meeting.",
+          "options": [
+            "The parent would like to confirm the meeting.",
+            "I'd like to suggest we check the schedule.",
+            "I would like to call my colleague."
+          ],
+          "correct_answer": "The parent would like to confirm the meeting."
+        },
+        {
+          "audio_text": "I would like to call my colleague.",
+          "options": [
+            "The parent would like to confirm the meeting.",
+            "I'd like to suggest we check the schedule.",
+            "I would like to call my colleague."
+          ],
+          "correct_answer": "I would like to call my colleague."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ like to suggest we check the schedule.",
+          "correct_answer": "I'd"
+        },
+        {
+          "prompt": "The parent ___ like to confirm the meeting.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "I ___ like to call my colleague.",
+          "correct_answer": "would"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a weekly calendar grid on a wall board). What is this?",
+          "options": [
+            "schedule",
+            "preparation",
+            "coordination"
+          ],
+          "correct_answer": "schedule"
+        },
+        {
+          "prompt": "Look at the picture (a group coordinating tasks at a whiteboard). What is this?",
+          "options": [
+            "coordination",
+            "preparation",
+            "schedule"
+          ],
+          "correct_answer": "coordination"
+        },
+        {
+          "prompt": "Look at the picture (a teacher thoroughly preparing lesson materials). What is this?",
+          "options": [
+            "preparation",
+            "schedule",
+            "coordination"
+          ],
+          "correct_answer": "preparation"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Talk about class preparation before the lesson starts.",
+    "opening_line": "Good morning! Have you finished the lesson preparation?",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_003"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_004",
+        "ket_vocab_009",
+        "ket_vocab_010"
+      ]
+    },
+    "success_criteria": "Learner answers appropriately and describes a classroom preparation task."
+  }
+}

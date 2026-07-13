@@ -1,0 +1,246 @@
+{
+  "id": "flyers_lesson_004",
+  "level": "flyers",
+  "topic_id": "topic_checking_understanding",
+  "order": 4,
+  "title": "Checking understanding",
+  "scenario": "You are in a teacher role. Use English naturally in this checking understanding situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "English lab, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Linh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Lan",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Let's check if everyone understood the listening exercise."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I followed the main idea, but missed some details."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That is fine for now. What was the main topic?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "The speakers were discussing a school event."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Correct. You should try to improve your note-taking skills."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If I practised more often, would my listening improve?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Definitely. Regular practice makes a big difference."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I will start practising every day from now on."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_003",
+    "flyers_vocab_036",
+    "flyers_vocab_037",
+    "flyers_vocab_038",
+    "flyers_vocab_047",
+    "flyers_vocab_048",
+    "flyers_vocab_049",
+    "flyers_vocab_050",
+    "flyers_vocab_051",
+    "flyers_vocab_052",
+    "flyers_vocab_053",
+    "flyers_vocab_054",
+    "flyers_vocab_055",
+    "flyers_vocab_056",
+    "flyers_vocab_057",
+    "flyers_vocab_058",
+    "flyers_vocab_059"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_003",
+    "flyers_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a teacher writing a diagram on the blackboard to explain a concept",
+          "correct_answer": "explain"
+        },
+        {
+          "image_hint": "a teacher walking between desks monitoring students",
+          "correct_answer": "monitor"
+        },
+        {
+          "image_hint": "a teacher using a rubric to assess student work",
+          "correct_answer": "assess"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "the",
+            "You",
+            ".",
+            "must",
+            "instructions",
+            "follow"
+          ],
+          "correct_answer": "You must follow the instructions."
+        },
+        {
+          "words": [
+            "mustn't",
+            ".",
+            "a",
+            "this",
+            "test",
+            "You",
+            "make",
+            "mistake",
+            "in"
+          ],
+          "correct_answer": "You mustn't make a mistake in this test."
+        },
+        {
+          "words": [
+            "must",
+            "We",
+            "word",
+            ".",
+            "the",
+            "clearly",
+            "explain"
+          ],
+          "correct_answer": "We must explain the word clearly."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "You must follow the instructions.",
+          "options": [
+            "We must explain the word clearly.",
+            "You must follow the instructions.",
+            "You mustn't make a mistake in this test."
+          ],
+          "correct_answer": "You must follow the instructions."
+        },
+        {
+          "audio_text": "You mustn't make a mistake in this test.",
+          "options": [
+            "You mustn't make a mistake in this test.",
+            "You must follow the instructions.",
+            "We must explain the word clearly."
+          ],
+          "correct_answer": "You mustn't make a mistake in this test."
+        },
+        {
+          "audio_text": "We must explain the word clearly.",
+          "options": [
+            "We must explain the word clearly.",
+            "You must follow the instructions.",
+            "You mustn't make a mistake in this test."
+          ],
+          "correct_answer": "We must explain the word clearly."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "You ___ follow the instructions.",
+          "correct_answer": "must"
+        },
+        {
+          "prompt": "You ___ make a mistake in this test.",
+          "correct_answer": "mustn't"
+        },
+        {
+          "prompt": "We ___ explain the word clearly.",
+          "correct_answer": "must"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a teacher writing a diagram on the blackboard to explain a concept). What is this?",
+          "options": [
+            "assess",
+            "explain",
+            "monitor"
+          ],
+          "correct_answer": "explain"
+        },
+        {
+          "prompt": "Look at the picture (a teacher walking between desks monitoring students). What is this?",
+          "options": [
+            "explain",
+            "monitor",
+            "assess"
+          ],
+          "correct_answer": "monitor"
+        },
+        {
+          "prompt": "Look at the picture (a teacher using a rubric to assess student work). What is this?",
+          "options": [
+            "assess",
+            "monitor",
+            "explain"
+          ],
+          "correct_answer": "assess"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Confirm comprehension of the classroom rules.",
+    "opening_line": "Teacher, are we supposed to explain or just write it?",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_003",
+        "flyers_grammar_004"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_003",
+        "flyers_vocab_036",
+        "flyers_vocab_037"
+      ]
+    },
+    "success_criteria": "Learner checks understanding and gently clarifies rules."
+  }
+}

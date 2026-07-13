@@ -1,0 +1,221 @@
+{
+  "id": "starters_lesson_011",
+  "level": "starters",
+  "topic_id": "topic_health",
+  "order": 11,
+  "title": "Health and the doctor",
+  "scenario": "You are in a patient role. Use English naturally in this health situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "School clinic, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Nam",
+        "role": "patient"
+      },
+      {
+        "id": "char_b",
+        "name": "Doctor",
+        "role": "doctor"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Hello, doctor! I feel bad today.",
+        "note": "(touching forehead)"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Hello! How are you?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "I am not fine. I have a headache."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Take this medicine and rest at home."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_024",
+    "starters_vocab_034",
+    "starters_vocab_046",
+    "starters_vocab_054",
+    "starters_vocab_105",
+    "starters_vocab_106",
+    "starters_vocab_107",
+    "starters_vocab_108",
+    "starters_vocab_109",
+    "starters_vocab_110",
+    "starters_vocab_111",
+    "starters_vocab_112",
+    "starters_vocab_113",
+    "starters_vocab_114"
+  ],
+  "grammar_ids": [
+    "starters_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a clean graphic illustration of a medicine",
+          "correct_answer": "medicine"
+        },
+        {
+          "image_hint": "an action illustration showing a person to rest",
+          "correct_answer": "rest"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a energy",
+          "correct_answer": "energy"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "teacher",
+            "a",
+            ".",
+            "am",
+            "I"
+          ],
+          "correct_answer": "I am a teacher."
+        },
+        {
+          "words": [
+            "is",
+            "He",
+            "a",
+            ".",
+            "good",
+            "student"
+          ],
+          "correct_answer": "He is a good student."
+        },
+        {
+          "words": [
+            "I'm",
+            ".",
+            "you",
+            "fine",
+            ",",
+            "thank"
+          ],
+          "correct_answer": "I'm fine, thank you."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I am a teacher.",
+          "options": [
+            "I'm fine, thank you.",
+            "He is a good student.",
+            "I am a teacher."
+          ],
+          "correct_answer": "I am a teacher."
+        },
+        {
+          "audio_text": "He is a good student.",
+          "options": [
+            "I am a teacher.",
+            "I'm fine, thank you.",
+            "He is a good student."
+          ],
+          "correct_answer": "He is a good student."
+        },
+        {
+          "audio_text": "I'm fine, thank you.",
+          "options": [
+            "I am a teacher.",
+            "I'm fine, thank you.",
+            "He is a good student."
+          ],
+          "correct_answer": "I'm fine, thank you."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ a teacher.",
+          "correct_answer": "am"
+        },
+        {
+          "prompt": "He ___ a good student.",
+          "correct_answer": "is"
+        },
+        {
+          "prompt": "___ fine, thank you.",
+          "correct_answer": "I'm"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a medicine). What is this?",
+          "options": [
+            "rest",
+            "energy",
+            "medicine"
+          ],
+          "correct_answer": "medicine"
+        },
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to rest). What is this?",
+          "options": [
+            "rest",
+            "energy",
+            "medicine"
+          ],
+          "correct_answer": "rest"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a energy). What is this?",
+          "options": [
+            "rest",
+            "energy",
+            "medicine"
+          ],
+          "correct_answer": "energy"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "doctor",
+    "scenario": "Diagnose a patient's symptoms at the clinic.",
+    "opening_line": "Hello. Please sit down. What are your symptoms today?",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_003"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_024",
+        "starters_vocab_034",
+        "starters_vocab_046"
+      ]
+    },
+    "success_criteria": "Learner describes symptoms clearly and asks for medical advice."
+  }
+}

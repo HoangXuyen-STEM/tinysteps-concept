@@ -1,0 +1,4812 @@
+{
+  "level": "movers",
+  "total_words": 400,
+  "words": [
+    {
+      "id": "movers_vocab_001",
+      "word": "homework",
+      "ipa": "/ˈhəʊm.wɜːk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_in_class"
+      ],
+      "example_sentence": "Show me your homework, please.",
+      "image_hint": "a notebook with written exercises and a red checkmark",
+      "frequency_rank": 16
+    },
+    {
+      "id": "movers_vocab_002",
+      "word": "yesterday",
+      "ipa": "/ˈjes.tə.deɪ/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_social",
+        "topic_before_class"
+      ],
+      "example_sentence": "I went to school yesterday.",
+      "image_hint": "a calendar sheet showing the previous day marked",
+      "frequency_rank": 17
+    },
+    {
+      "id": "movers_vocab_003",
+      "word": "chicken",
+      "ipa": "/ˈtʃɪk.ɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant",
+        "topic_market"
+      ],
+      "example_sentence": "I want chicken and rice.",
+      "image_hint": "a plate of roasted chicken next to rice",
+      "frequency_rank": 18
+    },
+    {
+      "id": "movers_vocab_004",
+      "word": "clean",
+      "ipa": "/kliːn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_in_class"
+      ],
+      "example_sentence": "Clean the board, please.",
+      "image_hint": "a hand wiping a whiteboard clean with an eraser",
+      "frequency_rank": 21
+    },
+    {
+      "id": "movers_vocab_005",
+      "word": "understand",
+      "ipa": "/ˌʌn.dəˈstænd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Do you understand?",
+      "image_hint": "a lightbulb glowing bright above a smiling head",
+      "frequency_rank": 22
+    },
+    {
+      "id": "movers_vocab_006",
+      "word": "great",
+      "ipa": "/ɡreɪt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "That is a great answer!",
+      "image_hint": "applause icons and stars surrounding a text card",
+      "frequency_rank": 23
+    },
+    {
+      "id": "movers_vocab_007",
+      "word": "fruit",
+      "ipa": "/fruːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market",
+        "topic_restaurant"
+      ],
+      "example_sentence": "Fruit is good for health.",
+      "image_hint": "a basket of fresh apples, bananas, and oranges",
+      "frequency_rank": 25
+    },
+    {
+      "id": "movers_vocab_008",
+      "word": "doctor",
+      "ipa": "/ˈdɒk.tər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I need to see a doctor.",
+      "image_hint": "a friendly doctor with a stethoscope around their neck",
+      "frequency_rank": 26
+    },
+    {
+      "id": "movers_vocab_009",
+      "word": "sick",
+      "ipa": "/sɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health",
+        "topic_school_communication"
+      ],
+      "example_sentence": "He is sick today.",
+      "image_hint": "a person in bed with a thermometer in their mouth",
+      "frequency_rank": 27
+    },
+    {
+      "id": "movers_vocab_010",
+      "word": "phone",
+      "ipa": "/fəʊn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Answer the phone.",
+      "image_hint": "a modern ringing smartphone vibrating on a table",
+      "frequency_rank": 28
+    },
+    {
+      "id": "movers_vocab_011",
+      "word": "weather",
+      "ipa": "/ˈweð.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The weather is very nice.",
+      "image_hint": "a bright sun partially covered by a friendly white cloud",
+      "frequency_rank": 30
+    },
+    {
+      "id": "movers_vocab_012",
+      "word": "agendas",
+      "ipa": "/əˈdʒen.də/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I prepared the agendas yesterday.",
+      "image_hint": "a clean graphic illustration of a agenda",
+      "frequency_rank": 16
+    },
+    {
+      "id": "movers_vocab_013",
+      "word": "urgent",
+      "ipa": "/ˈɜː.dʒənt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Answer the urgent-new call now.",
+      "image_hint": "a simple, clear colorful visualization of urgent",
+      "frequency_rank": 25
+    },
+    {
+      "id": "movers_vocab_014",
+      "word": "progresss",
+      "ipa": "/ˈprəʊ.ɡres/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Great job on your progresss.",
+      "image_hint": "a clean graphic illustration of a progress",
+      "frequency_rank": 32
+    },
+    {
+      "id": "movers_vocab_015",
+      "word": "official",
+      "ipa": "/əˈfɪʃ.əl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "I prepared the official-new report.",
+      "image_hint": "a simple, clear colorful visualization of official",
+      "frequency_rank": 33
+    },
+    {
+      "id": "movers_vocab_016",
+      "word": "colleagues",
+      "ipa": "/ˈkɒl.iːɡ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Please call the colleagues parent.",
+      "image_hint": "a clean graphic illustration of a colleague",
+      "frequency_rank": 57
+    },
+    {
+      "id": "movers_vocab_017",
+      "word": "appointments",
+      "ipa": "/əˈpɔɪnt.mənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "I bought appointments yesterday.",
+      "image_hint": "a clean graphic illustration of a appointment",
+      "frequency_rank": 81
+    },
+    {
+      "id": "movers_vocab_018",
+      "word": "discussions",
+      "ipa": "/dɪˈskʌʃ.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "I prepared the discussions report.",
+      "image_hint": "a clean graphic illustration of a discussion",
+      "frequency_rank": 103
+    },
+    {
+      "id": "movers_vocab_019",
+      "word": "guideliness",
+      "ipa": "/ˈɡaɪd.laɪnz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Do your guideliness now.",
+      "image_hint": "a clean graphic illustration of a guidelines",
+      "frequency_rank": 112
+    },
+    {
+      "id": "movers_vocab_020",
+      "word": "corrections",
+      "ipa": "/kəˈrek.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "You did a good corrections.",
+      "image_hint": "a clean graphic illustration of a correction",
+      "frequency_rank": 114
+    },
+    {
+      "id": "movers_vocab_021",
+      "word": "progress",
+      "ipa": "/ˈprəʊ.ɡres/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "I bought progress yesterday.",
+      "image_hint": "a clean graphic illustration of a progress-132",
+      "frequency_rank": 148
+    },
+    {
+      "id": "movers_vocab_022",
+      "word": "guidelines",
+      "ipa": "/ˈɡaɪd.laɪnz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I bought guidelines yesterday.",
+      "image_hint": "a clean graphic illustration of a guidelines-204",
+      "frequency_rank": 220
+    },
+    {
+      "id": "movers_vocab_023",
+      "word": "marker",
+      "ipa": "/ˈmɑː.kər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I need a marker.",
+      "image_hint": "a black dry-erase marker on a whiteboard shelf",
+      "frequency_rank": 23
+    },
+    {
+      "id": "movers_vocab_024",
+      "word": "chalk",
+      "ipa": "/tʃɔːk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Use the chalk.",
+      "image_hint": "white chalk sticks in a small tray below a blackboard",
+      "frequency_rank": 24
+    },
+    {
+      "id": "movers_vocab_025",
+      "word": "worksheet",
+      "ipa": "/ˈwɜːk.ʃiːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Prepare the worksheets.",
+      "image_hint": "a printed worksheet with exercises on a desk",
+      "frequency_rank": 25
+    },
+    {
+      "id": "movers_vocab_026",
+      "word": "eraser",
+      "ipa": "/ɪˈreɪ.zər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I cleaned the board.",
+      "image_hint": "a white board eraser on a whiteboard ledge",
+      "frequency_rank": 26
+    },
+    {
+      "id": "movers_vocab_027",
+      "word": "ruler",
+      "ipa": "/ˈruː.lər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "She has a ruler.",
+      "image_hint": "a yellow plastic ruler on a teacher's desk",
+      "frequency_rank": 27
+    },
+    {
+      "id": "movers_vocab_028",
+      "word": "stapler",
+      "ipa": "/ˈsteɪ.plər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Use the stapler.",
+      "image_hint": "a red stapler on an office desk",
+      "frequency_rank": 28
+    },
+    {
+      "id": "movers_vocab_029",
+      "word": "notice",
+      "ipa": "/ˈnəʊ.tɪs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Read the notice.",
+      "image_hint": "a notice pinned to a school announcement board",
+      "frequency_rank": 29
+    },
+    {
+      "id": "movers_vocab_030",
+      "word": "early",
+      "ipa": "/ˈɜː.li/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I arrived early.",
+      "image_hint": "an alarm clock ringing early in the morning",
+      "frequency_rank": 30
+    },
+    {
+      "id": "movers_vocab_031",
+      "word": "exercise",
+      "ipa": "/ˈek.sə.saɪz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Do the exercise.",
+      "image_hint": "a worksheet page with numbered exercises",
+      "frequency_rank": 31
+    },
+    {
+      "id": "movers_vocab_032",
+      "word": "question",
+      "ipa": "/ˈkwes.tʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Ask a question.",
+      "image_hint": "a question mark on a whiteboard with a teacher pointing",
+      "frequency_rank": 32
+    },
+    {
+      "id": "movers_vocab_033",
+      "word": "partner",
+      "ipa": "/ˈpɑːt.nər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Work with your partner.",
+      "image_hint": "two students working together side by side",
+      "frequency_rank": 33
+    },
+    {
+      "id": "movers_vocab_034",
+      "word": "practice",
+      "ipa": "/ˈpræk.tɪs/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Practice saying it.",
+      "image_hint": "a student repeatedly practising writing",
+      "frequency_rank": 34
+    },
+    {
+      "id": "movers_vocab_035",
+      "word": "learn",
+      "ipa": "/lɜːn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "We learn English.",
+      "image_hint": "a lightbulb above a student's head showing learning",
+      "frequency_rank": 35
+    },
+    {
+      "id": "movers_vocab_036",
+      "word": "test",
+      "ipa": "/test/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "We have a test.",
+      "image_hint": "a printed test paper with questions and answer spaces",
+      "frequency_rank": 36
+    },
+    {
+      "id": "movers_vocab_037",
+      "word": "dictionary",
+      "ipa": "/ˈdɪk.ʃən.ər.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Use the dictionary.",
+      "image_hint": "a thick English dictionary lying open on a desk",
+      "frequency_rank": 37
+    },
+    {
+      "id": "movers_vocab_038",
+      "word": "story",
+      "ipa": "/ˈstɔː.ri/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Read the story.",
+      "image_hint": "an illustrated children's storybook open on a desk",
+      "frequency_rank": 38
+    },
+    {
+      "id": "movers_vocab_039",
+      "word": "complete",
+      "ipa": "/kəmˈpliːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Complete the task.",
+      "image_hint": "a student completing the last item on a worksheet",
+      "frequency_rank": 39
+    },
+    {
+      "id": "movers_vocab_040",
+      "word": "paste",
+      "ipa": "/peɪst/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Paste the picture.",
+      "image_hint": "a glue stick and cut-out pictures being pasted",
+      "frequency_rank": 40
+    },
+    {
+      "id": "movers_vocab_041",
+      "word": "cut",
+      "ipa": "/kʌt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Cut along the line.",
+      "image_hint": "scissors cutting along a dotted line on paper",
+      "frequency_rank": 41
+    },
+    {
+      "id": "movers_vocab_042",
+      "word": "quickly",
+      "ipa": "/ˈkwɪk.li/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Do it quickly.",
+      "image_hint": "a fast running figure with motion lines",
+      "frequency_rank": 42
+    },
+    {
+      "id": "movers_vocab_043",
+      "word": "idea",
+      "ipa": "/aɪˈdɪə/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Good idea!",
+      "image_hint": "a lightbulb above a person's head",
+      "frequency_rank": 43
+    },
+    {
+      "id": "movers_vocab_044",
+      "word": "slowly",
+      "ipa": "/ˈsləʊ.li/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Speak slowly, please.",
+      "image_hint": "a turtle with a speech bubble showing slow speech",
+      "frequency_rank": 44
+    },
+    {
+      "id": "movers_vocab_045",
+      "word": "difficult",
+      "ipa": "/ˈdɪf.ɪ.kəlt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "It is difficult.",
+      "image_hint": "a student looking at a hard test with a worried face",
+      "frequency_rank": 45
+    },
+    {
+      "id": "movers_vocab_046",
+      "word": "easy",
+      "ipa": "/ˈiː.zi/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "This is easy.",
+      "image_hint": "a student smiling at a simple worksheet",
+      "frequency_rank": 46
+    },
+    {
+      "id": "movers_vocab_047",
+      "word": "excellent",
+      "ipa": "/ˈek.səl.ənt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Excellent work today!",
+      "image_hint": "a trophy with EXCELLENT written on a gold banner",
+      "frequency_rank": 47
+    },
+    {
+      "id": "movers_vocab_048",
+      "word": "praise",
+      "ipa": "/preɪz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "She got praise.",
+      "image_hint": "a teacher smiling and giving a thumbs up to a student",
+      "frequency_rank": 48
+    },
+    {
+      "id": "movers_vocab_049",
+      "word": "reward",
+      "ipa": "/rɪˈwɔːd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "A reward for you!",
+      "image_hint": "a gold star reward sticker on a child's notebook",
+      "frequency_rank": 49
+    },
+    {
+      "id": "movers_vocab_050",
+      "word": "effort",
+      "ipa": "/ˈef.ət/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Good effort!",
+      "image_hint": "a student working hard at their desk with focus",
+      "frequency_rank": 50
+    },
+    {
+      "id": "movers_vocab_051",
+      "word": "clever",
+      "ipa": "/ˈklev.ər/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "You are clever!",
+      "image_hint": "a clever student holding a trophy and wearing glasses",
+      "frequency_rank": 51
+    },
+    {
+      "id": "movers_vocab_052",
+      "word": "holiday",
+      "ipa": "/ˈhɒl.ɪ.deɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "It is a holiday.",
+      "image_hint": "a calendar with a holiday marked with a star",
+      "frequency_rank": 52
+    },
+    {
+      "id": "movers_vocab_053",
+      "word": "vegetable",
+      "ipa": "/ˈvedʒ.tə.bəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I bought vegetables.",
+      "image_hint": "a pile of fresh mixed vegetables at a market stall",
+      "frequency_rank": 53
+    },
+    {
+      "id": "movers_vocab_054",
+      "word": "mango",
+      "ipa": "/ˈmæŋ.ɡəʊ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I want a mango.",
+      "image_hint": "ripe yellow-green mangoes hanging on a tree",
+      "frequency_rank": 54
+    },
+    {
+      "id": "movers_vocab_055",
+      "word": "pork",
+      "ipa": "/pɔːk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "She bought pork.",
+      "image_hint": "slices of fresh pork on a market butcher counter",
+      "frequency_rank": 55
+    },
+    {
+      "id": "movers_vocab_056",
+      "word": "pepper",
+      "ipa": "/ˈpep.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I like pepper.",
+      "image_hint": "red green and yellow peppers at a vegetable stall",
+      "frequency_rank": 56
+    },
+    {
+      "id": "movers_vocab_057",
+      "word": "garlic",
+      "ipa": "/ˈɡɑː.lɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Buy some garlic.",
+      "image_hint": "a bunch of fresh garlic bulbs on a wooden board",
+      "frequency_rank": 57
+    },
+    {
+      "id": "movers_vocab_058",
+      "word": "lemon",
+      "ipa": "/ˈlem.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "She bought lemons.",
+      "image_hint": "bright yellow lemons in a basket at the market",
+      "frequency_rank": 58
+    },
+    {
+      "id": "movers_vocab_059",
+      "word": "grape",
+      "ipa": "/ɡreɪp/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I like grapes.",
+      "image_hint": "a bunch of purple grapes on a market fruit stall",
+      "frequency_rank": 59
+    },
+    {
+      "id": "movers_vocab_060",
+      "word": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Here is your change.",
+      "image_hint": "coins and notes as change on a market counter",
+      "frequency_rank": 60
+    },
+    {
+      "id": "movers_vocab_061",
+      "word": "kilo",
+      "ipa": "/ˈkɪl.əʊ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "One kilo, please.",
+      "image_hint": "a market scale showing one kilogram of vegetables",
+      "frequency_rank": 61
+    },
+    {
+      "id": "movers_vocab_062",
+      "word": "pay",
+      "ipa": "/peɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I need to pay.",
+      "image_hint": "a hand handing money to a market seller",
+      "frequency_rank": 62
+    },
+    {
+      "id": "movers_vocab_063",
+      "word": "waiter",
+      "ipa": "/ˈweɪ.tər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "The waiter came.",
+      "image_hint": "a smiling waiter in uniform holding a notepad",
+      "frequency_rank": 63
+    },
+    {
+      "id": "movers_vocab_064",
+      "word": "dish",
+      "ipa": "/dɪʃ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "The dish is good.",
+      "image_hint": "a beautiful dish of Vietnamese food on a plate",
+      "frequency_rank": 64
+    },
+    {
+      "id": "movers_vocab_065",
+      "word": "taste",
+      "ipa": "/teɪst/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Taste this dish.",
+      "image_hint": "a person tasting food with a thoughtful expression",
+      "frequency_rank": 65
+    },
+    {
+      "id": "movers_vocab_066",
+      "word": "spicy",
+      "ipa": "/ˈspaɪ.si/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "It is too spicy.",
+      "image_hint": "a bowl of red chilli soup with steam rising",
+      "frequency_rank": 66
+    },
+    {
+      "id": "movers_vocab_067",
+      "word": "sour",
+      "ipa": "/saʊər/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "It is sour.",
+      "image_hint": "a face making a sour expression after tasting lemon",
+      "frequency_rank": 67
+    },
+    {
+      "id": "movers_vocab_068",
+      "word": "beef",
+      "ipa": "/biːf/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I want beef noodles.",
+      "image_hint": "a beef noodle dish in a bowl with chopsticks",
+      "frequency_rank": 68
+    },
+    {
+      "id": "movers_vocab_069",
+      "word": "tofu",
+      "ipa": "/ˈtəʊ.fuː/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I like tofu.",
+      "image_hint": "white squares of tofu in a bamboo steamer",
+      "frequency_rank": 69
+    },
+    {
+      "id": "movers_vocab_070",
+      "word": "plane",
+      "ipa": "/pleɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She flew by plane.",
+      "image_hint": "an aeroplane taking off into a clear blue sky",
+      "frequency_rank": 70
+    },
+    {
+      "id": "movers_vocab_071",
+      "word": "boat",
+      "ipa": "/bəʊt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I went by boat.",
+      "image_hint": "a small wooden boat on a calm river in Vietnam",
+      "frequency_rank": 71
+    },
+    {
+      "id": "movers_vocab_072",
+      "word": "motorbike",
+      "ipa": "/ˈməʊ.tə.baɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "He rode a motorbike.",
+      "image_hint": "a motorbike parked outside a school gate",
+      "frequency_rank": 72
+    },
+    {
+      "id": "movers_vocab_073",
+      "word": "bicycle",
+      "ipa": "/ˈbaɪ.sɪ.kəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She rode a bicycle.",
+      "image_hint": "a bicycle with a basket parked against a tree",
+      "frequency_rank": 73
+    },
+    {
+      "id": "movers_vocab_074",
+      "word": "cross",
+      "ipa": "/krɒs/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Cross the road.",
+      "image_hint": "a person carefully crossing a pedestrian crossing",
+      "frequency_rank": 74
+    },
+    {
+      "id": "movers_vocab_075",
+      "word": "kilometre",
+      "ipa": "/ˈkɪl.ə.miː.tər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "It is 3 kilometres.",
+      "image_hint": "a road sign showing 5 km to the city centre",
+      "frequency_rank": 75
+    },
+    {
+      "id": "movers_vocab_076",
+      "word": "ride",
+      "ipa": "/raɪd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "He rode a bicycle.",
+      "image_hint": "a person riding a bicycle on a path",
+      "frequency_rank": 76
+    },
+    {
+      "id": "movers_vocab_077",
+      "word": "busy",
+      "ipa": "/ˈbɪz.i/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "She is busy now.",
+      "image_hint": "a phone screen showing a busy tone symbol",
+      "frequency_rank": 77
+    },
+    {
+      "id": "movers_vocab_078",
+      "word": "voicemail",
+      "ipa": "/ˈvɔɪs.meɪl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Leave a voicemail.",
+      "image_hint": "a phone voicemail icon with a number badge",
+      "frequency_rank": 78
+    },
+    {
+      "id": "movers_vocab_079",
+      "word": "battery",
+      "ipa": "/ˈbæt.ər.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "The battery is low.",
+      "image_hint": "a phone showing a nearly empty battery symbol",
+      "frequency_rank": 79
+    },
+    {
+      "id": "movers_vocab_080",
+      "word": "temperature",
+      "ipa": "/ˈtem.prɪ.tʃər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Check the temperature.",
+      "image_hint": "a digital thermometer showing a reading",
+      "frequency_rank": 80
+    },
+    {
+      "id": "movers_vocab_081",
+      "word": "weak",
+      "ipa": "/wiːk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She feels weak.",
+      "image_hint": "a tired person sitting down looking pale",
+      "frequency_rank": 81
+    },
+    {
+      "id": "movers_vocab_082",
+      "word": "strong",
+      "ipa": "/strɒŋ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "He feels strong.",
+      "image_hint": "a person flexing a muscle showing strength",
+      "frequency_rank": 82
+    },
+    {
+      "id": "movers_vocab_083",
+      "word": "sore",
+      "ipa": "/sɔːr/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "My throat is sore.",
+      "image_hint": "a person holding their throat looking uncomfortable",
+      "frequency_rank": 83
+    },
+    {
+      "id": "movers_vocab_084",
+      "word": "allergy",
+      "ipa": "/ˈæl.ər.dʒi/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She has an allergy.",
+      "image_hint": "a person sneezing near flowers showing allergy",
+      "frequency_rank": 84
+    },
+    {
+      "id": "movers_vocab_085",
+      "word": "weekend",
+      "ipa": "/ˈwiːk.end/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "See you at the weekend.",
+      "image_hint": "a calendar showing Saturday and Sunday circled",
+      "frequency_rank": 85
+    },
+    {
+      "id": "movers_vocab_086",
+      "word": "afternoon",
+      "ipa": "/ˌɑːf.təˈnuːn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Good afternoon!",
+      "image_hint": "a bright afternoon sky with scattered clouds",
+      "frequency_rank": 86
+    },
+    {
+      "id": "movers_vocab_087",
+      "word": "evening",
+      "ipa": "/ˈiːv.nɪŋ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Good evening!",
+      "image_hint": "an orange sunset over buildings",
+      "frequency_rank": 87
+    },
+    {
+      "id": "movers_vocab_088",
+      "word": "night",
+      "ipa": "/naɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Good night!",
+      "image_hint": "a dark sky with a bright full moon and stars",
+      "frequency_rank": 88
+    },
+    {
+      "id": "movers_vocab_089",
+      "word": "tomorrow",
+      "ipa": "/təˈmɒr.əʊ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "See you tomorrow.",
+      "image_hint": "a calendar page being turned to the next day",
+      "frequency_rank": 89
+    },
+    {
+      "id": "movers_vocab_090",
+      "word": "rain",
+      "ipa": "/reɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It rained yesterday.",
+      "image_hint": "rain falling on a window with grey clouds outside",
+      "frequency_rank": 90
+    },
+    {
+      "id": "movers_vocab_091",
+      "word": "wind",
+      "ipa": "/wɪnd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "The wind is strong.",
+      "image_hint": "trees bending in a strong wind",
+      "frequency_rank": 91
+    },
+    {
+      "id": "movers_vocab_092",
+      "word": "quiet",
+      "ipa": "/ˈkwaɪ.ɪt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It is quiet here.",
+      "image_hint": "an empty peaceful park on a calm morning",
+      "frequency_rank": 92
+    },
+    {
+      "id": "movers_vocab_093",
+      "word": "interesting",
+      "ipa": "/ˈɪn.trɪ.stɪŋ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "That is interesting.",
+      "image_hint": "a student looking fascinated at a book",
+      "frequency_rank": 93
+    },
+    {
+      "id": "movers_vocab_094",
+      "word": "boring",
+      "ipa": "/ˈbɔː.rɪŋ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was boring.",
+      "image_hint": "a person yawning at a dull grey screen",
+      "frequency_rank": 94
+    },
+    {
+      "id": "movers_vocab_095",
+      "word": "excited",
+      "ipa": "/ɪkˈsaɪ.tɪd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I am excited.",
+      "image_hint": "a happy excited person jumping with arms raised",
+      "frequency_rank": 95
+    },
+    {
+      "id": "movers_vocab_096",
+      "word": "music",
+      "ipa": "/ˈmjuː.zɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I love music.",
+      "image_hint": "musical notes floating above a guitar",
+      "frequency_rank": 96
+    },
+    {
+      "id": "movers_vocab_097",
+      "word": "film",
+      "ipa": "/fɪlm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Let us watch a film.",
+      "image_hint": "a popcorn box and cinema screen in the dark",
+      "frequency_rank": 97
+    },
+    {
+      "id": "movers_vocab_098",
+      "word": "assignment",
+      "ipa": "/əˈsaɪn.mənt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I need assignment.",
+      "image_hint": "a clear image showing assignment in context",
+      "frequency_rank": 98
+    },
+    {
+      "id": "movers_vocab_099",
+      "word": "checklist",
+      "ipa": "/ˈtʃek.lɪst/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "She has a checklist.",
+      "image_hint": "a clear image showing checklist in context",
+      "frequency_rank": 99
+    },
+    {
+      "id": "movers_vocab_100",
+      "word": "supply",
+      "ipa": "/səˈplaɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Can you find the supply?",
+      "image_hint": "a clear image showing supply in context",
+      "frequency_rank": 100
+    },
+    {
+      "id": "movers_vocab_101",
+      "word": "attend",
+      "ipa": "/əˈtend/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I want to attend today.",
+      "image_hint": "a person performing the action of attend",
+      "frequency_rank": 101
+    },
+    {
+      "id": "movers_vocab_102",
+      "word": "set",
+      "ipa": "/set/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "He can set well.",
+      "image_hint": "a person performing the action of set",
+      "frequency_rank": 102
+    },
+    {
+      "id": "movers_vocab_103",
+      "word": "hang",
+      "ipa": "/hæŋ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I want to hang today.",
+      "image_hint": "a person performing the action of hang",
+      "frequency_rank": 103
+    },
+    {
+      "id": "movers_vocab_104",
+      "word": "arrange",
+      "ipa": "/əˈreɪndʒ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Can you arrange with me?",
+      "image_hint": "a person performing the action of arrange",
+      "frequency_rank": 104
+    },
+    {
+      "id": "movers_vocab_105",
+      "word": "pack",
+      "ipa": "/pæk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I want to pack today.",
+      "image_hint": "a person performing the action of pack",
+      "frequency_rank": 105
+    },
+    {
+      "id": "movers_vocab_106",
+      "word": "collect",
+      "ipa": "/kəˈlekt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "He can collect well.",
+      "image_hint": "a person performing the action of collect",
+      "frequency_rank": 106
+    },
+    {
+      "id": "movers_vocab_107",
+      "word": "ready",
+      "ipa": "/ˈred.i/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "She looks ready.",
+      "image_hint": "an image clearly illustrating the quality ready",
+      "frequency_rank": 107
+    },
+    {
+      "id": "movers_vocab_108",
+      "word": "finished",
+      "ipa": "/ˈfɪn.ɪʃt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "She looks finished.",
+      "image_hint": "an image clearly illustrating the quality finished",
+      "frequency_rank": 108
+    },
+    {
+      "id": "movers_vocab_109",
+      "word": "notebook",
+      "ipa": "/ˈnəʊt.bʊk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "She has a notebook.",
+      "image_hint": "a clear image showing notebook in context",
+      "frequency_rank": 109
+    },
+    {
+      "id": "movers_vocab_110",
+      "word": "label",
+      "ipa": "/ˈleɪ.bəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I bought label yesterday.",
+      "image_hint": "a clear image showing label in context",
+      "frequency_rank": 110
+    },
+    {
+      "id": "movers_vocab_111",
+      "word": "poster",
+      "ipa": "/ˈpəʊ.stər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I bought poster yesterday.",
+      "image_hint": "a clear image showing poster in context",
+      "frequency_rank": 111
+    },
+    {
+      "id": "movers_vocab_112",
+      "word": "essay",
+      "ipa": "/ˈes.eɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She has a essay.",
+      "image_hint": "a clear image showing essay in context",
+      "frequency_rank": 112
+    },
+    {
+      "id": "movers_vocab_113",
+      "word": "chapter",
+      "ipa": "/ˈtʃæp.tər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Can you find the chapter?",
+      "image_hint": "a clear image showing chapter in context",
+      "frequency_rank": 113
+    },
+    {
+      "id": "movers_vocab_114",
+      "word": "paragraph",
+      "ipa": "/ˈpær.ə.ɡrɑːf/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I need paragraph.",
+      "image_hint": "a clear image showing paragraph in context",
+      "frequency_rank": 114
+    },
+    {
+      "id": "movers_vocab_115",
+      "word": "spelling",
+      "ipa": "/ˈspel.ɪŋ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She has a spelling.",
+      "image_hint": "a clear image showing spelling in context",
+      "frequency_rank": 115
+    },
+    {
+      "id": "movers_vocab_116",
+      "word": "subject",
+      "ipa": "/ˈsʌb.dʒekt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She has a subject.",
+      "image_hint": "a clear image showing subject in context",
+      "frequency_rank": 116
+    },
+    {
+      "id": "movers_vocab_117",
+      "word": "level",
+      "ipa": "/ˈlev.əl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She has a level.",
+      "image_hint": "a clear image showing level in context",
+      "frequency_rank": 117
+    },
+    {
+      "id": "movers_vocab_118",
+      "word": "skill",
+      "ipa": "/skɪl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She has a skill.",
+      "image_hint": "a clear image showing skill in context",
+      "frequency_rank": 118
+    },
+    {
+      "id": "movers_vocab_119",
+      "word": "step",
+      "ipa": "/step/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She has a step.",
+      "image_hint": "a clear image showing step in context",
+      "frequency_rank": 119
+    },
+    {
+      "id": "movers_vocab_120",
+      "word": "use",
+      "ipa": "/juːz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I want to use today.",
+      "image_hint": "a person performing the action of use",
+      "frequency_rank": 120
+    },
+    {
+      "id": "movers_vocab_121",
+      "word": "choose",
+      "ipa": "/tʃuːz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She chooseed yesterday.",
+      "image_hint": "a person performing the action of choose",
+      "frequency_rank": 121
+    },
+    {
+      "id": "movers_vocab_122",
+      "word": "raise",
+      "ipa": "/reɪz/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She raiseed yesterday.",
+      "image_hint": "a person performing the action of raise",
+      "frequency_rank": 122
+    },
+    {
+      "id": "movers_vocab_123",
+      "word": "clap",
+      "ipa": "/klæp/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She claped yesterday.",
+      "image_hint": "a person performing the action of clap",
+      "frequency_rank": 123
+    },
+    {
+      "id": "movers_vocab_124",
+      "word": "box",
+      "ipa": "/bɒks/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I need box.",
+      "image_hint": "a clear image showing box in context",
+      "frequency_rank": 124
+    },
+    {
+      "id": "movers_vocab_125",
+      "word": "row",
+      "ipa": "/rəʊ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I bought row yesterday.",
+      "image_hint": "a clear image showing row in context",
+      "frequency_rank": 125
+    },
+    {
+      "id": "movers_vocab_126",
+      "word": "column",
+      "ipa": "/ˈkɒl.əm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Can you find the column?",
+      "image_hint": "a clear image showing column in context",
+      "frequency_rank": 126
+    },
+    {
+      "id": "movers_vocab_127",
+      "word": "blank",
+      "ipa": "/blæŋk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Can you find the blank?",
+      "image_hint": "a clear image showing blank in context",
+      "frequency_rank": 127
+    },
+    {
+      "id": "movers_vocab_128",
+      "word": "finish",
+      "ipa": "/ˈfɪn.ɪʃ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She finished yesterday.",
+      "image_hint": "a person performing the action of finish",
+      "frequency_rank": 128
+    },
+    {
+      "id": "movers_vocab_129",
+      "word": "start",
+      "ipa": "/stɑːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She started yesterday.",
+      "image_hint": "a person performing the action of start",
+      "frequency_rank": 129
+    },
+    {
+      "id": "movers_vocab_130",
+      "word": "begin",
+      "ipa": "/bɪˈɡɪn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Can you begin with me?",
+      "image_hint": "a person performing the action of begin",
+      "frequency_rank": 130
+    },
+    {
+      "id": "movers_vocab_131",
+      "word": "continue",
+      "ipa": "/kənˈtɪn.juː/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She continueed yesterday.",
+      "image_hint": "a person performing the action of continue",
+      "frequency_rank": 131
+    },
+    {
+      "id": "movers_vocab_132",
+      "word": "swap",
+      "ipa": "/swɒp/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I want to swap today.",
+      "image_hint": "a person performing the action of swap",
+      "frequency_rank": 132
+    },
+    {
+      "id": "movers_vocab_133",
+      "word": "pass",
+      "ipa": "/pɑːs/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "He can pass well.",
+      "image_hint": "a person performing the action of pass",
+      "frequency_rank": 133
+    },
+    {
+      "id": "movers_vocab_134",
+      "word": "give",
+      "ipa": "/ɡɪv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I want to give today.",
+      "image_hint": "a person performing the action of give",
+      "frequency_rank": 134
+    },
+    {
+      "id": "movers_vocab_135",
+      "word": "return",
+      "ipa": "/rɪˈtɜːn/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She returned yesterday.",
+      "image_hint": "a person performing the action of return",
+      "frequency_rank": 135
+    },
+    {
+      "id": "movers_vocab_136",
+      "word": "keep",
+      "ipa": "/kiːp/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "He can keep well.",
+      "image_hint": "a person performing the action of keep",
+      "frequency_rank": 136
+    },
+    {
+      "id": "movers_vocab_137",
+      "word": "guess",
+      "ipa": "/ɡes/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Can you guess with me?",
+      "image_hint": "a person performing the action of guess",
+      "frequency_rank": 137
+    },
+    {
+      "id": "movers_vocab_138",
+      "word": "tell",
+      "ipa": "/tel/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "Can you tell with me?",
+      "image_hint": "a person performing the action of tell",
+      "frequency_rank": 138
+    },
+    {
+      "id": "movers_vocab_139",
+      "word": "think",
+      "ipa": "/θɪŋk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "She thinked yesterday.",
+      "image_hint": "a person performing the action of think",
+      "frequency_rank": 139
+    },
+    {
+      "id": "movers_vocab_140",
+      "word": "forget",
+      "ipa": "/fəˈɡet/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "I want to forget today.",
+      "image_hint": "a person performing the action of forget",
+      "frequency_rank": 140
+    },
+    {
+      "id": "movers_vocab_141",
+      "word": "mark",
+      "ipa": "/mɑːk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Can you mark with me?",
+      "image_hint": "a person performing the action of mark",
+      "frequency_rank": 141
+    },
+    {
+      "id": "movers_vocab_142",
+      "word": "fail",
+      "ipa": "/feɪl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "He can fail well.",
+      "image_hint": "a person performing the action of fail",
+      "frequency_rank": 142
+    },
+    {
+      "id": "movers_vocab_143",
+      "word": "redo",
+      "ipa": "/ˌriːˈduː/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "I want to redo today.",
+      "image_hint": "a person performing the action of redo",
+      "frequency_rank": 143
+    },
+    {
+      "id": "movers_vocab_144",
+      "word": "fix",
+      "ipa": "/fɪks/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "He can fix well.",
+      "image_hint": "a person performing the action of fix",
+      "frequency_rank": 144
+    },
+    {
+      "id": "movers_vocab_145",
+      "word": "neat",
+      "ipa": "/niːt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "She looks neat.",
+      "image_hint": "an image clearly illustrating the quality neat",
+      "frequency_rank": 145
+    },
+    {
+      "id": "movers_vocab_146",
+      "word": "clear",
+      "ipa": "/klɪər/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "He was so clear.",
+      "image_hint": "an image clearly illustrating the quality clear",
+      "frequency_rank": 146
+    },
+    {
+      "id": "movers_vocab_147",
+      "word": "hard",
+      "ipa": "/hɑːd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "The weather is hard.",
+      "image_hint": "an image clearly illustrating the quality hard",
+      "frequency_rank": 147
+    },
+    {
+      "id": "movers_vocab_148",
+      "word": "receive",
+      "ipa": "/rɪˈsiːv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "He can receive well.",
+      "image_hint": "a person performing the action of receive",
+      "frequency_rank": 148
+    },
+    {
+      "id": "movers_vocab_149",
+      "word": "invite",
+      "ipa": "/ɪnˈvaɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "She inviteed yesterday.",
+      "image_hint": "a person performing the action of invite",
+      "frequency_rank": 149
+    },
+    {
+      "id": "movers_vocab_150",
+      "word": "leave",
+      "ipa": "/liːv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "She leaveed yesterday.",
+      "image_hint": "a person performing the action of leave",
+      "frequency_rank": 150
+    },
+    {
+      "id": "movers_vocab_151",
+      "word": "bring",
+      "ipa": "/brɪŋ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "I want to bring today.",
+      "image_hint": "a person performing the action of bring",
+      "frequency_rank": 151
+    },
+    {
+      "id": "movers_vocab_152",
+      "word": "need",
+      "ipa": "/niːd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "I want to need today.",
+      "image_hint": "a person performing the action of need",
+      "frequency_rank": 152
+    },
+    {
+      "id": "movers_vocab_153",
+      "word": "pineapple",
+      "ipa": "/ˈpaɪn.æp.əl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "She has a pineapple.",
+      "image_hint": "a clear image showing pineapple in context",
+      "frequency_rank": 153
+    },
+    {
+      "id": "movers_vocab_154",
+      "word": "watermelon",
+      "ipa": "/ˈwɔː.tə.mel.ən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "She has a watermelon.",
+      "image_hint": "a clear image showing watermelon in context",
+      "frequency_rank": 154
+    },
+    {
+      "id": "movers_vocab_155",
+      "word": "papaya",
+      "ipa": "/pəˈpaɪ.ə/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I bought papaya yesterday.",
+      "image_hint": "a clear image showing papaya in context",
+      "frequency_rank": 155
+    },
+    {
+      "id": "movers_vocab_156",
+      "word": "coconut",
+      "ipa": "/ˈkəʊ.kə.nʌt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Can you find the coconut?",
+      "image_hint": "a clear image showing coconut in context",
+      "frequency_rank": 156
+    },
+    {
+      "id": "movers_vocab_157",
+      "word": "mushroom",
+      "ipa": "/ˈmʌʃ.ruːm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I need mushroom.",
+      "image_hint": "a clear image showing mushroom in context",
+      "frequency_rank": 157
+    },
+    {
+      "id": "movers_vocab_158",
+      "word": "spinach",
+      "ipa": "/ˈspɪn.ɪtʃ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I bought spinach yesterday.",
+      "image_hint": "a clear image showing spinach in context",
+      "frequency_rank": 158
+    },
+    {
+      "id": "movers_vocab_159",
+      "word": "potato",
+      "ipa": "/pəˈteɪ.təʊ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "She has a potato.",
+      "image_hint": "a clear image showing potato in context",
+      "frequency_rank": 159
+    },
+    {
+      "id": "movers_vocab_160",
+      "word": "broccoli",
+      "ipa": "/ˈbrɒk.ə.li/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Can you find the broccoli?",
+      "image_hint": "a clear image showing broccoli in context",
+      "frequency_rank": 160
+    },
+    {
+      "id": "movers_vocab_161",
+      "word": "eggplant",
+      "ipa": "/ˈeɡ.plɑːnt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "She has a eggplant.",
+      "image_hint": "a clear image showing eggplant in context",
+      "frequency_rank": 161
+    },
+    {
+      "id": "movers_vocab_162",
+      "word": "ginger",
+      "ipa": "/ˈdʒɪn.dʒər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I need ginger.",
+      "image_hint": "a clear image showing ginger in context",
+      "frequency_rank": 162
+    },
+    {
+      "id": "movers_vocab_163",
+      "word": "lime",
+      "ipa": "/laɪm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Can you find the lime?",
+      "image_hint": "a clear image showing lime in context",
+      "frequency_rank": 163
+    },
+    {
+      "id": "movers_vocab_164",
+      "word": "coin",
+      "ipa": "/kɔɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "She has a coin.",
+      "image_hint": "a clear image showing coin in context",
+      "frequency_rank": 164
+    },
+    {
+      "id": "movers_vocab_165",
+      "word": "hundred",
+      "ipa": "/ˈhʌn.drəd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "I need hundred.",
+      "image_hint": "a clear image showing hundred in context",
+      "frequency_rank": 165
+    },
+    {
+      "id": "movers_vocab_166",
+      "word": "thousand",
+      "ipa": "/ˈθaʊ.zənd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "She has a thousand.",
+      "image_hint": "a clear image showing thousand in context",
+      "frequency_rank": 166
+    },
+    {
+      "id": "movers_vocab_167",
+      "word": "canteen",
+      "ipa": "/kænˈtiːn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I need canteen.",
+      "image_hint": "a clear image showing canteen in context",
+      "frequency_rank": 167
+    },
+    {
+      "id": "movers_vocab_168",
+      "word": "kitchen",
+      "ipa": "/ˈkɪtʃ.ɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I bought kitchen yesterday.",
+      "image_hint": "a clear image showing kitchen in context",
+      "frequency_rank": 168
+    },
+    {
+      "id": "movers_vocab_169",
+      "word": "cook",
+      "ipa": "/kʊk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "He can cook well.",
+      "image_hint": "a person performing the action of cook",
+      "frequency_rank": 169
+    },
+    {
+      "id": "movers_vocab_170",
+      "word": "boil",
+      "ipa": "/bɔɪl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Can you boil with me?",
+      "image_hint": "a person performing the action of boil",
+      "frequency_rank": 170
+    },
+    {
+      "id": "movers_vocab_171",
+      "word": "fry",
+      "ipa": "/fraɪ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "She fryed yesterday.",
+      "image_hint": "a person performing the action of fry",
+      "frequency_rank": 171
+    },
+    {
+      "id": "movers_vocab_172",
+      "word": "steam",
+      "ipa": "/stiːm/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I want to steam today.",
+      "image_hint": "a person performing the action of steam",
+      "frequency_rank": 172
+    },
+    {
+      "id": "movers_vocab_173",
+      "word": "stir",
+      "ipa": "/stɜːr/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "She stired yesterday.",
+      "image_hint": "a person performing the action of stir",
+      "frequency_rank": 173
+    },
+    {
+      "id": "movers_vocab_174",
+      "word": "serve",
+      "ipa": "/sɜːv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I want to serve today.",
+      "image_hint": "a person performing the action of serve",
+      "frequency_rank": 174
+    },
+    {
+      "id": "movers_vocab_175",
+      "word": "pour",
+      "ipa": "/pɔːr/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Can you pour with me?",
+      "image_hint": "a person performing the action of pour",
+      "frequency_rank": 175
+    },
+    {
+      "id": "movers_vocab_176",
+      "word": "sugar",
+      "ipa": "/ˈʃʊɡ.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "She has a sugar.",
+      "image_hint": "a clear image showing sugar in context",
+      "frequency_rank": 176
+    },
+    {
+      "id": "movers_vocab_177",
+      "word": "oil",
+      "ipa": "/ɔɪl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I bought oil yesterday.",
+      "image_hint": "a clear image showing oil in context",
+      "frequency_rank": 177
+    },
+    {
+      "id": "movers_vocab_178",
+      "word": "sauce",
+      "ipa": "/sɔːs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Can you find the sauce?",
+      "image_hint": "a clear image showing sauce in context",
+      "frequency_rank": 178
+    },
+    {
+      "id": "movers_vocab_179",
+      "word": "chopstick",
+      "ipa": "/ˈtʃɒp.stɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Can you find the chopstick?",
+      "image_hint": "a clear image showing chopstick in context",
+      "frequency_rank": 179
+    },
+    {
+      "id": "movers_vocab_180",
+      "word": "napkin",
+      "ipa": "/ˈnæp.kɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I need napkin.",
+      "image_hint": "a clear image showing napkin in context",
+      "frequency_rank": 180
+    },
+    {
+      "id": "movers_vocab_181",
+      "word": "tray",
+      "ipa": "/treɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I need tray.",
+      "image_hint": "a clear image showing tray in context",
+      "frequency_rank": 181
+    },
+    {
+      "id": "movers_vocab_182",
+      "word": "taxi",
+      "ipa": "/ˈtæk.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has a taxi.",
+      "image_hint": "a clear image showing taxi in context",
+      "frequency_rank": 182
+    },
+    {
+      "id": "movers_vocab_183",
+      "word": "ferry",
+      "ipa": "/ˈfer.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I bought ferry yesterday.",
+      "image_hint": "a clear image showing ferry in context",
+      "frequency_rank": 183
+    },
+    {
+      "id": "movers_vocab_184",
+      "word": "highway",
+      "ipa": "/ˈhaɪ.weɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I need highway.",
+      "image_hint": "a clear image showing highway in context",
+      "frequency_rank": 184
+    },
+    {
+      "id": "movers_vocab_185",
+      "word": "roundabout",
+      "ipa": "/ˈraʊnd.ə.baʊt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I bought roundabout yesterday.",
+      "image_hint": "a clear image showing roundabout in context",
+      "frequency_rank": 185
+    },
+    {
+      "id": "movers_vocab_186",
+      "word": "traffic",
+      "ipa": "/ˈtræf.ɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has a traffic.",
+      "image_hint": "a clear image showing traffic in context",
+      "frequency_rank": 186
+    },
+    {
+      "id": "movers_vocab_187",
+      "word": "crossroads",
+      "ipa": "/ˈkrɒs.rəʊdz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I bought crossroads yesterday.",
+      "image_hint": "a clear image showing crossroads in context",
+      "frequency_rank": 187
+    },
+    {
+      "id": "movers_vocab_188",
+      "word": "corner",
+      "ipa": "/ˈkɔː.nər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I bought corner yesterday.",
+      "image_hint": "a clear image showing corner in context",
+      "frequency_rank": 188
+    },
+    {
+      "id": "movers_vocab_189",
+      "word": "distance",
+      "ipa": "/ˈdɪs.təns/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I need distance.",
+      "image_hint": "a clear image showing distance in context",
+      "frequency_rank": 189
+    },
+    {
+      "id": "movers_vocab_190",
+      "word": "minute",
+      "ipa": "/ˈmɪn.ɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I need minute.",
+      "image_hint": "a clear image showing minute in context",
+      "frequency_rank": 190
+    },
+    {
+      "id": "movers_vocab_191",
+      "word": "hour",
+      "ipa": "/aʊər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has a hour.",
+      "image_hint": "a clear image showing hour in context",
+      "frequency_rank": 191
+    },
+    {
+      "id": "movers_vocab_192",
+      "word": "north",
+      "ipa": "/nɔːθ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has a north.",
+      "image_hint": "a clear image showing north in context",
+      "frequency_rank": 192
+    },
+    {
+      "id": "movers_vocab_193",
+      "word": "south",
+      "ipa": "/saʊθ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has a south.",
+      "image_hint": "a clear image showing south in context",
+      "frequency_rank": 193
+    },
+    {
+      "id": "movers_vocab_194",
+      "word": "east",
+      "ipa": "/iːst/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Can you find the east?",
+      "image_hint": "a clear image showing east in context",
+      "frequency_rank": 194
+    },
+    {
+      "id": "movers_vocab_195",
+      "word": "west",
+      "ipa": "/west/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I need west.",
+      "image_hint": "a clear image showing west in context",
+      "frequency_rank": 195
+    },
+    {
+      "id": "movers_vocab_196",
+      "word": "connect",
+      "ipa": "/kəˈnekt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "I want to connect today.",
+      "image_hint": "a person performing the action of connect",
+      "frequency_rank": 196
+    },
+    {
+      "id": "movers_vocab_197",
+      "word": "charge",
+      "ipa": "/tʃɑːdʒ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "Can you charge with me?",
+      "image_hint": "a person performing the action of charge",
+      "frequency_rank": 197
+    },
+    {
+      "id": "movers_vocab_198",
+      "word": "save",
+      "ipa": "/seɪv/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "She saveed yesterday.",
+      "image_hint": "a person performing the action of save",
+      "frequency_rank": 198
+    },
+    {
+      "id": "movers_vocab_199",
+      "word": "delete",
+      "ipa": "/dɪˈliːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "I want to delete today.",
+      "image_hint": "a person performing the action of delete",
+      "frequency_rank": 199
+    },
+    {
+      "id": "movers_vocab_200",
+      "word": "speaker",
+      "ipa": "/ˈspiː.kər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "She has a speaker.",
+      "image_hint": "a clear image showing speaker in context",
+      "frequency_rank": 200
+    },
+    {
+      "id": "movers_vocab_201",
+      "word": "volume",
+      "ipa": "/ˈvɒl.juːm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_phone"
+      ],
+      "example_sentence": "I need volume.",
+      "image_hint": "a clear image showing volume in context",
+      "frequency_rank": 201
+    },
+    {
+      "id": "movers_vocab_202",
+      "word": "itch",
+      "ipa": "/ɪtʃ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I want to itch today.",
+      "image_hint": "a person performing the action of itch",
+      "frequency_rank": 202
+    },
+    {
+      "id": "movers_vocab_203",
+      "word": "breathe",
+      "ipa": "/briːð/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Can you breathe with me?",
+      "image_hint": "a person performing the action of breathe",
+      "frequency_rank": 203
+    },
+    {
+      "id": "movers_vocab_204",
+      "word": "swallow",
+      "ipa": "/ˈswɒl.əʊ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She swallowed yesterday.",
+      "image_hint": "a person performing the action of swallow",
+      "frequency_rank": 204
+    },
+    {
+      "id": "movers_vocab_205",
+      "word": "shake",
+      "ipa": "/ʃeɪk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "He can shake well.",
+      "image_hint": "a person performing the action of shake",
+      "frequency_rank": 205
+    },
+    {
+      "id": "movers_vocab_206",
+      "word": "faint",
+      "ipa": "/feɪnt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She fainted yesterday.",
+      "image_hint": "a person performing the action of faint",
+      "frequency_rank": 206
+    },
+    {
+      "id": "movers_vocab_207",
+      "word": "dizzy",
+      "ipa": "/ˈdɪz.i/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "He was so dizzy.",
+      "image_hint": "an image clearly illustrating the quality dizzy",
+      "frequency_rank": 207
+    },
+    {
+      "id": "movers_vocab_208",
+      "word": "pale",
+      "ipa": "/peɪl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "The weather is pale.",
+      "image_hint": "an image clearly illustrating the quality pale",
+      "frequency_rank": 208
+    },
+    {
+      "id": "movers_vocab_209",
+      "word": "pharmacy",
+      "ipa": "/ˈfɑː.mə.si/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I need pharmacy.",
+      "image_hint": "a clear image showing pharmacy in context",
+      "frequency_rank": 209
+    },
+    {
+      "id": "movers_vocab_210",
+      "word": "injection",
+      "ipa": "/ɪnˈdʒek.ʃən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Can you find the injection?",
+      "image_hint": "a clear image showing injection in context",
+      "frequency_rank": 210
+    },
+    {
+      "id": "movers_vocab_211",
+      "word": "pill",
+      "ipa": "/pɪl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Can you find the pill?",
+      "image_hint": "a clear image showing pill in context",
+      "frequency_rank": 211
+    },
+    {
+      "id": "movers_vocab_212",
+      "word": "cream",
+      "ipa": "/kriːm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I need cream.",
+      "image_hint": "a clear image showing cream in context",
+      "frequency_rank": 212
+    },
+    {
+      "id": "movers_vocab_213",
+      "word": "thermometer",
+      "ipa": "/θəˈmɒm.ɪ.tər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "I bought thermometer yesterday.",
+      "image_hint": "a clear image showing thermometer in context",
+      "frequency_rank": 213
+    },
+    {
+      "id": "movers_vocab_214",
+      "word": "neighbour",
+      "ipa": "/ˈneɪ.bər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I need neighbour.",
+      "image_hint": "a clear image showing neighbour in context",
+      "frequency_rank": 214
+    },
+    {
+      "id": "movers_vocab_215",
+      "word": "area",
+      "ipa": "/ˈeə.ri.ə/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I bought area yesterday.",
+      "image_hint": "a clear image showing area in context",
+      "frequency_rank": 215
+    },
+    {
+      "id": "movers_vocab_216",
+      "word": "town",
+      "ipa": "/taʊn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has a town.",
+      "image_hint": "a clear image showing town in context",
+      "frequency_rank": 216
+    },
+    {
+      "id": "movers_vocab_217",
+      "word": "city",
+      "ipa": "/ˈsɪt.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has a city.",
+      "image_hint": "a clear image showing city in context",
+      "frequency_rank": 217
+    },
+    {
+      "id": "movers_vocab_218",
+      "word": "village",
+      "ipa": "/ˈvɪl.ɪdʒ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I bought village yesterday.",
+      "image_hint": "a clear image showing village in context",
+      "frequency_rank": 218
+    },
+    {
+      "id": "movers_vocab_219",
+      "word": "shop",
+      "ipa": "/ʃɒp/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I need shop.",
+      "image_hint": "a clear image showing shop in context",
+      "frequency_rank": 219
+    },
+    {
+      "id": "movers_vocab_220",
+      "word": "bank",
+      "ipa": "/bæŋk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I bought bank yesterday.",
+      "image_hint": "a clear image showing bank in context",
+      "frequency_rank": 220
+    },
+    {
+      "id": "movers_vocab_221",
+      "word": "post",
+      "ipa": "/pəʊst/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I need post.",
+      "image_hint": "a clear image showing post in context",
+      "frequency_rank": 221
+    },
+    {
+      "id": "movers_vocab_222",
+      "word": "church",
+      "ipa": "/tʃɜːtʃ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Can you find the church?",
+      "image_hint": "a clear image showing church in context",
+      "frequency_rank": 222
+    },
+    {
+      "id": "movers_vocab_223",
+      "word": "temple",
+      "ipa": "/ˈtem.pəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has a temple.",
+      "image_hint": "a clear image showing temple in context",
+      "frequency_rank": 223
+    },
+    {
+      "id": "movers_vocab_224",
+      "word": "lake",
+      "ipa": "/leɪk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I bought lake yesterday.",
+      "image_hint": "a clear image showing lake in context",
+      "frequency_rank": 224
+    },
+    {
+      "id": "movers_vocab_225",
+      "word": "river",
+      "ipa": "/ˈrɪv.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has a river.",
+      "image_hint": "a clear image showing river in context",
+      "frequency_rank": 225
+    },
+    {
+      "id": "movers_vocab_226",
+      "word": "mountain",
+      "ipa": "/ˈmaʊn.tɪn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I need mountain.",
+      "image_hint": "a clear image showing mountain in context",
+      "frequency_rank": 226
+    },
+    {
+      "id": "movers_vocab_227",
+      "word": "beach",
+      "ipa": "/biːtʃ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Can you find the beach?",
+      "image_hint": "a clear image showing beach in context",
+      "frequency_rank": 227
+    },
+    {
+      "id": "movers_vocab_228",
+      "word": "forest",
+      "ipa": "/ˈfɒr.ɪst/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I need forest.",
+      "image_hint": "a clear image showing forest in context",
+      "frequency_rank": 228
+    },
+    {
+      "id": "movers_vocab_229",
+      "word": "sky",
+      "ipa": "/skaɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has a sky.",
+      "image_hint": "a clear image showing sky in context",
+      "frequency_rank": 229
+    },
+    {
+      "id": "movers_vocab_230",
+      "word": "cloud",
+      "ipa": "/klaʊd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Can you find the cloud?",
+      "image_hint": "a clear image showing cloud in context",
+      "frequency_rank": 230
+    },
+    {
+      "id": "movers_vocab_231",
+      "word": "snow",
+      "ipa": "/snəʊ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Can you find the snow?",
+      "image_hint": "a clear image showing snow in context",
+      "frequency_rank": 231
+    },
+    {
+      "id": "movers_vocab_232",
+      "word": "storm",
+      "ipa": "/stɔːm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Can you find the storm?",
+      "image_hint": "a clear image showing storm in context",
+      "frequency_rank": 232
+    },
+    {
+      "id": "movers_vocab_233",
+      "word": "spring",
+      "ipa": "/sprɪŋ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I bought spring yesterday.",
+      "image_hint": "a clear image showing spring in context",
+      "frequency_rank": 233
+    },
+    {
+      "id": "movers_vocab_234",
+      "word": "summer",
+      "ipa": "/ˈsʌm.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Can you find the summer?",
+      "image_hint": "a clear image showing summer in context",
+      "frequency_rank": 234
+    },
+    {
+      "id": "movers_vocab_235",
+      "word": "autumn",
+      "ipa": "/ˈɔː.təm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has a autumn.",
+      "image_hint": "a clear image showing autumn in context",
+      "frequency_rank": 235
+    },
+    {
+      "id": "movers_vocab_236",
+      "word": "winter",
+      "ipa": "/ˈwɪn.tər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has a winter.",
+      "image_hint": "a clear image showing winter in context",
+      "frequency_rank": 236
+    },
+    {
+      "id": "movers_vocab_237",
+      "word": "swim",
+      "ipa": "/swɪm/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I want to swim.",
+      "image_hint": "a person doing the action of swim",
+      "frequency_rank": 237
+    },
+    {
+      "id": "movers_vocab_238",
+      "word": "dance",
+      "ipa": "/dɑːns/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She danceed yesterday.",
+      "image_hint": "a person doing the action of dance",
+      "frequency_rank": 238
+    },
+    {
+      "id": "movers_vocab_239",
+      "word": "sing",
+      "ipa": "/sɪŋ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She singed yesterday.",
+      "image_hint": "a person doing the action of sing",
+      "frequency_rank": 239
+    },
+    {
+      "id": "movers_vocab_240",
+      "word": "paint",
+      "ipa": "/peɪnt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Can you paint with me?",
+      "image_hint": "a person doing the action of paint",
+      "frequency_rank": 240
+    },
+    {
+      "id": "movers_vocab_241",
+      "word": "bake",
+      "ipa": "/beɪk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Can you bake with me?",
+      "image_hint": "a person doing the action of bake",
+      "frequency_rank": 241
+    },
+    {
+      "id": "movers_vocab_242",
+      "word": "wash",
+      "ipa": "/wɒʃ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She washed yesterday.",
+      "image_hint": "a person doing the action of wash",
+      "frequency_rank": 242
+    },
+    {
+      "id": "movers_vocab_243",
+      "word": "iron",
+      "ipa": "/ˈaɪ.ən/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She ironed yesterday.",
+      "image_hint": "a person doing the action of iron",
+      "frequency_rank": 243
+    },
+    {
+      "id": "movers_vocab_244",
+      "word": "sweep",
+      "ipa": "/swiːp/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I want to sweep.",
+      "image_hint": "a person doing the action of sweep",
+      "frequency_rank": 244
+    },
+    {
+      "id": "movers_vocab_245",
+      "word": "mop",
+      "ipa": "/mɒp/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Can you mop with me?",
+      "image_hint": "a person doing the action of mop",
+      "frequency_rank": 245
+    },
+    {
+      "id": "movers_vocab_246",
+      "word": "dust",
+      "ipa": "/dʌst/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Can you dust with me?",
+      "image_hint": "a person doing the action of dust",
+      "frequency_rank": 246
+    },
+    {
+      "id": "movers_vocab_247",
+      "word": "plant",
+      "ipa": "/plɑːnt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Can you plant with me?",
+      "image_hint": "a person doing the action of plant",
+      "frequency_rank": 247
+    },
+    {
+      "id": "movers_vocab_248",
+      "word": "mix",
+      "ipa": "/mɪks/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "She mixed yesterday.",
+      "image_hint": "a person doing the action of mix",
+      "frequency_rank": 248
+    },
+    {
+      "id": "movers_vocab_249",
+      "word": "add",
+      "ipa": "/æd/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "She added yesterday.",
+      "image_hint": "a person doing the action of add",
+      "frequency_rank": 249
+    },
+    {
+      "id": "movers_vocab_250",
+      "word": "cool",
+      "ipa": "/kuːl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "Can you cool with me?",
+      "image_hint": "a person doing the action of cool",
+      "frequency_rank": 250
+    },
+    {
+      "id": "movers_vocab_251",
+      "word": "heat",
+      "ipa": "/hiːt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_restaurant"
+      ],
+      "example_sentence": "I want to heat.",
+      "image_hint": "a person doing the action of heat",
+      "frequency_rank": 251
+    },
+    {
+      "id": "movers_vocab_252",
+      "word": "wrap",
+      "ipa": "/ræp/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_market"
+      ],
+      "example_sentence": "Can you wrap with me?",
+      "image_hint": "a person doing the action of wrap",
+      "frequency_rank": 252
+    },
+    {
+      "id": "movers_vocab_253",
+      "word": "unpack",
+      "ipa": "/ˌʌnˈpæk/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I want to unpack.",
+      "image_hint": "a person doing the action of unpack",
+      "frequency_rank": 253
+    },
+    {
+      "id": "movers_vocab_254",
+      "word": "carry",
+      "ipa": "/ˈkær.i/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She carryed yesterday.",
+      "image_hint": "a person doing the action of carry",
+      "frequency_rank": 254
+    },
+    {
+      "id": "movers_vocab_255",
+      "word": "lift",
+      "ipa": "/lɪft/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Can you lift with me?",
+      "image_hint": "a person doing the action of lift",
+      "frequency_rank": 255
+    },
+    {
+      "id": "movers_vocab_256",
+      "word": "push",
+      "ipa": "/pʊʃ/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I want to push.",
+      "image_hint": "a person doing the action of push",
+      "frequency_rank": 256
+    },
+    {
+      "id": "movers_vocab_257",
+      "word": "pull",
+      "ipa": "/pʊl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She pulled yesterday.",
+      "image_hint": "a person doing the action of pull",
+      "frequency_rank": 257
+    },
+    {
+      "id": "movers_vocab_258",
+      "word": "jump",
+      "ipa": "/dʒʌmp/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Can you jump with me?",
+      "image_hint": "a person doing the action of jump",
+      "frequency_rank": 258
+    },
+    {
+      "id": "movers_vocab_259",
+      "word": "climb",
+      "ipa": "/klaɪm/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I want to climb.",
+      "image_hint": "a person doing the action of climb",
+      "frequency_rank": 259
+    },
+    {
+      "id": "movers_vocab_260",
+      "word": "fall",
+      "ipa": "/fɔːl/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She falled yesterday.",
+      "image_hint": "a person doing the action of fall",
+      "frequency_rank": 260
+    },
+    {
+      "id": "movers_vocab_261",
+      "word": "hit",
+      "ipa": "/hɪt/",
+      "pos": "verb",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She hited yesterday.",
+      "image_hint": "a person doing the action of hit",
+      "frequency_rank": 261
+    },
+    {
+      "id": "movers_vocab_262",
+      "word": "wet",
+      "ipa": "/wet/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She looked wet.",
+      "image_hint": "an image illustrating the quality of being wet",
+      "frequency_rank": 262
+    },
+    {
+      "id": "movers_vocab_263",
+      "word": "dry",
+      "ipa": "/draɪ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very dry.",
+      "image_hint": "an image illustrating the quality of being dry",
+      "frequency_rank": 263
+    },
+    {
+      "id": "movers_vocab_264",
+      "word": "broken",
+      "ipa": "/ˈbrəʊ.kən/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She looked broken.",
+      "image_hint": "an image illustrating the quality of being broken",
+      "frequency_rank": 264
+    },
+    {
+      "id": "movers_vocab_265",
+      "word": "fixed",
+      "ipa": "/fɪkst/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "It was very fixed.",
+      "image_hint": "an image illustrating the quality of being fixed",
+      "frequency_rank": 265
+    },
+    {
+      "id": "movers_vocab_266",
+      "word": "closed",
+      "ipa": "/kləʊzd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "It was very closed.",
+      "image_hint": "an image illustrating the quality of being closed",
+      "frequency_rank": 266
+    },
+    {
+      "id": "movers_vocab_267",
+      "word": "empty",
+      "ipa": "/ˈemp.ti/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "It was very empty.",
+      "image_hint": "an image illustrating the quality of being empty",
+      "frequency_rank": 267
+    },
+    {
+      "id": "movers_vocab_268",
+      "word": "round",
+      "ipa": "/raʊnd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She looked round.",
+      "image_hint": "an image illustrating the quality of being round",
+      "frequency_rank": 268
+    },
+    {
+      "id": "movers_vocab_269",
+      "word": "square",
+      "ipa": "/skweər/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She looked square.",
+      "image_hint": "an image illustrating the quality of being square",
+      "frequency_rank": 269
+    },
+    {
+      "id": "movers_vocab_270",
+      "word": "flat",
+      "ipa": "/flæt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "It was very flat.",
+      "image_hint": "an image illustrating the quality of being flat",
+      "frequency_rank": 270
+    },
+    {
+      "id": "movers_vocab_271",
+      "word": "thick",
+      "ipa": "/θɪk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She looked thick.",
+      "image_hint": "an image illustrating the quality of being thick",
+      "frequency_rank": 271
+    },
+    {
+      "id": "movers_vocab_272",
+      "word": "thin",
+      "ipa": "/θɪn/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She looked thin.",
+      "image_hint": "an image illustrating the quality of being thin",
+      "frequency_rank": 272
+    },
+    {
+      "id": "movers_vocab_273",
+      "word": "wide",
+      "ipa": "/waɪd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "It was very wide.",
+      "image_hint": "an image illustrating the quality of being wide",
+      "frequency_rank": 273
+    },
+    {
+      "id": "movers_vocab_274",
+      "word": "narrow",
+      "ipa": "/ˈnær.əʊ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She looked narrow.",
+      "image_hint": "an image illustrating the quality of being narrow",
+      "frequency_rank": 274
+    },
+    {
+      "id": "movers_vocab_275",
+      "word": "deep",
+      "ipa": "/diːp/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "It was very deep.",
+      "image_hint": "an image illustrating the quality of being deep",
+      "frequency_rank": 275
+    },
+    {
+      "id": "movers_vocab_276",
+      "word": "shallow",
+      "ipa": "/ˈʃæl.əʊ/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "It was very shallow.",
+      "image_hint": "an image illustrating the quality of being shallow",
+      "frequency_rank": 276
+    },
+    {
+      "id": "movers_vocab_277",
+      "word": "bright",
+      "ipa": "/braɪt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "She looked bright.",
+      "image_hint": "an image illustrating the quality of being bright",
+      "frequency_rank": 277
+    },
+    {
+      "id": "movers_vocab_278",
+      "word": "dark",
+      "ipa": "/dɑːk/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very dark.",
+      "image_hint": "an image illustrating the quality of being dark",
+      "frequency_rank": 278
+    },
+    {
+      "id": "movers_vocab_279",
+      "word": "soft",
+      "ipa": "/sɒft/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She looked soft.",
+      "image_hint": "an image illustrating the quality of being soft",
+      "frequency_rank": 279
+    },
+    {
+      "id": "movers_vocab_280",
+      "word": "rough",
+      "ipa": "/rʌf/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "It was very rough.",
+      "image_hint": "an image illustrating the quality of being rough",
+      "frequency_rank": 280
+    },
+    {
+      "id": "movers_vocab_281",
+      "word": "smooth",
+      "ipa": "/smuːð/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She looked smooth.",
+      "image_hint": "an image illustrating the quality of being smooth",
+      "frequency_rank": 281
+    },
+    {
+      "id": "movers_vocab_282",
+      "word": "sharp",
+      "ipa": "/ʃɑːp/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She looked sharp.",
+      "image_hint": "an image illustrating the quality of being sharp",
+      "frequency_rank": 282
+    },
+    {
+      "id": "movers_vocab_283",
+      "word": "safe",
+      "ipa": "/seɪf/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "It was very safe.",
+      "image_hint": "an image illustrating the quality of being safe",
+      "frequency_rank": 283
+    },
+    {
+      "id": "movers_vocab_284",
+      "word": "dangerous",
+      "ipa": "/ˈdeɪn.dʒər.əs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "It was very dangerous.",
+      "image_hint": "an image illustrating the quality of being dangerous",
+      "frequency_rank": 284
+    },
+    {
+      "id": "movers_vocab_285",
+      "word": "important",
+      "ipa": "/ɪmˈpɔː.tənt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She looked important.",
+      "image_hint": "an image illustrating the quality of being important",
+      "frequency_rank": 285
+    },
+    {
+      "id": "movers_vocab_286",
+      "word": "useful",
+      "ipa": "/ˈjuːs.fəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "It was very useful.",
+      "image_hint": "an image illustrating the quality of being useful",
+      "frequency_rank": 286
+    },
+    {
+      "id": "movers_vocab_287",
+      "word": "different",
+      "ipa": "/ˈdɪf.ər.ənt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She looked different.",
+      "image_hint": "an image illustrating the quality of being different",
+      "frequency_rank": 287
+    },
+    {
+      "id": "movers_vocab_288",
+      "word": "same",
+      "ipa": "/seɪm/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "She looked same.",
+      "image_hint": "an image illustrating the quality of being same",
+      "frequency_rank": 288
+    },
+    {
+      "id": "movers_vocab_289",
+      "word": "team",
+      "ipa": "/tiːm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She bought team yesterday.",
+      "image_hint": "a clear image showing team",
+      "frequency_rank": 289
+    },
+    {
+      "id": "movers_vocab_290",
+      "word": "member",
+      "ipa": "/ˈmem.bər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "I need member.",
+      "image_hint": "a clear image showing member",
+      "frequency_rank": 290
+    },
+    {
+      "id": "movers_vocab_291",
+      "word": "leader",
+      "ipa": "/ˈliː.dər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Can you find the leader?",
+      "image_hint": "a clear image showing leader",
+      "frequency_rank": 291
+    },
+    {
+      "id": "movers_vocab_292",
+      "word": "winner",
+      "ipa": "/ˈwɪn.ər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "She bought winner yesterday.",
+      "image_hint": "a clear image showing winner",
+      "frequency_rank": 292
+    },
+    {
+      "id": "movers_vocab_293",
+      "word": "loser",
+      "ipa": "/ˈluː.zər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "Can you find the loser?",
+      "image_hint": "a clear image showing loser",
+      "frequency_rank": 293
+    },
+    {
+      "id": "movers_vocab_294",
+      "word": "prize",
+      "ipa": "/praɪz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "I need prize.",
+      "image_hint": "a clear image showing prize",
+      "frequency_rank": 294
+    },
+    {
+      "id": "movers_vocab_295",
+      "word": "medal",
+      "ipa": "/ˈmed.əl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "She bought medal yesterday.",
+      "image_hint": "a clear image showing medal",
+      "frequency_rank": 295
+    },
+    {
+      "id": "movers_vocab_296",
+      "word": "certificate",
+      "ipa": "/səˈtɪf.ɪ.kɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Can you find the certificate?",
+      "image_hint": "a clear image showing certificate",
+      "frequency_rank": 296
+    },
+    {
+      "id": "movers_vocab_297",
+      "word": "diary",
+      "ipa": "/ˈdaɪ.ər.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I need diary.",
+      "image_hint": "a clear image showing diary",
+      "frequency_rank": 297
+    },
+    {
+      "id": "movers_vocab_298",
+      "word": "calendar",
+      "ipa": "/ˈkæl.ən.dər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I need calendar.",
+      "image_hint": "a clear image showing calendar",
+      "frequency_rank": 298
+    },
+    {
+      "id": "movers_vocab_299",
+      "word": "clock",
+      "ipa": "/klɒk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Can you find the clock?",
+      "image_hint": "a clear image showing clock",
+      "frequency_rank": 299
+    },
+    {
+      "id": "movers_vocab_300",
+      "word": "watch",
+      "ipa": "/wɒtʃ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "I need watch.",
+      "image_hint": "a clear image showing watch",
+      "frequency_rank": 300
+    },
+    {
+      "id": "movers_vocab_301",
+      "word": "second",
+      "ipa": "/ˈsek.ənd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She bought second yesterday.",
+      "image_hint": "a clear image showing second",
+      "frequency_rank": 301
+    },
+    {
+      "id": "movers_vocab_302",
+      "word": "half",
+      "ipa": "/hɑːf/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I need half.",
+      "image_hint": "a clear image showing half",
+      "frequency_rank": 302
+    },
+    {
+      "id": "movers_vocab_303",
+      "word": "quarter",
+      "ipa": "/ˈkwɔː.tər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "Can you find the quarter?",
+      "image_hint": "a clear image showing quarter",
+      "frequency_rank": 303
+    },
+    {
+      "id": "movers_vocab_304",
+      "word": "pair",
+      "ipa": "/peər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Can you find the pair?",
+      "image_hint": "a clear image showing pair",
+      "frequency_rank": 304
+    },
+    {
+      "id": "movers_vocab_305",
+      "word": "chart",
+      "ipa": "/tʃɑːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I need chart.",
+      "image_hint": "a clear image showing chart",
+      "frequency_rank": 305
+    },
+    {
+      "id": "movers_vocab_306",
+      "word": "graph",
+      "ipa": "/ɡrɑːf/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I need graph.",
+      "image_hint": "a clear image showing graph",
+      "frequency_rank": 306
+    },
+    {
+      "id": "movers_vocab_307",
+      "word": "picture",
+      "ipa": "/ˈpɪk.tʃər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "Can you find the picture?",
+      "image_hint": "a clear image showing picture",
+      "frequency_rank": 307
+    },
+    {
+      "id": "movers_vocab_308",
+      "word": "photo",
+      "ipa": "/ˈfəʊ.təʊ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Can you find the photo?",
+      "image_hint": "a clear image showing photo",
+      "frequency_rank": 308
+    },
+    {
+      "id": "movers_vocab_309",
+      "word": "camera",
+      "ipa": "/ˈkæm.ər.ə/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I need camera.",
+      "image_hint": "a clear image showing camera",
+      "frequency_rank": 309
+    },
+    {
+      "id": "movers_vocab_310",
+      "word": "umbrella",
+      "ipa": "/ʌmˈbrel.ə/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She bought umbrella yesterday.",
+      "image_hint": "a clear image showing umbrella",
+      "frequency_rank": 310
+    },
+    {
+      "id": "movers_vocab_311",
+      "word": "coat",
+      "ipa": "/kəʊt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I need coat.",
+      "image_hint": "a clear image showing coat",
+      "frequency_rank": 311
+    },
+    {
+      "id": "movers_vocab_312",
+      "word": "hat",
+      "ipa": "/hæt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Can you find the hat?",
+      "image_hint": "a clear image showing hat",
+      "frequency_rank": 312
+    },
+    {
+      "id": "movers_vocab_313",
+      "word": "shoe",
+      "ipa": "/ʃuː/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She bought shoe yesterday.",
+      "image_hint": "a clear image showing shoe",
+      "frequency_rank": 313
+    },
+    {
+      "id": "movers_vocab_314",
+      "word": "sock",
+      "ipa": "/sɒk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She bought sock yesterday.",
+      "image_hint": "a clear image showing sock",
+      "frequency_rank": 314
+    },
+    {
+      "id": "movers_vocab_315",
+      "word": "shirt",
+      "ipa": "/ʃɜːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She bought shirt yesterday.",
+      "image_hint": "a clear image showing shirt",
+      "frequency_rank": 315
+    },
+    {
+      "id": "movers_vocab_316",
+      "word": "trousers",
+      "ipa": "/ˈtraʊ.zəz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I need trousers.",
+      "image_hint": "a clear image showing trousers",
+      "frequency_rank": 316
+    },
+    {
+      "id": "movers_vocab_317",
+      "word": "glasses",
+      "ipa": "/ˈɡlɑː.sɪz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "Can you find the glasses?",
+      "image_hint": "a clear image showing glasses",
+      "frequency_rank": 317
+    },
+    {
+      "id": "movers_vocab_318",
+      "word": "already",
+      "ipa": "/ɔːlˈred.i/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "She walked already.",
+      "image_hint": "someone acting already",
+      "frequency_rank": 318
+    },
+    {
+      "id": "movers_vocab_319",
+      "word": "still",
+      "ipa": "/stɪl/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "She walked still.",
+      "image_hint": "someone acting still",
+      "frequency_rank": 319
+    },
+    {
+      "id": "movers_vocab_320",
+      "word": "just",
+      "ipa": "/dʒʌst/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_checking_understanding"
+      ],
+      "example_sentence": "She walked just.",
+      "image_hint": "someone acting just",
+      "frequency_rank": 320
+    },
+    {
+      "id": "movers_vocab_321",
+      "word": "always",
+      "ipa": "/ˈɔːl.weɪz/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She walked always.",
+      "image_hint": "someone acting always",
+      "frequency_rank": 321
+    },
+    {
+      "id": "movers_vocab_322",
+      "word": "never",
+      "ipa": "/ˈnev.ər/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She walked never.",
+      "image_hint": "someone acting never",
+      "frequency_rank": 322
+    },
+    {
+      "id": "movers_vocab_323",
+      "word": "sometimes",
+      "ipa": "/ˈsʌm.taɪmz/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Do it sometimes.",
+      "image_hint": "someone acting sometimes",
+      "frequency_rank": 323
+    },
+    {
+      "id": "movers_vocab_324",
+      "word": "often",
+      "ipa": "/ˈɒf.ən/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She walked often.",
+      "image_hint": "someone acting often",
+      "frequency_rank": 324
+    },
+    {
+      "id": "movers_vocab_325",
+      "word": "usually",
+      "ipa": "/ˈjuː.ʒu.ə.li/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Do it usually.",
+      "image_hint": "someone acting usually",
+      "frequency_rank": 325
+    },
+    {
+      "id": "movers_vocab_326",
+      "word": "together",
+      "ipa": "/təˈɡeð.ər/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She walked together.",
+      "image_hint": "someone acting together",
+      "frequency_rank": 326
+    },
+    {
+      "id": "movers_vocab_327",
+      "word": "alone",
+      "ipa": "/əˈləʊn/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Do it alone.",
+      "image_hint": "someone acting alone",
+      "frequency_rank": 327
+    },
+    {
+      "id": "movers_vocab_328",
+      "word": "outside",
+      "ipa": "/ˌaʊtˈsaɪd/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "Do it outside.",
+      "image_hint": "someone acting outside",
+      "frequency_rank": 328
+    },
+    {
+      "id": "movers_vocab_329",
+      "word": "inside",
+      "ipa": "/ˌɪnˈsaɪd/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_before_class"
+      ],
+      "example_sentence": "Do it inside.",
+      "image_hint": "someone acting inside",
+      "frequency_rank": 329
+    },
+    {
+      "id": "movers_vocab_330",
+      "word": "upstairs",
+      "ipa": "/ˌʌpˈsteəz/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "Do it upstairs.",
+      "image_hint": "someone acting upstairs",
+      "frequency_rank": 330
+    },
+    {
+      "id": "movers_vocab_331",
+      "word": "downstairs",
+      "ipa": "/ˌdaʊnˈsteəz/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_school_communication"
+      ],
+      "example_sentence": "She walked downstairs.",
+      "image_hint": "someone acting downstairs",
+      "frequency_rank": 331
+    },
+    {
+      "id": "movers_vocab_332",
+      "word": "forward",
+      "ipa": "/ˈfɔː.wəd/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "Do it forward.",
+      "image_hint": "someone acting forward",
+      "frequency_rank": 332
+    },
+    {
+      "id": "movers_vocab_333",
+      "word": "backward",
+      "ipa": "/ˈbæk.wəd/",
+      "pos": "adverb",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She walked backward.",
+      "image_hint": "someone acting backward",
+      "frequency_rank": 333
+    },
+    {
+      "id": "movers_vocab_334",
+      "word": "above",
+      "ipa": "/əˈbʌv/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She used above yesterday.",
+      "image_hint": "a visual of above",
+      "frequency_rank": 334
+    },
+    {
+      "id": "movers_vocab_335",
+      "word": "below",
+      "ipa": "/bɪˈləʊ/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I have below now.",
+      "image_hint": "a visual of below",
+      "frequency_rank": 335
+    },
+    {
+      "id": "movers_vocab_336",
+      "word": "between",
+      "ipa": "/bɪˈtwiːn/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "I have between now.",
+      "image_hint": "a visual of between",
+      "frequency_rank": 336
+    },
+    {
+      "id": "movers_vocab_337",
+      "word": "behind",
+      "ipa": "/bɪˈhaɪnd/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She used behind yesterday.",
+      "image_hint": "a visual of behind",
+      "frequency_rank": 337
+    },
+    {
+      "id": "movers_vocab_338",
+      "word": "beside",
+      "ipa": "/bɪˈsaɪd/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I have beside now.",
+      "image_hint": "a visual of beside",
+      "frequency_rank": 338
+    },
+    {
+      "id": "movers_vocab_339",
+      "word": "around",
+      "ipa": "/əˈraʊnd/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I have around now.",
+      "image_hint": "a visual of around",
+      "frequency_rank": 339
+    },
+    {
+      "id": "movers_vocab_340",
+      "word": "through",
+      "ipa": "/θruː/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She used through yesterday.",
+      "image_hint": "a visual of through",
+      "frequency_rank": 340
+    },
+    {
+      "id": "movers_vocab_341",
+      "word": "along",
+      "ipa": "/əˈlɒŋ/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I have along now.",
+      "image_hint": "a visual of along",
+      "frequency_rank": 341
+    },
+    {
+      "id": "movers_vocab_342",
+      "word": "across",
+      "ipa": "/əˈkrɒs/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She used across yesterday.",
+      "image_hint": "a visual of across",
+      "frequency_rank": 342
+    },
+    {
+      "id": "movers_vocab_343",
+      "word": "during",
+      "ipa": "/ˈdjʊər.ɪŋ/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She used during yesterday.",
+      "image_hint": "a visual of during",
+      "frequency_rank": 343
+    },
+    {
+      "id": "movers_vocab_344",
+      "word": "until",
+      "ipa": "/ənˈtɪl/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "I have until now.",
+      "image_hint": "a visual of until",
+      "frequency_rank": 344
+    },
+    {
+      "id": "movers_vocab_345",
+      "word": "since",
+      "ipa": "/sɪns/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "I have since now.",
+      "image_hint": "a visual of since",
+      "frequency_rank": 345
+    },
+    {
+      "id": "movers_vocab_346",
+      "word": "towards",
+      "ipa": "/təˈwɔːdz/",
+      "pos": "preposition",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "I have towards now.",
+      "image_hint": "a visual of towards",
+      "frequency_rank": 346
+    },
+    {
+      "id": "movers_vocab_347",
+      "word": "brave",
+      "ipa": "/breɪv/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very brave.",
+      "image_hint": "a visual of brave",
+      "frequency_rank": 347
+    },
+    {
+      "id": "movers_vocab_348",
+      "word": "gentle",
+      "ipa": "/ˈdʒen.tl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very gentle.",
+      "image_hint": "a visual of gentle",
+      "frequency_rank": 348
+    },
+    {
+      "id": "movers_vocab_349",
+      "word": "silly",
+      "ipa": "/ˈsɪl.i/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very silly.",
+      "image_hint": "a visual of silly",
+      "frequency_rank": 349
+    },
+    {
+      "id": "movers_vocab_350",
+      "word": "patient",
+      "ipa": "/ˈpeɪ.ʃənt/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "It was very patient.",
+      "image_hint": "a visual of patient",
+      "frequency_rank": 350
+    },
+    {
+      "id": "movers_vocab_351",
+      "word": "cheerful",
+      "ipa": "/ˈtʃɪər.fəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very cheerful.",
+      "image_hint": "a visual of cheerful",
+      "frequency_rank": 351
+    },
+    {
+      "id": "movers_vocab_352",
+      "word": "nervous",
+      "ipa": "/ˈnɜː.vəs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very nervous.",
+      "image_hint": "a visual of nervous",
+      "frequency_rank": 352
+    },
+    {
+      "id": "movers_vocab_353",
+      "word": "proud",
+      "ipa": "/praʊd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "It was very proud.",
+      "image_hint": "a visual of proud",
+      "frequency_rank": 353
+    },
+    {
+      "id": "movers_vocab_354",
+      "word": "ashamed",
+      "ipa": "/əˈʃeɪmd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_praise_correction"
+      ],
+      "example_sentence": "It was very ashamed.",
+      "image_hint": "a visual of ashamed",
+      "frequency_rank": 354
+    },
+    {
+      "id": "movers_vocab_355",
+      "word": "surprise",
+      "ipa": "/səˈpraɪz/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has surprise.",
+      "image_hint": "a visual of surprise",
+      "frequency_rank": 355
+    },
+    {
+      "id": "movers_vocab_356",
+      "word": "joke",
+      "ipa": "/dʒəʊk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has joke.",
+      "image_hint": "a visual of joke",
+      "frequency_rank": 356
+    },
+    {
+      "id": "movers_vocab_357",
+      "word": "reason",
+      "ipa": "/ˈriː.zən/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She has reason.",
+      "image_hint": "a visual of reason",
+      "frequency_rank": 357
+    },
+    {
+      "id": "movers_vocab_358",
+      "word": "method",
+      "ipa": "/ˈmeθ.əd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "example_sentence": "She has method.",
+      "image_hint": "a visual of method",
+      "frequency_rank": 358
+    },
+    {
+      "id": "movers_vocab_359",
+      "word": "system",
+      "ipa": "/ˈsɪs.təm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She has system.",
+      "image_hint": "a visual of system",
+      "frequency_rank": 359
+    },
+    {
+      "id": "movers_vocab_360",
+      "word": "type",
+      "ipa": "/taɪp/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "example_sentence": "She has type.",
+      "image_hint": "a visual of type",
+      "frequency_rank": 360
+    },
+    {
+      "id": "movers_vocab_361",
+      "word": "field",
+      "ipa": "/fiːld/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has field.",
+      "image_hint": "a visual of field",
+      "frequency_rank": 361
+    },
+    {
+      "id": "movers_vocab_362",
+      "word": "valley",
+      "ipa": "/ˈvæl.i/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has valley.",
+      "image_hint": "a visual of valley",
+      "frequency_rank": 362
+    },
+    {
+      "id": "movers_vocab_363",
+      "word": "hill",
+      "ipa": "/hɪl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has hill.",
+      "image_hint": "a visual of hill",
+      "frequency_rank": 363
+    },
+    {
+      "id": "movers_vocab_364",
+      "word": "cave",
+      "ipa": "/keɪv/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has cave.",
+      "image_hint": "a visual of cave",
+      "frequency_rank": 364
+    },
+    {
+      "id": "movers_vocab_365",
+      "word": "waterfall",
+      "ipa": "/ˈwɔː.tə.fɔːl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has waterfall.",
+      "image_hint": "a visual of waterfall",
+      "frequency_rank": 365
+    },
+    {
+      "id": "movers_vocab_366",
+      "word": "island",
+      "ipa": "/ˈaɪ.lənd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has island.",
+      "image_hint": "a visual of island",
+      "frequency_rank": 366
+    },
+    {
+      "id": "movers_vocab_367",
+      "word": "harbour",
+      "ipa": "/ˈhɑː.bər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has harbour.",
+      "image_hint": "a visual of harbour",
+      "frequency_rank": 367
+    },
+    {
+      "id": "movers_vocab_368",
+      "word": "port",
+      "ipa": "/pɔːt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has port.",
+      "image_hint": "a visual of port",
+      "frequency_rank": 368
+    },
+    {
+      "id": "movers_vocab_369",
+      "word": "path",
+      "ipa": "/pɑːθ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has path.",
+      "image_hint": "a visual of path",
+      "frequency_rank": 369
+    },
+    {
+      "id": "movers_vocab_370",
+      "word": "trail",
+      "ipa": "/treɪl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has trail.",
+      "image_hint": "a visual of trail",
+      "frequency_rank": 370
+    },
+    {
+      "id": "movers_vocab_371",
+      "word": "campsite",
+      "ipa": "/ˈkæmp.saɪt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has campsite.",
+      "image_hint": "a visual of campsite",
+      "frequency_rank": 371
+    },
+    {
+      "id": "movers_vocab_372",
+      "word": "tent",
+      "ipa": "/tent/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has tent.",
+      "image_hint": "a visual of tent",
+      "frequency_rank": 372
+    },
+    {
+      "id": "movers_vocab_373",
+      "word": "backpack",
+      "ipa": "/ˈbæk.pæk/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has backpack.",
+      "image_hint": "a visual of backpack",
+      "frequency_rank": 373
+    },
+    {
+      "id": "movers_vocab_374",
+      "word": "suitcase",
+      "ipa": "/ˈsuːt.keɪs/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has suitcase.",
+      "image_hint": "a visual of suitcase",
+      "frequency_rank": 374
+    },
+    {
+      "id": "movers_vocab_375",
+      "word": "sunscreen",
+      "ipa": "/ˈsʌn.skriːn/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She has sunscreen.",
+      "image_hint": "a visual of sunscreen",
+      "frequency_rank": 375
+    },
+    {
+      "id": "movers_vocab_376",
+      "word": "insect",
+      "ipa": "/ˈɪn.sekt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has insect.",
+      "image_hint": "a visual of insect",
+      "frequency_rank": 376
+    },
+    {
+      "id": "movers_vocab_377",
+      "word": "mosquito",
+      "ipa": "/məˈskiː.təʊ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "She has mosquito.",
+      "image_hint": "a visual of mosquito",
+      "frequency_rank": 377
+    },
+    {
+      "id": "movers_vocab_378",
+      "word": "spider",
+      "ipa": "/ˈspaɪ.dər/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has spider.",
+      "image_hint": "a visual of spider",
+      "frequency_rank": 378
+    },
+    {
+      "id": "movers_vocab_379",
+      "word": "butterfly",
+      "ipa": "/ˈbʌt.ə.flaɪ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has butterfly.",
+      "image_hint": "a visual of butterfly",
+      "frequency_rank": 379
+    },
+    {
+      "id": "movers_vocab_380",
+      "word": "bee",
+      "ipa": "/biː/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has bee.",
+      "image_hint": "a visual of bee",
+      "frequency_rank": 380
+    },
+    {
+      "id": "movers_vocab_381",
+      "word": "ant",
+      "ipa": "/ænt/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has ant.",
+      "image_hint": "a visual of ant",
+      "frequency_rank": 381
+    },
+    {
+      "id": "movers_vocab_382",
+      "word": "worm",
+      "ipa": "/wɜːm/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has worm.",
+      "image_hint": "a visual of worm",
+      "frequency_rank": 382
+    },
+    {
+      "id": "movers_vocab_383",
+      "word": "snail",
+      "ipa": "/sneɪl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has snail.",
+      "image_hint": "a visual of snail",
+      "frequency_rank": 383
+    },
+    {
+      "id": "movers_vocab_384",
+      "word": "shell",
+      "ipa": "/ʃel/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has shell.",
+      "image_hint": "a visual of shell",
+      "frequency_rank": 384
+    },
+    {
+      "id": "movers_vocab_385",
+      "word": "sand",
+      "ipa": "/sænd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has sand.",
+      "image_hint": "a visual of sand",
+      "frequency_rank": 385
+    },
+    {
+      "id": "movers_vocab_386",
+      "word": "tide",
+      "ipa": "/taɪd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has tide.",
+      "image_hint": "a visual of tide",
+      "frequency_rank": 386
+    },
+    {
+      "id": "movers_vocab_387",
+      "word": "cliff",
+      "ipa": "/klɪf/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has cliff.",
+      "image_hint": "a visual of cliff",
+      "frequency_rank": 387
+    },
+    {
+      "id": "movers_vocab_388",
+      "word": "coast",
+      "ipa": "/kəʊst/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has coast.",
+      "image_hint": "a visual of coast",
+      "frequency_rank": 388
+    },
+    {
+      "id": "movers_vocab_389",
+      "word": "desert",
+      "ipa": "/ˈdez.ət/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has desert.",
+      "image_hint": "a visual of desert",
+      "frequency_rank": 389
+    },
+    {
+      "id": "movers_vocab_390",
+      "word": "jungle",
+      "ipa": "/ˈdʒʌŋ.ɡəl/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has jungle.",
+      "image_hint": "a visual of jungle",
+      "frequency_rank": 390
+    },
+    {
+      "id": "movers_vocab_391",
+      "word": "swamp",
+      "ipa": "/swɒmp/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has swamp.",
+      "image_hint": "a visual of swamp",
+      "frequency_rank": 391
+    },
+    {
+      "id": "movers_vocab_392",
+      "word": "marsh",
+      "ipa": "/mɑːʃ/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_travel"
+      ],
+      "example_sentence": "She has marsh.",
+      "image_hint": "a visual of marsh",
+      "frequency_rank": 392
+    },
+    {
+      "id": "movers_vocab_393",
+      "word": "pond",
+      "ipa": "/pɒnd/",
+      "pos": "noun",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "She has pond.",
+      "image_hint": "a visual of pond",
+      "frequency_rank": 393
+    },
+    {
+      "id": "movers_vocab_394",
+      "word": "exhausted",
+      "ipa": "/ɪɡˈzɔː.stɪd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "It was very exhausted.",
+      "image_hint": "a visual of exhausted",
+      "frequency_rank": 394
+    },
+    {
+      "id": "movers_vocab_395",
+      "word": "relieved",
+      "ipa": "/rɪˈliːvd/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "It was very relieved.",
+      "image_hint": "a visual of relieved",
+      "frequency_rank": 395
+    },
+    {
+      "id": "movers_vocab_396",
+      "word": "anxious",
+      "ipa": "/ˈæŋk.ʃəs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_health"
+      ],
+      "example_sentence": "It was very anxious.",
+      "image_hint": "a visual of anxious",
+      "frequency_rank": 396
+    },
+    {
+      "id": "movers_vocab_397",
+      "word": "grateful",
+      "ipa": "/ˈɡreɪt.fəl/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very grateful.",
+      "image_hint": "a visual of grateful",
+      "frequency_rank": 397
+    },
+    {
+      "id": "movers_vocab_398",
+      "word": "generous",
+      "ipa": "/ˈdʒen.ər.əs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very generous.",
+      "image_hint": "a visual of generous",
+      "frequency_rank": 398
+    },
+    {
+      "id": "movers_vocab_399",
+      "word": "stubborn",
+      "ipa": "/ˈstʌb.ən/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very stubborn.",
+      "image_hint": "a visual of stubborn",
+      "frequency_rank": 399
+    },
+    {
+      "id": "movers_vocab_400",
+      "word": "jealous",
+      "ipa": "/ˈdʒel.əs/",
+      "pos": "adjective",
+      "topic_ids": [
+        "topic_social"
+      ],
+      "example_sentence": "It was very jealous.",
+      "image_hint": "a visual of jealous",
+      "frequency_rank": 400
+    }
+  ]
+}

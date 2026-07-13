@@ -1,0 +1,224 @@
+{
+  "id": "starters_lesson_026",
+  "level": "starters",
+  "topic_id": "topic_in_class",
+  "order": 26,
+  "title": "Learning in the classroom",
+  "scenario": "You are in a teacher role. Use English naturally in this in class situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "Classroom, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Linh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Vy",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Stand up, class! Good morning!"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Good morning, teacher!"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Sit down. Look at the board."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, teacher. We are looking."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Good. Listen to me, please."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_004",
+    "starters_vocab_005",
+    "starters_vocab_006",
+    "starters_vocab_007",
+    "starters_vocab_255",
+    "starters_vocab_256",
+    "starters_vocab_257",
+    "starters_vocab_258",
+    "starters_vocab_259",
+    "starters_vocab_260",
+    "starters_vocab_261",
+    "starters_vocab_262",
+    "starters_vocab_263",
+    "starters_vocab_264"
+  ],
+  "grammar_ids": [
+    "starters_grammar_001",
+    "starters_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "an open English textbook on a desk",
+          "correct_answer": "book"
+        },
+        {
+          "image_hint": "a blue ink pen lying on a notebook",
+          "correct_answer": "pen"
+        },
+        {
+          "image_hint": "a female teacher smiling at the front of a class",
+          "correct_answer": "teacher"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            ".",
+            "Open",
+            "your",
+            "book"
+          ],
+          "correct_answer": "Open your book."
+        },
+        {
+          "words": [
+            "at",
+            "board",
+            "Look",
+            ".",
+            "the"
+          ],
+          "correct_answer": "Look at the board."
+        },
+        {
+          "words": [
+            ".",
+            "to",
+            "me",
+            ",",
+            "Listen",
+            "please"
+          ],
+          "correct_answer": "Listen to me, please."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Open your book.",
+          "options": [
+            "Open your book.",
+            "Look at the board.",
+            "Listen to me, please."
+          ],
+          "correct_answer": "Open your book."
+        },
+        {
+          "audio_text": "Look at the board.",
+          "options": [
+            "Open your book.",
+            "Look at the board.",
+            "Listen to me, please."
+          ],
+          "correct_answer": "Look at the board."
+        },
+        {
+          "audio_text": "Listen to me, please.",
+          "options": [
+            "Open your book.",
+            "Look at the board.",
+            "Listen to me, please."
+          ],
+          "correct_answer": "Listen to me, please."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ your book.",
+          "correct_answer": "Open"
+        },
+        {
+          "prompt": "___ at the board.",
+          "correct_answer": "Look"
+        },
+        {
+          "prompt": "___ to me, please.",
+          "correct_answer": "Listen"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (an open English textbook on a desk). What is this?",
+          "options": [
+            "book",
+            "teacher",
+            "pen"
+          ],
+          "correct_answer": "book"
+        },
+        {
+          "prompt": "Look at the picture (a blue ink pen lying on a notebook). What is this?",
+          "options": [
+            "book",
+            "teacher",
+            "pen"
+          ],
+          "correct_answer": "pen"
+        },
+        {
+          "prompt": "Look at the picture (a female teacher smiling at the front of a class). What is this?",
+          "options": [
+            "pen",
+            "teacher",
+            "book"
+          ],
+          "correct_answer": "teacher"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Ask questions during class about the lesson.",
+    "opening_line": "Teacher, can you help me? I don't understand the task.",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_001",
+        "starters_grammar_003"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_004",
+        "starters_vocab_005",
+        "starters_vocab_006"
+      ]
+    },
+    "success_criteria": "Learner explains the task clearly using simple English."
+  }
+}

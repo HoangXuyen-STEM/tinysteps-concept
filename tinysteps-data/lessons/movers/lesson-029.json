@@ -1,0 +1,232 @@
+{
+  "id": "movers_lesson_029",
+  "level": "movers",
+  "topic_id": "topic_praise_correction",
+  "order": 29,
+  "title": "Praise and correction",
+  "scenario": "You are in a teacher role. Use English naturally in this praise correction situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "Front of classroom, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Trang",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Duy",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "That is a great answer, Lan!"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. I prepared it last night."
+      },
+      {
+        "character_id": "char_a",
+        "text": "You did a great job on your homework."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I made one small mistake, I think."
+      },
+      {
+        "character_id": "char_a",
+        "text": "It is okay. Mistakes help us learn."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, I will correct it now."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_006",
+    "movers_vocab_014",
+    "movers_vocab_020",
+    "movers_vocab_021",
+    "movers_vocab_396",
+    "movers_vocab_397",
+    "movers_vocab_398",
+    "movers_vocab_399",
+    "movers_vocab_400",
+    "movers_vocab_001",
+    "movers_vocab_002",
+    "movers_vocab_003",
+    "movers_vocab_004",
+    "movers_vocab_005",
+    "movers_vocab_007",
+    "movers_vocab_008",
+    "movers_vocab_009",
+    "movers_vocab_010"
+  ],
+  "grammar_ids": [
+    "movers_grammar_002",
+    "movers_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "applause icons and stars surrounding a text card",
+          "correct_answer": "great"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a progress",
+          "correct_answer": "progresss"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a correction",
+          "correct_answer": "corrections"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "the",
+            "cleaned",
+            "I",
+            ".",
+            "board"
+          ],
+          "correct_answer": "I cleaned the board."
+        },
+        {
+          "words": [
+            "prepared",
+            ".",
+            "We",
+            "the",
+            "class"
+          ],
+          "correct_answer": "We prepared the class."
+        },
+        {
+          "words": [
+            "me",
+            "yesterday",
+            "He",
+            ".",
+            "helped"
+          ],
+          "correct_answer": "He helped me yesterday."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I cleaned the board.",
+          "options": [
+            "He helped me yesterday.",
+            "We prepared the class.",
+            "I cleaned the board."
+          ],
+          "correct_answer": "I cleaned the board."
+        },
+        {
+          "audio_text": "We prepared the class.",
+          "options": [
+            "I cleaned the board.",
+            "He helped me yesterday.",
+            "We prepared the class."
+          ],
+          "correct_answer": "We prepared the class."
+        },
+        {
+          "audio_text": "He helped me yesterday.",
+          "options": [
+            "We prepared the class.",
+            "He helped me yesterday.",
+            "I cleaned the board."
+          ],
+          "correct_answer": "He helped me yesterday."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ the board.",
+          "correct_answer": "cleaned"
+        },
+        {
+          "prompt": "We ___ the class.",
+          "correct_answer": "prepared"
+        },
+        {
+          "prompt": "He ___ me yesterday.",
+          "correct_answer": "helped"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (applause icons and stars surrounding a text card). What is this?",
+          "options": [
+            "corrections",
+            "great",
+            "progresss"
+          ],
+          "correct_answer": "great"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a progress). What is this?",
+          "options": [
+            "corrections",
+            "progresss",
+            "great"
+          ],
+          "correct_answer": "progresss"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a correction). What is this?",
+          "options": [
+            "great",
+            "corrections",
+            "progresss"
+          ],
+          "correct_answer": "corrections"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Receive feedback and correct a spelling error.",
+    "opening_line": "Teacher, did I do a good job on my homework?",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_002",
+        "movers_grammar_004"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_006",
+        "movers_vocab_014",
+        "movers_vocab_020"
+      ]
+    },
+    "success_criteria": "Learner praises the student and guides correction of the mistake."
+  }
+}

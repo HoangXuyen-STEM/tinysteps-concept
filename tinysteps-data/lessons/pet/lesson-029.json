@@ -1,0 +1,247 @@
+{
+  "id": "pet_lesson_029",
+  "level": "pet",
+  "topic_id": "topic_praise_correction",
+  "order": 29,
+  "title": "Praise and correction",
+  "scenario": "You are in a teacher role. Use English naturally in this praise correction situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "Front of classroom, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Minh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Duy",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "You have made excellent progress in your writing this month."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. I practised a lot during the weekend."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Your paragraph structure is clear and logical."
+      },
+      {
+        "character_id": "char_b",
+        "text": "However, I think I used the wrong tense in one sentence."
+      },
+      {
+        "character_id": "char_a",
+        "text": "You are right. Let's look at it together."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I apologise for the careless mistake."
+      },
+      {
+        "character_id": "char_a",
+        "text": "There is no need to apologise. It is part of learning."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If I reviewed my work more carefully, I would make fewer errors."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_024",
+    "pet_vocab_035",
+    "pet_vocab_045",
+    "pet_vocab_056",
+    "pet_vocab_369",
+    "pet_vocab_370",
+    "pet_vocab_371",
+    "pet_vocab_372",
+    "pet_vocab_373",
+    "pet_vocab_374",
+    "pet_vocab_375",
+    "pet_vocab_376",
+    "pet_vocab_377",
+    "pet_vocab_378",
+    "pet_vocab_379",
+    "pet_vocab_380",
+    "pet_vocab_381"
+  ],
+  "grammar_ids": [
+    "pet_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a simple, clear colorful visualization of perfect",
+          "correct_answer": "perfect"
+        },
+        {
+          "image_hint": "a simple, clear colorful visualization of better",
+          "correct_answer": "better"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a star",
+          "correct_answer": "star"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "improve",
+            "I",
+            "vocabulary",
+            "I",
+            "my",
+            "wish",
+            ".",
+            "could",
+            "faster"
+          ],
+          "correct_answer": "I wish I could improve my vocabulary faster."
+        },
+        {
+          "words": [
+            "were",
+            "the",
+            "simpler",
+            "procedure",
+            "safety",
+            "I",
+            "wish",
+            "."
+          ],
+          "correct_answer": "I wish the safety procedure were simpler."
+        },
+        {
+          "words": [
+            "you",
+            "make",
+            "mistake",
+            "didn't",
+            "wish",
+            ".",
+            "I",
+            "that"
+          ],
+          "correct_answer": "I wish you didn't make that mistake."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I wish I could improve my vocabulary faster.",
+          "options": [
+            "I wish I could improve my vocabulary faster.",
+            "I wish you didn't make that mistake.",
+            "I wish the safety procedure were simpler."
+          ],
+          "correct_answer": "I wish I could improve my vocabulary faster."
+        },
+        {
+          "audio_text": "I wish the safety procedure were simpler.",
+          "options": [
+            "I wish you didn't make that mistake.",
+            "I wish the safety procedure were simpler.",
+            "I wish I could improve my vocabulary faster."
+          ],
+          "correct_answer": "I wish the safety procedure were simpler."
+        },
+        {
+          "audio_text": "I wish you didn't make that mistake.",
+          "options": [
+            "I wish I could improve my vocabulary faster.",
+            "I wish the safety procedure were simpler.",
+            "I wish you didn't make that mistake."
+          ],
+          "correct_answer": "I wish you didn't make that mistake."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ I could improve my vocabulary faster.",
+          "correct_answer": "wish"
+        },
+        {
+          "prompt": "I ___ the safety procedure were simpler.",
+          "correct_answer": "wish"
+        },
+        {
+          "prompt": "I ___ you didn't make that mistake.",
+          "correct_answer": "wish"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a simple, clear colorful visualization of perfect). What is this?",
+          "options": [
+            "perfect",
+            "star",
+            "better"
+          ],
+          "correct_answer": "perfect"
+        },
+        {
+          "prompt": "Look at the picture (a simple, clear colorful visualization of better). What is this?",
+          "options": [
+            "better",
+            "perfect",
+            "star"
+          ],
+          "correct_answer": "better"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a star). What is this?",
+          "options": [
+            "better",
+            "perfect",
+            "star"
+          ],
+          "correct_answer": "star"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Receive feedback and correct a spelling error.",
+    "opening_line": "Teacher, did I do a good job on my homework?",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_003"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_024",
+        "pet_vocab_035",
+        "pet_vocab_045"
+      ]
+    },
+    "success_criteria": "Learner praises the student and guides correction of the mistake."
+  }
+}

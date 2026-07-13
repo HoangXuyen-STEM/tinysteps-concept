@@ -1,0 +1,241 @@
+{
+  "id": "flyers_lesson_013",
+  "level": "flyers",
+  "topic_id": "topic_before_class",
+  "order": 13,
+  "title": "Preparing for class",
+  "scenario": "You are in a teacher role. Use English naturally in this before class situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "Teachers room, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Duc",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Mr. Minh",
+        "role": "colleague"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good morning. I'd like to check the school schedule before class."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Sure. The principal updated the timetable this morning."
+      },
+      {
+        "character_id": "char_a",
+        "text": "We should inform the other teachers about the change."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I have already sent them an email with the new details."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Furthermore, we need to prepare worksheets for Period Three."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I agree. If we finish early, we will have time to review."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Let me explain the new procedure to the staff members."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. Your preparation is always very helpful."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_008",
+    "flyers_vocab_011",
+    "flyers_vocab_012",
+    "flyers_vocab_013",
+    "flyers_vocab_164",
+    "flyers_vocab_165",
+    "flyers_vocab_166",
+    "flyers_vocab_167",
+    "flyers_vocab_168",
+    "flyers_vocab_169",
+    "flyers_vocab_170",
+    "flyers_vocab_171",
+    "flyers_vocab_172",
+    "flyers_vocab_173",
+    "flyers_vocab_174",
+    "flyers_vocab_175",
+    "flyers_vocab_176"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_001"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a group of teachers sitting around a conference table",
+          "correct_answer": "meeting"
+        },
+        {
+          "image_hint": "a meeting agenda document on a desk",
+          "correct_answer": "agenda"
+        },
+        {
+          "image_hint": "a group of teachers getting a morning briefing",
+          "correct_answer": "briefing"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "I",
+            "email",
+            ".",
+            "sent",
+            "an",
+            "you",
+            "have"
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "words": [
+            ".",
+            "homework",
+            "finished",
+            "He",
+            "has",
+            "the"
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "words": [
+            "the",
+            "I",
+            "fruit",
+            "bought",
+            "have",
+            "."
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I have sent you an email.",
+          "options": [
+            "I have bought the fruit.",
+            "I have sent you an email.",
+            "He has finished the homework."
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "audio_text": "He has finished the homework.",
+          "options": [
+            "I have bought the fruit.",
+            "I have sent you an email.",
+            "He has finished the homework."
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "audio_text": "I have bought the fruit.",
+          "options": [
+            "He has finished the homework.",
+            "I have bought the fruit.",
+            "I have sent you an email."
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ sent you an email.",
+          "correct_answer": "have"
+        },
+        {
+          "prompt": "He ___ finished the homework.",
+          "correct_answer": "has"
+        },
+        {
+          "prompt": "I ___ bought the fruit.",
+          "correct_answer": "have"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a group of teachers sitting around a conference table). What is this?",
+          "options": [
+            "meeting",
+            "agenda",
+            "briefing"
+          ],
+          "correct_answer": "meeting"
+        },
+        {
+          "prompt": "Look at the picture (a meeting agenda document on a desk). What is this?",
+          "options": [
+            "meeting",
+            "agenda",
+            "briefing"
+          ],
+          "correct_answer": "agenda"
+        },
+        {
+          "prompt": "Look at the picture (a group of teachers getting a morning briefing). What is this?",
+          "options": [
+            "meeting",
+            "briefing",
+            "agenda"
+          ],
+          "correct_answer": "briefing"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Talk about class preparation before the lesson starts.",
+    "opening_line": "Good morning! Have you finished the lesson preparation?",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_001"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_008",
+        "flyers_vocab_011",
+        "flyers_vocab_012"
+      ]
+    },
+    "success_criteria": "Learner answers appropriately and describes a classroom preparation task."
+  }
+}

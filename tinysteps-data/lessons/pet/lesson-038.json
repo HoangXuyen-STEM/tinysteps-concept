@@ -1,0 +1,259 @@
+{
+  "id": "pet_lesson_038",
+  "level": "pet",
+  "topic_id": "topic_in_class",
+  "order": 38,
+  "title": "Learning in the classroom",
+  "scenario": "You are in a teacher role. Use English naturally in this in class situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "Classroom, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Trang",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "An",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Today we are going to discuss classroom communication."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I have been thinking about ways to improve my speaking."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That is great. You should also focus on listening carefully."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Could you recommend some practice activities?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, I suggest you join the after-school English club."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I would if I had more free time after school."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. Even ten minutes of daily practice helps."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you, teacher. I will try my best."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_033",
+    "pet_vocab_043",
+    "pet_vocab_053",
+    "pet_vocab_064",
+    "pet_vocab_486",
+    "pet_vocab_487",
+    "pet_vocab_488",
+    "pet_vocab_489",
+    "pet_vocab_490",
+    "pet_vocab_491",
+    "pet_vocab_492",
+    "pet_vocab_493",
+    "pet_vocab_494",
+    "pet_vocab_495",
+    "pet_vocab_496",
+    "pet_vocab_497",
+    "pet_vocab_498"
+  ],
+  "grammar_ids": [
+    "pet_grammar_001",
+    "pet_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a clean graphic illustration of a grammar",
+          "correct_answer": "grammar"
+        },
+        {
+          "image_hint": "an action illustration showing a person to explain",
+          "correct_answer": "explaining"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a activity",
+          "correct_answer": "activity"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "question",
+            "teacher",
+            "the",
+            ",",
+            "If",
+            "a",
+            "ask",
+            "I",
+            "I",
+            "had",
+            "would",
+            "."
+          ],
+          "correct_answer": "If I had a question, I would ask the teacher."
+        },
+        {
+          "words": [
+            "would",
+            "again",
+            "I",
+            "didn't",
+            "understand",
+            "explain",
+            ",",
+            "If",
+            ".",
+            "it",
+            "they"
+          ],
+          "correct_answer": "If they didn't understand, I would explain it again."
+        },
+        {
+          "words": [
+            "the",
+            "price",
+            "lower",
+            "buy",
+            "more",
+            "would",
+            "were",
+            "fruit",
+            "I",
+            "If",
+            ",",
+            "."
+          ],
+          "correct_answer": "If the price were lower, I would buy more fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "If I had a question, I would ask the teacher.",
+          "options": [
+            "If the price were lower, I would buy more fruit.",
+            "If I had a question, I would ask the teacher.",
+            "If they didn't understand, I would explain it again."
+          ],
+          "correct_answer": "If I had a question, I would ask the teacher."
+        },
+        {
+          "audio_text": "If they didn't understand, I would explain it again.",
+          "options": [
+            "If they didn't understand, I would explain it again.",
+            "If I had a question, I would ask the teacher.",
+            "If the price were lower, I would buy more fruit."
+          ],
+          "correct_answer": "If they didn't understand, I would explain it again."
+        },
+        {
+          "audio_text": "If the price were lower, I would buy more fruit.",
+          "options": [
+            "If they didn't understand, I would explain it again.",
+            "If the price were lower, I would buy more fruit.",
+            "If I had a question, I would ask the teacher."
+          ],
+          "correct_answer": "If the price were lower, I would buy more fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "If I had a question, I ___ ask the teacher.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "If they didn't understand, I ___ explain it again.",
+          "correct_answer": "would"
+        },
+        {
+          "prompt": "If the price were lower, I ___ buy more fruit.",
+          "correct_answer": "would"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a grammar). What is this?",
+          "options": [
+            "activity",
+            "explaining",
+            "grammar"
+          ],
+          "correct_answer": "grammar"
+        },
+        {
+          "prompt": "Look at the picture (an action illustration showing a person to explain). What is this?",
+          "options": [
+            "grammar",
+            "explaining",
+            "activity"
+          ],
+          "correct_answer": "explaining"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a activity). What is this?",
+          "options": [
+            "activity",
+            "explaining",
+            "grammar"
+          ],
+          "correct_answer": "activity"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Ask questions during class about the lesson.",
+    "opening_line": "Teacher, can you help me? I don't understand the task.",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_001",
+        "pet_grammar_003"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_033",
+        "pet_vocab_043",
+        "pet_vocab_053"
+      ]
+    },
+    "success_criteria": "Learner explains the task clearly using simple English."
+  }
+}

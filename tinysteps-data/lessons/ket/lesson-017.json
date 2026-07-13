@@ -1,0 +1,243 @@
+{
+  "id": "ket_lesson_017",
+  "level": "ket",
+  "topic_id": "topic_praise_correction",
+  "order": 17,
+  "title": "Praise and correction",
+  "scenario": "You are in a teacher role. Use English naturally in this praise correction situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "Front of classroom, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Ms. Huong",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Nam",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "You have made excellent progress in your writing this month."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. I practised a lot during the weekend."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Your paragraph structure is clear and logical."
+      },
+      {
+        "character_id": "char_b",
+        "text": "However, I think I used the wrong tense in one sentence."
+      },
+      {
+        "character_id": "char_a",
+        "text": "You are right. Let's look at it together."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I apologise for the careless mistake."
+      },
+      {
+        "character_id": "char_a",
+        "text": "There is no need to apologise. It is part of learning."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If I reviewed my work more carefully, I would make fewer errors."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_039",
+    "ket_vocab_040",
+    "ket_vocab_041",
+    "ket_vocab_042",
+    "ket_vocab_201",
+    "ket_vocab_202",
+    "ket_vocab_203",
+    "ket_vocab_204",
+    "ket_vocab_205",
+    "ket_vocab_206",
+    "ket_vocab_207",
+    "ket_vocab_208",
+    "ket_vocab_209",
+    "ket_vocab_210",
+    "ket_vocab_211",
+    "ket_vocab_212"
+  ],
+  "grammar_ids": [
+    "ket_grammar_002",
+    "ket_grammar_008"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a teacher giving constructive written feedback",
+          "correct_answer": "constructive"
+        },
+        {
+          "image_hint": "a student's substantial amount of work on a desk",
+          "correct_answer": "substantial"
+        },
+        {
+          "image_hint": "a student consistently getting good marks over time",
+          "correct_answer": "consistent"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "recommend",
+            "?",
+            "you",
+            "a",
+            "good",
+            "Could",
+            "dish"
+          ],
+          "correct_answer": "Could you recommend a good dish?"
+        },
+        {
+          "words": [
+            "you",
+            "Could",
+            "schedule",
+            "?",
+            "my",
+            "check"
+          ],
+          "correct_answer": "Could you check my schedule?"
+        },
+        {
+          "words": [
+            "together",
+            "mistakes",
+            "Could",
+            "?",
+            "correct",
+            "we",
+            "the"
+          ],
+          "correct_answer": "Could we correct the mistakes together?"
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Could you recommend a good dish?",
+          "options": [
+            "Could you check my schedule?",
+            "Could you recommend a good dish?",
+            "Could we correct the mistakes together?"
+          ],
+          "correct_answer": "Could you recommend a good dish?"
+        },
+        {
+          "audio_text": "Could you check my schedule?",
+          "options": [
+            "Could you recommend a good dish?",
+            "Could we correct the mistakes together?",
+            "Could you check my schedule?"
+          ],
+          "correct_answer": "Could you check my schedule?"
+        },
+        {
+          "audio_text": "Could we correct the mistakes together?",
+          "options": [
+            "Could you recommend a good dish?",
+            "Could we correct the mistakes together?",
+            "Could you check my schedule?"
+          ],
+          "correct_answer": "Could we correct the mistakes together?"
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ you recommend a good dish?",
+          "correct_answer": "Could"
+        },
+        {
+          "prompt": "___ you check my schedule?",
+          "correct_answer": "Could"
+        },
+        {
+          "prompt": "___ we correct the mistakes together?",
+          "correct_answer": "Could"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a teacher giving constructive written feedback). What is this?",
+          "options": [
+            "substantial",
+            "constructive",
+            "consistent"
+          ],
+          "correct_answer": "constructive"
+        },
+        {
+          "prompt": "Look at the picture (a student's substantial amount of work on a desk). What is this?",
+          "options": [
+            "consistent",
+            "constructive",
+            "substantial"
+          ],
+          "correct_answer": "substantial"
+        },
+        {
+          "prompt": "Look at the picture (a student consistently getting good marks over time). What is this?",
+          "options": [
+            "substantial",
+            "consistent",
+            "constructive"
+          ],
+          "correct_answer": "consistent"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Receive feedback and correct a spelling error.",
+    "opening_line": "Teacher, did I do a good job on my homework?",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_002",
+        "ket_grammar_008"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_039",
+        "ket_vocab_040",
+        "ket_vocab_041"
+      ]
+    },
+    "success_criteria": "Learner praises the student and guides correction of the mistake."
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "id": "starters_lesson_025",
+  "level": "starters",
+  "topic_id": "topic_before_class",
+  "order": 25,
+  "title": "Preparing for class",
+  "scenario": "You are in a teacher role. Use English naturally in this before class situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "Teachers room, Friday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Duc",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Mr. Binh",
+        "role": "colleague"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good morning! How are you today?",
+        "note": "(smiling)"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Good morning! I am fine, thank you."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I am a teacher here. Are you ready for class?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, I am ready. See you later!"
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_001",
+    "starters_vocab_003",
+    "starters_vocab_006",
+    "starters_vocab_026",
+    "starters_vocab_245",
+    "starters_vocab_246",
+    "starters_vocab_247",
+    "starters_vocab_248",
+    "starters_vocab_249",
+    "starters_vocab_250",
+    "starters_vocab_251",
+    "starters_vocab_252",
+    "starters_vocab_253",
+    "starters_vocab_254"
+  ],
+  "grammar_ids": [
+    "starters_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "two teachers waving and smiling at each other",
+          "correct_answer": "hello"
+        },
+        {
+          "image_hint": "the sun rising over a school building",
+          "correct_answer": "morning"
+        },
+        {
+          "image_hint": "a female teacher smiling at the front of a class",
+          "correct_answer": "teacher"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "teacher",
+            "am",
+            "a",
+            "I",
+            "."
+          ],
+          "correct_answer": "I am a teacher."
+        },
+        {
+          "words": [
+            "He",
+            ".",
+            "student",
+            "good",
+            "is",
+            "a"
+          ],
+          "correct_answer": "He is a good student."
+        },
+        {
+          "words": [
+            ".",
+            "fine",
+            "you",
+            ",",
+            "thank",
+            "I'm"
+          ],
+          "correct_answer": "I'm fine, thank you."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I am a teacher.",
+          "options": [
+            "I'm fine, thank you.",
+            "He is a good student.",
+            "I am a teacher."
+          ],
+          "correct_answer": "I am a teacher."
+        },
+        {
+          "audio_text": "He is a good student.",
+          "options": [
+            "I'm fine, thank you.",
+            "He is a good student.",
+            "I am a teacher."
+          ],
+          "correct_answer": "He is a good student."
+        },
+        {
+          "audio_text": "I'm fine, thank you.",
+          "options": [
+            "I am a teacher.",
+            "He is a good student.",
+            "I'm fine, thank you."
+          ],
+          "correct_answer": "I'm fine, thank you."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ a teacher.",
+          "correct_answer": "am"
+        },
+        {
+          "prompt": "He ___ a good student.",
+          "correct_answer": "is"
+        },
+        {
+          "prompt": "___ fine, thank you.",
+          "correct_answer": "I'm"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (two teachers waving and smiling at each other). What is this?",
+          "options": [
+            "morning",
+            "hello",
+            "teacher"
+          ],
+          "correct_answer": "hello"
+        },
+        {
+          "prompt": "Look at the picture (the sun rising over a school building). What is this?",
+          "options": [
+            "teacher",
+            "morning",
+            "hello"
+          ],
+          "correct_answer": "morning"
+        },
+        {
+          "prompt": "Look at the picture (a female teacher smiling at the front of a class). What is this?",
+          "options": [
+            "hello",
+            "morning",
+            "teacher"
+          ],
+          "correct_answer": "teacher"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Talk about class preparation before the lesson starts.",
+    "opening_line": "Good morning! Have you finished the lesson preparation?",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_003"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_001",
+        "starters_vocab_003",
+        "starters_vocab_006"
+      ]
+    },
+    "success_criteria": "Learner answers appropriately and describes a classroom preparation task."
+  }
+}

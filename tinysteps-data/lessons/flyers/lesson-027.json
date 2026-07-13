@@ -1,0 +1,246 @@
+{
+  "id": "flyers_lesson_027",
+  "level": "flyers",
+  "topic_id": "topic_giving_instructions",
+  "order": 27,
+  "title": "Giving instructions",
+  "scenario": "You are in a teacher role. Use English naturally in this giving instructions situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "Classroom, Tuesday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Minh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Vy",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "You must follow the instructions carefully during the test."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Understood, teacher. Should we write our names on the paper?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, write your full name at the top of the page."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Could we use a dictionary for the reading section?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "No, this is a closed-book test. Please put it away."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If we make a mistake, should we cross it out neatly?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, draw one line through the wrong answer and rewrite."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you for the clear instructions."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_002",
+    "flyers_vocab_031",
+    "flyers_vocab_032",
+    "flyers_vocab_033",
+    "flyers_vocab_346",
+    "flyers_vocab_347",
+    "flyers_vocab_348",
+    "flyers_vocab_349",
+    "flyers_vocab_350",
+    "flyers_vocab_351",
+    "flyers_vocab_352",
+    "flyers_vocab_353",
+    "flyers_vocab_354",
+    "flyers_vocab_355",
+    "flyers_vocab_356",
+    "flyers_vocab_357",
+    "flyers_vocab_358"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_003",
+    "flyers_grammar_004"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a step-by-step checklist with checkboxes",
+          "correct_answer": "instructions"
+        },
+        {
+          "image_hint": "a numbered instruction list on a worksheet",
+          "correct_answer": "instruction"
+        },
+        {
+          "image_hint": "a set of guidelines posted on a classroom wall",
+          "correct_answer": "guideline"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            ".",
+            "the",
+            "follow",
+            "instructions",
+            "You",
+            "must"
+          ],
+          "correct_answer": "You must follow the instructions."
+        },
+        {
+          "words": [
+            "a",
+            "this",
+            "mistake",
+            "test",
+            "in",
+            ".",
+            "You",
+            "mustn't",
+            "make"
+          ],
+          "correct_answer": "You mustn't make a mistake in this test."
+        },
+        {
+          "words": [
+            "must",
+            "explain",
+            "word",
+            "the",
+            ".",
+            "We",
+            "clearly"
+          ],
+          "correct_answer": "We must explain the word clearly."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "You must follow the instructions.",
+          "options": [
+            "You must follow the instructions.",
+            "We must explain the word clearly.",
+            "You mustn't make a mistake in this test."
+          ],
+          "correct_answer": "You must follow the instructions."
+        },
+        {
+          "audio_text": "You mustn't make a mistake in this test.",
+          "options": [
+            "You mustn't make a mistake in this test.",
+            "We must explain the word clearly.",
+            "You must follow the instructions."
+          ],
+          "correct_answer": "You mustn't make a mistake in this test."
+        },
+        {
+          "audio_text": "We must explain the word clearly.",
+          "options": [
+            "We must explain the word clearly.",
+            "You mustn't make a mistake in this test.",
+            "You must follow the instructions."
+          ],
+          "correct_answer": "We must explain the word clearly."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "You ___ follow the instructions.",
+          "correct_answer": "must"
+        },
+        {
+          "prompt": "You ___ make a mistake in this test.",
+          "correct_answer": "mustn't"
+        },
+        {
+          "prompt": "We ___ explain the word clearly.",
+          "correct_answer": "must"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a step-by-step checklist with checkboxes). What is this?",
+          "options": [
+            "guideline",
+            "instructions",
+            "instruction"
+          ],
+          "correct_answer": "instructions"
+        },
+        {
+          "prompt": "Look at the picture (a numbered instruction list on a worksheet). What is this?",
+          "options": [
+            "guideline",
+            "instruction",
+            "instructions"
+          ],
+          "correct_answer": "instruction"
+        },
+        {
+          "prompt": "Look at the picture (a set of guidelines posted on a classroom wall). What is this?",
+          "options": [
+            "guideline",
+            "instruction",
+            "instructions"
+          ],
+          "correct_answer": "guideline"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Ask for clarification about task instructions.",
+    "opening_line": "Teacher, should we open our books or start writing?",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_003",
+        "flyers_grammar_004"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_002",
+        "flyers_vocab_031",
+        "flyers_vocab_032"
+      ]
+    },
+    "success_criteria": "Learner gives clear, polite instructions using imperatives or modal verbs."
+  }
+}

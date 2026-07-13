@@ -1,0 +1,249 @@
+{
+  "id": "ket_lesson_026",
+  "level": "ket",
+  "topic_id": "topic_in_class",
+  "order": 26,
+  "title": "Learning in the classroom",
+  "scenario": "You are in a teacher role. Use English naturally in this in class situation.",
+  "estimated_minutes": 10,
+  "dialogue": {
+    "setting": "Classroom, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Minh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Vy",
+        "role": "student"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Today we are going to discuss classroom communication."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I have been thinking about ways to improve my speaking."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That is great. You should also focus on listening carefully."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Could you recommend some practice activities?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "Yes, I suggest you join the after-school English club."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I would if I had more free time after school."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. Even ten minutes of daily practice helps."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you, teacher. I will try my best."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "ket_vocab_018",
+    "ket_vocab_019",
+    "ket_vocab_020",
+    "ket_vocab_021",
+    "ket_vocab_309",
+    "ket_vocab_310",
+    "ket_vocab_311",
+    "ket_vocab_312",
+    "ket_vocab_313",
+    "ket_vocab_314",
+    "ket_vocab_315",
+    "ket_vocab_316",
+    "ket_vocab_317",
+    "ket_vocab_318",
+    "ket_vocab_319",
+    "ket_vocab_320"
+  ],
+  "grammar_ids": [
+    "ket_grammar_005",
+    "ket_grammar_006"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "students eagerly engaged in a classroom discussion",
+          "correct_answer": "engagement"
+        },
+        {
+          "image_hint": "students interacting in pairs during a language task",
+          "correct_answer": "interaction"
+        },
+        {
+          "image_hint": "a student raising their hand to participate",
+          "correct_answer": "participate"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "who",
+            "very",
+            "is",
+            "kind",
+            ".",
+            "English",
+            "The",
+            "teaches",
+            "colleague"
+          ],
+          "correct_answer": "The colleague who teaches English is very kind."
+        },
+        {
+          "words": [
+            "which",
+            "is",
+            "we",
+            "simple",
+            "schedule",
+            "The",
+            ".",
+            "use"
+          ],
+          "correct_answer": "The schedule which we use is simple."
+        },
+        {
+          "words": [
+            "student",
+            "The",
+            "headache",
+            "has",
+            "a",
+            ".",
+            "went",
+            "who",
+            "home"
+          ],
+          "correct_answer": "The student who has a headache went home."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "The colleague who teaches English is very kind.",
+          "options": [
+            "The schedule which we use is simple.",
+            "The student who has a headache went home.",
+            "The colleague who teaches English is very kind."
+          ],
+          "correct_answer": "The colleague who teaches English is very kind."
+        },
+        {
+          "audio_text": "The schedule which we use is simple.",
+          "options": [
+            "The schedule which we use is simple.",
+            "The student who has a headache went home.",
+            "The colleague who teaches English is very kind."
+          ],
+          "correct_answer": "The schedule which we use is simple."
+        },
+        {
+          "audio_text": "The student who has a headache went home.",
+          "options": [
+            "The colleague who teaches English is very kind.",
+            "The student who has a headache went home.",
+            "The schedule which we use is simple."
+          ],
+          "correct_answer": "The student who has a headache went home."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "The colleague ___ teaches English is very kind.",
+          "correct_answer": "who"
+        },
+        {
+          "prompt": "The schedule ___ we use is simple.",
+          "correct_answer": "which"
+        },
+        {
+          "prompt": "The student ___ has a headache went home.",
+          "correct_answer": "who"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (students eagerly engaged in a classroom discussion). What is this?",
+          "options": [
+            "engagement",
+            "participate",
+            "interaction"
+          ],
+          "correct_answer": "engagement"
+        },
+        {
+          "prompt": "Look at the picture (students interacting in pairs during a language task). What is this?",
+          "options": [
+            "engagement",
+            "interaction",
+            "participate"
+          ],
+          "correct_answer": "interaction"
+        },
+        {
+          "prompt": "Look at the picture (a student raising their hand to participate). What is this?",
+          "options": [
+            "engagement",
+            "interaction",
+            "participate"
+          ],
+          "correct_answer": "participate"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "student",
+    "scenario": "Ask questions during class about the lesson.",
+    "opening_line": "Teacher, can you help me? I don't understand the task.",
+    "level_constraints": {
+      "max_sentence_length": 12,
+      "allowed_grammar": [
+        "ket_grammar_005",
+        "ket_grammar_006"
+      ],
+      "target_vocabulary": [
+        "ket_vocab_018",
+        "ket_vocab_019",
+        "ket_vocab_020"
+      ]
+    },
+    "success_criteria": "Learner explains the task clearly using simple English."
+  }
+}

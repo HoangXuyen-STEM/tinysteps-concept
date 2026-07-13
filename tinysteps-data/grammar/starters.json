@@ -1,0 +1,425 @@
+{
+  "level": "starters",
+  "total_points": 10,
+  "grammar_points": [
+    {
+      "id": "starters_grammar_001",
+      "name": "imperative_positive",
+      "pattern": "Verb + (object/complement)",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_giving_instructions"
+      ],
+      "examples": [
+        {
+          "sentence": "Open your book.",
+          "context": "teacher starting a lesson"
+        },
+        {
+          "sentence": "Look at the board.",
+          "context": "teacher showing something"
+        },
+        {
+          "sentence": "Listen to me, please.",
+          "context": "teacher getting attention"
+        },
+        {
+          "sentence": "Stand up, class.",
+          "context": "teacher greeting students"
+        },
+        {
+          "sentence": "Write in your book.",
+          "context": "teacher giving a task"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "You open book.",
+          "correct": "Open your book."
+        },
+        {
+          "wrong": "Please you listen.",
+          "correct": "Please listen."
+        }
+      ]
+    },
+    {
+      "id": "starters_grammar_002",
+      "name": "imperative_negative",
+      "pattern": "Don't + Verb + (object/complement)",
+      "topic_ids": [
+        "topic_giving_instructions"
+      ],
+      "examples": [
+        {
+          "sentence": "Don't talk, please.",
+          "context": "teacher asking for silence"
+        },
+        {
+          "sentence": "Don't open your book.",
+          "context": "teacher setting up a game"
+        },
+        {
+          "sentence": "Don't look at the board.",
+          "context": "teacher starting a quiz"
+        },
+        {
+          "sentence": "Don't run in the class.",
+          "context": "teacher ensuring safety"
+        },
+        {
+          "sentence": "Don't use a red pen.",
+          "context": "teacher giving writing advice"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "No talk, please.",
+          "correct": "Don't talk, please."
+        },
+        {
+          "wrong": "Not look at the board.",
+          "correct": "Don't look at the board."
+        }
+      ]
+    },
+    {
+      "id": "starters_grammar_003",
+      "name": "present_simple_be",
+      "pattern": "Subject + am/is/are + noun/adjective",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_in_class",
+        "topic_praise_correction",
+        "topic_school_communication",
+        "topic_health",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "I am a teacher.",
+          "context": "introducing oneself"
+        },
+        {
+          "sentence": "He is a good student.",
+          "context": "praising a student"
+        },
+        {
+          "sentence": "I'm fine, thank you.",
+          "context": "responding to greeting"
+        },
+        {
+          "sentence": "Good job! That is good.",
+          "context": "praising an answer"
+        },
+        {
+          "sentence": "The class is ready.",
+          "context": "starting a lesson"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I teacher.",
+          "correct": "I am a teacher."
+        },
+        {
+          "wrong": "He very good student.",
+          "correct": "He is a very good student."
+        }
+      ]
+    },
+    {
+      "id": "starters_grammar_004",
+      "name": "present_simple_positive",
+      "pattern": "Subject + Verb + (object)",
+      "topic_ids": [
+        "topic_market",
+        "topic_restaurant",
+        "topic_travel",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "I go to the market.",
+          "context": "talking about routines"
+        },
+        {
+          "sentence": "I like rice.",
+          "context": "stating food preference"
+        },
+        {
+          "sentence": "We like English class.",
+          "context": "talking about interests"
+        },
+        {
+          "sentence": "I want water, please.",
+          "context": "asking for a drink"
+        },
+        {
+          "sentence": "You look at the board.",
+          "context": "describing classroom actions"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I like go to market.",
+          "correct": "I go to the market."
+        },
+        {
+          "wrong": "She like rice.",
+          "correct": "She likes rice."
+        }
+      ]
+    },
+    {
+      "id": "starters_grammar_005",
+      "name": "there_is_there_are",
+      "pattern": "There + is/are + noun",
+      "topic_ids": [
+        "topic_in_class"
+      ],
+      "examples": [
+        {
+          "sentence": "There is a pen on the desk.",
+          "context": "describing school items"
+        },
+        {
+          "sentence": "There are books on the desk.",
+          "context": "describing books"
+        },
+        {
+          "sentence": "There is a teacher in the class.",
+          "context": "classroom situation"
+        },
+        {
+          "sentence": "There is water, please.",
+          "context": "offering a drink"
+        },
+        {
+          "sentence": "There are students in the class.",
+          "context": "identifying people"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Have a pen on the desk.",
+          "correct": "There is a pen on the desk."
+        },
+        {
+          "wrong": "Has many books on the desk.",
+          "correct": "There are many books on the desk."
+        }
+      ]
+    },
+    {
+      "id": "starters_grammar_006",
+      "name": "this_that_these_those",
+      "pattern": "This/That + is + noun | These/Those + are + noun",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_checking_understanding",
+        "topic_market"
+      ],
+      "examples": [
+        {
+          "sentence": "This is a pen.",
+          "context": "teacher showing a classroom item"
+        },
+        {
+          "sentence": "That is a book.",
+          "context": "pointing across the room"
+        },
+        {
+          "sentence": "These are my students.",
+          "context": "introducing the class"
+        },
+        {
+          "sentence": "Those are your books.",
+          "context": "checking student belongings"
+        },
+        {
+          "sentence": "Is this your pen?",
+          "context": "finding a lost item in class"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "This are books.",
+          "correct": "These are books."
+        },
+        {
+          "wrong": "That are pens.",
+          "correct": "Those are pens."
+        }
+      ]
+    },
+    {
+      "id": "starters_grammar_007",
+      "name": "singular_plural",
+      "pattern": "one + noun | two/three/many + noun + -s/-es",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_market"
+      ],
+      "examples": [
+        {
+          "sentence": "I have two books.",
+          "context": "counting school supplies"
+        },
+        {
+          "sentence": "There are three pens.",
+          "context": "counting items on desk"
+        },
+        {
+          "sentence": "I see many students.",
+          "context": "looking at the classroom"
+        },
+        {
+          "sentence": "I want two bags of rice.",
+          "context": "buying at the market"
+        },
+        {
+          "sentence": "The teachers are here.",
+          "context": "morning greeting"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I have two book.",
+          "correct": "I have two books."
+        },
+        {
+          "wrong": "There are many student.",
+          "correct": "There are many students."
+        },
+        {
+          "wrong": "I see three teacher.",
+          "correct": "I see three teachers."
+        }
+      ]
+    },
+    {
+      "id": "starters_grammar_008",
+      "name": "basic_prepositions",
+      "pattern": "noun + is/are + in/on/under/next to + noun",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_giving_instructions"
+      ],
+      "examples": [
+        {
+          "sentence": "The pen is on the desk.",
+          "context": "describing classroom layout"
+        },
+        {
+          "sentence": "The book is under the chair.",
+          "context": "looking for a lost book"
+        },
+        {
+          "sentence": "Sit next to your friend.",
+          "context": "teacher giving seating instructions"
+        },
+        {
+          "sentence": "The teacher is in the class.",
+          "context": "describing who is where"
+        },
+        {
+          "sentence": "The water is on the table.",
+          "context": "pointing to a drink"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "The pen is in the desk.",
+          "correct": "The pen is on the desk."
+        },
+        {
+          "wrong": "Sit to next your friend.",
+          "correct": "Sit next to your friend."
+        }
+      ]
+    },
+    {
+      "id": "starters_grammar_009",
+      "name": "question_what",
+      "pattern": "What + is/are + this/that? | What + do/does + subject + verb?",
+      "topic_ids": [
+        "topic_checking_understanding",
+        "topic_in_class"
+      ],
+      "examples": [
+        {
+          "sentence": "What is this?",
+          "context": "teacher quizzing students"
+        },
+        {
+          "sentence": "What is your name?",
+          "context": "first day introduction"
+        },
+        {
+          "sentence": "What is on the desk?",
+          "context": "classroom activity"
+        },
+        {
+          "sentence": "What do you want?",
+          "context": "asking at the market"
+        },
+        {
+          "sentence": "What is it?",
+          "context": "teacher checking understanding"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "What this is?",
+          "correct": "What is this?"
+        },
+        {
+          "wrong": "What you want?",
+          "correct": "What do you want?"
+        }
+      ]
+    },
+    {
+      "id": "starters_grammar_010",
+      "name": "question_how_many",
+      "pattern": "How many + plural noun + are there / do you have?",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_market"
+      ],
+      "examples": [
+        {
+          "sentence": "How many books are there?",
+          "context": "counting classroom items"
+        },
+        {
+          "sentence": "How many students are here?",
+          "context": "taking attendance"
+        },
+        {
+          "sentence": "How many pens do you have?",
+          "context": "checking supplies"
+        },
+        {
+          "sentence": "How many teachers are in class?",
+          "context": "morning meeting"
+        },
+        {
+          "sentence": "How many do you want?",
+          "context": "buying at the market"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "How many book?",
+          "correct": "How many books are there?"
+        },
+        {
+          "wrong": "How much students?",
+          "correct": "How many students?"
+        }
+      ]
+    }
+  ]
+}

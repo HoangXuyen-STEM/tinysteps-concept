@@ -1,0 +1,220 @@
+{
+  "id": "starters_lesson_018",
+  "level": "starters",
+  "topic_id": "topic_school_communication",
+  "order": 18,
+  "title": "School communication",
+  "scenario": "You are in a teacher role. Use English naturally in this school communication situation.",
+  "estimated_minutes": 4,
+  "dialogue": {
+    "setting": "School meeting room, Wednesday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Minh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Mr. Hung",
+        "role": "parent"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Hello! I am Ms. Lan. I am Nam's teacher."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Hello! I am Mrs. Cuc. Nice to meet you."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Nice to meet you too."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you for teaching Nam."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "starters_vocab_020",
+    "starters_vocab_041",
+    "starters_vocab_052",
+    "starters_vocab_088",
+    "starters_vocab_175",
+    "starters_vocab_176",
+    "starters_vocab_177",
+    "starters_vocab_178",
+    "starters_vocab_179",
+    "starters_vocab_180",
+    "starters_vocab_181",
+    "starters_vocab_182",
+    "starters_vocab_183",
+    "starters_vocab_184"
+  ],
+  "grammar_ids": [
+    "starters_grammar_003"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a clean graphic illustration of a report",
+          "correct_answer": "report"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a behavior",
+          "correct_answer": "behavior"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a colleague",
+          "correct_answer": "colleague"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            ".",
+            "a",
+            "am",
+            "teacher",
+            "I"
+          ],
+          "correct_answer": "I am a teacher."
+        },
+        {
+          "words": [
+            ".",
+            "a",
+            "good",
+            "student",
+            "He",
+            "is"
+          ],
+          "correct_answer": "He is a good student."
+        },
+        {
+          "words": [
+            "you",
+            "thank",
+            ",",
+            "fine",
+            "I'm",
+            "."
+          ],
+          "correct_answer": "I'm fine, thank you."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I am a teacher.",
+          "options": [
+            "He is a good student.",
+            "I'm fine, thank you.",
+            "I am a teacher."
+          ],
+          "correct_answer": "I am a teacher."
+        },
+        {
+          "audio_text": "He is a good student.",
+          "options": [
+            "I'm fine, thank you.",
+            "I am a teacher.",
+            "He is a good student."
+          ],
+          "correct_answer": "He is a good student."
+        },
+        {
+          "audio_text": "I'm fine, thank you.",
+          "options": [
+            "I'm fine, thank you.",
+            "I am a teacher.",
+            "He is a good student."
+          ],
+          "correct_answer": "I'm fine, thank you."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ a teacher.",
+          "correct_answer": "am"
+        },
+        {
+          "prompt": "He ___ a good student.",
+          "correct_answer": "is"
+        },
+        {
+          "prompt": "___ fine, thank you.",
+          "correct_answer": "I'm"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a report). What is this?",
+          "options": [
+            "behavior",
+            "colleague",
+            "report"
+          ],
+          "correct_answer": "report"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a behavior). What is this?",
+          "options": [
+            "behavior",
+            "report",
+            "colleague"
+          ],
+          "correct_answer": "behavior"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a colleague). What is this?",
+          "options": [
+            "report",
+            "behavior",
+            "colleague"
+          ],
+          "correct_answer": "colleague"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "parent",
+    "scenario": "Ask about student progress at parent-teacher meeting.",
+    "opening_line": "Hello, teacher. I wanted to ask about my child's progress.",
+    "level_constraints": {
+      "max_sentence_length": 6,
+      "allowed_grammar": [
+        "starters_grammar_003"
+      ],
+      "target_vocabulary": [
+        "starters_vocab_020",
+        "starters_vocab_041",
+        "starters_vocab_052"
+      ]
+    },
+    "success_criteria": "Learner discusses student progress and provides constructive advice."
+  }
+}

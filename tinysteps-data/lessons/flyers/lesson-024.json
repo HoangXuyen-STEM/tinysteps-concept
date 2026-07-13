@@ -1,0 +1,247 @@
+{
+  "id": "flyers_lesson_024",
+  "level": "flyers",
+  "topic_id": "topic_social",
+  "order": 24,
+  "title": "Social conversations",
+  "scenario": "You are in a friend role. Use English naturally in this social situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "Park, sunny afternoon, Thursday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Vy",
+        "role": "friend"
+      },
+      {
+        "id": "char_b",
+        "name": "Lan",
+        "role": "friend"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "What a lovely afternoon! How have you been lately?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Very well, thank you. I have been quite busy with school."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I understand. I have been working on a new project."
+      },
+      {
+        "character_id": "char_b",
+        "text": "What kind of project? It sounds interesting."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I am developing new English activities for the students."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Furthermore, a social event for teachers would be a great idea."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I agree completely. Let's discuss the details over coffee."
+      },
+      {
+        "character_id": "char_b",
+        "text": "If I had known earlier, I would have planned something already."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_010",
+    "flyers_vocab_075",
+    "flyers_vocab_076",
+    "flyers_vocab_077",
+    "flyers_vocab_307",
+    "flyers_vocab_308",
+    "flyers_vocab_309",
+    "flyers_vocab_310",
+    "flyers_vocab_311",
+    "flyers_vocab_312",
+    "flyers_vocab_313",
+    "flyers_vocab_314",
+    "flyers_vocab_315",
+    "flyers_vocab_316",
+    "flyers_vocab_317",
+    "flyers_vocab_318",
+    "flyers_vocab_319"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_002",
+    "flyers_grammar_006"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a person watering a small green plant in a pot",
+          "correct_answer": "hobby"
+        },
+        {
+          "image_hint": "a colourful party invitation card on a table",
+          "correct_answer": "invitation"
+        },
+        {
+          "image_hint": "a colourful garden with flowers and a bench",
+          "correct_answer": "garden"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "by",
+            "train",
+            "going",
+            "I'm",
+            "travel",
+            ".",
+            "to"
+          ],
+          "correct_answer": "I'm going to travel by train."
+        },
+        {
+          "words": [
+            "doctor",
+            "to",
+            "is",
+            ".",
+            "going",
+            "She",
+            "call",
+            "the"
+          ],
+          "correct_answer": "She is going to call the doctor."
+        },
+        {
+          "words": [
+            ".",
+            "meeting",
+            "to",
+            "We",
+            "have",
+            "going",
+            "a",
+            "are"
+          ],
+          "correct_answer": "We are going to have a meeting."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I'm going to travel by train.",
+          "options": [
+            "We are going to have a meeting.",
+            "She is going to call the doctor.",
+            "I'm going to travel by train."
+          ],
+          "correct_answer": "I'm going to travel by train."
+        },
+        {
+          "audio_text": "She is going to call the doctor.",
+          "options": [
+            "We are going to have a meeting.",
+            "I'm going to travel by train.",
+            "She is going to call the doctor."
+          ],
+          "correct_answer": "She is going to call the doctor."
+        },
+        {
+          "audio_text": "We are going to have a meeting.",
+          "options": [
+            "She is going to call the doctor.",
+            "I'm going to travel by train.",
+            "We are going to have a meeting."
+          ],
+          "correct_answer": "We are going to have a meeting."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I'm ___ to travel by train.",
+          "correct_answer": "going"
+        },
+        {
+          "prompt": "She is ___ to call the doctor.",
+          "correct_answer": "going"
+        },
+        {
+          "prompt": "We are ___ to have a meeting.",
+          "correct_answer": "going"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a person watering a small green plant in a pot). What is this?",
+          "options": [
+            "invitation",
+            "hobby",
+            "garden"
+          ],
+          "correct_answer": "hobby"
+        },
+        {
+          "prompt": "Look at the picture (a colourful party invitation card on a table). What is this?",
+          "options": [
+            "hobby",
+            "garden",
+            "invitation"
+          ],
+          "correct_answer": "invitation"
+        },
+        {
+          "prompt": "Look at the picture (a colourful garden with flowers and a bench). What is this?",
+          "options": [
+            "garden",
+            "hobby",
+            "invitation"
+          ],
+          "correct_answer": "garden"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "colleague",
+    "scenario": "Have casual chat about weekend plans.",
+    "opening_line": "Hi! What a nice day. What are your plans for the weekend?",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_002",
+        "flyers_grammar_006"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_010",
+        "flyers_vocab_075",
+        "flyers_vocab_076"
+      ]
+    },
+    "success_criteria": "Learner makes friendly small talk and discusses personal hobbies."
+  }
+}

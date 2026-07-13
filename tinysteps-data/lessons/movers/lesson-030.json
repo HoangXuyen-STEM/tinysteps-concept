@@ -1,0 +1,232 @@
+{
+  "id": "movers_lesson_030",
+  "level": "movers",
+  "topic_id": "topic_school_communication",
+  "order": 30,
+  "title": "School communication",
+  "scenario": "You are in a teacher role. Use English naturally in this school communication situation.",
+  "estimated_minutes": 6,
+  "dialogue": {
+    "setting": "School meeting room, Friday afternoon",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Mr. Minh",
+        "role": "teacher"
+      },
+      {
+        "id": "char_b",
+        "name": "Mrs. Cuc",
+        "role": "parent"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good afternoon. I am Duy's teacher."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Hello, teacher. How is Duy doing in class?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "He is doing well. But he was absent yesterday."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I am sorry. He was sick at home."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Please tell him to complete the reading task."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I will tell him today. Thank you for calling."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "movers_vocab_009",
+    "movers_vocab_015",
+    "movers_vocab_016",
+    "movers_vocab_017",
+    "movers_vocab_011",
+    "movers_vocab_012",
+    "movers_vocab_013",
+    "movers_vocab_014",
+    "movers_vocab_018",
+    "movers_vocab_019",
+    "movers_vocab_020",
+    "movers_vocab_021",
+    "movers_vocab_022",
+    "movers_vocab_023",
+    "movers_vocab_024",
+    "movers_vocab_025",
+    "movers_vocab_026",
+    "movers_vocab_027"
+  ],
+  "grammar_ids": [
+    "movers_grammar_008"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a person in bed with a thermometer in their mouth",
+          "correct_answer": "sick"
+        },
+        {
+          "image_hint": "a simple, clear colorful visualization of official",
+          "correct_answer": "official"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a colleague",
+          "correct_answer": "colleagues"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            ".",
+            "This",
+            "my",
+            "book",
+            "is"
+          ],
+          "correct_answer": "This is my book."
+        },
+        {
+          "words": [
+            "?",
+            "your",
+            "is",
+            "Where",
+            "homework"
+          ],
+          "correct_answer": "Where is your homework?"
+        },
+        {
+          "words": [
+            ".",
+            "is",
+            "pen",
+            "the",
+            "on",
+            "His",
+            "desk"
+          ],
+          "correct_answer": "His pen is on the desk."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "This is my book.",
+          "options": [
+            "His pen is on the desk.",
+            "This is my book.",
+            "Where is your homework?"
+          ],
+          "correct_answer": "This is my book."
+        },
+        {
+          "audio_text": "Where is your homework?",
+          "options": [
+            "His pen is on the desk.",
+            "This is my book.",
+            "Where is your homework?"
+          ],
+          "correct_answer": "Where is your homework?"
+        },
+        {
+          "audio_text": "His pen is on the desk.",
+          "options": [
+            "Where is your homework?",
+            "This is my book.",
+            "His pen is on the desk."
+          ],
+          "correct_answer": "His pen is on the desk."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "___ is my book.",
+          "correct_answer": "This"
+        },
+        {
+          "prompt": "___ is your homework?",
+          "correct_answer": "Where"
+        },
+        {
+          "prompt": "___ pen is on the desk.",
+          "correct_answer": "His"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a person in bed with a thermometer in their mouth). What is this?",
+          "options": [
+            "official",
+            "colleagues",
+            "sick"
+          ],
+          "correct_answer": "sick"
+        },
+        {
+          "prompt": "Look at the picture (a simple, clear colorful visualization of official). What is this?",
+          "options": [
+            "sick",
+            "colleagues",
+            "official"
+          ],
+          "correct_answer": "official"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a colleague). What is this?",
+          "options": [
+            "sick",
+            "official",
+            "colleagues"
+          ],
+          "correct_answer": "colleagues"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "parent",
+    "scenario": "Ask about student progress at parent-teacher meeting.",
+    "opening_line": "Hello, teacher. I wanted to ask about my child's progress.",
+    "level_constraints": {
+      "max_sentence_length": 8,
+      "allowed_grammar": [
+        "movers_grammar_008"
+      ],
+      "target_vocabulary": [
+        "movers_vocab_009",
+        "movers_vocab_015",
+        "movers_vocab_016"
+      ]
+    },
+    "success_criteria": "Learner discusses student progress and provides constructive advice."
+  }
+}

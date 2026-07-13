@@ -1,0 +1,252 @@
+{
+  "id": "pet_lesson_011",
+  "level": "pet",
+  "topic_id": "topic_health",
+  "order": 11,
+  "title": "Health and the doctor",
+  "scenario": "You are in a patient role. Use English naturally in this health situation.",
+  "estimated_minutes": 12,
+  "dialogue": {
+    "setting": "School clinic, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "Vy",
+        "role": "patient"
+      },
+      {
+        "id": "char_b",
+        "name": "Doctor",
+        "role": "doctor"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Good morning. I have a terrible headache and a high fever."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I am sorry to hear that. How long have you had these symptoms?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "The fever started two days ago and has not improved."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I see. I will write a prescription for you."
+      },
+      {
+        "character_id": "char_a",
+        "text": "Should I describe any other symptoms?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Yes, do you have a sore throat or difficulty breathing?"
+      },
+      {
+        "character_id": "char_a",
+        "text": "No, just the headache and fever."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Please take the medicine after meals and rest completely."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "pet_vocab_002",
+    "pet_vocab_005",
+    "pet_vocab_020",
+    "pet_vocab_030",
+    "pet_vocab_135",
+    "pet_vocab_136",
+    "pet_vocab_137",
+    "pet_vocab_138",
+    "pet_vocab_139",
+    "pet_vocab_140",
+    "pet_vocab_141",
+    "pet_vocab_142",
+    "pet_vocab_143",
+    "pet_vocab_144",
+    "pet_vocab_145",
+    "pet_vocab_146",
+    "pet_vocab_147"
+  ],
+  "grammar_ids": [
+    "pet_grammar_004",
+    "pet_grammar_005"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a green leaf logo with the letter V on a salad bowl",
+          "correct_answer": "vegetarian"
+        },
+        {
+          "image_hint": "a medical paper sheet with prescription details and stamp",
+          "correct_answer": "prescription"
+        },
+        {
+          "image_hint": "a clean graphic illustration of a health",
+          "correct_answer": "health"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            "that",
+            "was",
+            "He",
+            "sick",
+            "he",
+            ".",
+            "said"
+          ],
+          "correct_answer": "He said that he was sick."
+        },
+        {
+          "words": [
+            "progress",
+            "was",
+            "parent",
+            ".",
+            "she",
+            "happy",
+            "said",
+            "The",
+            "the",
+            "very",
+            "with"
+          ],
+          "correct_answer": "The parent said she was very happy with the progress."
+        },
+        {
+          "words": [
+            "My",
+            "colleague",
+            ".",
+            "already",
+            "email",
+            "said",
+            "he",
+            "sent",
+            "had",
+            "the"
+          ],
+          "correct_answer": "My colleague said he had already sent the email."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "He said that he was sick.",
+          "options": [
+            "He said that he was sick.",
+            "The parent said she was very happy with the progress.",
+            "My colleague said he had already sent the email."
+          ],
+          "correct_answer": "He said that he was sick."
+        },
+        {
+          "audio_text": "The parent said she was very happy with the progress.",
+          "options": [
+            "He said that he was sick.",
+            "My colleague said he had already sent the email.",
+            "The parent said she was very happy with the progress."
+          ],
+          "correct_answer": "The parent said she was very happy with the progress."
+        },
+        {
+          "audio_text": "My colleague said he had already sent the email.",
+          "options": [
+            "The parent said she was very happy with the progress.",
+            "My colleague said he had already sent the email.",
+            "He said that he was sick."
+          ],
+          "correct_answer": "My colleague said he had already sent the email."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "He ___ that he was sick.",
+          "correct_answer": "said"
+        },
+        {
+          "prompt": "The parent ___ she was very happy with the progress.",
+          "correct_answer": "said"
+        },
+        {
+          "prompt": "My colleague ___ he had already sent the email.",
+          "correct_answer": "said"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a green leaf logo with the letter V on a salad bowl). What is this?",
+          "options": [
+            "vegetarian",
+            "health",
+            "prescription"
+          ],
+          "correct_answer": "vegetarian"
+        },
+        {
+          "prompt": "Look at the picture (a medical paper sheet with prescription details and stamp). What is this?",
+          "options": [
+            "health",
+            "vegetarian",
+            "prescription"
+          ],
+          "correct_answer": "prescription"
+        },
+        {
+          "prompt": "Look at the picture (a clean graphic illustration of a health). What is this?",
+          "options": [
+            "vegetarian",
+            "prescription",
+            "health"
+          ],
+          "correct_answer": "health"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "doctor",
+    "scenario": "Diagnose a patient's symptoms at the clinic.",
+    "opening_line": "Hello. Please sit down. What are your symptoms today?",
+    "level_constraints": {
+      "max_sentence_length": 15,
+      "allowed_grammar": [
+        "pet_grammar_004",
+        "pet_grammar_005"
+      ],
+      "target_vocabulary": [
+        "pet_vocab_002",
+        "pet_vocab_005",
+        "pet_vocab_020"
+      ]
+    },
+    "success_criteria": "Learner describes symptoms clearly and asks for medical advice."
+  }
+}

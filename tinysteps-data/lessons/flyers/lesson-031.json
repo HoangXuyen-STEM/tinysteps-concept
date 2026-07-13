@@ -1,0 +1,243 @@
+{
+  "id": "flyers_lesson_031",
+  "level": "flyers",
+  "topic_id": "topic_market",
+  "order": 31,
+  "title": "At the market",
+  "scenario": "You are in a buyer role. Use English naturally in this market situation.",
+  "estimated_minutes": 8,
+  "dialogue": {
+    "setting": "Local market stall, Monday morning",
+    "characters": [
+      {
+        "id": "char_a",
+        "name": "An",
+        "role": "buyer"
+      },
+      {
+        "id": "char_b",
+        "name": "Seller",
+        "role": "seller"
+      }
+    ],
+    "lines": [
+      {
+        "character_id": "char_a",
+        "text": "Could I see the price list for these items, please?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "Of course. Here is today's price list."
+      },
+      {
+        "character_id": "char_a",
+        "text": "The price for organic vegetables is quite high."
+      },
+      {
+        "character_id": "char_b",
+        "text": "I apologise, but the quality is excellent."
+      },
+      {
+        "character_id": "char_a",
+        "text": "I always bargain at the market. Can we negotiate?"
+      },
+      {
+        "character_id": "char_b",
+        "text": "If you buy five kilos, I will give you a ten percent discount."
+      },
+      {
+        "character_id": "char_a",
+        "text": "That sounds fair. I will take five kilos."
+      },
+      {
+        "character_id": "char_b",
+        "text": "Thank you. Here is your bill and your change."
+      }
+    ]
+  },
+  "vocabulary_ids": [
+    "flyers_vocab_005",
+    "flyers_vocab_050",
+    "flyers_vocab_051",
+    "flyers_vocab_052",
+    "flyers_vocab_398",
+    "flyers_vocab_399",
+    "flyers_vocab_400",
+    "flyers_vocab_401",
+    "flyers_vocab_402",
+    "flyers_vocab_403",
+    "flyers_vocab_404",
+    "flyers_vocab_405",
+    "flyers_vocab_406",
+    "flyers_vocab_407",
+    "flyers_vocab_408",
+    "flyers_vocab_409",
+    "flyers_vocab_410"
+  ],
+  "grammar_ids": [
+    "flyers_grammar_001",
+    "flyers_grammar_006"
+  ],
+  "exercises": [
+    {
+      "type": "match",
+      "instruction": "Match the picture with the correct word.",
+      "items": [
+        {
+          "image_hint": "a small leather folder holding a receipt on a table",
+          "correct_answer": "bill"
+        },
+        {
+          "image_hint": "organic vegetables with a green organic label",
+          "correct_answer": "organic"
+        },
+        {
+          "image_hint": "a sale sign showing 20 percent discount",
+          "correct_answer": "discount"
+        }
+      ]
+    },
+    {
+      "type": "arrange",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "words": [
+            ".",
+            "have",
+            "sent",
+            "an",
+            "you",
+            "email",
+            "I"
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "words": [
+            "He",
+            "has",
+            "homework",
+            "finished",
+            ".",
+            "the"
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "words": [
+            "the",
+            "have",
+            "I",
+            ".",
+            "bought",
+            "fruit"
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "I have sent you an email.",
+          "options": [
+            "I have sent you an email.",
+            "I have bought the fruit.",
+            "He has finished the homework."
+          ],
+          "correct_answer": "I have sent you an email."
+        },
+        {
+          "audio_text": "He has finished the homework.",
+          "options": [
+            "I have sent you an email.",
+            "I have bought the fruit.",
+            "He has finished the homework."
+          ],
+          "correct_answer": "He has finished the homework."
+        },
+        {
+          "audio_text": "I have bought the fruit.",
+          "options": [
+            "I have bought the fruit.",
+            "I have sent you an email.",
+            "He has finished the homework."
+          ],
+          "correct_answer": "I have bought the fruit."
+        }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "instruction": "Fill in the missing word.",
+      "items": [
+        {
+          "prompt": "I ___ sent you an email.",
+          "correct_answer": "have"
+        },
+        {
+          "prompt": "He ___ finished the homework.",
+          "correct_answer": "has"
+        },
+        {
+          "prompt": "I ___ bought the fruit.",
+          "correct_answer": "have"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the best answer.",
+      "items": [
+        {
+          "prompt": "Look at the picture (a small leather folder holding a receipt on a table). What is this?",
+          "options": [
+            "bill",
+            "organic",
+            "discount"
+          ],
+          "correct_answer": "bill"
+        },
+        {
+          "prompt": "Look at the picture (organic vegetables with a green organic label). What is this?",
+          "options": [
+            "bill",
+            "organic",
+            "discount"
+          ],
+          "correct_answer": "organic"
+        },
+        {
+          "prompt": "Look at the picture (a sale sign showing 20 percent discount). What is this?",
+          "options": [
+            "bill",
+            "discount",
+            "organic"
+          ],
+          "correct_answer": "discount"
+        }
+      ]
+    }
+  ],
+  "ai_conversation": {
+    "role": "seller",
+    "scenario": "Bargain with a buyer at the market stall.",
+    "opening_line": "Fresh vegetables here! Would you like to buy some?",
+    "level_constraints": {
+      "max_sentence_length": 10,
+      "allowed_grammar": [
+        "flyers_grammar_001",
+        "flyers_grammar_006"
+      ],
+      "target_vocabulary": [
+        "flyers_vocab_005",
+        "flyers_vocab_050",
+        "flyers_vocab_051"
+      ]
+    },
+    "success_criteria": "Learner asks for prices and negotiates politely."
+  }
+}

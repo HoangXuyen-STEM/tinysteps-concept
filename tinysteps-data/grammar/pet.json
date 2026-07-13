@@ -1,0 +1,442 @@
+{
+  "level": "pet",
+  "total_points": 10,
+  "grammar_points": [
+    {
+      "id": "pet_grammar_001",
+      "name": "second_conditional",
+      "pattern": "If + Subject + Past-Simple, Subject + would + Verb-infinitive",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_checking_understanding",
+        "topic_market",
+        "topic_phone",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "If I had a question, I would ask the teacher.",
+          "context": "describing school learning strategies"
+        },
+        {
+          "sentence": "If they didn't understand, I would explain it again.",
+          "context": "describing teacher intervention"
+        },
+        {
+          "sentence": "If the price were lower, I would buy more fruit.",
+          "context": "at the market"
+        },
+        {
+          "sentence": "If the parent called, I would answer immediately.",
+          "context": "discussing phone policy"
+        },
+        {
+          "sentence": "If I had time, I would try a new hobby.",
+          "context": "social talk about dreams"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "If I have a question, I would ask.",
+          "correct": "If I had a question, I would ask."
+        },
+        {
+          "wrong": "If the price was lower, I will buy more.",
+          "correct": "If the price were lower, I would buy more."
+        }
+      ]
+    },
+    {
+      "id": "pet_grammar_002",
+      "name": "present_perfect_continuous",
+      "pattern": "Subject + have/has + been + Verb-ing",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_school_communication"
+      ],
+      "examples": [
+        {
+          "sentence": "I've been teaching here for ten years.",
+          "context": "describing teaching career"
+        },
+        {
+          "sentence": "We've been preparing this lesson since morning.",
+          "context": "describing lesson prep work"
+        },
+        {
+          "sentence": "My colleague has been discussing the schedule with the headteacher.",
+          "context": "describing ongoing discussions"
+        },
+        {
+          "sentence": "They have been complaining about the delay.",
+          "context": "handling feedback"
+        },
+        {
+          "sentence": "The parent has been waiting on the phone.",
+          "context": "managing phone queues"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I have taught here since morning. (when emphasizing the ongoing duration)",
+          "correct": "I have been teaching here since morning."
+        },
+        {
+          "wrong": "He has being teaching English.",
+          "correct": "He has been teaching English."
+        }
+      ],
+      "builds_on": [
+        "ket_grammar_001"
+      ]
+    },
+    {
+      "id": "pet_grammar_003",
+      "name": "wish_past_simple",
+      "pattern": "Subject + wish(es) + Subject + Past-Simple",
+      "topic_ids": [
+        "topic_in_class",
+        "topic_praise_correction",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "I wish I could improve my vocabulary faster.",
+          "context": "expressing learning desire"
+        },
+        {
+          "sentence": "I wish the safety procedure were simpler.",
+          "context": "complaining about paperwork"
+        },
+        {
+          "sentence": "I wish you didn't make that mistake.",
+          "context": "expressing gentle regret on a task"
+        },
+        {
+          "sentence": "She wishes she had a vegetarian option.",
+          "context": "dining preference regret"
+        },
+        {
+          "sentence": "I wish I apologized to my colleague yesterday.",
+          "context": "social small talk regret"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I wish I can speak English.",
+          "correct": "I wish I could speak English."
+        },
+        {
+          "wrong": "He wishes he has more money.",
+          "correct": "He wishes he had more money."
+        }
+      ]
+    },
+    {
+      "id": "pet_grammar_004",
+      "name": "reported_speech",
+      "pattern": "Subject + said + (that) + clause (backshifted)",
+      "topic_ids": [
+        "topic_school_communication",
+        "topic_phone",
+        "topic_health"
+      ],
+      "examples": [
+        {
+          "sentence": "He said that he was sick.",
+          "context": "reporting absent student"
+        },
+        {
+          "sentence": "The parent said she was very happy with the progress.",
+          "context": "sharing good feedback"
+        },
+        {
+          "sentence": "My colleague said he had already sent the email.",
+          "context": "confirming team status"
+        },
+        {
+          "sentence": "The doctor said that I needed medicine.",
+          "context": "reporting medical checkup"
+        },
+        {
+          "sentence": "She said she preferred vegetarian food.",
+          "context": "restaurant group dining prep"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "He said he is sick yesterday.",
+          "correct": "He said he was sick yesterday."
+        },
+        {
+          "wrong": "She said me she liked it. (when using say)",
+          "correct": "She told me she liked it. OR She said she liked it."
+        }
+      ],
+      "builds_on": [
+        "flyers_grammar_005"
+      ]
+    },
+    {
+      "id": "pet_grammar_005",
+      "name": "passive_with_modals",
+      "pattern": "Subject + modal + be + Verb-ed/3",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_restaurant",
+        "topic_travel",
+        "topic_health"
+      ],
+      "examples": [
+        {
+          "sentence": "The safety procedure must be followed by everyone.",
+          "context": "giving safety rules"
+        },
+        {
+          "sentence": "The reservation should be confirmed before Friday.",
+          "context": "dining or travel organization"
+        },
+        {
+          "sentence": "The ticket can be bought at the airport.",
+          "context": "giving travel advice"
+        },
+        {
+          "sentence": "The medicine should be taken after meals.",
+          "context": "giving health instructions"
+        },
+        {
+          "sentence": "The lesson plans could be improved next week.",
+          "context": "suggesting school enhancements"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "The safety procedure must follow by everyone.",
+          "correct": "The safety procedure must be followed by everyone."
+        },
+        {
+          "wrong": "The reservation should be confirm before Friday.",
+          "correct": "The reservation should be confirmed before Friday."
+        }
+      ],
+      "builds_on": [
+        "flyers_grammar_003",
+        "flyers_grammar_004"
+      ]
+    },
+    {
+      "id": "pet_grammar_006",
+      "name": "although_however_despite",
+      "pattern": "Although + clause, clause | However, clause | Despite + noun/-ing, clause",
+      "topic_ids": [
+        "topic_school_communication",
+        "topic_social",
+        "topic_restaurant"
+      ],
+      "examples": [
+        {
+          "sentence": "Although the lesson was long, the students enjoyed it.",
+          "context": "reflecting on a class"
+        },
+        {
+          "sentence": "The food was expensive. However, the quality was excellent.",
+          "context": "restaurant review"
+        },
+        {
+          "sentence": "Despite the delay, we arrived on time.",
+          "context": "travel update"
+        },
+        {
+          "sentence": "Although I apologised, she was still upset.",
+          "context": "resolving a misunderstanding"
+        },
+        {
+          "sentence": "Despite the bad weather, we had a productive meeting.",
+          "context": "school event review"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Although it was long but they enjoyed it.",
+          "correct": "Although it was long, they enjoyed it."
+        },
+        {
+          "wrong": "Despite of the delay, we arrived.",
+          "correct": "Despite the delay, we arrived."
+        }
+      ]
+    },
+    {
+      "id": "pet_grammar_007",
+      "name": "purpose_so_that",
+      "pattern": "clause + so that + clause | clause + in order to + verb",
+      "topic_ids": [
+        "topic_giving_instructions",
+        "topic_school_communication",
+        "topic_travel"
+      ],
+      "examples": [
+        {
+          "sentence": "I studied hard so that I could pass the exam.",
+          "context": "explaining motivation"
+        },
+        {
+          "sentence": "We left early in order to arrive on time.",
+          "context": "travel planning"
+        },
+        {
+          "sentence": "I wrote a report so that the principal could review it.",
+          "context": "school admin work"
+        },
+        {
+          "sentence": "She took medicine in order to feel better.",
+          "context": "health routine"
+        },
+        {
+          "sentence": "I called the parent so that they would know.",
+          "context": "school communication"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I studied hard for pass the exam.",
+          "correct": "I studied hard in order to pass the exam."
+        },
+        {
+          "wrong": "I left early so that arrive on time.",
+          "correct": "I left early so that I could arrive on time."
+        }
+      ]
+    },
+    {
+      "id": "pet_grammar_008",
+      "name": "have_something_done",
+      "pattern": "Subject + have/had + object + past participle",
+      "topic_ids": [
+        "topic_health",
+        "topic_travel",
+        "topic_school_communication"
+      ],
+      "examples": [
+        {
+          "sentence": "I had my car fixed last week.",
+          "context": "telling a colleague about weekend"
+        },
+        {
+          "sentence": "She had her hair cut before the meeting.",
+          "context": "social chat"
+        },
+        {
+          "sentence": "We had the report printed by the office.",
+          "context": "school admin"
+        },
+        {
+          "sentence": "I need to have my eyes checked by the doctor.",
+          "context": "health appointment"
+        },
+        {
+          "sentence": "He had his phone repaired at the shop.",
+          "context": "explaining absence of phone"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "I had fixed my car. (meaning someone else did it)",
+          "correct": "I had my car fixed."
+        },
+        {
+          "wrong": "I have the report print.",
+          "correct": "I had the report printed."
+        }
+      ]
+    },
+    {
+      "id": "pet_grammar_009",
+      "name": "complex_questions",
+      "pattern": "Do you know / Could you tell me + wh-word + subject + verb?",
+      "topic_ids": [
+        "topic_checking_understanding",
+        "topic_restaurant",
+        "topic_social"
+      ],
+      "examples": [
+        {
+          "sentence": "Do you know where the nearest hospital is?",
+          "context": "asking for directions"
+        },
+        {
+          "sentence": "Could you tell me what time the meeting starts?",
+          "context": "checking schedule"
+        },
+        {
+          "sentence": "I wonder if the reservation has been confirmed.",
+          "context": "restaurant booking"
+        },
+        {
+          "sentence": "Do you have any idea how long the delay will be?",
+          "context": "travel disruption"
+        },
+        {
+          "sentence": "Can you explain why the student was absent?",
+          "context": "school communication"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Do you know where is the hospital?",
+          "correct": "Do you know where the hospital is?"
+        },
+        {
+          "wrong": "Can you tell me what time does it start?",
+          "correct": "Can you tell me what time it starts?"
+        }
+      ],
+      "builds_on": [
+        "movers_grammar_009",
+        "flyers_grammar_009"
+      ]
+    },
+    {
+      "id": "pet_grammar_010",
+      "name": "linking_words",
+      "pattern": "Furthermore / Moreover / On the other hand / Nevertheless + , + clause",
+      "topic_ids": [
+        "topic_school_communication",
+        "topic_social",
+        "topic_giving_instructions"
+      ],
+      "examples": [
+        {
+          "sentence": "Furthermore, we need to prepare the worksheets.",
+          "context": "staff meeting discussion"
+        },
+        {
+          "sentence": "On the other hand, the students might prefer a project.",
+          "context": "debating lesson ideas"
+        },
+        {
+          "sentence": "In addition, the principal has approved the new schedule.",
+          "context": "sharing school updates"
+        },
+        {
+          "sentence": "Nevertheless, we should continue with the original plan.",
+          "context": "decision making"
+        },
+        {
+          "sentence": "Moreover, the feedback from parents has been very positive.",
+          "context": "reporting to colleagues"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Furthermore we need to prepare.",
+          "correct": "Furthermore, we need to prepare."
+        },
+        {
+          "wrong": "On other hand, they might prefer.",
+          "correct": "On the other hand, they might prefer."
+        }
+      ]
+    }
+  ]
+}

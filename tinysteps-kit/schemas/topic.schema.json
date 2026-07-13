@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TinySteps Topics File",
+  "description": "All 12 topics with spiral progression mapping across levels",
+  "type": "object",
+  "required": ["total_topics", "topic_groups", "topics"],
+  "properties": {
+    "total_topics": {
+      "type": "integer",
+      "const": 12
+    },
+    "topic_groups": {
+      "type": "array",
+      "description": "Two groups: school (6 topics) and daily_life (6 topics)",
+      "items": {
+        "type": "object",
+        "required": ["group_id", "group_name", "topic_ids"],
+        "properties": {
+          "group_id": {
+            "type": "string",
+            "enum": ["school", "daily_life"]
+          },
+          "group_name": {
+            "type": "string"
+          },
+          "topic_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description", "group_id", "spiral"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^topic_",
+            "description": "Unique topic ID. Format: topic_{short_name}"
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name in English"
+          },
+          "description": {
+            "type": "string",
+            "description": "Short description of what this topic covers"
+          },
+          "group_id": {
+            "type": "string",
+            "enum": ["school", "daily_life"]
+          },
+          "spiral": {
+            "type": "array",
+            "description": "How this topic appears at each level — the spiral progression",
+            "items": {
+              "type": "object",
+              "required": ["level", "focus", "can_do_statement", "example_sentences"],
+              "properties": {
+                "level": {
+                  "type": "string",
+                  "enum": ["starters", "movers", "flyers", "ket", "pet"]
+                },
+                "focus": {
+                  "type": "string",
+                  "description": "What aspect of this topic is covered at this level"
+                },
+                "can_do_statement": {
+                  "type": "string",
+                  "description": "CEFR can-do statement. What the learner can do after this level for this topic."
+                },
+                "example_sentences": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "3-5 example sentences showing the complexity at this level"
+                },
+                "vocabulary_ids": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "IDs of vocabulary items used in this topic at this level"
+                },
+                "grammar_ids": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "IDs of grammar points used in this topic at this level"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "examples": [
+    {
+      "total_topics": 12,
+      "topic_groups": [
+        {
+          "group_id": "school",
+          "group_name": "School & Teaching",
+          "topic_ids": ["topic_before_class", "topic_in_class", "topic_giving_instructions", "topic_checking_understanding", "topic_praise_correction", "topic_school_communication"]
+        },
+        {
+          "group_id": "daily_life",
+          "group_name": "Daily Life",
+          "topic_ids": ["topic_market", "topic_restaurant", "topic_travel", "topic_phone", "topic_health", "topic_social"]
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic_in_class",
+          "name": "In class",
+          "description": "Communication during lessons — managing activities, asking questions, responding to students",
+          "group_id": "school",
+          "spiral": [
+            {
+              "level": "starters",
+              "focus": "Basic classroom objects and simple commands",
+              "can_do_statement": "Can name classroom objects and follow simple instructions",
+              "example_sentences": [
+                "Open your book.",
+                "This is a pen.",
+                "Sit down, please."
+              ],
+              "vocabulary_ids": ["starters_vocab_010", "starters_vocab_011"],
+              "grammar_ids": ["starters_grammar_001"]
+            },
+            {
+              "level": "flyers",
+              "focus": "Managing group activities and giving feedback",
+              "can_do_statement": "Can manage classroom activities and give simple feedback in English",
+              "example_sentences": [
+                "Work in pairs for five minutes.",
+                "Can you explain your answer?",
+                "That's a good point, but let's think about it more."
+              ],
+              "vocabulary_ids": ["flyers_vocab_020", "flyers_vocab_021"],
+              "grammar_ids": ["flyers_grammar_005"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
