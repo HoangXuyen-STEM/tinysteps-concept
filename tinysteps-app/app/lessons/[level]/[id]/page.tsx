@@ -1,12 +1,63 @@
 import { notFound } from "next/navigation";
 import { getLesson } from "@/lib/content/lesson-loader";
+import { audioUrl } from "@/lib/content/audio-manifest";
+import { getLessonProgress } from "@/lib/progress/lesson-progress-queries";
 import { levels, type Level } from "@/lib/types/content-types";
+import { LessonPlayer } from "@/components/lesson/lesson-player";
+import {
+  lineKey,
+  exerciseListenKey,
+  DIALOGUE_FULL_KEY,
+} from "@/lib/audio/audio-keys";
 
-const isLevel = (value: string): value is Level => levels.includes(value as Level);
+const isLevel = (value: string): value is Level =>
+  levels.includes(value as Level);
 
-export default async function LessonPage({ params }: { params: Promise<{ level: string; id: string }> }) {
+export default async function LessonPage({
+  params,
+}: {
+  params: Promise<{ level: string; id: string }>;
+}) {
   const { level, id } = await params;
   const lesson = getLesson(id);
-  if (!isLevel(level) || lesson?.level !== level) notFound();
-  return <main><p className="text-sm font-semibold capitalize text-teal-700">{lesson.level} · {lesson.estimated_minutes} min</p><h1 className="mt-1 text-2xl font-bold">{lesson.title}</h1><p className="mt-3 text-slate-600">{lesson.scenario}</p><section className="mt-6 rounded-2xl bg-white p-5 shadow-sm"><h2 className="font-bold">{lesson.dialogue.setting}</h2><p className="mt-2 text-sm text-slate-600">Lesson player and exercises arrive in Phase 04.</p></section></main>;
+
+  if (!isLevel(level) || lesson?.level !== level) {
+    notFound();
+  }
+
+  // Fetch progress
+  const progress = await getLessonProgress(id);
+
+  // Pre-resolve all audio URLs needed by the client player
+  const audioUrls: Record<string, string | null> = {};
+  
+  const resolveUrl = (key: string) => {
+    return audioUrl("lessons", id, key) ?? null;
+  };
+
+  audioUrls[DIALOGUE_FULL_KEY] = resolveUrl(DIALOGUE_FULL_KEY);
+
+  lesson.dialogue.lines.forEach((_, index) => {
+    const key = lineKey(index);
+    audioUrls[key] = resolveUrl(key);
+  });
+
+  lesson.exercises.forEach((ex) => {
+    if (ex.type === "listen_choose") {
+      ex.items.forEach((_, index) => {
+        const key = exerciseListenKey(index);
+        audioUrls[key] = resolveUrl(key);
+      });
+    }
+  });
+
+  return (
+    <main>
+      <LessonPlayer
+        lesson={lesson}
+        audioUrls={audioUrls}
+        initialProgress={progress}
+      />
+    </main>
+  );
 }
