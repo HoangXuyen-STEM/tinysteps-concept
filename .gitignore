@@ -47,6 +47,8 @@ pnpm-lock.yaml
 !tinysteps-app/.env.local.example
 *.swp
 *.swo
+recovery-codes.txt
+github-recovery-codes.txt
 .venv/
 
 # vercel
