@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import { AppNavigation } from "@/components/app-navigation";
 import "./globals.css";
 
+// Root layout owns only the document shell. App chrome (header, bottom nav) lives in
+// the (app) group so marketing pages can present a full-width sales page without a
+// navigation bar pointing at screens a signed-out visitor cannot reach.
 export const metadata: Metadata = {
   title: "TinySteps",
   description: "English practice in small, practical steps.",
@@ -14,16 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi">
-      <body>
-        <div className="mx-auto min-h-screen max-w-3xl px-4 pb-24 pt-6 sm:px-6">
-          <header className="mb-8">
-            <p className="text-sm font-semibold tracking-wide text-teal-700">TinySteps</p>
-            <p className="mt-1 text-sm text-slate-600">English for everyday teaching.</p>
-          </header>
-          {children}
-        </div>
-        <AppNavigation />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

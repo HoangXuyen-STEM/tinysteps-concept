@@ -89,6 +89,7 @@ export function LessonPlayer({ lesson, audioUrls, initialProgress }: Props) {
         {playerState === "exercises" && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <ExerciseRunner
+              lessonId={lesson.id}
               exercises={lesson.exercises}
               audioUrls={audioUrls}
               onComplete={handleExercisesComplete}

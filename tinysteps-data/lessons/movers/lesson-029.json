@@ -81,8 +81,8 @@
           "correct_answer": "great"
         },
         {
-          "image_hint": "a clean graphic illustration of a progress",
-          "correct_answer": "progresss"
+          "image_hint": "a shiny gold star sticker on a notebook page",
+          "correct_answer": "sticker"
         },
         {
           "image_hint": "a clean graphic illustration of a correction",
@@ -186,25 +186,25 @@
           "options": [
             "corrections",
             "great",
-            "progresss"
+            "sticker"
           ],
           "correct_answer": "great"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a progress). What is this?",
+          "prompt": "Look at the picture (a shiny gold star sticker on a notebook page). What is this?",
           "options": [
             "corrections",
-            "progresss",
+            "sticker",
             "great"
           ],
-          "correct_answer": "progresss"
+          "correct_answer": "sticker"
         },
         {
           "prompt": "Look at the picture (a clean graphic illustration of a correction). What is this?",
           "options": [
             "great",
             "corrections",
-            "progresss"
+            "sticker"
           ],
           "correct_answer": "corrections"
         }

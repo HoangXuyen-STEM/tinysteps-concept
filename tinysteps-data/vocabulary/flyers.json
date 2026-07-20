@@ -1756,7 +1756,7 @@
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "She has already builded.",
+      "example_sentence": "She has already built.",
       "image_hint": "a person performing the action of build",
       "frequency_rank": 146
     },
@@ -1792,7 +1792,7 @@
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "She has already motivateed.",
+      "example_sentence": "She has already motivated.",
       "image_hint": "a person performing the action of motivate",
       "frequency_rank": 149
     },
@@ -1816,7 +1816,7 @@
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "She has already collaborateed.",
+      "example_sentence": "She has already collaborated.",
       "image_hint": "a person performing the action of collaborate",
       "frequency_rank": 151
     },
@@ -1840,7 +1840,7 @@
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "She has already adviseed.",
+      "example_sentence": "She has already advised.",
       "image_hint": "a person performing the action of advise",
       "frequency_rank": 153
     },
@@ -1912,7 +1912,7 @@
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "She has already dealed.",
+      "example_sentence": "She has already dealt.",
       "image_hint": "a person performing the action of deal",
       "frequency_rank": 159
     },
@@ -2872,7 +2872,7 @@
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "She has already achieveed.",
+      "example_sentence": "She has already achieved.",
       "image_hint": "a person doing the action of achieve",
       "frequency_rank": 239
     },
@@ -2980,7 +2980,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "She has already reviseed.",
+      "example_sentence": "She has already revised.",
       "image_hint": "a person doing the action of revise",
       "frequency_rank": 248
     },
@@ -3004,7 +3004,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "She has already proofreaded.",
+      "example_sentence": "She has already proofread the essay.",
       "image_hint": "a person doing the action of proofread",
       "frequency_rank": 250
     },
@@ -3016,7 +3016,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "She has already submited.",
+      "example_sentence": "She has already submitted the form.",
       "image_hint": "a person doing the action of submit",
       "frequency_rank": 251
     },
@@ -3136,7 +3136,7 @@
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "She has already distributeed.",
+      "example_sentence": "She has already distributed.",
       "image_hint": "a person doing the action of distribute",
       "frequency_rank": 261
     },
@@ -5962,14 +5962,14 @@
     },
     {
       "id": "flyers_vocab_497",
-      "word": "operabilty",
-      "ipa": "/ˌɒp.ər.əˈbɪl.ɪ.ti/",
-      "pos": "noun",
+      "word": "whisper",
+      "ipa": "/ˈwɪs.pər/",
+      "pos": "verb",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The operabilty was discussed.",
-      "image_hint": "a diagram representing operabilty",
+      "example_sentence": "Please don't whisper during the test.",
+      "image_hint": "two pupils leaning close, one hand cupped to an ear",
       "frequency_rank": 497
     },
     {

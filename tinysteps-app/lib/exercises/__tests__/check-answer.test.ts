@@ -31,6 +31,15 @@ describe("normalize", () => {
   it("handles empty string", () => {
     expect(normalize("")).toBe("");
   });
+
+  it("removes a space before end punctuation (arrange chip-join artifact)", () => {
+    expect(normalize("hello world .")).toBe("hello world.");
+    expect(normalize("wait , really ?")).toBe("wait, really?");
+  });
+
+  it("does not otherwise disturb punctuation with no preceding space", () => {
+    expect(normalize("hello, world!")).toBe("hello, world!");
+  });
 });
 
 describe("isCorrect", () => {
@@ -58,6 +67,31 @@ describe("isCorrect", () => {
   it("handles empty strings", () => {
     expect(isCorrect("", "")).toBe(true);
     expect(isCorrect("", "hello")).toBe(false);
+  });
+
+  describe("arrange exercise punctuation-as-chip (real data: flyers_lesson_038)", () => {
+    // words: ["us","the","The","open","told","book","teacher","to","."]
+    // correct_answer: "The teacher told us to open the book."
+    const correctAnswer = "The teacher told us to open the book.";
+
+    it("accepts the correctly-ordered chip join, including the '.' chip", () => {
+      const userAnswer = ["The", "teacher", "told", "us", "to", "open", "the", "book", "."].join(
+        " ",
+      );
+      expect(isCorrect(userAnswer, correctAnswer)).toBe(true);
+    });
+
+    it("still rejects wrong word order", () => {
+      const userAnswer = ["teacher", "The", "told", "us", "to", "open", "the", "book", "."].join(
+        " ",
+      );
+      expect(isCorrect(userAnswer, correctAnswer)).toBe(false);
+    });
+
+    it("still rejects a correct order missing the punctuation chip", () => {
+      const userAnswer = ["The", "teacher", "told", "us", "to", "open", "the", "book"].join(" ");
+      expect(isCorrect(userAnswer, correctAnswer)).toBe(false);
+    });
   });
 });
 
@@ -185,6 +219,30 @@ describe("computeScore", () => {
     const answers: ExerciseAnswer[] = [
       { exerciseIndex: 0, itemIndex: 0, userAnswer: "  Hello   World  " },
     ];
+    expect(computeScore(answers, exercises)).toEqual({
+      score: 100,
+      correctCount: 1,
+      totalItems: 1,
+    });
+  });
+
+  it("scores a real arrange item (punctuation-as-chip) as correct end-to-end", () => {
+    const exercises: Exercise[] = [
+      {
+        type: "arrange",
+        instruction: "Put the words in order.",
+        items: [
+          {
+            words: ["us", "the", "The", "open", "told", "book", "teacher", "to", "."],
+            correct_answer: "The teacher told us to open the book.",
+          },
+        ],
+      },
+    ];
+    const userAnswer = ["The", "teacher", "told", "us", "to", "open", "the", "book", "."].join(
+      " ",
+    );
+    const answers: ExerciseAnswer[] = [{ exerciseIndex: 0, itemIndex: 0, userAnswer }];
     expect(computeScore(answers, exercises)).toEqual({
       score: 100,
       correctCount: 1,

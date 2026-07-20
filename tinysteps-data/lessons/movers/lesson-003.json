@@ -84,8 +84,8 @@
           "correct_answer": "clean"
         },
         {
-          "image_hint": "a clean graphic illustration of a guidelines",
-          "correct_answer": "guideliness"
+          "image_hint": "a large bold arrow pointing to the right",
+          "correct_answer": "arrow"
         }
       ]
     },
@@ -186,7 +186,7 @@
           "prompt": "Look at the picture (a notebook with written exercises and a red checkmark). What is this?",
           "options": [
             "clean",
-            "guideliness",
+            "arrow",
             "homework"
           ],
           "correct_answer": "homework"
@@ -196,18 +196,18 @@
           "options": [
             "homework",
             "clean",
-            "guideliness"
+            "arrow"
           ],
           "correct_answer": "clean"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a guidelines). What is this?",
+          "prompt": "Look at the picture (a large bold arrow pointing to the right). What is this?",
           "options": [
             "clean",
             "homework",
-            "guideliness"
+            "arrow"
           ],
-          "correct_answer": "guideliness"
+          "correct_answer": "arrow"
         }
       ]
     }

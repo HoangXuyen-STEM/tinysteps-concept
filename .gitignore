@@ -45,6 +45,8 @@ pnpm-lock.yaml
 .env*
 !.env.example
 !tinysteps-app/.env.local.example
+*.swp
+*.swo
 .venv/
 
 # vercel
@@ -70,6 +72,15 @@ logs.txt
 test-ck
 __pycache__
 tinysteps-data/audio/**/*.mp3
+tinysteps-app/public/audio
+
+# Match illustrations: generated WebPs go to Storage (like audio), not git. The queue/
+# batch JSON is derived+ephemeral (depends on local disk state — regenerate anytime via
+# generate_match_illustration_queue.py). QA reports (source of truth for what's
+# approved) and the built manifest.json ARE tracked, same as audio's manifest.json.
+tinysteps-app/public/illustrations/**/*.webp
+tinysteps-data/match-illustration-queue.json
+tinysteps-data/match-illustration-batches/
 
 # CK meta commands
 prompt.md

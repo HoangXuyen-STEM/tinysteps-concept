@@ -1,4 +1,4 @@
-import { cp, mkdir, readdir, rm, writeFile } from "node:fs/promises";
+import { cp, lstat, mkdir, readdir, readlink, rm, symlink, writeFile } from "node:fs/promises";
 import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -13,6 +13,31 @@ await rm(contentDirectory, { force: true, recursive: true });
 await mkdir(contentDirectory, { recursive: true });
 for (const source of ["vocabulary", "topics", "audio"]) {
   await cp(join(dataDirectory, source), join(contentDirectory, source), { recursive: true, filter: (path) => !path.endsWith(".mp3") });
+}
+
+// Dev-only: serve MP3s straight from tinysteps-data via a public/audio symlink, so
+// audioUrl()'s relative "/audio/..." path (used whenever NEXT_PUBLIC_AUDIO_BASE_URL is
+// unset) resolves locally. Skipped on Vercel — prod audio comes from Supabase Storage
+// (phase 07), and tracing 150MB of MP3s into the build output would be wasteful/wrong.
+if (!process.env.VERCEL) {
+  const audioTarget = join(dataDirectory, "audio");
+  const publicAudio = join(appDirectory, "public", "audio");
+  let needsLink = true;
+  try {
+    const stat = await lstat(publicAudio);
+    if (stat.isSymbolicLink() && (await readlink(publicAudio)) === audioTarget) {
+      needsLink = false;
+    } else {
+      await rm(publicAudio, { force: true, recursive: true });
+    }
+  } catch {
+    // Nothing at publicAudio yet — fine, we'll create it below.
+  }
+  if (needsLink) {
+    await symlink(audioTarget, publicAudio, "dir");
+  }
+} else {
+  console.log("Skipping public/audio symlink on Vercel — audio served from Storage.");
 }
 
 const imports = [];

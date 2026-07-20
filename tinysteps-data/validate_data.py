@@ -11,6 +11,9 @@ import os
 import re
 import sys
 
+from vocabulary_grammar_checks import check_vocabulary_file
+from lesson_content_checks import check_lesson, check_grammar_point, spell_check_words
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 VOCAB_DIR = os.path.join(SCRIPT_DIR, "vocabulary")
 GRAMMAR_DIR = os.path.join(SCRIPT_DIR, "grammar")
@@ -67,7 +70,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 1. VALIDATE VOCABULARY FILES
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[1/3] Validating Vocabulary JSON files...")
+    print("\n[1/4] Validating Vocabulary JSON files...")
     
     global_words = {}  # word -> level
 
@@ -147,12 +150,17 @@ def main():
             if not image_hint or len(image_hint.strip()) < 5:
                 errors.append(f"[{level.upper()} VOCAB] ID {word_id}: Missing or too short image hint")
 
+        # Từ loại có khớp vị trí trong câu ví dụ không, và dạng chia có đúng không.
+        # Các kiểm tra ở trên chỉ xét cấu trúc, số lượng và độ dài — một câu như
+        # "Look at the help." vượt qua tất cả nhưng vẫn là tiếng Anh sai.
+        errors.extend(check_vocabulary_file(level, words))
+
         print(f"  ✓ {level:8s}: Loaded and checked {actual_total} words.")
 
     # ═══════════════════════════════════════════════════════════════════════
     # 2. VALIDATE GRAMMAR FILES
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[2/3] Validating Grammar JSON files...")
+    print("\n[2/4] Validating Grammar JSON files...")
 
     for level in LEVELS:
         grammar_path = os.path.join(GRAMMAR_DIR, f"{level}.json")
@@ -234,7 +242,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 3. VALIDATE TOPICS.JSON AND MASTER REFERENCES
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[3/3] Validating Curriculum Map (topics.json) reference integrity...")
+    print("\n[3/4] Validating Curriculum Map (topics.json) reference integrity...")
 
     if not os.path.exists(TOPICS_FILE):
         errors.append(f"Missing master topics file: {TOPICS_FILE}")
@@ -270,6 +278,108 @@ def main():
                         errors.append(f"[REF ERROR] topics.json reference '{gid}' at level '{lvl}' does not exist in grammar/{lvl}.json")
 
         print("  ✓ topics.json reference mapping completed.")
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # 4. VALIDATE LESSON FILES (dialogue, exercises, references)
+    # ═══════════════════════════════════════════════════════════════════════
+    print("\n[4/4] Validating lesson content (exercise integrity, references, text)...")
+
+    # Từ vựng theo cấp để đối chiếu đáp án match; id hợp lệ để đối chiếu tham chiếu.
+    vocab_words_by_level = {}
+    all_vocab_ids = set()
+    all_grammar_ids = set()
+    for level in LEVELS:
+        try:
+            with open(os.path.join(VOCAB_DIR, f"{level}.json"), encoding="utf-8") as f:
+                vocab_json = json.load(f)
+            vocab_words_by_level[level] = {w["word"] for w in vocab_json["words"]}
+            all_vocab_ids |= {w["id"] for w in vocab_json["words"]}
+            with open(os.path.join(GRAMMAR_DIR, f"{level}.json"), encoding="utf-8") as f:
+                all_grammar_ids |= {gp["id"] for gp in json.load(f)["grammar_points"]}
+        except Exception:
+            # Lỗi đọc file đã được báo ở phase 1/2 — không báo trùng ở đây.
+            vocab_words_by_level.setdefault(level, set())
+
+    lessons_dir = os.path.join(SCRIPT_DIR, "lessons")
+    lesson_count = 0
+    for level in LEVELS:
+        level_dir = os.path.join(lessons_dir, level)
+        if not os.path.isdir(level_dir):
+            errors.append(f"Missing lessons directory: {level_dir}")
+            continue
+        for filename in sorted(os.listdir(level_dir)):
+            if not filename.endswith(".json"):
+                continue
+            path = os.path.join(level_dir, filename)
+            try:
+                with open(path, encoding="utf-8") as f:
+                    lesson = json.load(f)
+            except Exception as e:
+                errors.append(f"Failed to parse {path}: {e}")
+                continue
+            lesson_count += 1
+            errors.extend(
+                check_lesson(lesson, vocab_words_by_level.get(level, set()),
+                             all_vocab_ids, all_grammar_ids)
+            )
+
+    # Soi văn bản trong grammar (ví dụ + vế "correct") — phase 2 chỉ xét cấu trúc.
+    for level in LEVELS:
+        grammar_path = os.path.join(GRAMMAR_DIR, f"{level}.json")
+        if not os.path.exists(grammar_path):
+            continue
+        with open(grammar_path, encoding="utf-8") as f:
+            for grammar_point in json.load(f).get("grammar_points", []):
+                errors.extend(check_grammar_point(grammar_point))
+
+    print(f"  ✓ Checked {lesson_count} lessons and all grammar examples.")
+
+    # Soi chính tả mọi văn bản học viên nhìn thấy (cảnh báo, không chặn build).
+    # Đây là lớp duy nhất từng phát hiện được từ vựng sai chính tả kiểu 'guideliness'.
+    spell_tokens = set()
+
+    def collect_tokens(text):
+        if isinstance(text, str):
+            # Unicode + gạch nối, để "communiqué" và "eco-friendly" là một token
+            # thay vì bị cắt vụn rồi báo sai chính tả oan.
+            spell_tokens.update(re.findall(r"[^\W\d_]+(?:['-][^\W\d_]+)*", text))
+
+    for level in LEVELS:
+        for entry in loaded_vocab.get(level, {}).values():
+            collect_tokens(entry.get("word"))
+            collect_tokens(entry.get("example_sentence"))
+        for gp in loaded_grammar.get(level, {}).values():
+            for example in gp.get("examples", []):
+                collect_tokens(example.get("sentence"))
+            for pair in gp.get("common_mistakes", []):
+                collect_tokens(pair.get("correct"))  # vế "wrong" cố tình sai — bỏ qua
+        level_dir = os.path.join(lessons_dir, level)
+        if not os.path.isdir(level_dir):
+            continue
+        for filename in sorted(os.listdir(level_dir)):
+            if not filename.endswith(".json"):
+                continue
+            try:
+                with open(os.path.join(level_dir, filename), encoding="utf-8") as f:
+                    lesson = json.load(f)
+            except Exception:
+                continue
+            for line in lesson.get("dialogue", {}).get("lines", []):
+                collect_tokens(line.get("text"))
+            for exercise in lesson.get("exercises", []):
+                collect_tokens(exercise.get("instruction"))
+                for item in exercise.get("items", []):
+                    for key, value in item.items():
+                        if key == "image_hint":
+                            continue  # không hiển thị cho học viên
+                        if isinstance(value, str):
+                            collect_tokens(value)
+                        elif isinstance(value, list):
+                            for element in value:
+                                collect_tokens(element)
+
+    warnings.extend(spell_check_words(spell_tokens))
+    print(f"  ✓ Spell-checked {len(spell_tokens)} unique tokens.")
 
     # ═══════════════════════════════════════════════════════════════════════
     # REPORTING RESULTS

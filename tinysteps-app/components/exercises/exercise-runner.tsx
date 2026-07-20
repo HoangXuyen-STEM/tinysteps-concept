@@ -12,12 +12,13 @@ import { FillBlankExerciseComponent } from "./fill-blank-exercise";
 import { MultipleChoiceExerciseComponent } from "./multiple-choice-exercise";
 
 type Props = {
+  lessonId: string;
   exercises: Exercise[];
   audioUrls: Record<string, string | null>;
   onComplete: (answers: ExerciseAnswer[]) => void;
 };
 
-export function ExerciseRunner({ exercises, audioUrls, onComplete }: Props) {
+export function ExerciseRunner({ lessonId, exercises, audioUrls, onComplete }: Props) {
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
 
   // We use a ref to accumulate answers instead of React state.
@@ -58,6 +59,7 @@ export function ExerciseRunner({ exercises, audioUrls, onComplete }: Props) {
       return (
         <MatchExerciseComponent
           key={currentExerciseIndex}
+          lessonId={lessonId}
           exercise={exercise}
           exerciseIndex={currentExerciseIndex}
           onItemAnswer={handleItemAnswer}

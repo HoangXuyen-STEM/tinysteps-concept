@@ -3,9 +3,11 @@
 import React, { useState, useMemo } from "react";
 import type { MatchExercise } from "@/lib/types/content-types";
 import { isCorrect } from "@/lib/exercises/check-answer";
+import { resolveMatchIllustration } from "@/lib/content/illustration-manifest";
 import { FeedbackBar } from "./feedback-bar";
 
 type Props = {
+  lessonId: string;
   exercise: MatchExercise;
   exerciseIndex: number;
   onItemAnswer: (itemIndex: number, userAnswer: string) => void;
@@ -13,7 +15,9 @@ type Props = {
 };
 
 export function MatchExerciseComponent({
+  lessonId,
   exercise,
+  exerciseIndex,
   onItemAnswer,
   onComplete,
 }: Props) {
@@ -22,6 +26,7 @@ export function MatchExerciseComponent({
     userAnswer: string;
     isCorrect: boolean;
   } | null>(null);
+  const [failedImageKey, setFailedImageKey] = useState<string | null>(null);
 
   // Derive unique choices from all correct answers in this exercise and shuffle them
   const choices = useMemo(() => {
@@ -36,6 +41,12 @@ export function MatchExerciseComponent({
   }, [exercise]);
 
   const currentItem = exercise.items[currentItemIndex];
+  const illustration = resolveMatchIllustration(
+    lessonId,
+    exerciseIndex,
+    currentItemIndex,
+  );
+  const showIllustration = illustration && failedImageKey !== illustration.assetKey;
 
   const handleSelect = (choice: string) => {
     if (feedback) return; // Prevent multiple selections
@@ -63,10 +74,35 @@ export function MatchExerciseComponent({
       </h3>
 
       <div className="mb-8 flex justify-center">
-        <div className="rounded-2xl border-2 border-slate-200 bg-white px-8 py-10 shadow-sm text-center">
-          <p className="text-2xl font-bold text-teal-700">
-            {currentItem.image_hint}
-          </p>
+        <div className="flex aspect-square w-full max-w-sm items-center justify-center overflow-hidden rounded-2xl border-2 border-slate-200 bg-white shadow-sm">
+          {showIllustration ? (
+            // eslint-disable-next-line @next/next/no-img-element -- runtime CDN base is deployment-configured
+            <img
+              alt={illustration.alt}
+              className="h-full w-full object-cover"
+              height={512}
+              key={illustration.assetKey}
+              onError={() => setFailedImageKey(illustration.assetKey)}
+              src={illustration.src}
+              width={512}
+            />
+          ) : (
+            <svg
+              aria-label={illustration?.alt ?? currentItem.image_hint}
+              className="size-20 text-slate-300"
+              fill="none"
+              role="img"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="1.5"
+              viewBox="0 0 24 24"
+            >
+              <path d="m3 16 5-5 4 4 2-2 7 7" />
+              <path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Z" />
+              <circle cx="8.5" cy="7.5" r="1.5" />
+            </svg>
+          )}
         </div>
       </div>
 

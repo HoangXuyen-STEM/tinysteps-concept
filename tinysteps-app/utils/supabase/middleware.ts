@@ -2,7 +2,10 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
 // Paths reachable without a session. Everything else redirects to /login.
-const PUBLIC_PREFIXES = ["/login", "/auth"];
+// "/" and "/mua" are the sales pages — a visitor who has never signed up must be able
+// to read them, which is the whole point of sharing the link. The prefix match below
+// treats "/" as an exact path, so it does not accidentally make the app public.
+const PUBLIC_PREFIXES = ["/", "/mua", "/login", "/auth"];
 
 export async function updateSession(request: NextRequest) {
   let response = NextResponse.next({ request });

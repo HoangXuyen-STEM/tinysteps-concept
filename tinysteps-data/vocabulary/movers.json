@@ -160,20 +160,20 @@
       "topic_ids": [
         "topic_phone"
       ],
-      "example_sentence": "Answer the urgent-new call now.",
+      "example_sentence": "Answer the urgent call now.",
       "image_hint": "a simple, clear colorful visualization of urgent",
       "frequency_rank": 25
     },
     {
       "id": "movers_vocab_014",
-      "word": "progresss",
-      "ipa": "/ˈprəʊ.ɡres/",
+      "word": "sticker",
+      "ipa": "/ˈstɪk.ər/",
       "pos": "noun",
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "Great job on your progresss.",
-      "image_hint": "a clean graphic illustration of a progress",
+      "example_sentence": "You get a sticker today!",
+      "image_hint": "a shiny gold star sticker on a notebook page",
       "frequency_rank": 32
     },
     {
@@ -184,7 +184,7 @@
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "I prepared the official-new report.",
+      "example_sentence": "I prepared the official report.",
       "image_hint": "a simple, clear colorful visualization of official",
       "frequency_rank": 33
     },
@@ -226,14 +226,14 @@
     },
     {
       "id": "movers_vocab_019",
-      "word": "guideliness",
-      "ipa": "/ˈɡaɪd.laɪnz/",
+      "word": "arrow",
+      "ipa": "/ˈær.əʊ/",
       "pos": "noun",
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Do your guideliness now.",
-      "image_hint": "a clean graphic illustration of a guidelines",
+      "example_sentence": "Follow the arrow, please.",
+      "image_hint": "a large bold arrow pointing to the right",
       "frequency_rank": 112
     },
     {
@@ -316,7 +316,7 @@
       "topic_ids": [
         "topic_before_class"
       ],
-      "example_sentence": "I cleaned the board.",
+      "example_sentence": "The eraser is on the desk.",
       "image_hint": "a white board eraser on a whiteboard ledge",
       "frequency_rank": 26
     },
@@ -1456,7 +1456,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "She chooseed yesterday.",
+      "example_sentence": "She chose yesterday.",
       "image_hint": "a person performing the action of choose",
       "frequency_rank": 121
     },
@@ -1468,7 +1468,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "She raiseed yesterday.",
+      "example_sentence": "She raised yesterday.",
       "image_hint": "a person performing the action of raise",
       "frequency_rank": 122
     },
@@ -1480,7 +1480,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "She claped yesterday.",
+      "example_sentence": "She clapped for the winner.",
       "image_hint": "a person performing the action of clap",
       "frequency_rank": 123
     },
@@ -1576,7 +1576,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "She continueed yesterday.",
+      "example_sentence": "She continued yesterday.",
       "image_hint": "a person performing the action of continue",
       "frequency_rank": 131
     },
@@ -1672,7 +1672,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "She thinked yesterday.",
+      "example_sentence": "She thought yesterday.",
       "image_hint": "a person performing the action of think",
       "frequency_rank": 139
     },
@@ -1792,7 +1792,7 @@
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "She inviteed yesterday.",
+      "example_sentence": "She invited yesterday.",
       "image_hint": "a person performing the action of invite",
       "frequency_rank": 149
     },
@@ -1804,7 +1804,7 @@
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "She leaveed yesterday.",
+      "example_sentence": "She left yesterday.",
       "image_hint": "a person performing the action of leave",
       "frequency_rank": 150
     },
@@ -2056,7 +2056,7 @@
       "topic_ids": [
         "topic_restaurant"
       ],
-      "example_sentence": "She fryed yesterday.",
+      "example_sentence": "She fried eggs this morning.",
       "image_hint": "a person performing the action of fry",
       "frequency_rank": 171
     },
@@ -2080,7 +2080,7 @@
       "topic_ids": [
         "topic_restaurant"
       ],
-      "example_sentence": "She stired yesterday.",
+      "example_sentence": "She stirred the soup slowly.",
       "image_hint": "a person performing the action of stir",
       "frequency_rank": 173
     },
@@ -2380,7 +2380,7 @@
       "topic_ids": [
         "topic_phone"
       ],
-      "example_sentence": "She saveed yesterday.",
+      "example_sentence": "She saved yesterday.",
       "image_hint": "a person performing the action of save",
       "frequency_rank": 198
     },
@@ -2860,7 +2860,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "She danceed yesterday.",
+      "example_sentence": "She danced yesterday.",
       "image_hint": "a person doing the action of dance",
       "frequency_rank": 238
     },
@@ -2872,7 +2872,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "She singed yesterday.",
+      "example_sentence": "She sang yesterday.",
       "image_hint": "a person doing the action of sing",
       "frequency_rank": 239
     },
@@ -3052,7 +3052,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "She carryed yesterday.",
+      "example_sentence": "She carried my bag yesterday.",
       "image_hint": "a person doing the action of carry",
       "frequency_rank": 254
     },
@@ -3124,7 +3124,7 @@
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "She falled yesterday.",
+      "example_sentence": "She fell yesterday.",
       "image_hint": "a person doing the action of fall",
       "frequency_rank": 260
     },
@@ -3136,7 +3136,7 @@
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "She hited yesterday.",
+      "example_sentence": "She hit the ball hard.",
       "image_hint": "a person doing the action of hit",
       "frequency_rank": 261
     },
@@ -4024,7 +4024,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I have below now.",
+      "example_sentence": "The bag is below the desk.",
       "image_hint": "a visual of below",
       "frequency_rank": 335
     },
@@ -4036,7 +4036,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I have between now.",
+      "example_sentence": "Sit between Nam and Lan.",
       "image_hint": "a visual of between",
       "frequency_rank": 336
     },
@@ -4060,7 +4060,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "I have beside now.",
+      "example_sentence": "She sits beside the window.",
       "image_hint": "a visual of beside",
       "frequency_rank": 338
     },
@@ -4072,7 +4072,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "I have around now.",
+      "example_sentence": "We sat around the table.",
       "image_hint": "a visual of around",
       "frequency_rank": 339
     },
@@ -4096,7 +4096,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "I have along now.",
+      "example_sentence": "Walk along this road.",
       "image_hint": "a visual of along",
       "frequency_rank": 341
     },
@@ -4132,7 +4132,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "I have until now.",
+      "example_sentence": "Wait until the bell rings.",
       "image_hint": "a visual of until",
       "frequency_rank": 344
     },
@@ -4144,7 +4144,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "I have since now.",
+      "example_sentence": "I have taught since 2010.",
       "image_hint": "a visual of since",
       "frequency_rank": 345
     },
@@ -4156,7 +4156,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "I have towards now.",
+      "example_sentence": "He walked towards the door.",
       "image_hint": "a visual of towards",
       "frequency_rank": 346
     },

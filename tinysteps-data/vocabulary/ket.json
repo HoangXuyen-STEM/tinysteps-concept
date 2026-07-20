@@ -396,7 +396,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Submit by the deadline.",
+      "example_sentence": "Your submission arrived before the deadline.",
       "image_hint": "a student handing in a completed submission folder",
       "frequency_rank": 33
     },
@@ -1014,14 +1014,14 @@
     },
     {
       "id": "ket_vocab_085",
-      "word": "pedagogical",
-      "ipa": "/ˌped.əˈɡɒdʒ.ɪ.kəl/",
+      "word": "punctual",
+      "ipa": "/ˈpʌŋk.tʃu.əl/",
       "pos": "adjective",
       "topic_ids": [
         "topic_before_class"
       ],
-      "example_sentence": "The report is so pedagogical.",
-      "image_hint": "an image clearly illustrating the quality pedagogical",
+      "example_sentence": "Please be punctual for class.",
+      "image_hint": "a clock showing the exact start time beside an open door",
       "frequency_rank": 85
     },
     {
@@ -1158,14 +1158,14 @@
     },
     {
       "id": "ket_vocab_097",
-      "word": "constructivist",
-      "ipa": "/kənˈstrʌk.tɪ.vɪst/",
-      "pos": "adjective",
+      "word": "blackboard",
+      "ipa": "/ˈblæk.bɔːd/",
+      "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "He is such a constructivist colleague.",
-      "image_hint": "an image clearly illustrating the quality constructivist",
+      "example_sentence": "Write the date on the blackboard.",
+      "image_hint": "a blackboard with a piece of chalk beside it",
       "frequency_rank": 97
     },
     {
@@ -1248,7 +1248,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I have been differentiateing since Monday.",
+      "example_sentence": "I have been differentiating since Monday.",
       "image_hint": "a person performing the action of differentiate",
       "frequency_rank": 104
     },
@@ -1272,7 +1272,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I have been integrateing since Monday.",
+      "example_sentence": "I have been integrating since Monday.",
       "image_hint": "a person performing the action of integrate",
       "frequency_rank": 106
     },
@@ -1284,7 +1284,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I have been incorporateing since Monday.",
+      "example_sentence": "I have been incorporating since Monday.",
       "image_hint": "a person performing the action of incorporate",
       "frequency_rank": 107
     },
@@ -1296,7 +1296,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I have been sequenceing since Monday.",
+      "example_sentence": "I have been sequencing since Monday.",
       "image_hint": "a person performing the action of sequence",
       "frequency_rank": 108
     },
@@ -1404,7 +1404,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "I have been mediateing since Monday.",
+      "example_sentence": "I have been mediating since Monday.",
       "image_hint": "a person performing the action of mediate",
       "frequency_rank": 117
     },
@@ -1482,14 +1482,14 @@
     },
     {
       "id": "ket_vocab_124",
-      "word": "triangulation",
-      "ipa": "/traɪˌæŋ.ɡjʊˈleɪ.ʃən/",
+      "word": "clarity",
+      "ipa": "/ˈklær.ə.ti/",
       "pos": "noun",
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "I'd like to confirm the triangulation.",
-      "image_hint": "a clear image showing triangulation in context",
+      "example_sentence": "I'd like more clarity, please.",
+      "image_hint": "a clear glass of water beside a cloudy one",
       "frequency_rank": 124
     },
     {
@@ -1572,7 +1572,7 @@
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "I have been overcomeing since Monday.",
+      "example_sentence": "I have been overcoming since Monday.",
       "image_hint": "a person performing the action of overcome",
       "frequency_rank": 131
     },
@@ -1806,14 +1806,14 @@
     },
     {
       "id": "ket_vocab_151",
-      "word": "maitre",
-      "ipa": "/ˈmeɪ.trə/",
+      "word": "buffet",
+      "ipa": "/ˈbʊf.eɪ/",
       "pos": "noun",
       "topic_ids": [
         "topic_restaurant"
       ],
-      "example_sentence": "Could you check the maitre?",
-      "image_hint": "a clear image showing maitre in context",
+      "example_sentence": "The hotel serves a breakfast buffet.",
+      "image_hint": "a long table with covered dishes at a hotel breakfast",
       "frequency_rank": 151
     },
     {
@@ -2052,7 +2052,7 @@
       "topic_ids": [
         "topic_phone"
       ],
-      "example_sentence": "I have been synchroniseing since Monday.",
+      "example_sentence": "I have been synchronising since Monday.",
       "image_hint": "a person performing the action of synchronise",
       "frequency_rank": 171
     },
@@ -2064,44 +2064,44 @@
       "topic_ids": [
         "topic_phone"
       ],
-      "example_sentence": "I have been authenticateing since Monday.",
+      "example_sentence": "I have been authenticating since Monday.",
       "image_hint": "a person performing the action of authenticate",
       "frequency_rank": 172
     },
     {
       "id": "ket_vocab_173",
-      "word": "cardiovascular",
-      "ipa": "/ˌkɑː.di.əʊˈvæs.kjʊ.lər/",
-      "pos": "adjective",
+      "word": "checkup",
+      "ipa": "/ˈtʃek.ʌp/",
+      "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "The report is so cardiovascular.",
-      "image_hint": "an image clearly illustrating the quality cardiovascular",
+      "example_sentence": "I have a checkup tomorrow.",
+      "image_hint": "a doctor listening to a patient's chest with a stethoscope",
       "frequency_rank": 173
     },
     {
       "id": "ket_vocab_174",
-      "word": "respiratory",
-      "ipa": "/rɪˈspɪr.ə.tər.i/",
-      "pos": "adjective",
+      "word": "sore throat",
+      "ipa": "/sɔːr θrəʊt/",
+      "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "The report is so respiratory.",
-      "image_hint": "an image clearly illustrating the quality respiratory",
+      "example_sentence": "I have a sore throat today.",
+      "image_hint": "a person holding their throat with a pained expression",
       "frequency_rank": 174
     },
     {
       "id": "ket_vocab_175",
-      "word": "neurological",
-      "ipa": "/ˌnjʊər.əˈlɒdʒ.ɪ.kəl/",
-      "pos": "adjective",
+      "word": "bruise",
+      "ipa": "/bruːz/",
+      "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "It was neurological enough.",
-      "image_hint": "an image clearly illustrating the quality neurological",
+      "example_sentence": "I have a bruise on my arm.",
+      "image_hint": "a small dark bruise mark on a forearm",
       "frequency_rank": 175
     },
     {
@@ -3318,14 +3318,14 @@
     },
     {
       "id": "ket_vocab_277",
-      "word": "satisf",
-      "ipa": "/ˈsæt.ɪs.faɪ/",
+      "word": "photocopy",
+      "ipa": "/ˈfəʊ.təʊˌkɒp.i/",
       "pos": "verb",
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "Could you satisf this?",
-      "image_hint": "a visual of satisf",
+      "example_sentence": "Could you photocopy this worksheet for me?",
+      "image_hint": "a copy machine with a page coming out",
       "frequency_rank": 277
     },
     {
@@ -4026,14 +4026,14 @@
     },
     {
       "id": "ket_vocab_336",
-      "word": "conscientiousness",
-      "ipa": "/ˌkɒn.ʃiˈen.ʃəs.nəs/",
-      "pos": "noun",
+      "word": "hardworking",
+      "ipa": "/ˌhɑːdˈwɜː.kɪŋ/",
+      "pos": "adjective",
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "I'd like to discuss the conscientiousness.",
-      "image_hint": "a visual of conscientiousness",
+      "example_sentence": "You are a hardworking student.",
+      "image_hint": "a pupil focused and writing steadily at a desk",
       "frequency_rank": 336
     },
     {
@@ -4542,14 +4542,14 @@
     },
     {
       "id": "ket_vocab_379",
-      "word": "interconnectedness",
-      "ipa": "/ˌɪn.tə.kəˈnek.tɪd.nəs/",
+      "word": "gratitude",
+      "ipa": "/ˈɡræt.ɪ.tʃuːd/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "I'd like to discuss the interconnectedness.",
-      "image_hint": "a diagram illustrating interconnectedness",
+      "example_sentence": "I want to show my gratitude.",
+      "image_hint": "a hand offering a small thank-you card",
       "frequency_rank": 379
     },
     {
@@ -4566,146 +4566,146 @@
     },
     {
       "id": "ket_vocab_381",
-      "word": "interrelatedness",
-      "ipa": "/ˌɪn.tər.rɪˈleɪ.tɪd.nəs/",
+      "word": "apology",
+      "ipa": "/əˈpɒl.ə.dʒi/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "I'd like to discuss the interrelatedness.",
-      "image_hint": "a diagram illustrating interrelatedness",
+      "example_sentence": "She gave a sincere apology.",
+      "image_hint": "one person offering a hand to another with a sorry expression",
       "frequency_rank": 381
     },
     {
       "id": "ket_vocab_382",
-      "word": "multidimensionality",
-      "ipa": "/ˌmʌl.tɪ.daɪˌmen.ʃəˈnæl.ɪ.ti/",
-      "pos": "noun",
+      "word": "memorize",
+      "ipa": "/ˈmem.ər.aɪz/",
+      "pos": "verb",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I'd like to discuss the multidimensionality.",
-      "image_hint": "a diagram illustrating multidimensionality",
+      "example_sentence": "Please memorize this poem.",
+      "image_hint": "a pupil with eyes closed reciting from memory",
       "frequency_rank": 382
     },
     {
       "id": "ket_vocab_383",
-      "word": "multifacetedness",
-      "ipa": "/ˌmʌl.tɪˈfæs.ɪ.tɪd.nəs/",
-      "pos": "noun",
+      "word": "recite",
+      "ipa": "/rɪˈsaɪt/",
+      "pos": "verb",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I'd like to discuss the multifacetedness.",
-      "image_hint": "a diagram illustrating multifacetedness",
+      "example_sentence": "Can you recite the poem?",
+      "image_hint": "a pupil standing and speaking in front of the class",
       "frequency_rank": 383
     },
     {
       "id": "ket_vocab_384",
-      "word": "multilayeredness",
-      "ipa": "/ˌmʌl.tɪˈleɪ.əd.nəs/",
+      "word": "playground",
+      "ipa": "/ˈpleɪ.ɡraʊnd/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I'd like to discuss the multilayeredness.",
-      "image_hint": "a diagram illustrating multilayeredness",
+      "example_sentence": "The children play in the playground.",
+      "image_hint": "a school playground with a slide and swings",
       "frequency_rank": 384
     },
     {
       "id": "ket_vocab_385",
-      "word": "comprehensiveness",
-      "ipa": "/ˌkɒm.prɪˈhen.sɪv.nəs/",
+      "word": "pencil case",
+      "ipa": "/ˈpen.səl keɪs/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I'd like to discuss the comprehensiveness.",
-      "image_hint": "a diagram illustrating comprehensiveness",
+      "example_sentence": "My pencil case is on the desk.",
+      "image_hint": "a clear everyday illustration of pencil case",
       "frequency_rank": 385
     },
     {
       "id": "ket_vocab_386",
-      "word": "meticulousness",
-      "ipa": "/mɪˈtɪk.jʊ.ləs.nəs/",
+      "word": "diagram",
+      "ipa": "/ˈdaɪ.ə.ɡræm/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I'd like to discuss the meticulousness.",
-      "image_hint": "a diagram illustrating meticulousness",
+      "example_sentence": "Draw a simple diagram in your notebook.",
+      "image_hint": "a clear everyday illustration of diagram",
       "frequency_rank": 386
     },
     {
       "id": "ket_vocab_387",
-      "word": "scrupulousness",
-      "ipa": "/ˈskruː.pjʊ.ləs.nəs/",
-      "pos": "noun",
+      "word": "distracted",
+      "ipa": "/dɪˈstræk.tɪd/",
+      "pos": "adjective",
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "I'd like to discuss the scrupulousness.",
-      "image_hint": "a diagram illustrating scrupulousness",
+      "example_sentence": "He looks distracted today.",
+      "image_hint": "a pupil staring out of the window instead of the board",
       "frequency_rank": 387
     },
     {
       "id": "ket_vocab_388",
-      "word": "punctiliousness",
-      "ipa": "/pʌŋkˈtɪl.i.əs.nəs/",
-      "pos": "noun",
+      "word": "attentive",
+      "ipa": "/əˈten.tɪv/",
+      "pos": "adjective",
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "I'd like to discuss the punctiliousness.",
-      "image_hint": "a diagram illustrating punctiliousness",
+      "example_sentence": "Please be attentive in class.",
+      "image_hint": "a pupil sitting upright and looking closely at the teacher",
       "frequency_rank": 388
     },
     {
       "id": "ket_vocab_389",
-      "word": "exactitude",
-      "ipa": "/ɪɡˈzæk.tɪ.tjuːd/",
-      "pos": "noun",
+      "word": "unclear",
+      "ipa": "/ʌnˈklɪər/",
+      "pos": "adjective",
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "I'd like to discuss the exactitude.",
-      "image_hint": "a diagram illustrating exactitude",
+      "example_sentence": "This instruction is unclear.",
+      "image_hint": "a pupil scratching their head at a confusing worksheet",
       "frequency_rank": 389
     },
     {
       "id": "ket_vocab_390",
-      "word": "preciseness",
-      "ipa": "/prɪˈsaɪs.nəs/",
-      "pos": "noun",
+      "word": "misunderstand",
+      "ipa": "/ˌmɪs.ʌn.dəˈstænd/",
+      "pos": "verb",
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "I'd like to discuss the preciseness.",
-      "image_hint": "a diagram illustrating preciseness",
+      "example_sentence": "Please don't misunderstand me.",
+      "image_hint": "two people with confused expressions facing each other",
       "frequency_rank": 390
     },
     {
       "id": "ket_vocab_391",
-      "word": "acuteness",
-      "ipa": "/əˈkjuːt.nəs/",
-      "pos": "noun",
+      "word": "recap",
+      "ipa": "/ˈriː.kæp/",
+      "pos": "verb",
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "I'd like to discuss the acuteness.",
-      "image_hint": "a diagram illustrating acuteness",
+      "example_sentence": "Let's recap what we learned.",
+      "image_hint": "a teacher pointing back at earlier notes on the board",
       "frequency_rank": 391
     },
     {
       "id": "ket_vocab_392",
-      "word": "keenness",
-      "ipa": "/ˈkiːn.nəs/",
-      "pos": "noun",
+      "word": "messy",
+      "ipa": "/ˈmes.i/",
+      "pos": "adjective",
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "I'd like to discuss the keenness.",
-      "image_hint": "a diagram illustrating keenness",
+      "example_sentence": "Your desk looks messy today.",
+      "image_hint": "a desk cluttered with scattered papers and pens",
       "frequency_rank": 392
     },
     {
@@ -4722,86 +4722,86 @@
     },
     {
       "id": "ket_vocab_394",
-      "word": "incisiveness",
-      "ipa": "/ɪnˈsaɪ.sɪv.nəs/",
+      "word": "punishment",
+      "ipa": "/ˈpʌn.ɪʃ.mənt/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I'd like to discuss the incisiveness.",
-      "image_hint": "a diagram illustrating incisiveness",
+      "example_sentence": "The punishment should be fair.",
+      "image_hint": "a child sitting alone at a separate desk",
       "frequency_rank": 394
     },
     {
       "id": "ket_vocab_395",
-      "word": "perspicacity",
-      "ipa": "/ˌpɜː.spɪˈkæs.ɪ.ti/",
+      "word": "kindness",
+      "ipa": "/ˈkaɪnd.nəs/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "I'd like to discuss the perspicacity.",
-      "image_hint": "a diagram illustrating perspicacity",
+      "example_sentence": "Thank you for your kindness.",
+      "image_hint": "one person helping another carry a heavy bag",
       "frequency_rank": 395
     },
     {
       "id": "ket_vocab_396",
-      "word": "acumen",
-      "ipa": "/ˈæk.jʊ.mɪn/",
+      "word": "register",
+      "ipa": "/ˈredʒ.ɪ.stər/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "I'd like to discuss the acumen.",
-      "image_hint": "a diagram illustrating acumen",
+      "example_sentence": "The teacher checks the register.",
+      "image_hint": "a teacher marking names on a class list",
       "frequency_rank": 396
     },
     {
       "id": "ket_vocab_397",
-      "word": "astuteness",
-      "ipa": "/əˈstjuːt.nəs/",
+      "word": "stranger",
+      "ipa": "/ˈstreɪn.dʒər/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "I'd like to discuss the astuteness.",
-      "image_hint": "a diagram illustrating astuteness",
+      "example_sentence": "Don't talk to a stranger.",
+      "image_hint": "an unfamiliar person standing at a distance",
       "frequency_rank": 397
     },
     {
       "id": "ket_vocab_398",
-      "word": "perspicuousness",
-      "ipa": "/pəˈspɪk.ju.əs.nəs/",
+      "word": "locker",
+      "ipa": "/ˈlɒk.ər/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The perspicuousness was discussed.",
-      "image_hint": "a diagram representing perspicuousness",
+      "example_sentence": "Put your bag in the locker.",
+      "image_hint": "a row of small school lockers",
       "frequency_rank": 398
     },
     {
       "id": "ket_vocab_399",
-      "word": "judiciousness",
-      "ipa": "/dʒuːˈdɪʃ.əs.nəs/",
+      "word": "compliment",
+      "ipa": "/ˈkɒm.plɪ.mənt/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The judiciousness was discussed.",
-      "image_hint": "a diagram representing judiciousness",
+      "example_sentence": "Thank you for the compliment.",
+      "image_hint": "a person smiling after hearing kind words",
       "frequency_rank": 399
     },
     {
       "id": "ket_vocab_400",
-      "word": "sagaciousness",
-      "ipa": "/səˈɡeɪ.ʃəs.nəs/",
+      "word": "manners",
+      "ipa": "/ˈmæn.əz/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The sagaciousness was discussed.",
-      "image_hint": "a diagram representing sagaciousness",
+      "example_sentence": "Please remember your manners.",
+      "image_hint": "a child politely waiting in a queue",
       "frequency_rank": 400
     }
   ]

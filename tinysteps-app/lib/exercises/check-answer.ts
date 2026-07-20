@@ -5,9 +5,19 @@
 
 import type { Exercise } from "@/lib/types/content-types";
 
-/** Trim, lowercase, and collapse internal whitespace to a single space. */
+/**
+ * Trim, lowercase, collapse internal whitespace to a single space, and remove any
+ * space immediately before punctuation. The last rule matters because arrange-exercise
+ * data ships end punctuation as its own word chip (e.g. `["...", "book", "."]`) — the
+ * UI joins tapped chips with spaces, producing "book ." while correct_answer reads
+ * "book." Without stripping that space, a correctly-ordered answer never matches.
+ */
 export function normalize(s: string): string {
-  return s.trim().toLowerCase().replace(/\s+/g, " ");
+  return s
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .replace(/\s+([.,!?;:])/g, "$1");
 }
 
 /** Compare user answer to correct answer after normalization. */

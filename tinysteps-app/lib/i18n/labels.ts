@@ -38,4 +38,42 @@ export const labels = {
   DANG_HOC: "Đang học",
   CHUA_HOC: "Chưa học",
   HOAN_THANH: "hoàn thành",
+
+  // SRS review
+  ON_TAP: "Ôn tập",
+  ON_TAP_TU_VUNG: "Ôn tập từ vựng",
+  XEM_DAP_AN: "Xem đáp án",
+  NGHE_TU: "Nghe từ",
+  NGHE_CAU: "Nghe câu",
+  DA_XONG_HOM_NAY: "Đã xong hôm nay 🎉",
+  KHONG_CO_TU_ON: "Không có từ nào cần ôn hôm nay.",
+  QUAY_LAI_SAU: "Hãy quay lại sau để ôn tiếp.",
+  HOAN_THANH_LUOT_ON: "Hoàn thành 1 lượt ôn ✓",
+  TIEP_TUC_ON: "Tiếp tục",
+  DUNG_LAI: "Dừng lại",
+  DA_ON: "Đã ôn",
+  TU: "từ",
+  TU_MOI: "từ mới",
+  CAN_ON: "cần ôn",
+
+  // Dashboard
+  BANG_DIEU_KHIEN: "Bảng điều khiển",
+  CHUOI_NGAY: "Chuỗi ngày",
+  NGAY: "ngày",
+  TU_CAN_ON: "từ cần ôn",
+  TIEP_TUC_HOC: "Tiếp tục học",
+  XEM_TAT_CA_BAI_HOC: "Xem tất cả bài học",
+  CHUA_CO_TIEN_DO: "Bạn chưa học bài nào. Bắt đầu ngay nhé!",
+  BAT_DAU_HOC: "Bắt đầu học",
+  HOC_HOM_NAY_GIU_CHUOI: "Học hôm nay để giữ chuỗi 🔥",
+  XIN_CHAO: "Xin chào",
+
+  // Paid access
+  CAN_GOI_TRON_BO: "Cần gói học trọn bộ",
+  MO_KHOA_TRON_BO: "Mở khóa trọn bộ",
+  HOC_THU_MIEN_PHI: "Học thử miễn phí",
+
+  GOP_Y: "Góp ý",
+  DANG_XUAT: "Đăng xuất",
+  TRANG_CHU: "Trang chủ",
 } as const;

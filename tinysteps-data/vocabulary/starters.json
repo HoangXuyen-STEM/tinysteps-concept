@@ -218,7 +218,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "Look at the help.",
+      "example_sentence": "Can you help me?",
       "image_hint": "an action illustration showing a person to help",
       "frequency_rank": 17
     },
@@ -242,7 +242,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "Is this a comprehend?",
+      "example_sentence": "I comprehend the lesson.",
       "image_hint": "an action illustration showing a person to comprehend",
       "frequency_rank": 19
     },
@@ -254,7 +254,7 @@
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "Good nice!",
+      "example_sentence": "That is very nice!",
       "image_hint": "a simple, clear colorful visualization of nice",
       "frequency_rank": 20
     },
@@ -278,7 +278,7 @@
       "topic_ids": [
         "topic_market"
       ],
-      "example_sentence": "I like buy.",
+      "example_sentence": "I want to buy rice.",
       "image_hint": "an action illustration showing a person to buy",
       "frequency_rank": 22
     },
@@ -326,7 +326,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "Goodbye, walk!",
+      "example_sentence": "We walk to school.",
       "image_hint": "an action illustration showing a person to walk",
       "frequency_rank": 27
     },
@@ -362,7 +362,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Show your suggest.",
+      "example_sentence": "Can I suggest something?",
       "image_hint": "an action illustration showing a person to suggest",
       "frequency_rank": 30
     },
@@ -482,7 +482,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Listen to the repeat.",
+      "example_sentence": "Please repeat after me.",
       "image_hint": "an action illustration showing a person to repeat",
       "frequency_rank": 42
     },
@@ -494,7 +494,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "Look at the true.",
+      "example_sentence": "That is true.",
       "image_hint": "a simple, clear colorful visualization of true",
       "frequency_rank": 43
     },
@@ -566,7 +566,7 @@
       "topic_ids": [
         "topic_phone"
       ],
-      "example_sentence": "Answer the hear.",
+      "example_sentence": "I can hear you.",
       "image_hint": "an action illustration showing a person to hear",
       "frequency_rank": 49
     },
@@ -590,7 +590,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "Hello, talk!",
+      "example_sentence": "Please talk to me.",
       "image_hint": "an action illustration showing a person to talk",
       "frequency_rank": 51
     },
@@ -626,7 +626,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Write the turn.",
+      "example_sentence": "Turn to page ten.",
       "image_hint": "an action illustration showing a person to turn",
       "frequency_rank": 54
     },
@@ -638,7 +638,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "Point to the quietly.",
+      "example_sentence": "Please work quietly.",
       "image_hint": "a simple diagram illustrating how to do something quietly",
       "frequency_rank": 55
     },
@@ -686,7 +686,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "Goodbye, cold!",
+      "example_sentence": "The water is cold.",
       "image_hint": "a simple, clear colorful visualization of cold",
       "frequency_rank": 62
     },
@@ -758,7 +758,7 @@
       "topic_ids": [
         "topic_phone"
       ],
-      "example_sentence": "Call the contact.",
+      "example_sentence": "Please contact the school.",
       "image_hint": "an action illustration showing a person to contact",
       "frequency_rank": 72
     },
@@ -902,7 +902,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "This is a translate.",
+      "example_sentence": "Can you translate this?",
       "image_hint": "an action illustration showing a person to translate",
       "frequency_rank": 88
     },
@@ -914,7 +914,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Write the circle.",
+      "example_sentence": "Circle the correct answer.",
       "image_hint": "an action illustration showing a person to circle",
       "frequency_rank": 89
     },
@@ -926,7 +926,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "Point to the helping.",
+      "example_sentence": "She is helping me.",
       "image_hint": "an action illustration showing a person to helping",
       "frequency_rank": 90
     },
@@ -974,7 +974,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "See the travel.",
+      "example_sentence": "We travel by bus.",
       "image_hint": "an action illustration showing a person to travel",
       "frequency_rank": 94
     },
@@ -986,7 +986,7 @@
       "topic_ids": [
         "topic_phone"
       ],
-      "example_sentence": "Hello, call!",
+      "example_sentence": "Please call the doctor.",
       "image_hint": "an action illustration showing a person to call",
       "frequency_rank": 95
     },
@@ -1046,7 +1046,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Show your sit.",
+      "example_sentence": "Please sit down.",
       "image_hint": "an action illustration showing a person to sit",
       "frequency_rank": 100
     },
@@ -1058,7 +1058,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "Do you see the improve?",
+      "example_sentence": "I want to improve.",
       "image_hint": "an action illustration showing a person to improve",
       "frequency_rank": 101
     },
@@ -1118,7 +1118,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "I go to the cancel.",
+      "example_sentence": "We must cancel class.",
       "image_hint": "an action illustration showing a person to cancel",
       "frequency_rank": 106
     },
@@ -1178,7 +1178,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "Look at the verify.",
+      "example_sentence": "Please verify your answer.",
       "image_hint": "an action illustration showing a person to verify",
       "frequency_rank": 113
     },
@@ -1286,7 +1286,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "This is a pronounce.",
+      "example_sentence": "Can you pronounce this?",
       "image_hint": "an action illustration showing a person to pronounce",
       "frequency_rank": 123
     },
@@ -1298,7 +1298,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Write the color.",
+      "example_sentence": "Color the picture, please.",
       "image_hint": "an action illustration showing a person to color",
       "frequency_rank": 124
     },
@@ -1310,7 +1310,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "Point to the sure.",
+      "example_sentence": "I am not sure.",
       "image_hint": "a simple, clear colorful visualization of sure",
       "frequency_rank": 125
     },
@@ -1370,7 +1370,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "Run to the drive.",
+      "example_sentence": "I drive to school.",
       "image_hint": "an action illustration showing a person to drive",
       "frequency_rank": 130
     },
@@ -1394,7 +1394,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "How are you, walking?",
+      "example_sentence": "She is walking home.",
       "image_hint": "an action illustration showing a person to walking",
       "frequency_rank": 144
     },
@@ -1418,7 +1418,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Listen to the suggesting.",
+      "example_sentence": "He is suggesting something.",
       "image_hint": "an action illustration showing a person to suggesting",
       "frequency_rank": 147
     },
@@ -1454,7 +1454,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Write the repeating.",
+      "example_sentence": "She is repeating the word.",
       "image_hint": "an action illustration showing a person to repeating",
       "frequency_rank": 159
     },
@@ -1466,7 +1466,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "Goodbye, talking!",
+      "example_sentence": "They are talking now.",
       "image_hint": "an action illustration showing a person to talking",
       "frequency_rank": 167
     },
@@ -1478,7 +1478,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Show your turning.",
+      "example_sentence": "He is turning the page.",
       "image_hint": "an action illustration showing a person to turning",
       "frequency_rank": 170
     },
@@ -1496,14 +1496,14 @@
     },
     {
       "id": "starters_vocab_123",
-      "word": "musting",
-      "ipa": "/mʌst/",
+      "word": "wait",
+      "ipa": "/weɪt/",
       "pos": "verb",
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Close your musting.",
-      "image_hint": "an action illustration showing a person to musting",
+      "example_sentence": "Please wait for me.",
+      "image_hint": "a pupil sitting patiently with hands folded on a desk",
       "frequency_rank": 178
     },
     {
@@ -1526,7 +1526,7 @@
       "topic_ids": [
         "topic_phone"
       ],
-      "example_sentence": "Answer the contacting.",
+      "example_sentence": "I am contacting her.",
       "image_hint": "an action illustration showing a person to contacting",
       "frequency_rank": 184
     },
@@ -1586,7 +1586,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "See the traveling.",
+      "example_sentence": "We are traveling today.",
       "image_hint": "an action illustration showing a person to traveling",
       "frequency_rank": 204
     },
@@ -1604,14 +1604,14 @@
     },
     {
       "id": "starters_vocab_132",
-      "word": "siting",
-      "ipa": "/sɪt/",
+      "word": "spell",
+      "ipa": "/spel/",
       "pos": "verb",
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Show your siting.",
-      "image_hint": "an action illustration showing a person to siting",
+      "example_sentence": "Spell your name, please.",
+      "image_hint": "a hand writing letters of a name on a blackboard",
       "frequency_rank": 210
     },
     {
@@ -1646,7 +1646,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "Look at the verifying.",
+      "example_sentence": "I am verifying the answers.",
       "image_hint": "an action illustration showing a person to verifying",
       "frequency_rank": 223
     },
@@ -1670,7 +1670,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Write the coloring.",
+      "example_sentence": "They are coloring the picture.",
       "image_hint": "an action illustration showing a person to coloring",
       "frequency_rank": 234
     },

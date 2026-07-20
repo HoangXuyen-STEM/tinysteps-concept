@@ -173,7 +173,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Let me explain the should procedure clearly.",
+      "example_sentence": "You should review the lesson plan before class.",
       "image_hint": "an action illustration showing a person to should",
       "frequency_rank": 64
     },
@@ -341,7 +341,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "The ticket can be bought at the find.",
+      "example_sentence": "I could not find the register this morning.",
       "image_hint": "an action illustration showing a person to find",
       "frequency_rank": 82
     },
@@ -353,7 +353,7 @@
       "topic_ids": [
         "topic_phone"
       ],
-      "example_sentence": "If the colleague called, I would button.",
+      "example_sentence": "Press the button to start the recording.",
       "image_hint": "a clean graphic illustration of a button",
       "frequency_rank": 83
     },
@@ -413,7 +413,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "I wish the underline were more detailed.",
+      "example_sentence": "Please underline the key words in each sentence.",
       "image_hint": "an action illustration showing a person to underline",
       "frequency_rank": 88
     },
@@ -437,7 +437,7 @@
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "Furthermore, the share was very useful.",
+      "example_sentence": "I will share the handout with the whole department.",
       "image_hint": "an action illustration showing a person to share",
       "frequency_rank": 91
     },
@@ -497,7 +497,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "On the other hand, the meet was nice.",
+      "example_sentence": "We meet every Monday to plan the week.",
       "image_hint": "an action illustration showing a person to meet",
       "frequency_rank": 97
     },
@@ -521,7 +521,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "You should try to improve your explaining.",
+      "example_sentence": "She is explaining the task to a small group.",
       "image_hint": "an action illustration showing a person to explain",
       "frequency_rank": 99
     },
@@ -533,7 +533,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "The stand should be done by Friday.",
+      "example_sentence": "Please stand near the board so everyone can see.",
       "image_hint": "an action illustration showing a person to stand",
       "frequency_rank": 100
     },
@@ -743,13 +743,13 @@
     },
     {
       "id": "pet_vocab_062",
-      "word": "hobbys",
-      "ipa": "/ˈhɒb.i/",
+      "word": "hobbies",
+      "ipa": "/ˈhɒb.iz/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "I wish I apologized to my hobbys yesterday.",
+      "example_sentence": "We talked about our hobbies during the break.",
       "image_hint": "a clean graphic illustration of a hobby",
       "frequency_rank": 121
     },
@@ -773,7 +773,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "If they didn't understand, I would sentence.",
+      "example_sentence": "Write one sentence about your favourite subject.",
       "image_hint": "a clean graphic illustration of a sentence",
       "frequency_rank": 123
     },
@@ -785,7 +785,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Let me explain the match procedure clearly.",
+      "example_sentence": "Match each word with the correct picture.",
       "image_hint": "an action illustration showing a person to match",
       "frequency_rank": 124
     },
@@ -797,7 +797,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "If they didn't understand, I would confused.",
+      "example_sentence": "The students looked confused after the first explanation.",
       "image_hint": "a simple, clear colorful visualization of confused",
       "frequency_rank": 125
     },
@@ -809,7 +809,7 @@
       "topic_ids": [
         "topic_praise_correction"
       ],
-      "example_sentence": "I wish you didn't make that careful.",
+      "example_sentence": "Please be careful with the laboratory equipment.",
       "image_hint": "a simple, clear colorful visualization of careful",
       "frequency_rank": 126
     },
@@ -857,7 +857,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "The fly reservation should be confirmed.",
+      "example_sentence": "We fly to the conference on Sunday morning.",
       "image_hint": "an action illustration showing a person to fly",
       "frequency_rank": 130
     },
@@ -1031,14 +1031,14 @@
     },
     {
       "id": "pet_vocab_086",
-      "word": "prefering",
-      "ipa": "/prɪˈfɜːr/",
+      "word": "assign",
+      "ipa": "/əˈsaɪn/",
       "pos": "verb",
       "topic_ids": [
         "topic_restaurant"
       ],
-      "example_sentence": "The reservation should be confirmed before prefering.",
-      "image_hint": "an action illustration showing a person to prefer",
+      "example_sentence": "I assign homework at the end of each lesson.",
+      "image_hint": "a teacher handing worksheets to pupils",
       "frequency_rank": 152
     },
     {
@@ -1085,7 +1085,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "I wish I apologized to my chat yesterday.",
+      "example_sentence": "We chat briefly in the staff room each morning.",
       "image_hint": "an action illustration showing a person to chat",
       "frequency_rank": 156
     },
@@ -1109,7 +1109,7 @@
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "If they didn't understand, I would pencil.",
+      "example_sentence": "Bring a pencil and a notebook to the exam.",
       "image_hint": "a clean graphic illustration of a pencil",
       "frequency_rank": 158
     },
@@ -1121,7 +1121,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Let me explain the copy procedure clearly.",
+      "example_sentence": "Please copy the diagram into your notebook.",
       "image_hint": "an action illustration showing a person to copy",
       "frequency_rank": 159
     },
@@ -1133,7 +1133,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "If they didn't understand, I would false.",
+      "example_sentence": "Decide whether each statement is true or false.",
       "image_hint": "a simple, clear colorful visualization of false",
       "frequency_rank": 160
     },
@@ -1217,7 +1217,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "On the other hand, the laugh was nice.",
+      "example_sentence": "The children laugh whenever I mispronounce a word.",
       "image_hint": "an action illustration showing a person to laugh",
       "frequency_rank": 167
     },
@@ -1265,7 +1265,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "I wish you didn't make that check mistake.",
+      "example_sentence": "Please check your answers before you hand them in.",
       "image_hint": "an action illustration showing a person to check",
       "frequency_rank": 171
     },
@@ -1283,14 +1283,14 @@
     },
     {
       "id": "pet_vocab_107",
-      "word": "shoulding",
-      "ipa": "/ʃʊd/",
+      "word": "convey",
+      "ipa": "/kənˈveɪ/",
       "pos": "verb",
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Let me explain the shoulding procedure clearly.",
-      "image_hint": "an action illustration showing a person to shoulding",
+      "example_sentence": "Try to convey the main idea in simple words.",
+      "image_hint": "a teacher explaining with open hands to a listening class",
       "frequency_rank": 179
     },
     {
@@ -1313,7 +1313,7 @@
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "The ticket can be bought at the finding.",
+      "example_sentence": "I am finding it easier to speak in English.",
       "image_hint": "an action illustration showing a person to finding",
       "frequency_rank": 192
     },
@@ -1385,7 +1385,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "I wish the standing were more detailed.",
+      "example_sentence": "He is standing beside the whiteboard.",
       "image_hint": "an action illustration showing a person to standing",
       "frequency_rank": 208
     },
@@ -1397,7 +1397,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "I wish the matching were more detailed.",
+      "example_sentence": "She is matching the words with the pictures.",
       "image_hint": "an action illustration showing a person to matching",
       "frequency_rank": 228
     },
@@ -1421,7 +1421,7 @@
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "I need to have my relaxing checked.",
+      "example_sentence": "I am relaxing after a long teaching day.",
       "image_hint": "an action illustration showing a person to relaxing",
       "frequency_rank": 236
     },
@@ -1451,26 +1451,26 @@
     },
     {
       "id": "pet_vocab_121",
-      "word": "runing",
-      "ipa": "/rân/",
+      "word": "emphasize",
+      "ipa": "/ˈem.fə.saɪz/",
       "pos": "verb",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "I wish I apologized to my runing yesterday.",
-      "image_hint": "an action illustration showing a person to runing",
+      "example_sentence": "I emphasize pronunciation during every speaking activity.",
+      "image_hint": "a teacher underlining a word on the whiteboard",
       "frequency_rank": 246
     },
     {
       "id": "pet_vocab_122",
-      "word": "chating",
-      "ipa": "/tʃæt/",
-      "pos": "verb",
+      "word": "workload",
+      "ipa": "/ˈwɜːk.ləʊd/",
+      "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "I wish I apologized to my chating yesterday.",
-      "image_hint": "an action illustration showing a person to chating",
+      "example_sentence": "My workload increases at the end of the term.",
+      "image_hint": "a tall stack of exercise books on a teacher's desk",
       "frequency_rank": 256
     },
     {
@@ -1481,7 +1481,7 @@
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "Let me explain the copying procedure clearly.",
+      "example_sentence": "The pupils are copying the notes into their books.",
       "image_hint": "an action illustration showing a person to copying",
       "frequency_rank": 259
     },
@@ -1493,7 +1493,7 @@
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "On the other hand, the laughing was nice.",
+      "example_sentence": "The whole class is laughing at my joke.",
       "image_hint": "an action illustration showing a person to laughing",
       "frequency_rank": 267
     },
@@ -1517,7 +1517,7 @@
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "I wish you didn't make that checking mistake.",
+      "example_sentence": "I am checking the homework this evening.",
       "image_hint": "an action illustration showing a person to checking",
       "frequency_rank": 271
     },
@@ -2327,14 +2327,14 @@
     },
     {
       "id": "pet_vocab_194",
-      "word": "epistemological",
-      "ipa": "/ɪˌpɪs.tɪ.məˈlɒdʒ.ɪ.kəl/",
-      "pos": "adjective",
+      "word": "alarm",
+      "ipa": "/əˈlɑːm/",
+      "pos": "noun",
       "topic_ids": [
         "topic_before_class"
       ],
-      "example_sentence": "If it were epistemological, I would agree.",
-      "image_hint": "an image clearly illustrating the quality epistemological",
+      "example_sentence": "My alarm went off very early.",
+      "image_hint": "an alarm clock on a bedside table",
       "frequency_rank": 194
     },
     {
@@ -2363,14 +2363,14 @@
     },
     {
       "id": "pet_vocab_197",
-      "word": "praxis",
-      "ipa": "/ˈpræk.sɪs/",
-      "pos": "noun",
+      "word": "rehearse",
+      "ipa": "/rɪˈhɜːs/",
+      "pos": "verb",
       "topic_ids": [
         "topic_before_class"
       ],
-      "example_sentence": "The praxis should be confirmed by Friday.",
-      "image_hint": "a clear image showing praxis in context",
+      "example_sentence": "I like to rehearse my lesson plan.",
+      "image_hint": "a teacher practising alone in an empty classroom",
       "frequency_rank": 197
     },
     {
@@ -2447,14 +2447,14 @@
     },
     {
       "id": "pet_vocab_204",
-      "word": "dialectic",
-      "ipa": "/ˌdaɪ.əˈlek.tɪk/",
+      "word": "roleplay",
+      "ipa": "/ˈrəʊl.pleɪ/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "If I had a better dialectic, I would use it.",
-      "image_hint": "a clear image showing dialectic in context",
+      "example_sentence": "We did a roleplay in pairs.",
+      "image_hint": "two pupils acting out a short scene together",
       "frequency_rank": 204
     },
     {
@@ -2663,62 +2663,62 @@
     },
     {
       "id": "pet_vocab_222",
-      "word": "epistemology",
-      "ipa": "/ɪˌpɪs.tɪˈmɒl.ə.dʒi/",
+      "word": "confusion",
+      "ipa": "/kənˈfjuː.ʒən/",
       "pos": "noun",
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "If I had a better epistemology, I would use it.",
-      "image_hint": "a clear image showing epistemology in context",
+      "example_sentence": "There was some confusion about the task.",
+      "image_hint": "a pupil looking puzzled at a worksheet",
       "frequency_rank": 222
     },
     {
       "id": "pet_vocab_223",
-      "word": "ontology",
-      "ipa": "/ɒnˈtɒl.ə.dʒi/",
+      "word": "reassurance",
+      "ipa": "/ˌriː.əˈʃɔː.rəns/",
       "pos": "noun",
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "The ontology should be confirmed by Friday.",
-      "image_hint": "a clear image showing ontology in context",
+      "example_sentence": "She just needed a little reassurance.",
+      "image_hint": "a teacher giving a pupil an encouraging nod",
       "frequency_rank": 223
     },
     {
       "id": "pet_vocab_224",
-      "word": "phenomenology",
-      "ipa": "/fɪˌnɒm.ɪˈnɒl.ə.dʒi/",
+      "word": "query",
+      "ipa": "/ˈkwɪə.ri/",
       "pos": "noun",
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "If I had a better phenomenology, I would use it.",
-      "image_hint": "a clear image showing phenomenology in context",
+      "example_sentence": "I have a quick query about the homework.",
+      "image_hint": "a raised hand with a question mark above it",
       "frequency_rank": 224
     },
     {
       "id": "pet_vocab_225",
-      "word": "hermeneutics",
-      "ipa": "/ˌhɜː.mɪˈnjuː.tɪks/",
+      "word": "misinterpretation",
+      "ipa": "/ˌmɪs.ɪnˌtɜː.prəˈteɪ.ʃən/",
       "pos": "noun",
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "The hermeneutics should be confirmed by Friday.",
-      "image_hint": "a clear image showing hermeneutics in context",
+      "example_sentence": "That was a simple misinterpretation.",
+      "image_hint": "two speech bubbles with mismatched meanings",
       "frequency_rank": 225
     },
     {
       "id": "pet_vocab_226",
-      "word": "deconstruct",
-      "ipa": "/ˌdiː.kənˈstrʌkt/",
+      "word": "restate",
+      "ipa": "/ˌriːˈsteɪt/",
       "pos": "verb",
       "topic_ids": [
         "topic_checking_understanding"
       ],
-      "example_sentence": "I wish I could deconstruct better.",
-      "image_hint": "a person performing the action of deconstruct",
+      "example_sentence": "Could you restate that more simply?",
+      "image_hint": "a teacher rephrasing a point with open hands",
       "frequency_rank": 226
     },
     {
@@ -2987,26 +2987,26 @@
     },
     {
       "id": "pet_vocab_249",
-      "word": "macroeconomics",
-      "ipa": "/ˌmæk.rəʊˌiː.kəˈnɒm.ɪks/",
+      "word": "retail",
+      "ipa": "/ˈriː.teɪl/",
       "pos": "noun",
       "topic_ids": [
         "topic_market"
       ],
-      "example_sentence": "If I had a better macroeconomics, I would use it.",
-      "image_hint": "a clear image showing macroeconomics in context",
+      "example_sentence": "She works in retail management.",
+      "image_hint": "a bright clothing shop with racks and shelves",
       "frequency_rank": 249
     },
     {
       "id": "pet_vocab_250",
-      "word": "microeconomics",
-      "ipa": "/ˌmaɪ.krəʊˌiː.kəˈnɒm.ɪks/",
+      "word": "voucher",
+      "ipa": "/ˈvaʊ.tʃər/",
       "pos": "noun",
       "topic_ids": [
         "topic_market"
       ],
-      "example_sentence": "If I had a better microeconomics, I would use it.",
-      "image_hint": "a clear image showing microeconomics in context",
+      "example_sentence": "I used a voucher at the till.",
+      "image_hint": "a hand handing over a printed discount voucher",
       "frequency_rank": 250
     },
     {
@@ -3023,26 +3023,26 @@
     },
     {
       "id": "pet_vocab_252",
-      "word": "oligopoly",
-      "ipa": "/ˌɒl.ɪˈɡɒp.ə.li/",
+      "word": "warranty",
+      "ipa": "/ˈwɒr.ən.ti/",
       "pos": "noun",
       "topic_ids": [
         "topic_market"
       ],
-      "example_sentence": "The oligopoly should be confirmed by Friday.",
-      "image_hint": "a clear image showing oligopoly in context",
+      "example_sentence": "This laptop has a two-year warranty.",
+      "image_hint": "a hand holding a printed warranty card beside a box",
       "frequency_rank": 252
     },
     {
       "id": "pet_vocab_253",
-      "word": "monopoly",
-      "ipa": "/məˈnɒp.ə.li/",
+      "word": "installment",
+      "ipa": "/ɪnˈstɔːl.mənt/",
       "pos": "noun",
       "topic_ids": [
         "topic_market"
       ],
-      "example_sentence": "The monopoly should be confirmed by Friday.",
-      "image_hint": "a clear image showing monopoly in context",
+      "example_sentence": "I paid the first installment today.",
+      "image_hint": "a hand placing coins into a small savings jar",
       "frequency_rank": 253
     },
     {
@@ -3131,14 +3131,14 @@
     },
     {
       "id": "pet_vocab_261",
-      "word": "epicurean",
-      "ipa": "/ˌep.ɪˈkjʊər.i.ən/",
-      "pos": "adjective",
+      "word": "appetizer",
+      "ipa": "/ˈæp.ɪ.taɪ.zər/",
+      "pos": "noun",
       "topic_ids": [
         "topic_restaurant"
       ],
-      "example_sentence": "If it were epicurean, I would agree.",
-      "image_hint": "an image clearly illustrating the quality epicurean",
+      "example_sentence": "We ordered an appetizer to share.",
+      "image_hint": "a small shared plate of appetizers on a table",
       "frequency_rank": 261
     },
     {
@@ -3227,14 +3227,14 @@
     },
     {
       "id": "pet_vocab_269",
-      "word": "geopolitical",
-      "ipa": "/ˌdʒiː.əʊ.pəˈlɪt.ɪ.kəl/",
-      "pos": "adjective",
+      "word": "layover",
+      "ipa": "/ˈleɪ.əʊ.vər/",
+      "pos": "noun",
       "topic_ids": [
         "topic_travel"
       ],
-      "example_sentence": "She said that it was geopolitical.",
-      "image_hint": "an image clearly illustrating the quality geopolitical",
+      "example_sentence": "We had a short layover in Bangkok.",
+      "image_hint": "travellers waiting at an airport departure gate",
       "frequency_rank": 269
     },
     {
@@ -3443,230 +3443,230 @@
     },
     {
       "id": "pet_vocab_287",
-      "word": "aetiology",
-      "ipa": "/ˌiː.ti.ˈɒl.ə.dʒi/",
+      "word": "receptionist",
+      "ipa": "/rɪˈsep.ʃən.ɪst/",
       "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "If I had a better aetiology, I would use it.",
-      "image_hint": "a clear image showing aetiology in context",
+      "example_sentence": "The receptionist booked my appointment.",
+      "image_hint": "a person behind a clinic front desk answering the phone",
       "frequency_rank": 287
     },
     {
       "id": "pet_vocab_288",
-      "word": "epidemiology",
-      "ipa": "/ˌep.ɪˌdiː.miˈɒl.ə.dʒi/",
+      "word": "heartbeat",
+      "ipa": "/ˈhɑːt.biːt/",
       "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "The epidemiology should be confirmed by Friday.",
-      "image_hint": "a clear image showing epidemiology in context",
+      "example_sentence": "The nurse listened to my heartbeat.",
+      "image_hint": "a clear everyday illustration of heartbeat",
       "frequency_rank": 288
     },
     {
       "id": "pet_vocab_289",
-      "word": "pharmacology",
-      "ipa": "/ˌfɑː.məˈkɒl.ə.dʒi/",
+      "word": "therapy",
+      "ipa": "/ˈθer.ə.pi/",
       "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "If I had a better pharmacology, I would use it.",
-      "image_hint": "a clear image showing pharmacology in context",
+      "example_sentence": "He goes to therapy every week.",
+      "image_hint": "a therapist and patient talking in a calm room",
       "frequency_rank": 289
     },
     {
       "id": "pet_vocab_290",
-      "word": "oncology",
-      "ipa": "/ɒŋˈkɒl.ə.dʒi/",
+      "word": "recovery",
+      "ipa": "/rɪˈkʌv.ər.i/",
       "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "The oncology should be confirmed by Friday.",
-      "image_hint": "a clear image showing oncology in context",
+      "example_sentence": "Her recovery is going well.",
+      "image_hint": "a patient smiling while resting in a hospital bed",
       "frequency_rank": 290
     },
     {
       "id": "pet_vocab_291",
-      "word": "haematology",
-      "ipa": "/ˌhiː.məˈtɒl.ə.dʒi/",
+      "word": "appetite",
+      "ipa": "/ˈæp.ɪ.taɪt/",
       "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "If I had a better haematology, I would use it.",
-      "image_hint": "a clear image showing haematology in context",
+      "example_sentence": "I have lost my appetite today.",
+      "image_hint": "a full plate of food left untouched",
       "frequency_rank": 291
     },
     {
       "id": "pet_vocab_292",
-      "word": "immunology",
-      "ipa": "/ˌɪm.jʊˈnɒl.ə.dʒi/",
+      "word": "fatigue",
+      "ipa": "/fəˈtiːɡ/",
       "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "The immunology should be confirmed by Friday.",
-      "image_hint": "a clear image showing immunology in context",
+      "example_sentence": "I feel a lot of fatigue lately.",
+      "image_hint": "a tired person resting their head on a desk",
       "frequency_rank": 292
     },
     {
       "id": "pet_vocab_293",
-      "word": "endocrinology",
-      "ipa": "/ˌen.dəʊ.krɪˈnɒl.ə.dʒi/",
+      "word": "ambulance",
+      "ipa": "/ˈæm.bjə.ləns/",
       "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "If I had a better endocrinology, I would use it.",
-      "image_hint": "a clear image showing endocrinology in context",
+      "example_sentence": "The ambulance arrived very quickly.",
+      "image_hint": "an ambulance van with its lights on",
       "frequency_rank": 293
     },
     {
       "id": "pet_vocab_294",
-      "word": "gastroenterology",
-      "ipa": "/ˌɡæs.trəʊˌen.tərˈɒl.ə.dʒi/",
+      "word": "insurance",
+      "ipa": "/ɪnˈʃɔː.rəns/",
       "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "The gastroenterology should be confirmed by Friday.",
-      "image_hint": "a clear image showing gastroenterology in context",
+      "example_sentence": "Does your insurance cover this visit?",
+      "image_hint": "a hand holding an insurance card at a clinic desk",
       "frequency_rank": 294
     },
     {
       "id": "pet_vocab_295",
-      "word": "dermatology",
-      "ipa": "/ˌdɜː.məˈtɒl.ə.dʒi/",
+      "word": "infection",
+      "ipa": "/ɪnˈfek.ʃən/",
       "pos": "noun",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "The dermatology should be confirmed by Friday.",
-      "image_hint": "a clear image showing dermatology in context",
+      "example_sentence": "The wound has a mild infection.",
+      "image_hint": "a bandaged finger with a small red mark",
       "frequency_rank": 295
     },
     {
       "id": "pet_vocab_296",
-      "word": "psychiatry",
-      "ipa": "/saɪˈkaɪ.ə.tri/",
-      "pos": "noun",
+      "word": "diagnose",
+      "ipa": "/ˈdaɪ.əɡ.nəʊz/",
+      "pos": "verb",
       "topic_ids": [
         "topic_health"
       ],
-      "example_sentence": "The psychiatry should be confirmed by Friday.",
-      "image_hint": "a clear image showing psychiatry in context",
+      "example_sentence": "The doctor could not diagnose the problem yet.",
+      "image_hint": "a doctor examining an x-ray on a lightboard",
       "frequency_rank": 296
     },
     {
       "id": "pet_vocab_297",
-      "word": "phenomenological",
-      "ipa": "/fɪˌnɒm.ɪ.nəˈlɒdʒ.ɪ.kəl/",
+      "word": "cordial",
+      "ipa": "/ˈkɔː.di.əl/",
       "pos": "adjective",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "If it were phenomenological, I would agree.",
-      "image_hint": "an image clearly illustrating the quality phenomenological",
+      "example_sentence": "The meeting had a cordial atmosphere.",
+      "image_hint": "two colleagues smiling and shaking hands warmly",
       "frequency_rank": 297
     },
     {
       "id": "pet_vocab_298",
-      "word": "anthropological",
-      "ipa": "/ˌæn.θrə.pəˈlɒdʒ.ɪ.kəl/",
-      "pos": "adjective",
+      "word": "friendship",
+      "ipa": "/ˈfrend.ʃɪp/",
+      "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "She said that it was anthropological.",
-      "image_hint": "an image clearly illustrating the quality anthropological",
+      "example_sentence": "Their friendship began at school.",
+      "image_hint": "a clear everyday illustration of friendship",
       "frequency_rank": 298
     },
     {
       "id": "pet_vocab_299",
-      "word": "sociological",
-      "ipa": "/ˌsəʊ.si.əˈlɒdʒ.ɪ.kəl/",
-      "pos": "adjective",
+      "word": "childhood",
+      "ipa": "/ˈtʃaɪld.hʊd/",
+      "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "She said that it was sociological.",
-      "image_hint": "an image clearly illustrating the quality sociological",
+      "example_sentence": "She told us a story from her childhood.",
+      "image_hint": "a clear everyday illustration of childhood",
       "frequency_rank": 299
     },
     {
       "id": "pet_vocab_300",
-      "word": "philosophical",
-      "ipa": "/ˌfɪl.əˈsɒf.ɪ.kəl/",
+      "word": "easygoing",
+      "ipa": "/ˌiː.ziˈɡəʊ.ɪŋ/",
       "pos": "adjective",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "If it were philosophical, I would agree.",
-      "image_hint": "an image clearly illustrating the quality philosophical",
+      "example_sentence": "Our new colleague is very easygoing.",
+      "image_hint": "a relaxed person leaning back with a calm smile",
       "frequency_rank": 300
     },
     {
       "id": "pet_vocab_301",
-      "word": "postmodernist",
-      "ipa": "/ˌpəʊst.ˈmɒd.ən.ɪst/",
+      "word": "trustworthy",
+      "ipa": "/ˈtrʌst.wɜː.ði/",
       "pos": "adjective",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "If it were postmodernist, I would agree.",
-      "image_hint": "an image clearly illustrating the quality postmodernist",
+      "example_sentence": "He is a trustworthy colleague.",
+      "image_hint": "a person confidently handing keys to a trusted friend",
       "frequency_rank": 301
     },
     {
       "id": "pet_vocab_302",
-      "word": "deconstructionist",
-      "ipa": "/ˌdiː.kənˈstrʌk.ʃən.ɪst/",
+      "word": "hospitable",
+      "ipa": "/hɒˈspɪt.ə.bəl/",
       "pos": "adjective",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "If it were deconstructionist, I would agree.",
-      "image_hint": "an image clearly illustrating the quality deconstructionist",
+      "example_sentence": "Our host family was very hospitable.",
+      "image_hint": "a host welcoming a guest with open arms at a doorway",
       "frequency_rank": 302
     },
     {
       "id": "pet_vocab_303",
-      "word": "intersectionality",
-      "ipa": "/ˌɪn.tə.sek.ʃəˈnæl.ɪ.ti/",
+      "word": "classmate",
+      "ipa": "/ˈklɑːs.meɪt/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The intersectionality should be confirmed by Friday.",
-      "image_hint": "a clear image showing intersectionality in context",
+      "example_sentence": "I invited a classmate to my birthday party.",
+      "image_hint": "a clear everyday illustration of classmate",
       "frequency_rank": 303
     },
     {
       "id": "pet_vocab_304",
-      "word": "hegemony",
-      "ipa": "/hɪˈdʒem.ə.ni/",
+      "word": "farewell",
+      "ipa": "/feəˈwel/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The hegemony should be confirmed by Friday.",
-      "image_hint": "a clear image showing hegemony in context",
+      "example_sentence": "We said our farewell at the station.",
+      "image_hint": "friends waving goodbye at a train platform",
       "frequency_rank": 304
     },
     {
       "id": "pet_vocab_305",
-      "word": "juxtaposition",
-      "ipa": "/ˌdʒʌk.stə.pəˈzɪʃ.ən/",
+      "word": "roommate",
+      "ipa": "/ˈruːm.meɪt/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The juxtaposition should be confirmed by Friday.",
-      "image_hint": "a clear image showing juxtaposition in context",
+      "example_sentence": "My roommate is friendly and easygoing.",
+      "image_hint": "a clear everyday illustration of roommate",
       "frequency_rank": 305
     },
     {
@@ -4919,794 +4919,794 @@
     },
     {
       "id": "pet_vocab_410",
-      "word": "manifestation",
-      "ipa": "/ˌmæn.ɪ.fesˈteɪ.ʃən/",
+      "word": "title",
+      "ipa": "/ˈtaɪ.təl/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The manifestation should be confirmed.",
-      "image_hint": "a visual of manifestation",
+      "example_sentence": "Write a title at the top of the page.",
+      "image_hint": "a clear everyday illustration of title",
       "frequency_rank": 410
     },
     {
       "id": "pet_vocab_411",
-      "word": "representation",
-      "ipa": "/ˌrep.rɪ.zenˈteɪ.ʃən/",
+      "word": "heading",
+      "ipa": "/ˈhed.ɪŋ/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The representation should be confirmed.",
-      "image_hint": "a visual of representation",
+      "example_sentence": "Put each idea under the correct heading.",
+      "image_hint": "a clear everyday illustration of heading",
       "frequency_rank": 411
     },
     {
       "id": "pet_vocab_412",
-      "word": "characterisation",
-      "ipa": "/ˌkær.ɪk.tər.aɪˈzeɪ.ʃən/",
+      "word": "comma",
+      "ipa": "/ˈkɒm.ə/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The characterisation should be confirmed.",
-      "image_hint": "a visual of characterisation",
+      "example_sentence": "Put a comma after the first phrase.",
+      "image_hint": "a clear everyday illustration of comma",
       "frequency_rank": 412
     },
     {
       "id": "pet_vocab_413",
-      "word": "portrayal",
-      "ipa": "/pɔːˈtreɪ.əl/",
+      "word": "alphabet",
+      "ipa": "/ˈæl.fə.bet/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The portrayal should be confirmed.",
-      "image_hint": "a visual of portrayal",
+      "example_sentence": "The English alphabet has twenty-six letters.",
+      "image_hint": "a clear everyday illustration of alphabet",
       "frequency_rank": 413
     },
     {
       "id": "pet_vocab_414",
-      "word": "depiction",
-      "ipa": "/dɪˈpɪk.ʃən/",
+      "word": "arithmetic",
+      "ipa": "/əˈrɪθ.mə.tɪk/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The depiction should be confirmed.",
-      "image_hint": "a visual of depiction",
+      "example_sentence": "We practise arithmetic in the morning.",
+      "image_hint": "a clear everyday illustration of arithmetic",
       "frequency_rank": 414
     },
     {
       "id": "pet_vocab_415",
-      "word": "illustration",
-      "ipa": "/ˌɪl.əˈstreɪ.ʃən/",
+      "word": "biology",
+      "ipa": "/baɪˈɒl.ə.dʒi/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The illustration should be confirmed.",
-      "image_hint": "a visual of illustration",
+      "example_sentence": "We studied plants in biology today.",
+      "image_hint": "a clear everyday illustration of biology",
       "frequency_rank": 415
     },
     {
       "id": "pet_vocab_416",
-      "word": "demonstration",
-      "ipa": "/ˌdem.ənˈstreɪ.ʃən/",
+      "word": "chemistry",
+      "ipa": "/ˈkem.ɪ.stri/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The demonstration should be confirmed.",
-      "image_hint": "a visual of demonstration",
+      "example_sentence": "Chemistry helps us understand different materials.",
+      "image_hint": "a clear everyday illustration of chemistry",
       "frequency_rank": 416
     },
     {
       "id": "pet_vocab_417",
-      "word": "exemplification",
-      "ipa": "/ɪɡˌzem.plɪ.fɪˈkeɪ.ʃən/",
+      "word": "physics",
+      "ipa": "/ˈfɪz.ɪks/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The exemplification should be confirmed.",
-      "image_hint": "a visual of exemplification",
+      "example_sentence": "We learned about light in physics.",
+      "image_hint": "a clear everyday illustration of physics",
       "frequency_rank": 417
     },
     {
       "id": "pet_vocab_418",
-      "word": "generalisation",
-      "ipa": "/ˌdʒen.ər.ə.laɪˈzeɪ.ʃən/",
+      "word": "geography",
+      "ipa": "/dʒiˈɒɡ.rə.fi/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The generalisation should be confirmed.",
-      "image_hint": "a visual of generalisation",
+      "example_sentence": "Geography teaches us about countries and rivers.",
+      "image_hint": "a clear everyday illustration of geography",
       "frequency_rank": 418
     },
     {
       "id": "pet_vocab_419",
-      "word": "conceptualisation",
-      "ipa": "/kənˌsep.tʃʊ.ə.laɪˈzeɪ.ʃən/",
+      "word": "history",
+      "ipa": "/ˈhɪs.tər.i/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The conceptualisation should be confirmed.",
-      "image_hint": "a visual of conceptualisation",
+      "example_sentence": "Our history lesson was about ancient Rome.",
+      "image_hint": "a clear everyday illustration of history",
       "frequency_rank": 419
     },
     {
       "id": "pet_vocab_420",
-      "word": "theorisation",
-      "ipa": "/ˌθɪər.aɪˈzeɪ.ʃən/",
+      "word": "diploma",
+      "ipa": "/dɪˈpləʊ.mə/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The theorisation should be confirmed.",
-      "image_hint": "a visual of theorisation",
+      "example_sentence": "She received her diploma after the course.",
+      "image_hint": "a clear everyday illustration of diploma",
       "frequency_rank": 420
     },
     {
       "id": "pet_vocab_421",
-      "word": "contextualisation",
-      "ipa": "/kənˌteks.tʃʊ.ə.laɪˈzeɪ.ʃən/",
+      "word": "degree",
+      "ipa": "/dɪˈɡriː/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The contextualisation should be confirmed.",
-      "image_hint": "a visual of contextualisation",
+      "example_sentence": "He hopes to study for a science degree.",
+      "image_hint": "a clear everyday illustration of degree",
       "frequency_rank": 421
     },
     {
       "id": "pet_vocab_422",
-      "word": "operationalisation",
-      "ipa": "/ˌɒp.ər.eɪʃ.ən.ə.laɪˈzeɪ.ʃən/",
+      "word": "research",
+      "ipa": "/rɪˈsɜːtʃ/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The operationalisation should be confirmed.",
-      "image_hint": "a visual of operationalisation",
+      "example_sentence": "I did some research for my school project.",
+      "image_hint": "a clear everyday illustration of research",
       "frequency_rank": 422
     },
     {
       "id": "pet_vocab_423",
-      "word": "problematisation",
-      "ipa": "/ˌprɒb.ləm.ə.taɪˈzeɪ.ʃən/",
+      "word": "laboratory",
+      "ipa": "/ləˈbɒr.ə.tər.i/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The problematisation should be confirmed.",
-      "image_hint": "a visual of problematisation",
+      "example_sentence": "Wear safety glasses in the laboratory.",
+      "image_hint": "a clear everyday illustration of laboratory",
       "frequency_rank": 423
     },
     {
       "id": "pet_vocab_424",
-      "word": "deconstruction",
-      "ipa": "/ˌdiː.kənˈstrʌk.ʃən/",
-      "pos": "noun",
+      "word": "brainstorm",
+      "ipa": "/ˈbreɪn.stɔːm/",
+      "pos": "verb",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The deconstruction should be confirmed.",
-      "image_hint": "a visual of deconstruction",
+      "example_sentence": "Let's brainstorm some ideas together.",
+      "image_hint": "a group of pupils around a table with sticky notes",
       "frequency_rank": 424
     },
     {
       "id": "pet_vocab_425",
-      "word": "reconstruction",
-      "ipa": "/ˌriː.kənˈstrʌk.ʃən/",
+      "word": "library",
+      "ipa": "/ˈlaɪ.brər.i/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The reconstruction should be confirmed.",
-      "image_hint": "a visual of reconstruction",
+      "example_sentence": "I borrowed two books from the library.",
+      "image_hint": "a clear everyday illustration of library",
       "frequency_rank": 425
     },
     {
       "id": "pet_vocab_426",
-      "word": "recontextualisation",
-      "ipa": "/ˌriː.kənˌteks.tʃʊ.ə.laɪˈzeɪ.ʃən/",
+      "word": "composition",
+      "ipa": "/ˌkɒm.pəˈzɪʃ.ən/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The recontextualisation should be confirmed.",
-      "image_hint": "a visual of recontextualisation",
+      "example_sentence": "Write a short composition about your town.",
+      "image_hint": "a clear everyday illustration of composition",
       "frequency_rank": 426
     },
     {
       "id": "pet_vocab_427",
-      "word": "transformation",
-      "ipa": "/ˌtræns.fəˈmeɪ.ʃən/",
+      "word": "guest",
+      "ipa": "/ɡest/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The transformation should be confirmed.",
-      "image_hint": "a visual of transformation",
+      "example_sentence": "We welcomed every guest at the door.",
+      "image_hint": "a clear everyday illustration of guest",
       "frequency_rank": 427
     },
     {
       "id": "pet_vocab_428",
-      "word": "evolution",
-      "ipa": "/ˌev.əˈluː.ʃən/",
+      "word": "host",
+      "ipa": "/həʊst/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The evolution should be confirmed.",
-      "image_hint": "a visual of evolution",
+      "example_sentence": "Our host showed us around the house.",
+      "image_hint": "a clear everyday illustration of host",
       "frequency_rank": 428
     },
     {
       "id": "pet_vocab_429",
-      "word": "revolution",
-      "ipa": "/ˌrev.əˈluː.ʃən/",
+      "word": "couple",
+      "ipa": "/ˈkʌp.əl/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The revolution should be confirmed.",
-      "image_hint": "a visual of revolution",
+      "example_sentence": "A young couple moved in next door.",
+      "image_hint": "a clear everyday illustration of couple",
       "frequency_rank": 429
     },
     {
       "id": "pet_vocab_430",
-      "word": "innovation",
-      "ipa": "/ˌɪn.əˈveɪ.ʃən/",
+      "word": "course",
+      "ipa": "/kɔːs/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The innovation should be confirmed.",
-      "image_hint": "a visual of innovation",
+      "example_sentence": "I joined an evening English course.",
+      "image_hint": "a clear everyday illustration of course",
       "frequency_rank": 430
     },
     {
       "id": "pet_vocab_431",
-      "word": "emergence",
-      "ipa": "/ɪˈmɜː.dʒəns/",
+      "word": "teammate",
+      "ipa": "/ˈtiːm.meɪt/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The emergence should be confirmed.",
-      "image_hint": "a visual of emergence",
+      "example_sentence": "My teammate passed me the ball.",
+      "image_hint": "a clear everyday illustration of teammate",
       "frequency_rank": 431
     },
     {
       "id": "pet_vocab_432",
-      "word": "convergence",
-      "ipa": "/kənˈvɜː.dʒəns/",
+      "word": "picnic",
+      "ipa": "/ˈpɪk.nɪk/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The convergence should be confirmed.",
-      "image_hint": "a visual of convergence",
+      "example_sentence": "We had a picnic beside the lake.",
+      "image_hint": "a clear everyday illustration of picnic",
       "frequency_rank": 432
     },
     {
       "id": "pet_vocab_433",
-      "word": "divergence",
-      "ipa": "/daɪˈvɜː.dʒəns/",
+      "word": "camping",
+      "ipa": "/ˈkæm.pɪŋ/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The divergence should be confirmed.",
-      "image_hint": "a visual of divergence",
+      "example_sentence": "We went camping in the mountains.",
+      "image_hint": "a clear everyday illustration of camping",
       "frequency_rank": 433
     },
     {
       "id": "pet_vocab_434",
-      "word": "polarisation",
-      "ipa": "/ˌpəʊ.lər.aɪˈzeɪ.ʃən/",
+      "word": "nightlife",
+      "ipa": "/ˈnaɪt.laɪf/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The polarisation should be confirmed.",
-      "image_hint": "a visual of polarisation",
+      "example_sentence": "The city is famous for its nightlife.",
+      "image_hint": "a clear everyday illustration of nightlife",
       "frequency_rank": 434
     },
     {
       "id": "pet_vocab_435",
-      "word": "fragmentation",
-      "ipa": "/ˌfræɡ.menˈteɪ.ʃən/",
+      "word": "pottery",
+      "ipa": "/ˈpɒt.ər.i/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The fragmentation should be confirmed.",
-      "image_hint": "a visual of fragmentation",
+      "example_sentence": "She makes pottery in her free time.",
+      "image_hint": "a clear everyday illustration of pottery",
       "frequency_rank": 435
     },
     {
       "id": "pet_vocab_436",
-      "word": "assimilation",
-      "ipa": "/əˌsɪm.ɪˈleɪ.ʃən/",
+      "word": "sculpture",
+      "ipa": "/ˈskʌlp.tʃər/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The assimilation should be confirmed.",
-      "image_hint": "a visual of assimilation",
+      "example_sentence": "We saw a stone sculpture in the park.",
+      "image_hint": "a clear everyday illustration of sculpture",
       "frequency_rank": 436
     },
     {
       "id": "pet_vocab_437",
-      "word": "stratification",
-      "ipa": "/ˌstræt.ɪ.fɪˈkeɪ.ʃən/",
+      "word": "drawing",
+      "ipa": "/ˈdrɔː.ɪŋ/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The stratification should be confirmed.",
-      "image_hint": "a visual of stratification",
+      "example_sentence": "He gave me a drawing of his dog.",
+      "image_hint": "a clear everyday illustration of drawing",
       "frequency_rank": 437
     },
     {
       "id": "pet_vocab_438",
-      "word": "homogenisation",
-      "ipa": "/həˌmɒdʒ.ɪ.naɪˈzeɪ.ʃən/",
+      "word": "painting",
+      "ipa": "/ˈpeɪn.tɪŋ/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The homogenisation should be confirmed.",
-      "image_hint": "a visual of homogenisation",
+      "example_sentence": "That painting shows a busy market.",
+      "image_hint": "a clear everyday illustration of painting",
       "frequency_rank": 438
     },
     {
       "id": "pet_vocab_439",
-      "word": "standardisation",
-      "ipa": "/ˌstæn.də.daɪˈzeɪ.ʃən/",
-      "pos": "noun",
+      "word": "attach",
+      "ipa": "/əˈtætʃ/",
+      "pos": "verb",
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "The standardisation should be confirmed.",
-      "image_hint": "a visual of standardisation",
+      "example_sentence": "Attach the photo to your application.",
+      "image_hint": "a clear everyday illustration of attach",
       "frequency_rank": 439
     },
     {
       "id": "pet_vocab_440",
-      "word": "normalisation",
-      "ipa": "/ˌnɔː.mə.laɪˈzeɪ.ʃən/",
+      "word": "guitar",
+      "ipa": "/ɡɪˈtɑːr/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The normalisation should be confirmed.",
-      "image_hint": "a visual of normalisation",
+      "example_sentence": "She plays the guitar in a band.",
+      "image_hint": "a clear everyday illustration of guitar",
       "frequency_rank": 440
     },
     {
       "id": "pet_vocab_441",
-      "word": "institutionalisation",
-      "ipa": "/ˌɪn.stɪ.tjuː.ʃən.ə.laɪˈzeɪ.ʃən/",
+      "word": "equipment",
+      "ipa": "/ɪˈkwɪp.mənt/",
       "pos": "noun",
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "The institutionalisation should be confirmed.",
-      "image_hint": "a visual of institutionalisation",
+      "example_sentence": "The school bought new sports equipment.",
+      "image_hint": "a clear everyday illustration of equipment",
       "frequency_rank": 441
     },
     {
       "id": "pet_vocab_442",
-      "word": "bureaucratisation",
-      "ipa": "/bjʊˌrɒk.rə.taɪˈzeɪ.ʃən/",
+      "word": "keyboard",
+      "ipa": "/ˈkiː.bɔːd/",
       "pos": "noun",
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "The bureaucratisation should be confirmed.",
-      "image_hint": "a visual of bureaucratisation",
+      "example_sentence": "This keyboard is easier to use.",
+      "image_hint": "a clear everyday illustration of keyboard",
       "frequency_rank": 442
     },
     {
       "id": "pet_vocab_443",
-      "word": "professionalisation",
-      "ipa": "/prəˌfeʃ.ən.ə.laɪˈzeɪ.ʃən/",
+      "word": "printer",
+      "ipa": "/ˈprɪn.tər/",
       "pos": "noun",
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "The professionalisation should be confirmed.",
-      "image_hint": "a visual of professionalisation",
+      "example_sentence": "The printer is in the staff room.",
+      "image_hint": "a clear everyday illustration of printer",
       "frequency_rank": 443
     },
     {
       "id": "pet_vocab_444",
-      "word": "commodification",
-      "ipa": "/kəˌmɒd.ɪ.fɪˈkeɪ.ʃən/",
+      "word": "shopper",
+      "ipa": "/ˈʃɒp.ər/",
       "pos": "noun",
       "topic_ids": [
         "topic_market"
       ],
-      "example_sentence": "The commodification should be confirmed.",
-      "image_hint": "a visual of commodification",
+      "example_sentence": "Each shopper received a free bag.",
+      "image_hint": "a clear everyday illustration of shopper",
       "frequency_rank": 444
     },
     {
       "id": "pet_vocab_445",
-      "word": "commercialisation",
-      "ipa": "/kəˌmɜː.ʃəl.aɪˈzeɪ.ʃən/",
+      "word": "department",
+      "ipa": "/dɪˈpɑːt.mənt/",
       "pos": "noun",
       "topic_ids": [
         "topic_market"
       ],
-      "example_sentence": "The commercialisation should be confirmed.",
-      "image_hint": "a visual of commercialisation",
+      "example_sentence": "Ask for help in the shoe department.",
+      "image_hint": "a clear everyday illustration of department",
       "frequency_rank": 445
     },
     {
       "id": "pet_vocab_446",
-      "word": "privatisation",
-      "ipa": "/ˌpraɪ.vɪ.taɪˈzeɪ.ʃən/",
+      "word": "podcast",
+      "ipa": "/ˈpɒd.kɑːst/",
       "pos": "noun",
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "The privatisation should be confirmed.",
-      "image_hint": "a visual of privatisation",
+      "example_sentence": "Our school publishes a weekly podcast.",
+      "image_hint": "a clear everyday illustration of podcast",
       "frequency_rank": 446
     },
     {
       "id": "pet_vocab_447",
-      "word": "nationalisation",
-      "ipa": "/ˌnæʃ.ən.ə.laɪˈzeɪ.ʃən/",
+      "word": "fiction",
+      "ipa": "/ˈfɪk.ʃən/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The nationalisation should be confirmed.",
-      "image_hint": "a visual of nationalisation",
+      "example_sentence": "She prefers fiction to history books.",
+      "image_hint": "a clear everyday illustration of fiction",
       "frequency_rank": 447
     },
     {
       "id": "pet_vocab_448",
-      "word": "decentralisation",
-      "ipa": "/ˌdiː.ˈsen.trə.laɪˈzeɪ.ʃən/",
-      "pos": "noun",
+      "word": "online",
+      "ipa": "/ˈɒn.laɪn/",
+      "pos": "adverb",
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "The decentralisation should be confirmed.",
-      "image_hint": "a visual of decentralisation",
+      "example_sentence": "You can complete the form online.",
+      "image_hint": "a clear everyday illustration of online",
       "frequency_rank": 448
     },
     {
       "id": "pet_vocab_449",
-      "word": "democratisation",
-      "ipa": "/dɪˌmɒk.rə.taɪˈzeɪ.ʃən/",
+      "word": "collection",
+      "ipa": "/kəˈlek.ʃən/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The democratisation should be confirmed.",
-      "image_hint": "a visual of democratisation",
+      "example_sentence": "He showed us his stamp collection.",
+      "image_hint": "a clear everyday illustration of collection",
       "frequency_rank": 449
     },
     {
       "id": "pet_vocab_450",
-      "word": "liberalisation",
-      "ipa": "/ˌlɪb.ər.ə.laɪˈzeɪ.ʃən/",
+      "word": "facilities",
+      "ipa": "/fəˈsɪl.ə.tiz/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The liberalisation should be confirmed.",
-      "image_hint": "a visual of liberalisation",
+      "example_sentence": "The town has excellent sports facilities.",
+      "image_hint": "a clear everyday illustration of facilities",
       "frequency_rank": 450
     },
     {
       "id": "pet_vocab_451",
-      "word": "deregulation",
-      "ipa": "/ˌdiː.ˌreɡ.jʊˈleɪ.ʃən/",
+      "word": "store",
+      "ipa": "/stɔːr/",
       "pos": "noun",
       "topic_ids": [
         "topic_market"
       ],
-      "example_sentence": "The deregulation should be confirmed.",
-      "image_hint": "a visual of deregulation",
+      "example_sentence": "This store sells clothes at low prices.",
+      "image_hint": "a clear everyday illustration of store",
       "frequency_rank": 451
     },
     {
       "id": "pet_vocab_452",
-      "word": "localisation",
-      "ipa": "/ˌləʊ.kəl.aɪˈzeɪ.ʃən/",
+      "word": "trip",
+      "ipa": "/trɪp/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The localisation should be confirmed.",
-      "image_hint": "a visual of localisation",
+      "example_sentence": "We took a day trip to the coast.",
+      "image_hint": "a clear everyday illustration of trip",
       "frequency_rank": 452
     },
     {
       "id": "pet_vocab_453",
-      "word": "urbanisation",
-      "ipa": "/ˌɜː.bən.aɪˈzeɪ.ʃən/",
+      "word": "sightseeing",
+      "ipa": "/ˈsaɪtˌsiː.ɪŋ/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The urbanisation should be confirmed.",
-      "image_hint": "a visual of urbanisation",
+      "example_sentence": "We went sightseeing after breakfast.",
+      "image_hint": "a clear everyday illustration of sightseeing",
       "frequency_rank": 453
     },
     {
       "id": "pet_vocab_454",
-      "word": "industrialisation",
-      "ipa": "/ɪnˌdʌs.tri.ə.laɪˈzeɪ.ʃən/",
+      "word": "brochure",
+      "ipa": "/ˈbrəʊ.ʃər/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The industrialisation should be confirmed.",
-      "image_hint": "a visual of industrialisation",
+      "example_sentence": "The hotel brochure includes a map.",
+      "image_hint": "a clear everyday illustration of brochure",
       "frequency_rank": 454
     },
     {
       "id": "pet_vocab_455",
-      "word": "modernisation",
-      "ipa": "/ˌmɒd.ən.aɪˈzeɪ.ʃən/",
+      "word": "cabin",
+      "ipa": "/ˈkæb.ɪn/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The modernisation should be confirmed.",
-      "image_hint": "a visual of modernisation",
+      "example_sentence": "We stayed in a cabin by the lake.",
+      "image_hint": "a clear everyday illustration of cabin",
       "frequency_rank": 455
     },
     {
       "id": "pet_vocab_456",
-      "word": "digitalisation",
-      "ipa": "/ˌdɪdʒ.ɪ.tə.laɪˈzeɪ.ʃən/",
+      "word": "comment",
+      "ipa": "/ˈkɒm.ent/",
       "pos": "noun",
       "topic_ids": [
         "topic_school_communication"
       ],
-      "example_sentence": "The digitalisation should be confirmed.",
-      "image_hint": "a visual of digitalisation",
+      "example_sentence": "The teacher posted a helpful comment.",
+      "image_hint": "a clear everyday illustration of comment",
       "frequency_rank": 456
     },
     {
       "id": "pet_vocab_457",
-      "word": "automation",
-      "ipa": "/ˌɔː.təˈmeɪ.ʃən/",
-      "pos": "noun",
+      "word": "elementary",
+      "ipa": "/ˌel.ɪˈmen.tər.i/",
+      "pos": "adjective",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The automation should be confirmed.",
-      "image_hint": "a visual of automation",
+      "example_sentence": "This book is for elementary learners.",
+      "image_hint": "a clear everyday illustration of elementary",
       "frequency_rank": 457
     },
     {
       "id": "pet_vocab_458",
-      "word": "virtualisation",
-      "ipa": "/ˌvɜː.tʃʊ.ə.laɪˈzeɪ.ʃən/",
+      "word": "pupil",
+      "ipa": "/ˈpjuː.pəl/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The virtualisation should be confirmed.",
-      "image_hint": "a visual of virtualisation",
+      "example_sentence": "Each pupil completed the activity.",
+      "image_hint": "a clear everyday illustration of pupil",
       "frequency_rank": 458
     },
     {
       "id": "pet_vocab_459",
-      "word": "gamification",
-      "ipa": "/ˌɡeɪ.mɪ.fɪˈkeɪ.ʃən/",
+      "word": "classwork",
+      "ipa": "/ˈklɑːs.wɜːk/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The gamification should be confirmed.",
-      "image_hint": "a visual of gamification",
+      "example_sentence": "Please finish your classwork before lunch.",
+      "image_hint": "a clear everyday illustration of classwork",
       "frequency_rank": 459
     },
     {
       "id": "pet_vocab_460",
-      "word": "personalisation",
-      "ipa": "/ˌpɜː.sən.ə.laɪˈzeɪ.ʃən/",
+      "word": "semester",
+      "ipa": "/sɪˈmes.tər/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The personalisation should be confirmed.",
-      "image_hint": "a visual of personalisation",
+      "example_sentence": "We have three exams this semester.",
+      "image_hint": "a clear everyday illustration of semester",
       "frequency_rank": 460
     },
     {
       "id": "pet_vocab_461",
-      "word": "customisation",
-      "ipa": "/ˌkʌs.tə.maɪˈzeɪ.ʃən/",
+      "word": "term",
+      "ipa": "/tɜːm/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The customisation should be confirmed.",
-      "image_hint": "a visual of customisation",
+      "example_sentence": "The new school term starts next week.",
+      "image_hint": "a clear everyday illustration of term",
       "frequency_rank": 461
     },
     {
       "id": "pet_vocab_462",
-      "word": "optimisation",
-      "ipa": "/ˌɒp.tɪ.maɪˈzeɪ.ʃən/",
+      "word": "calculator",
+      "ipa": "/ˈkæl.kjə.leɪ.tər/",
       "pos": "noun",
       "topic_ids": [
         "topic_before_class"
       ],
-      "example_sentence": "The optimisation should be confirmed.",
-      "image_hint": "a visual of optimisation",
+      "example_sentence": "Bring a calculator to the maths lesson.",
+      "image_hint": "a clear everyday illustration of calculator",
       "frequency_rank": 462
     },
     {
       "id": "pet_vocab_463",
-      "word": "maximisation",
-      "ipa": "/ˌmæk.sɪ.maɪˈzeɪ.ʃən/",
+      "word": "robot",
+      "ipa": "/ˈrəʊ.bɒt/",
       "pos": "noun",
       "topic_ids": [
         "topic_before_class"
       ],
-      "example_sentence": "The maximisation should be confirmed.",
-      "image_hint": "a visual of maximisation",
+      "example_sentence": "The students built a small robot.",
+      "image_hint": "a clear everyday illustration of robot",
       "frequency_rank": 463
     },
     {
       "id": "pet_vocab_464",
-      "word": "minimisation",
-      "ipa": "/ˌmɪn.ɪ.maɪˈzeɪ.ʃən/",
-      "pos": "noun",
+      "word": "fold",
+      "ipa": "/fəʊld/",
+      "pos": "verb",
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "The minimisation should be confirmed.",
-      "image_hint": "a visual of minimisation",
+      "example_sentence": "Fold the paper in half.",
+      "image_hint": "a clear everyday illustration of fold",
       "frequency_rank": 464
     },
     {
       "id": "pet_vocab_465",
-      "word": "systematisation",
-      "ipa": "/ˌsɪs.tɪ.mə.taɪˈzeɪ.ʃən/",
+      "word": "rubber",
+      "ipa": "/ˈrʌb.ər/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The systematisation should be confirmed.",
-      "image_hint": "a visual of systematisation",
+      "example_sentence": "Use a rubber to correct the mistake.",
+      "image_hint": "a clear everyday illustration of rubber",
       "frequency_rank": 465
     },
     {
       "id": "pet_vocab_466",
-      "word": "rationalisation",
-      "ipa": "/ˌræʃ.ən.ə.laɪˈzeɪ.ʃən/",
+      "word": "bookshelf",
+      "ipa": "/ˈbʊk.ʃelf/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The rationalisation should be confirmed.",
-      "image_hint": "a visual of rationalisation",
+      "example_sentence": "Put the dictionary on the bookshelf.",
+      "image_hint": "a clear everyday illustration of bookshelf",
       "frequency_rank": 466
     },
     {
       "id": "pet_vocab_467",
-      "word": "prioritisation",
-      "ipa": "/praɪˌɒr.ɪ.taɪˈzeɪ.ʃən/",
-      "pos": "noun",
+      "word": "fasten",
+      "ipa": "/ˈfɑː.sən/",
+      "pos": "verb",
       "topic_ids": [
         "topic_giving_instructions"
       ],
-      "example_sentence": "The prioritisation should be confirmed.",
-      "image_hint": "a visual of prioritisation",
+      "example_sentence": "Fasten the two sheets together.",
+      "image_hint": "a clear everyday illustration of fasten",
       "frequency_rank": 467
     },
     {
       "id": "pet_vocab_468",
-      "word": "categorisation",
-      "ipa": "/ˌkæt.ɪ.ɡər.aɪˈzeɪ.ʃən/",
+      "word": "experiment",
+      "ipa": "/ɪkˈsper.ɪ.mənt/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The categorisation should be confirmed.",
-      "image_hint": "a visual of categorisation",
+      "example_sentence": "We did a simple science experiment.",
+      "image_hint": "a clear everyday illustration of experiment",
       "frequency_rank": 468
     },
     {
       "id": "pet_vocab_469",
-      "word": "classification",
-      "ipa": "/ˌklæs.ɪ.fɪˈkeɪ.ʃən/",
+      "word": "science",
+      "ipa": "/ˈsaɪ.əns/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The classification should be confirmed.",
-      "image_hint": "a visual of classification",
+      "example_sentence": "Science is my favourite school subject.",
+      "image_hint": "a clear everyday illustration of science",
       "frequency_rank": 469
     },
     {
       "id": "pet_vocab_470",
-      "word": "hierarchisation",
-      "ipa": "/haɪˌɑː.kɪ.aɪˈzeɪ.ʃən/",
+      "word": "explanation",
+      "ipa": "/ˌek.spləˈneɪ.ʃən/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The hierarchisation should be confirmed.",
-      "image_hint": "a visual of hierarchisation",
+      "example_sentence": "Her explanation was clear and helpful.",
+      "image_hint": "a clear everyday illustration of explanation",
       "frequency_rank": 470
     },
     {
       "id": "pet_vocab_471",
-      "word": "sequentialisation",
-      "ipa": "/sɪˌkwen.ʃəl.aɪˈzeɪ.ʃən/",
+      "word": "speech",
+      "ipa": "/spiːtʃ/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The sequentialisation should be confirmed.",
-      "image_hint": "a visual of sequentialisation",
+      "example_sentence": "He gave a short speech to the class.",
+      "image_hint": "a clear everyday illustration of speech",
       "frequency_rank": 471
     },
     {
       "id": "pet_vocab_472",
-      "word": "instrumentalisation",
-      "ipa": "/ˌɪn.strʊ.men.tə.laɪˈzeɪ.ʃən/",
+      "word": "description",
+      "ipa": "/dɪˈskrɪp.ʃən/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The instrumentalisation should be confirmed.",
-      "image_hint": "a visual of instrumentalisation",
+      "example_sentence": "Write a description of the picture.",
+      "image_hint": "a clear everyday illustration of description",
       "frequency_rank": 472
     },
     {
       "id": "pet_vocab_473",
-      "word": "externalisation",
-      "ipa": "/ɪkˌstɜː.nə.laɪˈzeɪ.ʃən/",
+      "word": "article",
+      "ipa": "/ˈɑː.tɪ.kəl/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The externalisation should be confirmed.",
-      "image_hint": "a visual of externalisation",
+      "example_sentence": "We read an article about space travel.",
+      "image_hint": "a clear everyday illustration of article",
       "frequency_rank": 473
     },
     {
       "id": "pet_vocab_474",
-      "word": "internalisation",
-      "ipa": "/ɪnˌtɜː.nə.laɪˈzeɪ.ʃən/",
+      "word": "magazine",
+      "ipa": "/ˌmæɡ.əˈziːn/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The internalisation should be confirmed.",
-      "image_hint": "a visual of internalisation",
+      "example_sentence": "I found the photograph in a magazine.",
+      "image_hint": "a clear everyday illustration of magazine",
       "frequency_rank": 474
     },
     {
       "id": "pet_vocab_475",
-      "word": "appropriation",
-      "ipa": "/əˌprəʊ.priˈeɪ.ʃən/",
+      "word": "wildlife",
+      "ipa": "/ˈwaɪld.laɪf/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The appropriation should be confirmed.",
-      "image_hint": "a visual of appropriation",
+      "example_sentence": "We should protect local wildlife.",
+      "image_hint": "a clear everyday illustration of wildlife",
       "frequency_rank": 475
     },
     {
@@ -5759,254 +5759,254 @@
     },
     {
       "id": "pet_vocab_480",
-      "word": "teleology",
-      "ipa": "/ˌtiː.liˈɒl.ə.dʒi/",
+      "word": "stationery",
+      "ipa": "/ˈsteɪ.ʃən.ər.i/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The teleology should be confirmed.",
-      "image_hint": "a diagram illustrating teleology",
+      "example_sentence": "We need more stationery for class.",
+      "image_hint": "a pot of pens, pencils, and a ruler on a desk",
       "frequency_rank": 480
     },
     {
       "id": "pet_vocab_481",
-      "word": "axiology",
-      "ipa": "/ˌæk.siˈɒl.ə.dʒi/",
+      "word": "acquaintance",
+      "ipa": "/əˈkweɪn.təns/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The axiology should be confirmed.",
-      "image_hint": "a diagram illustrating axiology",
+      "example_sentence": "He is a colleague, not a close acquaintance.",
+      "image_hint": "two people shaking hands at a first meeting",
       "frequency_rank": 481
     },
     {
       "id": "pet_vocab_482",
-      "word": "deontology",
-      "ipa": "/ˌdiː.ɒnˈtɒl.ə.dʒi/",
+      "word": "sympathy",
+      "ipa": "/ˈsɪm.pə.θi/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The deontology should be confirmed.",
-      "image_hint": "a diagram illustrating deontology",
+      "example_sentence": "She showed real sympathy for him.",
+      "image_hint": "a hand resting gently on a friend's shoulder",
       "frequency_rank": 482
     },
     {
       "id": "pet_vocab_483",
-      "word": "consequentialism",
-      "ipa": "/ˌkɒn.sɪˈkwent.ʃəl.ɪz.əm/",
+      "word": "generosity",
+      "ipa": "/ˌdʒen.əˈrɒs.ə.ti/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The consequentialism should be confirmed.",
-      "image_hint": "a diagram illustrating consequentialism",
+      "example_sentence": "Thank you for your generosity.",
+      "image_hint": "a hand giving a wrapped gift to another person",
       "frequency_rank": 483
     },
     {
       "id": "pet_vocab_484",
-      "word": "utilitarianism",
-      "ipa": "/juːˌtɪl.ɪˈteər.i.ə.nɪz.əm/",
-      "pos": "noun",
+      "word": "forgiving",
+      "ipa": "/fəˈɡɪv.ɪŋ/",
+      "pos": "adjective",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The utilitarianism should be confirmed.",
-      "image_hint": "a diagram illustrating utilitarianism",
+      "example_sentence": "She was forgiving about the mistake.",
+      "image_hint": "two people smiling and shaking hands after a small argument",
       "frequency_rank": 484
     },
     {
       "id": "pet_vocab_485",
-      "word": "functionalism",
-      "ipa": "/ˈfʌŋk.ʃən.ə.lɪz.əm/",
+      "word": "groupwork",
+      "ipa": "/ˈɡruːp.wɜːk/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The functionalism should be confirmed.",
-      "image_hint": "a diagram illustrating functionalism",
+      "example_sentence": "This task needs some groupwork.",
+      "image_hint": "four pupils sitting together around one table",
       "frequency_rank": 485
     },
     {
       "id": "pet_vocab_486",
-      "word": "structuralism",
-      "ipa": "/ˈstrʌk.tʃər.ə.lɪz.əm/",
+      "word": "noticeboard",
+      "ipa": "/ˈnəʊ.tɪs.bɔːd/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The structuralism should be confirmed.",
-      "image_hint": "a diagram illustrating structuralism",
+      "example_sentence": "Check the noticeboard for updates.",
+      "image_hint": "a cork noticeboard with several pinned notes",
       "frequency_rank": 486
     },
     {
       "id": "pet_vocab_487",
-      "word": "poststructuralism",
-      "ipa": "/ˌpəʊst.ˈstrʌk.tʃər.ə.lɪz.əm/",
+      "word": "seating",
+      "ipa": "/ˈsiː.tɪŋ/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The poststructuralism should be confirmed.",
-      "image_hint": "a diagram illustrating poststructuralism",
+      "example_sentence": "We changed the seating this week.",
+      "image_hint": "rows of classroom desks arranged neatly",
       "frequency_rank": 487
     },
     {
       "id": "pet_vocab_488",
-      "word": "postmodernism",
-      "ipa": "/ˌpəʊst.ˈmɒd.ən.ɪz.əm/",
+      "word": "modesty",
+      "ipa": "/ˈmɒd.ə.sti/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The postmodernism should be confirmed.",
-      "image_hint": "a diagram illustrating postmodernism",
+      "example_sentence": "He accepted the prize with modesty.",
+      "image_hint": "a person quietly declining extra applause with a smile",
       "frequency_rank": 488
     },
     {
       "id": "pet_vocab_489",
-      "word": "constructivism",
-      "ipa": "/kənˈstrʌk.tɪ.vɪz.əm/",
+      "word": "fact",
+      "ipa": "/fækt/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The constructivism should be confirmed.",
-      "image_hint": "a diagram illustrating constructivism",
+      "example_sentence": "Check every fact before you share the story.",
+      "image_hint": "a clear everyday illustration of fact",
       "frequency_rank": 489
     },
     {
       "id": "pet_vocab_490",
-      "word": "cognitivism",
-      "ipa": "/ˈkɒɡ.nɪ.tɪ.vɪz.əm/",
+      "word": "workbook",
+      "ipa": "/ˈwɜːk.bʊk/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The cognitivism should be confirmed.",
-      "image_hint": "a diagram illustrating cognitivism",
+      "example_sentence": "Open your workbook to page five.",
+      "image_hint": "an open exercise workbook with pencil marks",
       "frequency_rank": 490
     },
     {
       "id": "pet_vocab_491",
-      "word": "behaviourism",
-      "ipa": "/bɪˈheɪ.vjər.ɪz.əm/",
+      "word": "projector",
+      "ipa": "/prəˈdʒek.tər/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The behaviourism should be confirmed.",
-      "image_hint": "a diagram illustrating behaviourism",
+      "example_sentence": "The projector shows the slides clearly.",
+      "image_hint": "a classroom projector displaying a bright screen",
       "frequency_rank": 491
     },
     {
       "id": "pet_vocab_492",
-      "word": "humanism",
-      "ipa": "/ˈhjuː.mə.nɪ.zəm/",
+      "word": "companionship",
+      "ipa": "/kəmˈpæn.jən.ʃɪp/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The humanism should be confirmed.",
-      "image_hint": "a diagram illustrating humanism",
+      "example_sentence": "I value our long companionship.",
+      "image_hint": "two elderly friends walking together and talking",
       "frequency_rank": 492
     },
     {
       "id": "pet_vocab_493",
-      "word": "pragmatism",
-      "ipa": "/ˈpræɡ.mə.tɪz.əm/",
+      "word": "teamwork",
+      "ipa": "/ˈtiːm.wɜːk/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The pragmatism should be confirmed.",
-      "image_hint": "a diagram illustrating pragmatism",
+      "example_sentence": "Good teamwork helped us finish early.",
+      "image_hint": "a clear everyday illustration of teamwork",
       "frequency_rank": 493
     },
     {
       "id": "pet_vocab_494",
-      "word": "empiricism",
-      "ipa": "/ɪmˈpɪr.ɪ.sɪz.əm/",
+      "word": "pairwork",
+      "ipa": "/ˈpeə.wɜːk/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The empiricism should be confirmed.",
-      "image_hint": "a diagram illustrating empiricism",
+      "example_sentence": "Let's do some pairwork now.",
+      "image_hint": "two pupils sitting together sharing one worksheet",
       "frequency_rank": 494
     },
     {
       "id": "pet_vocab_495",
-      "word": "rationalism",
-      "ipa": "/ˈræʃ.ən.ə.lɪz.əm/",
+      "word": "flashcard",
+      "ipa": "/ˈflæʃ.kɑːd/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The rationalism should be confirmed.",
-      "image_hint": "a diagram illustrating rationalism",
+      "example_sentence": "The teacher held up a flashcard.",
+      "image_hint": "a hand holding up a picture flashcard",
       "frequency_rank": 495
     },
     {
       "id": "pet_vocab_496",
-      "word": "idealism",
-      "ipa": "/aɪˈdɪə.lɪz.əm/",
+      "word": "loyalty",
+      "ipa": "/ˈlɔɪ.əl.ti/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The idealism should be confirmed.",
-      "image_hint": "a diagram illustrating idealism",
+      "example_sentence": "She has shown great loyalty to us.",
+      "image_hint": "a dog sitting faithfully beside its owner",
       "frequency_rank": 496
     },
     {
       "id": "pet_vocab_497",
-      "word": "materialism",
-      "ipa": "/məˈtɪər.i.ə.lɪz.əm/",
+      "word": "honesty",
+      "ipa": "/ˈɒn.ɪ.sti/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The materialism should be confirmed.",
-      "image_hint": "a diagram illustrating materialism",
+      "example_sentence": "I always appreciate your honesty.",
+      "image_hint": "two people looking each other in the eye while talking",
       "frequency_rank": 497
     },
     {
       "id": "pet_vocab_498",
-      "word": "reductionism",
-      "ipa": "/rɪˈdʌk.ʃən.ɪz.əm/",
+      "word": "symbol",
+      "ipa": "/ˈsɪm.bəl/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The reductionism was discussed.",
-      "image_hint": "a diagram representing reductionism",
+      "example_sentence": "A red circle is a common warning symbol.",
+      "image_hint": "a clear everyday illustration of symbol",
       "frequency_rank": 498
     },
     {
       "id": "pet_vocab_499",
-      "word": "essentialism",
-      "ipa": "/ɪˈsen.ʃəl.ɪz.əm/",
+      "word": "rumour",
+      "ipa": "/ˈruː.mər/",
       "pos": "noun",
       "topic_ids": [
         "topic_social"
       ],
-      "example_sentence": "The essentialism was discussed.",
-      "image_hint": "a diagram representing essentialism",
+      "example_sentence": "Don't believe every rumour you hear.",
+      "image_hint": "two people whispering behind cupped hands",
       "frequency_rank": 499
     },
     {
       "id": "pet_vocab_500",
-      "word": "nominalism",
-      "ipa": "/ˈnɒm.ɪ.nə.lɪz.əm/",
+      "word": "handwriting",
+      "ipa": "/ˈhænd.raɪ.tɪŋ/",
       "pos": "noun",
       "topic_ids": [
         "topic_in_class"
       ],
-      "example_sentence": "The nominalism was discussed.",
-      "image_hint": "a diagram representing nominalism",
+      "example_sentence": "Your handwriting is very neat.",
+      "image_hint": "a notebook page with neat handwritten lines",
       "frequency_rank": 500
     }
   ]
