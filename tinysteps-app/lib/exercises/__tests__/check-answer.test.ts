@@ -40,6 +40,23 @@ describe("normalize", () => {
   it("does not otherwise disturb punctuation with no preceding space", () => {
     expect(normalize("hello, world!")).toBe("hello, world!");
   });
+
+  it("expands common contractions to their full form", () => {
+    expect(normalize("I'm")).toBe("i am");
+    expect(normalize("don't")).toBe("do not");
+    expect(normalize("it's")).toBe("it is");
+    expect(normalize("won't")).toBe("will not");
+    expect(normalize("can't")).toBe("cannot");
+    expect(normalize("they're")).toBe("they are");
+    expect(normalize("we've")).toBe("we have");
+    expect(normalize("she'll")).toBe("she will");
+    expect(normalize("let's")).toBe("let us");
+  });
+
+  it("normalizes curly apostrophes before expanding", () => {
+    expect(normalize("I’m")).toBe("i am");
+    expect(normalize("don’t")).toBe("do not");
+  });
 });
 
 describe("isCorrect", () => {
@@ -67,6 +84,17 @@ describe("isCorrect", () => {
   it("handles empty strings", () => {
     expect(isCorrect("", "")).toBe(true);
     expect(isCorrect("", "hello")).toBe(false);
+  });
+
+  it("accepts either the contraction or its full form (either direction)", () => {
+    expect(isCorrect("I am", "I'm")).toBe(true);
+    expect(isCorrect("I'm", "I am")).toBe(true);
+    expect(isCorrect("it is not", "it isn't")).toBe(true);
+    expect(isCorrect("do not", "don't")).toBe(true);
+  });
+
+  it("still rejects a genuinely different answer that only looks close", () => {
+    expect(isCorrect("its", "it's")).toBe(false); // possessive vs "it is"
   });
 
   describe("arrange exercise punctuation-as-chip (real data: flyers_lesson_038)", () => {
