@@ -1,3 +1,2104 @@
 {
-  "assets": {}
+  "assets": {
+    "multiple-choice/starters_lesson_001/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_001/exercise-0/item-0.webp",
+      "alt": "two teachers waving and smiling at each other"
+    },
+    "multiple-choice/starters_lesson_001/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_001/exercise-0/item-1.webp",
+      "alt": "the sun rising over a school building"
+    },
+    "multiple-choice/starters_lesson_001/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_001/exercise-0/item-2.webp",
+      "alt": "a female teacher smiling at the front of a class"
+    },
+    "multiple-choice/starters_lesson_002/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_002/exercise-0/item-0.webp",
+      "alt": "an open English textbook on a desk"
+    },
+    "multiple-choice/starters_lesson_002/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_002/exercise-0/item-1.webp",
+      "alt": "a blue ink pen lying on a notebook"
+    },
+    "multiple-choice/starters_lesson_002/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_002/exercise-0/item-2.webp",
+      "alt": "a female teacher smiling at the front of a class"
+    },
+    "multiple-choice/starters_lesson_003/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_003/exercise-0/item-0.webp",
+      "alt": "an open English textbook on a desk"
+    },
+    "multiple-choice/starters_lesson_003/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_003/exercise-0/item-1.webp",
+      "alt": "a blue ink pen lying on a notebook"
+    },
+    "multiple-choice/starters_lesson_003/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_003/exercise-0/item-2.webp",
+      "alt": "a classroom full of students sitting at desks"
+    },
+    "multiple-choice/starters_lesson_004/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_004/exercise-0/item-0.webp",
+      "alt": "a student cupping their hand to their ear"
+    },
+    "multiple-choice/starters_lesson_004/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_004/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to comprehend"
+    },
+    "multiple-choice/starters_lesson_004/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_004/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a quiz"
+    },
+    "multiple-choice/starters_lesson_005/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_005/exercise-0/item-0.webp",
+      "alt": "a young student raising their hand in class"
+    },
+    "multiple-choice/starters_lesson_005/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_005/exercise-0/item-1.webp",
+      "alt": "a thumbs-up icon with a gold star"
+    },
+    "multiple-choice/starters_lesson_005/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_005/exercise-0/item-2.webp",
+      "alt": "a simple, clear colorful visualization of nice"
+    },
+    "multiple-choice/starters_lesson_006/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_006/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a report"
+    },
+    "multiple-choice/starters_lesson_006/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_006/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a behavior"
+    },
+    "multiple-choice/starters_lesson_006/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_006/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a colleague"
+    },
+    "multiple-choice/starters_lesson_007/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_007/exercise-0/item-0.webp",
+      "alt": "a bustling fresh food market in Vietnam"
+    },
+    "multiple-choice/starters_lesson_007/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_007/exercise-0/item-1.webp",
+      "alt": "a steaming bowl of white jasmine rice"
+    },
+    "multiple-choice/starters_lesson_007/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_007/exercise-0/item-2.webp",
+      "alt": "an action illustration showing a person to buy"
+    },
+    "multiple-choice/starters_lesson_008/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_008/exercise-0/item-0.webp",
+      "alt": "a steaming bowl of white jasmine rice"
+    },
+    "multiple-choice/starters_lesson_008/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_008/exercise-0/item-1.webp",
+      "alt": "a clean glass of water on a table"
+    },
+    "multiple-choice/starters_lesson_008/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_008/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a meat"
+    },
+    "multiple-choice/starters_lesson_009/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_009/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a direction"
+    },
+    "multiple-choice/starters_lesson_009/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_009/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a guide"
+    },
+    "multiple-choice/starters_lesson_009/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_009/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a left"
+    },
+    "multiple-choice/starters_lesson_010/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_010/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a number"
+    },
+    "multiple-choice/starters_lesson_010/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_010/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to hear"
+    },
+    "multiple-choice/starters_lesson_010/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_010/exercise-0/item-2.webp",
+      "alt": "an action illustration showing a person to contact"
+    },
+    "multiple-choice/starters_lesson_011/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_011/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a medicine"
+    },
+    "multiple-choice/starters_lesson_011/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_011/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to rest"
+    },
+    "multiple-choice/starters_lesson_011/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_011/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a energy"
+    },
+    "multiple-choice/starters_lesson_012/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_012/exercise-0/item-0.webp",
+      "alt": "two teachers waving and smiling at each other"
+    },
+    "multiple-choice/starters_lesson_012/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_012/exercise-0/item-1.webp",
+      "alt": "a student waving goodbye at the school gate"
+    },
+    "multiple-choice/starters_lesson_012/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_012/exercise-0/item-2.webp",
+      "alt": "the sun rising over a school building"
+    },
+    "multiple-choice/starters_lesson_013/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_013/exercise-0/item-0.webp",
+      "alt": "two teachers waving and smiling at each other"
+    },
+    "multiple-choice/starters_lesson_013/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_013/exercise-0/item-1.webp",
+      "alt": "the sun rising over a school building"
+    },
+    "multiple-choice/starters_lesson_013/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_013/exercise-0/item-2.webp",
+      "alt": "a female teacher smiling at the front of a class"
+    },
+    "multiple-choice/starters_lesson_014/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_014/exercise-0/item-0.webp",
+      "alt": "an open English textbook on a desk"
+    },
+    "multiple-choice/starters_lesson_014/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_014/exercise-0/item-1.webp",
+      "alt": "a blue ink pen lying on a notebook"
+    },
+    "multiple-choice/starters_lesson_014/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_014/exercise-0/item-2.webp",
+      "alt": "a female teacher smiling at the front of a class"
+    },
+    "multiple-choice/starters_lesson_015/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_015/exercise-0/item-0.webp",
+      "alt": "an open English textbook on a desk"
+    },
+    "multiple-choice/starters_lesson_015/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_015/exercise-0/item-1.webp",
+      "alt": "a blue ink pen lying on a notebook"
+    },
+    "multiple-choice/starters_lesson_015/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_015/exercise-0/item-2.webp",
+      "alt": "a classroom full of students sitting at desks"
+    },
+    "multiple-choice/starters_lesson_016/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_016/exercise-0/item-0.webp",
+      "alt": "a student cupping their hand to their ear"
+    },
+    "multiple-choice/starters_lesson_016/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_016/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to comprehend"
+    },
+    "multiple-choice/starters_lesson_016/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_016/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a quiz"
+    },
+    "multiple-choice/starters_lesson_017/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_017/exercise-0/item-0.webp",
+      "alt": "a young student raising their hand in class"
+    },
+    "multiple-choice/starters_lesson_017/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_017/exercise-0/item-1.webp",
+      "alt": "a thumbs-up icon with a gold star"
+    },
+    "multiple-choice/starters_lesson_017/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_017/exercise-0/item-2.webp",
+      "alt": "a simple, clear colorful visualization of nice"
+    },
+    "multiple-choice/starters_lesson_018/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_018/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a report"
+    },
+    "multiple-choice/starters_lesson_018/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_018/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a behavior"
+    },
+    "multiple-choice/starters_lesson_018/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_018/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a colleague"
+    },
+    "multiple-choice/starters_lesson_019/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_019/exercise-0/item-0.webp",
+      "alt": "a bustling fresh food market in Vietnam"
+    },
+    "multiple-choice/starters_lesson_019/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_019/exercise-0/item-1.webp",
+      "alt": "a steaming bowl of white jasmine rice"
+    },
+    "multiple-choice/starters_lesson_019/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_019/exercise-0/item-2.webp",
+      "alt": "an action illustration showing a person to buy"
+    },
+    "multiple-choice/starters_lesson_020/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_020/exercise-0/item-0.webp",
+      "alt": "a steaming bowl of white jasmine rice"
+    },
+    "multiple-choice/starters_lesson_020/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_020/exercise-0/item-1.webp",
+      "alt": "a clean glass of water on a table"
+    },
+    "multiple-choice/starters_lesson_020/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_020/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a meat"
+    },
+    "multiple-choice/starters_lesson_021/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_021/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a direction"
+    },
+    "multiple-choice/starters_lesson_021/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_021/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a guide"
+    },
+    "multiple-choice/starters_lesson_021/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_021/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a left"
+    },
+    "multiple-choice/starters_lesson_022/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_022/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a number"
+    },
+    "multiple-choice/starters_lesson_022/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_022/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to hear"
+    },
+    "multiple-choice/starters_lesson_022/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_022/exercise-0/item-2.webp",
+      "alt": "an action illustration showing a person to contact"
+    },
+    "multiple-choice/starters_lesson_023/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_023/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a medicine"
+    },
+    "multiple-choice/starters_lesson_023/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_023/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to rest"
+    },
+    "multiple-choice/starters_lesson_023/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_023/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a energy"
+    },
+    "multiple-choice/starters_lesson_024/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_024/exercise-0/item-0.webp",
+      "alt": "two teachers waving and smiling at each other"
+    },
+    "multiple-choice/starters_lesson_024/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_024/exercise-0/item-1.webp",
+      "alt": "a student waving goodbye at the school gate"
+    },
+    "multiple-choice/starters_lesson_024/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_024/exercise-0/item-2.webp",
+      "alt": "the sun rising over a school building"
+    },
+    "multiple-choice/starters_lesson_025/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_025/exercise-0/item-0.webp",
+      "alt": "two teachers waving and smiling at each other"
+    },
+    "multiple-choice/starters_lesson_025/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_025/exercise-0/item-1.webp",
+      "alt": "the sun rising over a school building"
+    },
+    "multiple-choice/starters_lesson_025/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_025/exercise-0/item-2.webp",
+      "alt": "a female teacher smiling at the front of a class"
+    },
+    "multiple-choice/starters_lesson_026/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_026/exercise-0/item-0.webp",
+      "alt": "A single thick open schoolbook centered alone on a clean wooden desk, viewed slightly from above. Both cream pages are completely blank with no pictures, diagrams, symbols, handwriting, or printed marks. The book itself is the only object in the scene."
+    },
+    "multiple-choice/starters_lesson_026/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_026/exercise-0/item-1.webp",
+      "alt": "a blue ink pen lying on a notebook"
+    },
+    "multiple-choice/starters_lesson_026/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_026/exercise-0/item-2.webp",
+      "alt": "a female teacher smiling at the front of a class"
+    },
+    "multiple-choice/starters_lesson_027/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_027/exercise-0/item-0.webp",
+      "alt": "A single open hardcover schoolbook resting alone on a small wooden reading stand in warm daylight. The blank cream pages have no pictures, diagrams, symbols, handwriting, or printed marks. No other objects or people."
+    },
+    "multiple-choice/starters_lesson_027/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_027/exercise-0/item-1.webp",
+      "alt": "a blue ink pen lying on a notebook"
+    },
+    "multiple-choice/starters_lesson_027/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_027/exercise-0/item-2.webp",
+      "alt": "a classroom full of students sitting at desks"
+    },
+    "multiple-choice/starters_lesson_028/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_028/exercise-0/item-0.webp",
+      "alt": "a student cupping their hand to their ear"
+    },
+    "multiple-choice/starters_lesson_028/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_028/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to comprehend"
+    },
+    "multiple-choice/starters_lesson_028/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_028/exercise-0/item-2.webp",
+      "alt": "A cheerful child sitting at a small desk and thoughtfully choosing between three large simple colored shape cards for a short classroom quiz. One empty answer box is being selected with a wooden token. No letters, numbers, question marks, writing, headphones, or teacher."
+    },
+    "multiple-choice/starters_lesson_029/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_029/exercise-0/item-0.webp",
+      "alt": "a young student raising their hand in class"
+    },
+    "multiple-choice/starters_lesson_029/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_029/exercise-0/item-1.webp",
+      "alt": "a thumbs-up icon with a gold star"
+    },
+    "multiple-choice/starters_lesson_029/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_029/exercise-0/item-2.webp",
+      "alt": "A kind child holding an umbrella over another child in gentle rain, keeping the other child dry while both smile warmly. The helpful caring gesture should immediately communicate that someone is nice. Outdoor neighborhood setting, no school objects, text, signs, stars, or thumbs-up symbols."
+    },
+    "multiple-choice/starters_lesson_030/exercise-4/item-0": {
+      "path": "illustrations/match/starters_lesson_030/exercise-0/item-0.webp",
+      "alt": "A neat professional report folder open on a clean desk, showing only three bold colored bars and one simple pie chart made from plain geometric shapes. The report folder is the single clear subject. No readable text, handwriting-like marks, people, behavior scene, or office coworkers."
+    },
+    "multiple-choice/starters_lesson_030/exercise-4/item-1": {
+      "path": "illustrations/match/starters_lesson_030/exercise-0/item-1.webp",
+      "alt": "A child independently putting scattered wooden building blocks back into a storage basket and tidying the play area, with a calm proud smile. The clear action demonstrates responsible behavior. No papers, reports, charts, office, coworkers, words, letters, or numbers."
+    },
+    "multiple-choice/starters_lesson_030/exercise-4/item-2": {
+      "path": "illustrations/match/starters_lesson_030/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a colleague"
+    },
+    "multiple-choice/movers_lesson_001/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_001/exercise-0/item-0.webp",
+      "alt": "a calendar sheet showing the previous day marked"
+    },
+    "multiple-choice/movers_lesson_001/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_001/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a agenda"
+    },
+    "multiple-choice/movers_lesson_001/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_001/exercise-0/item-2.webp",
+      "alt": "a black dry-erase marker on a whiteboard shelf"
+    },
+    "multiple-choice/movers_lesson_002/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_002/exercise-0/item-0.webp",
+      "alt": "a notebook with written exercises and a red checkmark"
+    },
+    "multiple-choice/movers_lesson_002/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_002/exercise-0/item-1.webp",
+      "alt": "a hand wiping a whiteboard clean with an eraser"
+    },
+    "multiple-choice/movers_lesson_002/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_002/exercise-0/item-2.webp",
+      "alt": "a worksheet page with numbered exercises"
+    },
+    "multiple-choice/movers_lesson_003/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_003/exercise-0/item-0.webp",
+      "alt": "a notebook with written exercises and a red checkmark"
+    },
+    "multiple-choice/movers_lesson_003/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_003/exercise-0/item-1.webp",
+      "alt": "a hand wiping a whiteboard clean with an eraser"
+    },
+    "multiple-choice/movers_lesson_003/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_003/exercise-0/item-2.webp",
+      "alt": "a large bold arrow pointing to the right"
+    },
+    "multiple-choice/movers_lesson_004/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_004/exercise-0/item-0.webp",
+      "alt": "a lightbulb glowing bright above a smiling head"
+    },
+    "multiple-choice/movers_lesson_004/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_004/exercise-0/item-1.webp",
+      "alt": "a lightbulb above a person's head"
+    },
+    "multiple-choice/movers_lesson_004/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_004/exercise-0/item-2.webp",
+      "alt": "a turtle with a speech bubble showing slow speech"
+    },
+    "multiple-choice/movers_lesson_005/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_005/exercise-0/item-0.webp",
+      "alt": "applause icons and stars surrounding a text card"
+    },
+    "multiple-choice/movers_lesson_005/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_005/exercise-0/item-1.webp",
+      "alt": "a shiny gold star sticker on a notebook page"
+    },
+    "multiple-choice/movers_lesson_005/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_005/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a correction"
+    },
+    "multiple-choice/movers_lesson_006/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_006/exercise-0/item-0.webp",
+      "alt": "a person in bed with a thermometer in their mouth"
+    },
+    "multiple-choice/movers_lesson_006/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_006/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of official"
+    },
+    "multiple-choice/movers_lesson_006/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_006/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a colleague"
+    },
+    "multiple-choice/movers_lesson_007/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_007/exercise-0/item-0.webp",
+      "alt": "a plate of roasted chicken next to rice"
+    },
+    "multiple-choice/movers_lesson_007/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_007/exercise-0/item-1.webp",
+      "alt": "a basket of fresh apples, bananas, and oranges"
+    },
+    "multiple-choice/movers_lesson_007/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_007/exercise-0/item-2.webp",
+      "alt": "a pile of fresh mixed vegetables at a market stall"
+    },
+    "multiple-choice/movers_lesson_008/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_008/exercise-0/item-0.webp",
+      "alt": "a plate of roasted chicken next to rice"
+    },
+    "multiple-choice/movers_lesson_008/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_008/exercise-0/item-1.webp",
+      "alt": "a basket of fresh apples, bananas, and oranges"
+    },
+    "multiple-choice/movers_lesson_008/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_008/exercise-0/item-2.webp",
+      "alt": "a smiling waiter in uniform holding a notepad"
+    },
+    "multiple-choice/movers_lesson_009/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_009/exercise-0/item-0.webp",
+      "alt": "an aeroplane taking off into a clear blue sky"
+    },
+    "multiple-choice/movers_lesson_009/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_009/exercise-0/item-1.webp",
+      "alt": "a small wooden boat on a calm river in Vietnam"
+    },
+    "multiple-choice/movers_lesson_009/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_009/exercise-0/item-2.webp",
+      "alt": "a motorbike parked outside a school gate"
+    },
+    "multiple-choice/movers_lesson_010/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_010/exercise-0/item-0.webp",
+      "alt": "a modern ringing smartphone vibrating on a table"
+    },
+    "multiple-choice/movers_lesson_010/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_010/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of urgent"
+    },
+    "multiple-choice/movers_lesson_010/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_010/exercise-0/item-2.webp",
+      "alt": "a phone screen showing a busy tone symbol"
+    },
+    "multiple-choice/movers_lesson_011/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_011/exercise-0/item-0.webp",
+      "alt": "a friendly doctor with a stethoscope around their neck"
+    },
+    "multiple-choice/movers_lesson_011/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_011/exercise-0/item-1.webp",
+      "alt": "a person in bed with a thermometer in their mouth"
+    },
+    "multiple-choice/movers_lesson_011/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_011/exercise-0/item-2.webp",
+      "alt": "a digital thermometer showing a reading"
+    },
+    "multiple-choice/movers_lesson_012/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_012/exercise-0/item-0.webp",
+      "alt": "a calendar sheet showing the previous day marked"
+    },
+    "multiple-choice/movers_lesson_012/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_012/exercise-0/item-1.webp",
+      "alt": "a bright sun partially covered by a friendly white cloud"
+    },
+    "multiple-choice/movers_lesson_012/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_012/exercise-0/item-2.webp",
+      "alt": "a calendar showing Saturday and Sunday circled"
+    },
+    "multiple-choice/movers_lesson_013/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_013/exercise-0/item-0.webp",
+      "alt": "a calendar sheet showing the previous day marked"
+    },
+    "multiple-choice/movers_lesson_013/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_013/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a agenda"
+    },
+    "multiple-choice/movers_lesson_013/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_013/exercise-0/item-2.webp",
+      "alt": "a black dry-erase marker on a whiteboard shelf"
+    },
+    "multiple-choice/movers_lesson_014/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_014/exercise-0/item-0.webp",
+      "alt": "a notebook with written exercises and a red checkmark"
+    },
+    "multiple-choice/movers_lesson_014/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_014/exercise-0/item-1.webp",
+      "alt": "a hand wiping a whiteboard clean with an eraser"
+    },
+    "multiple-choice/movers_lesson_014/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_014/exercise-0/item-2.webp",
+      "alt": "a worksheet page with numbered exercises"
+    },
+    "multiple-choice/movers_lesson_015/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_015/exercise-0/item-0.webp",
+      "alt": "a notebook with written exercises and a red checkmark"
+    },
+    "multiple-choice/movers_lesson_015/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_015/exercise-0/item-1.webp",
+      "alt": "a hand wiping a whiteboard clean with an eraser"
+    },
+    "multiple-choice/movers_lesson_015/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_015/exercise-0/item-2.webp",
+      "alt": "a large bold arrow pointing to the right"
+    },
+    "multiple-choice/movers_lesson_016/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_016/exercise-0/item-0.webp",
+      "alt": "a lightbulb glowing bright above a smiling head"
+    },
+    "multiple-choice/movers_lesson_016/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_016/exercise-0/item-1.webp",
+      "alt": "a lightbulb above a person's head"
+    },
+    "multiple-choice/movers_lesson_016/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_016/exercise-0/item-2.webp",
+      "alt": "a turtle with a speech bubble showing slow speech"
+    },
+    "multiple-choice/movers_lesson_017/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_017/exercise-0/item-0.webp",
+      "alt": "applause icons and stars surrounding a text card"
+    },
+    "multiple-choice/movers_lesson_017/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_017/exercise-0/item-1.webp",
+      "alt": "a shiny gold star sticker on a notebook page"
+    },
+    "multiple-choice/movers_lesson_017/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_017/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a correction"
+    },
+    "multiple-choice/movers_lesson_018/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_018/exercise-0/item-0.webp",
+      "alt": "a person in bed with a thermometer in their mouth"
+    },
+    "multiple-choice/movers_lesson_018/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_018/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of official"
+    },
+    "multiple-choice/movers_lesson_018/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_018/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a colleague"
+    },
+    "multiple-choice/movers_lesson_019/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_019/exercise-0/item-0.webp",
+      "alt": "a plate of roasted chicken next to rice"
+    },
+    "multiple-choice/movers_lesson_019/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_019/exercise-0/item-1.webp",
+      "alt": "a basket of fresh apples, bananas, and oranges"
+    },
+    "multiple-choice/movers_lesson_019/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_019/exercise-0/item-2.webp",
+      "alt": "a pile of fresh mixed vegetables at a market stall"
+    },
+    "multiple-choice/movers_lesson_020/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_020/exercise-0/item-0.webp",
+      "alt": "a plate of roasted chicken next to rice"
+    },
+    "multiple-choice/movers_lesson_020/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_020/exercise-0/item-1.webp",
+      "alt": "a basket of fresh apples, bananas, and oranges"
+    },
+    "multiple-choice/movers_lesson_020/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_020/exercise-0/item-2.webp",
+      "alt": "a smiling waiter in uniform holding a notepad"
+    },
+    "multiple-choice/movers_lesson_021/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_021/exercise-0/item-0.webp",
+      "alt": "an aeroplane taking off into a clear blue sky"
+    },
+    "multiple-choice/movers_lesson_021/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_021/exercise-0/item-1.webp",
+      "alt": "a small wooden boat on a calm river in Vietnam"
+    },
+    "multiple-choice/movers_lesson_021/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_021/exercise-0/item-2.webp",
+      "alt": "a motorbike parked outside a school gate"
+    },
+    "multiple-choice/movers_lesson_022/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_022/exercise-0/item-0.webp",
+      "alt": "a modern ringing smartphone vibrating on a table"
+    },
+    "multiple-choice/movers_lesson_022/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_022/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of urgent"
+    },
+    "multiple-choice/movers_lesson_022/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_022/exercise-0/item-2.webp",
+      "alt": "a phone screen showing a busy tone symbol"
+    },
+    "multiple-choice/movers_lesson_023/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_023/exercise-0/item-0.webp",
+      "alt": "a friendly doctor with a stethoscope around their neck"
+    },
+    "multiple-choice/movers_lesson_023/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_023/exercise-0/item-1.webp",
+      "alt": "a person in bed with a thermometer in their mouth"
+    },
+    "multiple-choice/movers_lesson_023/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_023/exercise-0/item-2.webp",
+      "alt": "a digital thermometer showing a reading"
+    },
+    "multiple-choice/movers_lesson_024/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_024/exercise-0/item-0.webp",
+      "alt": "a calendar sheet showing the previous day marked"
+    },
+    "multiple-choice/movers_lesson_024/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_024/exercise-0/item-1.webp",
+      "alt": "a bright sun partially covered by a friendly white cloud"
+    },
+    "multiple-choice/movers_lesson_024/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_024/exercise-0/item-2.webp",
+      "alt": "a calendar showing Saturday and Sunday circled"
+    },
+    "multiple-choice/movers_lesson_025/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_025/exercise-0/item-0.webp",
+      "alt": "a calendar sheet showing the previous day marked"
+    },
+    "multiple-choice/movers_lesson_025/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_025/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a agenda"
+    },
+    "multiple-choice/movers_lesson_025/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_025/exercise-0/item-2.webp",
+      "alt": "a black dry-erase marker on a whiteboard shelf"
+    },
+    "multiple-choice/movers_lesson_026/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_026/exercise-0/item-0.webp",
+      "alt": "a notebook with written exercises and a red checkmark"
+    },
+    "multiple-choice/movers_lesson_026/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_026/exercise-0/item-1.webp",
+      "alt": "a hand wiping a whiteboard clean with an eraser"
+    },
+    "multiple-choice/movers_lesson_026/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_026/exercise-0/item-2.webp",
+      "alt": "a worksheet page with numbered exercises"
+    },
+    "multiple-choice/movers_lesson_027/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_027/exercise-0/item-0.webp",
+      "alt": "a notebook with written exercises and a red checkmark"
+    },
+    "multiple-choice/movers_lesson_027/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_027/exercise-0/item-1.webp",
+      "alt": "a hand wiping a whiteboard clean with an eraser"
+    },
+    "multiple-choice/movers_lesson_027/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_027/exercise-0/item-2.webp",
+      "alt": "a large bold arrow pointing to the right"
+    },
+    "multiple-choice/movers_lesson_028/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_028/exercise-0/item-0.webp",
+      "alt": "a lightbulb glowing bright above a smiling head"
+    },
+    "multiple-choice/movers_lesson_028/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_028/exercise-0/item-1.webp",
+      "alt": "a lightbulb above a person's head"
+    },
+    "multiple-choice/movers_lesson_028/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_028/exercise-0/item-2.webp",
+      "alt": "a turtle with a speech bubble showing slow speech"
+    },
+    "multiple-choice/movers_lesson_029/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_029/exercise-0/item-0.webp",
+      "alt": "applause icons and stars surrounding a text card"
+    },
+    "multiple-choice/movers_lesson_029/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_029/exercise-0/item-1.webp",
+      "alt": "a shiny gold star sticker on a notebook page"
+    },
+    "multiple-choice/movers_lesson_029/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_029/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a correction"
+    },
+    "multiple-choice/movers_lesson_030/exercise-4/item-0": {
+      "path": "illustrations/match/movers_lesson_030/exercise-0/item-0.webp",
+      "alt": "a person in bed with a thermometer in their mouth"
+    },
+    "multiple-choice/movers_lesson_030/exercise-4/item-1": {
+      "path": "illustrations/match/movers_lesson_030/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of official"
+    },
+    "multiple-choice/movers_lesson_030/exercise-4/item-2": {
+      "path": "illustrations/match/movers_lesson_030/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a colleague"
+    },
+    "multiple-choice/flyers_lesson_001/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_001/exercise-0/item-0.webp",
+      "alt": "a group of teachers sitting around a conference table"
+    },
+    "multiple-choice/flyers_lesson_001/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_001/exercise-0/item-1.webp",
+      "alt": "a meeting agenda document on a desk"
+    },
+    "multiple-choice/flyers_lesson_001/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_001/exercise-0/item-2.webp",
+      "alt": "a group of teachers getting a morning briefing"
+    },
+    "multiple-choice/flyers_lesson_002/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_002/exercise-0/item-0.webp",
+      "alt": "a teacher writing a diagram on the blackboard to explain a concept"
+    },
+    "multiple-choice/flyers_lesson_002/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_002/exercise-0/item-1.webp",
+      "alt": "a notebook with new vocabulary words listed"
+    },
+    "multiple-choice/flyers_lesson_002/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_002/exercise-0/item-2.webp",
+      "alt": "mouth diagrams showing pronunciation of sounds"
+    },
+    "multiple-choice/flyers_lesson_003/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_003/exercise-0/item-0.webp",
+      "alt": "a step-by-step checklist with checkboxes"
+    },
+    "multiple-choice/flyers_lesson_003/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_003/exercise-0/item-1.webp",
+      "alt": "a numbered instruction list on a worksheet"
+    },
+    "multiple-choice/flyers_lesson_003/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_003/exercise-0/item-2.webp",
+      "alt": "a set of guidelines posted on a classroom wall"
+    },
+    "multiple-choice/flyers_lesson_004/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_004/exercise-0/item-0.webp",
+      "alt": "a teacher writing a diagram on the blackboard to explain a concept"
+    },
+    "multiple-choice/flyers_lesson_004/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_004/exercise-0/item-1.webp",
+      "alt": "a teacher walking between desks monitoring students"
+    },
+    "multiple-choice/flyers_lesson_004/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_004/exercise-0/item-2.webp",
+      "alt": "a teacher using a rubric to assess student work"
+    },
+    "multiple-choice/flyers_lesson_005/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_005/exercise-0/item-0.webp",
+      "alt": "a student holding a certificate of achievement"
+    },
+    "multiple-choice/flyers_lesson_005/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_005/exercise-0/item-1.webp",
+      "alt": "an energised student raising their hand confidently"
+    },
+    "multiple-choice/flyers_lesson_005/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_005/exercise-0/item-2.webp",
+      "alt": "a confident student standing tall and speaking"
+    },
+    "multiple-choice/flyers_lesson_006/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_006/exercise-0/item-0.webp",
+      "alt": "an open laptop displaying an email inbox layout"
+    },
+    "multiple-choice/flyers_lesson_006/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_006/exercise-0/item-1.webp",
+      "alt": "a mother and father sitting together at a meeting desk"
+    },
+    "multiple-choice/flyers_lesson_006/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_006/exercise-0/item-2.webp",
+      "alt": "a group of teachers sitting around a conference table"
+    },
+    "multiple-choice/flyers_lesson_007/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_007/exercise-0/item-0.webp",
+      "alt": "a small leather folder holding a receipt on a table"
+    },
+    "multiple-choice/flyers_lesson_007/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_007/exercise-0/item-1.webp",
+      "alt": "organic vegetables with a green organic label"
+    },
+    "multiple-choice/flyers_lesson_007/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_007/exercise-0/item-2.webp",
+      "alt": "a sale sign showing 20 percent discount"
+    },
+    "multiple-choice/flyers_lesson_008/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_008/exercise-0/item-0.webp",
+      "alt": "a elegant restaurant menu card with food icons"
+    },
+    "multiple-choice/flyers_lesson_008/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_008/exercise-0/item-1.webp",
+      "alt": "a small leather folder holding a receipt on a table"
+    },
+    "multiple-choice/flyers_lesson_008/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_008/exercise-0/item-2.webp",
+      "alt": "a well-plated portion of food on a white plate"
+    },
+    "multiple-choice/flyers_lesson_009/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_009/exercise-0/item-0.webp",
+      "alt": "a paper ticket with a barcode showing train travel details"
+    },
+    "multiple-choice/flyers_lesson_009/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_009/exercise-0/item-1.webp",
+      "alt": "a pin on a map marking a destination"
+    },
+    "multiple-choice/flyers_lesson_009/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_009/exercise-0/item-2.webp",
+      "alt": "a departures board at an airport terminal"
+    },
+    "multiple-choice/flyers_lesson_010/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_010/exercise-0/item-0.webp",
+      "alt": "an open laptop displaying an email inbox layout"
+    },
+    "multiple-choice/flyers_lesson_010/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_010/exercise-0/item-1.webp",
+      "alt": "a mother and father sitting together at a meeting desk"
+    },
+    "multiple-choice/flyers_lesson_010/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_010/exercise-0/item-2.webp",
+      "alt": "a chat bubble icon on a mobile device"
+    },
+    "multiple-choice/flyers_lesson_011/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_011/exercise-0/item-0.webp",
+      "alt": "a medical chart showing common cold symptoms"
+    },
+    "multiple-choice/flyers_lesson_011/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_011/exercise-0/item-1.webp",
+      "alt": "a small medical clinic with a green cross sign"
+    },
+    "multiple-choice/flyers_lesson_011/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_011/exercise-0/item-2.webp",
+      "alt": "a smiling patient recovering in a hospital bed"
+    },
+    "multiple-choice/flyers_lesson_012/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_012/exercise-0/item-0.webp",
+      "alt": "a person watering a small green plant in a pot"
+    },
+    "multiple-choice/flyers_lesson_012/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_012/exercise-0/item-1.webp",
+      "alt": "a colourful party invitation card on a table"
+    },
+    "multiple-choice/flyers_lesson_012/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_012/exercise-0/item-2.webp",
+      "alt": "a colourful garden with flowers and a bench"
+    },
+    "multiple-choice/flyers_lesson_013/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_013/exercise-0/item-0.webp",
+      "alt": "a group of teachers sitting around a conference table"
+    },
+    "multiple-choice/flyers_lesson_013/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_013/exercise-0/item-1.webp",
+      "alt": "a meeting agenda document on a desk"
+    },
+    "multiple-choice/flyers_lesson_013/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_013/exercise-0/item-2.webp",
+      "alt": "a group of teachers getting a morning briefing"
+    },
+    "multiple-choice/flyers_lesson_014/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_014/exercise-0/item-0.webp",
+      "alt": "a teacher writing a diagram on the blackboard to explain a concept"
+    },
+    "multiple-choice/flyers_lesson_014/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_014/exercise-0/item-1.webp",
+      "alt": "a notebook with new vocabulary words listed"
+    },
+    "multiple-choice/flyers_lesson_014/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_014/exercise-0/item-2.webp",
+      "alt": "mouth diagrams showing pronunciation of sounds"
+    },
+    "multiple-choice/flyers_lesson_015/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_015/exercise-0/item-0.webp",
+      "alt": "a step-by-step checklist with checkboxes"
+    },
+    "multiple-choice/flyers_lesson_015/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_015/exercise-0/item-1.webp",
+      "alt": "a numbered instruction list on a worksheet"
+    },
+    "multiple-choice/flyers_lesson_015/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_015/exercise-0/item-2.webp",
+      "alt": "a set of guidelines posted on a classroom wall"
+    },
+    "multiple-choice/flyers_lesson_016/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_016/exercise-0/item-0.webp",
+      "alt": "a teacher writing a diagram on the blackboard to explain a concept"
+    },
+    "multiple-choice/flyers_lesson_016/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_016/exercise-0/item-1.webp",
+      "alt": "a teacher walking between desks monitoring students"
+    },
+    "multiple-choice/flyers_lesson_016/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_016/exercise-0/item-2.webp",
+      "alt": "a teacher using a rubric to assess student work"
+    },
+    "multiple-choice/flyers_lesson_017/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_017/exercise-0/item-0.webp",
+      "alt": "a student holding a certificate of achievement"
+    },
+    "multiple-choice/flyers_lesson_017/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_017/exercise-0/item-1.webp",
+      "alt": "an energised student raising their hand confidently"
+    },
+    "multiple-choice/flyers_lesson_017/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_017/exercise-0/item-2.webp",
+      "alt": "a confident student standing tall and speaking"
+    },
+    "multiple-choice/flyers_lesson_018/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_018/exercise-0/item-0.webp",
+      "alt": "an open laptop displaying an email inbox layout"
+    },
+    "multiple-choice/flyers_lesson_018/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_018/exercise-0/item-1.webp",
+      "alt": "a mother and father sitting together at a meeting desk"
+    },
+    "multiple-choice/flyers_lesson_018/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_018/exercise-0/item-2.webp",
+      "alt": "a group of teachers sitting around a conference table"
+    },
+    "multiple-choice/flyers_lesson_019/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_019/exercise-0/item-0.webp",
+      "alt": "a small leather folder holding a receipt on a table"
+    },
+    "multiple-choice/flyers_lesson_019/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_019/exercise-0/item-1.webp",
+      "alt": "organic vegetables with a green organic label"
+    },
+    "multiple-choice/flyers_lesson_019/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_019/exercise-0/item-2.webp",
+      "alt": "a sale sign showing 20 percent discount"
+    },
+    "multiple-choice/flyers_lesson_020/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_020/exercise-0/item-0.webp",
+      "alt": "a elegant restaurant menu card with food icons"
+    },
+    "multiple-choice/flyers_lesson_020/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_020/exercise-0/item-1.webp",
+      "alt": "a small leather folder holding a receipt on a table"
+    },
+    "multiple-choice/flyers_lesson_020/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_020/exercise-0/item-2.webp",
+      "alt": "a well-plated portion of food on a white plate"
+    },
+    "multiple-choice/flyers_lesson_021/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_021/exercise-0/item-0.webp",
+      "alt": "a paper ticket with a barcode showing train travel details"
+    },
+    "multiple-choice/flyers_lesson_021/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_021/exercise-0/item-1.webp",
+      "alt": "a pin on a map marking a destination"
+    },
+    "multiple-choice/flyers_lesson_021/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_021/exercise-0/item-2.webp",
+      "alt": "a departures board at an airport terminal"
+    },
+    "multiple-choice/flyers_lesson_022/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_022/exercise-0/item-0.webp",
+      "alt": "an open laptop displaying an email inbox layout"
+    },
+    "multiple-choice/flyers_lesson_022/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_022/exercise-0/item-1.webp",
+      "alt": "a mother and father sitting together at a meeting desk"
+    },
+    "multiple-choice/flyers_lesson_022/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_022/exercise-0/item-2.webp",
+      "alt": "a chat bubble icon on a mobile device"
+    },
+    "multiple-choice/flyers_lesson_023/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_023/exercise-0/item-0.webp",
+      "alt": "a medical chart showing common cold symptoms"
+    },
+    "multiple-choice/flyers_lesson_023/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_023/exercise-0/item-1.webp",
+      "alt": "a small medical clinic with a green cross sign"
+    },
+    "multiple-choice/flyers_lesson_023/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_023/exercise-0/item-2.webp",
+      "alt": "a smiling patient recovering in a hospital bed"
+    },
+    "multiple-choice/flyers_lesson_024/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_024/exercise-0/item-0.webp",
+      "alt": "a person watering a small green plant in a pot"
+    },
+    "multiple-choice/flyers_lesson_024/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_024/exercise-0/item-1.webp",
+      "alt": "a colourful party invitation card on a table"
+    },
+    "multiple-choice/flyers_lesson_024/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_024/exercise-0/item-2.webp",
+      "alt": "a colourful garden with flowers and a bench"
+    },
+    "multiple-choice/flyers_lesson_025/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_025/exercise-0/item-0.webp",
+      "alt": "a group of teachers sitting around a conference table"
+    },
+    "multiple-choice/flyers_lesson_025/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_025/exercise-0/item-1.webp",
+      "alt": "a meeting agenda document on a desk"
+    },
+    "multiple-choice/flyers_lesson_025/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_025/exercise-0/item-2.webp",
+      "alt": "a group of teachers getting a morning briefing"
+    },
+    "multiple-choice/flyers_lesson_026/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_026/exercise-0/item-0.webp",
+      "alt": "a teacher writing a diagram on the blackboard to explain a concept"
+    },
+    "multiple-choice/flyers_lesson_026/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_026/exercise-0/item-1.webp",
+      "alt": "a notebook with new vocabulary words listed"
+    },
+    "multiple-choice/flyers_lesson_026/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_026/exercise-0/item-2.webp",
+      "alt": "mouth diagrams showing pronunciation of sounds"
+    },
+    "multiple-choice/flyers_lesson_027/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_027/exercise-0/item-0.webp",
+      "alt": "a step-by-step checklist with checkboxes"
+    },
+    "multiple-choice/flyers_lesson_027/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_027/exercise-0/item-1.webp",
+      "alt": "a numbered instruction list on a worksheet"
+    },
+    "multiple-choice/flyers_lesson_027/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_027/exercise-0/item-2.webp",
+      "alt": "a set of guidelines posted on a classroom wall"
+    },
+    "multiple-choice/flyers_lesson_028/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_028/exercise-0/item-0.webp",
+      "alt": "a teacher writing a diagram on the blackboard to explain a concept"
+    },
+    "multiple-choice/flyers_lesson_028/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_028/exercise-0/item-1.webp",
+      "alt": "a teacher walking between desks monitoring students"
+    },
+    "multiple-choice/flyers_lesson_028/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_028/exercise-0/item-2.webp",
+      "alt": "a teacher using a rubric to assess student work"
+    },
+    "multiple-choice/flyers_lesson_029/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_029/exercise-0/item-0.webp",
+      "alt": "a student holding a certificate of achievement"
+    },
+    "multiple-choice/flyers_lesson_029/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_029/exercise-0/item-1.webp",
+      "alt": "an energised student raising their hand confidently"
+    },
+    "multiple-choice/flyers_lesson_029/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_029/exercise-0/item-2.webp",
+      "alt": "a confident student standing tall and speaking"
+    },
+    "multiple-choice/flyers_lesson_030/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_030/exercise-0/item-0.webp",
+      "alt": "an open laptop displaying an email inbox layout"
+    },
+    "multiple-choice/flyers_lesson_030/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_030/exercise-0/item-1.webp",
+      "alt": "a mother and father sitting together at a meeting desk"
+    },
+    "multiple-choice/flyers_lesson_030/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_030/exercise-0/item-2.webp",
+      "alt": "a group of teachers sitting around a conference table"
+    },
+    "multiple-choice/flyers_lesson_031/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_031/exercise-0/item-0.webp",
+      "alt": "a small leather folder holding a receipt on a table"
+    },
+    "multiple-choice/flyers_lesson_031/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_031/exercise-0/item-1.webp",
+      "alt": "organic vegetables with a green organic label"
+    },
+    "multiple-choice/flyers_lesson_031/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_031/exercise-0/item-2.webp",
+      "alt": "a sale sign showing 20 percent discount"
+    },
+    "multiple-choice/flyers_lesson_032/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_032/exercise-0/item-0.webp",
+      "alt": "a elegant restaurant menu card with food icons"
+    },
+    "multiple-choice/flyers_lesson_032/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_032/exercise-0/item-1.webp",
+      "alt": "a small leather folder holding a receipt on a table"
+    },
+    "multiple-choice/flyers_lesson_032/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_032/exercise-0/item-2.webp",
+      "alt": "a well-plated portion of food on a white plate"
+    },
+    "multiple-choice/flyers_lesson_033/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_033/exercise-0/item-0.webp",
+      "alt": "a paper ticket with a barcode showing train travel details"
+    },
+    "multiple-choice/flyers_lesson_033/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_033/exercise-0/item-1.webp",
+      "alt": "a pin on a map marking a destination"
+    },
+    "multiple-choice/flyers_lesson_033/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_033/exercise-0/item-2.webp",
+      "alt": "a departures board at an airport terminal"
+    },
+    "multiple-choice/flyers_lesson_034/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_034/exercise-0/item-0.webp",
+      "alt": "an open laptop displaying an email inbox layout"
+    },
+    "multiple-choice/flyers_lesson_034/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_034/exercise-0/item-1.webp",
+      "alt": "a mother and father sitting together at a meeting desk"
+    },
+    "multiple-choice/flyers_lesson_034/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_034/exercise-0/item-2.webp",
+      "alt": "a chat bubble icon on a mobile device"
+    },
+    "multiple-choice/flyers_lesson_035/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_035/exercise-0/item-0.webp",
+      "alt": "a medical chart showing common cold symptoms"
+    },
+    "multiple-choice/flyers_lesson_035/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_035/exercise-0/item-1.webp",
+      "alt": "a small medical clinic with a green cross sign"
+    },
+    "multiple-choice/flyers_lesson_035/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_035/exercise-0/item-2.webp",
+      "alt": "a smiling patient recovering in a hospital bed"
+    },
+    "multiple-choice/flyers_lesson_036/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_036/exercise-0/item-0.webp",
+      "alt": "a person watering a small green plant in a pot"
+    },
+    "multiple-choice/flyers_lesson_036/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_036/exercise-0/item-1.webp",
+      "alt": "a colourful party invitation card on a table"
+    },
+    "multiple-choice/flyers_lesson_036/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_036/exercise-0/item-2.webp",
+      "alt": "a colourful garden with flowers and a bench"
+    },
+    "multiple-choice/flyers_lesson_037/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_037/exercise-0/item-0.webp",
+      "alt": "a group of teachers sitting around a conference table"
+    },
+    "multiple-choice/flyers_lesson_037/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_037/exercise-0/item-1.webp",
+      "alt": "a meeting agenda document on a desk"
+    },
+    "multiple-choice/flyers_lesson_037/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_037/exercise-0/item-2.webp",
+      "alt": "a group of teachers getting a morning briefing"
+    },
+    "multiple-choice/flyers_lesson_038/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_038/exercise-0/item-0.webp",
+      "alt": "a teacher writing a diagram on the blackboard to explain a concept"
+    },
+    "multiple-choice/flyers_lesson_038/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_038/exercise-0/item-1.webp",
+      "alt": "a notebook with new vocabulary words listed"
+    },
+    "multiple-choice/flyers_lesson_038/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_038/exercise-0/item-2.webp",
+      "alt": "mouth diagrams showing pronunciation of sounds"
+    },
+    "multiple-choice/flyers_lesson_039/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_039/exercise-0/item-0.webp",
+      "alt": "a step-by-step checklist with checkboxes"
+    },
+    "multiple-choice/flyers_lesson_039/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_039/exercise-0/item-1.webp",
+      "alt": "a numbered instruction list on a worksheet"
+    },
+    "multiple-choice/flyers_lesson_039/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_039/exercise-0/item-2.webp",
+      "alt": "a set of guidelines posted on a classroom wall"
+    },
+    "multiple-choice/flyers_lesson_040/exercise-4/item-0": {
+      "path": "illustrations/match/flyers_lesson_040/exercise-0/item-0.webp",
+      "alt": "a teacher writing a diagram on the blackboard to explain a concept"
+    },
+    "multiple-choice/flyers_lesson_040/exercise-4/item-1": {
+      "path": "illustrations/match/flyers_lesson_040/exercise-0/item-1.webp",
+      "alt": "a teacher walking between desks monitoring students"
+    },
+    "multiple-choice/flyers_lesson_040/exercise-4/item-2": {
+      "path": "illustrations/match/flyers_lesson_040/exercise-0/item-2.webp",
+      "alt": "a teacher using a rubric to assess student work"
+    },
+    "multiple-choice/ket_lesson_001/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_001/exercise-0/item-0.webp",
+      "alt": "a weekly calendar grid on a wall board"
+    },
+    "multiple-choice/ket_lesson_001/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_001/exercise-0/item-1.webp",
+      "alt": "a group coordinating tasks at a whiteboard"
+    },
+    "multiple-choice/ket_lesson_001/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_001/exercise-0/item-2.webp",
+      "alt": "a teacher thoroughly preparing lesson materials"
+    },
+    "multiple-choice/ket_lesson_002/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_002/exercise-0/item-0.webp",
+      "alt": "students eagerly engaged in a classroom discussion"
+    },
+    "multiple-choice/ket_lesson_002/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_002/exercise-0/item-1.webp",
+      "alt": "students interacting in pairs during a language task"
+    },
+    "multiple-choice/ket_lesson_002/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_002/exercise-0/item-2.webp",
+      "alt": "a student raising their hand to participate"
+    },
+    "multiple-choice/ket_lesson_003/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_003/exercise-0/item-0.webp",
+      "alt": "a requirements list for a classroom task"
+    },
+    "multiple-choice/ket_lesson_003/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_003/exercise-0/item-1.webp",
+      "alt": "a teacher clarifying an instruction to a student"
+    },
+    "multiple-choice/ket_lesson_003/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_003/exercise-0/item-2.webp",
+      "alt": "a teacher underlining a key instruction on the board"
+    },
+    "multiple-choice/ket_lesson_004/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_004/exercise-0/item-0.webp",
+      "alt": "a person carefully analysing a text with a highlighter"
+    },
+    "multiple-choice/ket_lesson_004/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_004/exercise-0/item-1.webp",
+      "alt": "a student writing a short summary of a passage"
+    },
+    "multiple-choice/ket_lesson_004/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_004/exercise-0/item-2.webp",
+      "alt": "a person interpreting a graph or data chart"
+    },
+    "multiple-choice/ket_lesson_005/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_005/exercise-0/item-0.webp",
+      "alt": "a teacher giving constructive written feedback"
+    },
+    "multiple-choice/ket_lesson_005/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_005/exercise-0/item-1.webp",
+      "alt": "a student's substantial amount of work on a desk"
+    },
+    "multiple-choice/ket_lesson_005/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_005/exercise-0/item-2.webp",
+      "alt": "a student consistently getting good marks over time"
+    },
+    "multiple-choice/ket_lesson_006/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_006/exercise-0/item-0.webp",
+      "alt": "a weekly calendar grid on a wall board"
+    },
+    "multiple-choice/ket_lesson_006/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_006/exercise-0/item-1.webp",
+      "alt": "a stack of official school documentation"
+    },
+    "multiple-choice/ket_lesson_006/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_006/exercise-0/item-2.webp",
+      "alt": "a school administration office with staff inside"
+    },
+    "multiple-choice/ket_lesson_007/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_007/exercise-0/item-0.webp",
+      "alt": "a price tag symbol with dollar or dong marks"
+    },
+    "multiple-choice/ket_lesson_007/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_007/exercise-0/item-1.webp",
+      "alt": "a customer and vendor laughing and negotiating a price"
+    },
+    "multiple-choice/ket_lesson_007/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_007/exercise-0/item-2.webp",
+      "alt": "a rising price chart showing inflation"
+    },
+    "multiple-choice/ket_lesson_008/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_008/exercise-0/item-0.webp",
+      "alt": "two cups (tea and coffee) with a green checkmark next to the tea"
+    },
+    "multiple-choice/ket_lesson_008/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_008/exercise-0/item-1.webp",
+      "alt": "a plate of pasta with steam rising, looking very tasty"
+    },
+    "multiple-choice/ket_lesson_008/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_008/exercise-0/item-2.webp",
+      "alt": "a menu with dietary restriction labels"
+    },
+    "multiple-choice/ket_lesson_009/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_009/exercise-0/item-0.webp",
+      "alt": "an airport terminal window showing airplanes outside"
+    },
+    "multiple-choice/ket_lesson_009/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_009/exercise-0/item-1.webp",
+      "alt": "a printed travel itinerary with dates and places"
+    },
+    "multiple-choice/ket_lesson_009/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_009/exercise-0/item-2.webp",
+      "alt": "a comfortable hotel room with a view"
+    },
+    "multiple-choice/ket_lesson_010/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_010/exercise-0/item-0.webp",
+      "alt": "a sound wave icon representing tone of voice"
+    },
+    "multiple-choice/ket_lesson_010/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_010/exercise-0/item-1.webp",
+      "alt": "a telephone switchboard in an office"
+    },
+    "multiple-choice/ket_lesson_010/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_010/exercise-0/item-2.webp",
+      "alt": "a person making an enquiry on the phone"
+    },
+    "multiple-choice/ket_lesson_011/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_011/exercise-0/item-0.webp",
+      "alt": "a person holding their temples with an expression of pain"
+    },
+    "multiple-choice/ket_lesson_011/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_011/exercise-0/item-1.webp",
+      "alt": "a thermometer showing a high temperature level"
+    },
+    "multiple-choice/ket_lesson_011/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_011/exercise-0/item-2.webp",
+      "alt": "a doctor making a diagnosis after examining a patient"
+    },
+    "multiple-choice/ket_lesson_012/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_012/exercise-0/item-0.webp",
+      "alt": "two cups (tea and coffee) with a green checkmark next to the tea"
+    },
+    "multiple-choice/ket_lesson_012/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_012/exercise-0/item-1.webp",
+      "alt": "two people looking at the same thing from different angles"
+    },
+    "multiple-choice/ket_lesson_012/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_012/exercise-0/item-2.webp",
+      "alt": "a diverse community of people working together"
+    },
+    "multiple-choice/ket_lesson_013/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_013/exercise-0/item-0.webp",
+      "alt": "a weekly calendar grid on a wall board"
+    },
+    "multiple-choice/ket_lesson_013/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_013/exercise-0/item-1.webp",
+      "alt": "a group coordinating tasks at a whiteboard"
+    },
+    "multiple-choice/ket_lesson_013/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_013/exercise-0/item-2.webp",
+      "alt": "a teacher thoroughly preparing lesson materials"
+    },
+    "multiple-choice/ket_lesson_014/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_014/exercise-0/item-0.webp",
+      "alt": "students eagerly engaged in a classroom discussion"
+    },
+    "multiple-choice/ket_lesson_014/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_014/exercise-0/item-1.webp",
+      "alt": "students interacting in pairs during a language task"
+    },
+    "multiple-choice/ket_lesson_014/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_014/exercise-0/item-2.webp",
+      "alt": "a student raising their hand to participate"
+    },
+    "multiple-choice/ket_lesson_015/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_015/exercise-0/item-0.webp",
+      "alt": "a requirements list for a classroom task"
+    },
+    "multiple-choice/ket_lesson_015/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_015/exercise-0/item-1.webp",
+      "alt": "a teacher clarifying an instruction to a student"
+    },
+    "multiple-choice/ket_lesson_015/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_015/exercise-0/item-2.webp",
+      "alt": "a teacher underlining a key instruction on the board"
+    },
+    "multiple-choice/ket_lesson_016/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_016/exercise-0/item-0.webp",
+      "alt": "a person carefully analysing a text with a highlighter"
+    },
+    "multiple-choice/ket_lesson_016/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_016/exercise-0/item-1.webp",
+      "alt": "a student writing a short summary of a passage"
+    },
+    "multiple-choice/ket_lesson_016/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_016/exercise-0/item-2.webp",
+      "alt": "a person interpreting a graph or data chart"
+    },
+    "multiple-choice/ket_lesson_017/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_017/exercise-0/item-0.webp",
+      "alt": "a teacher giving constructive written feedback"
+    },
+    "multiple-choice/ket_lesson_017/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_017/exercise-0/item-1.webp",
+      "alt": "a student's substantial amount of work on a desk"
+    },
+    "multiple-choice/ket_lesson_017/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_017/exercise-0/item-2.webp",
+      "alt": "a student consistently getting good marks over time"
+    },
+    "multiple-choice/ket_lesson_018/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_018/exercise-0/item-0.webp",
+      "alt": "a weekly calendar grid on a wall board"
+    },
+    "multiple-choice/ket_lesson_018/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_018/exercise-0/item-1.webp",
+      "alt": "a stack of official school documentation"
+    },
+    "multiple-choice/ket_lesson_018/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_018/exercise-0/item-2.webp",
+      "alt": "a school administration office with staff inside"
+    },
+    "multiple-choice/ket_lesson_019/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_019/exercise-0/item-0.webp",
+      "alt": "a price tag symbol with dollar or dong marks"
+    },
+    "multiple-choice/ket_lesson_019/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_019/exercise-0/item-1.webp",
+      "alt": "a customer and vendor laughing and negotiating a price"
+    },
+    "multiple-choice/ket_lesson_019/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_019/exercise-0/item-2.webp",
+      "alt": "a rising price chart showing inflation"
+    },
+    "multiple-choice/ket_lesson_020/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_020/exercise-0/item-0.webp",
+      "alt": "two cups (tea and coffee) with a green checkmark next to the tea"
+    },
+    "multiple-choice/ket_lesson_020/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_020/exercise-0/item-1.webp",
+      "alt": "a plate of pasta with steam rising, looking very tasty"
+    },
+    "multiple-choice/ket_lesson_020/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_020/exercise-0/item-2.webp",
+      "alt": "a menu with dietary restriction labels"
+    },
+    "multiple-choice/ket_lesson_021/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_021/exercise-0/item-0.webp",
+      "alt": "an airport terminal window showing airplanes outside"
+    },
+    "multiple-choice/ket_lesson_021/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_021/exercise-0/item-1.webp",
+      "alt": "a printed travel itinerary with dates and places"
+    },
+    "multiple-choice/ket_lesson_021/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_021/exercise-0/item-2.webp",
+      "alt": "a comfortable hotel room with a view"
+    },
+    "multiple-choice/ket_lesson_022/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_022/exercise-0/item-0.webp",
+      "alt": "a sound wave icon representing tone of voice"
+    },
+    "multiple-choice/ket_lesson_022/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_022/exercise-0/item-1.webp",
+      "alt": "a telephone switchboard in an office"
+    },
+    "multiple-choice/ket_lesson_022/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_022/exercise-0/item-2.webp",
+      "alt": "a person making an enquiry on the phone"
+    },
+    "multiple-choice/ket_lesson_023/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_023/exercise-0/item-0.webp",
+      "alt": "a person holding their temples with an expression of pain"
+    },
+    "multiple-choice/ket_lesson_023/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_023/exercise-0/item-1.webp",
+      "alt": "a thermometer showing a high temperature level"
+    },
+    "multiple-choice/ket_lesson_023/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_023/exercise-0/item-2.webp",
+      "alt": "a doctor making a diagnosis after examining a patient"
+    },
+    "multiple-choice/ket_lesson_024/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_024/exercise-0/item-0.webp",
+      "alt": "two cups (tea and coffee) with a green checkmark next to the tea"
+    },
+    "multiple-choice/ket_lesson_024/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_024/exercise-0/item-1.webp",
+      "alt": "two people looking at the same thing from different angles"
+    },
+    "multiple-choice/ket_lesson_024/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_024/exercise-0/item-2.webp",
+      "alt": "a diverse community of people working together"
+    },
+    "multiple-choice/ket_lesson_025/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_025/exercise-0/item-0.webp",
+      "alt": "a weekly calendar grid on a wall board"
+    },
+    "multiple-choice/ket_lesson_025/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_025/exercise-0/item-1.webp",
+      "alt": "a group coordinating tasks at a whiteboard"
+    },
+    "multiple-choice/ket_lesson_025/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_025/exercise-0/item-2.webp",
+      "alt": "a teacher thoroughly preparing lesson materials"
+    },
+    "multiple-choice/ket_lesson_026/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_026/exercise-0/item-0.webp",
+      "alt": "students eagerly engaged in a classroom discussion"
+    },
+    "multiple-choice/ket_lesson_026/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_026/exercise-0/item-1.webp",
+      "alt": "students interacting in pairs during a language task"
+    },
+    "multiple-choice/ket_lesson_026/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_026/exercise-0/item-2.webp",
+      "alt": "a student raising their hand to participate"
+    },
+    "multiple-choice/ket_lesson_027/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_027/exercise-0/item-0.webp",
+      "alt": "a requirements list for a classroom task"
+    },
+    "multiple-choice/ket_lesson_027/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_027/exercise-0/item-1.webp",
+      "alt": "a teacher clarifying an instruction to a student"
+    },
+    "multiple-choice/ket_lesson_027/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_027/exercise-0/item-2.webp",
+      "alt": "a teacher underlining a key instruction on the board"
+    },
+    "multiple-choice/ket_lesson_028/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_028/exercise-0/item-0.webp",
+      "alt": "a person carefully analysing a text with a highlighter"
+    },
+    "multiple-choice/ket_lesson_028/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_028/exercise-0/item-1.webp",
+      "alt": "a student writing a short summary of a passage"
+    },
+    "multiple-choice/ket_lesson_028/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_028/exercise-0/item-2.webp",
+      "alt": "a person interpreting a graph or data chart"
+    },
+    "multiple-choice/ket_lesson_029/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_029/exercise-0/item-0.webp",
+      "alt": "a teacher giving constructive written feedback"
+    },
+    "multiple-choice/ket_lesson_029/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_029/exercise-0/item-1.webp",
+      "alt": "a student's substantial amount of work on a desk"
+    },
+    "multiple-choice/ket_lesson_029/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_029/exercise-0/item-2.webp",
+      "alt": "a student consistently getting good marks over time"
+    },
+    "multiple-choice/ket_lesson_030/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_030/exercise-0/item-0.webp",
+      "alt": "a weekly calendar grid on a wall board"
+    },
+    "multiple-choice/ket_lesson_030/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_030/exercise-0/item-1.webp",
+      "alt": "a stack of official school documentation"
+    },
+    "multiple-choice/ket_lesson_030/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_030/exercise-0/item-2.webp",
+      "alt": "a school administration office with staff inside"
+    },
+    "multiple-choice/ket_lesson_031/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_031/exercise-0/item-0.webp",
+      "alt": "a price tag symbol with dollar or dong marks"
+    },
+    "multiple-choice/ket_lesson_031/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_031/exercise-0/item-1.webp",
+      "alt": "a customer and vendor laughing and negotiating a price"
+    },
+    "multiple-choice/ket_lesson_031/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_031/exercise-0/item-2.webp",
+      "alt": "a rising price chart showing inflation"
+    },
+    "multiple-choice/ket_lesson_032/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_032/exercise-0/item-0.webp",
+      "alt": "two cups (tea and coffee) with a green checkmark next to the tea"
+    },
+    "multiple-choice/ket_lesson_032/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_032/exercise-0/item-1.webp",
+      "alt": "a plate of pasta with steam rising, looking very tasty"
+    },
+    "multiple-choice/ket_lesson_032/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_032/exercise-0/item-2.webp",
+      "alt": "a menu with dietary restriction labels"
+    },
+    "multiple-choice/ket_lesson_033/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_033/exercise-0/item-0.webp",
+      "alt": "an airport terminal window showing airplanes outside"
+    },
+    "multiple-choice/ket_lesson_033/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_033/exercise-0/item-1.webp",
+      "alt": "a printed travel itinerary with dates and places"
+    },
+    "multiple-choice/ket_lesson_033/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_033/exercise-0/item-2.webp",
+      "alt": "a comfortable hotel room with a view"
+    },
+    "multiple-choice/ket_lesson_034/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_034/exercise-0/item-0.webp",
+      "alt": "a sound wave icon representing tone of voice"
+    },
+    "multiple-choice/ket_lesson_034/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_034/exercise-0/item-1.webp",
+      "alt": "a telephone switchboard in an office"
+    },
+    "multiple-choice/ket_lesson_034/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_034/exercise-0/item-2.webp",
+      "alt": "a person making an enquiry on the phone"
+    },
+    "multiple-choice/ket_lesson_035/exercise-4/item-0": {
+      "path": "illustrations/match/ket_lesson_035/exercise-0/item-0.webp",
+      "alt": "a person holding their temples with an expression of pain"
+    },
+    "multiple-choice/ket_lesson_035/exercise-4/item-1": {
+      "path": "illustrations/match/ket_lesson_035/exercise-0/item-1.webp",
+      "alt": "a thermometer showing a high temperature level"
+    },
+    "multiple-choice/ket_lesson_035/exercise-4/item-2": {
+      "path": "illustrations/match/ket_lesson_035/exercise-0/item-2.webp",
+      "alt": "a doctor making a diagnosis after examining a patient"
+    },
+    "multiple-choice/pet_lesson_001/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_001/exercise-0/item-0.webp",
+      "alt": "a step-by-step flowchart diagram on school safety"
+    },
+    "multiple-choice/pet_lesson_001/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_001/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a timetable"
+    },
+    "multiple-choice/pet_lesson_001/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_001/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a board"
+    },
+    "multiple-choice/pet_lesson_002/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_002/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a grammar"
+    },
+    "multiple-choice/pet_lesson_002/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_002/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to explain"
+    },
+    "multiple-choice/pet_lesson_002/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_002/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a activity"
+    },
+    "multiple-choice/pet_lesson_003/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_003/exercise-0/item-0.webp",
+      "alt": "a step-by-step flowchart diagram on school safety"
+    },
+    "multiple-choice/pet_lesson_003/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_003/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to should"
+    },
+    "multiple-choice/pet_lesson_003/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_003/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a attention"
+    },
+    "multiple-choice/pet_lesson_004/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_004/exercise-0/item-0.webp",
+      "alt": "an action illustration showing a person to ask"
+    },
+    "multiple-choice/pet_lesson_004/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_004/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a definition"
+    },
+    "multiple-choice/pet_lesson_004/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_004/exercise-0/item-2.webp",
+      "alt": "an action illustration showing a person to follow"
+    },
+    "multiple-choice/pet_lesson_005/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_005/exercise-0/item-0.webp",
+      "alt": "a simple, clear colorful visualization of perfect"
+    },
+    "multiple-choice/pet_lesson_005/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_005/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of better"
+    },
+    "multiple-choice/pet_lesson_005/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_005/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a star"
+    },
+    "multiple-choice/pet_lesson_006/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_006/exercise-0/item-0.webp",
+      "alt": "a departure board showing 'DELAYED' next to flights"
+    },
+    "multiple-choice/pet_lesson_006/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_006/exercise-0/item-1.webp",
+      "alt": "a person holding their hands together showing a sorry face"
+    },
+    "multiple-choice/pet_lesson_006/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_006/exercise-0/item-2.webp",
+      "alt": "an arrow pointing to additional detail cards"
+    },
+    "multiple-choice/pet_lesson_007/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_007/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a chicken"
+    },
+    "multiple-choice/pet_lesson_007/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_007/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of expensive"
+    },
+    "multiple-choice/pet_lesson_007/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_007/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a refund"
+    },
+    "multiple-choice/pet_lesson_008/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_008/exercise-0/item-0.webp",
+      "alt": "a green leaf logo with the letter V on a salad bowl"
+    },
+    "multiple-choice/pet_lesson_008/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_008/exercise-0/item-1.webp",
+      "alt": "a 'Reserved' tent card sitting on an elegant restaurant table"
+    },
+    "multiple-choice/pet_lesson_008/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_008/exercise-0/item-2.webp",
+      "alt": "a letter with five stars stamped at the top"
+    },
+    "multiple-choice/pet_lesson_009/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_009/exercise-0/item-0.webp",
+      "alt": "a 'Reserved' tent card sitting on an elegant restaurant table"
+    },
+    "multiple-choice/pet_lesson_009/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_009/exercise-0/item-1.webp",
+      "alt": "a departure board showing 'DELAYED' next to flights"
+    },
+    "multiple-choice/pet_lesson_009/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_009/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a train"
+    },
+    "multiple-choice/pet_lesson_010/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_010/exercise-0/item-0.webp",
+      "alt": "an action illustration showing a person to say"
+    },
+    "multiple-choice/pet_lesson_010/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_010/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to dial"
+    },
+    "multiple-choice/pet_lesson_010/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_010/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a button"
+    },
+    "multiple-choice/pet_lesson_011/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_011/exercise-0/item-0.webp",
+      "alt": "a green leaf logo with the letter V on a salad bowl"
+    },
+    "multiple-choice/pet_lesson_011/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_011/exercise-0/item-1.webp",
+      "alt": "a medical paper sheet with prescription details and stamp"
+    },
+    "multiple-choice/pet_lesson_011/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_011/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a health"
+    },
+    "multiple-choice/pet_lesson_012/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_012/exercise-0/item-0.webp",
+      "alt": "a person holding their hands together showing a sorry face"
+    },
+    "multiple-choice/pet_lesson_012/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_012/exercise-0/item-1.webp",
+      "alt": "an arrow pointing to additional detail cards"
+    },
+    "multiple-choice/pet_lesson_012/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_012/exercise-0/item-2.webp",
+      "alt": "a simple, clear colorful visualization of warm"
+    },
+    "multiple-choice/pet_lesson_013/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_013/exercise-0/item-0.webp",
+      "alt": "a step-by-step flowchart diagram on school safety"
+    },
+    "multiple-choice/pet_lesson_013/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_013/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a timetable"
+    },
+    "multiple-choice/pet_lesson_013/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_013/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a board"
+    },
+    "multiple-choice/pet_lesson_014/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_014/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a grammar"
+    },
+    "multiple-choice/pet_lesson_014/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_014/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to explain"
+    },
+    "multiple-choice/pet_lesson_014/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_014/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a activity"
+    },
+    "multiple-choice/pet_lesson_015/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_015/exercise-0/item-0.webp",
+      "alt": "a step-by-step flowchart diagram on school safety"
+    },
+    "multiple-choice/pet_lesson_015/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_015/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to should"
+    },
+    "multiple-choice/pet_lesson_015/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_015/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a attention"
+    },
+    "multiple-choice/pet_lesson_016/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_016/exercise-0/item-0.webp",
+      "alt": "an action illustration showing a person to ask"
+    },
+    "multiple-choice/pet_lesson_016/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_016/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a definition"
+    },
+    "multiple-choice/pet_lesson_016/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_016/exercise-0/item-2.webp",
+      "alt": "an action illustration showing a person to follow"
+    },
+    "multiple-choice/pet_lesson_017/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_017/exercise-0/item-0.webp",
+      "alt": "a simple, clear colorful visualization of perfect"
+    },
+    "multiple-choice/pet_lesson_017/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_017/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of better"
+    },
+    "multiple-choice/pet_lesson_017/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_017/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a star"
+    },
+    "multiple-choice/pet_lesson_018/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_018/exercise-0/item-0.webp",
+      "alt": "a departure board showing 'DELAYED' next to flights"
+    },
+    "multiple-choice/pet_lesson_018/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_018/exercise-0/item-1.webp",
+      "alt": "a person holding their hands together showing a sorry face"
+    },
+    "multiple-choice/pet_lesson_018/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_018/exercise-0/item-2.webp",
+      "alt": "an arrow pointing to additional detail cards"
+    },
+    "multiple-choice/pet_lesson_019/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_019/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a chicken"
+    },
+    "multiple-choice/pet_lesson_019/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_019/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of expensive"
+    },
+    "multiple-choice/pet_lesson_019/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_019/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a refund"
+    },
+    "multiple-choice/pet_lesson_020/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_020/exercise-0/item-0.webp",
+      "alt": "a green leaf logo with the letter V on a salad bowl"
+    },
+    "multiple-choice/pet_lesson_020/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_020/exercise-0/item-1.webp",
+      "alt": "a 'Reserved' tent card sitting on an elegant restaurant table"
+    },
+    "multiple-choice/pet_lesson_020/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_020/exercise-0/item-2.webp",
+      "alt": "a letter with five stars stamped at the top"
+    },
+    "multiple-choice/pet_lesson_021/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_021/exercise-0/item-0.webp",
+      "alt": "a 'Reserved' tent card sitting on an elegant restaurant table"
+    },
+    "multiple-choice/pet_lesson_021/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_021/exercise-0/item-1.webp",
+      "alt": "a departure board showing 'DELAYED' next to flights"
+    },
+    "multiple-choice/pet_lesson_021/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_021/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a train"
+    },
+    "multiple-choice/pet_lesson_022/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_022/exercise-0/item-0.webp",
+      "alt": "an action illustration showing a person to say"
+    },
+    "multiple-choice/pet_lesson_022/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_022/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to dial"
+    },
+    "multiple-choice/pet_lesson_022/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_022/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a button"
+    },
+    "multiple-choice/pet_lesson_023/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_023/exercise-0/item-0.webp",
+      "alt": "a green leaf logo with the letter V on a salad bowl"
+    },
+    "multiple-choice/pet_lesson_023/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_023/exercise-0/item-1.webp",
+      "alt": "a medical paper sheet with prescription details and stamp"
+    },
+    "multiple-choice/pet_lesson_023/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_023/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a health"
+    },
+    "multiple-choice/pet_lesson_024/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_024/exercise-0/item-0.webp",
+      "alt": "a person holding their hands together showing a sorry face"
+    },
+    "multiple-choice/pet_lesson_024/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_024/exercise-0/item-1.webp",
+      "alt": "an arrow pointing to additional detail cards"
+    },
+    "multiple-choice/pet_lesson_024/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_024/exercise-0/item-2.webp",
+      "alt": "a simple, clear colorful visualization of warm"
+    },
+    "multiple-choice/pet_lesson_025/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_025/exercise-0/item-0.webp",
+      "alt": "a step-by-step flowchart diagram on school safety"
+    },
+    "multiple-choice/pet_lesson_025/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_025/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a timetable"
+    },
+    "multiple-choice/pet_lesson_025/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_025/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a board"
+    },
+    "multiple-choice/pet_lesson_026/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_026/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a grammar"
+    },
+    "multiple-choice/pet_lesson_026/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_026/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to explain"
+    },
+    "multiple-choice/pet_lesson_026/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_026/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a activity"
+    },
+    "multiple-choice/pet_lesson_027/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_027/exercise-0/item-0.webp",
+      "alt": "a step-by-step flowchart diagram on school safety"
+    },
+    "multiple-choice/pet_lesson_027/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_027/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to should"
+    },
+    "multiple-choice/pet_lesson_027/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_027/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a attention"
+    },
+    "multiple-choice/pet_lesson_028/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_028/exercise-0/item-0.webp",
+      "alt": "an action illustration showing a person to ask"
+    },
+    "multiple-choice/pet_lesson_028/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_028/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a definition"
+    },
+    "multiple-choice/pet_lesson_028/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_028/exercise-0/item-2.webp",
+      "alt": "an action illustration showing a person to follow"
+    },
+    "multiple-choice/pet_lesson_029/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_029/exercise-0/item-0.webp",
+      "alt": "a simple, clear colorful visualization of perfect"
+    },
+    "multiple-choice/pet_lesson_029/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_029/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of better"
+    },
+    "multiple-choice/pet_lesson_029/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_029/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a star"
+    },
+    "multiple-choice/pet_lesson_030/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_030/exercise-0/item-0.webp",
+      "alt": "a departure board showing 'DELAYED' next to flights"
+    },
+    "multiple-choice/pet_lesson_030/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_030/exercise-0/item-1.webp",
+      "alt": "a person holding their hands together showing a sorry face"
+    },
+    "multiple-choice/pet_lesson_030/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_030/exercise-0/item-2.webp",
+      "alt": "an arrow pointing to additional detail cards"
+    },
+    "multiple-choice/pet_lesson_031/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_031/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a chicken"
+    },
+    "multiple-choice/pet_lesson_031/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_031/exercise-0/item-1.webp",
+      "alt": "a simple, clear colorful visualization of expensive"
+    },
+    "multiple-choice/pet_lesson_031/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_031/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a refund"
+    },
+    "multiple-choice/pet_lesson_032/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_032/exercise-0/item-0.webp",
+      "alt": "a green leaf logo with the letter V on a salad bowl"
+    },
+    "multiple-choice/pet_lesson_032/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_032/exercise-0/item-1.webp",
+      "alt": "a 'Reserved' tent card sitting on an elegant restaurant table"
+    },
+    "multiple-choice/pet_lesson_032/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_032/exercise-0/item-2.webp",
+      "alt": "a letter with five stars stamped at the top"
+    },
+    "multiple-choice/pet_lesson_033/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_033/exercise-0/item-0.webp",
+      "alt": "a 'Reserved' tent card sitting on an elegant restaurant table"
+    },
+    "multiple-choice/pet_lesson_033/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_033/exercise-0/item-1.webp",
+      "alt": "a departure board showing 'DELAYED' next to flights"
+    },
+    "multiple-choice/pet_lesson_033/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_033/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a train"
+    },
+    "multiple-choice/pet_lesson_034/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_034/exercise-0/item-0.webp",
+      "alt": "an action illustration showing a person to say"
+    },
+    "multiple-choice/pet_lesson_034/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_034/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to dial"
+    },
+    "multiple-choice/pet_lesson_034/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_034/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a button"
+    },
+    "multiple-choice/pet_lesson_035/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_035/exercise-0/item-0.webp",
+      "alt": "a green leaf logo with the letter V on a salad bowl"
+    },
+    "multiple-choice/pet_lesson_035/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_035/exercise-0/item-1.webp",
+      "alt": "a medical paper sheet with prescription details and stamp"
+    },
+    "multiple-choice/pet_lesson_035/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_035/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a health"
+    },
+    "multiple-choice/pet_lesson_036/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_036/exercise-0/item-0.webp",
+      "alt": "a person holding their hands together showing a sorry face"
+    },
+    "multiple-choice/pet_lesson_036/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_036/exercise-0/item-1.webp",
+      "alt": "an arrow pointing to additional detail cards"
+    },
+    "multiple-choice/pet_lesson_036/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_036/exercise-0/item-2.webp",
+      "alt": "a simple, clear colorful visualization of warm"
+    },
+    "multiple-choice/pet_lesson_037/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_037/exercise-0/item-0.webp",
+      "alt": "a step-by-step flowchart diagram on school safety"
+    },
+    "multiple-choice/pet_lesson_037/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_037/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a timetable"
+    },
+    "multiple-choice/pet_lesson_037/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_037/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a board"
+    },
+    "multiple-choice/pet_lesson_038/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_038/exercise-0/item-0.webp",
+      "alt": "a clean graphic illustration of a grammar"
+    },
+    "multiple-choice/pet_lesson_038/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_038/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to explain"
+    },
+    "multiple-choice/pet_lesson_038/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_038/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a activity"
+    },
+    "multiple-choice/pet_lesson_039/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_039/exercise-0/item-0.webp",
+      "alt": "a step-by-step flowchart diagram on school safety"
+    },
+    "multiple-choice/pet_lesson_039/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_039/exercise-0/item-1.webp",
+      "alt": "an action illustration showing a person to should"
+    },
+    "multiple-choice/pet_lesson_039/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_039/exercise-0/item-2.webp",
+      "alt": "a clean graphic illustration of a attention"
+    },
+    "multiple-choice/pet_lesson_040/exercise-4/item-0": {
+      "path": "illustrations/match/pet_lesson_040/exercise-0/item-0.webp",
+      "alt": "an action illustration showing a person to ask"
+    },
+    "multiple-choice/pet_lesson_040/exercise-4/item-1": {
+      "path": "illustrations/match/pet_lesson_040/exercise-0/item-1.webp",
+      "alt": "a clean graphic illustration of a definition"
+    },
+    "multiple-choice/pet_lesson_040/exercise-4/item-2": {
+      "path": "illustrations/match/pet_lesson_040/exercise-0/item-2.webp",
+      "alt": "an action illustration showing a person to follow"
+    }
+  }
 }
