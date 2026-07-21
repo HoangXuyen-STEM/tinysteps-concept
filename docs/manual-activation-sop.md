@@ -41,6 +41,7 @@ on conflict (user_id) do nothing;
 2. **Đối soát.** Ghi dòng mới vào sheet. Kiểm tra số tiền khớp giá đang bán (199.000đ giai đoạn early-bird, 300.000đ sau đó).
 3. **Kích hoạt.** Cách nhanh: mở `/admin`, tìm theo email → điền số tiền + mã giao dịch + ghi chú → xác nhận.
    Kích hoạt lại một tài khoản đã thu hồi sẽ **cập nhật đúng dòng cũ** (không tạo dòng trùng).
+   **Lưu ý audit:** lần kích hoạt lại cập nhật `granted_at`, `transfer_ref` và `note`; ghi chú `revoked: ...` cũ không được giữ trong record. Vì vậy sheet đối soát phải luôn lưu lý do hoàn tiền và lịch sử giao dịch.
    Cách thủ công (dự phòng) trong Supabase → SQL Editor:
 
 ```sql
