@@ -209,31 +209,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (an action illustration showing a person to say). What is this?",
+          "prompt": "What is this?",
           "options": [
             "dial",
             "button",
             "say"
           ],
-          "correct_answer": "say"
+          "correct_answer": "say",
+          "image_hint": "an action illustration showing a person to say"
         },
         {
-          "prompt": "Look at the picture (an action illustration showing a person to dial). What is this?",
+          "prompt": "What is this?",
           "options": [
             "button",
             "dial",
             "say"
           ],
-          "correct_answer": "dial"
+          "correct_answer": "dial",
+          "image_hint": "an action illustration showing a person to dial"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a button). What is this?",
+          "prompt": "What is this?",
           "options": [
             "say",
             "button",
             "dial"
           ],
-          "correct_answer": "button"
+          "correct_answer": "button",
+          "image_hint": "a clean graphic illustration of a button"
         }
       ]
     }

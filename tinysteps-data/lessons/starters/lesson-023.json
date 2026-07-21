@@ -172,31 +172,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a medicine). What is this?",
+          "prompt": "What is this?",
           "options": [
             "energy",
             "rest",
             "medicine"
           ],
-          "correct_answer": "medicine"
+          "correct_answer": "medicine",
+          "image_hint": "a clean graphic illustration of a medicine"
         },
         {
-          "prompt": "Look at the picture (an action illustration showing a person to rest). What is this?",
+          "prompt": "What is this?",
           "options": [
             "energy",
             "medicine",
             "rest"
           ],
-          "correct_answer": "rest"
+          "correct_answer": "rest",
+          "image_hint": "an action illustration showing a person to rest"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a energy). What is this?",
+          "prompt": "What is this?",
           "options": [
             "rest",
             "medicine",
             "energy"
           ],
-          "correct_answer": "energy"
+          "correct_answer": "energy",
+          "image_hint": "a clean graphic illustration of a energy"
         }
       ]
     }

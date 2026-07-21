@@ -194,31 +194,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a medical chart showing common cold symptoms). What is this?",
+          "prompt": "What is this?",
           "options": [
             "symptom",
             "clinic",
             "recover"
           ],
-          "correct_answer": "symptom"
+          "correct_answer": "symptom",
+          "image_hint": "a medical chart showing common cold symptoms"
         },
         {
-          "prompt": "Look at the picture (a small medical clinic with a green cross sign). What is this?",
+          "prompt": "What is this?",
           "options": [
             "clinic",
             "recover",
             "symptom"
           ],
-          "correct_answer": "clinic"
+          "correct_answer": "clinic",
+          "image_hint": "a small medical clinic with a green cross sign"
         },
         {
-          "prompt": "Look at the picture (a smiling patient recovering in a hospital bed). What is this?",
+          "prompt": "What is this?",
           "options": [
             "symptom",
             "recover",
             "clinic"
           ],
-          "correct_answer": "recover"
+          "correct_answer": "recover",
+          "image_hint": "a smiling patient recovering in a hospital bed"
         }
       ]
     }

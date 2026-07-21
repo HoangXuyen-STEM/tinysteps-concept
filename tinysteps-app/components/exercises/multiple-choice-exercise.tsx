@@ -3,9 +3,11 @@
 import React, { useState } from "react";
 import type { MultipleChoiceExercise } from "@/lib/types/content-types";
 import { isCorrect } from "@/lib/exercises/check-answer";
+import { resolveMultipleChoiceIllustration } from "@/lib/content/illustration-manifest";
 import { FeedbackBar } from "./feedback-bar";
 
 type Props = {
+  lessonId: string;
   exercise: MultipleChoiceExercise;
   exerciseIndex: number;
   onItemAnswer: (itemIndex: number, userAnswer: string) => void;
@@ -13,7 +15,9 @@ type Props = {
 };
 
 export function MultipleChoiceExerciseComponent({
+  lessonId,
   exercise,
+  exerciseIndex,
   onItemAnswer,
   onComplete,
 }: Props) {
@@ -22,8 +26,19 @@ export function MultipleChoiceExerciseComponent({
     userAnswer: string;
     isCorrect: boolean;
   } | null>(null);
+  const [failedImageKey, setFailedImageKey] = useState<string | null>(null);
 
   const currentItem = exercise.items[currentItemIndex];
+
+  // These prompts ask "What is this?" about a picture. The real image is generated
+  // in batches; until one exists (or if it fails to load) we show the image_hint as
+  // a text cue so the question stays answerable.
+  const illustration = resolveMultipleChoiceIllustration(
+    lessonId,
+    exerciseIndex,
+    currentItemIndex,
+  );
+  const showIllustration = illustration && failedImageKey !== illustration.assetKey;
 
   const handleSelect = (choice: string) => {
     if (feedback) return;
@@ -49,6 +64,27 @@ export function MultipleChoiceExerciseComponent({
       <h3 className="mb-6 text-xl font-bold text-slate-800">
         {exercise.instruction}
       </h3>
+
+      {showIllustration ? (
+        <div className="mb-6 flex justify-center">
+          <div className="flex aspect-square w-full max-w-sm items-center justify-center overflow-hidden rounded-2xl border-2 border-slate-200 bg-white shadow-sm">
+            {/* eslint-disable-next-line @next/next/no-img-element -- runtime CDN base is deployment-configured */}
+            <img
+              alt={illustration.alt}
+              className="h-full w-full object-cover"
+              height={512}
+              key={illustration.assetKey}
+              onError={() => setFailedImageKey(illustration.assetKey)}
+              src={illustration.src}
+              width={512}
+            />
+          </div>
+        </div>
+      ) : currentItem.image_hint ? (
+        <div className="mb-6 rounded-2xl border border-slate-200 bg-slate-50 p-5 text-center">
+          <p className="text-base leading-relaxed text-slate-600">{currentItem.image_hint}</p>
+        </div>
+      ) : null}
 
       <div className="mb-8 rounded-2xl bg-white p-8 shadow-sm">
         <p className="text-xl font-medium leading-relaxed text-slate-800">

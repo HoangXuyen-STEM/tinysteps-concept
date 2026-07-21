@@ -193,31 +193,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (two cups (tea and coffee) with a green checkmark next to the tea). What is this?",
+          "prompt": "What is this?",
           "options": [
             "prefer",
             "dietary",
             "delicious"
           ],
-          "correct_answer": "prefer"
+          "correct_answer": "prefer",
+          "image_hint": "two cups (tea and coffee) with a green checkmark next to the tea"
         },
         {
-          "prompt": "Look at the picture (a plate of pasta with steam rising, looking very tasty). What is this?",
+          "prompt": "What is this?",
           "options": [
             "dietary",
             "prefer",
             "delicious"
           ],
-          "correct_answer": "delicious"
+          "correct_answer": "delicious",
+          "image_hint": "a plate of pasta with steam rising, looking very tasty"
         },
         {
-          "prompt": "Look at the picture (a menu with dietary restriction labels). What is this?",
+          "prompt": "What is this?",
           "options": [
             "prefer",
             "dietary",
             "delicious"
           ],
-          "correct_answer": "dietary"
+          "correct_answer": "dietary",
+          "image_hint": "a menu with dietary restriction labels"
         }
       ]
     }

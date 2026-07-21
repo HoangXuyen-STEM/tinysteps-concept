@@ -193,31 +193,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a teacher giving constructive written feedback). What is this?",
+          "prompt": "What is this?",
           "options": [
             "consistent",
             "substantial",
             "constructive"
           ],
-          "correct_answer": "constructive"
+          "correct_answer": "constructive",
+          "image_hint": "a teacher giving constructive written feedback"
         },
         {
-          "prompt": "Look at the picture (a student's substantial amount of work on a desk). What is this?",
+          "prompt": "What is this?",
           "options": [
             "consistent",
             "substantial",
             "constructive"
           ],
-          "correct_answer": "substantial"
+          "correct_answer": "substantial",
+          "image_hint": "a student's substantial amount of work on a desk"
         },
         {
-          "prompt": "Look at the picture (a student consistently getting good marks over time). What is this?",
+          "prompt": "What is this?",
           "options": [
             "consistent",
             "substantial",
             "constructive"
           ],
-          "correct_answer": "consistent"
+          "correct_answer": "consistent",
+          "image_hint": "a student consistently getting good marks over time"
         }
       ]
     }

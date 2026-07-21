@@ -186,31 +186,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a friendly doctor with a stethoscope around their neck). What is this?",
+          "prompt": "What is this?",
           "options": [
             "sick",
             "doctor",
             "temperature"
           ],
-          "correct_answer": "doctor"
+          "correct_answer": "doctor",
+          "image_hint": "a friendly doctor with a stethoscope around their neck"
         },
         {
-          "prompt": "Look at the picture (a person in bed with a thermometer in their mouth). What is this?",
+          "prompt": "What is this?",
           "options": [
             "sick",
             "doctor",
             "temperature"
           ],
-          "correct_answer": "sick"
+          "correct_answer": "sick",
+          "image_hint": "a person in bed with a thermometer in their mouth"
         },
         {
-          "prompt": "Look at the picture (a digital thermometer showing a reading). What is this?",
+          "prompt": "What is this?",
           "options": [
             "sick",
             "doctor",
             "temperature"
           ],
-          "correct_answer": "temperature"
+          "correct_answer": "temperature",
+          "image_hint": "a digital thermometer showing a reading"
         }
       ]
     }

@@ -12,7 +12,7 @@ export type MatchExercise = { type: "match"; instruction: string; items: { image
 export type ArrangeExercise = { type: "arrange"; instruction: string; items: { words: string[]; correct_answer: string }[] };
 export type ListenChooseExercise = { type: "listen_choose"; instruction: string; items: { audio_text: string; options: string[]; correct_answer: string }[] };
 export type FillBlankExercise = { type: "fill_blank"; instruction: string; items: { prompt: string; correct_answer: string }[] };
-export type MultipleChoiceExercise = { type: "multiple_choice"; instruction: string; items: { prompt: string; options: string[]; correct_answer: string }[] };
+export type MultipleChoiceExercise = { type: "multiple_choice"; instruction: string; items: { prompt: string; options: string[]; correct_answer: string; image_hint?: string }[] };
 export type Exercise = MatchExercise | ArrangeExercise | ListenChooseExercise | FillBlankExercise | MultipleChoiceExercise;
 
 export type Lesson = {

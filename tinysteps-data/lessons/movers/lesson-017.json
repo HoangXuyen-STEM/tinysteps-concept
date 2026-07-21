@@ -182,31 +182,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (applause icons and stars surrounding a text card). What is this?",
+          "prompt": "What is this?",
           "options": [
             "sticker",
             "great",
             "corrections"
           ],
-          "correct_answer": "great"
+          "correct_answer": "great",
+          "image_hint": "applause icons and stars surrounding a text card"
         },
         {
-          "prompt": "Look at the picture (a shiny gold star sticker on a notebook page). What is this?",
+          "prompt": "What is this?",
           "options": [
             "sticker",
             "great",
             "corrections"
           ],
-          "correct_answer": "sticker"
+          "correct_answer": "sticker",
+          "image_hint": "a shiny gold star sticker on a notebook page"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a correction). What is this?",
+          "prompt": "What is this?",
           "options": [
             "sticker",
             "great",
             "corrections"
           ],
-          "correct_answer": "corrections"
+          "correct_answer": "corrections",
+          "image_hint": "a clean graphic illustration of a correction"
         }
       ]
     }

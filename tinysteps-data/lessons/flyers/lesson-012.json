@@ -197,31 +197,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a person watering a small green plant in a pot). What is this?",
+          "prompt": "What is this?",
           "options": [
             "invitation",
             "hobby",
             "garden"
           ],
-          "correct_answer": "hobby"
+          "correct_answer": "hobby",
+          "image_hint": "a person watering a small green plant in a pot"
         },
         {
-          "prompt": "Look at the picture (a colourful party invitation card on a table). What is this?",
+          "prompt": "What is this?",
           "options": [
             "invitation",
             "hobby",
             "garden"
           ],
-          "correct_answer": "invitation"
+          "correct_answer": "invitation",
+          "image_hint": "a colourful party invitation card on a table"
         },
         {
-          "prompt": "Look at the picture (a colourful garden with flowers and a bench). What is this?",
+          "prompt": "What is this?",
           "options": [
             "garden",
             "hobby",
             "invitation"
           ],
-          "correct_answer": "garden"
+          "correct_answer": "garden",
+          "image_hint": "a colourful garden with flowers and a bench"
         }
       ]
     }

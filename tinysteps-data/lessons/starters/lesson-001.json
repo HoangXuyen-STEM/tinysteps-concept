@@ -172,31 +172,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (two teachers waving and smiling at each other). What is this?",
+          "prompt": "What is this?",
           "options": [
             "hello",
             "teacher",
             "morning"
           ],
-          "correct_answer": "hello"
+          "correct_answer": "hello",
+          "image_hint": "two teachers waving and smiling at each other"
         },
         {
-          "prompt": "Look at the picture (the sun rising over a school building). What is this?",
+          "prompt": "What is this?",
           "options": [
             "morning",
             "teacher",
             "hello"
           ],
-          "correct_answer": "morning"
+          "correct_answer": "morning",
+          "image_hint": "the sun rising over a school building"
         },
         {
-          "prompt": "Look at the picture (a female teacher smiling at the front of a class). What is this?",
+          "prompt": "What is this?",
           "options": [
             "teacher",
             "hello",
             "morning"
           ],
-          "correct_answer": "teacher"
+          "correct_answer": "teacher",
+          "image_hint": "a female teacher smiling at the front of a class"
         }
       ]
     }

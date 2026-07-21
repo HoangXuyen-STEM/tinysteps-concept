@@ -200,31 +200,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a 'Reserved' tent card sitting on an elegant restaurant table). What is this?",
+          "prompt": "What is this?",
           "options": [
             "reservation",
             "train",
             "delay"
           ],
-          "correct_answer": "reservation"
+          "correct_answer": "reservation",
+          "image_hint": "a 'Reserved' tent card sitting on an elegant restaurant table"
         },
         {
-          "prompt": "Look at the picture (a departure board showing 'DELAYED' next to flights). What is this?",
+          "prompt": "What is this?",
           "options": [
             "delay",
             "train",
             "reservation"
           ],
-          "correct_answer": "delay"
+          "correct_answer": "delay",
+          "image_hint": "a departure board showing 'DELAYED' next to flights"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a train). What is this?",
+          "prompt": "What is this?",
           "options": [
             "reservation",
             "train",
             "delay"
           ],
-          "correct_answer": "train"
+          "correct_answer": "train",
+          "image_hint": "a clean graphic illustration of a train"
         }
       ]
     }

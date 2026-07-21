@@ -1,4 +1,5 @@
-import manifest from "@/public/illustrations/match/manifest.json";
+import matchManifest from "@/public/illustrations/match/manifest.json";
+import multipleChoiceManifest from "@/public/illustrations/multiple-choice/manifest.json";
 
 type IllustrationAsset = {
   path: string;
@@ -10,27 +11,24 @@ export type ResolvedIllustration = IllustrationAsset & {
   src: string;
 };
 
-const assets = manifest.assets as Record<string, IllustrationAsset>;
+const matchAssets = matchManifest.assets as Record<string, IllustrationAsset>;
+const multipleChoiceAssets = multipleChoiceManifest.assets as Record<string, IllustrationAsset>;
 
-export function matchIllustrationKey(
+function illustrationKey(
+  kind: "match" | "multiple-choice",
   lessonId: string,
   exerciseIndex: number,
   itemIndex: number,
 ): string {
-  return `match/${lessonId}/exercise-${exerciseIndex}/item-${itemIndex}`;
+  return `${kind}/${lessonId}/exercise-${exerciseIndex}/item-${itemIndex}`;
 }
 
-/**
- * Resolve a QA-approved Match illustration. Manifest paths already start with
- * "illustrations/", so the production base must be the Storage public root and
- * must not include the bucket name a second time.
- */
-export function resolveMatchIllustration(
-  lessonId: string,
-  exerciseIndex: number,
-  itemIndex: number,
+// Manifest paths already start with "illustrations/", so the production base must be
+// the Storage public root and must not include the bucket name a second time.
+function resolve(
+  assets: Record<string, IllustrationAsset>,
+  assetKey: string,
 ): ResolvedIllustration | null {
-  const assetKey = matchIllustrationKey(lessonId, exerciseIndex, itemIndex);
   const asset = assets[assetKey];
   if (!asset) return null;
 
@@ -42,4 +40,39 @@ export function resolveMatchIllustration(
   };
 }
 
-export const getIllustrationCount = () => Object.keys(assets).length;
+export function matchIllustrationKey(
+  lessonId: string,
+  exerciseIndex: number,
+  itemIndex: number,
+): string {
+  return illustrationKey("match", lessonId, exerciseIndex, itemIndex);
+}
+
+/** Resolve a QA-approved Match illustration, or null when none exists yet. */
+export function resolveMatchIllustration(
+  lessonId: string,
+  exerciseIndex: number,
+  itemIndex: number,
+): ResolvedIllustration | null {
+  return resolve(matchAssets, matchIllustrationKey(lessonId, exerciseIndex, itemIndex));
+}
+
+/**
+ * Resolve a multiple-choice illustration, or null when none exists yet. Images are
+ * generated in batches, so callers fall back to the item's `image_hint` text cue
+ * until the real picture lands.
+ */
+export function resolveMultipleChoiceIllustration(
+  lessonId: string,
+  exerciseIndex: number,
+  itemIndex: number,
+): ResolvedIllustration | null {
+  return resolve(
+    multipleChoiceAssets,
+    illustrationKey("multiple-choice", lessonId, exerciseIndex, itemIndex),
+  );
+}
+
+export const getIllustrationCount = () => Object.keys(matchAssets).length;
+export const getMultipleChoiceIllustrationCount = () =>
+  Object.keys(multipleChoiceAssets).length;

@@ -199,31 +199,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a person holding their temples with an expression of pain). What is this?",
+          "prompt": "What is this?",
           "options": [
             "diagnosis",
             "fever",
             "headache"
           ],
-          "correct_answer": "headache"
+          "correct_answer": "headache",
+          "image_hint": "a person holding their temples with an expression of pain"
         },
         {
-          "prompt": "Look at the picture (a thermometer showing a high temperature level). What is this?",
+          "prompt": "What is this?",
           "options": [
             "headache",
             "fever",
             "diagnosis"
           ],
-          "correct_answer": "fever"
+          "correct_answer": "fever",
+          "image_hint": "a thermometer showing a high temperature level"
         },
         {
-          "prompt": "Look at the picture (a doctor making a diagnosis after examining a patient). What is this?",
+          "prompt": "What is this?",
           "options": [
             "headache",
             "diagnosis",
             "fever"
           ],
-          "correct_answer": "diagnosis"
+          "correct_answer": "diagnosis",
+          "image_hint": "a doctor making a diagnosis after examining a patient"
         }
       ]
     }

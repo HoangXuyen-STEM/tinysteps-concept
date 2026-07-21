@@ -184,31 +184,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a lightbulb glowing bright above a smiling head). What is this?",
+          "prompt": "What is this?",
           "options": [
             "slowly",
             "understand",
             "idea"
           ],
-          "correct_answer": "understand"
+          "correct_answer": "understand",
+          "image_hint": "a lightbulb glowing bright above a smiling head"
         },
         {
-          "prompt": "Look at the picture (a lightbulb above a person's head). What is this?",
+          "prompt": "What is this?",
           "options": [
             "understand",
             "idea",
             "slowly"
           ],
-          "correct_answer": "idea"
+          "correct_answer": "idea",
+          "image_hint": "a lightbulb above a person's head"
         },
         {
-          "prompt": "Look at the picture (a turtle with a speech bubble showing slow speech). What is this?",
+          "prompt": "What is this?",
           "options": [
             "idea",
             "understand",
             "slowly"
           ],
-          "correct_answer": "slowly"
+          "correct_answer": "slowly",
+          "image_hint": "a turtle with a speech bubble showing slow speech"
         }
       ]
     }

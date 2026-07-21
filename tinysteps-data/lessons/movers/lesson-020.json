@@ -189,31 +189,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a plate of roasted chicken next to rice). What is this?",
+          "prompt": "What is this?",
           "options": [
             "waiter",
             "fruit",
             "chicken"
           ],
-          "correct_answer": "chicken"
+          "correct_answer": "chicken",
+          "image_hint": "a plate of roasted chicken next to rice"
         },
         {
-          "prompt": "Look at the picture (a basket of fresh apples, bananas, and oranges). What is this?",
+          "prompt": "What is this?",
           "options": [
             "waiter",
             "chicken",
             "fruit"
           ],
-          "correct_answer": "fruit"
+          "correct_answer": "fruit",
+          "image_hint": "a basket of fresh apples, bananas, and oranges"
         },
         {
-          "prompt": "Look at the picture (a smiling waiter in uniform holding a notepad). What is this?",
+          "prompt": "What is this?",
           "options": [
             "fruit",
             "waiter",
             "chicken"
           ],
-          "correct_answer": "waiter"
+          "correct_answer": "waiter",
+          "image_hint": "a smiling waiter in uniform holding a notepad"
         }
       ]
     }

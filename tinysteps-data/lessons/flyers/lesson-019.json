@@ -193,31 +193,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a small leather folder holding a receipt on a table). What is this?",
+          "prompt": "What is this?",
           "options": [
             "organic",
             "discount",
             "bill"
           ],
-          "correct_answer": "bill"
+          "correct_answer": "bill",
+          "image_hint": "a small leather folder holding a receipt on a table"
         },
         {
-          "prompt": "Look at the picture (organic vegetables with a green organic label). What is this?",
+          "prompt": "What is this?",
           "options": [
             "discount",
             "organic",
             "bill"
           ],
-          "correct_answer": "organic"
+          "correct_answer": "organic",
+          "image_hint": "organic vegetables with a green organic label"
         },
         {
-          "prompt": "Look at the picture (a sale sign showing 20 percent discount). What is this?",
+          "prompt": "What is this?",
           "options": [
             "discount",
             "organic",
             "bill"
           ],
-          "correct_answer": "discount"
+          "correct_answer": "discount",
+          "image_hint": "a sale sign showing 20 percent discount"
         }
       ]
     }

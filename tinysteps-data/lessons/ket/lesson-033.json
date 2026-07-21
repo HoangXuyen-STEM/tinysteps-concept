@@ -193,31 +193,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (an airport terminal window showing airplanes outside). What is this?",
+          "prompt": "What is this?",
           "options": [
             "airport",
             "itinerary",
             "accommodation"
           ],
-          "correct_answer": "airport"
+          "correct_answer": "airport",
+          "image_hint": "an airport terminal window showing airplanes outside"
         },
         {
-          "prompt": "Look at the picture (a printed travel itinerary with dates and places). What is this?",
+          "prompt": "What is this?",
           "options": [
             "accommodation",
             "airport",
             "itinerary"
           ],
-          "correct_answer": "itinerary"
+          "correct_answer": "itinerary",
+          "image_hint": "a printed travel itinerary with dates and places"
         },
         {
-          "prompt": "Look at the picture (a comfortable hotel room with a view). What is this?",
+          "prompt": "What is this?",
           "options": [
             "airport",
             "accommodation",
             "itinerary"
           ],
-          "correct_answer": "accommodation"
+          "correct_answer": "accommodation",
+          "image_hint": "a comfortable hotel room with a view"
         }
       ]
     }

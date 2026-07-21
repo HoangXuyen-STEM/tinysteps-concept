@@ -209,31 +209,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (an action illustration showing a person to ask). What is this?",
+          "prompt": "What is this?",
           "options": [
             "ask",
             "definition",
             "follow"
           ],
-          "correct_answer": "ask"
+          "correct_answer": "ask",
+          "image_hint": "an action illustration showing a person to ask"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a definition). What is this?",
+          "prompt": "What is this?",
           "options": [
             "ask",
             "definition",
             "follow"
           ],
-          "correct_answer": "definition"
+          "correct_answer": "definition",
+          "image_hint": "a clean graphic illustration of a definition"
         },
         {
-          "prompt": "Look at the picture (an action illustration showing a person to follow). What is this?",
+          "prompt": "What is this?",
           "options": [
             "ask",
             "follow",
             "definition"
           ],
-          "correct_answer": "follow"
+          "correct_answer": "follow",
+          "image_hint": "an action illustration showing a person to follow"
         }
       ]
     }

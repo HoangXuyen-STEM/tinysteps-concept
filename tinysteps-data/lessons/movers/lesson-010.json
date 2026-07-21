@@ -188,31 +188,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a modern ringing smartphone vibrating on a table). What is this?",
+          "prompt": "What is this?",
           "options": [
             "phone",
             "urgent",
             "busy"
           ],
-          "correct_answer": "phone"
+          "correct_answer": "phone",
+          "image_hint": "a modern ringing smartphone vibrating on a table"
         },
         {
-          "prompt": "Look at the picture (a simple, clear colorful visualization of urgent). What is this?",
+          "prompt": "What is this?",
           "options": [
             "urgent",
             "busy",
             "phone"
           ],
-          "correct_answer": "urgent"
+          "correct_answer": "urgent",
+          "image_hint": "a simple, clear colorful visualization of urgent"
         },
         {
-          "prompt": "Look at the picture (a phone screen showing a busy tone symbol). What is this?",
+          "prompt": "What is this?",
           "options": [
             "busy",
             "phone",
             "urgent"
           ],
-          "correct_answer": "busy"
+          "correct_answer": "busy",
+          "image_hint": "a phone screen showing a busy tone symbol"
         }
       ]
     }

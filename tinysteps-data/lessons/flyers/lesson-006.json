@@ -193,31 +193,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (an open laptop displaying an email inbox layout). What is this?",
+          "prompt": "What is this?",
           "options": [
             "parent",
             "meeting",
             "email"
           ],
-          "correct_answer": "email"
+          "correct_answer": "email",
+          "image_hint": "an open laptop displaying an email inbox layout"
         },
         {
-          "prompt": "Look at the picture (a mother and father sitting together at a meeting desk). What is this?",
+          "prompt": "What is this?",
           "options": [
             "meeting",
             "parent",
             "email"
           ],
-          "correct_answer": "parent"
+          "correct_answer": "parent",
+          "image_hint": "a mother and father sitting together at a meeting desk"
         },
         {
-          "prompt": "Look at the picture (a group of teachers sitting around a conference table). What is this?",
+          "prompt": "What is this?",
           "options": [
             "email",
             "parent",
             "meeting"
           ],
-          "correct_answer": "meeting"
+          "correct_answer": "meeting",
+          "image_hint": "a group of teachers sitting around a conference table"
         }
       ]
     }

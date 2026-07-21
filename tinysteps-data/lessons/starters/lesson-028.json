@@ -170,31 +170,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a student cupping their hand to their ear). What is this?",
+          "prompt": "What is this?",
           "options": [
             "comprehend",
             "quiz",
             "listen"
           ],
-          "correct_answer": "listen"
+          "correct_answer": "listen",
+          "image_hint": "a student cupping their hand to their ear"
         },
         {
-          "prompt": "Look at the picture (an action illustration showing a person to comprehend). What is this?",
+          "prompt": "What is this?",
           "options": [
             "listen",
             "comprehend",
             "quiz"
           ],
-          "correct_answer": "comprehend"
+          "correct_answer": "comprehend",
+          "image_hint": "an action illustration showing a person to comprehend"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a quiz). What is this?",
+          "prompt": "What is this?",
           "options": [
             "listen",
             "comprehend",
             "quiz"
           ],
-          "correct_answer": "quiz"
+          "correct_answer": "quiz",
+          "image_hint": "a clean graphic illustration of a quiz"
         }
       ]
     }

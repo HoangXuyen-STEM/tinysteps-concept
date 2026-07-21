@@ -202,31 +202,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a green leaf logo with the letter V on a salad bowl). What is this?",
+          "prompt": "What is this?",
           "options": [
             "vegetarian",
             "health",
             "prescription"
           ],
-          "correct_answer": "vegetarian"
+          "correct_answer": "vegetarian",
+          "image_hint": "a green leaf logo with the letter V on a salad bowl"
         },
         {
-          "prompt": "Look at the picture (a medical paper sheet with prescription details and stamp). What is this?",
+          "prompt": "What is this?",
           "options": [
             "health",
             "vegetarian",
             "prescription"
           ],
-          "correct_answer": "prescription"
+          "correct_answer": "prescription",
+          "image_hint": "a medical paper sheet with prescription details and stamp"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a health). What is this?",
+          "prompt": "What is this?",
           "options": [
             "vegetarian",
             "prescription",
             "health"
           ],
-          "correct_answer": "health"
+          "correct_answer": "health",
+          "image_hint": "a clean graphic illustration of a health"
         }
       ]
     }

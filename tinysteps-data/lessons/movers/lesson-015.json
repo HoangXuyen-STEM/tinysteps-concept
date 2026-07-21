@@ -183,31 +183,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a notebook with written exercises and a red checkmark). What is this?",
+          "prompt": "What is this?",
           "options": [
             "homework",
             "arrow",
             "clean"
           ],
-          "correct_answer": "homework"
+          "correct_answer": "homework",
+          "image_hint": "a notebook with written exercises and a red checkmark"
         },
         {
-          "prompt": "Look at the picture (a hand wiping a whiteboard clean with an eraser). What is this?",
+          "prompt": "What is this?",
           "options": [
             "clean",
             "homework",
             "arrow"
           ],
-          "correct_answer": "clean"
+          "correct_answer": "clean",
+          "image_hint": "a hand wiping a whiteboard clean with an eraser"
         },
         {
-          "prompt": "Look at the picture (a large bold arrow pointing to the right). What is this?",
+          "prompt": "What is this?",
           "options": [
             "homework",
             "clean",
             "arrow"
           ],
-          "correct_answer": "arrow"
+          "correct_answer": "arrow",
+          "image_hint": "a large bold arrow pointing to the right"
         }
       ]
     }

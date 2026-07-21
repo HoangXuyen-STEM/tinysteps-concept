@@ -198,31 +198,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a weekly calendar grid on a wall board). What is this?",
+          "prompt": "What is this?",
           "options": [
             "coordination",
             "preparation",
             "schedule"
           ],
-          "correct_answer": "schedule"
+          "correct_answer": "schedule",
+          "image_hint": "a weekly calendar grid on a wall board"
         },
         {
-          "prompt": "Look at the picture (a group coordinating tasks at a whiteboard). What is this?",
+          "prompt": "What is this?",
           "options": [
             "preparation",
             "schedule",
             "coordination"
           ],
-          "correct_answer": "coordination"
+          "correct_answer": "coordination",
+          "image_hint": "a group coordinating tasks at a whiteboard"
         },
         {
-          "prompt": "Look at the picture (a teacher thoroughly preparing lesson materials). What is this?",
+          "prompt": "What is this?",
           "options": [
             "schedule",
             "preparation",
             "coordination"
           ],
-          "correct_answer": "preparation"
+          "correct_answer": "preparation",
+          "image_hint": "a teacher thoroughly preparing lesson materials"
         }
       ]
     }

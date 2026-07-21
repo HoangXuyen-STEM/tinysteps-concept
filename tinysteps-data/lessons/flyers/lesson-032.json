@@ -192,31 +192,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a elegant restaurant menu card with food icons). What is this?",
+          "prompt": "What is this?",
           "options": [
             "bill",
             "portion",
             "menu"
           ],
-          "correct_answer": "menu"
+          "correct_answer": "menu",
+          "image_hint": "a elegant restaurant menu card with food icons"
         },
         {
-          "prompt": "Look at the picture (a small leather folder holding a receipt on a table). What is this?",
+          "prompt": "What is this?",
           "options": [
             "portion",
             "bill",
             "menu"
           ],
-          "correct_answer": "bill"
+          "correct_answer": "bill",
+          "image_hint": "a small leather folder holding a receipt on a table"
         },
         {
-          "prompt": "Look at the picture (a well-plated portion of food on a white plate). What is this?",
+          "prompt": "What is this?",
           "options": [
             "bill",
             "menu",
             "portion"
           ],
-          "correct_answer": "portion"
+          "correct_answer": "portion",
+          "image_hint": "a well-plated portion of food on a white plate"
         }
       ]
     }

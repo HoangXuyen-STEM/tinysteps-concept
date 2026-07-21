@@ -208,31 +208,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a chicken). What is this?",
+          "prompt": "What is this?",
           "options": [
             "refund",
             "chickens",
             "expensive"
           ],
-          "correct_answer": "chickens"
+          "correct_answer": "chickens",
+          "image_hint": "a clean graphic illustration of a chicken"
         },
         {
-          "prompt": "Look at the picture (a simple, clear colorful visualization of expensive). What is this?",
+          "prompt": "What is this?",
           "options": [
             "expensive",
             "refund",
             "chickens"
           ],
-          "correct_answer": "expensive"
+          "correct_answer": "expensive",
+          "image_hint": "a simple, clear colorful visualization of expensive"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a refund). What is this?",
+          "prompt": "What is this?",
           "options": [
             "chickens",
             "refund",
             "expensive"
           ],
-          "correct_answer": "refund"
+          "correct_answer": "refund",
+          "image_hint": "a clean graphic illustration of a refund"
         }
       ]
     }

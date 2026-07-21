@@ -203,31 +203,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a price tag symbol with dollar or dong marks). What is this?",
+          "prompt": "What is this?",
           "options": [
             "price",
             "bargain",
             "inflation"
           ],
-          "correct_answer": "price"
+          "correct_answer": "price",
+          "image_hint": "a price tag symbol with dollar or dong marks"
         },
         {
-          "prompt": "Look at the picture (a customer and vendor laughing and negotiating a price). What is this?",
+          "prompt": "What is this?",
           "options": [
             "bargain",
             "price",
             "inflation"
           ],
-          "correct_answer": "bargain"
+          "correct_answer": "bargain",
+          "image_hint": "a customer and vendor laughing and negotiating a price"
         },
         {
-          "prompt": "Look at the picture (a rising price chart showing inflation). What is this?",
+          "prompt": "What is this?",
           "options": [
             "price",
             "inflation",
             "bargain"
           ],
-          "correct_answer": "inflation"
+          "correct_answer": "inflation",
+          "image_hint": "a rising price chart showing inflation"
         }
       ]
     }

@@ -193,31 +193,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a paper ticket with a barcode showing train travel details). What is this?",
+          "prompt": "What is this?",
           "options": [
             "departure",
             "ticket",
             "destination"
           ],
-          "correct_answer": "ticket"
+          "correct_answer": "ticket",
+          "image_hint": "a paper ticket with a barcode showing train travel details"
         },
         {
-          "prompt": "Look at the picture (a pin on a map marking a destination). What is this?",
+          "prompt": "What is this?",
           "options": [
             "destination",
             "ticket",
             "departure"
           ],
-          "correct_answer": "destination"
+          "correct_answer": "destination",
+          "image_hint": "a pin on a map marking a destination"
         },
         {
-          "prompt": "Look at the picture (a departures board at an airport terminal). What is this?",
+          "prompt": "What is this?",
           "options": [
             "departure",
             "ticket",
             "destination"
           ],
-          "correct_answer": "departure"
+          "correct_answer": "departure",
+          "image_hint": "a departures board at an airport terminal"
         }
       ]
     }

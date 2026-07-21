@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { getAudioManifest } from "@/lib/content/audio-manifest";
-import { getIllustrationCount } from "@/lib/content/illustration-manifest";
+import { getIllustrationCount, getMultipleChoiceIllustrationCount } from "@/lib/content/illustration-manifest";
 import { getLessonsByLevel } from "@/lib/content/lesson-loader";
 import { getTopics } from "@/lib/content/topics-loader";
 import { getLevels, getVocab } from "@/lib/content/vocabulary-loader";
@@ -18,6 +18,6 @@ export function GET() {
     lessonTotal: Object.values(lessons).reduce((total, count) => total + count, 0),
     topics: getTopics().length,
     audioManifest: { vocabulary: Object.keys(manifest.vocabulary).length, lessons: Object.keys(manifest.lessons).length },
-    illustrationManifest: { assets: getIllustrationCount() },
+    illustrationManifest: { match: getIllustrationCount(), multipleChoice: getMultipleChoiceIllustrationCount() },
   });
 }

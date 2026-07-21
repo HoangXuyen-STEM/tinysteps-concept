@@ -172,31 +172,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a young student raising their hand in class). What is this?",
+          "prompt": "What is this?",
           "options": [
             "student",
             "good",
             "nice"
           ],
-          "correct_answer": "student"
+          "correct_answer": "student",
+          "image_hint": "a young student raising their hand in class"
         },
         {
-          "prompt": "Look at the picture (a thumbs-up icon with a gold star). What is this?",
+          "prompt": "What is this?",
           "options": [
             "nice",
             "good",
             "student"
           ],
-          "correct_answer": "good"
+          "correct_answer": "good",
+          "image_hint": "a thumbs-up icon with a gold star"
         },
         {
-          "prompt": "Look at the picture (a simple, clear colorful visualization of nice). What is this?",
+          "prompt": "What is this?",
           "options": [
             "nice",
             "good",
             "student"
           ],
-          "correct_answer": "nice"
+          "correct_answer": "nice",
+          "image_hint": "a simple, clear colorful visualization of nice"
         }
       ]
     }

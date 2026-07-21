@@ -200,31 +200,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a step-by-step flowchart diagram on school safety). What is this?",
+          "prompt": "What is this?",
           "options": [
             "board",
             "procedure",
             "timetable"
           ],
-          "correct_answer": "procedure"
+          "correct_answer": "procedure",
+          "image_hint": "a step-by-step flowchart diagram on school safety"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a timetable). What is this?",
+          "prompt": "What is this?",
           "options": [
             "procedure",
             "timetable",
             "board"
           ],
-          "correct_answer": "timetable"
+          "correct_answer": "timetable",
+          "image_hint": "a clean graphic illustration of a timetable"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a board). What is this?",
+          "prompt": "What is this?",
           "options": [
             "timetable",
             "procedure",
             "board"
           ],
-          "correct_answer": "board"
+          "correct_answer": "board",
+          "image_hint": "a clean graphic illustration of a board"
         }
       ]
     }

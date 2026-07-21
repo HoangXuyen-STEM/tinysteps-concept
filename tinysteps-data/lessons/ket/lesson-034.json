@@ -199,31 +199,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a sound wave icon representing tone of voice). What is this?",
+          "prompt": "What is this?",
           "options": [
             "switchboard",
             "tone",
             "enquiry"
           ],
-          "correct_answer": "tone"
+          "correct_answer": "tone",
+          "image_hint": "a sound wave icon representing tone of voice"
         },
         {
-          "prompt": "Look at the picture (a telephone switchboard in an office). What is this?",
+          "prompt": "What is this?",
           "options": [
             "switchboard",
             "enquiry",
             "tone"
           ],
-          "correct_answer": "switchboard"
+          "correct_answer": "switchboard",
+          "image_hint": "a telephone switchboard in an office"
         },
         {
-          "prompt": "Look at the picture (a person making an enquiry on the phone). What is this?",
+          "prompt": "What is this?",
           "options": [
             "enquiry",
             "tone",
             "switchboard"
           ],
-          "correct_answer": "enquiry"
+          "correct_answer": "enquiry",
+          "image_hint": "a person making an enquiry on the phone"
         }
       ]
     }

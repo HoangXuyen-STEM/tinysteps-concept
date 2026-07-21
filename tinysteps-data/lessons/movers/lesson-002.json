@@ -191,31 +191,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a notebook with written exercises and a red checkmark). What is this?",
+          "prompt": "What is this?",
           "options": [
             "exercise",
             "clean",
             "homework"
           ],
-          "correct_answer": "homework"
+          "correct_answer": "homework",
+          "image_hint": "a notebook with written exercises and a red checkmark"
         },
         {
-          "prompt": "Look at the picture (a hand wiping a whiteboard clean with an eraser). What is this?",
+          "prompt": "What is this?",
           "options": [
             "clean",
             "exercise",
             "homework"
           ],
-          "correct_answer": "clean"
+          "correct_answer": "clean",
+          "image_hint": "a hand wiping a whiteboard clean with an eraser"
         },
         {
-          "prompt": "Look at the picture (a worksheet page with numbered exercises). What is this?",
+          "prompt": "What is this?",
           "options": [
             "homework",
             "exercise",
             "clean"
           ],
-          "correct_answer": "exercise"
+          "correct_answer": "exercise",
+          "image_hint": "a worksheet page with numbered exercises"
         }
       ]
     }

@@ -187,31 +187,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a calendar sheet showing the previous day marked). What is this?",
+          "prompt": "What is this?",
           "options": [
             "agendas",
             "marker",
             "yesterday"
           ],
-          "correct_answer": "yesterday"
+          "correct_answer": "yesterday",
+          "image_hint": "a calendar sheet showing the previous day marked"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a agenda). What is this?",
+          "prompt": "What is this?",
           "options": [
             "yesterday",
             "agendas",
             "marker"
           ],
-          "correct_answer": "agendas"
+          "correct_answer": "agendas",
+          "image_hint": "a clean graphic illustration of a agenda"
         },
         {
-          "prompt": "Look at the picture (a black dry-erase marker on a whiteboard shelf). What is this?",
+          "prompt": "What is this?",
           "options": [
             "agendas",
             "yesterday",
             "marker"
           ],
-          "correct_answer": "marker"
+          "correct_answer": "marker",
+          "image_hint": "a black dry-erase marker on a whiteboard shelf"
         }
       ]
     }

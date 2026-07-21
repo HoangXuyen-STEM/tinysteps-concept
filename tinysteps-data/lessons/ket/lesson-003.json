@@ -193,31 +193,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a requirements list for a classroom task). What is this?",
+          "prompt": "What is this?",
           "options": [
             "emphasise",
             "requirement",
             "clarify"
           ],
-          "correct_answer": "requirement"
+          "correct_answer": "requirement",
+          "image_hint": "a requirements list for a classroom task"
         },
         {
-          "prompt": "Look at the picture (a teacher clarifying an instruction to a student). What is this?",
+          "prompt": "What is this?",
           "options": [
             "emphasise",
             "clarify",
             "requirement"
           ],
-          "correct_answer": "clarify"
+          "correct_answer": "clarify",
+          "image_hint": "a teacher clarifying an instruction to a student"
         },
         {
-          "prompt": "Look at the picture (a teacher underlining a key instruction on the board). What is this?",
+          "prompt": "What is this?",
           "options": [
             "clarify",
             "requirement",
             "emphasise"
           ],
-          "correct_answer": "emphasise"
+          "correct_answer": "emphasise",
+          "image_hint": "a teacher underlining a key instruction on the board"
         }
       ]
     }

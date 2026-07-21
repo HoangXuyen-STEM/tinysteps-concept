@@ -209,31 +209,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a person holding their hands together showing a sorry face). What is this?",
+          "prompt": "What is this?",
           "options": [
             "apologize",
             "warm",
             "furthermore"
           ],
-          "correct_answer": "apologize"
+          "correct_answer": "apologize",
+          "image_hint": "a person holding their hands together showing a sorry face"
         },
         {
-          "prompt": "Look at the picture (an arrow pointing to additional detail cards). What is this?",
+          "prompt": "What is this?",
           "options": [
             "warm",
             "furthermore",
             "apologize"
           ],
-          "correct_answer": "furthermore"
+          "correct_answer": "furthermore",
+          "image_hint": "an arrow pointing to additional detail cards"
         },
         {
-          "prompt": "Look at the picture (a simple, clear colorful visualization of warm). What is this?",
+          "prompt": "What is this?",
           "options": [
             "warm",
             "apologize",
             "furthermore"
           ],
-          "correct_answer": "warm"
+          "correct_answer": "warm",
+          "image_hint": "a simple, clear colorful visualization of warm"
         }
       ]
     }

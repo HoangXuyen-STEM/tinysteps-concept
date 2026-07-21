@@ -198,31 +198,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a weekly calendar grid on a wall board). What is this?",
+          "prompt": "What is this?",
           "options": [
             "administration",
             "schedule",
             "documentation"
           ],
-          "correct_answer": "schedule"
+          "correct_answer": "schedule",
+          "image_hint": "a weekly calendar grid on a wall board"
         },
         {
-          "prompt": "Look at the picture (a stack of official school documentation). What is this?",
+          "prompt": "What is this?",
           "options": [
             "documentation",
             "schedule",
             "administration"
           ],
-          "correct_answer": "documentation"
+          "correct_answer": "documentation",
+          "image_hint": "a stack of official school documentation"
         },
         {
-          "prompt": "Look at the picture (a school administration office with staff inside). What is this?",
+          "prompt": "What is this?",
           "options": [
             "administration",
             "schedule",
             "documentation"
           ],
-          "correct_answer": "administration"
+          "correct_answer": "administration",
+          "image_hint": "a school administration office with staff inside"
         }
       ]
     }

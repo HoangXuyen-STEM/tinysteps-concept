@@ -187,31 +187,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (an aeroplane taking off into a clear blue sky). What is this?",
+          "prompt": "What is this?",
           "options": [
             "plane",
             "motorbike",
             "boat"
           ],
-          "correct_answer": "plane"
+          "correct_answer": "plane",
+          "image_hint": "an aeroplane taking off into a clear blue sky"
         },
         {
-          "prompt": "Look at the picture (a small wooden boat on a calm river in Vietnam). What is this?",
+          "prompt": "What is this?",
           "options": [
             "plane",
             "boat",
             "motorbike"
           ],
-          "correct_answer": "boat"
+          "correct_answer": "boat",
+          "image_hint": "a small wooden boat on a calm river in Vietnam"
         },
         {
-          "prompt": "Look at the picture (a motorbike parked outside a school gate). What is this?",
+          "prompt": "What is this?",
           "options": [
             "boat",
             "plane",
             "motorbike"
           ],
-          "correct_answer": "motorbike"
+          "correct_answer": "motorbike",
+          "image_hint": "a motorbike parked outside a school gate"
         }
       ]
     }

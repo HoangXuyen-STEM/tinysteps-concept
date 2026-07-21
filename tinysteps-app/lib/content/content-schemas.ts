@@ -15,7 +15,7 @@ const matchExercise = exerciseBase.extend({ type: z.literal("match"), items: z.a
 const arrangeExercise = exerciseBase.extend({ type: z.literal("arrange"), items: z.array(z.object({ words: stringList, correct_answer: z.string() })) });
 const listenExercise = exerciseBase.extend({ type: z.literal("listen_choose"), items: z.array(z.object({ audio_text: z.string(), options: stringList, correct_answer: z.string() })) });
 const blankExercise = exerciseBase.extend({ type: z.literal("fill_blank"), items: z.array(z.object({ prompt: z.string(), correct_answer: z.string() })) });
-const choiceExercise = exerciseBase.extend({ type: z.literal("multiple_choice"), items: z.array(z.object({ prompt: z.string(), options: stringList, correct_answer: z.string() })) });
+const choiceExercise = exerciseBase.extend({ type: z.literal("multiple_choice"), items: z.array(z.object({ prompt: z.string(), options: stringList, correct_answer: z.string(), image_hint: z.string().optional() })) });
 
 export const lessonSchema = z.object({
   id: z.string(), level: levelSchema, topic_id: z.string(), order: z.number().int(), title: z.string(), scenario: z.string(), estimated_minutes: z.number().int(),

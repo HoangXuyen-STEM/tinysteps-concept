@@ -200,31 +200,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a teacher writing a diagram on the blackboard to explain a concept). What is this?",
+          "prompt": "What is this?",
           "options": [
             "vocabulary",
             "explain",
             "pronunciation"
           ],
-          "correct_answer": "explain"
+          "correct_answer": "explain",
+          "image_hint": "a teacher writing a diagram on the blackboard to explain a concept"
         },
         {
-          "prompt": "Look at the picture (a notebook with new vocabulary words listed). What is this?",
+          "prompt": "What is this?",
           "options": [
             "pronunciation",
             "vocabulary",
             "explain"
           ],
-          "correct_answer": "vocabulary"
+          "correct_answer": "vocabulary",
+          "image_hint": "a notebook with new vocabulary words listed"
         },
         {
-          "prompt": "Look at the picture (mouth diagrams showing pronunciation of sounds). What is this?",
+          "prompt": "What is this?",
           "options": [
             "vocabulary",
             "explain",
             "pronunciation"
           ],
-          "correct_answer": "pronunciation"
+          "correct_answer": "pronunciation",
+          "image_hint": "mouth diagrams showing pronunciation of sounds"
         }
       ]
     }

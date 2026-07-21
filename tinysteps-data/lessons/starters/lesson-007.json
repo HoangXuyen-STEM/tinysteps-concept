@@ -171,31 +171,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a bustling fresh food market in Vietnam). What is this?",
+          "prompt": "What is this?",
           "options": [
             "buy",
             "rice",
             "market"
           ],
-          "correct_answer": "market"
+          "correct_answer": "market",
+          "image_hint": "a bustling fresh food market in Vietnam"
         },
         {
-          "prompt": "Look at the picture (a steaming bowl of white jasmine rice). What is this?",
+          "prompt": "What is this?",
           "options": [
             "buy",
             "market",
             "rice"
           ],
-          "correct_answer": "rice"
+          "correct_answer": "rice",
+          "image_hint": "a steaming bowl of white jasmine rice"
         },
         {
-          "prompt": "Look at the picture (an action illustration showing a person to buy). What is this?",
+          "prompt": "What is this?",
           "options": [
             "rice",
             "market",
             "buy"
           ],
-          "correct_answer": "buy"
+          "correct_answer": "buy",
+          "image_hint": "an action illustration showing a person to buy"
         }
       ]
     }

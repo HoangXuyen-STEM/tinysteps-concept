@@ -197,31 +197,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a person carefully analysing a text with a highlighter). What is this?",
+          "prompt": "What is this?",
           "options": [
             "summarise",
             "analyse",
             "interpret"
           ],
-          "correct_answer": "analyse"
+          "correct_answer": "analyse",
+          "image_hint": "a person carefully analysing a text with a highlighter"
         },
         {
-          "prompt": "Look at the picture (a student writing a short summary of a passage). What is this?",
+          "prompt": "What is this?",
           "options": [
             "interpret",
             "analyse",
             "summarise"
           ],
-          "correct_answer": "summarise"
+          "correct_answer": "summarise",
+          "image_hint": "a student writing a short summary of a passage"
         },
         {
-          "prompt": "Look at the picture (a person interpreting a graph or data chart). What is this?",
+          "prompt": "What is this?",
           "options": [
             "analyse",
             "summarise",
             "interpret"
           ],
-          "correct_answer": "interpret"
+          "correct_answer": "interpret",
+          "image_hint": "a person interpreting a graph or data chart"
         }
       ]
     }

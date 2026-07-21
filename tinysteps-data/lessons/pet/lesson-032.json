@@ -200,31 +200,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a green leaf logo with the letter V on a salad bowl). What is this?",
+          "prompt": "What is this?",
           "options": [
             "reservation",
             "vegetarian",
             "recommendation"
           ],
-          "correct_answer": "vegetarian"
+          "correct_answer": "vegetarian",
+          "image_hint": "a green leaf logo with the letter V on a salad bowl"
         },
         {
-          "prompt": "Look at the picture (a 'Reserved' tent card sitting on an elegant restaurant table). What is this?",
+          "prompt": "What is this?",
           "options": [
             "vegetarian",
             "recommendation",
             "reservation"
           ],
-          "correct_answer": "reservation"
+          "correct_answer": "reservation",
+          "image_hint": "a 'Reserved' tent card sitting on an elegant restaurant table"
         },
         {
-          "prompt": "Look at the picture (a letter with five stars stamped at the top). What is this?",
+          "prompt": "What is this?",
           "options": [
             "vegetarian",
             "recommendation",
             "reservation"
           ],
-          "correct_answer": "recommendation"
+          "correct_answer": "recommendation",
+          "image_hint": "a letter with five stars stamped at the top"
         }
       ]
     }

@@ -199,31 +199,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (students eagerly engaged in a classroom discussion). What is this?",
+          "prompt": "What is this?",
           "options": [
             "engagement",
             "participate",
             "interaction"
           ],
-          "correct_answer": "engagement"
+          "correct_answer": "engagement",
+          "image_hint": "students eagerly engaged in a classroom discussion"
         },
         {
-          "prompt": "Look at the picture (students interacting in pairs during a language task). What is this?",
+          "prompt": "What is this?",
           "options": [
             "participate",
             "engagement",
             "interaction"
           ],
-          "correct_answer": "interaction"
+          "correct_answer": "interaction",
+          "image_hint": "students interacting in pairs during a language task"
         },
         {
-          "prompt": "Look at the picture (a student raising their hand to participate). What is this?",
+          "prompt": "What is this?",
           "options": [
             "participate",
             "engagement",
             "interaction"
           ],
-          "correct_answer": "participate"
+          "correct_answer": "participate",
+          "image_hint": "a student raising their hand to participate"
         }
       ]
     }

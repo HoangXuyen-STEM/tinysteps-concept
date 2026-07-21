@@ -171,31 +171,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (an open English textbook on a desk). What is this?",
+          "prompt": "What is this?",
           "options": [
             "book",
             "pen",
             "class"
           ],
-          "correct_answer": "book"
+          "correct_answer": "book",
+          "image_hint": "an open English textbook on a desk"
         },
         {
-          "prompt": "Look at the picture (a blue ink pen lying on a notebook). What is this?",
+          "prompt": "What is this?",
           "options": [
             "book",
             "class",
             "pen"
           ],
-          "correct_answer": "pen"
+          "correct_answer": "pen",
+          "image_hint": "a blue ink pen lying on a notebook"
         },
         {
-          "prompt": "Look at the picture (a classroom full of students sitting at desks). What is this?",
+          "prompt": "What is this?",
           "options": [
             "class",
             "book",
             "pen"
           ],
-          "correct_answer": "class"
+          "correct_answer": "class",
+          "image_hint": "a classroom full of students sitting at desks"
         }
       ]
     }

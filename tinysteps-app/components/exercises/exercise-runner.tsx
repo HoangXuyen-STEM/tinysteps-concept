@@ -102,6 +102,7 @@ export function ExerciseRunner({ lessonId, exercises, audioUrls, onComplete }: P
       return (
         <MultipleChoiceExerciseComponent
           key={currentExerciseIndex}
+          lessonId={lessonId}
           exercise={exercise}
           exerciseIndex={currentExerciseIndex}
           onItemAnswer={handleItemAnswer}

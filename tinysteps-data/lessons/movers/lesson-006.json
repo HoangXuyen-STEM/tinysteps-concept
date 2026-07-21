@@ -183,31 +183,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a person in bed with a thermometer in their mouth). What is this?",
+          "prompt": "What is this?",
           "options": [
             "sick",
             "official",
             "colleagues"
           ],
-          "correct_answer": "sick"
+          "correct_answer": "sick",
+          "image_hint": "a person in bed with a thermometer in their mouth"
         },
         {
-          "prompt": "Look at the picture (a simple, clear colorful visualization of official). What is this?",
+          "prompt": "What is this?",
           "options": [
             "official",
             "sick",
             "colleagues"
           ],
-          "correct_answer": "official"
+          "correct_answer": "official",
+          "image_hint": "a simple, clear colorful visualization of official"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a colleague). What is this?",
+          "prompt": "What is this?",
           "options": [
             "colleagues",
             "official",
             "sick"
           ],
-          "correct_answer": "colleagues"
+          "correct_answer": "colleagues",
+          "image_hint": "a clean graphic illustration of a colleague"
         }
       ]
     }

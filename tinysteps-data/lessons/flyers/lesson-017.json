@@ -193,31 +193,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a student holding a certificate of achievement). What is this?",
+          "prompt": "What is this?",
           "options": [
             "motivation",
             "confidence",
             "achievement"
           ],
-          "correct_answer": "achievement"
+          "correct_answer": "achievement",
+          "image_hint": "a student holding a certificate of achievement"
         },
         {
-          "prompt": "Look at the picture (an energised student raising their hand confidently). What is this?",
+          "prompt": "What is this?",
           "options": [
             "confidence",
             "motivation",
             "achievement"
           ],
-          "correct_answer": "motivation"
+          "correct_answer": "motivation",
+          "image_hint": "an energised student raising their hand confidently"
         },
         {
-          "prompt": "Look at the picture (a confident student standing tall and speaking). What is this?",
+          "prompt": "What is this?",
           "options": [
             "motivation",
             "confidence",
             "achievement"
           ],
-          "correct_answer": "confidence"
+          "correct_answer": "confidence",
+          "image_hint": "a confident student standing tall and speaking"
         }
       ]
     }

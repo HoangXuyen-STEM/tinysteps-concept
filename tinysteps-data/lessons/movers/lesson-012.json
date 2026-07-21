@@ -187,31 +187,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a calendar sheet showing the previous day marked). What is this?",
+          "prompt": "What is this?",
           "options": [
             "weekend",
             "yesterday",
             "weather"
           ],
-          "correct_answer": "yesterday"
+          "correct_answer": "yesterday",
+          "image_hint": "a calendar sheet showing the previous day marked"
         },
         {
-          "prompt": "Look at the picture (a bright sun partially covered by a friendly white cloud). What is this?",
+          "prompt": "What is this?",
           "options": [
             "weather",
             "yesterday",
             "weekend"
           ],
-          "correct_answer": "weather"
+          "correct_answer": "weather",
+          "image_hint": "a bright sun partially covered by a friendly white cloud"
         },
         {
-          "prompt": "Look at the picture (a calendar showing Saturday and Sunday circled). What is this?",
+          "prompt": "What is this?",
           "options": [
             "yesterday",
             "weekend",
             "weather"
           ],
-          "correct_answer": "weekend"
+          "correct_answer": "weekend",
+          "image_hint": "a calendar showing Saturday and Sunday circled"
         }
       ]
     }

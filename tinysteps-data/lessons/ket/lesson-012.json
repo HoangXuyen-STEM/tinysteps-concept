@@ -198,31 +198,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (two cups (tea and coffee) with a green checkmark next to the tea). What is this?",
+          "prompt": "What is this?",
           "options": [
             "community",
             "perspective",
             "prefer"
           ],
-          "correct_answer": "prefer"
+          "correct_answer": "prefer",
+          "image_hint": "two cups (tea and coffee) with a green checkmark next to the tea"
         },
         {
-          "prompt": "Look at the picture (two people looking at the same thing from different angles). What is this?",
+          "prompt": "What is this?",
           "options": [
             "perspective",
             "community",
             "prefer"
           ],
-          "correct_answer": "perspective"
+          "correct_answer": "perspective",
+          "image_hint": "two people looking at the same thing from different angles"
         },
         {
-          "prompt": "Look at the picture (a diverse community of people working together). What is this?",
+          "prompt": "What is this?",
           "options": [
             "prefer",
             "perspective",
             "community"
           ],
-          "correct_answer": "community"
+          "correct_answer": "community",
+          "image_hint": "a diverse community of people working together"
         }
       ]
     }

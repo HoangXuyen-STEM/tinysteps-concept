@@ -187,31 +187,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a plate of roasted chicken next to rice). What is this?",
+          "prompt": "What is this?",
           "options": [
             "fruit",
             "vegetable",
             "chicken"
           ],
-          "correct_answer": "chicken"
+          "correct_answer": "chicken",
+          "image_hint": "a plate of roasted chicken next to rice"
         },
         {
-          "prompt": "Look at the picture (a basket of fresh apples, bananas, and oranges). What is this?",
+          "prompt": "What is this?",
           "options": [
             "vegetable",
             "chicken",
             "fruit"
           ],
-          "correct_answer": "fruit"
+          "correct_answer": "fruit",
+          "image_hint": "a basket of fresh apples, bananas, and oranges"
         },
         {
-          "prompt": "Look at the picture (a pile of fresh mixed vegetables at a market stall). What is this?",
+          "prompt": "What is this?",
           "options": [
             "fruit",
             "vegetable",
             "chicken"
           ],
-          "correct_answer": "vegetable"
+          "correct_answer": "vegetable",
+          "image_hint": "a pile of fresh mixed vegetables at a market stall"
         }
       ]
     }

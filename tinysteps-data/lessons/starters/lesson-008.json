@@ -169,31 +169,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a steaming bowl of white jasmine rice). What is this?",
+          "prompt": "What is this?",
           "options": [
             "meat",
             "water",
             "rice"
           ],
-          "correct_answer": "rice"
+          "correct_answer": "rice",
+          "image_hint": "a steaming bowl of white jasmine rice"
         },
         {
-          "prompt": "Look at the picture (a clean glass of water on a table). What is this?",
+          "prompt": "What is this?",
           "options": [
             "rice",
             "water",
             "meat"
           ],
-          "correct_answer": "water"
+          "correct_answer": "water",
+          "image_hint": "a clean glass of water on a table"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a meat). What is this?",
+          "prompt": "What is this?",
           "options": [
             "rice",
             "water",
             "meat"
           ],
-          "correct_answer": "meat"
+          "correct_answer": "meat",
+          "image_hint": "a clean graphic illustration of a meat"
         }
       ]
     }

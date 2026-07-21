@@ -200,31 +200,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a step-by-step flowchart diagram on school safety). What is this?",
+          "prompt": "What is this?",
           "options": [
             "procedure",
             "attention",
             "should"
           ],
-          "correct_answer": "procedure"
+          "correct_answer": "procedure",
+          "image_hint": "a step-by-step flowchart diagram on school safety"
         },
         {
-          "prompt": "Look at the picture (an action illustration showing a person to should). What is this?",
+          "prompt": "What is this?",
           "options": [
             "attention",
             "procedure",
             "should"
           ],
-          "correct_answer": "should"
+          "correct_answer": "should",
+          "image_hint": "an action illustration showing a person to should"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a attention). What is this?",
+          "prompt": "What is this?",
           "options": [
             "should",
             "procedure",
             "attention"
           ],
-          "correct_answer": "attention"
+          "correct_answer": "attention",
+          "image_hint": "a clean graphic illustration of a attention"
         }
       ]
     }

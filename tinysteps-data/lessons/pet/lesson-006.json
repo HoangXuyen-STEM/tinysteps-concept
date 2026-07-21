@@ -201,31 +201,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a departure board showing 'DELAYED' next to flights). What is this?",
+          "prompt": "What is this?",
           "options": [
             "apologize",
             "delay",
             "furthermore"
           ],
-          "correct_answer": "delay"
+          "correct_answer": "delay",
+          "image_hint": "a departure board showing 'DELAYED' next to flights"
         },
         {
-          "prompt": "Look at the picture (a person holding their hands together showing a sorry face). What is this?",
+          "prompt": "What is this?",
           "options": [
             "delay",
             "furthermore",
             "apologize"
           ],
-          "correct_answer": "apologize"
+          "correct_answer": "apologize",
+          "image_hint": "a person holding their hands together showing a sorry face"
         },
         {
-          "prompt": "Look at the picture (an arrow pointing to additional detail cards). What is this?",
+          "prompt": "What is this?",
           "options": [
             "delay",
             "furthermore",
             "apologize"
           ],
-          "correct_answer": "furthermore"
+          "correct_answer": "furthermore",
+          "image_hint": "an arrow pointing to additional detail cards"
         }
       ]
     }

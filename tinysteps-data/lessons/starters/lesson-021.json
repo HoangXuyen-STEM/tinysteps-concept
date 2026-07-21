@@ -170,31 +170,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a direction). What is this?",
+          "prompt": "What is this?",
           "options": [
             "left",
             "guide",
             "direction"
           ],
-          "correct_answer": "direction"
+          "correct_answer": "direction",
+          "image_hint": "a clean graphic illustration of a direction"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a guide). What is this?",
+          "prompt": "What is this?",
           "options": [
             "guide",
             "left",
             "direction"
           ],
-          "correct_answer": "guide"
+          "correct_answer": "guide",
+          "image_hint": "a clean graphic illustration of a guide"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a left). What is this?",
+          "prompt": "What is this?",
           "options": [
             "direction",
             "left",
             "guide"
           ],
-          "correct_answer": "left"
+          "correct_answer": "left",
+          "image_hint": "a clean graphic illustration of a left"
         }
       ]
     }

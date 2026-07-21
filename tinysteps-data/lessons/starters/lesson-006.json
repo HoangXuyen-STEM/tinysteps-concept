@@ -171,31 +171,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a report). What is this?",
+          "prompt": "What is this?",
           "options": [
             "colleague",
             "report",
             "behavior"
           ],
-          "correct_answer": "report"
+          "correct_answer": "report",
+          "image_hint": "a clean graphic illustration of a report"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a behavior). What is this?",
+          "prompt": "What is this?",
           "options": [
             "behavior",
             "report",
             "colleague"
           ],
-          "correct_answer": "behavior"
+          "correct_answer": "behavior",
+          "image_hint": "a clean graphic illustration of a behavior"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a colleague). What is this?",
+          "prompt": "What is this?",
           "options": [
             "report",
             "colleague",
             "behavior"
           ],
-          "correct_answer": "colleague"
+          "correct_answer": "colleague",
+          "image_hint": "a clean graphic illustration of a colleague"
         }
       ]
     }

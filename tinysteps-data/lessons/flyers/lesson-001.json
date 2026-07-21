@@ -192,31 +192,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a group of teachers sitting around a conference table). What is this?",
+          "prompt": "What is this?",
           "options": [
             "briefing",
             "agenda",
             "meeting"
           ],
-          "correct_answer": "meeting"
+          "correct_answer": "meeting",
+          "image_hint": "a group of teachers sitting around a conference table"
         },
         {
-          "prompt": "Look at the picture (a meeting agenda document on a desk). What is this?",
+          "prompt": "What is this?",
           "options": [
             "agenda",
             "briefing",
             "meeting"
           ],
-          "correct_answer": "agenda"
+          "correct_answer": "agenda",
+          "image_hint": "a meeting agenda document on a desk"
         },
         {
-          "prompt": "Look at the picture (a group of teachers getting a morning briefing). What is this?",
+          "prompt": "What is this?",
           "options": [
             "meeting",
             "agenda",
             "briefing"
           ],
-          "correct_answer": "briefing"
+          "correct_answer": "briefing",
+          "image_hint": "a group of teachers getting a morning briefing"
         }
       ]
     }

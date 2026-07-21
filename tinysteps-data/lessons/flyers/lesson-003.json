@@ -196,31 +196,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a step-by-step checklist with checkboxes). What is this?",
+          "prompt": "What is this?",
           "options": [
             "guideline",
             "instructions",
             "instruction"
           ],
-          "correct_answer": "instructions"
+          "correct_answer": "instructions",
+          "image_hint": "a step-by-step checklist with checkboxes"
         },
         {
-          "prompt": "Look at the picture (a numbered instruction list on a worksheet). What is this?",
+          "prompt": "What is this?",
           "options": [
             "instruction",
             "instructions",
             "guideline"
           ],
-          "correct_answer": "instruction"
+          "correct_answer": "instruction",
+          "image_hint": "a numbered instruction list on a worksheet"
         },
         {
-          "prompt": "Look at the picture (a set of guidelines posted on a classroom wall). What is this?",
+          "prompt": "What is this?",
           "options": [
             "instruction",
             "guideline",
             "instructions"
           ],
-          "correct_answer": "guideline"
+          "correct_answer": "guideline",
+          "image_hint": "a set of guidelines posted on a classroom wall"
         }
       ]
     }

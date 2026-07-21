@@ -198,31 +198,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a simple, clear colorful visualization of perfect). What is this?",
+          "prompt": "What is this?",
           "options": [
             "perfect",
             "star",
             "better"
           ],
-          "correct_answer": "perfect"
+          "correct_answer": "perfect",
+          "image_hint": "a simple, clear colorful visualization of perfect"
         },
         {
-          "prompt": "Look at the picture (a simple, clear colorful visualization of better). What is this?",
+          "prompt": "What is this?",
           "options": [
             "better",
             "perfect",
             "star"
           ],
-          "correct_answer": "better"
+          "correct_answer": "better",
+          "image_hint": "a simple, clear colorful visualization of better"
         },
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a star). What is this?",
+          "prompt": "What is this?",
           "options": [
             "better",
             "perfect",
             "star"
           ],
-          "correct_answer": "star"
+          "correct_answer": "star",
+          "image_hint": "a clean graphic illustration of a star"
         }
       ]
     }

@@ -169,31 +169,34 @@
       "instruction": "Choose the best answer.",
       "items": [
         {
-          "prompt": "Look at the picture (a clean graphic illustration of a number). What is this?",
+          "prompt": "What is this?",
           "options": [
             "number",
             "hear",
             "contact"
           ],
-          "correct_answer": "number"
+          "correct_answer": "number",
+          "image_hint": "a clean graphic illustration of a number"
         },
         {
-          "prompt": "Look at the picture (an action illustration showing a person to hear). What is this?",
+          "prompt": "What is this?",
           "options": [
             "number",
             "hear",
             "contact"
           ],
-          "correct_answer": "hear"
+          "correct_answer": "hear",
+          "image_hint": "an action illustration showing a person to hear"
         },
         {
-          "prompt": "Look at the picture (an action illustration showing a person to contact). What is this?",
+          "prompt": "What is this?",
           "options": [
             "number",
             "contact",
             "hear"
           ],
-          "correct_answer": "contact"
+          "correct_answer": "contact",
+          "image_hint": "an action illustration showing a person to contact"
         }
       ]
     }
