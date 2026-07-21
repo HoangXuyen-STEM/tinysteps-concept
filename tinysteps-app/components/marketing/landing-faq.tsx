@@ -4,8 +4,8 @@ import { offer, formatVnd, currentPriceVnd } from "@/lib/marketing/offer";
 // plain <details> so it works without JavaScript on the low-end phones many teachers use.
 const faqs = [
   {
-    q: "FSEL đang miễn phí, tôi còn cần TinySteps không?",
-    a: "TinySteps không thay FSEL. Nó là phần móng để bạn học FSEL đỡ đuối: vốn từ và ngữ pháp nền. Nhiều người dùng song song — TinySteps 10 phút buổi sáng, FSEL khi có thời gian rảnh hơn.",
+    q: "Ngoài kia có nhiều app miễn phí, tôi còn cần TinySteps không?",
+    a: "TinySteps không cạnh tranh về số lượng bài tập. Nó tập trung vào phần móng — vốn từ và ngữ pháp nền — sắp theo đúng thứ tự và tự nhắc lại đúng từ bạn sắp quên. Học 10 phút mỗi sáng, bạn thật sự nhớ và dùng được, chứ không chỉ 'đã học cho có'.",
   },
   {
     q: "Tôi mất căn bản từ lâu, bắt đầu lại có kịp không?",

@@ -5,7 +5,7 @@ const pillars = [
   {
     icon: "🧱",
     title: "Đúng phần bạn đang thiếu",
-    body: "FSEL rất tốt, nhưng nó giả định bạn đã có vốn từ và ngữ pháp nền. Ai chưa chắc phần đó sẽ thấy đuối ngay tuần đầu. TinySteps xây đúng phần móng ấy — không thay thế, mà giúp bạn học FSEL hiệu quả hơn.",
+    body: "Nhiều lộ trình tiếng Anh giả định bạn đã có sẵn vốn từ và ngữ pháp nền. Ai chưa chắc phần đó sẽ thấy đuối ngay tuần đầu. TinySteps xây đúng phần móng ấy, để bạn học tiếp ở bất cứ đâu cũng nhẹ và vững hơn.",
   },
   {
     icon: "⏱️",

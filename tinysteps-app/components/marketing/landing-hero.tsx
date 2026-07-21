@@ -9,7 +9,7 @@ export function LandingHero() {
     <section className="mx-auto max-w-3xl px-4 pt-12 sm:px-6 sm:pt-16">
       <p className="text-sm font-semibold text-teal-700">Dành cho giáo viên</p>
       <h1 className="mt-3 text-3xl font-bold leading-tight text-slate-900 sm:text-4xl">
-        Xây nền tiếng Anh vững, để học tiếp trên FSEL hay bất kỳ đâu cũng nhẹ nhàng hơn
+        Xây nền tiếng Anh vững, để mỗi bước học tiếp đều nhẹ nhàng hơn
       </h1>
       <p className="mt-4 text-lg leading-relaxed text-slate-600">
         Từ vựng và ngữ pháp nền theo khung Cambridge quen thuộc: Starters → Movers → Flyers → KET →

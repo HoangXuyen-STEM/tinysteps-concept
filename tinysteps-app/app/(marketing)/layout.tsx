@@ -28,8 +28,8 @@ export default function MarketingLayout({
           <p className="font-medium text-slate-700">TinySteps</p>
           <p className="mt-1">Đỗ Hoàng Xuyên · Giáo viên Hóa học</p>
           <p className="mt-3 text-xs leading-relaxed">
-            TinySteps là dự án cá nhân, không trực thuộc và không liên kết với Bộ Giáo dục và Đào tạo,
-            FSEL hay bất kỳ tổ chức nào khác.
+            TinySteps là dự án cá nhân, không trực thuộc và không liên kết với Bộ Giáo dục và Đào tạo
+            hay bất kỳ tổ chức nào khác.
           </p>
         </div>
       </footer>
