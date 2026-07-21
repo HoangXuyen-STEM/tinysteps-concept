@@ -10,6 +10,10 @@ Cam kết công khai với người mua: **kích hoạt trong 12 giờ**, **hoà
    - `NEXT_PUBLIC_CONTACT_URL` (link Zalo/Messenger), `NEXT_PUBLIC_CONTACT_LABEL`
    - `NEXT_PUBLIC_OFFER_STAGE=early_bird` → đổi thành `standard` khi hết 50 suất đầu
    - Chưa điền đủ 3 biến ngân hàng thì trang `/mua` tự hiện thông báo "liên hệ trực tiếp", không hiện QR hỏng.
+   - **Bảng quản trị `/admin`** (khuyến nghị thay cho SQL tay): điền hai biến **chỉ ở máy chủ**
+     (KHÔNG có tiền tố `NEXT_PUBLIC_`): `ADMIN_EMAILS` (danh sách email admin, ngăn cách bằng dấu phẩy)
+     và `SUPABASE_SERVICE_ROLE_KEY` (khóa service_role, Project Settings → API — đánh dấu Sensitive trên Vercel).
+     Thiếu `ADMIN_EMAILS` thì `/admin` trả 404 cho mọi người; thiếu service key thì `/admin` chỉ hiện cảnh báo cấu hình.
 2. Chạy migration `supabase/migrations/000004_paid_access.sql` trên project Supabase.
 2b. Nếu audio đã từng upload lên Supabase Storage, chạy lại với cờ ghi đè để các file audio vừa sửa
    thay được bản cũ (hiện là 275 file sau bốn đợt sửa) — nếu không, người học sẽ nghe một đằng đọc một nẻo:
@@ -23,7 +27,9 @@ Cam kết công khai với người mua: **kích hoạt trong 12 giờ**, **hoà
 
 1. **Nhận tiền.** App ngân hàng báo có, nội dung dạng `TINYSTEPS <email>`.
 2. **Đối soát.** Ghi dòng mới vào sheet. Kiểm tra số tiền khớp giá đang bán (199.000đ giai đoạn early-bird, 300.000đ sau đó).
-3. **Kích hoạt** trong Supabase → SQL Editor:
+3. **Kích hoạt.** Cách nhanh: mở `/admin`, tìm theo email → điền số tiền + mã giao dịch + ghi chú → xác nhận.
+   Kích hoạt lại một tài khoản đã thu hồi sẽ **cập nhật đúng dòng cũ** (không tạo dòng trùng).
+   Cách thủ công (dự phòng) trong Supabase → SQL Editor:
 
 ```sql
 insert into paid_access (user_id, amount_vnd, transfer_ref, note)
@@ -40,7 +46,8 @@ where email = '<email người mua>';
 ## Hoàn tiền
 
 1. Chuyển trả đủ số tiền đã nhận, không hỏi lý do.
-2. Thu hồi quyền — không xóa dòng, để giữ lịch sử đối soát:
+2. Thu hồi quyền — không xóa dòng, để giữ lịch sử đối soát. Cách nhanh: mở `/admin`, tìm email → điền lý do →
+   xác nhận "Thu hồi". Cách thủ công (dự phòng):
 
 ```sql
 update paid_access set revoked_at = now(), note = 'refund: <lý do ngắn>'

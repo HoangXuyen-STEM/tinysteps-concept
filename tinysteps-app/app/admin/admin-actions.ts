@@ -1,0 +1,117 @@
+"use server";
+
+import { getAdminIdentity } from "@/lib/admin/admin-auth";
+import { AdminConfigError } from "@/utils/supabase/admin";
+import {
+  activateAccessSchema,
+  revokeAccessSchema,
+  searchUserSchema,
+} from "@/lib/admin/paid-access-admin-schemas";
+import {
+  activatePaidAccess,
+  getLearnerAccessState,
+  revokePaidAccess,
+  type LearnerAccessState,
+} from "@/lib/admin/paid-access-admin";
+
+export type AdminActionState = {
+  error?: string;
+  message?: string;
+  email?: string;
+  learner?: LearnerAccessState;
+};
+
+const FORBIDDEN = "Không có quyền truy cập." as const;
+
+// Every mutation and lookup re-derives the admin identity from the verified session and the
+// server-only allow-list. The page already gates rendering, but re-checking here means a
+// forged or replayed action POST from a non-admin session changes nothing and reveals nothing.
+async function ensureAdmin(): Promise<boolean> {
+  return (await getAdminIdentity()) !== null;
+}
+
+/** Map a thrown service/config error to an admin-safe message (never a secret value). */
+function toSafeError(error: unknown): string {
+  if (error instanceof AdminConfigError) {
+    return `Cấu hình máy chủ chưa sẵn sàng: ${error.message}.`;
+  }
+  console.error("admin action failed:", error);
+  return "Có lỗi xảy ra. Vui lòng thử lại.";
+}
+
+export async function searchUserAction(
+  _prev: AdminActionState,
+  formData: FormData,
+): Promise<AdminActionState> {
+  if (!(await ensureAdmin())) return { error: FORBIDDEN };
+
+  const parsed = searchUserSchema.safeParse({ email: formData.get("email") });
+  if (!parsed.success) {
+    return { error: parsed.error.issues[0]?.message ?? "Email không hợp lệ." };
+  }
+
+  const { email } = parsed.data;
+  try {
+    const learner = await getLearnerAccessState(email);
+    return { email, learner };
+  } catch (error) {
+    return { email, error: toSafeError(error) };
+  }
+}
+
+export async function activateAccessAction(
+  _prev: AdminActionState,
+  formData: FormData,
+): Promise<AdminActionState> {
+  if (!(await ensureAdmin())) return { error: FORBIDDEN };
+
+  const email = String(formData.get("email") ?? "").trim().toLowerCase();
+  const parsed = activateAccessSchema.safeParse({
+    userId: formData.get("userId"),
+    amountVnd: formData.get("amountVnd"),
+    transferRef: formData.get("transferRef"),
+    note: formData.get("note") ?? "",
+  });
+  if (!parsed.success) {
+    return { email, error: parsed.error.issues[0]?.message ?? "Dữ liệu không hợp lệ." };
+  }
+
+  try {
+    await activatePaidAccess(parsed.data);
+    const learner = await getLearnerAccessState(email);
+    return { email, learner, message: "Đã kích hoạt quyền truy cập." };
+  } catch (error) {
+    return { email, error: toSafeError(error) };
+  }
+}
+
+export async function revokeAccessAction(
+  _prev: AdminActionState,
+  formData: FormData,
+): Promise<AdminActionState> {
+  if (!(await ensureAdmin())) return { error: FORBIDDEN };
+
+  const email = String(formData.get("email") ?? "").trim().toLowerCase();
+  const parsed = revokeAccessSchema.safeParse({
+    userId: formData.get("userId"),
+    reason: formData.get("reason"),
+  });
+  if (!parsed.success) {
+    return { email, error: parsed.error.issues[0]?.message ?? "Dữ liệu không hợp lệ." };
+  }
+
+  try {
+    const result = await revokePaidAccess(parsed.data);
+    const learner = await getLearnerAccessState(email);
+    if (!result.ok) {
+      const reason =
+        result.reason === "already_revoked"
+          ? "Quyền truy cập đã bị thu hồi trước đó."
+          : "Không tìm thấy quyền truy cập để thu hồi.";
+      return { email, learner, error: reason };
+    }
+    return { email, learner, message: "Đã thu hồi quyền truy cập." };
+  } catch (error) {
+    return { email, error: toSafeError(error) };
+  }
+}
