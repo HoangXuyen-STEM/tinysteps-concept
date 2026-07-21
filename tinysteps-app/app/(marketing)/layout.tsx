@@ -1,12 +1,20 @@
 import Link from "next/link";
+import { createClient } from "@/utils/supabase/server";
 
 // Public pages (landing, purchase). No bottom nav: a signed-out visitor cannot reach
 // the product screens it links to, and a sales page reads better full-bleed.
-export default function MarketingLayout({
+export default async function MarketingLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // A signed-in visitor still lands here (the landing and /mua are shared by both
+  // states), so the header CTA must follow the session: "Đăng nhập" is wrong once
+  // they are already in.
+  const supabase = await createClient();
+  const { data } = await supabase.auth.getClaims();
+  const isSignedIn = Boolean(data?.claims?.sub);
+
   return (
     <div className="min-h-screen bg-white">
       <header className="border-b border-slate-100">
@@ -16,9 +24,9 @@ export default function MarketingLayout({
           </Link>
           <Link
             className="rounded-lg px-3 py-1.5 text-sm font-medium text-slate-600 transition-colors hover:bg-slate-50"
-            href="/login"
+            href={isSignedIn ? "/dashboard" : "/login"}
           >
-            Đăng nhập
+            {isSignedIn ? "Vào học" : "Đăng nhập"}
           </Link>
         </div>
       </header>
