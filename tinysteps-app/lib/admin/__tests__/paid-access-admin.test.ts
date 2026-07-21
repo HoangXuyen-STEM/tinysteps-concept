@@ -5,39 +5,12 @@ import {
   searchUserSchema,
 } from "../paid-access-admin-schemas";
 
-// A shared queue drives the terminal query results in call order; the spies capture the
-// mutation payloads so tests can assert the exact write semantics.
-const dbResults: unknown[] = [];
-const upsertSpy = vi.fn();
-const updateSpy = vi.fn();
-const listUsersSpy = vi.fn();
+// The RPC layer: a single spy stands in for supabase.rpc(name, params). Tests queue the
+// result the DB function would return and assert the exact name + params sent.
+const rpcSpy = vi.fn();
 
-function builder() {
-  const b: Record<string, unknown> = {};
-  Object.assign(b, {
-    select: vi.fn(() => b),
-    eq: vi.fn(() => b),
-    is: vi.fn(() => b),
-    upsert: vi.fn((...args: unknown[]) => {
-      upsertSpy(...args);
-      return b;
-    }),
-    update: vi.fn((...args: unknown[]) => {
-      updateSpy(...args);
-      return b;
-    }),
-    maybeSingle: vi.fn(() => Promise.resolve(dbResults.shift())),
-    single: vi.fn(() => Promise.resolve(dbResults.shift())),
-  });
-  return b;
-}
-
-vi.mock("@/utils/supabase/admin", () => ({
-  AdminConfigError: class AdminConfigError extends Error {},
-  createAdminClient: () => ({
-    from: () => builder(),
-    auth: { admin: { listUsers: listUsersSpy } },
-  }),
+vi.mock("@/utils/supabase/server", () => ({
+  createClient: () => Promise.resolve({ rpc: rpcSpy }),
 }));
 
 // Imported after the mock is registered.
@@ -45,7 +18,6 @@ import { activatePaidAccess, revokePaidAccess, getLearnerAccessState } from "../
 
 beforeEach(() => {
   vi.clearAllMocks();
-  dbResults.length = 0;
 });
 
 describe("input validation", () => {
@@ -84,65 +56,108 @@ describe("input validation", () => {
 });
 
 describe("activatePaidAccess", () => {
-  it("upserts on the primary key, clearing revoked_at (re-activation updates, not duplicates)", async () => {
-    dbResults.push({ data: { user_id: "u1", revoked_at: null }, error: null });
-
-    await activatePaidAccess({ userId: "u1", amountVnd: 199000, transferRef: "R1", note: "early-bird" });
-
-    const [row, options] = upsertSpy.mock.calls[0];
-    expect(row).toMatchObject({
-      user_id: "u1",
-      amount_vnd: 199000,
-      transfer_ref: "R1",
-      note: "early-bird",
-      revoked_at: null,
+  it("calls the activate RPC with the mapped params and returns the row", async () => {
+    rpcSpy.mockResolvedValue({
+      data: { user_id: "u1", revoked_at: null, amount_vnd: 199000 },
+      error: null,
     });
-    expect(options).toEqual({ onConflict: "user_id" });
+
+    const row = await activatePaidAccess({
+      userId: "u1",
+      amountVnd: 199000,
+      transferRef: "R1",
+      note: "early-bird",
+    });
+
+    expect(rpcSpy).toHaveBeenCalledWith("admin_activate_paid_access", {
+      p_user_id: "u1",
+      p_amount_vnd: 199000,
+      p_transfer_ref: "R1",
+      p_note: "early-bird",
+    });
+    expect(row).toMatchObject({ user_id: "u1", revoked_at: null });
+  });
+
+  it("throws when the RPC returns an error (forbidden / db failure)", async () => {
+    rpcSpy.mockResolvedValue({ data: null, error: { message: "not authorized" } });
+    await expect(
+      activatePaidAccess({ userId: "u1", amountVnd: 1, transferRef: "R1", note: "" }),
+    ).rejects.toBeTruthy();
   });
 });
 
 describe("revokePaidAccess", () => {
-  it("updates an active grant with revoked_at and appends the reason to the note", async () => {
-    dbResults.push({ data: { user_id: "u1", note: "early-bird", revoked_at: null }, error: null });
-    dbResults.push({ data: { user_id: "u1", revoked_at: "2026-07-21T00:00:00Z" }, error: null });
+  it("returns ok with the updated row on success", async () => {
+    rpcSpy.mockResolvedValue({
+      data: { ok: true, access: { user_id: "u1", revoked_at: "2026-07-21T00:00:00Z" } },
+      error: null,
+    });
 
     const result = await revokePaidAccess({ userId: "u1", reason: "refund late" });
 
-    expect(result.ok).toBe(true);
-    const [patch] = updateSpy.mock.calls[0];
-    expect(patch.revoked_at).toBeTypeOf("string");
-    expect(patch.note).toBe("early-bird | revoked: refund late");
+    expect(rpcSpy).toHaveBeenCalledWith("admin_revoke_paid_access", {
+      p_user_id: "u1",
+      p_reason: "refund late",
+    });
+    expect(result).toEqual({ ok: true, access: { user_id: "u1", revoked_at: "2026-07-21T00:00:00Z" } });
   });
 
-  it("returns not_found and writes nothing when there is no grant", async () => {
-    dbResults.push({ data: null, error: null });
+  it("passes through not_found from the RPC", async () => {
+    rpcSpy.mockResolvedValue({ data: { ok: false, reason: "not_found" }, error: null });
     const result = await revokePaidAccess({ userId: "u1", reason: "refund" });
     expect(result).toEqual({ ok: false, reason: "not_found" });
-    expect(updateSpy).not.toHaveBeenCalled();
   });
 
-  it("returns already_revoked and writes nothing when the grant is revoked", async () => {
-    dbResults.push({ data: { user_id: "u1", revoked_at: "2026-07-01T00:00:00Z" }, error: null });
+  it("passes through already_revoked from the RPC", async () => {
+    rpcSpy.mockResolvedValue({ data: { ok: false, reason: "already_revoked" }, error: null });
     const result = await revokePaidAccess({ userId: "u1", reason: "refund" });
     expect(result).toEqual({ ok: false, reason: "already_revoked" });
-    expect(updateSpy).not.toHaveBeenCalled();
   });
 });
 
 describe("getLearnerAccessState", () => {
-  it("returns found:false without querying paid_access when no user matches", async () => {
-    listUsersSpy.mockResolvedValue({ data: { users: [] }, error: null });
+  it("returns found:false when the RPC yields no rows", async () => {
+    rpcSpy.mockResolvedValue({ data: [], error: null });
     expect(await getLearnerAccessState("ghost@example.com")).toEqual({ found: false });
   });
 
-  it("returns only the matched learner's access row", async () => {
-    listUsersSpy.mockResolvedValue({
-      data: { users: [{ id: "u1", email: "Owner@Example.com" }] },
+  it("returns the learner with access:null when no grant exists", async () => {
+    rpcSpy.mockResolvedValue({
+      data: [{ user_id: "u1", email: "owner@example.com", access_exists: false }],
       error: null,
     });
-    dbResults.push({ data: { user_id: "u1", revoked_at: null }, error: null });
+    const state = await getLearnerAccessState("owner@example.com");
+    expect(state).toEqual({ found: true, userId: "u1", email: "owner@example.com", access: null });
+  });
+
+  it("maps the joined columns into the access row when a grant exists", async () => {
+    rpcSpy.mockResolvedValue({
+      data: [
+        {
+          user_id: "u1",
+          email: "owner@example.com",
+          access_exists: true,
+          granted_at: "2026-07-01T00:00:00Z",
+          amount_vnd: 199000,
+          transfer_ref: "R1",
+          note: "early-bird",
+          revoked_at: null,
+        },
+      ],
+      error: null,
+    });
 
     const state = await getLearnerAccessState("owner@example.com");
-    expect(state).toMatchObject({ found: true, userId: "u1", email: "Owner@Example.com" });
+    expect(state).toMatchObject({
+      found: true,
+      userId: "u1",
+      email: "owner@example.com",
+      access: { user_id: "u1", amount_vnd: 199000, transfer_ref: "R1", revoked_at: null },
+    });
+  });
+
+  it("throws when the RPC returns an error (non-admin caller is rejected by the DB)", async () => {
+    rpcSpy.mockResolvedValue({ data: null, error: { message: "not authorized" } });
+    await expect(getLearnerAccessState("owner@example.com")).rejects.toBeTruthy();
   });
 });

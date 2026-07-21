@@ -9,6 +9,10 @@ what's left is dashboard/CLI actions only you can run.
 - Migrations `000001`, `000002`, `000003` already applied to your real Supabase
   project (phases 03/04/05 runbooks). If not done yet, do that first — this guide
   assumes the schema exists.
+- Migrations `000004_paid_access.sql` (paid-access table) and
+  `000005_admin_paid_access_rpc.sql` (admin allow-list table + SECURITY DEFINER RPCs)
+  applied before using the `/admin` dashboard. After applying `000005`, seed at least one
+  admin — see `docs/manual-activation-sop.md` → "Chuẩn bị một lần".
 - A Vercel account you own, with this repo accessible (GitHub/GitLab/Bitbucket).
 
 ## 1. Upload audio to Supabase Storage
@@ -103,13 +107,15 @@ HEADs every manifest entry through the exact URL the app would build. Must repor
    - `ADMIN_EMAILS` (server-only) — comma-separated allow-list of admin/owner emails
      permitted to open the `/admin` dashboard. Anyone whose signed-in email is not listed
      gets a 404. Leave unset and `/admin` 404s for everyone. **Must NOT** be prefixed
-     `NEXT_PUBLIC_`.
-   - `SUPABASE_SERVICE_ROLE_KEY` (server-only) — required for the `/admin` dashboard to
-     grant/revoke paid access. Add it as a **plain (Sensitive) env var, never prefixed
-     `NEXT_PUBLIC_`**, so it stays server-side and is never bundled into client code. In
-     the Vercel dashboard use the "Sensitive" flag so the value cannot be read back after
-     saving. If unset, `/admin` renders a safe configuration notice to admins and performs
-     no mutations. It bypasses RLS (root-level DB access) — rotate it if ever exposed.
+     `NEXT_PUBLIC_`. **This is only a UI convenience gate, not the security boundary** —
+     the real authorization for grant/revoke is the `admin_users` table + SECURITY DEFINER
+     RPCs in the DB (migration `000005`); a caller who is not a row in `admin_users` cannot
+     mutate anything even if their email is in `ADMIN_EMAILS`.
+   - **No `SUPABASE_SERVICE_ROLE_KEY` is required on Vercel.** The `/admin` dashboard no
+     longer uses a service-role key; every grant/revoke/search runs as the signed-in admin
+     through anon-key RPCs. The service-role key is still used **only locally** for the
+     one-off storage upload scripts (step 1), exported in your shell for that command — never
+     added to Vercel or `.env.local`.
 5. Deploy. `npm run prebuild` (→ `prepare-content.mjs`) runs automatically before
    `next build` — it regenerates the lesson index and, on Vercel, explicitly **skips**
    the `public/audio` symlink (`process.env.VERCEL` guard), so no MP3s are traced into
@@ -150,10 +156,11 @@ Re-verify the Magic Link email template still points at
   end-to-end on the prod domain, not just locally.
 - Create the 10 pilot accounts (Auth → Users → Add user, with password) — profile rows
   should appear automatically (trigger from migration `000001`).
-- Grant/revoke paid access via the `/admin` dashboard (requires `ADMIN_EMAILS` +
-  `SUPABASE_SERVICE_ROLE_KEY` set on the deployment; see step 4). The SQL in
-  `docs/manual-activation-sop.md` remains the fallback path if the dashboard is
-  unavailable.
+- Grant/revoke paid access via the `/admin` dashboard (requires `ADMIN_EMAILS` set on the
+  deployment for the UI gate, plus at least one row seeded into `admin_users` for the RPCs
+  to authorize the write; see step 4 and `docs/manual-activation-sop.md`). No service-role
+  key is needed. The SQL in `docs/manual-activation-sop.md` remains the fallback path if the
+  dashboard is unavailable.
 - Engagement check (run in SQL Editor):
   ```sql
   select activity_date, count(*) filter (where learning_day) as active_users, sum(cards_reviewed) as cards

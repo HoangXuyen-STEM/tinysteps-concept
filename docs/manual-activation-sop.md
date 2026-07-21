@@ -10,11 +10,23 @@ Cam kết công khai với người mua: **kích hoạt trong 12 giờ**, **hoà
    - `NEXT_PUBLIC_CONTACT_URL` (link Zalo/Messenger), `NEXT_PUBLIC_CONTACT_LABEL`
    - `NEXT_PUBLIC_OFFER_STAGE=early_bird` → đổi thành `standard` khi hết 50 suất đầu
    - Chưa điền đủ 3 biến ngân hàng thì trang `/mua` tự hiện thông báo "liên hệ trực tiếp", không hiện QR hỏng.
-   - **Bảng quản trị `/admin`** (khuyến nghị thay cho SQL tay): điền hai biến **chỉ ở máy chủ**
-     (KHÔNG có tiền tố `NEXT_PUBLIC_`): `ADMIN_EMAILS` (danh sách email admin, ngăn cách bằng dấu phẩy)
-     và `SUPABASE_SERVICE_ROLE_KEY` (khóa service_role, Project Settings → API — đánh dấu Sensitive trên Vercel).
-     Thiếu `ADMIN_EMAILS` thì `/admin` trả 404 cho mọi người; thiếu service key thì `/admin` chỉ hiện cảnh báo cấu hình.
-2. Chạy migration `supabase/migrations/000004_paid_access.sql` trên project Supabase.
+   - **Bảng quản trị `/admin`** (khuyến nghị thay cho SQL tay): điền biến **chỉ ở máy chủ**
+     (KHÔNG có tiền tố `NEXT_PUBLIC_`): `ADMIN_EMAILS` (danh sách email admin, ngăn cách bằng dấu phẩy).
+     Thiếu `ADMIN_EMAILS` thì `/admin` trả 404 cho mọi người. **Không cần `SUPABASE_SERVICE_ROLE_KEY`
+     trên Vercel nữa** — mọi thao tác kích hoạt/thu hồi chạy bằng chính phiên đăng nhập của admin qua RPC.
+     `ADMIN_EMAILS` chỉ là "cổng UI" (ẩn trang); ranh giới bảo mật thật là bảng `admin_users` + các hàm
+     SECURITY DEFINER trong migration `000005` — chỉ email nằm trong `admin_users` mới ghi được dữ liệu.
+2. Chạy migration `supabase/migrations/000004_paid_access.sql` và
+   `supabase/migrations/000005_admin_paid_access_rpc.sql` trên project Supabase.
+2a. **Thêm admin đầu tiên** (một lần, trong Supabase → SQL Editor) — thay email của bạn:
+
+```sql
+insert into admin_users (user_id, email)
+select id, email from auth.users where email = '<email admin của bạn>'
+on conflict (user_id) do nothing;
+```
+
+   - Không có dòng nào được thêm → email đó chưa có tài khoản Supabase Auth. Tạo tài khoản trước rồi chạy lại.
 2b. Nếu audio đã từng upload lên Supabase Storage, chạy lại với cờ ghi đè để các file audio vừa sửa
    thay được bản cũ (hiện là 275 file sau bốn đợt sửa) — nếu không, người học sẽ nghe một đằng đọc một nẻo:
    `node scripts/upload-audio-to-storage.mjs --overwrite`

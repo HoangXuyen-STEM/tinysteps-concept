@@ -1,7 +1,6 @@
 "use server";
 
 import { getAdminIdentity } from "@/lib/admin/admin-auth";
-import { AdminConfigError } from "@/utils/supabase/admin";
 import {
   activateAccessSchema,
   revokeAccessSchema,
@@ -30,11 +29,8 @@ async function ensureAdmin(): Promise<boolean> {
   return (await getAdminIdentity()) !== null;
 }
 
-/** Map a thrown service/config error to an admin-safe message (never a secret value). */
+/** Map a thrown error to an admin-safe message (never a secret value or raw DB detail). */
 function toSafeError(error: unknown): string {
-  if (error instanceof AdminConfigError) {
-    return `Cấu hình máy chủ chưa sẵn sàng: ${error.message}.`;
-  }
   console.error("admin action failed:", error);
   return "Có lỗi xảy ra. Vui lòng thử lại.";
 }

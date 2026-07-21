@@ -24,10 +24,6 @@ vi.mock("@/lib/admin/paid-access-admin", () => ({
   revokePaidAccess: mockRevokePaidAccess,
 }));
 
-vi.mock("@/utils/supabase/admin", () => ({
-  AdminConfigError: class AdminConfigError extends Error {},
-}));
-
 import {
   searchUserAction,
   activateAccessAction,
