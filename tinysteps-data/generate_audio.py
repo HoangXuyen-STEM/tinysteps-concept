@@ -1,6 +1,9 @@
 import asyncio
 import json
 import os
+import shutil
+import subprocess
+import tempfile
 from datetime import datetime
 
 try:
@@ -12,6 +15,9 @@ except ModuleNotFoundError:
 DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 WORKSPACE_DIR = os.path.dirname(DATA_DIR)
 AUDIO_DIR = os.path.join(DATA_DIR, "audio")
+
+FFMPEG_BIN = os.environ.get("FFMPEG_BIN") or shutil.which("ffmpeg") or os.path.expanduser("~/bin/ffmpeg")
+DIALOGUE_SILENCE_MS = 600
 
 VOICE_FEMALE = "en-GB-SoniaNeural"
 VOICE_MALE = "en-GB-RyanNeural"
@@ -49,6 +55,56 @@ async def generate_tts(text: str, output_path: str, voice: str, rate: str) -> No
 def load_json(file_path: str) -> dict:
     with open(file_path, "r", encoding="utf-8") as file:
         return json.load(file)
+
+
+def concat_dialogue_lines(line_paths: list, output_path: str, silence_ms: int = DIALOGUE_SILENCE_MS) -> bool:
+    """Concatenate per-line MP3s (each keeps its own character voice) into one
+    dialogue_full.mp3, inserting a short silence between turns.
+
+    Uses ffmpeg's filter_complex concat so codecs/sample rates are normalised
+    even if individual lines were generated at slightly different times.
+    Returns True on success, False if ffmpeg is unavailable or the run fails.
+    """
+    if not line_paths:
+        return False
+    if not FFMPEG_BIN or not os.path.exists(FFMPEG_BIN):
+        log("  [WARN] ffmpeg binary not found; skipping dialogue_full concat")
+        return False
+
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        silence_path = os.path.join(tmp_dir, "silence.mp3")
+        subprocess.run(
+            [
+                FFMPEG_BIN, "-y", "-f", "lavfi",
+                "-i", "anullsrc=r=24000:cl=mono",
+                "-t", str(silence_ms / 1000.0),
+                "-q:a", "9",
+                silence_path,
+            ],
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+
+        inputs = []
+        for line_path in line_paths:
+            inputs.append(line_path)
+            inputs.append(silence_path)
+        # Drop the trailing silence after the last line.
+        inputs = inputs[:-1]
+
+        cmd = [FFMPEG_BIN, "-y"]
+        for path in inputs:
+            cmd += ["-i", path]
+        filter_parts = "".join(f"[{i}:a]" for i in range(len(inputs)))
+        filter_complex = f"{filter_parts}concat=n={len(inputs)}:v=0:a=1[out]"
+        cmd += ["-filter_complex", filter_complex, "-map", "[out]", "-q:a", "3", output_path]
+
+        result = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+        if result.returncode != 0:
+            log(f"  [ERROR] ffmpeg concat failed for {output_path}: {result.stderr.decode(errors='ignore')[:300]}")
+            return False
+        return True
 
 
 async def generate_vocabulary_audio() -> int:
@@ -118,19 +174,25 @@ async def generate_lesson_audio() -> int:
             lines = dialogue.get("lines", [])
             exercises = lesson.get("exercises", [])
 
+            line_paths = []
             for index, line in enumerate(lines, start=1):
                 line_path = os.path.join(out_dir, f"{lesson_id}_line_{index:02d}.mp3")
                 if should_generate(line_path):
                     voice = VOICE_MALE if line.get("character_id") == "char_b" else VOICE_FEMALE
                     await generate_tts(line["text"].strip(), line_path, voice, rate)
                     total_files += 1
+                if line.get("text", "").strip():
+                    line_paths.append(line_path)
 
+            # Full dialogue: concat the already-generated per-line MP3s so each
+            # character keeps its own voice (char_a = female, char_b = male),
+            # instead of re-synthesizing the whole text with a single voice.
             full_path = os.path.join(out_dir, f"{lesson_id}_dialogue_full.mp3")
-            if lines and should_generate(full_path):
-                # Commas yield a natural pause; Edge TTS may read ellipses out loud.
-                full_text = " , ".join(line["text"].strip() for line in lines if line.get("text"))
-                await generate_tts(full_text, full_path, VOICE_FEMALE, rate)
-                total_files += 1
+            if line_paths and should_generate(full_path):
+                if concat_dialogue_lines(line_paths, full_path):
+                    total_files += 1
+                else:
+                    log(f"  [FALLBACK] {lesson_id}: dialogue_full concat failed, skipping")
 
             listen_index = 0
             for exercise in exercises:
