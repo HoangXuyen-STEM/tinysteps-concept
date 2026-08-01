@@ -1,0 +1,272 @@
+{
+  "level": "pet",
+  "total_exercises": 3,
+  "exercises": [
+    {
+      "id": "pet_listening_001",
+      "level": "pet",
+      "order": 1,
+      "title": "A Job Interview Call-Back",
+      "scenario": "An HR manager calls a candidate with details about a job offer.",
+      "estimated_minutes": 8,
+      "grammar_ids": [
+        "pet_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "Congratulations! We would like to offer you the position. The office is located at 145 Kingsway, behind the building with the navy blue door, and the postcode is wc2 5rt. The starting salary would be thirty-two thousand pounds a year, and you would be working with a team of nine people. Since you are twenty-seven years old, you would qualify for the standard pension plan after three years. Please call us back on 020 7946 three hundred and twelve, extension forty-six.",
+      "passage": "Congratulations! We would like to offer you the position. The office is located at {{b1}} Kingsway, behind the building with the {{b2}} door, and the postcode is {{b3}}. The starting salary would be {{b4}} a year, and you would be working with a team of {{b5}} people. Since you are {{b6}} years old, you would qualify for the standard pension plan after {{b7}} years. Please call us back on 020 7946 three hundred and twelve, extension {{b8}}.",
+      "transcript": "Congratulations! We would like to offer you the position. The office is located at 145 Kingsway, behind the building with the navy blue door, and the postcode is wc2 5rt. The starting salary would be thirty-two thousand pounds a year, and you would be working with a team of nine people. Since you are twenty-seven years old, you would qualify for the standard pension plan after three years. Please call us back on 020 7946 three hundred and twelve, extension forty-six.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "What is the office street number?",
+          "category": "address",
+          "accepted_answers": [
+            "145"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "What colour is the door?",
+          "category": "color",
+          "accepted_answers": [
+            "navy blue",
+            "blue"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What is the postcode?",
+          "category": "address",
+          "accepted_answers": [
+            "wc2 5rt",
+            "WC2 5RT"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What is the starting salary?",
+          "category": "number",
+          "accepted_answers": [
+            "thirty-two thousand pounds",
+            "32000 pounds",
+            "£32,000"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "How many people are on the team?",
+          "category": "number",
+          "accepted_answers": [
+            "nine",
+            "9"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "How old is the candidate?",
+          "category": "age",
+          "accepted_answers": [
+            "twenty-seven",
+            "27"
+          ]
+        },
+        {
+          "id": "b7",
+          "cue": "After how many years would the pension apply?",
+          "category": "number",
+          "accepted_answers": [
+            "three",
+            "3"
+          ]
+        },
+        {
+          "id": "b8",
+          "cue": "What is the extension number?",
+          "category": "number",
+          "accepted_answers": [
+            "forty-six",
+            "46"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pet_listening_002",
+      "level": "pet",
+      "order": 2,
+      "title": "Renting a Holiday Cottage",
+      "scenario": "A property agent describes a holiday cottage over the phone.",
+      "estimated_minutes": 8,
+      "grammar_ids": [
+        "pet_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "The cottage is a lovely whitewashed building near the coast. It is one hundred and fifty years old and it sleeps up to six guests. The address is 7 Harbour View, and the postcode is tr4 9pl. The weekly rate is four hundred pounds, and the owner, who is sixty-three years old, asks for a deposit of one hundred pounds before you arrive.",
+      "passage": "The cottage is a lovely {{b1}} building near the coast. It is {{b2}} years old and it sleeps up to {{b3}} guests. The address is {{b4}} Harbour View, and the postcode is {{b5}}. The weekly rate is {{b6}}, and the owner, who is {{b7}} years old, asks for a deposit of {{b8}} before you arrive.",
+      "transcript": "The cottage is a lovely whitewashed building near the coast. It is one hundred and fifty years old and it sleeps up to six guests. The address is 7 Harbour View, and the postcode is tr4 9pl. The weekly rate is four hundred pounds, and the owner, who is sixty-three years old, asks for a deposit of one hundred pounds before you arrive.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "What colour is the cottage?",
+          "category": "color",
+          "accepted_answers": [
+            "whitewashed",
+            "white"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "How old is the cottage?",
+          "category": "number",
+          "accepted_answers": [
+            "one hundred and fifty",
+            "150"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "How many guests can it sleep?",
+          "category": "number",
+          "accepted_answers": [
+            "six",
+            "6"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What is the house number?",
+          "category": "address",
+          "accepted_answers": [
+            "7"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "What is the postcode?",
+          "category": "address",
+          "accepted_answers": [
+            "tr4 9pl",
+            "TR4 9PL"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "What is the weekly rate?",
+          "category": "number",
+          "accepted_answers": [
+            "four hundred pounds",
+            "400 pounds",
+            "£400"
+          ]
+        },
+        {
+          "id": "b7",
+          "cue": "How old is the owner?",
+          "category": "age",
+          "accepted_answers": [
+            "sixty-three",
+            "63"
+          ]
+        },
+        {
+          "id": "b8",
+          "cue": "What deposit is required?",
+          "category": "number",
+          "accepted_answers": [
+            "one hundred pounds",
+            "100 pounds",
+            "£100"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pet_listening_003",
+      "level": "pet",
+      "order": 3,
+      "title": "Registering at a New Clinic",
+      "scenario": "A receptionist registers a new patient over the phone at a busy clinic.",
+      "estimated_minutes": 8,
+      "grammar_ids": [
+        "pet_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "Welcome to Elmwood Clinic. Can I confirm your details? You are forty-nine years old, and your address is 62 Elmwood Gardens, postcode ne3 8jq. Your emergency contact number ends in five. You will be seeing Doctor Patel on the second floor, in the room with the cream walls. Your appointment lasts twenty minutes, and the clinic has been open for twelve years.",
+      "passage": "Welcome to Elmwood Clinic. Can I confirm your details? You are {{b1}} years old, and your address is {{b2}} Elmwood Gardens, postcode {{b3}}. Your emergency contact number ends in {{b4}}. You will be seeing Doctor Patel on the {{b5}} floor, in the room with the {{b6}} walls. Your appointment lasts {{b7}} minutes, and the clinic has been open for {{b8}} years.",
+      "transcript": "Welcome to Elmwood Clinic. Can I confirm your details? You are forty-nine years old, and your address is 62 Elmwood Gardens, postcode ne3 8jq. Your emergency contact number ends in five. You will be seeing Doctor Patel on the second floor, in the room with the cream walls. Your appointment lasts twenty minutes, and the clinic has been open for twelve years.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "How old is the patient?",
+          "category": "age",
+          "accepted_answers": [
+            "forty-nine",
+            "49"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "What is the house number?",
+          "category": "address",
+          "accepted_answers": [
+            "62"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What is the postcode?",
+          "category": "address",
+          "accepted_answers": [
+            "ne3 8jq",
+            "NE3 8JQ"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What number does the emergency contact end in?",
+          "category": "number",
+          "accepted_answers": [
+            "five",
+            "5"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "Which floor is the doctor on?",
+          "category": "number",
+          "accepted_answers": [
+            "second",
+            "2nd"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "What colour are the walls of the room?",
+          "category": "color",
+          "accepted_answers": [
+            "cream"
+          ]
+        },
+        {
+          "id": "b7",
+          "cue": "How many minutes does the appointment last?",
+          "category": "number",
+          "accepted_answers": [
+            "twenty",
+            "20"
+          ]
+        },
+        {
+          "id": "b8",
+          "cue": "How many years has the clinic been open?",
+          "category": "number",
+          "accepted_answers": [
+            "twelve",
+            "12"
+          ]
+        }
+      ]
+    }
+  ]
+}

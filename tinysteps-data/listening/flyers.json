@@ -1,0 +1,238 @@
+{
+  "level": "flyers",
+  "total_exercises": 3,
+  "exercises": [
+    {
+      "id": "flyers_listening_001",
+      "level": "flyers",
+      "order": 1,
+      "title": "Booking a Hotel Room",
+      "scenario": "A receptionist takes a phone booking for a family holiday.",
+      "estimated_minutes": 6,
+      "grammar_ids": [
+        "flyers_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "Thank you for calling Sunrise Hotel. Your room is on the third floor. It has two beds and the walls are cream. The hotel address is 120 Beach Road. Breakfast starts at seven o'clock. Your youngest guest is four years old, and your reservation number ends in eight.",
+      "passage": "Thank you for calling Sunrise Hotel. Your room is on the {{b1}} floor. It has {{b2}} beds and the walls are {{b3}}. The hotel address is {{b4}} Beach Road. Breakfast starts at {{b5}} o'clock. Your youngest guest is {{b6}} years old, and your reservation number ends in {{b7}}.",
+      "transcript": "Thank you for calling Sunrise Hotel. Your room is on the third floor. It has two beds and the walls are cream. The hotel address is 120 Beach Road. Breakfast starts at seven o'clock. Your youngest guest is four years old, and your reservation number ends in eight.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "Which floor is the room on?",
+          "category": "number",
+          "accepted_answers": [
+            "third",
+            "3rd"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "How many beds are in the room?",
+          "category": "number",
+          "accepted_answers": [
+            "two",
+            "2"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What colour are the walls?",
+          "category": "color",
+          "accepted_answers": [
+            "cream"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What is the hotel's street number?",
+          "category": "address",
+          "accepted_answers": [
+            "120"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "What time does breakfast start?",
+          "category": "number",
+          "accepted_answers": [
+            "seven",
+            "7"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "How old is the youngest guest?",
+          "category": "age",
+          "accepted_answers": [
+            "four",
+            "4"
+          ]
+        },
+        {
+          "id": "b7",
+          "cue": "What number does the reservation end in?",
+          "category": "number",
+          "accepted_answers": [
+            "eight",
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flyers_listening_002",
+      "level": "flyers",
+      "order": 2,
+      "title": "A Missing Bicycle Report",
+      "scenario": "A boy reports his missing bicycle to a police officer.",
+      "estimated_minutes": 6,
+      "grammar_ids": [
+        "flyers_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "My bicycle is missing. It is silver with a brown basket. I am twelve years old and I live at 56 Ocean View Avenue. The bicycle has two wheels of course, but it also has a bell and two lights. My contact number ends in zero.",
+      "passage": "My bicycle is missing. It is {{b1}} with a {{b2}} basket. I am {{b3}} years old and I live at {{b4}} Ocean View Avenue. The bicycle has {{b5}} wheels of course, but it also has a bell and {{b6}} lights. My contact number ends in {{b7}}.",
+      "transcript": "My bicycle is missing. It is silver with a brown basket. I am twelve years old and I live at 56 Ocean View Avenue. The bicycle has two wheels of course, but it also has a bell and two lights. My contact number ends in zero.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "What colour is the bicycle?",
+          "category": "color",
+          "accepted_answers": [
+            "silver"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "What colour is the basket?",
+          "category": "color",
+          "accepted_answers": [
+            "brown"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "How old is the boy?",
+          "category": "age",
+          "accepted_answers": [
+            "twelve",
+            "12"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What is the house number?",
+          "category": "address",
+          "accepted_answers": [
+            "56"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "How many wheels does a bicycle have?",
+          "category": "number",
+          "accepted_answers": [
+            "two",
+            "2"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "How many extra lights does it have?",
+          "category": "number",
+          "accepted_answers": [
+            "two",
+            "2"
+          ]
+        },
+        {
+          "id": "b7",
+          "cue": "What number does the contact number end in?",
+          "category": "number",
+          "accepted_answers": [
+            "zero",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flyers_listening_003",
+      "level": "flyers",
+      "order": 3,
+      "title": "Planning a Birthday Party",
+      "scenario": "Two friends plan a surprise birthday party.",
+      "estimated_minutes": 6,
+      "grammar_ids": [
+        "flyers_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "Let's plan the party! The birthday girl is turning thirteen. We will decorate with purple balloons and a gold banner. The party is at 9 Garden Street. We are inviting fifteen friends and the cake will have three layers. The party starts at five o'clock.",
+      "passage": "Let's plan the party! The birthday girl is turning {{b1}}. We will decorate with {{b2}} balloons and a {{b3}} banner. The party is at {{b4}} Garden Street. We are inviting {{b5}} friends and the cake will have {{b6}} layers. The party starts at {{b7}} o'clock.",
+      "transcript": "Let's plan the party! The birthday girl is turning thirteen. We will decorate with purple balloons and a gold banner. The party is at 9 Garden Street. We are inviting fifteen friends and the cake will have three layers. The party starts at five o'clock.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "How old is the birthday girl turning?",
+          "category": "age",
+          "accepted_answers": [
+            "thirteen",
+            "13"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "What colour are the balloons?",
+          "category": "color",
+          "accepted_answers": [
+            "purple"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What colour is the banner?",
+          "category": "color",
+          "accepted_answers": [
+            "gold"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What is the street number?",
+          "category": "address",
+          "accepted_answers": [
+            "9"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "How many friends are invited?",
+          "category": "number",
+          "accepted_answers": [
+            "fifteen",
+            "15"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "How many layers will the cake have?",
+          "category": "number",
+          "accepted_answers": [
+            "three",
+            "3"
+          ]
+        },
+        {
+          "id": "b7",
+          "cue": "What time does the party start?",
+          "category": "number",
+          "accepted_answers": [
+            "five",
+            "5"
+          ]
+        }
+      ]
+    }
+  ]
+}

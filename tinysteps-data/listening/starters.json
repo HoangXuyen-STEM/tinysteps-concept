@@ -1,0 +1,185 @@
+{
+  "level": "starters",
+  "total_exercises": 3,
+  "exercises": [
+    {
+      "id": "starters_listening_001",
+      "level": "starters",
+      "order": 1,
+      "title": "My New Pencil Case",
+      "scenario": "A girl tells her friend about her school things.",
+      "estimated_minutes": 4,
+      "grammar_ids": [
+        "starters_grammar_003"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "Hello! My name is Mai. I am seven years old. My pencil case is blue. I have five pencils inside. My school is on 12 Le Loi Street. My favourite colour is pink.",
+      "passage": "Hello! My name is Mai. I am {{b1}} years old. My pencil case is {{b2}}. I have {{b3}} pencils inside. My school is on {{b4}} Le Loi Street. My favourite colour is {{b5}}.",
+      "transcript": "Hello! My name is Mai. I am seven years old. My pencil case is blue. I have five pencils inside. My school is on 12 Le Loi Street. My favourite colour is pink.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "How old is Mai?",
+          "category": "age",
+          "accepted_answers": [
+            "seven",
+            "7"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "What colour is the pencil case?",
+          "category": "color",
+          "accepted_answers": [
+            "blue"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "How many pencils does she have?",
+          "category": "number",
+          "accepted_answers": [
+            "five",
+            "5"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What street is the school on?",
+          "category": "address",
+          "accepted_answers": [
+            "12"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "What is her favourite colour?",
+          "category": "color",
+          "accepted_answers": [
+            "pink"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starters_listening_002",
+      "level": "starters",
+      "order": 2,
+      "title": "A New Pet",
+      "scenario": "A boy describes his new pet cat to his class.",
+      "estimated_minutes": 4,
+      "grammar_ids": [
+        "starters_grammar_003"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "I have a new cat. She is one years old. Her fur is grey and white. She lives with me at 8 Tran Phu Street. I feed her two times a day. Her favourite toy is red.",
+      "passage": "I have a new cat. She is {{b1}} years old. Her fur is {{b2}} and white. She lives with me at {{b3}} Tran Phu Street. I feed her {{b4}} times a day. Her favourite toy is {{b5}}.",
+      "transcript": "I have a new cat. She is one years old. Her fur is grey and white. She lives with me at 8 Tran Phu Street. I feed her two times a day. Her favourite toy is red.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "How old is the cat?",
+          "category": "age",
+          "accepted_answers": [
+            "one",
+            "1"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "What colour is her fur?",
+          "category": "color",
+          "accepted_answers": [
+            "grey",
+            "gray"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What street does the boy live on?",
+          "category": "address",
+          "accepted_answers": [
+            "8"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "How many times a day does he feed her?",
+          "category": "number",
+          "accepted_answers": [
+            "two",
+            "2"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "What colour is her favourite toy?",
+          "category": "color",
+          "accepted_answers": [
+            "red"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starters_listening_003",
+      "level": "starters",
+      "order": 3,
+      "title": "Grandpa's Birthday",
+      "scenario": "A child talks about her grandfather's birthday party.",
+      "estimated_minutes": 4,
+      "grammar_ids": [
+        "starters_grammar_003"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "Today is my grandpa's birthday. He is sixty years old! We have ten balloons at the party. His shirt is yellow. The party is at 25 Hai Ba Trung Street. There are six candles on the cake.",
+      "passage": "Today is my grandpa's birthday. He is {{b1}} years old! We have {{b2}} balloons at the party. His shirt is {{b3}}. The party is at {{b4}} Hai Ba Trung Street. There are {{b5}} candles on the cake.",
+      "transcript": "Today is my grandpa's birthday. He is sixty years old! We have ten balloons at the party. His shirt is yellow. The party is at 25 Hai Ba Trung Street. There are six candles on the cake.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "How old is grandpa?",
+          "category": "age",
+          "accepted_answers": [
+            "sixty",
+            "60"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "How many balloons are there?",
+          "category": "number",
+          "accepted_answers": [
+            "ten",
+            "10"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What colour is his shirt?",
+          "category": "color",
+          "accepted_answers": [
+            "yellow"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What street is the party on?",
+          "category": "address",
+          "accepted_answers": [
+            "25"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "How many candles are on the cake?",
+          "category": "number",
+          "accepted_answers": [
+            "six",
+            "6"
+          ]
+        }
+      ]
+    }
+  ]
+}

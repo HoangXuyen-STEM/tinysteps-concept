@@ -14,6 +14,17 @@ type AudioSection = "vocabulary" | "lessons";
 export function audioUrl(section: AudioSection, id: string, type: string): string | undefined {
   const relativePath = audioManifest[section][id]?.[type];
   if (!relativePath) return undefined;
+  return resolveAudioBaseUrl(relativePath);
+}
+
+/** manifest.listening is flat (exercise id -> path), one mp3 per exercise — no `type` key. */
+export function listeningAudioUrl(exerciseId: string): string | undefined {
+  const relativePath = audioManifest.listening[exerciseId];
+  if (!relativePath) return undefined;
+  return resolveAudioBaseUrl(relativePath);
+}
+
+function resolveAudioBaseUrl(relativePath: string): string {
   const baseUrl = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/$/, "");
   return baseUrl ? `${baseUrl}/${relativePath}` : `/${relativePath}`;
 }

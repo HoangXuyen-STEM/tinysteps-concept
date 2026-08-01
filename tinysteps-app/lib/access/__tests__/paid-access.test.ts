@@ -7,6 +7,9 @@ import {
   FREE_WRITING_IDS,
   isFreeWriting,
   canOpenWriting,
+  FREE_LISTENING_IDS,
+  isFreeListening,
+  canOpenListening,
 } from "../paid-access";
 
 const mockGetClaims = vi.fn();
@@ -124,5 +127,26 @@ describe("writing access", () => {
     signedInAs("user-1");
     mockMaybeSingle.mockResolvedValue(noGrant);
     expect(await canOpenWriting("pet_writing_005")).toBe(false);
+  });
+});
+
+describe("listening access", () => {
+  it("opens exactly the first Starters listening exercise for free", () => {
+    expect(FREE_LISTENING_IDS).toEqual(["starters_listening_001"]);
+    expect(isFreeListening("starters_listening_001")).toBe(true);
+    expect(isFreeListening("starters_listening_002")).toBe(false);
+    expect(isFreeListening("movers_listening_001")).toBe(false);
+  });
+
+  it("does not query payment for the free listening exercise", async () => {
+    signedOut();
+    expect(await canOpenListening("starters_listening_001")).toBe(true);
+    expect(mockFrom).not.toHaveBeenCalled();
+  });
+
+  it("requires an active grant for a paid listening exercise", async () => {
+    signedInAs("user-1");
+    mockMaybeSingle.mockResolvedValue(noGrant);
+    expect(await canOpenListening("pet_listening_003")).toBe(false);
   });
 });

@@ -19,6 +19,7 @@ VOCAB_DIR = os.path.join(SCRIPT_DIR, "vocabulary")
 GRAMMAR_DIR = os.path.join(SCRIPT_DIR, "grammar")
 TOPICS_FILE = os.path.join(SCRIPT_DIR, "topics", "topics.json")
 WRITING_DIR = os.path.join(SCRIPT_DIR, "writing")
+LISTENING_DIR = os.path.join(SCRIPT_DIR, "listening")
 
 LEVELS = ["starters", "movers", "flyers", "ket", "pet"]
 
@@ -58,6 +59,10 @@ WRITING_WORD_RANGES = {
     "pet": (120, 150),
 }
 
+# Listening reuses the same blank-count-per-level curve as Writing (3 exercises/level).
+LISTENING_BLANK_COUNTS = {"starters": 5, "movers": 6, "flyers": 7, "ket": 8, "pet": 8}
+LISTENING_CATEGORIES = {"number", "color", "address", "age"}
+
 
 def clean_words_count(sentence):
     """Counts words in a sentence, ignoring punctuation."""
@@ -80,7 +85,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 1. VALIDATE VOCABULARY FILES
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[1/5] Validating Vocabulary JSON files...")
+    print("\n[1/6] Validating Vocabulary JSON files...")
     
     global_words = {}  # word -> level
 
@@ -170,7 +175,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 2. VALIDATE GRAMMAR FILES
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[2/5] Validating Grammar JSON files...")
+    print("\n[2/6] Validating Grammar JSON files...")
 
     for level in LEVELS:
         grammar_path = os.path.join(GRAMMAR_DIR, f"{level}.json")
@@ -252,7 +257,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 3. VALIDATE TOPICS.JSON AND MASTER REFERENCES
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[3/5] Validating Curriculum Map (topics.json) reference integrity...")
+    print("\n[3/6] Validating Curriculum Map (topics.json) reference integrity...")
 
     if not os.path.exists(TOPICS_FILE):
         errors.append(f"Missing master topics file: {TOPICS_FILE}")
@@ -292,7 +297,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 4. VALIDATE LESSON FILES (dialogue, exercises, references)
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[4/5] Validating lesson content (exercise integrity, references, text)...")
+    print("\n[4/6] Validating lesson content (exercise integrity, references, text)...")
 
     # Từ vựng theo cấp để đối chiếu đáp án match; id hợp lệ để đối chiếu tham chiếu.
     vocab_words_by_level = {}
@@ -347,7 +352,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 5. VALIDATE WRITING PRACTICE
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[5/5] Validating writing practice content...")
+    print("\n[5/6] Validating writing practice content...")
     writing_documents = {}
     writing_count = 0
     for level in LEVELS:
@@ -399,6 +404,75 @@ def main():
                 )
     print(f"  ✓ Checked {writing_count} writing exercises.")
 
+    # ═══════════════════════════════════════════════════════════════════════
+    # 6. VALIDATE LISTENING PRACTICE
+    # ═══════════════════════════════════════════════════════════════════════
+    print("\n[6/6] Validating listening practice content...")
+    listening_documents = {}
+    listening_count = 0
+    for level in LEVELS:
+        path = os.path.join(LISTENING_DIR, f"{level}.json")
+        try:
+            with open(path, encoding="utf-8") as f:
+                document = json.load(f)
+        except Exception as exc:
+            errors.append(f"Failed to parse listening/{level}.json: {exc}")
+            continue
+        listening_documents[level] = document
+        exercises = document.get("exercises", [])
+        if document.get("level") != level or document.get("total_exercises") != 3 or len(exercises) != 3:
+            errors.append(f"[{level.upper()} LISTENING] expected one level document with exactly 3 exercises")
+        for index, exercise in enumerate(exercises, 1):
+            listening_count += 1
+            listening_id = exercise.get("id", "")
+            expected_id = f"{level}_listening_{index:03d}"
+            if listening_id != expected_id or exercise.get("level") != level or exercise.get("order") != index:
+                errors.append(f"[{level.upper()} LISTENING] invalid identity/order for {listening_id or expected_id}")
+
+            blanks = exercise.get("blanks", [])
+            if len(blanks) != LISTENING_BLANK_COUNTS[level]:
+                errors.append(f"[{listening_id}] expected {LISTENING_BLANK_COUNTS[level]} blanks, found {len(blanks)}")
+            blank_ids = [blank.get("id") for blank in blanks]
+            placeholders = re.findall(r"\{\{(b\d+)\}\}", exercise.get("passage", ""))
+            if len(blank_ids) != len(set(blank_ids)) or placeholders != blank_ids:
+                errors.append(f"[{listening_id}] placeholders must be unique and follow blank order exactly")
+
+            categories_used = set()
+            for blank in blanks:
+                answers = blank.get("accepted_answers", [])
+                category = blank.get("category")
+                if not blank.get("cue") or not answers or any(not isinstance(answer, str) or not answer.strip() for answer in answers):
+                    errors.append(f"[{listening_id}] blank {blank.get('id')} has an empty cue or answer")
+                if category not in LISTENING_CATEGORIES:
+                    errors.append(f"[{listening_id}] blank {blank.get('id')} has unknown category {category!r}")
+                else:
+                    categories_used.add(category)
+            if categories_used != LISTENING_CATEGORIES:
+                missing = LISTENING_CATEGORIES - categories_used
+                errors.append(f"[{listening_id}] must cover all 4 categories (missing: {sorted(missing)})")
+
+            for grammar_id in exercise.get("grammar_ids", []):
+                if grammar_id not in loaded_grammar.get(level, {}):
+                    errors.append(f"[{listening_id}] unknown grammar id {grammar_id}")
+
+            # audio_text and transcript must be the fully-filled passage — no leftover
+            # placeholders, and they must agree with each blank's first accepted answer
+            # so the recorded audio never drifts from what the passage/answers expect.
+            expected_full = exercise.get("passage", "")
+            for blank in blanks:
+                answers = blank.get("accepted_answers", [])
+                if answers:
+                    expected_full = expected_full.replace(
+                        "{{" + str(blank.get("id")) + "}}", answers[0], 1
+                    )
+            for field in ("audio_text", "transcript"):
+                value = exercise.get(field, "")
+                if "{{" in value:
+                    errors.append(f"[{listening_id}] {field} has an unfilled placeholder")
+                if value != expected_full:
+                    errors.append(f"[{listening_id}] {field} does not match passage + first accepted answers")
+    print(f"  ✓ Checked {listening_count} listening exercises.")
+
     # Soi chính tả mọi văn bản học viên nhìn thấy (cảnh báo, không chặn build).
     # Đây là lớp duy nhất từng phát hiện được từ vựng sai chính tả kiểu 'guideliness'.
     spell_tokens = set()
@@ -446,6 +520,11 @@ def main():
             collect_tokens(re.sub(r"\{\{b\d+\}\}", "", writing.get("passage", "")))
             collect_tokens(writing.get("instruction"))
             for blank in writing.get("blanks", []):
+                collect_tokens(blank.get("cue"))
+        for listening in listening_documents.get(level, {}).get("exercises", []):
+            collect_tokens(listening.get("transcript"))
+            collect_tokens(listening.get("instruction"))
+            for blank in listening.get("blanks", []):
                 collect_tokens(blank.get("cue"))
                 for answer in blank.get("accepted_answers", []):
                     collect_tokens(answer)

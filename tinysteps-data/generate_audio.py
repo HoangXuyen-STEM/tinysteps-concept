@@ -220,6 +220,41 @@ async def generate_lesson_audio() -> int:
     return total_files
 
 
+async def generate_listening_audio() -> int:
+    log("\n[PHASE 2b] Generating listening practice audio...")
+    total_files = 0
+    listening_dir = os.path.join(DATA_DIR, "listening")
+
+    for level in LEVELS:
+        rate = RATE_BY_LEVEL[level]
+        doc_path = os.path.join(listening_dir, f"{level}.json")
+        if not os.path.exists(doc_path):
+            log(f"  [{level}] Skipped: no listening/{level}.json")
+            continue
+
+        document = load_json(doc_path)
+        exercises = document.get("exercises", [])
+        out_dir = os.path.join(AUDIO_DIR, "listening", level)
+        os.makedirs(out_dir, exist_ok=True)
+        log(f"  [{level}] Processing {len(exercises)} listening exercises...")
+
+        for exercise in exercises:
+            exercise_id = exercise["id"]
+            audio_text = exercise.get("audio_text", "").strip()
+            if not audio_text:
+                log(f"  [WARN] {exercise_id} has no audio_text; skipping")
+                continue
+            out_path = os.path.join(out_dir, f"{exercise_id}.mp3")
+            if should_generate(out_path):
+                await generate_tts(audio_text, out_path, VOICE_FEMALE, rate)
+                total_files += 1
+
+        log(f"  [{level}] Done")
+
+    log(f"  [TOTAL] Listening audio: {total_files} files generated or refreshed")
+    return total_files
+
+
 def generate_manifest() -> str:
     log("\n[PHASE 3] Generating audio manifest...")
     manifest = {
@@ -228,6 +263,7 @@ def generate_manifest() -> str:
         "voice_male": VOICE_MALE,
         "vocabulary": {},
         "lessons": {},
+        "listening": {},
     }
 
     for level in LEVELS:
@@ -255,12 +291,23 @@ def generate_manifest() -> str:
                     f"audio/lessons/{level}/{file_name}"
                 )
 
+        listening_dir = os.path.join(AUDIO_DIR, "listening", level)
+        if os.path.isdir(listening_dir):
+            for file_name in sorted(os.listdir(listening_dir)):
+                if not file_name.endswith(".mp3"):
+                    continue
+                exercise_id = file_name[:-4]
+                manifest["listening"][exercise_id] = f"audio/listening/{level}/{file_name}"
+
     os.makedirs(AUDIO_DIR, exist_ok=True)
     manifest_path = os.path.join(AUDIO_DIR, "manifest.json")
     with open(manifest_path, "w", encoding="utf-8") as file:
         json.dump(manifest, file, indent=2, ensure_ascii=False)
 
-    log(f"  Manifest: {len(manifest['vocabulary'])} vocabulary entries, {len(manifest['lessons'])} lesson entries")
+    log(
+        f"  Manifest: {len(manifest['vocabulary'])} vocabulary entries, "
+        f"{len(manifest['lessons'])} lesson entries, {len(manifest['listening'])} listening entries"
+    )
     log(f"  Saved: {manifest_path}")
     return manifest_path
 
@@ -277,13 +324,15 @@ async def main() -> None:
 
     vocab_count = await generate_vocabulary_audio()
     lesson_count = await generate_lesson_audio()
+    listening_count = await generate_listening_audio()
     manifest_path = generate_manifest()
 
     log("\n" + "=" * 60)
     log("[DONE] Audio generation complete!")
     log(f"  New vocabulary audio files: {vocab_count}")
     log(f"  New lesson audio files: {lesson_count}")
-    log(f"  Total new files: {vocab_count + lesson_count}")
+    log(f"  New listening audio files: {listening_count}")
+    log(f"  Total new files: {vocab_count + lesson_count + listening_count}")
     log(f"  Output: {AUDIO_DIR}/")
     log(f"  Manifest: {manifest_path}")
     log("=" * 60)

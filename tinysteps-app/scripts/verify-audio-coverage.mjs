@@ -41,13 +41,17 @@ async function main() {
   const relativePaths = [];
   const misses = [];
 
-  const sections = [manifest.vocabulary, manifest.lessons];
-  for (const section of sections) {
+  const nestedSections = [manifest.vocabulary, manifest.lessons];
+  for (const section of nestedSections) {
     for (const entry of Object.values(section)) {
       for (const relativePath of Object.values(entry)) {
         relativePaths.push(relativePath);
       }
     }
+  }
+  // manifest.listening is flat: { exerciseId: "audio/listening/level/id.mp3" }.
+  for (const relativePath of Object.values(manifest.listening ?? {})) {
+    relativePaths.push(relativePath);
   }
 
   // A small bounded pool makes the 6k-file production check practical without

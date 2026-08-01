@@ -5,6 +5,7 @@ const links = [
   { label: labels.TRANG_CHU, href: "/dashboard", icon: "🏠" },
   { label: labels.BAI_HOC, href: "/lessons", icon: "📖" },
   { label: labels.WRITING, href: "/writing", icon: "✍️" },
+  { label: labels.LISTENING, href: "/listening", icon: "🎧" },
   { label: labels.ON_TAP, href: "/review", icon: "🔁" },
 ] as const;
 

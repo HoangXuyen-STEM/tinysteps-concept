@@ -1,0 +1,210 @@
+{
+  "level": "movers",
+  "total_exercises": 3,
+  "exercises": [
+    {
+      "id": "movers_listening_001",
+      "level": "movers",
+      "order": 1,
+      "title": "The School Trip",
+      "scenario": "A teacher gives information about a school trip to the students.",
+      "estimated_minutes": 5,
+      "grammar_ids": [
+        "movers_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "Good morning, class! Our school trip is on fifteenth May. Our tour guide is thirty years old. The bus is orange. We are meeting at 40 Nguyen Hue Street at eight o'clock. Please bring two bottles of water and wear your white school shirt.",
+      "passage": "Good morning, class! Our school trip is on {{b1}} May. Our tour guide is {{b2}} years old. The bus is {{b3}}. We are meeting at {{b4}} Nguyen Hue Street at eight o'clock. Please bring {{b5}} bottles of water and wear your {{b6}} school shirt.",
+      "transcript": "Good morning, class! Our school trip is on fifteenth May. Our tour guide is thirty years old. The bus is orange. We are meeting at 40 Nguyen Hue Street at eight o'clock. Please bring two bottles of water and wear your white school shirt.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "What date is the trip?",
+          "category": "number",
+          "accepted_answers": [
+            "fifteenth",
+            "15th"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "How old is the tour guide?",
+          "category": "age",
+          "accepted_answers": [
+            "thirty",
+            "30"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What colour is the bus?",
+          "category": "color",
+          "accepted_answers": [
+            "orange"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What street are they meeting on?",
+          "category": "address",
+          "accepted_answers": [
+            "40"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "How many bottles of water to bring?",
+          "category": "number",
+          "accepted_answers": [
+            "two",
+            "2"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "What colour is the school shirt?",
+          "category": "color",
+          "accepted_answers": [
+            "white"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "movers_listening_002",
+      "level": "movers",
+      "order": 2,
+      "title": "Lost and Found",
+      "scenario": "A student reports a lost bag to the school office.",
+      "estimated_minutes": 5,
+      "grammar_ids": [
+        "movers_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "Excuse me, I lost my bag. It is green and black. I am eleven years old and I am in Class 5B. My house is at 17 Le Van Street. There are four books inside my bag. My phone number has ten numbers and my teacher's room is number nine.",
+      "passage": "Excuse me, I lost my bag. It is {{b1}} and black. I am {{b2}} years old and I am in Class 5B. My house is at {{b3}} Le Van Street. There are {{b4}} books inside my bag. My phone number has {{b5}} numbers and my teacher's room is number {{b6}}.",
+      "transcript": "Excuse me, I lost my bag. It is green and black. I am eleven years old and I am in Class 5B. My house is at 17 Le Van Street. There are four books inside my bag. My phone number has ten numbers and my teacher's room is number nine.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "What colour is the bag (besides black)?",
+          "category": "color",
+          "accepted_answers": [
+            "green"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "How old is the student?",
+          "category": "age",
+          "accepted_answers": [
+            "eleven",
+            "11"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What street does the student live on?",
+          "category": "address",
+          "accepted_answers": [
+            "17"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "How many books are in the bag?",
+          "category": "number",
+          "accepted_answers": [
+            "four",
+            "4"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "How many numbers are in the phone number?",
+          "category": "number",
+          "accepted_answers": [
+            "ten",
+            "10"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "What is the teacher's room number?",
+          "category": "number",
+          "accepted_answers": [
+            "nine",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "movers_listening_003",
+      "level": "movers",
+      "order": 3,
+      "title": "The New Neighbour",
+      "scenario": "A girl introduces her new neighbour to her friend.",
+      "estimated_minutes": 5,
+      "grammar_ids": [
+        "movers_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "A new family moved next door! Their daughter is ten years old, the same as me. Their house is white with a red door. They live at 63 Phan Dinh Phung Street. They have three dogs and their car is black.",
+      "passage": "A new family moved next door! Their daughter is {{b1}} years old, the same as me. Their house is {{b2}} with a {{b3}} door. They live at {{b4}} Phan Dinh Phung Street. They have {{b5}} dogs and their car is {{b6}}.",
+      "transcript": "A new family moved next door! Their daughter is ten years old, the same as me. Their house is white with a red door. They live at 63 Phan Dinh Phung Street. They have three dogs and their car is black.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "How old is the neighbour's daughter?",
+          "category": "age",
+          "accepted_answers": [
+            "ten",
+            "10"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "What colour is the house?",
+          "category": "color",
+          "accepted_answers": [
+            "white"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What colour is the door?",
+          "category": "color",
+          "accepted_answers": [
+            "red"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What street is the house on?",
+          "category": "address",
+          "accepted_answers": [
+            "63"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "How many dogs do they have?",
+          "category": "number",
+          "accepted_answers": [
+            "three",
+            "3"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "What colour is their car?",
+          "category": "color",
+          "accepted_answers": [
+            "black"
+          ]
+        }
+      ]
+    }
+  ]
+}

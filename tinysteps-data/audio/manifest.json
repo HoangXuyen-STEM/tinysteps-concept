@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T22:14:14.811449",
+  "generated_at": "2026-08-01T22:15:02.052698",
   "voice_female": "en-GB-SoniaNeural",
   "voice_male": "en-GB-RyanNeural",
   "vocabulary": {
@@ -10681,5 +10681,22 @@
       "line_07": "audio/lessons/pet/pet_lesson_040_line_07.mp3",
       "line_08": "audio/lessons/pet/pet_lesson_040_line_08.mp3"
     }
+  },
+  "listening": {
+    "starters_listening_001": "audio/listening/starters/starters_listening_001.mp3",
+    "starters_listening_002": "audio/listening/starters/starters_listening_002.mp3",
+    "starters_listening_003": "audio/listening/starters/starters_listening_003.mp3",
+    "movers_listening_001": "audio/listening/movers/movers_listening_001.mp3",
+    "movers_listening_002": "audio/listening/movers/movers_listening_002.mp3",
+    "movers_listening_003": "audio/listening/movers/movers_listening_003.mp3",
+    "flyers_listening_001": "audio/listening/flyers/flyers_listening_001.mp3",
+    "flyers_listening_002": "audio/listening/flyers/flyers_listening_002.mp3",
+    "flyers_listening_003": "audio/listening/flyers/flyers_listening_003.mp3",
+    "ket_listening_001": "audio/listening/ket/ket_listening_001.mp3",
+    "ket_listening_002": "audio/listening/ket/ket_listening_002.mp3",
+    "ket_listening_003": "audio/listening/ket/ket_listening_003.mp3",
+    "pet_listening_001": "audio/listening/pet/pet_listening_001.mp3",
+    "pet_listening_002": "audio/listening/pet/pet_listening_002.mp3",
+    "pet_listening_003": "audio/listening/pet/pet_listening_003.mp3"
   }
 }

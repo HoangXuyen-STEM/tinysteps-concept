@@ -1,0 +1,269 @@
+{
+  "level": "ket",
+  "total_exercises": 3,
+  "exercises": [
+    {
+      "id": "ket_listening_001",
+      "level": "ket",
+      "order": 1,
+      "title": "Booking a Doctor's Appointment",
+      "scenario": "A patient calls a clinic to book an appointment.",
+      "estimated_minutes": 7,
+      "grammar_ids": [
+        "ket_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "Hello, I would like to book an appointment. My full name is Anna Grey and I am thirty-four years old. My address is 78 Riverside Road, and the postcode is ha1 2bd. My phone number is 0912 345 six hundred and seventy-eight. I would like an appointment at eleven o'clock, and I have been a patient here for five years. My health card number ends in three, and the clinic door is green.",
+      "passage": "Hello, I would like to book an appointment. My full name is Anna Grey and I am {{b1}} years old. My address is {{b2}} Riverside Road, and the postcode is {{b3}}. My phone number is 0912 345 {{b4}}. I would like an appointment at {{b5}} o'clock, and I have been a patient here for {{b6}} years. My health card number ends in {{b7}}, and the clinic door is {{b8}}.",
+      "transcript": "Hello, I would like to book an appointment. My full name is Anna Grey and I am thirty-four years old. My address is 78 Riverside Road, and the postcode is ha1 2bd. My phone number is 0912 345 six hundred and seventy-eight. I would like an appointment at eleven o'clock, and I have been a patient here for five years. My health card number ends in three, and the clinic door is green.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "How old is the patient?",
+          "category": "age",
+          "accepted_answers": [
+            "thirty-four",
+            "34"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "What is the house number?",
+          "category": "address",
+          "accepted_answers": [
+            "78"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What is the postcode?",
+          "category": "address",
+          "accepted_answers": [
+            "ha1 2bd",
+            "HA1 2BD"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What are the last three digits of the phone number?",
+          "category": "number",
+          "accepted_answers": [
+            "six hundred and seventy-eight",
+            "678"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "What time is the appointment?",
+          "category": "number",
+          "accepted_answers": [
+            "eleven",
+            "11"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "How many years has she been a patient?",
+          "category": "number",
+          "accepted_answers": [
+            "five",
+            "5"
+          ]
+        },
+        {
+          "id": "b7",
+          "cue": "What number does the health card end in?",
+          "category": "number",
+          "accepted_answers": [
+            "three",
+            "3"
+          ]
+        },
+        {
+          "id": "b8",
+          "cue": "What colour is the clinic door?",
+          "category": "color",
+          "accepted_answers": [
+            "green"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ket_listening_002",
+      "level": "ket",
+      "order": 2,
+      "title": "Reporting a Lost Wallet",
+      "scenario": "A tourist reports a lost wallet at a hotel front desk.",
+      "estimated_minutes": 7,
+      "grammar_ids": [
+        "ket_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "I can't find my wallet! It is dark brown and made of leather. I am forty-one years old, and I am staying in room two hundred and five. My home address is 19 Mill Lane, and the postcode is sw2 4lp. There was fifty pounds in cash inside, along with two credit cards. My passport number ends in seven.",
+      "passage": "I can't find my wallet! It is {{b1}} and made of leather. I am {{b2}} years old, and I am staying in room {{b3}}. My home address is {{b4}} Mill Lane, and the postcode is {{b5}}. There was {{b6}} in cash inside, along with {{b7}} credit cards. My passport number ends in {{b8}}.",
+      "transcript": "I can't find my wallet! It is dark brown and made of leather. I am forty-one years old, and I am staying in room two hundred and five. My home address is 19 Mill Lane, and the postcode is sw2 4lp. There was fifty pounds in cash inside, along with two credit cards. My passport number ends in seven.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "What colour is the wallet?",
+          "category": "color",
+          "accepted_answers": [
+            "dark brown"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "How old is the tourist?",
+          "category": "age",
+          "accepted_answers": [
+            "forty-one",
+            "41"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What room is he staying in?",
+          "category": "number",
+          "accepted_answers": [
+            "two hundred and five",
+            "205"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What is the house number of his home address?",
+          "category": "address",
+          "accepted_answers": [
+            "19"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "What is the postcode?",
+          "category": "address",
+          "accepted_answers": [
+            "sw2 4lp",
+            "SW2 4LP"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "How much cash was inside?",
+          "category": "number",
+          "accepted_answers": [
+            "fifty pounds",
+            "50 pounds",
+            "£50"
+          ]
+        },
+        {
+          "id": "b7",
+          "cue": "How many credit cards were inside?",
+          "category": "number",
+          "accepted_answers": [
+            "two",
+            "2"
+          ]
+        },
+        {
+          "id": "b8",
+          "cue": "What number does the passport end in?",
+          "category": "number",
+          "accepted_answers": [
+            "seven",
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ket_listening_003",
+      "level": "ket",
+      "order": 3,
+      "title": "Moving to a New Flat",
+      "scenario": "A woman tells her friend about her new flat.",
+      "estimated_minutes": 7,
+      "grammar_ids": [
+        "ket_grammar_001"
+      ],
+      "instruction": "Listen to the audio and write the missing word or number in each gap.",
+      "audio_text": "I finally moved into my new flat! It is twenty years old and it is on the fourth floor. The kitchen walls are light green. My new address is 33 Chapel Street, and the postcode is ec1 6ty. Rent is six hundred pounds a month, and my landlord is fifty-eight years old. I signed a contract for two years.",
+      "passage": "I finally moved into my new flat! It is {{b1}} years old and it is on the {{b2}} floor. The kitchen walls are {{b3}}. My new address is {{b4}} Chapel Street, and the postcode is {{b5}}. Rent is {{b6}} a month, and my landlord is {{b7}} years old. I signed a contract for {{b8}} years.",
+      "transcript": "I finally moved into my new flat! It is twenty years old and it is on the fourth floor. The kitchen walls are light green. My new address is 33 Chapel Street, and the postcode is ec1 6ty. Rent is six hundred pounds a month, and my landlord is fifty-eight years old. I signed a contract for two years.",
+      "blanks": [
+        {
+          "id": "b1",
+          "cue": "How old is the building?",
+          "category": "number",
+          "accepted_answers": [
+            "twenty",
+            "20"
+          ]
+        },
+        {
+          "id": "b2",
+          "cue": "Which floor is the flat on?",
+          "category": "number",
+          "accepted_answers": [
+            "fourth",
+            "4th"
+          ]
+        },
+        {
+          "id": "b3",
+          "cue": "What colour are the kitchen walls?",
+          "category": "color",
+          "accepted_answers": [
+            "light green"
+          ]
+        },
+        {
+          "id": "b4",
+          "cue": "What is the house number?",
+          "category": "address",
+          "accepted_answers": [
+            "33"
+          ]
+        },
+        {
+          "id": "b5",
+          "cue": "What is the postcode?",
+          "category": "address",
+          "accepted_answers": [
+            "ec1 6ty",
+            "EC1 6TY"
+          ]
+        },
+        {
+          "id": "b6",
+          "cue": "How much is rent a month?",
+          "category": "number",
+          "accepted_answers": [
+            "six hundred pounds",
+            "600 pounds",
+            "£600"
+          ]
+        },
+        {
+          "id": "b7",
+          "cue": "How old is the landlord?",
+          "category": "age",
+          "accepted_answers": [
+            "fifty-eight",
+            "58"
+          ]
+        },
+        {
+          "id": "b8",
+          "cue": "How many years is the contract?",
+          "category": "number",
+          "accepted_answers": [
+            "two",
+            "2"
+          ]
+        }
+      ]
+    }
+  ]
+}
