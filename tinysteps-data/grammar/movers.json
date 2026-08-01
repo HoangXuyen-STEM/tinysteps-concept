@@ -1,6 +1,6 @@
 {
   "level": "movers",
-  "total_points": 10,
+  "total_points": 13,
   "grammar_points": [
     {
       "id": "movers_grammar_001",
@@ -431,6 +431,72 @@
           "correct": "He is sick but he came to school."
         }
       ]
+    },
+    {
+      "id": "movers_grammar_011",
+      "name": "past_simple_be",
+      "pattern": "Subject + was/were + noun/adjective/complement",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_school_events",
+        "topic_social"
+      ],
+      "examples": [
+        { "sentence": "I was at school yesterday.", "context": "teacher talking about yesterday" },
+        { "sentence": "The classroom was quiet.", "context": "describing a past lesson" },
+        { "sentence": "We were ready for the meeting.", "context": "describing staff preparation" },
+        { "sentence": "The students were excited.", "context": "describing a school event" },
+        { "sentence": "She was not in the office.", "context": "explaining a colleague's absence" }
+      ],
+      "common_mistakes": [
+        { "wrong": "We was ready.", "correct": "We were ready." },
+        { "wrong": "She were at school.", "correct": "She was at school." }
+      ],
+      "builds_on": ["starters_grammar_003"]
+    },
+    {
+      "id": "movers_grammar_012",
+      "name": "past_simple_negative",
+      "pattern": "Subject + did not + Verb-infinitive + (object)",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_school_events",
+        "topic_social"
+      ],
+      "examples": [
+        { "sentence": "I did not bring my laptop.", "context": "explaining a classroom problem" },
+        { "sentence": "We didn't finish the meeting.", "context": "describing yesterday's work" },
+        { "sentence": "She did not call the parent.", "context": "reporting an unfinished task" },
+        { "sentence": "The students didn't understand the question.", "context": "reflecting on a lesson" },
+        { "sentence": "He did not arrive on time.", "context": "describing a late colleague" }
+      ],
+      "common_mistakes": [
+        { "wrong": "She didn't called me.", "correct": "She didn't call me." },
+        { "wrong": "They not finished the task.", "correct": "They did not finish the task." }
+      ],
+      "builds_on": ["movers_grammar_002", "movers_grammar_003"]
+    },
+    {
+      "id": "movers_grammar_013",
+      "name": "past_simple_questions",
+      "pattern": "Did + subject + Verb-infinitive + (object)?",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_school_events",
+        "topic_checking_understanding"
+      ],
+      "examples": [
+        { "sentence": "Did you finish the lesson plan?", "context": "asking a colleague about preparation" },
+        { "sentence": "Did she call the parent?", "context": "checking a completed task" },
+        { "sentence": "Did the students enjoy the game?", "context": "reflecting on a lesson" },
+        { "sentence": "Where did you put the books?", "context": "looking for classroom materials" },
+        { "sentence": "When did the meeting start?", "context": "checking a past schedule" }
+      ],
+      "common_mistakes": [
+        { "wrong": "Did you finished the plan?", "correct": "Did you finish the plan?" },
+        { "wrong": "Where you put the books?", "correct": "Where did you put the books?" }
+      ],
+      "builds_on": ["movers_grammar_002", "movers_grammar_003", "movers_grammar_009"]
     }
   ]
 }

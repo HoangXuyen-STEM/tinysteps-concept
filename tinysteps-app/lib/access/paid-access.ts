@@ -14,6 +14,9 @@ export const FREE_LESSON_IDS: readonly string[] = [
 
 export const isFreeLesson = (lessonId: string) => FREE_LESSON_IDS.includes(lessonId);
 
+export const FREE_WRITING_IDS: readonly string[] = ["starters_writing_001"];
+export const isFreeWriting = (writingId: string) => FREE_WRITING_IDS.includes(writingId);
+
 /**
  * True when the signed-in user has an active paid grant. A row with `revoked_at` set
  * (refund) grants nothing. Returns false for signed-out callers rather than throwing,
@@ -40,5 +43,11 @@ export async function hasPaidAccess(): Promise<boolean> {
 /** Whether this specific lesson is open to the current user. */
 export async function canOpenLesson(lessonId: string): Promise<boolean> {
   if (isFreeLesson(lessonId)) return true;
+  return hasPaidAccess();
+}
+
+/** Whether this specific writing exercise is open to the current user. */
+export async function canOpenWriting(writingId: string): Promise<boolean> {
+  if (isFreeWriting(writingId)) return true;
   return hasPaidAccess();
 }

@@ -1,0 +1,96 @@
+{
+  "level": "starters",
+  "total_exercises": 5,
+  "exercises": [
+    {
+      "id": "starters_writing_001",
+      "level": "starters",
+      "order": 1,
+      "title": "My School Morning",
+      "scenario": "A teacher describes the start of her working day.",
+      "estimated_minutes": 4,
+      "grammar_ids": ["starters_grammar_003"],
+      "instruction": "Write the correct form of the word in brackets.",
+      "passage": "My name {{b1}} Ms Lan. I {{b2}} an English teacher. My classroom {{b3}} on the second floor. The students {{b4}} friendly and ready to learn. Our first lesson {{b5}} at eight o'clock, so I am at school early every morning. I like the quiet time before my students come.",
+      "blanks": [
+        { "id": "b1", "cue": "be", "accepted_answers": ["is"] },
+        { "id": "b2", "cue": "be", "accepted_answers": ["am"] },
+        { "id": "b3", "cue": "be", "accepted_answers": ["is"] },
+        { "id": "b4", "cue": "be", "accepted_answers": ["are"] },
+        { "id": "b5", "cue": "be", "accepted_answers": ["is"] }
+      ]
+    },
+    {
+      "id": "starters_writing_002",
+      "level": "starters",
+      "order": 2,
+      "title": "Before Class",
+      "scenario": "A teacher explains a simple morning routine.",
+      "estimated_minutes": 4,
+      "grammar_ids": ["starters_grammar_004"],
+      "instruction": "Write the correct form of the word in brackets.",
+      "passage": "Every morning, I {{b1}} at school at seven thirty. I {{b2}} the windows and {{b3}} the board. My colleague and I {{b4}} the books on each desk. We {{b5}} some tea before the students arrive for their first lesson. This simple routine helps us feel calm and ready.",
+      "blanks": [
+        { "id": "b1", "cue": "arrive", "accepted_answers": ["arrive"] },
+        { "id": "b2", "cue": "open", "accepted_answers": ["open"] },
+        { "id": "b3", "cue": "clean", "accepted_answers": ["clean"] },
+        { "id": "b4", "cue": "put", "accepted_answers": ["put"] },
+        { "id": "b5", "cue": "have", "accepted_answers": ["have"] }
+      ]
+    },
+    {
+      "id": "starters_writing_003",
+      "level": "starters",
+      "order": 3,
+      "title": "Mr Minh's Class",
+      "scenario": "A teacher describes a colleague's daily class.",
+      "estimated_minutes": 4,
+      "grammar_ids": ["starters_grammar_004"],
+      "instruction": "Write the correct form of the word in brackets.",
+      "passage": "Mr Minh {{b1}} maths at our school. He {{b2}} his first class at eight o'clock. He often {{b3}} pictures on the board and {{b4}} simple questions. His class {{b5}} at eleven, and then he eats lunch with the other teachers. His students like his clear lessons and friendly smile.",
+      "blanks": [
+        { "id": "b1", "cue": "teach", "accepted_answers": ["teaches"] },
+        { "id": "b2", "cue": "start", "accepted_answers": ["starts"] },
+        { "id": "b3", "cue": "draw", "accepted_answers": ["draws"] },
+        { "id": "b4", "cue": "ask", "accepted_answers": ["asks"] },
+        { "id": "b5", "cue": "finish", "accepted_answers": ["finishes"] }
+      ]
+    },
+    {
+      "id": "starters_writing_004",
+      "level": "starters",
+      "order": 4,
+      "title": "Monday Questions",
+      "scenario": "Two teachers check their Monday timetable.",
+      "estimated_minutes": 5,
+      "grammar_ids": ["starters_grammar_011", "starters_grammar_012"],
+      "instruction": "Write the correct form of the word in brackets.",
+      "passage": "I {{b1}} classes on Monday morning. My friend Hoa {{b2}} work in the morning; she teaches after lunch. I ask, “{{b3}} you need the classroom now?” She says, “No, I {{b4}}.” Then she asks, “{{b5}} Mr Nam teach there today?” We check the timetable together before the school day starts.",
+      "blanks": [
+        { "id": "b1", "cue": "not have", "accepted_answers": ["do not have"] },
+        { "id": "b2", "cue": "not work", "accepted_answers": ["does not work"] },
+        { "id": "b3", "cue": "do", "accepted_answers": ["Do"] },
+        { "id": "b4", "cue": "not do", "accepted_answers": ["do not"] },
+        { "id": "b5", "cue": "do", "accepted_answers": ["Does"] }
+      ]
+    },
+    {
+      "id": "starters_writing_005",
+      "level": "starters",
+      "order": 5,
+      "title": "A Normal School Day",
+      "scenario": "A teacher gives a short overview of a usual school day.",
+      "estimated_minutes": 5,
+      "grammar_ids": ["starters_grammar_003", "starters_grammar_004", "starters_grammar_011", "starters_grammar_012"],
+      "instruction": "Write the correct form of the word in brackets.",
+      "passage": "Our school {{b1}} busy every weekday. I {{b2}} English, and my colleague {{b3}} science. We {{b4}} eat lunch in the classroom. “{{b5}} your students enjoy group work?” my colleague often asks. Yes, they do, and they always help one another. At four o'clock, the classrooms are quiet again.",
+      "blanks": [
+        { "id": "b1", "cue": "be", "accepted_answers": ["is"] },
+        { "id": "b2", "cue": "teach", "accepted_answers": ["teach"] },
+        { "id": "b3", "cue": "teach", "accepted_answers": ["teaches"] },
+        { "id": "b4", "cue": "not", "accepted_answers": ["do not"] },
+        { "id": "b5", "cue": "do", "accepted_answers": ["Do"] }
+      ]
+    }
+  ]
+}

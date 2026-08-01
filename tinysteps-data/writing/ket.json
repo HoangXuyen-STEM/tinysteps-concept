@@ -1,0 +1,111 @@
+{
+  "level": "ket",
+  "total_exercises": 5,
+  "exercises": [
+    {
+      "id": "ket_writing_001",
+      "level": "ket",
+      "order": 1,
+      "title": "Working at Riverside School",
+      "scenario": "A teacher describes how long people have worked together.",
+      "estimated_minutes": 8,
+      "grammar_ids": ["ket_grammar_001"],
+      "instruction": "Use the present perfect with 'for' or 'since'.",
+      "passage": "I {{b1}} at Riverside School {{b2}} 2022, and it now feels like home. Our head teacher {{b3}} the school {{b4}} nearly ten years. My closest colleague and I {{b5}} the same year group {{b6}} three terms. We {{b7}} several projects together {{b8}} last September, including a reading programme that continues to help quieter students participate. The programme has also brought different classes together through monthly book discussions. Families have supported it enthusiastically, and our library has stayed open later on meeting days. This shared effort has strengthened relationships across the whole school community. We are proud of its progress.",
+      "blanks": [
+        { "id": "b1", "cue": "work", "accepted_answers": ["have worked"] },
+        { "id": "b2", "cue": "for/since", "accepted_answers": ["since"] },
+        { "id": "b3", "cue": "lead", "accepted_answers": ["has led"] },
+        { "id": "b4", "cue": "for/since", "accepted_answers": ["for"] },
+        { "id": "b5", "cue": "teach", "accepted_answers": ["have taught"] },
+        { "id": "b6", "cue": "for/since", "accepted_answers": ["for"] },
+        { "id": "b7", "cue": "organise", "accepted_answers": ["have organised"] },
+        { "id": "b8", "cue": "for/since", "accepted_answers": ["since"] }
+      ]
+    },
+    {
+      "id": "ket_writing_002",
+      "level": "ket",
+      "order": 2,
+      "title": "When the Lights Went Out",
+      "scenario": "A teacher recalls an interruption during an evening event.",
+      "estimated_minutes": 8,
+      "grammar_ids": ["ket_grammar_006"],
+      "instruction": "Use the past continuous or past simple.",
+      "passage": "Parents {{b1}} in the hall while the students {{b2}} their final song. I {{b3}} beside the stage when all the lights suddenly {{b4}} out. While a colleague {{b5}} for a torch, the head teacher {{b6}} everyone to remain calm. The children {{b7}} singing in the dark, and the audience {{b8}} warmly when the song ended. Fortunately, the electricity soon returned. Staff were checking the sound equipment as families found their seats again. Although the interruption surprised everyone, it made the performance especially memorable and showed how confidently the children could respond to an unexpected problem. Nobody wanted the evening to end.",
+      "blanks": [
+        { "id": "b1", "cue": "wait", "accepted_answers": ["were waiting"] },
+        { "id": "b2", "cue": "sing", "accepted_answers": ["were singing"] },
+        { "id": "b3", "cue": "stand", "accepted_answers": ["was standing"] },
+        { "id": "b4", "cue": "go", "accepted_answers": ["went"] },
+        { "id": "b5", "cue": "look", "accepted_answers": ["was looking"] },
+        { "id": "b6", "cue": "ask", "accepted_answers": ["asked"] },
+        { "id": "b7", "cue": "continue", "accepted_answers": ["continued"] },
+        { "id": "b8", "cue": "clap", "accepted_answers": ["clapped"] }
+      ]
+    },
+    {
+      "id": "ket_writing_003",
+      "level": "ket",
+      "order": 3,
+      "title": "How My Teaching Changed",
+      "scenario": "A teacher compares former habits with present practice.",
+      "estimated_minutes": 9,
+      "grammar_ids": ["ket_grammar_004"],
+      "instruction": "Complete the passage with the correct form of 'used to'.",
+      "passage": "When I first became a teacher, I {{b1}} every activity in great detail. I {{b2}} nervous before observations, and my lessons {{b3}} depend heavily on the textbook. My students {{b4}} work alone most of the time. I {{b5}} invite them to reflect on their progress, and we {{b6}} use digital resources. Now I plan more flexibly, students collaborate often, and I {{b7}} worry about small mistakes. Teaching {{b8}} feel exhausting every day, but experience has made it more rewarding. Regular conversations with supportive colleagues have helped me recognise how much my classroom practice has developed.",
+      "blanks": [
+        { "id": "b1", "cue": "plan", "accepted_answers": ["used to plan"] },
+        { "id": "b2", "cue": "be", "accepted_answers": ["used to be"] },
+        { "id": "b3", "cue": "depend", "accepted_answers": ["used to depend"] },
+        { "id": "b4", "cue": "work", "accepted_answers": ["used to work"] },
+        { "id": "b5", "cue": "not invite", "accepted_answers": ["did not use to invite"] },
+        { "id": "b6", "cue": "not use", "accepted_answers": ["did not use to use"] },
+        { "id": "b7", "cue": "worry", "accepted_answers": ["do not worry"] },
+        { "id": "b8", "cue": "feel", "accepted_answers": ["used to feel"] }
+      ]
+    },
+    {
+      "id": "ket_writing_004",
+      "level": "ket",
+      "order": 4,
+      "title": "The New Library",
+      "scenario": "A school reports how its library was renovated.",
+      "estimated_minutes": 9,
+      "grammar_ids": ["ket_grammar_007"],
+      "instruction": "Complete the passage using the past simple passive.",
+      "passage": "Our old library {{b1}} last summer. First, the damaged shelves {{b2}} and the walls {{b3}} a brighter colour. New tables {{b4}} near the windows, while a quiet reading corner {{b5}} at the back. More than five hundred books {{b6}} by local families. Finally, the room {{b7}} with plants and student artwork. The new library {{b8}} by the head teacher in September, and it quickly became a popular place to study. A weekly storytelling session was introduced for younger classes, and older students were invited to recommend new titles. Since the renovation, lunchtime visits have increased considerably, while teachers have gained a welcoming space for small-group activities.",
+      "blanks": [
+        { "id": "b1", "cue": "renovate", "accepted_answers": ["was renovated"] },
+        { "id": "b2", "cue": "replace", "accepted_answers": ["were replaced"] },
+        { "id": "b3", "cue": "paint", "accepted_answers": ["were painted"] },
+        { "id": "b4", "cue": "place", "accepted_answers": ["were placed"] },
+        { "id": "b5", "cue": "create", "accepted_answers": ["was created"] },
+        { "id": "b6", "cue": "donate", "accepted_answers": ["were donated"] },
+        { "id": "b7", "cue": "decorate", "accepted_answers": ["was decorated"] },
+        { "id": "b8", "cue": "open", "accepted_answers": ["was opened"] }
+      ]
+    },
+    {
+      "id": "ket_writing_005",
+      "level": "ket",
+      "order": 5,
+      "title": "A Professional Development Day",
+      "scenario": "A teacher reflects on a training day and its effects.",
+      "estimated_minutes": 10,
+      "grammar_ids": ["ket_grammar_001", "ket_grammar_004", "ket_grammar_006", "ket_grammar_007"],
+      "instruction": "Write the verb form that best completes the passage.",
+      "passage": "Our school {{b1}} regular training days {{b2}} several years, but last Friday's event was unusual. While teachers {{b3}} a workshop, their classes {{b4}} by visiting educators. I {{b5}} avoid technology because it seemed distracting. During the workshop, however, we {{b6}} how a simple digital quiz could involve every learner. Since then, I {{b7}} the tool twice, and useful feedback {{b8}} from both students and colleagues. The experience has already changed part of my teaching routine. Students who rarely raised their hands answered every question privately before joining the discussion. I have therefore planned another digital activity for next week and shared the workshop notes with colleagues who could not attend.",
+      "blanks": [
+        { "id": "b1", "cue": "hold", "accepted_answers": ["has held"] },
+        { "id": "b2", "cue": "for/since", "accepted_answers": ["for"] },
+        { "id": "b3", "cue": "attend", "accepted_answers": ["were attending"] },
+        { "id": "b4", "cue": "teach", "accepted_answers": ["were taught"] },
+        { "id": "b5", "cue": "avoid", "accepted_answers": ["used to avoid"] },
+        { "id": "b6", "cue": "see", "accepted_answers": ["saw"] },
+        { "id": "b7", "cue": "use", "accepted_answers": ["have used"] },
+        { "id": "b8", "cue": "receive", "accepted_answers": ["was received"] }
+      ]
+    }
+  ]
+}

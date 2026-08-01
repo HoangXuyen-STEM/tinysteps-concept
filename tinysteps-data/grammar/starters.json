@@ -1,6 +1,6 @@
 {
   "level": "starters",
-  "total_points": 10,
+  "total_points": 12,
   "grammar_points": [
     {
       "id": "starters_grammar_001",
@@ -420,6 +420,50 @@
           "correct": "How many students?"
         }
       ]
+    },
+    {
+      "id": "starters_grammar_011",
+      "name": "present_simple_negative",
+      "pattern": "Subject + do/does not + Verb-infinitive + (object)",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_in_class",
+        "topic_daily_routine"
+      ],
+      "examples": [
+        { "sentence": "I do not teach on Sunday.", "context": "teacher describing a weekly routine" },
+        { "sentence": "We don't start class at seven.", "context": "teacher explaining the timetable" },
+        { "sentence": "She does not work in the library.", "context": "describing a colleague's routine" },
+        { "sentence": "He doesn't bring lunch to school.", "context": "describing a colleague's habit" },
+        { "sentence": "The students do not use phones in class.", "context": "describing a classroom routine" }
+      ],
+      "common_mistakes": [
+        { "wrong": "She don't work here.", "correct": "She doesn't work here." },
+        { "wrong": "He doesn't teaches today.", "correct": "He doesn't teach today." }
+      ],
+      "builds_on": ["starters_grammar_004"]
+    },
+    {
+      "id": "starters_grammar_012",
+      "name": "present_simple_questions",
+      "pattern": "Do/Does + subject + Verb-infinitive + (object)?",
+      "topic_ids": [
+        "topic_before_class",
+        "topic_in_class",
+        "topic_checking_understanding"
+      ],
+      "examples": [
+        { "sentence": "Do you teach English?", "context": "asking about a colleague's work" },
+        { "sentence": "Does she work on Monday?", "context": "checking a colleague's schedule" },
+        { "sentence": "Do the students have their books?", "context": "checking classroom materials" },
+        { "sentence": "Does the lesson start at eight?", "context": "checking the timetable" },
+        { "sentence": "Do we need more paper?", "context": "preparing for class" }
+      ],
+      "common_mistakes": [
+        { "wrong": "Does she works here?", "correct": "Does she work here?" },
+        { "wrong": "You teach English?", "correct": "Do you teach English?" }
+      ],
+      "builds_on": ["starters_grammar_004", "starters_grammar_009"]
     }
   ]
 }

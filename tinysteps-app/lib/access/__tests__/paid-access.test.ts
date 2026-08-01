@@ -1,5 +1,13 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
-import { isFreeLesson, hasPaidAccess, canOpenLesson, FREE_LESSON_IDS } from "../paid-access";
+import {
+  isFreeLesson,
+  hasPaidAccess,
+  canOpenLesson,
+  FREE_LESSON_IDS,
+  FREE_WRITING_IDS,
+  isFreeWriting,
+  canOpenWriting,
+} from "../paid-access";
 
 const mockGetClaims = vi.fn();
 const mockMaybeSingle = vi.fn();
@@ -95,5 +103,26 @@ describe("canOpenLesson", () => {
     signedInAs("user-1");
     mockMaybeSingle.mockResolvedValue(grantRow);
     expect(await canOpenLesson("flyers_lesson_020")).toBe(true);
+  });
+});
+
+describe("writing access", () => {
+  it("opens exactly the first Starters writing exercise for free", () => {
+    expect(FREE_WRITING_IDS).toEqual(["starters_writing_001"]);
+    expect(isFreeWriting("starters_writing_001")).toBe(true);
+    expect(isFreeWriting("starters_writing_002")).toBe(false);
+    expect(isFreeWriting("movers_writing_001")).toBe(false);
+  });
+
+  it("does not query payment for the free writing exercise", async () => {
+    signedOut();
+    expect(await canOpenWriting("starters_writing_001")).toBe(true);
+    expect(mockFrom).not.toHaveBeenCalled();
+  });
+
+  it("requires an active grant for a paid writing exercise", async () => {
+    signedInAs("user-1");
+    mockMaybeSingle.mockResolvedValue(noGrant);
+    expect(await canOpenWriting("pet_writing_005")).toBe(false);
   });
 });

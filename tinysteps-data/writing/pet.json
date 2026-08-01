@@ -1,0 +1,111 @@
+{
+  "level": "pet",
+  "total_exercises": 5,
+  "exercises": [
+    {
+      "id": "pet_writing_001",
+      "level": "pet",
+      "order": 1,
+      "title": "Developing a New Course",
+      "scenario": "A teacher describes sustained work on a new course.",
+      "estimated_minutes": 10,
+      "grammar_ids": ["pet_grammar_002"],
+      "instruction": "Use the present perfect continuous where appropriate.",
+      "passage": "For the past three months, our department {{b1}} a new communication course for young teachers. I {{b2}} authentic classroom situations, while two colleagues {{b3}} the listening materials. We {{b4}} weekly to compare our progress, and a pilot group {{b5}} each new activity. Their feedback has been valuable because they {{b6}} us which instructions remain unclear. Recently, the head teacher {{b7}} our work closely, and we {{b8}} hard to complete the course before the new term begins. The process has taken longer than expected because every task needs to feel realistic without becoming overwhelming. Nevertheless, our participants are growing more confident, and their increasingly detailed responses suggest that the course is meeting an important professional need.",
+      "blanks": [
+        { "id": "b1", "cue": "develop", "accepted_answers": ["has been developing"] },
+        { "id": "b2", "cue": "collect", "accepted_answers": ["have been collecting"] },
+        { "id": "b3", "cue": "record", "accepted_answers": ["have been recording"] },
+        { "id": "b4", "cue": "meet", "accepted_answers": ["have been meeting"] },
+        { "id": "b5", "cue": "test", "accepted_answers": ["has been testing"] },
+        { "id": "b6", "cue": "tell", "accepted_answers": ["have been telling"] },
+        { "id": "b7", "cue": "follow", "accepted_answers": ["has been following"] },
+        { "id": "b8", "cue": "work", "accepted_answers": ["have been working"] }
+      ]
+    },
+    {
+      "id": "pet_writing_002",
+      "level": "pet",
+      "order": 2,
+      "title": "If I Led the School",
+      "scenario": "A teacher imagines changes that could improve school life.",
+      "estimated_minutes": 10,
+      "grammar_ids": ["pet_grammar_001"],
+      "instruction": "Complete each second conditional structure.",
+      "passage": "If I {{b1}} responsible for the school budget, I {{b2}} more quiet spaces for teachers and students. I {{b3}} the timetable if it {{b4}} colleagues enough time to plan together. If every classroom {{b5}} better digital equipment, teachers {{b6}} a wider range of activities. I would also invite families to regular workshops. If communication between home and school {{b7}}, students {{b8}} more consistent support. These changes are imaginary, but they show what our community values most. A small wellbeing room would give anxious learners somewhere calm to talk, while improved staff areas could encourage informal collaboration. Even modest changes would have an impact if decisions were based on careful conversations with the people who use the school every day.",
+      "blanks": [
+        { "id": "b1", "cue": "be", "accepted_answers": ["were"] },
+        { "id": "b2", "cue": "create", "accepted_answers": ["would create"] },
+        { "id": "b3", "cue": "change", "accepted_answers": ["would change"] },
+        { "id": "b4", "cue": "not give", "accepted_answers": ["did not give"] },
+        { "id": "b5", "cue": "have", "accepted_answers": ["had"] },
+        { "id": "b6", "cue": "design", "accepted_answers": ["would design"] },
+        { "id": "b7", "cue": "improve", "accepted_answers": ["improved"] },
+        { "id": "b8", "cue": "receive", "accepted_answers": ["would receive"] }
+      ]
+    },
+    {
+      "id": "pet_writing_003",
+      "level": "pet",
+      "order": 3,
+      "title": "Reporting a Parent Meeting",
+      "scenario": "A teacher reports what people said during a meeting.",
+      "estimated_minutes": 11,
+      "grammar_ids": ["pet_grammar_004"],
+      "instruction": "Complete the reported statements with the correct backshifted form.",
+      "passage": "After yesterday's parent meeting, I wrote a short report for the head teacher. One parent said that her son {{b1}} anxious about speaking in class. Another explained that his daughter {{b2}} her homework the previous week. I told them that we {{b3}} new support activities and that the students {{b4}} positively. My colleague added that she {{b5}} individual feedback the next day. Several parents said they {{b6}} the plan, while one asked whether the extra practice {{b7}} compulsory. I explained that participation {{b8}} optional but strongly encouraged. Before leaving, the families agreed that regular updates would help them support practice at home. They also requested examples of suitable activities, so our department promised to prepare a short guide before the next meeting.",
+      "blanks": [
+        { "id": "b1", "cue": "feel", "accepted_answers": ["felt"] },
+        { "id": "b2", "cue": "not finish", "accepted_answers": ["had not finished"] },
+        { "id": "b3", "cue": "introduce", "accepted_answers": ["had introduced"] },
+        { "id": "b4", "cue": "respond", "accepted_answers": ["had responded"] },
+        { "id": "b5", "cue": "give", "accepted_answers": ["would give"] },
+        { "id": "b6", "cue": "support", "accepted_answers": ["supported"] },
+        { "id": "b7", "cue": "be", "accepted_answers": ["was"] },
+        { "id": "b8", "cue": "be", "accepted_answers": ["was"] }
+      ]
+    },
+    {
+      "id": "pet_writing_004",
+      "level": "pet",
+      "order": 4,
+      "title": "Improving Online Safety",
+      "scenario": "A school sets out recommendations for safer technology use.",
+      "estimated_minutes": 11,
+      "grammar_ids": ["pet_grammar_005"],
+      "instruction": "Complete the passage using a modal and the passive voice.",
+      "passage": "Digital tools are useful, but they need clear safety procedures. Personal passwords {{b1}} with classmates, and student photographs {{b2}} online without permission. Any suspicious message {{b3}} to a teacher immediately. During online lessons, discussion rooms {{b4}} by an adult, while links {{b5}} before they are shared. School devices {{b6}} for private business, and software {{b7}} regularly to reduce security risks. Finally, these expectations {{b8}} in language that both students and families can understand. Short reminders should appear beside shared computers, and online safety should be discussed throughout the year rather than during a single lesson. Clear reporting procedures can help staff respond quickly without making students afraid to describe an honest mistake.",
+      "blanks": [
+        { "id": "b1", "cue": "must not share", "accepted_answers": ["must not be shared"] },
+        { "id": "b2", "cue": "should not post", "accepted_answers": ["should not be posted"] },
+        { "id": "b3", "cue": "must report", "accepted_answers": ["must be reported"] },
+        { "id": "b4", "cue": "should monitor", "accepted_answers": ["should be monitored"] },
+        { "id": "b5", "cue": "must check", "accepted_answers": ["must be checked"] },
+        { "id": "b6", "cue": "must not use", "accepted_answers": ["must not be used"] },
+        { "id": "b7", "cue": "should update", "accepted_answers": ["should be updated"] },
+        { "id": "b8", "cue": "must explain", "accepted_answers": ["must be explained"] }
+      ]
+    },
+    {
+      "id": "pet_writing_005",
+      "level": "pet",
+      "order": 5,
+      "title": "Building a More Supportive School",
+      "scenario": "A teacher reviews ongoing work and proposes future improvements.",
+      "estimated_minutes": 12,
+      "grammar_ids": ["pet_grammar_001", "pet_grammar_002", "pet_grammar_004", "pet_grammar_005"],
+      "instruction": "Write the form that best completes this mixed grammar review.",
+      "passage": "Our staff {{b1}} student wellbeing more closely this year. At last week's meeting, the counsellor said that several learners {{b2}} overwhelmed during the previous term. She suggested that clearer support information {{b3}} in every classroom. If teachers {{b4}} more time for individual conversations, they {{b5}} problems earlier. Since the meeting, we {{b6}} short weekly check-ins with our classes. Parents have also said that they {{b7}} better communication from school. The programme is still developing, but it {{b8}} into a permanent part of school life if the early results remain positive. Teachers are recording broad patterns without storing sensitive details, and the counsellor is reviewing those observations regularly. This approach could guide future training while ensuring that students receive appropriate help from qualified staff whenever concerns become serious.",
+      "blanks": [
+        { "id": "b1", "cue": "monitor", "accepted_answers": ["has been monitoring"] },
+        { "id": "b2", "cue": "feel", "accepted_answers": ["had felt"] },
+        { "id": "b3", "cue": "should display", "accepted_answers": ["should be displayed"] },
+        { "id": "b4", "cue": "have", "accepted_answers": ["had"] },
+        { "id": "b5", "cue": "notice", "accepted_answers": ["would notice"] },
+        { "id": "b6", "cue": "run", "accepted_answers": ["have been running"] },
+        { "id": "b7", "cue": "welcome", "accepted_answers": ["would welcome"] },
+        { "id": "b8", "cue": "could develop", "accepted_answers": ["could be developed"] }
+      ]
+    }
+  ]
+}

@@ -15,6 +15,36 @@ export type FillBlankExercise = { type: "fill_blank"; instruction: string; items
 export type MultipleChoiceExercise = { type: "multiple_choice"; instruction: string; items: { prompt: string; options: string[]; correct_answer: string; image_hint?: string }[] };
 export type Exercise = MatchExercise | ArrangeExercise | ListenChooseExercise | FillBlankExercise | MultipleChoiceExercise;
 
+export type WritingBlank = {
+  id: string;
+  cue: string;
+  accepted_answers: string[];
+};
+
+export type WritingExercise = {
+  id: string;
+  level: Level;
+  order: number;
+  title: string;
+  scenario: string;
+  estimated_minutes: number;
+  grammar_ids: string[];
+  instruction: string;
+  passage: string;
+  blanks: WritingBlank[];
+};
+
+export type WritingDocument = {
+  level: Level;
+  total_exercises: number;
+  exercises: WritingExercise[];
+};
+
+export type PublicWritingBlank = Omit<WritingBlank, "accepted_answers">;
+export type PublicWritingExercise = Omit<WritingExercise, "blanks"> & {
+  blanks: PublicWritingBlank[];
+};
+
 export type Lesson = {
   id: string; level: Level; topic_id: string; order: number; title: string; scenario: string; estimated_minutes: number;
   dialogue: { setting: string; characters: Character[]; lines: DialogueLine[] };

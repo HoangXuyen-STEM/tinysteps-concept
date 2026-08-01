@@ -4,11 +4,19 @@ import { FREE_LESSON_IDS } from "@/lib/access/paid-access";
 
 type Props = {
   lessonTitle: string;
+  freeCount?: number;
+  backHref?: string;
+  backLabel?: string;
 };
 
 // Shown in place of a locked lesson. Names the lesson the learner tried to open so the
 // block reads as "this one needs the full package" rather than a dead end.
-export function PaywallNotice({ lessonTitle }: Props) {
+export function PaywallNotice({
+  lessonTitle,
+  freeCount = FREE_LESSON_IDS.length,
+  backHref = "/lessons",
+  backLabel = "Quay lại danh sách bài học",
+}: Props) {
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm">
       <p className="text-3xl" aria-hidden="true">
@@ -16,7 +24,7 @@ export function PaywallNotice({ lessonTitle }: Props) {
       </p>
       <h1 className="mt-3 text-xl font-bold text-slate-900">{lessonTitle}</h1>
       <p className="mt-2 leading-relaxed text-slate-600">
-        Bài này nằm trong gói học trọn bộ. Bạn đã học xong {FREE_LESSON_IDS.length} bài miễn phí —
+        Bài này nằm trong gói học trọn bộ. Bạn đã học xong {freeCount} bài miễn phí —
         cảm ơn bạn đã dành thời gian cho TinySteps.
       </p>
 
@@ -35,8 +43,8 @@ export function PaywallNotice({ lessonTitle }: Props) {
         Xem gói học trọn bộ
       </Link>
       <p className="mt-4">
-        <Link className="text-sm font-medium text-slate-500 hover:text-slate-700" href="/lessons">
-          Quay lại danh sách bài học
+        <Link className="text-sm font-medium text-slate-500 hover:text-slate-700" href={backHref}>
+          {backLabel}
         </Link>
       </p>
     </div>

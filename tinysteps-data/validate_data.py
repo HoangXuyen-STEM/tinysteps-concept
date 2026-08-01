@@ -18,6 +18,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 VOCAB_DIR = os.path.join(SCRIPT_DIR, "vocabulary")
 GRAMMAR_DIR = os.path.join(SCRIPT_DIR, "grammar")
 TOPICS_FILE = os.path.join(SCRIPT_DIR, "topics", "topics.json")
+WRITING_DIR = os.path.join(SCRIPT_DIR, "writing")
 
 LEVELS = ["starters", "movers", "flyers", "ket", "pet"]
 
@@ -48,6 +49,15 @@ GRAMMAR_MIN_TARGETS = {
     "pet": 10
 }
 
+WRITING_BLANK_COUNTS = {"starters": 5, "movers": 6, "flyers": 7, "ket": 8, "pet": 8}
+WRITING_WORD_RANGES = {
+    "starters": (45, 60),
+    "movers": (60, 80),
+    "flyers": (80, 100),
+    "ket": (100, 130),
+    "pet": (120, 150),
+}
+
 
 def clean_words_count(sentence):
     """Counts words in a sentence, ignoring punctuation."""
@@ -70,7 +80,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 1. VALIDATE VOCABULARY FILES
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[1/4] Validating Vocabulary JSON files...")
+    print("\n[1/5] Validating Vocabulary JSON files...")
     
     global_words = {}  # word -> level
 
@@ -160,7 +170,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 2. VALIDATE GRAMMAR FILES
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[2/4] Validating Grammar JSON files...")
+    print("\n[2/5] Validating Grammar JSON files...")
 
     for level in LEVELS:
         grammar_path = os.path.join(GRAMMAR_DIR, f"{level}.json")
@@ -242,7 +252,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 3. VALIDATE TOPICS.JSON AND MASTER REFERENCES
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[3/4] Validating Curriculum Map (topics.json) reference integrity...")
+    print("\n[3/5] Validating Curriculum Map (topics.json) reference integrity...")
 
     if not os.path.exists(TOPICS_FILE):
         errors.append(f"Missing master topics file: {TOPICS_FILE}")
@@ -282,7 +292,7 @@ def main():
     # ═══════════════════════════════════════════════════════════════════════
     # 4. VALIDATE LESSON FILES (dialogue, exercises, references)
     # ═══════════════════════════════════════════════════════════════════════
-    print("\n[4/4] Validating lesson content (exercise integrity, references, text)...")
+    print("\n[4/5] Validating lesson content (exercise integrity, references, text)...")
 
     # Từ vựng theo cấp để đối chiếu đáp án match; id hợp lệ để đối chiếu tham chiếu.
     vocab_words_by_level = {}
@@ -334,6 +344,61 @@ def main():
 
     print(f"  ✓ Checked {lesson_count} lessons and all grammar examples.")
 
+    # ═══════════════════════════════════════════════════════════════════════
+    # 5. VALIDATE WRITING PRACTICE
+    # ═══════════════════════════════════════════════════════════════════════
+    print("\n[5/5] Validating writing practice content...")
+    writing_documents = {}
+    writing_count = 0
+    for level in LEVELS:
+        path = os.path.join(WRITING_DIR, f"{level}.json")
+        try:
+            with open(path, encoding="utf-8") as f:
+                document = json.load(f)
+        except Exception as exc:
+            errors.append(f"Failed to parse writing/{level}.json: {exc}")
+            continue
+        writing_documents[level] = document
+        exercises = document.get("exercises", [])
+        if document.get("level") != level or document.get("total_exercises") != 5 or len(exercises) != 5:
+            errors.append(f"[{level.upper()} WRITING] expected one level document with exactly 5 exercises")
+        for index, exercise in enumerate(exercises, 1):
+            writing_count += 1
+            writing_id = exercise.get("id", "")
+            expected_id = f"{level}_writing_{index:03d}"
+            if writing_id != expected_id or exercise.get("level") != level or exercise.get("order") != index:
+                errors.append(f"[{level.upper()} WRITING] invalid identity/order for {writing_id or expected_id}")
+
+            blanks = exercise.get("blanks", [])
+            if len(blanks) != WRITING_BLANK_COUNTS[level]:
+                errors.append(f"[{writing_id}] expected {WRITING_BLANK_COUNTS[level]} blanks, found {len(blanks)}")
+            blank_ids = [blank.get("id") for blank in blanks]
+            placeholders = re.findall(r"\{\{(b\d+)\}\}", exercise.get("passage", ""))
+            if len(blank_ids) != len(set(blank_ids)) or placeholders != blank_ids:
+                errors.append(f"[{writing_id}] placeholders must be unique and follow blank order exactly")
+            for blank in blanks:
+                answers = blank.get("accepted_answers", [])
+                if not blank.get("cue") or not answers or any(not isinstance(answer, str) or not answer.strip() for answer in answers):
+                    errors.append(f"[{writing_id}] blank {blank.get('id')} has an empty cue or answer")
+            for grammar_id in exercise.get("grammar_ids", []):
+                if grammar_id not in loaded_grammar.get(level, {}):
+                    errors.append(f"[{writing_id}] unknown grammar id {grammar_id}")
+
+            completed_passage = exercise.get("passage", "")
+            for blank in blanks:
+                answers = blank.get("accepted_answers", [])
+                if answers:
+                    completed_passage = completed_passage.replace(
+                        "{{" + str(blank.get("id")) + "}}", answers[0], 1
+                    )
+            word_count = clean_words_count(completed_passage)
+            minimum, maximum = WRITING_WORD_RANGES[level]
+            if not minimum <= word_count <= maximum:
+                errors.append(
+                    f"[{writing_id}] completed passage has {word_count} words; expected {minimum}-{maximum}"
+                )
+    print(f"  ✓ Checked {writing_count} writing exercises.")
+
     # Soi chính tả mọi văn bản học viên nhìn thấy (cảnh báo, không chặn build).
     # Đây là lớp duy nhất từng phát hiện được từ vựng sai chính tả kiểu 'guideliness'.
     spell_tokens = set()
@@ -377,6 +442,13 @@ def main():
                         elif isinstance(value, list):
                             for element in value:
                                 collect_tokens(element)
+        for writing in writing_documents.get(level, {}).get("exercises", []):
+            collect_tokens(re.sub(r"\{\{b\d+\}\}", "", writing.get("passage", "")))
+            collect_tokens(writing.get("instruction"))
+            for blank in writing.get("blanks", []):
+                collect_tokens(blank.get("cue"))
+                for answer in blank.get("accepted_answers", []):
+                    collect_tokens(answer)
 
     warnings.extend(spell_check_words(spell_tokens))
     print(f"  ✓ Spell-checked {len(spell_tokens)} unique tokens.")

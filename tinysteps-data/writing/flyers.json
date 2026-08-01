@@ -1,0 +1,106 @@
+{
+  "level": "flyers",
+  "total_exercises": 5,
+  "exercises": [
+    {
+      "id": "flyers_writing_001",
+      "level": "flyers",
+      "order": 1,
+      "title": "Teaching Experience",
+      "scenario": "A teacher reflects on professional experiences so far.",
+      "estimated_minutes": 7,
+      "grammar_ids": ["flyers_grammar_001"],
+      "instruction": "Write the correct form of the verb in brackets.",
+      "passage": "I {{b1}} at this school for three years. During that time, I {{b2}} many creative students and {{b3}} several new teaching methods. My class {{b4}} two English plays, and we {{b5}} prizes in local competitions. I also {{b6}} close friends among my colleagues. These experiences {{b7}} me more confident in the classroom. The school community has supported my ideas, and parents have often shared encouraging comments about our lessons. I have learned something from every class.",
+      "blanks": [
+        { "id": "b1", "cue": "work", "accepted_answers": ["have worked"] },
+        { "id": "b2", "cue": "meet", "accepted_answers": ["have met"] },
+        { "id": "b3", "cue": "try", "accepted_answers": ["have tried"] },
+        { "id": "b4", "cue": "perform", "accepted_answers": ["has performed"] },
+        { "id": "b5", "cue": "win", "accepted_answers": ["have won"] },
+        { "id": "b6", "cue": "make", "accepted_answers": ["have made"] },
+        { "id": "b7", "cue": "make", "accepted_answers": ["have made"] }
+      ]
+    },
+    {
+      "id": "flyers_writing_002",
+      "level": "flyers",
+      "order": 2,
+      "title": "Plans for the School Fair",
+      "scenario": "Teachers describe their plans for an upcoming fair.",
+      "estimated_minutes": 7,
+      "grammar_ids": ["flyers_grammar_002"],
+      "instruction": "Complete the passage with the correct 'going to' form.",
+      "passage": "Next month, our school {{b1}} a community fair. My class {{b2}} handmade bookmarks, while the science teacher {{b3}} simple experiments. We {{b4}} families from the neighbourhood, and they {{b5}} games with the students. I {{b6}} the welcome speech. After the event, everyone {{b7}} the money for new library books. The music club will perform outside, and volunteers will prepare healthy snacks for visitors throughout the afternoon.",
+      "blanks": [
+        { "id": "b1", "cue": "hold", "accepted_answers": ["is going to hold"] },
+        { "id": "b2", "cue": "sell", "accepted_answers": ["is going to sell"] },
+        { "id": "b3", "cue": "show", "accepted_answers": ["is going to show"] },
+        { "id": "b4", "cue": "invite", "accepted_answers": ["are going to invite"] },
+        { "id": "b5", "cue": "play", "accepted_answers": ["are going to play"] },
+        { "id": "b6", "cue": "give", "accepted_answers": ["am going to give"] },
+        { "id": "b7", "cue": "use", "accepted_answers": ["is going to use"] }
+      ]
+    },
+    {
+      "id": "flyers_writing_003",
+      "level": "flyers",
+      "order": 3,
+      "title": "The Outdoor Lesson",
+      "scenario": "A teacher makes plans that depend on the weather.",
+      "estimated_minutes": 8,
+      "grammar_ids": ["flyers_grammar_008"],
+      "instruction": "Write the correct verb form in each conditional sentence.",
+      "passage": "Tomorrow we hope to study plants in the school garden. If the weather {{b1}} sunny, we {{b2}} outside after breakfast. If it {{b3}}, the class {{b4}} in the science room instead. The students will take photos if they {{b5}} an interesting insect. If everyone {{b6}} carefully, we {{b7}} enough information for a wall display. Each group will receive a notebook, a magnifying glass, and a map of the garden before the lesson begins. Everyone is excited about the investigation.",
+      "blanks": [
+        { "id": "b1", "cue": "be", "accepted_answers": ["is"] },
+        { "id": "b2", "cue": "go", "accepted_answers": ["will go"] },
+        { "id": "b3", "cue": "rain", "accepted_answers": ["rains"] },
+        { "id": "b4", "cue": "work", "accepted_answers": ["will work"] },
+        { "id": "b5", "cue": "see", "accepted_answers": ["see"] },
+        { "id": "b6", "cue": "observe", "accepted_answers": ["observes"] },
+        { "id": "b7", "cue": "collect", "accepted_answers": ["will collect"] }
+      ]
+    },
+    {
+      "id": "flyers_writing_004",
+      "level": "flyers",
+      "order": 4,
+      "title": "A New Reading Club",
+      "scenario": "A teacher compares achievements with plans for a new club.",
+      "estimated_minutes": 8,
+      "grammar_ids": ["flyers_grammar_001", "flyers_grammar_002"],
+      "instruction": "Use the present perfect or the correct 'going to' form.",
+      "passage": "Our teachers {{b1}} a new reading club for older students. We {{b2}} a quiet room and {{b3}} more than fifty suitable books already. Next week, I {{b4}} the first meeting, and two colleagues {{b5}} small discussion groups. Several students {{b6}} their names on the list. We {{b7}} parents to donate more books later this term. Members will meet every Thursday and recommend stories to one another in a friendly, relaxed atmosphere.",
+      "blanks": [
+        { "id": "b1", "cue": "plan", "accepted_answers": ["have planned"] },
+        { "id": "b2", "cue": "choose", "accepted_answers": ["have chosen"] },
+        { "id": "b3", "cue": "collect", "accepted_answers": ["have collected"] },
+        { "id": "b4", "cue": "lead", "accepted_answers": ["am going to lead"] },
+        { "id": "b5", "cue": "run", "accepted_answers": ["are going to run"] },
+        { "id": "b6", "cue": "write", "accepted_answers": ["have written"] },
+        { "id": "b7", "cue": "ask", "accepted_answers": ["are going to ask"] }
+      ]
+    },
+    {
+      "id": "flyers_writing_005",
+      "level": "flyers",
+      "order": 5,
+      "title": "Preparing for the School Trip",
+      "scenario": "Teachers review completed work and make conditional plans.",
+      "estimated_minutes": 9,
+      "grammar_ids": ["flyers_grammar_001", "flyers_grammar_002", "flyers_grammar_008"],
+      "instruction": "Write the verb form that best completes the passage.",
+      "passage": "We {{b1}} most of the work for Friday's school trip. The office {{b2}} the bus, and parents {{b3}} permission forms. Tomorrow, we {{b4}} the safety rules with every class. If a student {{b5}} a form, we {{b6}} their family. I {{b7}} an emergency bag before we leave, so the group will be ready for a safe day out. Two teachers will count the students at every stop, and everyone will carry water and a light raincoat.",
+      "blanks": [
+        { "id": "b1", "cue": "finish", "accepted_answers": ["have finished"] },
+        { "id": "b2", "cue": "book", "accepted_answers": ["has booked"] },
+        { "id": "b3", "cue": "return", "accepted_answers": ["have returned"] },
+        { "id": "b4", "cue": "review", "accepted_answers": ["are going to review"] },
+        { "id": "b5", "cue": "forget", "accepted_answers": ["forgets"] },
+        { "id": "b6", "cue": "call", "accepted_answers": ["will call"] },
+        { "id": "b7", "cue": "prepare", "accepted_answers": ["am going to prepare"] }
+      ]
+    }
+  ]
+}

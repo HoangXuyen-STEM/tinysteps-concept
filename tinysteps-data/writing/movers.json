@@ -1,0 +1,101 @@
+{
+  "level": "movers",
+  "total_exercises": 5,
+  "exercises": [
+    {
+      "id": "movers_writing_001",
+      "level": "movers",
+      "order": 1,
+      "title": "Yesterday at School",
+      "scenario": "A teacher remembers a busy Tuesday.",
+      "estimated_minutes": 5,
+      "grammar_ids": ["movers_grammar_011"],
+      "instruction": "Write the correct past form of the word in brackets.",
+      "passage": "Yesterday {{b1}} a busy day at school. I {{b2}} in the staff room before seven. Two colleagues {{b3}} already there. Our first meeting {{b4}} short, but the morning lessons {{b5}} difficult. At lunch, everyone {{b6}} tired but pleased with the students' work. The afternoon was calmer, and the final class was very enjoyable. We went home feeling much more relaxed.",
+      "blanks": [
+        { "id": "b1", "cue": "be", "accepted_answers": ["was"] },
+        { "id": "b2", "cue": "be", "accepted_answers": ["was"] },
+        { "id": "b3", "cue": "be", "accepted_answers": ["were"] },
+        { "id": "b4", "cue": "be", "accepted_answers": ["was"] },
+        { "id": "b5", "cue": "be", "accepted_answers": ["were"] },
+        { "id": "b6", "cue": "be", "accepted_answers": ["was"] }
+      ]
+    },
+    {
+      "id": "movers_writing_002",
+      "level": "movers",
+      "order": 2,
+      "title": "The Class Project",
+      "scenario": "A teacher reports what a class did for a project.",
+      "estimated_minutes": 5,
+      "grammar_ids": ["movers_grammar_002"],
+      "instruction": "Write the correct past form of the word in brackets.",
+      "passage": "Last Friday, my class {{b1}} a project about local animals. The students {{b2}} in small groups and {{b3}} colourful posters. One group {{b4}} facts about birds, while another group {{b5}} pictures of fish. At the end, everyone {{b6}} the posters near the school library. Parents visited the display later and praised the children's careful work. The project remained there all week.",
+      "blanks": [
+        { "id": "b1", "cue": "start", "accepted_answers": ["started"] },
+        { "id": "b2", "cue": "work", "accepted_answers": ["worked"] },
+        { "id": "b3", "cue": "create", "accepted_answers": ["created"] },
+        { "id": "b4", "cue": "collect", "accepted_answers": ["collected"] },
+        { "id": "b5", "cue": "paint", "accepted_answers": ["painted"] },
+        { "id": "b6", "cue": "display", "accepted_answers": ["displayed"] }
+      ]
+    },
+    {
+      "id": "movers_writing_003",
+      "level": "movers",
+      "order": 3,
+      "title": "A Surprise Visitor",
+      "scenario": "An unexpected visitor joined an English lesson.",
+      "estimated_minutes": 6,
+      "grammar_ids": ["movers_grammar_003"],
+      "instruction": "Write the correct past form of the word in brackets.",
+      "passage": "This morning, the head teacher {{b1}} into my English class with a visitor. The visitor {{b2}} next to a student and {{b3}} notes during our game. The children {{b4}} their best and {{b5}} every answer clearly. After class, she {{b6}} me some helpful feedback. I felt proud because the class stayed confident and worked together. Their teamwork made a strong impression.",
+      "blanks": [
+        { "id": "b1", "cue": "come", "accepted_answers": ["came"] },
+        { "id": "b2", "cue": "sit", "accepted_answers": ["sat"] },
+        { "id": "b3", "cue": "write", "accepted_answers": ["wrote"] },
+        { "id": "b4", "cue": "do", "accepted_answers": ["did"] },
+        { "id": "b5", "cue": "give", "accepted_answers": ["gave"] },
+        { "id": "b6", "cue": "give", "accepted_answers": ["gave"] }
+      ]
+    },
+    {
+      "id": "movers_writing_004",
+      "level": "movers",
+      "order": 4,
+      "title": "The Missing Materials",
+      "scenario": "Teachers investigate why some materials were missing.",
+      "estimated_minutes": 6,
+      "grammar_ids": ["movers_grammar_012", "movers_grammar_013"],
+      "instruction": "Write the correct past form of the word in brackets.",
+      "passage": "We {{b1}} the art lesson on time because the paper was missing. I asked Hoa, “{{b2}} you move the materials?” She {{b3}} remember moving them. Then we asked, “Where {{b4}} Minh put the boxes?” He {{b5}} leave them downstairs; he put them in the library. We {{b6}} find them until lunchtime. Fortunately, the afternoon class still completed its colourful project.",
+      "blanks": [
+        { "id": "b1", "cue": "not start", "accepted_answers": ["did not start"] },
+        { "id": "b2", "cue": "do", "accepted_answers": ["Did"] },
+        { "id": "b3", "cue": "not", "accepted_answers": ["did not"] },
+        { "id": "b4", "cue": "do", "accepted_answers": ["did"] },
+        { "id": "b5", "cue": "not", "accepted_answers": ["did not"] },
+        { "id": "b6", "cue": "not", "accepted_answers": ["did not"] }
+      ]
+    },
+    {
+      "id": "movers_writing_005",
+      "level": "movers",
+      "order": 5,
+      "title": "The School Open Day",
+      "scenario": "A teacher tells the story of a successful school event.",
+      "estimated_minutes": 7,
+      "grammar_ids": ["movers_grammar_002", "movers_grammar_003", "movers_grammar_011", "movers_grammar_012", "movers_grammar_013"],
+      "instruction": "Write the correct past form of the word in brackets.",
+      "passage": "Our school open day {{b1}} last Saturday. Many families {{b2}} before nine, and the students {{b3}} them around the classrooms. We {{b4}} have enough chairs at first, but a colleague quickly brought more. “{{b5}} everyone enjoy the performances?” the head teacher asked. The parents smiled, and several of them {{b6}} kind messages afterward. The teachers celebrated together when the busy event ended.",
+      "blanks": [
+        { "id": "b1", "cue": "be", "accepted_answers": ["was"] },
+        { "id": "b2", "cue": "arrive", "accepted_answers": ["arrived"] },
+        { "id": "b3", "cue": "take", "accepted_answers": ["took"] },
+        { "id": "b4", "cue": "not", "accepted_answers": ["did not"] },
+        { "id": "b5", "cue": "do", "accepted_answers": ["Did"] },
+        { "id": "b6", "cue": "write", "accepted_answers": ["wrote"] }
+      ]
+    }
+  ]
+}

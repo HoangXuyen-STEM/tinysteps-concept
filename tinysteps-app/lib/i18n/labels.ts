@@ -22,6 +22,13 @@ export const labels = {
   BAI_HOC: "Bài học",
   BAT_DAU: "Bắt đầu luyện tập",
   HOAN_THANH_BAI: "Hoàn thành bài",
+  WRITING: "Writing",
+  LUYEN_VIET: "Luyện viết",
+  CHAM_BAI: "Chấm bài",
+  SUA_LAI: "Sửa lại",
+  DIEM_CAO_NHAT: "Điểm cao nhất",
+  DAT_YEU_CAU: "Đạt yêu cầu",
+  CHUA_DAT: "Chưa đạt 80%",
 
   // Result
   KET_QUA: "Kết quả",
