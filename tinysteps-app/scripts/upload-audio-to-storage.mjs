@@ -1,31 +1,38 @@
-// Upload all local MP3s to the Supabase Storage "audio" bucket.
+// Upload all local MP3s to Supabase Storage.
 //
 // Run locally only, never in Vercel: SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... \
 //   node scripts/upload-audio-to-storage.mjs [--overwrite] [relative/file.mp3 ...]
 //
-// By default an object already in the bucket is left alone, which keeps repeat runs
-// cheap. Pass --overwrite after correcting a word or example sentence and regenerating
-// its audio: without it the bucket keeps the old recording while the app shows the new
-// text, and the learner hears something different from what is on screen.
+// Audio is split across two buckets along the paywall:
+//
+//   audio       private  every recording; reads require an active paid grant
+//   audio-free  public   the trial subset, duplicated here so it can be served as plain
+//                        cacheable CDN URLs without signing
+//
+// "audio" stays the complete canonical set, so a file is never moved or deleted when the
+// free list changes — only the public copy is added.
+//
+// By default an object already in a bucket is left alone, which keeps repeat runs cheap.
+// Pass --overwrite after correcting a word or example sentence and regenerating its
+// audio: without it the bucket keeps the old recording while the app shows the new text,
+// and the learner hears something different from what is on screen.
 //
 // Object keys are the file's path relative to tinysteps-data/audio (e.g.
-// "vocabulary/starters/starters_vocab_001_word.mp3") — NOT prefixed with "audio/".
-// That prefix is supplied by the bucket name itself. This matters: audioUrl()
-// (lib/content/audio-manifest.ts) builds `${NEXT_PUBLIC_AUDIO_BASE_URL}/${relativePath}`,
-// where relativePath already starts with "audio/" (as stored in manifest.json). So
-// NEXT_PUBLIC_AUDIO_BASE_URL must be the Storage root WITHOUT a "/audio" suffix
-// (`.../storage/v1/object/public`) — the manifest's own "audio/" segment supplies the
-// bucket name when concatenated. Verified locally: a base ending in "/audio" produces
-// a doubled "/audio/audio/..." path and 400s; the no-suffix base 200s.
+// "vocabulary/starters/starters_vocab_001_word.mp3") — NOT prefixed with "audio/". That
+// prefix is the bucket segment, supplied when lib/content/audio-access.ts builds a URL
+// from the manifest path. NEXT_PUBLIC_AUDIO_BASE_URL must therefore be the Storage root
+// with no bucket suffix (`.../storage/v1/object/public`).
 import { createClient } from "@supabase/supabase-js";
 import { readdir, readFile } from "node:fs/promises";
 import { join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
+import { readFreeAudioKeys } from "./free-audio-keys.mjs";
 
 const appDirectory = join(fileURLToPath(import.meta.url), "..", "..");
 const repositoryDirectory = join(appDirectory, "..");
 const audioRoot = join(repositoryDirectory, "tinysteps-data", "audio");
-const BUCKET = "audio";
+const PRIVATE_BUCKET = "audio";
+const PUBLIC_BUCKET = "audio-free";
 
 const supabaseUrl = process.env.SUPABASE_URL;
 const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -53,11 +60,23 @@ async function* walkMp3(dir) {
   }
 }
 
-async function main() {
-  const { error: bucketError } = await supabase.storage.createBucket(BUCKET, { public: true });
-  if (bucketError && !/already exists/i.test(bucketError.message)) {
-    throw new Error(`createBucket failed: ${bucketError.message}`);
+
+async function ensureBucket(name, isPublic) {
+  const { error } = await supabase.storage.createBucket(name, { public: isPublic });
+  if (error && !/already exists/i.test(error.message)) {
+    throw new Error(`createBucket ${name} failed: ${error.message}`);
   }
+  // An existing bucket keeps its old visibility, so state it explicitly: this is what
+  // flips a previously public "audio" bucket closed.
+  const { error: updateError } = await supabase.storage.updateBucket(name, { public: isPublic });
+  if (updateError) throw new Error(`updateBucket ${name} failed: ${updateError.message}`);
+}
+
+async function main() {
+  await ensureBucket(PRIVATE_BUCKET, false);
+  await ensureBucket(PUBLIC_BUCKET, true);
+  const freeKeys = await readFreeAudioKeys();
+  console.log(`${freeKeys.size} trial recordings also go to the public "${PUBLIC_BUCKET}" bucket.`);
 
   let uploaded = 0;
   let skipped = 0;
@@ -71,9 +90,22 @@ async function main() {
     if (requestedKeys.size > 0 && !requestedKeys.has(key)) continue;
     selected++;
     const body = await readFile(filePath);
-    const { error } = await supabase.storage
-      .from(BUCKET)
-      .upload(key, body, { contentType: "audio/mpeg", upsert: overwrite });
+
+    // Every file lands in the private bucket; trial files are additionally copied to the
+    // public one. Counters track the private upload — the canonical set.
+    const targets = freeKeys.has(key) ? [PRIVATE_BUCKET, PUBLIC_BUCKET] : [PRIVATE_BUCKET];
+    let error = null;
+    for (const bucket of targets) {
+      const result = await supabase.storage
+        .from(bucket)
+        .upload(key, body, { contentType: "audio/mpeg", upsert: overwrite });
+      // Report the first real failure; "already exists" from either bucket is benign.
+      if (result.error && !/already exists|Duplicate/i.test(result.error.message)) {
+        error = result.error;
+        break;
+      }
+      if (result.error && !error) error = result.error;
+    }
 
     if (!error) {
       uploaded++;

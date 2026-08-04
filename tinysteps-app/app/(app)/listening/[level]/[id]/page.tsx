@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import { getListeningExercise } from "@/lib/content/listening-loader";
 import { toPublicListeningExercise } from "@/lib/listening/public-listening";
 import { getListeningProgress } from "@/lib/progress/listening-progress-queries";
-import { listeningAudioUrl } from "@/lib/content/audio-manifest";
+import { listeningAudioPath } from "@/lib/content/audio-manifest";
+import { resolveAudioUrl } from "@/lib/content/audio-access";
 import { canOpenListening, FREE_LISTENING_IDS } from "@/lib/access/paid-access";
 import { levels, type Level } from "@/lib/types/content-types";
 import { ListeningPlayer } from "@/components/listening/listening-player";
@@ -29,7 +30,7 @@ export default async function ListeningExercisePage({ params }: { params: Promis
   }
 
   const progress = await getListeningProgress(id);
-  const audioUrl = listeningAudioUrl(id);
+  const audioUrl = (await resolveAudioUrl(listeningAudioPath(id))) ?? undefined;
   return (
     <main>
       <ListeningPlayer

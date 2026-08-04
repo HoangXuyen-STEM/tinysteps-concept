@@ -5,28 +5,18 @@ import { parseAudioManifest } from "./content-schemas";
 const audioManifest = parseAudioManifest(manifest);
 type AudioSection = "vocabulary" | "lessons";
 
-// relativePath already starts with "audio/" (e.g. "audio/vocabulary/starters/...").
-// In dev that maps straight onto the public/audio symlink. In prod, NEXT_PUBLIC_AUDIO_BASE_URL
-// must be the Storage root WITHOUT a trailing "/audio" (`.../object/public`, not
-// `.../object/public/audio`) — the manifest's own "audio/" segment supplies the bucket
-// name once concatenated. Verified in phase 07: a base ending in "/audio" doubles the
-// segment and 404s. See scripts/upload-audio-to-storage.mjs for the upload-side half.
-export function audioUrl(section: AudioSection, id: string, type: string): string | undefined {
-  const relativePath = audioManifest[section][id]?.[type];
-  if (!relativePath) return undefined;
-  return resolveAudioBaseUrl(relativePath);
+// Manifest paths all start with "audio/" (e.g. "audio/vocabulary/starters/...") — that
+// leading segment is the bucket name, supplied once the path is concatenated onto the
+// Storage root. These functions return the manifest path only; turning it into a URL is
+// entitlement-dependent and lives in audio-access.ts, because paid audio sits in a
+// private bucket and has to be signed.
+export function audioPath(section: AudioSection, id: string, type: string): string | undefined {
+  return audioManifest[section][id]?.[type];
 }
 
 /** manifest.listening is flat (exercise id -> path), one mp3 per exercise — no `type` key. */
-export function listeningAudioUrl(exerciseId: string): string | undefined {
-  const relativePath = audioManifest.listening[exerciseId];
-  if (!relativePath) return undefined;
-  return resolveAudioBaseUrl(relativePath);
-}
-
-function resolveAudioBaseUrl(relativePath: string): string {
-  const baseUrl = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/$/, "");
-  return baseUrl ? `${baseUrl}/${relativePath}` : `/${relativePath}`;
+export function listeningAudioPath(exerciseId: string): string | undefined {
+  return audioManifest.listening[exerciseId];
 }
 
 export const getAudioManifest = () => audioManifest;

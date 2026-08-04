@@ -2,6 +2,7 @@
 
 import { createClient } from "@/utils/supabase/server";
 import { getLesson } from "@/lib/content/lesson-loader";
+import { canOpenLesson } from "@/lib/access/paid-access";
 import { computeScore, type ExerciseAnswer } from "@/lib/exercises/check-answer";
 import { revalidatePath } from "next/cache";
 
@@ -11,6 +12,11 @@ export async function startLesson(lessonId: string) {
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return;
+
+  // Server actions are callable independently of the page that renders them, so the
+  // lesson gate has to be re-checked here — otherwise a locked lesson can still be
+  // marked in_progress and pollute streaks and completion counts.
+  if (!(await canOpenLesson(lessonId))) return;
 
   // maybeSingle(): null+no-error for "no row yet" (a real, expected first-open case),
   // vs. an actual error for network/DB failures. single() conflates the two — a
@@ -56,6 +62,8 @@ export async function submitLessonAnswers(lessonId: string, answers: ExerciseAns
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) throw new Error("Not authenticated");
+
+  if (!(await canOpenLesson(lessonId))) throw new Error("Lesson is locked");
 
   const lesson = getLesson(lessonId);
   if (!lesson) throw new Error("Lesson not found");

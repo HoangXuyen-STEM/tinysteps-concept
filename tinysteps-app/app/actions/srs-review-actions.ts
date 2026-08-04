@@ -4,6 +4,8 @@ import { createEmptyCard, Rating } from "ts-fsrs";
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/utils/supabase/server";
 import { getVocabById } from "@/lib/content/vocabulary-loader";
+import { hasPaidAccess } from "@/lib/access/paid-access";
+import { isFreeVocab } from "@/lib/access/unlocked-vocab";
 import { getScheduler } from "@/lib/srs/fsrs-scheduler";
 import { rowToCard, cardToRow, type SrsCardRow } from "@/lib/srs/card-mapping";
 import { isReviewRating } from "@/lib/srs/review-types";
@@ -32,6 +34,12 @@ export async function submitReview(vocabId: string, rating: number, queueEmptied
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) throw new Error("Not authenticated");
+
+  // The queue never offers locked words, but the action is callable on its own — refuse
+  // to create a card for vocabulary this learner has not unlocked.
+  if (!isFreeVocab(vocabId) && !(await hasPaidAccess())) {
+    throw new Error("Vocabulary is locked");
+  }
 
   const now = new Date();
 

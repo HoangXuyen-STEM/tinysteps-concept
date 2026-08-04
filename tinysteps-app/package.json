@@ -12,12 +12,13 @@
     "prelint": "npm run prepare-content",
     "start": "next start",
     "lint": "eslint",
+    "pretest": "npm run prepare-content",
     "test": "vitest run"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.1",
     "@supabase/supabase-js": "^2.110.3",
-    "next": "15.5.20",
+    "next": "^15.5.22",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "server-only": "^0.0.1",

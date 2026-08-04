@@ -1,18 +1,19 @@
-// Post-upload check: for every entry in the audio manifest, resolve it through the
-// SAME audioUrl() logic the app uses and HEAD it. Catches both missing uploads and
-// base-URL/key mismatches (the exact bug this script's design caught during phase 07:
-// a base URL with a trailing "/audio" doubles up against the manifest's own "audio/"
-// prefix and 404s everything).
+// Post-upload check on the two audio buckets. Asserts the paywall boundary in both
+// directions, which a coverage-only check cannot do:
+//
+//   trial recordings  must be publicly readable from the "audio-free" bucket
+//   paid recordings   must NOT be publicly readable from either bucket
+//
+// The second half is the one that matters: the whole library used to sit in one public
+// bucket under sequential filenames, so anyone could walk it without an account. If a
+// future upload lands paid audio in the public bucket, this fails.
 //
 // Run: AUDIO_BASE_URL=https://<ref>.supabase.co/storage/v1/object/public \
 //   node scripts/verify-audio-coverage.mjs
-import { readFile } from "node:fs/promises";
-import { join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { readAudioManifest, readFreeAudioKeys, toStorageKey } from "./free-audio-keys.mjs";
 
-const appDirectory = join(fileURLToPath(import.meta.url), "..", "..");
-const repositoryDirectory = join(appDirectory, "..");
-const manifestPath = join(repositoryDirectory, "tinysteps-data", "audio", "manifest.json");
+const PRIVATE_BUCKET = "audio";
+const PUBLIC_BUCKET = "audio-free";
 
 const baseUrl = (process.env.AUDIO_BASE_URL ?? process.env.NEXT_PUBLIC_AUDIO_BASE_URL)?.replace(
   /\/+$/,
@@ -23,11 +24,7 @@ if (!baseUrl) {
   process.exit(1);
 }
 
-function resolveUrl(relativePath) {
-  return `${baseUrl}/${relativePath}`;
-}
-
-async function headOk(url) {
+async function isPubliclyReadable(url) {
   try {
     const res = await fetch(url, { method: "HEAD" });
     return res.ok;
@@ -36,41 +33,61 @@ async function headOk(url) {
   }
 }
 
-async function main() {
-  const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
-  const relativePaths = [];
-  const misses = [];
+/** Bounded pool: the production set is ~6k files and Storage should not be spiked. */
+async function checkAll(urls, expectReadable) {
+  const concurrency = 10;
+  const failures = [];
+  for (let index = 0; index < urls.length; index += concurrency) {
+    const batch = urls.slice(index, index + concurrency);
+    const results = await Promise.all(batch.map(isPubliclyReadable));
+    results.forEach((readable, batchIndex) => {
+      if (readable !== expectReadable) failures.push(batch[batchIndex]);
+    });
+  }
+  return failures;
+}
 
-  const nestedSections = [manifest.vocabulary, manifest.lessons];
-  for (const section of nestedSections) {
+async function main() {
+  const manifest = await readAudioManifest();
+  const freeKeys = await readFreeAudioKeys(manifest);
+
+  const allKeys = [];
+  for (const section of [manifest.vocabulary, manifest.lessons]) {
     for (const entry of Object.values(section)) {
-      for (const relativePath of Object.values(entry)) {
-        relativePaths.push(relativePath);
-      }
+      for (const path of Object.values(entry)) allKeys.push(toStorageKey(path));
     }
   }
   // manifest.listening is flat: { exerciseId: "audio/listening/level/id.mp3" }.
-  for (const relativePath of Object.values(manifest.listening ?? {})) {
-    relativePaths.push(relativePath);
-  }
+  for (const path of Object.values(manifest.listening ?? {})) allKeys.push(toStorageKey(path));
 
-  // A small bounded pool makes the 6k-file production check practical without
-  // creating an unbounded request spike against Storage.
-  const concurrency = 10;
-  for (let index = 0; index < relativePaths.length; index += concurrency) {
-    const urls = relativePaths.slice(index, index + concurrency).map(resolveUrl);
-    const results = await Promise.all(urls.map(headOk));
-    results.forEach((ok, resultIndex) => {
-      if (!ok) misses.push(urls[resultIndex]);
-    });
-  }
+  const paidKeys = allKeys.filter((key) => !freeKeys.has(key));
 
-  console.log(`Checked ${relativePaths.length} audio URLs. Missing: ${misses.length}.`);
-  if (misses.length > 0) {
-    console.error("First 10 misses:");
-    misses.slice(0, 10).forEach((url) => console.error(`  ${url}`));
-    process.exit(1);
+  const missingFree = await checkAll(
+    [...freeKeys].map((key) => `${baseUrl}/${PUBLIC_BUCKET}/${key}`),
+    true,
+  );
+  // Paid audio is checked against BOTH buckets: the private one must reject an unsigned
+  // read, and the public one must not hold a copy at all.
+  const exposedPaid = await checkAll(
+    paidKeys.flatMap((key) => [
+      `${baseUrl}/${PRIVATE_BUCKET}/${key}`,
+      `${baseUrl}/${PUBLIC_BUCKET}/${key}`,
+    ]),
+    false,
+  );
+
+  console.log(`Trial recordings publicly readable: ${freeKeys.size - missingFree.length}/${freeKeys.size}`);
+  console.log(`Paid recordings kept private: ${paidKeys.length * 2 - exposedPaid.length}/${paidKeys.length * 2} checks`);
+
+  if (missingFree.length > 0) {
+    console.error(`\n${missingFree.length} trial recording(s) NOT publicly readable. First 10:`);
+    missingFree.slice(0, 10).forEach((url) => console.error(`  ${url}`));
   }
+  if (exposedPaid.length > 0) {
+    console.error(`\n${exposedPaid.length} PAID recording(s) publicly readable. First 10:`);
+    exposedPaid.slice(0, 10).forEach((url) => console.error(`  ${url}`));
+  }
+  if (missingFree.length > 0 || exposedPaid.length > 0) process.exit(1);
 }
 
 main();

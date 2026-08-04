@@ -1,5 +1,20 @@
 # Project Changelog — TinySteps
 
+## 2026-08-03
+
+### Paywall hardening — content leaks closed before launch
+External review (Codex) plus verification found the entitlement checks were complete on lesson/writing/listening *pages* but absent on several paths that reach the same content. RLS, admin RPCs and secret handling held up; the gaps were all in application-level authorization.
+
+- **Vocabulary review was handing out paid content by default (highest impact).** `getReviewQueue()` drew new SRS cards straight from the level's entire word bank, unrelated to which lessons the learner had unlocked. A free account collected 20 paid words a day — word, IPA, example sentence and both audio files — by opening the review tab, and `/review` is in the main nav. On Starters that is 33 entitled words vs. 300 reachable. New `lib/access/unlocked-vocab.ts` derives the free word set from the free lessons' own `vocabulary_ids`; the queue now filters both new *and* due cards through it, so a refund also stops returning paid words. `submitReview` refuses locked vocabulary too.
+- **All audio was in one public bucket** (`createBucket("audio", { public: true })`) under sequential filenames, so the library was enumerable with no account — `starters_listening_002.mp3` answered 200 unauthenticated. Split along the paywall: `audio-free` (public, the 92 trial recordings) and `audio` (private, everything, read-gated on an active paid grant). Migration `000008`. Trial audio keeps plain cacheable CDN URLs; paid audio is signed per render, batched to one Storage round trip per page. New `lib/content/audio-access.ts`; `audio-manifest.ts` now returns manifest paths only.
+- **Lesson server actions did not re-check the gate** — `startLesson` and `submitLessonAnswers` required only a session, while the writing and listening actions already checked theirs. Progress on locked lessons could be faked, polluting streaks and completion counts. Both now call `canOpenLesson()`.
+- **Next.js 15.5.20 → 15.5.22**, clearing three high advisories (Server Actions DoS, SSRF on custom servers, cache confusion). `npm audit fix --force` was *not* used: it proposes downgrading to 14.2.35, which reintroduces those CVEs. The remaining `sharp`/libvips advisory is not actionable — no stable 0.35.x exists, the app does not use `next/image`, and no `remotePatterns` are configured, so the optimizer never handles untrusted images.
+- Supabase service-role key rotated (was exposed in chat; noted in `google-ai-ultra-friend-api-guide.md`).
+- `verify-audio-coverage.mjs` rewritten to assert the boundary both ways — trial audio must be publicly readable, paid audio must not be, in either bucket. Free-key derivation shared with the upload script via `scripts/free-audio-keys.mjs` so the two cannot drift.
+- Tests 140 → 149; added `pretest` content-prep hook and a `@data` vitest alias so content-backed modules are testable.
+
+**Deploy order:** apply migration `000008` → re-run `upload-audio-to-storage.mjs` (creates `audio-free`, flips `audio` private) → `verify-audio-coverage.mjs` → deploy app.
+
 ## 2026-07-14
 
 ### Phase 07 — Deploy scripts + guide (code-complete)

@@ -13,6 +13,10 @@ const mockRpc = vi.fn();
 const mockGetUser = vi.fn();
 const mockMaybeSingle = vi.fn();
 const mockUpsert = vi.fn();
+// Hoisted: vi.mock factories run before top-level consts are initialized.
+const { mockCanOpenLesson } = vi.hoisted(() => ({ mockCanOpenLesson: vi.fn() }));
+
+vi.mock("@/lib/access/paid-access", () => ({ canOpenLesson: mockCanOpenLesson }));
 
 // Chainable query builder: .from().select().eq().eq().maybeSingle() and .from().upsert()
 const mockFrom = vi.fn(() => ({
@@ -38,10 +42,14 @@ vi.mock("@/lib/content/lesson-loader", () => ({
 }));
 
 describe("submitLessonAnswers", () => {
+  beforeEach(() => {
+    mockCanOpenLesson.mockResolvedValue(true);
+  });
+
   it("computes score server-side and calls complete_lesson_rpc", async () => {
     // Setup mocks
     mockGetUser.mockResolvedValue({ data: { user: { id: "user-123" } } });
-    
+
     // @ts-expect-error Mocked return value
     lessonLoader.getLesson.mockReturnValue({
       id: "lesson-1",
@@ -64,6 +72,15 @@ describe("submitLessonAnswers", () => {
       p_score: 85,
     });
   });
+
+  it("refuses to score a lesson the learner has not unlocked", async () => {
+    mockGetUser.mockResolvedValue({ data: { user: { id: "user-123" } } });
+    mockRpc.mockClear();
+    mockCanOpenLesson.mockResolvedValue(false);
+
+    await expect(submitLessonAnswers("lesson-1", [])).rejects.toThrow("locked");
+    expect(mockRpc).not.toHaveBeenCalled();
+  });
 });
 
 describe("startLesson", () => {
@@ -73,6 +90,16 @@ describe("startLesson", () => {
     mockUpsert.mockReset();
     mockGetUser.mockResolvedValue({ data: { user: { id: "user-123" } } });
     mockUpsert.mockResolvedValue({ error: null });
+    mockCanOpenLesson.mockResolvedValue(true);
+  });
+
+  it("does not record progress for a lesson the learner has not unlocked", async () => {
+    mockCanOpenLesson.mockResolvedValue(false);
+    mockMaybeSingle.mockResolvedValue({ data: null, error: null });
+
+    await startLesson("lesson-1");
+
+    expect(mockUpsert).not.toHaveBeenCalled();
   });
 
   it("does not write when the progress read fails (fail closed, not silently ignored)", async () => {
