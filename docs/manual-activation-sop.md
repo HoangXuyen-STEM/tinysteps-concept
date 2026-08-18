@@ -39,9 +39,14 @@ on conflict (user_id) do nothing;
 
 1. **Nhận tiền.** App ngân hàng báo có, nội dung dạng `TINYSTEPS <email>`.
 2. **Đối soát.** Ghi dòng mới vào sheet. Kiểm tra số tiền khớp giá đang bán (199.000đ giai đoạn early-bird, 300.000đ sau đó).
-3. **Kích hoạt.** Cách nhanh: mở `/admin`, tìm theo email → điền số tiền + mã giao dịch + ghi chú → xác nhận.
-   Kích hoạt lại một tài khoản đã thu hồi sẽ **cập nhật đúng dòng cũ** (không tạo dòng trùng).
-   **Lưu ý audit:** lần kích hoạt lại cập nhật `granted_at`, `transfer_ref` và `note`; ghi chú `revoked: ...` cũ không được giữ trong record. Vì vậy sheet đối soát phải luôn lưu lý do hoàn tiền và lịch sử giao dịch.
+3. **Kích hoạt.**
+   - **Người học chưa có tài khoản:** mở `/admin` → form **Tạo tài khoản + kích hoạt VIP** (cần
+     `SUPABASE_SERVICE_ROLE_KEY`). Điền email + mật khẩu tạm + số tiền + mã giao dịch → 1 nút xong.
+     Gửi email + mật khẩu tạm cho người học để họ đăng nhập tại `/login`.
+   - **Người học đã có tài khoản:** mở `/admin` → **Tìm** theo email → điền số tiền + mã giao dịch +
+     ghi chú → **Kích hoạt**. Kích hoạt lại tài khoản đã thu hồi sẽ **cập nhật đúng dòng cũ**.
+   **Lưu ý audit:** lần kích hoạt lại cập nhật `granted_at`, `transfer_ref` và `note`; ghi chú
+   `revoked: ...` cũ không được giữ trong record. Vì vậy sheet đối soát phải luôn lưu lý do hoàn tiền.
    Cách thủ công (dự phòng) trong Supabase → SQL Editor:
 
 ```sql
