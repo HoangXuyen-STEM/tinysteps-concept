@@ -3,11 +3,13 @@
 import { getAdminIdentity } from "@/lib/admin/admin-auth";
 import {
   activateAccessSchema,
+  createUserAndActivateSchema,
   revokeAccessSchema,
   searchUserSchema,
 } from "@/lib/admin/paid-access-admin-schemas";
 import {
   activatePaidAccess,
+  createUserAndActivate,
   getLearnerAccessState,
   revokePaidAccess,
   type LearnerAccessState,
@@ -107,6 +109,59 @@ export async function revokeAccessAction(
       return { email, learner, error: reason };
     }
     return { email, learner, message: "Đã thu hồi quyền truy cập." };
+  } catch (error) {
+    return { email, error: toSafeError(error) };
+  }
+}
+
+export async function createUserAndActivateAction(
+  _prev: AdminActionState,
+  formData: FormData,
+): Promise<AdminActionState> {
+  if (!(await ensureAdmin())) return { error: FORBIDDEN };
+
+  const parsed = createUserAndActivateSchema.safeParse({
+    email: formData.get("email"),
+    password: formData.get("password"),
+    amountVnd: formData.get("amountVnd"),
+    transferRef: formData.get("transferRef"),
+    note: formData.get("note") ?? "",
+  });
+  if (!parsed.success) {
+    const email = String(formData.get("email") ?? "").trim().toLowerCase();
+    return { email, error: parsed.error.issues[0]?.message ?? "Dữ liệu không hợp lệ." };
+  }
+
+  const { email } = parsed.data;
+  try {
+    const result = await createUserAndActivate(parsed.data);
+    if (!result.ok) {
+      if (result.reason === "service_not_configured") {
+        return {
+          email,
+          error:
+            "Chưa cấu hình SUPABASE_SERVICE_ROLE_KEY trên máy chủ. Thêm biến Sensitive trên Vercel rồi thử lại.",
+        };
+      }
+      if (result.reason === "email_exists") {
+        // Account already exists — fall back to search so admin can just activate.
+        const learner = await getLearnerAccessState(email);
+        return {
+          email,
+          learner,
+          error:
+            "Email đã có tài khoản. Dùng nút Tìm bên trên rồi Kích hoạt (không tạo lại).",
+        };
+      }
+      return { email, error: "Không tạo được tài khoản. Vui lòng thử lại." };
+    }
+
+    const learner = await getLearnerAccessState(email);
+    return {
+      email,
+      learner,
+      message: `Đã tạo tài khoản và kích hoạt VIP cho ${email}.`,
+    };
   } catch (error) {
     return { email, error: toSafeError(error) };
   }

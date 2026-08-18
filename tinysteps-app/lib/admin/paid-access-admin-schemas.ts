@@ -37,5 +37,19 @@ export const revokeAccessSchema = z.object({
   reason,
 });
 
+// Create a new Auth user with a temporary password, then grant paid access in one step.
+// Password rules match Supabase Auth defaults (min 6); we ask for 8+ for pilot safety.
+export const createUserAndActivateSchema = z.object({
+  email,
+  password: z
+    .string()
+    .min(8, "Mật khẩu tối thiểu 8 ký tự.")
+    .max(72, "Mật khẩu tối đa 72 ký tự."),
+  amountVnd,
+  transferRef,
+  note,
+});
+
 export type ActivateAccessInput = z.infer<typeof activateAccessSchema>;
 export type RevokeAccessInput = z.infer<typeof revokeAccessSchema>;
+export type CreateUserAndActivateInput = z.infer<typeof createUserAndActivateSchema>;

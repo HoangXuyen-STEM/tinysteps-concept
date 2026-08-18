@@ -1,6 +1,11 @@
 import "server-only";
 import { createClient } from "@/utils/supabase/server";
-import type { ActivateAccessInput, RevokeAccessInput } from "./paid-access-admin-schemas";
+import { createAdminClient, AdminConfigError } from "@/utils/supabase/admin";
+import type {
+  ActivateAccessInput,
+  CreateUserAndActivateInput,
+  RevokeAccessInput,
+} from "./paid-access-admin-schemas";
 
 export type PaidAccessRow = {
   user_id: string;
@@ -93,4 +98,56 @@ export async function revokePaidAccess(
   return data as
     | { ok: true; access: PaidAccessRow }
     | { ok: false; reason: "not_found" | "already_revoked" };
+}
+
+export type CreateUserResult =
+  | { ok: true; userId: string; email: string; access: PaidAccessRow }
+  | { ok: false; reason: "email_exists" | "service_not_configured" | "create_failed"; detail?: string };
+
+/**
+ * Create a new Auth user (email already confirmed) with a temporary password, then grant
+ * paid access via the existing SECURITY DEFINER RPC. Uses the service-role client only for
+ * auth.admin.createUser — grant still runs as the signed-in admin through the RPC so the
+ * admin_users boundary stays intact.
+ */
+export async function createUserAndActivate(
+  input: CreateUserAndActivateInput,
+): Promise<CreateUserResult> {
+  let admin;
+  try {
+    admin = createAdminClient();
+  } catch (error) {
+    if (error instanceof AdminConfigError) {
+      return { ok: false, reason: "service_not_configured", detail: error.message };
+    }
+    throw error;
+  }
+
+  const { data: created, error: createError } = await admin.auth.admin.createUser({
+    email: input.email,
+    password: input.password,
+    email_confirm: true,
+  });
+
+  if (createError) {
+    const msg = createError.message?.toLowerCase() ?? "";
+    if (msg.includes("already") || msg.includes("registered") || msg.includes("exists")) {
+      return { ok: false, reason: "email_exists", detail: createError.message };
+    }
+    return { ok: false, reason: "create_failed", detail: createError.message };
+  }
+
+  const userId = created.user?.id;
+  if (!userId) {
+    return { ok: false, reason: "create_failed", detail: "No user id returned." };
+  }
+
+  const access = await activatePaidAccess({
+    userId,
+    amountVnd: input.amountVnd,
+    transferRef: input.transferRef,
+    note: input.note,
+  });
+
+  return { ok: true, userId, email: input.email, access };
 }

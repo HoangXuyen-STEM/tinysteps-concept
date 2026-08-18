@@ -5,6 +5,7 @@ import {
   searchUserAction,
   activateAccessAction,
   revokeAccessAction,
+  createUserAndActivateAction,
   type AdminActionState,
 } from "./admin-actions";
 import type { LearnerAccessState } from "@/lib/admin/paid-access-admin";
@@ -51,6 +52,7 @@ export function AdminDashboard({ adminEmail }: { adminEmail: string }) {
   const [searchState, searchAction, searching] = useActionState(searchUserAction, empty);
   const [activateState, activateAction, activating] = useActionState(activateAccessAction, empty);
   const [revokeState, revokeAction, revoking] = useActionState(revokeAccessAction, empty);
+  const [createState, createAction, creating] = useActionState(createUserAndActivateAction, empty);
 
   // The learner shown is whichever action most recently resolved with a result. Only one form
   // runs per interaction, so syncing each action's payload into local state keeps the panel in
@@ -59,14 +61,14 @@ export function AdminDashboard({ adminEmail }: { adminEmail: string }) {
   const [email, setEmail] = useState<string>("");
 
   useEffect(() => {
-    for (const state of [searchState, activateState, revokeState]) {
+    for (const state of [searchState, activateState, revokeState, createState]) {
       if (state.email) setEmail(state.email);
       if (state.learner) setLearner(state.learner);
     }
-  }, [searchState, activateState, revokeState]);
+  }, [searchState, activateState, revokeState, createState]);
 
   const userId = learner?.found ? learner.userId : "";
-  const messages = [searchState, activateState, revokeState];
+  const messages = [searchState, activateState, revokeState, createState];
   const error = messages.map((s) => s.error).find(Boolean);
   const message = messages.map((s) => s.message).find(Boolean);
 
@@ -77,6 +79,87 @@ export function AdminDashboard({ adminEmail }: { adminEmail: string }) {
         <p className="mt-1 text-sm text-slate-500">Đăng nhập: {adminEmail}</p>
       </header>
 
+      <section className="mb-8 rounded-xl border border-teal-200 bg-teal-50/40 p-4">
+        <h2 className="font-semibold text-slate-900">Tạo tài khoản + kích hoạt VIP</h2>
+        <p className="mt-1 text-sm text-slate-600">
+          Tạo email/mật khẩu mới và mở toàn bộ nội dung trong một bước. Dùng cho pilot hoặc khi
+          người học chưa tự đăng ký.
+        </p>
+        <form
+          action={createAction}
+          onSubmit={(e) => {
+            const form = e.currentTarget;
+            const newEmail = (form.elements.namedItem("email") as HTMLInputElement)?.value;
+            if (!confirm(`Tạo tài khoản và kích hoạt VIP cho ${newEmail}?`)) e.preventDefault();
+          }}
+          className="mt-4 grid gap-3 sm:grid-cols-2"
+        >
+          <div className="space-y-1 sm:col-span-2">
+            <label className={label} htmlFor="create-email">
+              Email học viên
+            </label>
+            <input id="create-email" name="email" type="email" required className={input} />
+          </div>
+          <div className="space-y-1">
+            <label className={label} htmlFor="create-password">
+              Mật khẩu tạm (tối thiểu 8 ký tự)
+            </label>
+            <input
+              id="create-password"
+              name="password"
+              type="text"
+              required
+              minLength={8}
+              className={input}
+              autoComplete="off"
+            />
+          </div>
+          <div className="space-y-1">
+            <label className={label} htmlFor="create-amount">
+              Số tiền (VND)
+            </label>
+            <input
+              id="create-amount"
+              name="amountVnd"
+              type="number"
+              min="1"
+              required
+              defaultValue={199000}
+              className={input}
+            />
+          </div>
+          <div className="space-y-1">
+            <label className={label} htmlFor="create-ref">
+              Mã giao dịch / tham chiếu
+            </label>
+            <input
+              id="create-ref"
+              name="transferRef"
+              type="text"
+              required
+              defaultValue="PILOT"
+              className={input}
+            />
+          </div>
+          <div className="space-y-1">
+            <label className={label} htmlFor="create-note">
+              Ghi chú
+            </label>
+            <input id="create-note" name="note" type="text" defaultValue="pilot" className={input} />
+          </div>
+          <div className="sm:col-span-2">
+            <button
+              type="submit"
+              disabled={creating}
+              className="w-full rounded-lg bg-teal-700 py-2 font-semibold text-white disabled:opacity-60"
+            >
+              {creating ? "Đang tạo…" : "Tạo tài khoản + kích hoạt VIP"}
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <h2 className="mb-2 font-semibold text-slate-900">Tìm & quản lý học viên có sẵn</h2>
       <form action={searchAction} className="flex gap-2">
         <input
           name="email"
