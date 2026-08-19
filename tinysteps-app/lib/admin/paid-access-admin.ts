@@ -167,12 +167,23 @@ export type LearnerProgressSummary = {
  * Fetch the progress overview for all learners via SECURITY DEFINER RPC.
  * Only authenticated admin sessions receive rows — non-admins trigger a 403.
  */
+type LearnerProgressRpcRow = {
+  user_id: string;
+  email: string;
+  last_sign_in_at: string | null;
+  created_at: string;
+  is_paid: boolean;
+  lessons_completed: number | string;
+  lessons_in_progress: number | string;
+  days_active: number | string;
+};
+
 export async function getLearnerProgressOverview(): Promise<LearnerProgressSummary[]> {
   const supabase = await createClient();
   const { data, error } = await supabase.rpc("admin_list_learner_progress");
   if (error) throw error;
 
-  return ((data ?? []) as any[]).map((row) => ({
+  return ((data ?? []) as LearnerProgressRpcRow[]).map((row) => ({
     userId: row.user_id,
     email: row.email,
     lastSignInAt: row.last_sign_in_at,
