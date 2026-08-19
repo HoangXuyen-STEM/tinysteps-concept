@@ -264,13 +264,20 @@ export function AdminDashboard({
         </section>
       ) : null}
 
-      {progressList.length > 0 ? (
-        <section className="mt-10 rounded-xl border border-slate-200 p-4">
-          <h2 className="font-semibold text-slate-900">Tiến trình học tập học viên</h2>
-          <p className="mt-1 text-xs text-slate-500">
-            Thống kê thời gian thực từ hệ thống ({progressList.length} học viên).
-          </p>
+      <section className="mt-10 rounded-xl border border-slate-200 p-4">
+        <h2 className="font-semibold text-slate-900">Tiến trình học tập học viên</h2>
+        <p className="mt-1 text-xs text-slate-500">
+          Thống kê thời gian thực từ hệ thống
+          {progressList.length > 0 ? ` (${progressList.length} học viên).` : "."}
+        </p>
 
+        {progressList.length === 0 ? (
+          <p className="mt-4 rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-800">
+            Chưa có dữ liệu học viên để hiển thị. Kiểm tra đã chạy migration{" "}
+            <code className="rounded bg-amber-100 px-1">000009</code> trên Supabase chưa, rồi
+            tải lại trang.
+          </p>
+        ) : (
           <div className="mt-4 overflow-x-auto">
             <table className="w-full text-left text-sm">
               <thead className="border-b border-slate-200 bg-slate-50 text-xs font-semibold text-slate-600">
@@ -317,8 +324,8 @@ export function AdminDashboard({
               </tbody>
             </table>
           </div>
-        </section>
-      ) : null}
+        )}
+      </section>
     </main>
   );
 }
