@@ -8,7 +8,8 @@ import {
   createUserAndActivateAction,
   type AdminActionState,
 } from "./admin-actions";
-import type { LearnerAccessState } from "@/lib/admin/paid-access-admin";
+import type { LearnerAccessState, LearnerProgressSummary } from "@/lib/admin/paid-access-admin";
+
 
 const empty: AdminActionState = {};
 
@@ -48,7 +49,13 @@ function AccessBadge({ access }: { access: LearnerAccessState }) {
 const input = "w-full rounded-lg border border-slate-300 px-3 py-2 text-base";
 const label = "text-sm font-medium text-slate-700";
 
-export function AdminDashboard({ adminEmail }: { adminEmail: string }) {
+export function AdminDashboard({
+  adminEmail,
+  progressList = [],
+}: {
+  adminEmail: string;
+  progressList?: LearnerProgressSummary[];
+}) {
   const [searchState, searchAction, searching] = useActionState(searchUserAction, empty);
   const [activateState, activateAction, activating] = useActionState(activateAccessAction, empty);
   const [revokeState, revokeAction, revoking] = useActionState(revokeAccessAction, empty);
@@ -254,6 +261,62 @@ export function AdminDashboard({ adminEmail }: { adminEmail: string }) {
               </form>
             </div>
           ) : null}
+        </section>
+      ) : null}
+
+      {progressList.length > 0 ? (
+        <section className="mt-10 rounded-xl border border-slate-200 p-4">
+          <h2 className="font-semibold text-slate-900">Tiến trình học tập học viên</h2>
+          <p className="mt-1 text-xs text-slate-500">
+            Thống kê thời gian thực từ hệ thống ({progressList.length} học viên).
+          </p>
+
+          <div className="mt-4 overflow-x-auto">
+            <table className="w-full text-left text-sm">
+              <thead className="border-b border-slate-200 bg-slate-50 text-xs font-semibold text-slate-600">
+                <tr>
+                  <th className="py-2 px-2">Học viên</th>
+                  <th className="py-2 px-2">Quyền VIP</th>
+                  <th className="py-2 px-2">Đăng nhập mới nhất</th>
+                  <th className="py-2 px-2 text-center">Đã hoàn thành</th>
+                  <th className="py-2 px-2 text-center">Đang học</th>
+                  <th className="py-2 px-2 text-center">Ngày học</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100 text-slate-700">
+                {progressList.map((item) => (
+                  <tr key={item.userId} className="hover:bg-slate-50/60">
+                    <td className="py-2 px-2 font-medium text-slate-900">{item.email}</td>
+                    <td className="py-2 px-2">
+                      {item.isPaid ? (
+                        <span className="rounded bg-teal-100 px-2 py-0.5 text-xs font-semibold text-teal-800">
+                          VIP
+                        </span>
+                      ) : (
+                        <span className="rounded bg-slate-100 px-2 py-0.5 text-xs text-slate-500">
+                          Miễn phí
+                        </span>
+                      )}
+                    </td>
+                    <td className="py-2 px-2 text-xs text-slate-500">
+                      {item.lastSignInAt
+                        ? new Date(item.lastSignInAt).toLocaleString("vi-VN")
+                        : "Chưa vào"}
+                    </td>
+                    <td className="py-2 px-2 text-center font-semibold text-teal-700">
+                      {item.lessonsCompleted} bài
+                    </td>
+                    <td className="py-2 px-2 text-center text-slate-600">
+                      {item.lessonsInProgress} bài
+                    </td>
+                    <td className="py-2 px-2 text-center text-slate-600">
+                      {item.daysActive} ngày
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
       ) : null}
     </main>

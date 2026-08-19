@@ -151,3 +151,36 @@ export async function createUserAndActivate(
 
   return { ok: true, userId, email: input.email, access };
 }
+
+export type LearnerProgressSummary = {
+  userId: string;
+  email: string;
+  lastSignInAt: string | null;
+  createdAt: string;
+  isPaid: boolean;
+  lessonsCompleted: number;
+  lessonsInProgress: number;
+  daysActive: number;
+};
+
+/**
+ * Fetch the progress overview for all learners via SECURITY DEFINER RPC.
+ * Only authenticated admin sessions receive rows — non-admins trigger a 403.
+ */
+export async function getLearnerProgressOverview(): Promise<LearnerProgressSummary[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("admin_list_learner_progress");
+  if (error) throw error;
+
+  return ((data ?? []) as any[]).map((row) => ({
+    userId: row.user_id,
+    email: row.email,
+    lastSignInAt: row.last_sign_in_at,
+    createdAt: row.created_at,
+    isPaid: Boolean(row.is_paid),
+    lessonsCompleted: Number(row.lessons_completed ?? 0),
+    lessonsInProgress: Number(row.lessons_in_progress ?? 0),
+    daysActive: Number(row.days_active ?? 0),
+  }));
+}
+

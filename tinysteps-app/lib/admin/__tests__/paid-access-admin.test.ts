@@ -14,7 +14,13 @@ vi.mock("@/utils/supabase/server", () => ({
 }));
 
 // Imported after the mock is registered.
-import { activatePaidAccess, revokePaidAccess, getLearnerAccessState } from "../paid-access-admin";
+import {
+  activatePaidAccess,
+  revokePaidAccess,
+  getLearnerAccessState,
+  getLearnerProgressOverview,
+} from "../paid-access-admin";
+
 
 beforeEach(() => {
   vi.clearAllMocks();
@@ -161,3 +167,39 @@ describe("getLearnerAccessState", () => {
     await expect(getLearnerAccessState("owner@example.com")).rejects.toBeTruthy();
   });
 });
+
+describe("getLearnerProgressOverview", () => {
+  it("calls admin_list_learner_progress RPC and maps rows correctly", async () => {
+    rpcSpy.mockResolvedValue({
+      data: [
+        {
+          user_id: "u1",
+          email: "student01@example.com",
+          last_sign_in_at: "2026-08-19T07:00:00Z",
+          created_at: "2026-08-18T00:00:00Z",
+          is_paid: true,
+          lessons_completed: "5",
+          lessons_in_progress: "2",
+          days_active: "3",
+        },
+      ],
+      error: null,
+    });
+
+    const list = await getLearnerProgressOverview();
+    expect(rpcSpy).toHaveBeenCalledWith("admin_list_learner_progress");
+    expect(list).toEqual([
+      {
+        userId: "u1",
+        email: "student01@example.com",
+        lastSignInAt: "2026-08-19T07:00:00Z",
+        createdAt: "2026-08-18T00:00:00Z",
+        isPaid: true,
+        lessonsCompleted: 5,
+        lessonsInProgress: 2,
+        daysActive: 3,
+      },
+    ]);
+  });
+});
+

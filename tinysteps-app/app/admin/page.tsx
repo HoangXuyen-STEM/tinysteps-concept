@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getAdminIdentity } from "@/lib/admin/admin-auth";
+import { getLearnerProgressOverview, type LearnerProgressSummary } from "@/lib/admin/paid-access-admin";
 import { AdminDashboard } from "./admin-dashboard";
 
 // Never cache: this surface reads and mutates live access state.
@@ -18,5 +19,13 @@ export default async function AdminPage() {
   const identity = await getAdminIdentity();
   if (!identity) notFound();
 
-  return <AdminDashboard adminEmail={identity.email} />;
+  let progressList: LearnerProgressSummary[] = [];
+  try {
+    progressList = await getLearnerProgressOverview();
+  } catch (err) {
+    console.error("Failed to load learner progress overview:", err);
+  }
+
+  return <AdminDashboard adminEmail={identity.email} progressList={progressList} />;
 }
+
