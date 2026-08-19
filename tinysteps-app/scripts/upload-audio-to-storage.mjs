@@ -85,21 +85,28 @@ async function main() {
   if (overwrite) console.log("--overwrite: replacing objects that already exist.");
   if (requestedKeys.size > 0) console.log(`Selective upload: ${requestedKeys.size} requested files.`);
 
+  const filePaths = [];
   for await (const filePath of walkMp3(audioRoot)) {
+    filePaths.push(filePath);
+  }
+
+  console.log(`Found ${filePaths.length} MP3 files locally. Uploading with concurrency=25...`);
+
+  const concurrency = 25;
+  let processed = 0;
+
+  async function uploadOne(filePath) {
     const key = relative(audioRoot, filePath).replaceAll("\\", "/");
-    if (requestedKeys.size > 0 && !requestedKeys.has(key)) continue;
+    if (requestedKeys.size > 0 && !requestedKeys.has(key)) return;
     selected++;
     const body = await readFile(filePath);
 
-    // Every file lands in the private bucket; trial files are additionally copied to the
-    // public one. Counters track the private upload — the canonical set.
     const targets = freeKeys.has(key) ? [PRIVATE_BUCKET, PUBLIC_BUCKET] : [PRIVATE_BUCKET];
     let error = null;
     for (const bucket of targets) {
       const result = await supabase.storage
         .from(bucket)
         .upload(key, body, { contentType: "audio/mpeg", upsert: overwrite });
-      // Report the first real failure; "already exists" from either bucket is benign.
       if (result.error && !/already exists|Duplicate/i.test(result.error.message)) {
         error = result.error;
         break;
@@ -115,13 +122,23 @@ async function main() {
       failed++;
       console.error(`FAILED ${key}: ${error.message}`);
     }
+
+    processed++;
+    if (processed % 500 === 0 || processed === filePaths.length) {
+      console.log(`Progress: ${processed}/${filePaths.length} (uploaded ${uploaded}, skipped ${skipped}, failed ${failed})`);
+    }
+  }
+
+  for (let i = 0; i < filePaths.length; i += concurrency) {
+    const chunk = filePaths.slice(i, i + concurrency);
+    await Promise.all(chunk.map(uploadOne));
   }
 
   if (requestedKeys.size > 0 && selected !== requestedKeys.size) {
     failed += requestedKeys.size - selected;
     console.error(`${requestedKeys.size - selected} requested files were not found under ${audioRoot}.`);
   }
-  console.log(`Uploaded ${uploaded}, skipped (already present) ${skipped}, failed ${failed}.`);
+  console.log(`Finished! Uploaded ${uploaded}, skipped (already present) ${skipped}, failed ${failed}.`);
   if (failed > 0) process.exit(1);
 }
 
