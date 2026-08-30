@@ -4,7 +4,7 @@
   "topic_id": "topic_restaurant",
   "order": 20,
   "title": "At the restaurant",
-  "scenario": "You are in a customer role. Use English naturally in this restaurant situation.",
+  "scenario": "You sit with a friend at a restaurant and order food.",
   "estimated_minutes": 6,
   "dialogue": {
     "setting": "Local restaurant, Friday afternoon",
@@ -223,8 +223,8 @@
   ],
   "ai_conversation": {
     "role": "waiter",
-    "scenario": "Take an order from a diner at a restaurant.",
-    "opening_line": "Welcome! What would you like to order today?",
+    "scenario": "Order food politely at a restaurant.",
+    "opening_line": "Hello! What do you recommend for lunch?",
     "level_constraints": {
       "max_sentence_length": 8,
       "allowed_grammar": [
@@ -238,5 +238,18 @@
       ]
     },
     "success_criteria": "Learner orders food, states preferences, and asks for the bill."
-  }
+  },
+  "takeaway_lines": [
+    "I want the same as yesterday — soup and rice.",
+    "Hello! I came to this restaurant yesterday.",
+    "I will bring your order very soon.",
+    "Yes, please. And a bottle of water."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

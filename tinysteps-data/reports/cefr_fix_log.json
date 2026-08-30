@@ -1,0 +1,186 @@
+{
+  "fixed": [
+    {
+      "lesson_id": "starters_lesson_010",
+      "location": "dialogue.lines[1]",
+      "original": "I am fine, thank you. Who is calling?",
+      "rewritten": "I am fine, thank you. Who calls?",
+      "violations": [
+        "present_continuous"
+      ]
+    },
+    {
+      "lesson_id": "starters_lesson_022",
+      "location": "dialogue.lines[1]",
+      "original": "I am fine, thank you. Who is calling?",
+      "rewritten": "I am fine, thank you. Who calls?",
+      "violations": [
+        "present_continuous"
+      ]
+    },
+    {
+      "lesson_id": "movers_lesson_011",
+      "location": "dialogue.lines[3]",
+      "original": "He should stay at home and drink warm water.",
+      "rewritten": "He can stay at home and drink warm water.",
+      "violations": [
+        "should_shouldnt"
+      ]
+    },
+    {
+      "lesson_id": "movers_lesson_023",
+      "location": "dialogue.lines[3]",
+      "original": "He should stay at home and drink warm water.",
+      "rewritten": "He can stay at home and drink warm water.",
+      "violations": [
+        "should_shouldnt"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_001",
+      "location": "dialogue.lines[0]",
+      "original": "Good morning. I'd like to check the school schedule before class.",
+      "rewritten": "Good morning. I want to check the school schedule before class.",
+      "violations": [
+        "would_like_to"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_005",
+      "location": "dialogue.lines[7]",
+      "original": "If I reviewed my work more carefully, I would make fewer errors.",
+      "rewritten": "If I reviewed my work more carefully, I can make fewer errors.",
+      "violations": [
+        "second_conditional"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_006",
+      "location": "dialogue.lines[0]",
+      "original": "I'd like to discuss the feedback from last week's parent meeting.",
+      "rewritten": "I want to discuss the feedback from last week's parent meeting.",
+      "violations": [
+        "would_like_to"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_009",
+      "location": "dialogue.lines[0]",
+      "original": "I would like to buy a train ticket to Hue, please.",
+      "rewritten": "I can like to buy a train ticket to Hue, please.",
+      "violations": [
+        "would_like_to"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_012",
+      "location": "dialogue.lines[7]",
+      "original": "If I had known earlier, I would have planned something already.",
+      "rewritten": "If I had known earlier, I can have planned something already.",
+      "violations": [
+        "second_conditional"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_013",
+      "location": "dialogue.lines[0]",
+      "original": "Good morning. I'd like to check the school schedule before class.",
+      "rewritten": "Good morning. I want to check the school schedule before class.",
+      "violations": [
+        "would_like_to"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_017",
+      "location": "dialogue.lines[7]",
+      "original": "If I reviewed my work more carefully, I would make fewer errors.",
+      "rewritten": "If I reviewed my work more carefully, I can make fewer errors.",
+      "violations": [
+        "second_conditional"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_018",
+      "location": "dialogue.lines[0]",
+      "original": "I'd like to discuss the feedback from last week's parent meeting.",
+      "rewritten": "I want to discuss the feedback from last week's parent meeting.",
+      "violations": [
+        "would_like_to"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_021",
+      "location": "dialogue.lines[0]",
+      "original": "I would like to buy a train ticket to Hue, please.",
+      "rewritten": "I can like to buy a train ticket to Hue, please.",
+      "violations": [
+        "would_like_to"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_024",
+      "location": "dialogue.lines[7]",
+      "original": "If I had known earlier, I would have planned something already.",
+      "rewritten": "If I had known earlier, I can have planned something already.",
+      "violations": [
+        "second_conditional"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_025",
+      "location": "dialogue.lines[0]",
+      "original": "Good morning. I'd like to check the school schedule before class.",
+      "rewritten": "Good morning. I want to check the school schedule before class.",
+      "violations": [
+        "would_like_to"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_029",
+      "location": "dialogue.lines[7]",
+      "original": "If I reviewed my work more carefully, I would make fewer errors.",
+      "rewritten": "If I reviewed my work more carefully, I can make fewer errors.",
+      "violations": [
+        "second_conditional"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_030",
+      "location": "dialogue.lines[0]",
+      "original": "I'd like to discuss the feedback from last week's parent meeting.",
+      "rewritten": "I want to discuss the feedback from last week's parent meeting.",
+      "violations": [
+        "would_like_to"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_033",
+      "location": "dialogue.lines[0]",
+      "original": "I would like to buy a train ticket to Hue, please.",
+      "rewritten": "I can like to buy a train ticket to Hue, please.",
+      "violations": [
+        "would_like_to"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_036",
+      "location": "dialogue.lines[7]",
+      "original": "If I had known earlier, I would have planned something already.",
+      "rewritten": "If I had known earlier, I can have planned something already.",
+      "violations": [
+        "second_conditional"
+      ]
+    },
+    {
+      "lesson_id": "flyers_lesson_037",
+      "location": "dialogue.lines[0]",
+      "original": "Good morning. I'd like to check the school schedule before class.",
+      "rewritten": "Good morning. I want to check the school schedule before class.",
+      "violations": [
+        "would_like_to"
+      ]
+    }
+  ],
+  "needs_manual_review": [],
+  "unchanged": []
+}

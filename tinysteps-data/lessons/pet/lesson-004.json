@@ -4,7 +4,7 @@
   "topic_id": "topic_checking_understanding",
   "order": 4,
   "title": "Checking understanding",
-  "scenario": "You are in a teacher role. Use English naturally in this checking understanding situation.",
+  "scenario": "Following a complex listening passage, you check student comprehension.",
   "estimated_minutes": 12,
   "dialogue": {
     "setting": "English lab, Thursday morning",
@@ -84,7 +84,7 @@
       "instruction": "Match the picture with the correct word.",
       "items": [
         {
-          "image_hint": "an action illustration showing a person to ask",
+          "image_hint": "a person trying to ask in a classroom",
           "correct_answer": "ask"
         },
         {
@@ -92,7 +92,7 @@
           "correct_answer": "definition"
         },
         {
-          "image_hint": "an action illustration showing a person to follow",
+          "image_hint": "a person trying to follow in a classroom",
           "correct_answer": "follow"
         }
       ]
@@ -196,11 +196,11 @@
         },
         {
           "prompt": "If they didn't understand, I ___ explain it again.",
-          "correct_answer": "would"
+          "correct_answer": "please"
         },
         {
           "prompt": "If the price were lower, I ___ buy more fruit.",
-          "correct_answer": "would"
+          "correct_answer": "now"
         }
       ]
     },
@@ -216,7 +216,7 @@
             "ask"
           ],
           "correct_answer": "ask",
-          "image_hint": "an action illustration showing a person to ask"
+          "image_hint": "a person trying to ask in a classroom"
         },
         {
           "prompt": "What is this?",
@@ -236,15 +236,15 @@
             "follow"
           ],
           "correct_answer": "follow",
-          "image_hint": "an action illustration showing a person to follow"
+          "image_hint": "a person trying to follow in a classroom"
         }
       ]
     }
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Confirm comprehension of the classroom rules.",
-    "opening_line": "Teacher, are we supposed to explain or just write it?",
+    "scenario": "Check student comprehension and clarify instructions.",
+    "opening_line": "Teacher, could you confirm if we missed any key points in the listening text?",
     "level_constraints": {
       "max_sentence_length": 15,
       "allowed_grammar": [
@@ -258,5 +258,18 @@
       ]
     },
     "success_criteria": "Learner checks understanding and gently clarifies rules."
-  }
+  },
+  "takeaway_lines": [
+    "Let's check if everyone understood the listening exercise.",
+    "I followed the main idea, but missed some details.",
+    "That is fine for now. What was the main topic?",
+    "The speakers were discussing a school event."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

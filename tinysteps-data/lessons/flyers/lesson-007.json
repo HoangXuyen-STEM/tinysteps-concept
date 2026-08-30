@@ -4,7 +4,7 @@
   "topic_id": "topic_market",
   "order": 7,
   "title": "At the market",
-  "scenario": "You are in a buyer role. Use English naturally in this market situation.",
+  "scenario": "At a market stall, you request a price list for several items.",
   "estimated_minutes": 8,
   "dialogue": {
     "setting": "Local market stall, Tuesday morning",
@@ -23,7 +23,7 @@
     "lines": [
       {
         "character_id": "char_a",
-        "text": "Could I see the price list for these items, please?"
+        "text": "May I see the price list for these items, please?"
       },
       {
         "character_id": "char_b",
@@ -227,8 +227,8 @@
   ],
   "ai_conversation": {
     "role": "seller",
-    "scenario": "Bargain with a buyer at the market stall.",
-    "opening_line": "Fresh vegetables here! Would you like to buy some?",
+    "scenario": "Inquire about items, compare options, and ask for prices at the market.",
+    "opening_line": "Excuse me! May I see the price list for these fresh items?",
     "level_constraints": {
       "max_sentence_length": 10,
       "allowed_grammar": [
@@ -242,5 +242,18 @@
       ]
     },
     "success_criteria": "Learner asks for prices and negotiates politely."
-  }
+  },
+  "takeaway_lines": [
+    "May I see the price list for these items, please?",
+    "Of course. Here is today's price list.",
+    "The price for organic vegetables is quite high.",
+    "I apologise, but the quality is excellent."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

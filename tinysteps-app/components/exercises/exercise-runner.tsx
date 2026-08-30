@@ -10,6 +10,7 @@ import { ArrangeExerciseComponent } from "./arrange-exercise";
 import { ListenChooseExerciseComponent } from "./listen-choose-exercise";
 import { FillBlankExerciseComponent } from "./fill-blank-exercise";
 import { MultipleChoiceExerciseComponent } from "./multiple-choice-exercise";
+import { PictureYesNoExerciseComponent } from "./picture-yes-no-exercise";
 
 type Props = {
   lessonId: string;
@@ -101,6 +102,17 @@ export function ExerciseRunner({ lessonId, exercises, audioUrls, onComplete }: P
     case "multiple_choice":
       return (
         <MultipleChoiceExerciseComponent
+          key={currentExerciseIndex}
+          lessonId={lessonId}
+          exercise={exercise}
+          exerciseIndex={currentExerciseIndex}
+          onItemAnswer={handleItemAnswer}
+          onComplete={handleExerciseComplete}
+        />
+      );
+    case "picture_yes_no":
+      return (
+        <PictureYesNoExerciseComponent
           key={currentExerciseIndex}
           lessonId={lessonId}
           exercise={exercise}

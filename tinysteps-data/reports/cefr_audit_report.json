@@ -1,0 +1,28 @@
+{
+  "total_lessons": 175,
+  "lessons_with_violations": 0,
+  "violation_count": 0,
+  "violations": [],
+  "summary_by_level": {
+    "starters": {
+      "total": 30,
+      "violations": 0
+    },
+    "movers": {
+      "total": 30,
+      "violations": 0
+    },
+    "flyers": {
+      "total": 40,
+      "violations": 0
+    },
+    "ket": {
+      "total": 35,
+      "violations": 0
+    },
+    "pet": {
+      "total": 40,
+      "violations": 0
+    }
+  }
+}

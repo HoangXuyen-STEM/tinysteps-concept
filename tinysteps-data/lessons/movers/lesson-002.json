@@ -4,7 +4,7 @@
   "topic_id": "topic_in_class",
   "order": 2,
   "title": "Learning in the classroom",
-  "scenario": "You are in a teacher role. Use English naturally in this in class situation.",
+  "scenario": "Period two starts. You check books and ask a student to read aloud.",
   "estimated_minutes": 6,
   "dialogue": {
     "setting": "Classroom, Tuesday morning",
@@ -35,7 +35,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "I opened it. Should I read aloud?"
+        "text": "I opened it. Do I read aloud?"
       },
       {
         "character_id": "char_a",
@@ -225,8 +225,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Ask questions during class about the lesson.",
-    "opening_line": "Teacher, can you help me? I don't understand the task.",
+    "scenario": "Follow simple classroom instructions.",
+    "opening_line": "Teacher, which page should I open?",
     "level_constraints": {
       "max_sentence_length": 8,
       "allowed_grammar": [
@@ -240,5 +240,18 @@
       ]
     },
     "success_criteria": "Learner explains the task clearly using simple English."
-  }
+  },
+  "takeaway_lines": [
+    "I am reading it now.",
+    "Good. Open it to page twelve.",
+    "Excellent. Very good progress!",
+    "Yes, teacher. Here is my book."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

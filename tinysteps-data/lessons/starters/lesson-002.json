@@ -1,45 +1,54 @@
 {
   "id": "starters_lesson_002",
   "level": "starters",
+  "schema_version": 2,
   "topic_id": "topic_in_class",
   "order": 2,
-  "title": "Learning in the classroom",
-  "scenario": "You are in a teacher role. Use English naturally in this in class situation.",
+  "title": "Open your book",
+  "scenario": "The class is noisy. You give short instructions.",
   "estimated_minutes": 4,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ],
+  "takeaway_lines": [
+    "Listen to me.",
+    "Look at the board.",
+    "Don't run.",
+    "Close your book."
+  ],
   "dialogue": {
-    "setting": "Classroom, Tuesday morning",
+    "setting": "Classroom, students are noisy",
     "characters": [
       {
         "id": "char_a",
-        "name": "Mr. Duc",
+        "name": "Mr. Binh",
         "role": "teacher"
       },
       {
         "id": "char_b",
-        "name": "Lan",
+        "name": "Nam",
         "role": "student"
       }
     ],
     "lines": [
       {
         "character_id": "char_a",
-        "text": "Stand up, class! Good morning!"
+        "text": "Listen to me, please."
       },
       {
         "character_id": "char_b",
-        "text": "Good morning, teacher!"
+        "text": "Yes, teacher."
       },
       {
         "character_id": "char_a",
-        "text": "Sit down. Look at the board."
+        "text": "Don't run in class."
       },
       {
         "character_id": "char_b",
-        "text": "Yes, teacher. We are looking."
-      },
-      {
-        "character_id": "char_a",
-        "text": "Good. Listen to me, please."
+        "text": "Sorry, teacher."
       }
     ]
   },
@@ -47,21 +56,14 @@
     "starters_vocab_004",
     "starters_vocab_005",
     "starters_vocab_006",
-    "starters_vocab_007",
-    "starters_vocab_014",
-    "starters_vocab_015",
-    "starters_vocab_016",
-    "starters_vocab_017",
-    "starters_vocab_018",
-    "starters_vocab_019",
-    "starters_vocab_020",
-    "starters_vocab_021",
-    "starters_vocab_022",
-    "starters_vocab_023"
+    "starters_vocab_008",
+    "starters_vocab_009",
+    "starters_vocab_027",
+    "starters_vocab_085"
   ],
   "grammar_ids": [
     "starters_grammar_001",
-    "starters_grammar_003"
+    "starters_grammar_002"
   ],
   "exercises": [
     {
@@ -69,16 +71,49 @@
       "instruction": "Match the picture with the correct word.",
       "items": [
         {
-          "image_hint": "an open English textbook on a desk",
-          "correct_answer": "book"
-        },
-        {
           "image_hint": "a blue ink pen lying on a notebook",
           "correct_answer": "pen"
         },
         {
-          "image_hint": "a female teacher smiling at the front of a class",
-          "correct_answer": "teacher"
+          "image_hint": "a student sitting at a desk",
+          "correct_answer": "sit"
+        },
+        {
+          "image_hint": "a classroom of students",
+          "correct_answer": "class"
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Listen to me.",
+          "options": [
+            "Look at the board.",
+            "Listen to me.",
+            "Don't run."
+          ],
+          "correct_answer": "Listen to me."
+        },
+        {
+          "audio_text": "Don't run.",
+          "options": [
+            "Don't run.",
+            "Listen to me.",
+            "Close your book."
+          ],
+          "correct_answer": "Don't run."
+        },
+        {
+          "audio_text": "Close your book.",
+          "options": [
+            "Listen to me.",
+            "Don't run.",
+            "Close your book."
+          ],
+          "correct_answer": "Close your book."
         }
       ]
     },
@@ -88,140 +123,48 @@
       "items": [
         {
           "words": [
-            "your",
-            ".",
-            "Open",
-            "book"
-          ],
-          "correct_answer": "Open your book."
-        },
-        {
-          "words": [
-            "Look",
-            ".",
-            "the",
-            "board",
-            "at"
-          ],
-          "correct_answer": "Look at the board."
-        },
-        {
-          "words": [
-            ",",
-            "please",
-            "me",
             "to",
             ".",
+            "me",
             "Listen"
           ],
-          "correct_answer": "Listen to me, please."
-        }
-      ]
-    },
-    {
-      "type": "listen_choose",
-      "instruction": "Listen and choose the correct sentence.",
-      "items": [
+          "correct_answer": "Listen to me."
+        },
         {
-          "audio_text": "Open your book.",
-          "options": [
-            "Open your book.",
-            "Look at the board.",
-            "Listen to me, please."
+          "words": [
+            "run",
+            ".",
+            "Don't"
           ],
-          "correct_answer": "Open your book."
+          "correct_answer": "Don't run."
         },
         {
-          "audio_text": "Look at the board.",
-          "options": [
-            "Look at the board.",
-            "Listen to me, please.",
-            "Open your book."
-          ],
-          "correct_answer": "Look at the board."
-        },
-        {
-          "audio_text": "Listen to me, please.",
-          "options": [
-            "Listen to me, please.",
-            "Look at the board.",
-            "Open your book."
-          ],
-          "correct_answer": "Listen to me, please."
-        }
-      ]
-    },
-    {
-      "type": "fill_blank",
-      "instruction": "Fill in the missing word.",
-      "items": [
-        {
-          "prompt": "___ your book.",
-          "correct_answer": "Open"
-        },
-        {
-          "prompt": "___ at the board.",
-          "correct_answer": "Look"
-        },
-        {
-          "prompt": "___ to me, please.",
-          "correct_answer": "Listen"
-        }
-      ]
-    },
-    {
-      "type": "multiple_choice",
-      "instruction": "Choose the best answer.",
-      "items": [
-        {
-          "prompt": "What is this?",
-          "options": [
-            "teacher",
-            "book",
-            "pen"
-          ],
-          "correct_answer": "book",
-          "image_hint": "an open English textbook on a desk"
-        },
-        {
-          "prompt": "What is this?",
-          "options": [
-            "pen",
-            "book",
-            "teacher"
-          ],
-          "correct_answer": "pen",
-          "image_hint": "a blue ink pen lying on a notebook"
-        },
-        {
-          "prompt": "What is this?",
-          "options": [
-            "teacher",
-            "pen",
+          "words": [
+            "your",
+            "Close",
+            ".",
             "book"
           ],
-          "correct_answer": "teacher",
-          "image_hint": "a female teacher smiling at the front of a class"
+          "correct_answer": "Close your book."
         }
       ]
     }
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Ask questions during class about the lesson.",
-    "opening_line": "Teacher, can you help me? I don't understand the task.",
+    "scenario": "Follow classroom instructions from teacher.",
+    "opening_line": "Teacher, the class is very noisy today.",
     "level_constraints": {
       "max_sentence_length": 6,
       "allowed_grammar": [
         "starters_grammar_001",
-        "starters_grammar_003"
+        "starters_grammar_002"
       ],
       "target_vocabulary": [
         "starters_vocab_004",
-        "starters_vocab_005",
-        "starters_vocab_006"
+        "starters_vocab_009"
       ]
     },
-    "success_criteria": "Learner explains the task clearly using simple English."
+    "success_criteria": "Learner gives positive and negative commands."
   }
 }

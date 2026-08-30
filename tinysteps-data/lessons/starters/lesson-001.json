@@ -1,63 +1,66 @@
 {
   "id": "starters_lesson_001",
   "level": "starters",
+  "schema_version": 2,
   "topic_id": "topic_before_class",
   "order": 1,
-  "title": "Preparing for class",
-  "scenario": "You are in a teacher role. Use English naturally in this before class situation.",
+  "title": "Good morning, class",
+  "scenario": "Monday morning. You open the classroom door and start the lesson.",
   "estimated_minutes": 4,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ],
+  "takeaway_lines": [
+    "Good morning, class.",
+    "Sit down, please.",
+    "Open your book.",
+    "Look at the board."
+  ],
   "dialogue": {
-    "setting": "Teachers room, Monday morning",
+    "setting": "Classroom door, Monday morning",
     "characters": [
       {
         "id": "char_a",
-        "name": "Mr. Minh",
+        "name": "Ms. Lan",
         "role": "teacher"
       },
       {
         "id": "char_b",
-        "name": "Mr. Binh",
-        "role": "colleague"
+        "name": "Class",
+        "role": "students"
       }
     ],
     "lines": [
       {
         "character_id": "char_a",
-        "text": "Good morning! How are you today?",
-        "note": "(smiling)"
+        "text": "Good morning, class."
       },
       {
         "character_id": "char_b",
-        "text": "Good morning! I am fine, thank you."
+        "text": "Good morning, teacher."
       },
       {
         "character_id": "char_a",
-        "text": "I am a teacher here. Are you ready for class?"
+        "text": "Sit down, please. Open your book."
       },
       {
         "character_id": "char_b",
-        "text": "Yes, I am ready. See you later!"
+        "text": "Yes, teacher."
       }
     ]
   },
   "vocabulary_ids": [
     "starters_vocab_001",
     "starters_vocab_003",
-    "starters_vocab_006",
-    "starters_vocab_026",
-    "starters_vocab_002",
     "starters_vocab_004",
-    "starters_vocab_005",
-    "starters_vocab_007",
-    "starters_vocab_008",
-    "starters_vocab_009",
-    "starters_vocab_010",
-    "starters_vocab_011",
-    "starters_vocab_012",
-    "starters_vocab_013"
+    "starters_vocab_006",
+    "starters_vocab_027"
   ],
   "grammar_ids": [
-    "starters_grammar_003"
+    "starters_grammar_001"
   ],
   "exercises": [
     {
@@ -65,16 +68,49 @@
       "instruction": "Match the picture with the correct word.",
       "items": [
         {
-          "image_hint": "two teachers waving and smiling at each other",
-          "correct_answer": "hello"
-        },
-        {
           "image_hint": "the sun rising over a school building",
           "correct_answer": "morning"
         },
         {
+          "image_hint": "an open English textbook on a desk",
+          "correct_answer": "book"
+        },
+        {
           "image_hint": "a female teacher smiling at the front of a class",
           "correct_answer": "teacher"
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Open your book.",
+          "options": [
+            "Open your book.",
+            "Sit down, please.",
+            "Good morning."
+          ],
+          "correct_answer": "Open your book."
+        },
+        {
+          "audio_text": "Sit down, please.",
+          "options": [
+            "Good morning.",
+            "Sit down, please.",
+            "Open your book."
+          ],
+          "correct_answer": "Sit down, please."
+        },
+        {
+          "audio_text": "Look at the board.",
+          "options": [
+            "Sit down, please.",
+            "Open your book.",
+            "Look at the board."
+          ],
+          "correct_answer": "Look at the board."
         }
       ]
     },
@@ -84,141 +120,51 @@
       "items": [
         {
           "words": [
-            "I",
-            "a",
-            "am",
+            "your",
             ".",
-            "teacher"
+            "Open",
+            "book"
           ],
-          "correct_answer": "I am a teacher."
+          "correct_answer": "Open your book."
         },
         {
           "words": [
-            "is",
-            "He",
+            "down",
+            "please",
+            "Sit",
             ".",
-            "good",
-            "a",
-            "student"
-          ],
-          "correct_answer": "He is a good student."
-        },
-        {
-          "words": [
-            ".",
-            "thank",
-            "I'm",
-            "you",
-            "fine",
             ","
           ],
-          "correct_answer": "I'm fine, thank you."
-        }
-      ]
-    },
-    {
-      "type": "listen_choose",
-      "instruction": "Listen and choose the correct sentence.",
-      "items": [
-        {
-          "audio_text": "I am a teacher.",
-          "options": [
-            "He is a good student.",
-            "I'm fine, thank you.",
-            "I am a teacher."
-          ],
-          "correct_answer": "I am a teacher."
+          "correct_answer": "Sit down, please."
         },
         {
-          "audio_text": "He is a good student.",
-          "options": [
-            "I'm fine, thank you.",
-            "I am a teacher.",
-            "He is a good student."
+          "words": [
+            "at",
+            ".",
+            "Look",
+            "the",
+            "board"
           ],
-          "correct_answer": "He is a good student."
-        },
-        {
-          "audio_text": "I'm fine, thank you.",
-          "options": [
-            "He is a good student.",
-            "I'm fine, thank you.",
-            "I am a teacher."
-          ],
-          "correct_answer": "I'm fine, thank you."
-        }
-      ]
-    },
-    {
-      "type": "fill_blank",
-      "instruction": "Fill in the missing word.",
-      "items": [
-        {
-          "prompt": "I ___ a teacher.",
-          "correct_answer": "am"
-        },
-        {
-          "prompt": "He ___ a good student.",
-          "correct_answer": "is"
-        },
-        {
-          "prompt": "___ fine, thank you.",
-          "correct_answer": "I'm"
-        }
-      ]
-    },
-    {
-      "type": "multiple_choice",
-      "instruction": "Choose the best answer.",
-      "items": [
-        {
-          "prompt": "What is this?",
-          "options": [
-            "hello",
-            "teacher",
-            "morning"
-          ],
-          "correct_answer": "hello",
-          "image_hint": "two teachers waving and smiling at each other"
-        },
-        {
-          "prompt": "What is this?",
-          "options": [
-            "morning",
-            "teacher",
-            "hello"
-          ],
-          "correct_answer": "morning",
-          "image_hint": "the sun rising over a school building"
-        },
-        {
-          "prompt": "What is this?",
-          "options": [
-            "teacher",
-            "hello",
-            "morning"
-          ],
-          "correct_answer": "teacher",
-          "image_hint": "a female teacher smiling at the front of a class"
+          "correct_answer": "Look at the board."
         }
       ]
     }
   ],
   "ai_conversation": {
-    "role": "colleague",
-    "scenario": "Talk about class preparation before the lesson starts.",
-    "opening_line": "Good morning! Have you finished the lesson preparation?",
+    "role": "student",
+    "scenario": "Respond to classroom instructions.",
+    "opening_line": "Good morning, teacher! What do we do first?",
     "level_constraints": {
       "max_sentence_length": 6,
       "allowed_grammar": [
-        "starters_grammar_003"
+        "starters_grammar_001"
       ],
       "target_vocabulary": [
         "starters_vocab_001",
         "starters_vocab_003",
-        "starters_vocab_006"
+        "starters_vocab_004"
       ]
     },
-    "success_criteria": "Learner answers appropriately and describes a classroom preparation task."
+    "success_criteria": "Learner gives simple classroom instructions."
   }
 }

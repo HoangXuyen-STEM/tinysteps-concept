@@ -4,7 +4,7 @@
   "topic_id": "topic_before_class",
   "order": 13,
   "title": "Preparing for class",
-  "scenario": "You are in a teacher role. Use English naturally in this before class situation.",
+  "scenario": "Before the bell, you check your books and greet another teacher in the hallway.",
   "estimated_minutes": 4,
   "dialogue": {
     "setting": "Teachers room, Wednesday afternoon",
@@ -206,8 +206,8 @@
   ],
   "ai_conversation": {
     "role": "colleague",
-    "scenario": "Talk about class preparation before the lesson starts.",
-    "opening_line": "Good morning! Have you finished the lesson preparation?",
+    "scenario": "Talk about getting ready before class.",
+    "opening_line": "Hi! Are we ready for the first lesson?",
     "level_constraints": {
       "max_sentence_length": 6,
       "allowed_grammar": [
@@ -220,5 +220,17 @@
       ]
     },
     "success_criteria": "Learner answers appropriately and describes a classroom preparation task."
-  }
+  },
+  "takeaway_lines": [
+    "Are you ready for class?",
+    "I am ready for the lesson.",
+    "Have a good class today."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

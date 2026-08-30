@@ -64,23 +64,33 @@ export type ExerciseAnswer = {
  * Server-side only: the lesson is loaded on the server, so correct answers
  * are never exposed to or trusted from the client.
  */
+function itemCorrectAnswer(item: unknown): string | null {
+  if (!item || typeof item !== "object") return null;
+  const rec = item as Record<string, unknown>;
+  return typeof rec.correct_answer === "string" ? rec.correct_answer : null;
+}
+
 export function computeScore(
   answers: ExerciseAnswer[],
   exercises: Exercise[],
 ): { score: number; correctCount: number; totalItems: number } {
-  const totalItems = exercises.reduce((sum, ex) => sum + ex.items.length, 0);
+  const totalItems = exercises.reduce((sum, ex) => {
+    if (!("items" in ex) || !Array.isArray(ex.items)) return sum;
+    return sum + ex.items.length;
+  }, 0);
   if (totalItems === 0) return { score: 0, correctCount: 0, totalItems: 0 };
 
   let correctCount = 0;
 
   for (const answer of answers) {
     const exercise = exercises[answer.exerciseIndex];
-    if (!exercise) continue;
+    if (!exercise || !("items" in exercise)) continue;
 
     const item = exercise.items[answer.itemIndex];
-    if (!item) continue;
+    const expected = itemCorrectAnswer(item);
+    if (!expected) continue;
 
-    if (isCorrect(answer.userAnswer, item.correct_answer)) {
+    if (isCorrect(answer.userAnswer, expected)) {
       correctCount++;
     }
   }

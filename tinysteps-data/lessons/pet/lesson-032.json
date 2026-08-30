@@ -4,7 +4,7 @@
   "topic_id": "topic_restaurant",
   "order": 32,
   "title": "At the restaurant",
-  "scenario": "You are in a customer role. Use English naturally in this restaurant situation.",
+  "scenario": "Ending a lunch meeting with colleagues, you ask the server for the final check.",
   "estimated_minutes": 12,
   "dialogue": {
     "setting": "Local restaurant, Tuesday morning",
@@ -186,12 +186,12 @@
           "correct_answer": "be"
         },
         {
-          "prompt": "The reservation should ___ confirmed before Friday.",
-          "correct_answer": "be"
+          "prompt": "The reservation should ___ confirmed beenfore Friday.",
+          "correct_answer": "been"
         },
         {
           "prompt": "The ticket can ___ bought at the airport.",
-          "correct_answer": "be"
+          "correct_answer": "being"
         }
       ]
     },
@@ -234,8 +234,8 @@
   ],
   "ai_conversation": {
     "role": "waiter",
-    "scenario": "Take an order from a diner at a restaurant.",
-    "opening_line": "Welcome! What would you like to order today?",
+    "scenario": "Order food, ask about menu items, and request the bill politely.",
+    "opening_line": "Hello! Could we request the final check for our dining party, please?",
     "level_constraints": {
       "max_sentence_length": 15,
       "allowed_grammar": [
@@ -249,5 +249,18 @@
       ]
     },
     "success_criteria": "Learner orders food, states preferences, and asks for the bill."
-  }
+  },
+  "takeaway_lines": [
+    "Good afternoon. Could we have the bill, please?",
+    "Of course. Was everything satisfactory today?",
+    "The food was excellent, but the service was a bit slow.",
+    "I apologise for that. We were very busy this evening."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

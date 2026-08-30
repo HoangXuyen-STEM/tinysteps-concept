@@ -1,5 +1,47 @@
 # Project Changelog — TinySteps
 
+## 2026-08-30
+
+### TinySteps Upgrade Spec v2 — Phase 1–4 Execution & Content Quality Upgrades (Local Working Tree)
+Completed full review and overhaul of TinySteps learning content, exercise system, and lesson player flow per `TINYSTEPS_UPGRADE_SPEC.md` (structural validation passed, production deploy & deep editorial QA pending):
+
+1. **CEFR Alignment & Quality Fixes (175 Lessons):**
+   - Corrected 13 dialogue lines in Flyers/KET/Starters/Movers to strictly enforce CEFR grammar boundaries.
+   - Fixed broken conditional rewrites (`can like` / `can have planned`) to natural, level-appropriate English across 13 lesson JSON files.
+   - Regenerated and re-concatenated 40 MP3 audio files locally (`edge-tts` + `ffmpeg`) and uploaded `--overwrite` to Supabase Storage.
+   - CEFR Audit status: **0 violations across all 175 lessons**.
+
+2. **Station Model & Player UI Overhaul (App):**
+   - Transformed lesson player state machine to 4-station flow: `Look → Say → Practice → Takeaway`.
+   - Built `SayStation` (interactive line-by-line speaking practice without mandatory mic grading) and `TakeawayStation` ("Câu mang vào lớp" end-of-lesson practical phrase summary).
+   - Added `PictureYesNoExercise` type & Zod schema support for scene-based exercises.
+   - Streamlined Dashboard (collapsed inactive levels to reduce learner overwhelm) and gated Listening/Writing navigation tabs for new learners.
+
+3. **Content Uniquification & Schema v2 Migration (100% Corpus Coverage):**
+   - Upgraded **175/175 lessons (100%)** to `schema_version: 2` with `takeaway_lines` and standard `stations`.
+   - Eliminated all 40 exact-duplicate scenario groups (rewrote 80 generic scenarios across Flyers/KET/PET) — **0 exact duplicates remaining**.
+   - Cleaned AI openings across all 175 lessons: removed all meta suffixes (`in a ... class`) and uniquified 115 AI opening lines across Flyers/KET/PET — **0 duplicate AI opening groups remaining** across the entire app.
+   - Filtered weak/greeting-only lines ("Yes, teacher", "We look") from `takeaway_lines` in Starters & Movers, leaving 100% practical teacher instruction/action lines.
+
+4. **Pipeline & App Verification:**
+   - `validate_data.py`: **0 errors**.
+   - `audit_cefr_alignment.py`: **0 violations**.
+   - `scripts/prepare-content.mjs`: **Success**.
+   - TypeScript `tsc --noEmit`: **Clean**.
+   - Vitest suite: **155/155 tests passed (23/23 test files)**.
+
+### Pending Future Roadmap:
+- **P0 Editorial QA Fixes:** Fine-tune scenario↔dialogue context alignment for specific edge cases.
+- **P2 Dialogue Rewrite & Audio Regeneration (C2):** Rewrite 54 exact-duplicate dialogue groups in Flyers/KET/PET and batch-regenerate/upload corresponding dialogue audio.
+- **P3 Skill Expansion & Analytics:** Expand Listening (15) and Writing (25) exercise banks and track learner completion metrics.
+
+## 2026-08-07
+
+### Security scan — dependency audit, no code-level findings
+Full `/security-scan` pass (secrets, `npm audit`, code patterns, RLS/access-control review). No hardcoded secrets, no `.env*` ever committed, no XSS/SQLi/command-injection patterns. The 08-03 paywall/RLS hardening held up under scan — `paid_access` write path, admin RPCs (`SECURITY DEFINER` + re-checked admin identity + pinned `search_path`), and the `audio`/`audio-free` bucket split are all clean.
+
+- Pushed commit `f31d89d` to GitHub (`origin/main`).
+
 ## 2026-08-03
 
 ### Paywall hardening — content leaks closed before launch

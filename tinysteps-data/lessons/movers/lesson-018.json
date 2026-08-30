@@ -4,7 +4,7 @@
   "topic_id": "topic_school_communication",
   "order": 18,
   "title": "School communication",
-  "scenario": "You are in a teacher role. Use English naturally in this school communication situation.",
+  "scenario": "A parent visits after class. You greet them and share simple updates.",
   "estimated_minutes": 6,
   "dialogue": {
     "setting": "School meeting room, Wednesday afternoon",
@@ -217,8 +217,8 @@
   ],
   "ai_conversation": {
     "role": "parent",
-    "scenario": "Ask about student progress at parent-teacher meeting.",
-    "opening_line": "Hello, teacher. I wanted to ask about my child's progress.",
+    "scenario": "Talk politely with a parent at school.",
+    "opening_line": "Hello, teacher. How was class today?",
     "level_constraints": {
       "max_sentence_length": 8,
       "allowed_grammar": [
@@ -231,5 +231,18 @@
       ]
     },
     "success_criteria": "Learner discusses student progress and provides constructive advice."
-  }
+  },
+  "takeaway_lines": [
+    "I am sorry. He was sick at home.",
+    "Please tell him to complete the reading task.",
+    "I will tell him today. Thank you for calling.",
+    "He is doing well. But he was absent yesterday."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

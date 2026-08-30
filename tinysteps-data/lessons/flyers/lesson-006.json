@@ -4,7 +4,7 @@
   "topic_id": "topic_school_communication",
   "order": 6,
   "title": "School communication",
-  "scenario": "You are in a teacher role. Use English naturally in this school communication situation.",
+  "scenario": "In a short parent meeting, you share an update about the student.",
   "estimated_minutes": 8,
   "dialogue": {
     "setting": "School meeting room, Monday morning",
@@ -23,7 +23,7 @@
     "lines": [
       {
         "character_id": "char_a",
-        "text": "I'd like to discuss the feedback from last week's parent meeting."
+        "text": "I want to discuss the feedback from last week's parent meeting."
       },
       {
         "character_id": "char_b",
@@ -35,7 +35,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "I have drafted a new homework schedule for your review."
+        "text": "I drafted a new homework schedule for your review."
       },
       {
         "character_id": "char_a",
@@ -43,7 +43,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "Furthermore, the principal has asked for a formal report."
+        "text": "The principal asked for a formal report."
       },
       {
         "character_id": "char_a",
@@ -227,8 +227,8 @@
   ],
   "ai_conversation": {
     "role": "parent",
-    "scenario": "Ask about student progress at parent-teacher meeting.",
-    "opening_line": "Hello, teacher. I wanted to ask about my child's progress.",
+    "scenario": "Discuss student feedback and progress politely with parents.",
+    "opening_line": "Hello, teacher! Could we discuss the feedback from the parent meeting?",
     "level_constraints": {
       "max_sentence_length": 10,
       "allowed_grammar": [
@@ -242,5 +242,18 @@
       ]
     },
     "success_criteria": "Learner discusses student progress and provides constructive advice."
-  }
+  },
+  "takeaway_lines": [
+    "I want to discuss the feedback from last week's parent meeting.",
+    "Yes, several parents raised concerns about homework volume.",
+    "I understand. We should adjust our policy accordingly.",
+    "I drafted a new homework schedule for your review."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

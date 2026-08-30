@@ -1,64 +1,66 @@
 {
   "id": "starters_lesson_003",
   "level": "starters",
-  "topic_id": "topic_giving_instructions",
+  "schema_version": 2,
+  "topic_id": "topic_praise_correction",
   "order": 3,
-  "title": "Giving instructions",
-  "scenario": "You are in a teacher role. Use English naturally in this giving instructions situation.",
+  "title": "Good job",
+  "scenario": "A student answers your question. You praise and help.",
   "estimated_minutes": 4,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ],
+  "takeaway_lines": [
+    "Good job.",
+    "Well done.",
+    "Try again.",
+    "Louder, please."
+  ],
   "dialogue": {
-    "setting": "Classroom, Wednesday afternoon",
+    "setting": "Classroom, during a lesson",
     "characters": [
       {
         "id": "char_a",
-        "name": "Ms. Huong",
+        "name": "Ms. Hoa",
         "role": "teacher"
       },
       {
         "id": "char_b",
-        "name": "Duy",
+        "name": "Lan",
         "role": "student"
       }
     ],
     "lines": [
       {
         "character_id": "char_a",
-        "text": "Listen to me, class!",
-        "note": "(raising hand)"
+        "text": "Read this word, please."
       },
       {
         "character_id": "char_b",
-        "text": "Yes, teacher. We are listening."
+        "text": "Apple."
       },
       {
         "character_id": "char_a",
-        "text": "Look at the board. Don't run in the class."
+        "text": "Good job! Louder, please."
       },
       {
         "character_id": "char_b",
-        "text": "Yes, teacher. We understand."
+        "text": "Apple!"
       }
     ]
   },
   "vocabulary_ids": [
-    "starters_vocab_004",
-    "starters_vocab_005",
-    "starters_vocab_008",
-    "starters_vocab_009",
-    "starters_vocab_024",
-    "starters_vocab_025",
-    "starters_vocab_026",
+    "starters_vocab_001",
+    "starters_vocab_006",
     "starters_vocab_027",
-    "starters_vocab_028",
-    "starters_vocab_029",
-    "starters_vocab_030",
-    "starters_vocab_031",
-    "starters_vocab_032",
-    "starters_vocab_033"
+    "starters_vocab_011",
+    "starters_vocab_180"
   ],
   "grammar_ids": [
-    "starters_grammar_001",
-    "starters_grammar_002"
+    "starters_grammar_001"
   ],
   "exercises": [
     {
@@ -66,16 +68,49 @@
       "instruction": "Match the picture with the correct word.",
       "items": [
         {
-          "image_hint": "an open English textbook on a desk",
-          "correct_answer": "book"
+          "image_hint": "a teacher giving thumbs up to a student",
+          "correct_answer": "good"
         },
         {
-          "image_hint": "a blue ink pen lying on a notebook",
-          "correct_answer": "pen"
+          "image_hint": "a red apple on a teacher desk",
+          "correct_answer": "apple"
         },
         {
-          "image_hint": "a classroom full of students sitting at desks",
-          "correct_answer": "class"
+          "image_hint": "a student reading aloud from a book",
+          "correct_answer": "read"
+        }
+      ]
+    },
+    {
+      "type": "listen_choose",
+      "instruction": "Listen and choose the correct sentence.",
+      "items": [
+        {
+          "audio_text": "Good job.",
+          "options": [
+            "Try again.",
+            "Good job.",
+            "Louder, please."
+          ],
+          "correct_answer": "Good job."
+        },
+        {
+          "audio_text": "Try again.",
+          "options": [
+            "Good job.",
+            "Well done.",
+            "Try again."
+          ],
+          "correct_answer": "Try again."
+        },
+        {
+          "audio_text": "Louder, please.",
+          "options": [
+            "Louder, please.",
+            "Try again.",
+            "Good job."
+          ],
+          "correct_answer": "Louder, please."
         }
       ]
     },
@@ -85,140 +120,48 @@
       "items": [
         {
           "words": [
-            "Open",
+            "this",
+            "Read",
             ".",
-            "book",
-            "your"
+            "word"
           ],
-          "correct_answer": "Open your book."
+          "correct_answer": "Read this word."
         },
         {
           "words": [
-            "the",
-            "Look",
-            "at",
-            "board",
-            "."
-          ],
-          "correct_answer": "Look at the board."
-        },
-        {
-          "words": [
-            "me",
             "please",
-            ",",
-            "to",
-            "Listen",
-            "."
+            ".",
+            "Louder",
+            ","
           ],
-          "correct_answer": "Listen to me, please."
-        }
-      ]
-    },
-    {
-      "type": "listen_choose",
-      "instruction": "Listen and choose the correct sentence.",
-      "items": [
-        {
-          "audio_text": "Open your book.",
-          "options": [
-            "Listen to me, please.",
-            "Look at the board.",
-            "Open your book."
-          ],
-          "correct_answer": "Open your book."
+          "correct_answer": "Louder, please."
         },
         {
-          "audio_text": "Look at the board.",
-          "options": [
-            "Open your book.",
-            "Look at the board.",
-            "Listen to me, please."
+          "words": [
+            "job",
+            ".",
+            "Good"
           ],
-          "correct_answer": "Look at the board."
-        },
-        {
-          "audio_text": "Listen to me, please.",
-          "options": [
-            "Open your book.",
-            "Look at the board.",
-            "Listen to me, please."
-          ],
-          "correct_answer": "Listen to me, please."
-        }
-      ]
-    },
-    {
-      "type": "fill_blank",
-      "instruction": "Fill in the missing word.",
-      "items": [
-        {
-          "prompt": "___ your book.",
-          "correct_answer": "Open"
-        },
-        {
-          "prompt": "___ at the board.",
-          "correct_answer": "Look"
-        },
-        {
-          "prompt": "___ to me, please.",
-          "correct_answer": "Listen"
-        }
-      ]
-    },
-    {
-      "type": "multiple_choice",
-      "instruction": "Choose the best answer.",
-      "items": [
-        {
-          "prompt": "What is this?",
-          "options": [
-            "book",
-            "pen",
-            "class"
-          ],
-          "correct_answer": "book",
-          "image_hint": "an open English textbook on a desk"
-        },
-        {
-          "prompt": "What is this?",
-          "options": [
-            "book",
-            "class",
-            "pen"
-          ],
-          "correct_answer": "pen",
-          "image_hint": "a blue ink pen lying on a notebook"
-        },
-        {
-          "prompt": "What is this?",
-          "options": [
-            "class",
-            "book",
-            "pen"
-          ],
-          "correct_answer": "class",
-          "image_hint": "a classroom full of students sitting at desks"
+          "correct_answer": "Good job."
         }
       ]
     }
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Ask for clarification about task instructions.",
-    "opening_line": "Teacher, should we open our books or start writing?",
+    "scenario": "Answer teacher questions and receive feedback.",
+    "opening_line": "Teacher, is my answer correct?",
     "level_constraints": {
       "max_sentence_length": 6,
       "allowed_grammar": [
-        "starters_grammar_001",
-        "starters_grammar_002"
+        "starters_grammar_001"
       ],
       "target_vocabulary": [
-        "starters_vocab_004",
-        "starters_vocab_005",
-        "starters_vocab_008"
+        "starters_vocab_001",
+        "starters_vocab_006",
+        "starters_vocab_027"
       ]
     },
-    "success_criteria": "Learner gives clear, polite instructions using imperatives or modal verbs."
+    "success_criteria": "Learner praises student and gives gentle correction."
   }
 }

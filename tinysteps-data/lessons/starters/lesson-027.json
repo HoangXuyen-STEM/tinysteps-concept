@@ -4,7 +4,7 @@
   "topic_id": "topic_giving_instructions",
   "order": 27,
   "title": "Giving instructions",
-  "scenario": "You are in a teacher role. Use English naturally in this giving instructions situation.",
+  "scenario": "You stop the class for a moment and tell students what to do next.",
   "estimated_minutes": 4,
   "dialogue": {
     "setting": "Classroom, Tuesday morning",
@@ -28,7 +28,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "Yes, teacher. We are listening."
+        "text": "Yes, teacher. We listen."
       },
       {
         "character_id": "char_a",
@@ -205,8 +205,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Ask for clarification about task instructions.",
-    "opening_line": "Teacher, should we open our books or start writing?",
+    "scenario": "Give and follow classroom instructions.",
+    "opening_line": "Teacher, what should we do now?",
     "level_constraints": {
       "max_sentence_length": 6,
       "allowed_grammar": [
@@ -220,5 +220,18 @@
       ]
     },
     "success_criteria": "Learner gives clear, polite instructions using imperatives or modal verbs."
-  }
+  },
+  "takeaway_lines": [
+    "Look at the board. Don't run in the class.",
+    "Listen to me, class!",
+    "Yes, teacher. We understand.",
+    "Yes, teacher. We listen."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

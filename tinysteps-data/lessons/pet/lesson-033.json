@@ -4,7 +4,7 @@
   "topic_id": "topic_travel",
   "order": 33,
   "title": "Travel and directions",
-  "scenario": "You are in a traveler role. Use English naturally in this travel situation.",
+  "scenario": "Navigating toward the railway station, you inquire about ticket purchases.",
   "estimated_minutes": 12,
   "dialogue": {
     "setting": "Bus terminal, Wednesday afternoon",
@@ -186,12 +186,12 @@
           "correct_answer": "be"
         },
         {
-          "prompt": "The reservation should ___ confirmed before Friday.",
-          "correct_answer": "be"
+          "prompt": "The reservation should ___ confirmed beenfore Friday.",
+          "correct_answer": "been"
         },
         {
           "prompt": "The ticket can ___ bought at the airport.",
-          "correct_answer": "be"
+          "correct_answer": "being"
         }
       ]
     },
@@ -234,8 +234,8 @@
   ],
   "ai_conversation": {
     "role": "agent",
-    "scenario": "Help a traveler book tickets and find directions.",
-    "opening_line": "Hello! Where are you traveling to today?",
+    "scenario": "Ask for directions, buy tickets, and check travel information.",
+    "opening_line": "Good morning! Are first-class seats available on the morning train to Hue?",
     "level_constraints": {
       "max_sentence_length": 15,
       "allowed_grammar": [
@@ -249,5 +249,18 @@
       ]
     },
     "success_criteria": "Learner asks for directions and travel booking help politely."
-  }
+  },
+  "takeaway_lines": [
+    "I would like to buy a train ticket to Hue, please.",
+    "Certainly. When would you like to travel?",
+    "This Saturday morning, if possible.",
+    "There is a train at eight thirty that arrives at noon."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

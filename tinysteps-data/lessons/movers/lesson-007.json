@@ -4,7 +4,7 @@
   "topic_id": "topic_market",
   "order": 7,
   "title": "At the market",
-  "scenario": "You are in a buyer role. Use English naturally in this market situation.",
+  "scenario": "You go to the market after school and buy fruit for your family.",
   "estimated_minutes": 6,
   "dialogue": {
     "setting": "Local market stall, Tuesday morning",
@@ -221,8 +221,8 @@
   ],
   "ai_conversation": {
     "role": "seller",
-    "scenario": "Bargain with a buyer at the market stall.",
-    "opening_line": "Fresh vegetables here! Would you like to buy some?",
+    "scenario": "Buy food and talk to a seller at the market.",
+    "opening_line": "Excuse me. How much are these apples?",
     "level_constraints": {
       "max_sentence_length": 8,
       "allowed_grammar": [
@@ -236,5 +236,18 @@
       ]
     },
     "success_criteria": "Learner asks for prices and negotiates politely."
-  }
+  },
+  "takeaway_lines": [
+    "I want to buy some fruit, please.",
+    "The fruit is very fresh. I bought it this morning.",
+    "Okay, I will buy two kilos.",
+    "It is thirty thousand dong per kilo."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

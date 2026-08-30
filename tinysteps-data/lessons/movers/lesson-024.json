@@ -4,7 +4,7 @@
   "topic_id": "topic_social",
   "order": 24,
   "title": "Social conversations",
-  "scenario": "You are in a friend role. Use English naturally in this social situation.",
+  "scenario": "In the staff room, you have a short friendly conversation.",
   "estimated_minutes": 6,
   "dialogue": {
     "setting": "Park, sunny afternoon, Thursday morning",
@@ -221,8 +221,8 @@
   ],
   "ai_conversation": {
     "role": "colleague",
-    "scenario": "Have casual chat about weekend plans.",
-    "opening_line": "Hi! What a nice day. What are your plans for the weekend?",
+    "scenario": "Have a short friendly conversation.",
+    "opening_line": "Hello! Did you have a good day at school?",
     "level_constraints": {
       "max_sentence_length": 8,
       "allowed_grammar": [
@@ -236,5 +236,18 @@
       ]
     },
     "success_criteria": "Learner makes friendly small talk and discusses personal hobbies."
-  }
+  },
+  "takeaway_lines": [
+    "Good idea! Let's meet for a walk next Saturday.",
+    "Yes! I also helped my mother clean the house.",
+    "That is wonderful. The weather was very nice on Sunday.",
+    "It was great! I went to the park with my family."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

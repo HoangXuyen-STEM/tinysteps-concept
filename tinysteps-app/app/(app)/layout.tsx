@@ -1,12 +1,14 @@
 import { AppNavigation } from "@/components/app-navigation";
+import { getCompletedCountByLevel } from "@/lib/progress/lesson-progress-queries";
 
-// Chrome for the signed-in product: centered column, brand header, fixed bottom nav.
-// pb-24 keeps the last card clear of the fixed nav.
-export default function AppLayout({
+export default async function AppLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const completed = await getCompletedCountByLevel();
+  const hasMoversProgress = completed.movers > 0;
+
   return (
     <>
       <div className="mx-auto min-h-screen max-w-3xl px-4 pb-24 pt-6 sm:px-6">
@@ -16,7 +18,7 @@ export default function AppLayout({
         </header>
         {children}
       </div>
-      <AppNavigation />
+      <AppNavigation hasMoversProgress={hasMoversProgress} />
     </>
   );
 }

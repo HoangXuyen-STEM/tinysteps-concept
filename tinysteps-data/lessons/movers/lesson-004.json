@@ -4,7 +4,7 @@
   "topic_id": "topic_checking_understanding",
   "order": 4,
   "title": "Checking understanding",
-  "scenario": "You are in a teacher role. Use English naturally in this checking understanding situation.",
+  "scenario": "After your explanation, you ask questions to check understanding.",
   "estimated_minutes": 6,
   "dialogue": {
     "setting": "English lab, Thursday morning",
@@ -35,7 +35,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "Should we write the answers in full sentences?"
+        "text": "Do we write the answers in full sentences?"
       },
       {
         "character_id": "char_a",
@@ -218,8 +218,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Confirm comprehension of the classroom rules.",
-    "opening_line": "Teacher, are we supposed to explain or just write it?",
+    "scenario": "Check if students understand.",
+    "opening_line": "Teacher, did everyone understand the task?",
     "level_constraints": {
       "max_sentence_length": 8,
       "allowed_grammar": [
@@ -233,5 +233,18 @@
       ]
     },
     "success_criteria": "Learner checks understanding and gently clarifies rules."
-  }
+  },
+  "takeaway_lines": [
+    "Of course. Ask your question.",
+    "I understood most of it, but I have one question.",
+    "Yes, always write in full sentences.",
+    "Vy, did you understand the homework instructions?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

@@ -4,7 +4,7 @@
   "topic_id": "topic_praise_correction",
   "order": 29,
   "title": "Praise and correction",
-  "scenario": "You are in a teacher role. Use English naturally in this praise correction situation.",
+  "scenario": "Reviewing written homework, you praise paragraph clarity and fix tense slips.",
   "estimated_minutes": 10,
   "dialogue": {
     "setting": "Front of classroom, Thursday morning",
@@ -35,7 +35,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "However, I think I used the wrong tense in one sentence."
+        "text": "I think I used the wrong tense in one sentence."
       },
       {
         "character_id": "char_a",
@@ -51,7 +51,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "If I reviewed my work more carefully, I would make fewer errors."
+        "text": "When I check my work carefully, I make fewer errors."
       }
     ]
   },
@@ -180,11 +180,11 @@
         },
         {
           "prompt": "___ you check my schedule?",
-          "correct_answer": "Could"
+          "correct_answer": "please"
         },
         {
           "prompt": "___ we correct the mistakes together?",
-          "correct_answer": "Could"
+          "correct_answer": "now"
         }
       ]
     },
@@ -227,8 +227,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Receive feedback and correct a spelling error.",
-    "opening_line": "Teacher, did I do a good job on my homework?",
+    "scenario": "Praise student progress and provide gentle correction on errors.",
+    "opening_line": "Teacher, how can I improve my writing score on the next test?",
     "level_constraints": {
       "max_sentence_length": 12,
       "allowed_grammar": [
@@ -242,5 +242,18 @@
       ]
     },
     "success_criteria": "Learner praises the student and guides correction of the mistake."
-  }
+  },
+  "takeaway_lines": [
+    "You have made excellent progress in your writing this month.",
+    "Thank you. I practised a lot during the weekend.",
+    "Your paragraph structure is clear and logical.",
+    "I think I used the wrong tense in one sentence."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

@@ -1,0 +1,459 @@
+{
+  "total_lessons": 175,
+  "flag_count": 0,
+  "warning_count": 75,
+  "by_code": {},
+  "flags": [],
+  "warnings": [
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_001",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_simple_regular']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_002",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_simple_regular']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_005",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['can_cant']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_012",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['can_cant']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_013",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_simple_regular']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_014",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_simple_regular']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_017",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['can_cant']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_024",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['can_cant']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_025",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_simple_regular']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_026",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_simple_regular']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "movers_lesson_029",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['can_cant']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_003",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['should_shouldnt']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_004",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['should_shouldnt']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_009",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['going_to_verb']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_010",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['going_to_verb']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_015",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['should_shouldnt']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_016",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['should_shouldnt']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_021",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['going_to_verb']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_022",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['going_to_verb']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_027",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['should_shouldnt']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_028",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['should_shouldnt']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_033",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['going_to_verb']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_034",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['going_to_verb']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_039",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['should_shouldnt']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "flyers_lesson_040",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['should_shouldnt']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_002",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_continuous']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_003",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['passive_voice_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_006",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['would_like_to']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_008",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['passive_voice_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_009",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_continuous']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_010",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_continuous']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_012",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['would_like_to']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_014",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_continuous']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_015",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['passive_voice_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_018",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['would_like_to']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_020",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['passive_voice_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_021",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_continuous']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_022",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_continuous']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_024",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['would_like_to']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_026",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_continuous']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_027",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['passive_voice_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_030",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['would_like_to']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_032",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['passive_voice_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_033",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_continuous']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "ket_lesson_034",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['past_continuous']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_002",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['wish_past_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_003",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['purpose_so_that']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_004",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['complex_questions']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_006",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['reported_speech']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_008",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['although_however_despite']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_009",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['purpose_so_that']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_010",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['reported_speech']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_011",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['passive_with_modals']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_012",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['wish_past_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_014",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['wish_past_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_015",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['purpose_so_that']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_016",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['complex_questions']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_018",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['reported_speech']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_020",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['although_however_despite']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_021",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['purpose_so_that']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_022",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['reported_speech']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_023",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['passive_with_modals']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_024",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['wish_past_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_026",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['wish_past_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_027",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['purpose_so_that']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_028",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['complex_questions']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_030",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['reported_speech']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_032",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['although_however_despite']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_033",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['purpose_so_that']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_034",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['reported_speech']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_035",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['passive_with_modals']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_036",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['wish_past_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_038",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['wish_past_simple']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_039",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['purpose_so_that']"
+    },
+    {
+      "code": "GRAMMAR_MISMATCH",
+      "lesson_id": "pet_lesson_040",
+      "exercise_index": null,
+      "detail": "Grammar claimed but not practiced: ['complex_questions']"
+    }
+  ]
+}

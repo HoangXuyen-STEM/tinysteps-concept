@@ -73,6 +73,10 @@ export function MatchExerciseComponent({
         {exercise.instruction}
       </h3>
 
+      {currentItem.prompt ? (
+        <p className="mb-6 text-center text-lg font-semibold text-slate-800">{currentItem.prompt}</p>
+      ) : null}
+
       <div className="mb-8 flex justify-center">
         <div className="flex aspect-square w-full max-w-sm items-center justify-center overflow-hidden rounded-2xl border-2 border-slate-200 bg-white shadow-sm">
           {showIllustration ? (
@@ -88,7 +92,7 @@ export function MatchExerciseComponent({
             />
           ) : (
             <svg
-              aria-label={illustration?.alt ?? currentItem.image_hint}
+              aria-label={illustration?.alt ?? currentItem.image_hint ?? currentItem.prompt ?? ""}
               className="size-20 text-slate-300"
               fill="none"
               role="img"

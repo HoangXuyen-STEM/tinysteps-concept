@@ -1,0 +1,716 @@
+{
+  "sample_size": 24,
+  "sampling": "1 lesson per topic; levels distributed",
+  "duplicate_ai_opening_groups": 12,
+  "rows": [
+    {
+      "id": "starters_lesson_001",
+      "level": "starters",
+      "topic": "topic_before_class",
+      "scenario": "Monday morning. You open the classroom door and start the lesson.",
+      "dialogue0": "good morning, class.",
+      "grammar_ids": [
+        "starters_grammar_001"
+      ],
+      "exercise_types": [
+        "match",
+        "listen_choose",
+        "arrange"
+      ],
+      "takeaway": [
+        "Good morning, class.",
+        "Sit down, please.",
+        "Open your book.",
+        "Look at the board."
+      ],
+      "ai_opening": "Good morning, teacher! What do we do first?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "flyers_lesson_001",
+      "level": "flyers",
+      "topic": "topic_before_class",
+      "scenario": "Before period one, you prepare materials and check the timetable with a colleague.",
+      "dialogue0": "good morning. i want to check the school schedule before class.",
+      "grammar_ids": [
+        "flyers_grammar_001"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Good morning. I want to check the school schedule before class.",
+        "Sure. The principal updated the timetable this morning.",
+        "We should inform the other teachers about the change.",
+        "I have already sent them an email with the new details."
+      ],
+      "ai_opening": "Good morning! Have you finished the lesson preparation?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "movers_lesson_002",
+      "level": "movers",
+      "topic": "topic_in_class",
+      "scenario": "Period two starts. You check books and ask a student to read aloud.",
+      "dialogue0": "did you bring your book today?",
+      "grammar_ids": [
+        "movers_grammar_001",
+        "movers_grammar_002"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "I am reading it now.",
+        "Good. Open it to page twelve.",
+        "Excellent. Very good progress!",
+        "Yes, teacher. Here is my book."
+      ],
+      "ai_opening": "Teacher, which page should I open?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "ket_lesson_002",
+      "level": "ket",
+      "topic": "topic_in_class",
+      "scenario": "Beginning the lesson, you introduce classroom communication topics to students.",
+      "dialogue0": "today we are going to discuss classroom communication.",
+      "grammar_ids": [
+        "ket_grammar_005",
+        "ket_grammar_006"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Today we are going to discuss classroom communication.",
+        "I think now about ways to improve my speaking.",
+        "That is great. You should also focus on listening carefully.",
+        "Could you recommend some practice activities?"
+      ],
+      "ai_opening": "Teacher, can you help me? I don't understand the task",
+      "flags": []
+    },
+    {
+      "id": "flyers_lesson_003",
+      "level": "flyers",
+      "topic": "topic_giving_instructions",
+      "scenario": "You explain the next activity and make sure students know each step.",
+      "dialogue0": "you must follow the instructions carefully during the test.",
+      "grammar_ids": [
+        "flyers_grammar_003",
+        "flyers_grammar_004"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "You must follow the instructions carefully during the test.",
+        "Understood, teacher. Should we write our names on the paper?",
+        "Yes, write your full name at the top of the page.",
+        "Can we use a dictionary for the reading section?"
+      ],
+      "ai_opening": "Teacher, should we open our books or start writing?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "pet_lesson_003",
+      "level": "pet",
+      "topic": "topic_giving_instructions",
+      "scenario": "Administering a test, you emphasize following instructions and test policies.",
+      "dialogue0": "you must follow the instructions carefully during the test.",
+      "grammar_ids": [
+        "pet_grammar_005",
+        "pet_grammar_007"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "You must follow the instructions carefully during the test.",
+        "Understood, teacher. Should we write our names on the paper?",
+        "Yes, write your full name at the top of the page.",
+        "Could we use a dictionary for the reading section?"
+      ],
+      "ai_opening": "Teacher, should we open our books or start writing?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "ket_lesson_004",
+      "level": "ket",
+      "topic": "topic_checking_understanding",
+      "scenario": "You pause the listening session to confirm students followed the recording.",
+      "dialogue0": "let's check if everyone understood the listening exercise.",
+      "grammar_ids": [
+        "ket_grammar_010"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Let's check if everyone understood the listening exercise.",
+        "I followed the main idea, but missed some details.",
+        "That is fine for now. What was the main topic?",
+        "The speakers were discussing a school event."
+      ],
+      "ai_opening": "Teacher, are we supposed to explain or just write it?",
+      "flags": []
+    },
+    {
+      "id": "starters_lesson_004",
+      "level": "starters",
+      "topic": "topic_checking_understanding",
+      "scenario": "The class looks confused after your question. You check if they understand.",
+      "dialogue0": "listen to me. look at the board.",
+      "grammar_ids": [
+        "starters_grammar_006",
+        "starters_grammar_009"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Listen to me. Look at the board.",
+        "Yes! He is a very good student.",
+        "Yes, teacher. We look.",
+        "Is this a good student?"
+      ],
+      "ai_opening": "Teacher, do we look at the board now?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "pet_lesson_005",
+      "level": "pet",
+      "topic": "topic_praise_correction",
+      "scenario": "A student answers well. You praise the work and help with one minor mistake.",
+      "dialogue0": "you have made excellent progress in your writing this month.",
+      "grammar_ids": [
+        "pet_grammar_003"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "You have made excellent progress in your writing this month.",
+        "Thank you. I practised a lot during the weekend.",
+        "Your paragraph structure is clear and logical.",
+        "However, I think I used the wrong tense in one sentence."
+      ],
+      "ai_opening": "Teacher, did I do a good job on my homework?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "movers_lesson_005",
+      "level": "movers",
+      "topic": "topic_praise_correction",
+      "scenario": "A student answers well. You praise the work and help with one small mistake.",
+      "dialogue0": "that is a great answer, lan!",
+      "grammar_ids": [
+        "movers_grammar_002",
+        "movers_grammar_004"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "You did a great job on your homework.",
+        "That is a great answer, Lan!",
+        "It is okay. Mistakes help us learn.",
+        "I made one small mistake, I think."
+      ],
+      "ai_opening": "Teacher, did I do better on my homework today?",
+      "flags": []
+    },
+    {
+      "id": "starters_lesson_006",
+      "level": "starters",
+      "topic": "topic_school_communication",
+      "scenario": "After school, you meet a parent at the gate and greet them politely.",
+      "dialogue0": "hello! i am ms. lan. i am nam's teacher.",
+      "grammar_ids": [
+        "starters_grammar_003"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "I am Nam's teacher.",
+        "Nice to meet you.",
+        "Thank you for coming today.",
+        "Let's talk about your child."
+      ],
+      "ai_opening": "Hello, teacher. How is Nam in class?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "flyers_lesson_006",
+      "level": "flyers",
+      "topic": "topic_school_communication",
+      "scenario": "In a short parent meeting, you share an update about the student.",
+      "dialogue0": "i want to discuss the feedback from last week's parent meeting.",
+      "grammar_ids": [
+        "flyers_grammar_001",
+        "flyers_grammar_005"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "I want to discuss the feedback from last week's parent meeting.",
+        "Yes, several parents raised concerns about homework volume.",
+        "I understand. We should adjust our policy accordingly.",
+        "I drafted a new homework schedule for your review."
+      ],
+      "ai_opening": "Hello, teacher. I wanted to ask about my child's progress",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "movers_lesson_007",
+      "level": "movers",
+      "topic": "topic_market",
+      "scenario": "You go to the market after school and buy fruit for your family.",
+      "dialogue0": "i want to buy some fruit, please.",
+      "grammar_ids": [
+        "movers_grammar_003",
+        "movers_grammar_005"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "I want to buy some fruit, please.",
+        "The fruit is very fresh. I bought it this morning.",
+        "Okay, I will buy two kilos.",
+        "It is thirty thousand dong per kilo."
+      ],
+      "ai_opening": "Excuse me. How much are these apples?",
+      "flags": []
+    },
+    {
+      "id": "ket_lesson_007",
+      "level": "ket",
+      "topic": "topic_market",
+      "scenario": "You ask a seller at the market for item prices before buying.",
+      "dialogue0": "could i see the price list for these items, please?",
+      "grammar_ids": [
+        "ket_grammar_004",
+        "ket_grammar_009"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Could I see the price list for these items, please?",
+        "Of course. Here is today's price list.",
+        "The price for organic vegetables is quite high.",
+        "I apologise, but the quality is excellent."
+      ],
+      "ai_opening": "Fresh vegetables here! Would you like to buy some?",
+      "flags": []
+    },
+    {
+      "id": "flyers_lesson_008",
+      "level": "flyers",
+      "topic": "topic_restaurant",
+      "scenario": "Finishing your meal at a restaurant, you ask the server for the bill.",
+      "dialogue0": "good afternoon. can we have the bill, please?",
+      "grammar_ids": [
+        "flyers_grammar_001"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Good afternoon. Can we have the bill, please?",
+        "Of course. is everything satisfactory today?",
+        "The food was excellent, but the service was a bit slow.",
+        "I apologise for that. We were very busy this evening."
+      ],
+      "ai_opening": "Welcome! What would you like to order today?",
+      "flags": []
+    },
+    {
+      "id": "pet_lesson_008",
+      "level": "pet",
+      "topic": "topic_restaurant",
+      "scenario": "After dining with colleagues, you request the check and review payment.",
+      "dialogue0": "good afternoon. could we have the bill, please?",
+      "grammar_ids": [
+        "pet_grammar_005",
+        "pet_grammar_006"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Good afternoon. Could we have the bill, please?",
+        "Of course. Was everything satisfactory today?",
+        "The food was excellent, but the service was a bit slow.",
+        "I apologise for that. We were very busy this evening."
+      ],
+      "ai_opening": "Welcome! What would you like to order today?",
+      "flags": []
+    },
+    {
+      "id": "ket_lesson_009",
+      "level": "ket",
+      "topic": "topic_travel",
+      "scenario": "At a ticket window, you ask to purchase a train ticket to Hue.",
+      "dialogue0": "i would like to buy a train ticket to hue, please.",
+      "grammar_ids": [
+        "ket_grammar_002",
+        "ket_grammar_006"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "I would like to buy a train ticket to Hue, please.",
+        "Certainly. When would you like to travel?",
+        "This Saturday morning, if possible.",
+        "There is a train at eight thirty that arrives at noon."
+      ],
+      "ai_opening": "Hello! Where are you traveling to today?",
+      "flags": []
+    },
+    {
+      "id": "starters_lesson_009",
+      "level": "starters",
+      "topic": "topic_travel",
+      "scenario": "You ask for directions because you want to go to the market.",
+      "dialogue0": "hello! i want to go to the market.",
+      "grammar_ids": [
+        "starters_grammar_004"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Hello! I want to go to the market.",
+        "The market is very near here.",
+        "Have a good trip. Goodbye!",
+        "Thank you! I go there every morning."
+      ],
+      "ai_opening": "Excuse me. Where is the market?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "pet_lesson_010",
+      "level": "pet",
+      "topic": "topic_phone",
+      "scenario": "Calling another department, you report a delay and confirm next steps.",
+      "dialogue0": "i am calling to apologise for the delay in sending the report.",
+      "grammar_ids": [
+        "pet_grammar_001",
+        "pet_grammar_004"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "I am calling to apologise for the delay in sending the report.",
+        "No problem. I understand you were very busy last week.",
+        "I will submit the completed report by tomorrow morning.",
+        "Thank you. Could you also send a digital copy by email?"
+      ],
+      "ai_opening": "Hello! This is Minh calling. Can we confirm the schedule?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "movers_lesson_010",
+      "level": "movers",
+      "topic": "topic_phone",
+      "scenario": "You call a parent to confirm a school meeting time.",
+      "dialogue0": "hello, this is mr. minh. can i speak to the principal?",
+      "grammar_ids": [
+        "movers_grammar_005"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Please tell her to call me about Friday's meeting.",
+        "Sorry, the principal is busy right now.",
+        "I will pass on the message. Goodbye!",
+        "Hello, this is Mr. Minh. Can I speak to the principal?"
+      ],
+      "ai_opening": "Hello, this is Ms. Lan. Can we confirm the meeting?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "starters_lesson_011",
+      "level": "starters",
+      "topic": "topic_health",
+      "scenario": "You feel bad today. You visit the doctor and say your symptoms.",
+      "dialogue0": "hello, doctor! i feel bad today.",
+      "grammar_ids": [
+        "starters_grammar_003"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "I am not fine. I have a headache.",
+        "Hello, doctor! I feel bad today.",
+        "Take this medicine and rest at home.",
+        "Hello! How are you?"
+      ],
+      "ai_opening": "Hello, doctor. I feel bad today.",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "flyers_lesson_011",
+      "level": "flyers",
+      "topic": "topic_health",
+      "scenario": "At the clinic, you explain symptoms and ask what to do next.",
+      "dialogue0": "good morning. i have a terrible headache and a high fever.",
+      "grammar_ids": [
+        "flyers_grammar_004",
+        "flyers_grammar_007"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Good morning. I have a terrible headache and a high fever.",
+        "I am sorry to hear that. How long have you had these symptoms?",
+        "The fever started two days ago and has not improved.",
+        "I see. I will write a prescription for you."
+      ],
+      "ai_opening": "Hello. Please sit down. What are your symptoms today?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "movers_lesson_012",
+      "level": "movers",
+      "topic": "topic_social",
+      "scenario": "You meet a colleague after class and talk about weekend plans.",
+      "dialogue0": "hello! how was your weekend?",
+      "grammar_ids": [
+        "movers_grammar_003",
+        "movers_grammar_004"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "Good idea! Let's meet for a walk next Saturday.",
+        "Yes! I also helped my mother clean the house.",
+        "That is wonderful. The weather was very nice on Sunday.",
+        "It was great! I went to the park with my family."
+      ],
+      "ai_opening": "Hi! What are your plans for the weekend?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    },
+    {
+      "id": "ket_lesson_012",
+      "level": "ket",
+      "topic": "topic_social",
+      "scenario": "Leaving the classroom, you ask a fellow teacher about their upcoming weekend.",
+      "dialogue0": "what a lovely afternoon! how have you been lately?",
+      "grammar_ids": [
+        "ket_grammar_001",
+        "ket_grammar_003"
+      ],
+      "exercise_types": [
+        "match",
+        "arrange",
+        "listen_choose",
+        "fill_blank",
+        "multiple_choice"
+      ],
+      "takeaway": [
+        "What a lovely afternoon! How have you been lately?",
+        "Very well, thank you. I have been quite busy with school.",
+        "I understand. I work now on a new project.",
+        "What kind of project? It sounds interesting."
+      ],
+      "ai_opening": "Hi! What a nice day. What are your plans for the weekend?",
+      "flags": [
+        [
+          "P1",
+          "weak_takeaway",
+          "Heuristic: includes greeting/response-like line; context review required."
+        ]
+      ]
+    }
+  ]
+}

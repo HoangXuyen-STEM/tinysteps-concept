@@ -292,4 +292,27 @@ describe("computeScore", () => {
     expect(result.totalItems).toBe(3);
     expect(result.score).toBe(33); // 1/3
   });
+
+  it("scores picture_yes_no answers case-insensitively", () => {
+    const exercises: Exercise[] = [
+      {
+        type: "picture_yes_no",
+        instruction: "Look",
+        image_hint: "a classroom",
+        items: [
+          { sentence: "The teacher is sitting.", correct_answer: "no" },
+          { sentence: "The book is open.", correct_answer: "yes" },
+        ],
+      },
+    ];
+    const answers: ExerciseAnswer[] = [
+      { exerciseIndex: 0, itemIndex: 0, userAnswer: "NO" },
+      { exerciseIndex: 0, itemIndex: 1, userAnswer: "Yes" },
+    ];
+    expect(computeScore(answers, exercises)).toEqual({
+      score: 100,
+      correctCount: 2,
+      totalItems: 2,
+    });
+  });
 });

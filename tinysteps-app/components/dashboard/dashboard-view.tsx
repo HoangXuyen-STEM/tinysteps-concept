@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import { labels } from "@/lib/i18n/labels";
 import { levels, type Level } from "@/lib/types/content-types";
@@ -20,6 +23,10 @@ const totalCompleted = (summary: LevelProgressSummary) =>
 
 export function DashboardView({ displayName, levelProgress, streak, dueToday, nextLesson }: Props) {
   const hasAnyProgress = totalCompleted(levelProgress) > 0;
+  const [showAllLevels, setShowAllLevels] = useState(false);
+  const visibleLevels = levels.filter(
+    (level) => level === "starters" || levelProgress[level].completed > 0 || showAllLevels,
+  );
 
   return (
     <div className="space-y-6">
@@ -77,7 +84,7 @@ export function DashboardView({ displayName, levelProgress, streak, dueToday, ne
       <div>
         <h2 className="mb-3 text-lg font-bold text-slate-800">{labels.BAI_HOC}</h2>
         <div className="space-y-3">
-          {levels.map((level: Level) => (
+          {visibleLevels.map((level: Level) => (
             <LevelProgressBar
               key={level}
               level={level}
@@ -86,6 +93,13 @@ export function DashboardView({ displayName, levelProgress, streak, dueToday, ne
             />
           ))}
         </div>
+        <button
+          type="button"
+          onClick={() => setShowAllLevels((open) => !open)}
+          className="mt-3 text-sm font-semibold text-teal-700 hover:underline"
+        >
+          {showAllLevels ? labels.AN_LO_TRINH : labels.XEM_LO_TRINH}
+        </button>
       </div>
     </div>
   );

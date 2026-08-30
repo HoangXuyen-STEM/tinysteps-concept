@@ -4,7 +4,7 @@
   "topic_id": "topic_health",
   "order": 23,
   "title": "Health and the doctor",
-  "scenario": "You are in a patient role. Use English naturally in this health situation.",
+  "scenario": "Accompanying a feverish student to the nurse, you discuss care instructions.",
   "estimated_minutes": 10,
   "dialogue": {
     "setting": "School clinic, Wednesday afternoon",
@@ -233,8 +233,8 @@
   ],
   "ai_conversation": {
     "role": "doctor",
-    "scenario": "Diagnose a patient's symptoms at the clinic.",
-    "opening_line": "Hello. Please sit down. What are your symptoms today?",
+    "scenario": "Report health symptoms and discuss medical or clinic advice.",
+    "opening_line": "Hello, doctor! What care instructions should we follow for a high fever?",
     "level_constraints": {
       "max_sentence_length": 12,
       "allowed_grammar": [
@@ -248,5 +248,18 @@
       ]
     },
     "success_criteria": "Learner describes symptoms clearly and asks for medical advice."
-  }
+  },
+  "takeaway_lines": [
+    "Good morning. I have a terrible headache and a high fever.",
+    "I am sorry to hear that. How long have you had these symptoms?",
+    "The fever started two days ago and has not improved.",
+    "I see. I will write a prescription for you."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

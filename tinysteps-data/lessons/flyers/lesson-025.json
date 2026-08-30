@@ -4,7 +4,7 @@
   "topic_id": "topic_before_class",
   "order": 25,
   "title": "Preparing for class",
-  "scenario": "You are in a teacher role. Use English naturally in this before class situation.",
+  "scenario": "In the hallway before class, you confirm today’s schedule with another teacher.",
   "estimated_minutes": 8,
   "dialogue": {
     "setting": "Teachers room, Friday afternoon",
@@ -23,7 +23,7 @@
     "lines": [
       {
         "character_id": "char_a",
-        "text": "Good morning. I'd like to check the school schedule before class."
+        "text": "Good morning. I want to check the school schedule before class."
       },
       {
         "character_id": "char_b",
@@ -39,7 +39,7 @@
       },
       {
         "character_id": "char_a",
-        "text": "Furthermore, we need to prepare worksheets for Period Three."
+        "text": "We need to prepare worksheets for Period Three."
       },
       {
         "character_id": "char_b",
@@ -226,8 +226,8 @@
   ],
   "ai_conversation": {
     "role": "colleague",
-    "scenario": "Talk about class preparation before the lesson starts.",
-    "opening_line": "Good morning! Have you finished the lesson preparation?",
+    "scenario": "Talk about preparing materials and schedules before class starts.",
+    "opening_line": "Good morning! Is the new lesson plan ready for today’s class?",
     "level_constraints": {
       "max_sentence_length": 10,
       "allowed_grammar": [
@@ -240,5 +240,18 @@
       ]
     },
     "success_criteria": "Learner answers appropriately and describes a classroom preparation task."
-  }
+  },
+  "takeaway_lines": [
+    "Good morning. I want to check the school schedule before class.",
+    "Sure. The principal updated the timetable this morning.",
+    "We should inform the other teachers about the change.",
+    "I have already sent them an email with the new details."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

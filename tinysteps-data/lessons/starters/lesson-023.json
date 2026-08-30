@@ -4,7 +4,7 @@
   "topic_id": "topic_health",
   "order": 23,
   "title": "Health and the doctor",
-  "scenario": "You are in a patient role. Use English naturally in this health situation.",
+  "scenario": "At the clinic, you tell the doctor how you feel.",
   "estimated_minutes": 4,
   "dialogue": {
     "setting": "School clinic, Wednesday afternoon",
@@ -69,11 +69,11 @@
           "correct_answer": "medicine"
         },
         {
-          "image_hint": "an action illustration showing a person to rest",
+          "image_hint": "a person trying to rest in a classroom",
           "correct_answer": "rest"
         },
         {
-          "image_hint": "a clean graphic illustration of a energy",
+          "image_hint": "a clean graphic illustration of an energy",
           "correct_answer": "energy"
         }
       ]
@@ -189,7 +189,7 @@
             "rest"
           ],
           "correct_answer": "rest",
-          "image_hint": "an action illustration showing a person to rest"
+          "image_hint": "a person trying to rest in a classroom"
         },
         {
           "prompt": "What is this?",
@@ -199,15 +199,15 @@
             "energy"
           ],
           "correct_answer": "energy",
-          "image_hint": "a clean graphic illustration of a energy"
+          "image_hint": "a clean graphic illustration of an energy"
         }
       ]
     }
   ],
   "ai_conversation": {
     "role": "doctor",
-    "scenario": "Diagnose a patient's symptoms at the clinic.",
-    "opening_line": "Hello. Please sit down. What are your symptoms today?",
+    "scenario": "Talk about health problems with a doctor.",
+    "opening_line": "Doctor, I have a headache now.",
     "level_constraints": {
       "max_sentence_length": 6,
       "allowed_grammar": [
@@ -220,5 +220,18 @@
       ]
     },
     "success_criteria": "Learner describes symptoms clearly and asks for medical advice."
-  }
+  },
+  "takeaway_lines": [
+    "I am not fine. I have a headache.",
+    "Hello, doctor! I feel bad today.",
+    "Take this medicine and rest at home.",
+    "Hello! How are you?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

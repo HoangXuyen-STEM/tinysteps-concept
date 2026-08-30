@@ -8,12 +8,30 @@ export type Vocab = {
 
 export type DialogueLine = { character_id: string; text: string; note?: string };
 export type Character = { id: string; name: string; role: string };
-export type MatchExercise = { type: "match"; instruction: string; items: { image_hint: string; correct_answer: string }[] };
+export type SchemaVersion = 1 | 2;
+export type StationId = "look" | "say" | "practice" | "takeaway";
+export type MatchExercise = {
+  type: "match";
+  instruction: string;
+  items: { image_hint?: string; prompt?: string; correct_answer: string }[];
+};
 export type ArrangeExercise = { type: "arrange"; instruction: string; items: { words: string[]; correct_answer: string }[] };
 export type ListenChooseExercise = { type: "listen_choose"; instruction: string; items: { audio_text: string; options: string[]; correct_answer: string }[] };
 export type FillBlankExercise = { type: "fill_blank"; instruction: string; items: { prompt: string; correct_answer: string }[] };
 export type MultipleChoiceExercise = { type: "multiple_choice"; instruction: string; items: { prompt: string; options: string[]; correct_answer: string; image_hint?: string }[] };
-export type Exercise = MatchExercise | ArrangeExercise | ListenChooseExercise | FillBlankExercise | MultipleChoiceExercise;
+export type PictureYesNoExercise = {
+  type: "picture_yes_no";
+  instruction: string;
+  image_hint: string;
+  items: { sentence: string; correct_answer: "yes" | "no" }[];
+};
+export type Exercise =
+  | MatchExercise
+  | ArrangeExercise
+  | ListenChooseExercise
+  | FillBlankExercise
+  | MultipleChoiceExercise
+  | PictureYesNoExercise;
 
 export type WritingBlank = {
   id: string;
@@ -88,6 +106,10 @@ export type Lesson = {
   dialogue: { setting: string; characters: Character[]; lines: DialogueLine[] };
   vocabulary_ids: string[]; grammar_ids: string[]; exercises: Exercise[];
   ai_conversation: { role: string; scenario: string; opening_line: string; level_constraints: { max_sentence_length: number; allowed_grammar: string[]; target_vocabulary: string[] }; success_criteria?: string };
+  schema_version?: SchemaVersion;
+  stations?: StationId[];
+  takeaway_lines?: string[];
+  scene_image_hint?: string;
 };
 
 export type Topic = { id: string; name: string; description: string; group_id: "school" | "daily_life"; spiral: TopicSpiral[] };

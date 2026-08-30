@@ -11,7 +11,22 @@ const vocabSchema = z.object({
 export const vocabularyDocumentSchema = z.object({ level: levelSchema, total_words: z.number().int(), words: z.array(vocabSchema) });
 
 const exerciseBase = z.object({ instruction: z.string() });
-const matchExercise = exerciseBase.extend({ type: z.literal("match"), items: z.array(z.object({ image_hint: z.string(), correct_answer: z.string() })) });
+const matchExercise = exerciseBase.extend({
+  type: z.literal("match"),
+  items: z.array(z.object({
+    image_hint: z.string().optional(),
+    prompt: z.string().optional(),
+    correct_answer: z.string(),
+  })),
+});
+const pictureYesNoExercise = exerciseBase.extend({
+  type: z.literal("picture_yes_no"),
+  image_hint: z.string(),
+  items: z.array(z.object({
+    sentence: z.string(),
+    correct_answer: z.enum(["yes", "no"]),
+  })),
+});
 const arrangeExercise = exerciseBase.extend({ type: z.literal("arrange"), items: z.array(z.object({ words: stringList, correct_answer: z.string() })) });
 const listenExercise = exerciseBase.extend({ type: z.literal("listen_choose"), items: z.array(z.object({ audio_text: z.string(), options: stringList, correct_answer: z.string() })) });
 const blankExercise = exerciseBase.extend({ type: z.literal("fill_blank"), items: z.array(z.object({ prompt: z.string(), correct_answer: z.string() })) });
@@ -20,8 +35,13 @@ const choiceExercise = exerciseBase.extend({ type: z.literal("multiple_choice"),
 export const lessonSchema = z.object({
   id: z.string(), level: levelSchema, topic_id: z.string(), order: z.number().int(), title: z.string(), scenario: z.string(), estimated_minutes: z.number().int(),
   dialogue: z.object({ setting: z.string(), characters: z.array(z.object({ id: z.string(), name: z.string(), role: z.string() })), lines: z.array(z.object({ character_id: z.string(), text: z.string(), note: z.string().optional() })) }),
-  vocabulary_ids: stringList, grammar_ids: stringList, exercises: z.array(z.discriminatedUnion("type", [matchExercise, arrangeExercise, listenExercise, blankExercise, choiceExercise])),
+  vocabulary_ids: stringList, grammar_ids: stringList,
+  exercises: z.array(z.discriminatedUnion("type", [matchExercise, arrangeExercise, listenExercise, blankExercise, choiceExercise, pictureYesNoExercise])).min(2).max(8),
   ai_conversation: z.object({ role: z.string(), scenario: z.string(), opening_line: z.string(), level_constraints: z.object({ max_sentence_length: z.number().int(), allowed_grammar: stringList, target_vocabulary: stringList }), success_criteria: z.string().optional() }),
+  schema_version: z.union([z.literal(1), z.literal(2)]).optional(),
+  stations: z.array(z.enum(["look", "say", "practice", "takeaway"])).optional(),
+  takeaway_lines: stringList.optional(),
+  scene_image_hint: z.string().optional(),
 });
 
 export const topicsDocumentSchema = z.object({

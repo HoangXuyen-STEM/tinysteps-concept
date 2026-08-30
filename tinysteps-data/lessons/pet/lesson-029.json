@@ -4,7 +4,7 @@
   "topic_id": "topic_praise_correction",
   "order": 29,
   "title": "Praise and correction",
-  "scenario": "You are in a teacher role. Use English naturally in this praise correction situation.",
+  "scenario": "Providing feedback on writing progress, you commend effort while fixing errors.",
   "estimated_minutes": 12,
   "dialogue": {
     "setting": "Front of classroom, Thursday morning",
@@ -185,11 +185,11 @@
         },
         {
           "prompt": "I ___ the safety procedure were simpler.",
-          "correct_answer": "wish"
+          "correct_answer": "please"
         },
         {
           "prompt": "I ___ you didn't make that mistake.",
-          "correct_answer": "wish"
+          "correct_answer": "now"
         }
       ]
     },
@@ -232,8 +232,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Receive feedback and correct a spelling error.",
-    "opening_line": "Teacher, did I do a good job on my homework?",
+    "scenario": "Praise student progress and provide gentle correction on errors.",
+    "opening_line": "Teacher, what specific areas should I work on to eliminate careless mistakes?",
     "level_constraints": {
       "max_sentence_length": 15,
       "allowed_grammar": [
@@ -246,5 +246,18 @@
       ]
     },
     "success_criteria": "Learner praises the student and guides correction of the mistake."
-  }
+  },
+  "takeaway_lines": [
+    "You have made excellent progress in your writing this month.",
+    "Thank you. I practised a lot during the weekend.",
+    "Your paragraph structure is clear and logical.",
+    "However, I think I used the wrong tense in one sentence."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

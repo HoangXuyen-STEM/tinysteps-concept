@@ -4,7 +4,7 @@
   "topic_id": "topic_checking_understanding",
   "order": 4,
   "title": "Checking understanding",
-  "scenario": "You are in a teacher role. Use English naturally in this checking understanding situation.",
+  "scenario": "The class looks confused after your question. You check if they understand.",
   "estimated_minutes": 4,
   "dialogue": {
     "setting": "English lab, Thursday morning",
@@ -27,7 +27,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "Yes, teacher. We are looking."
+        "text": "Yes, teacher. We look."
       },
       {
         "character_id": "char_a",
@@ -69,7 +69,7 @@
           "correct_answer": "listen"
         },
         {
-          "image_hint": "an action illustration showing a person to comprehend",
+          "image_hint": "a person trying to comprehend in a classroom",
           "correct_answer": "comprehend"
         },
         {
@@ -187,7 +187,7 @@
             "listen"
           ],
           "correct_answer": "comprehend",
-          "image_hint": "an action illustration showing a person to comprehend"
+          "image_hint": "a person trying to comprehend in a classroom"
         },
         {
           "prompt": "What is this?",
@@ -204,8 +204,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Confirm comprehension of the classroom rules.",
-    "opening_line": "Teacher, are we supposed to explain or just write it?",
+    "scenario": "Check if students understand.",
+    "opening_line": "Teacher, do we look at the board now?",
     "level_constraints": {
       "max_sentence_length": 6,
       "allowed_grammar": [
@@ -219,5 +219,18 @@
       ]
     },
     "success_criteria": "Learner checks understanding and gently clarifies rules."
-  }
+  },
+  "takeaway_lines": [
+    "Listen to me. Look at the board.",
+    "Yes! He is a very good student.",
+    "Yes, teacher. We look.",
+    "Is this a good student?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

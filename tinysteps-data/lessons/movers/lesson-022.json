@@ -4,7 +4,7 @@
   "topic_id": "topic_phone",
   "order": 22,
   "title": "Making a phone call",
-  "scenario": "You are in a caller role. Use English naturally in this phone situation.",
+  "scenario": "You answer a phone call and share a short school update.",
   "estimated_minutes": 6,
   "dialogue": {
     "setting": "Office, on the phone, Tuesday morning",
@@ -222,8 +222,8 @@
   ],
   "ai_conversation": {
     "role": "colleague",
-    "scenario": "Coordinate plans over the phone.",
-    "opening_line": "Hello! This is Minh calling. Can we confirm the schedule?",
+    "scenario": "Make or answer a short phone call.",
+    "opening_line": "Good afternoon. Do you have time to talk now?",
     "level_constraints": {
       "max_sentence_length": 8,
       "allowed_grammar": [
@@ -236,5 +236,18 @@
       ]
     },
     "success_criteria": "Learner coordinates plans and leaves a phone message successfully."
-  }
+  },
+  "takeaway_lines": [
+    "Please tell her to call me about Friday's meeting.",
+    "Sorry, the principal is busy right now.",
+    "I will pass on the message. Goodbye!",
+    "Hello, this is Mr. Minh. Can I speak to the principal?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

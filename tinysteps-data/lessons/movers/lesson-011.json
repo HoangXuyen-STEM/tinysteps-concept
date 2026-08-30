@@ -4,7 +4,7 @@
   "topic_id": "topic_health",
   "order": 11,
   "title": "Health and the doctor",
-  "scenario": "You are in a patient role. Use English naturally in this health situation.",
+  "scenario": "You take a student to the school clinic and explain the problem.",
   "estimated_minutes": 6,
   "dialogue": {
     "setting": "School clinic, Monday morning",
@@ -35,11 +35,11 @@
       },
       {
         "character_id": "char_b",
-        "text": "He should stay at home and drink warm water."
+        "text": "He needs to stay at home and drink warm water."
       },
       {
         "character_id": "char_a",
-        "text": "Should I bring him to the clinic tomorrow?"
+        "text": "Do I bring him to the clinic tomorrow?"
       },
       {
         "character_id": "char_b",
@@ -220,8 +220,8 @@
   ],
   "ai_conversation": {
     "role": "doctor",
-    "scenario": "Diagnose a patient's symptoms at the clinic.",
-    "opening_line": "Hello. Please sit down. What are your symptoms today?",
+    "scenario": "Talk about health problems with a doctor.",
+    "opening_line": "Doctor, he has a fever since yesterday.",
     "level_constraints": {
       "max_sentence_length": 8,
       "allowed_grammar": [
@@ -234,5 +234,18 @@
       ]
     },
     "success_criteria": "Learner describes symptoms clearly and asks for medical advice."
-  }
+  },
+  "takeaway_lines": [
+    "He needs to stay at home and drink warm water.",
+    "It started yesterday afternoon.",
+    "He is sick today. He has a fever.",
+    "Yes, bring him if the fever does not go down."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

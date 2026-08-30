@@ -4,7 +4,7 @@
   "topic_id": "topic_checking_understanding",
   "order": 28,
   "title": "Checking understanding",
-  "scenario": "You are in a teacher role. Use English naturally in this checking understanding situation.",
+  "scenario": "Stopping a listening exercise, you verify that all students understood the audio.",
   "estimated_minutes": 10,
   "dialogue": {
     "setting": "English lab, Wednesday afternoon",
@@ -43,7 +43,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "If I practised more often, would my listening improve?"
+        "text": "If I practised more often, will my listening improve?"
       },
       {
         "character_id": "char_a",
@@ -231,8 +231,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Confirm comprehension of the classroom rules.",
-    "opening_line": "Teacher, are we supposed to explain or just write it?",
+    "scenario": "Check student comprehension and clarify instructions.",
+    "opening_line": "Teacher, could you replay the last part of the listening tape?",
     "level_constraints": {
       "max_sentence_length": 12,
       "allowed_grammar": [
@@ -245,5 +245,18 @@
       ]
     },
     "success_criteria": "Learner checks understanding and gently clarifies rules."
-  }
+  },
+  "takeaway_lines": [
+    "Let's check if everyone understood the listening exercise.",
+    "I followed the main idea, but missed some details.",
+    "That is fine for now. What was the main topic?",
+    "The speakers were discussing a school event."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

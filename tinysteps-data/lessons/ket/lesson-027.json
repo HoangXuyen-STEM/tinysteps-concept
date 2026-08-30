@@ -4,7 +4,7 @@
   "topic_id": "topic_giving_instructions",
   "order": 27,
   "title": "Giving instructions",
-  "scenario": "You are in a teacher role. Use English naturally in this giving instructions situation.",
+  "scenario": "Students wait for directions. You tell them what to do in clear steps.",
   "estimated_minutes": 10,
   "dialogue": {
     "setting": "Classroom, Tuesday morning",
@@ -180,11 +180,11 @@
         },
         {
           "prompt": "___ you check my schedule?",
-          "correct_answer": "Could"
+          "correct_answer": "please"
         },
         {
           "prompt": "___ we correct the mistakes together?",
-          "correct_answer": "Could"
+          "correct_answer": "now"
         }
       ]
     },
@@ -227,8 +227,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Ask for clarification about task instructions.",
-    "opening_line": "Teacher, should we open our books or start writing?",
+    "scenario": "Give clear instructions and explain rules for tasks or tests.",
+    "opening_line": "Teacher, what should we do if we make a mistake on the answer sheet?",
     "level_constraints": {
       "max_sentence_length": 12,
       "allowed_grammar": [
@@ -242,5 +242,18 @@
       ]
     },
     "success_criteria": "Learner gives clear, polite instructions using imperatives or modal verbs."
-  }
+  },
+  "takeaway_lines": [
+    "You must follow the instructions carefully during the test.",
+    "Understood, teacher. Should we write our names on the paper?",
+    "Yes, write your full name at the top of the page.",
+    "Could we use a dictionary for the reading section?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

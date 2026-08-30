@@ -4,7 +4,7 @@
   "topic_id": "topic_travel",
   "order": 21,
   "title": "Travel and directions",
-  "scenario": "You are in a traveler role. Use English naturally in this travel situation.",
+  "scenario": "On the way home, you ask someone how to get to a nearby place.",
   "estimated_minutes": 6,
   "dialogue": {
     "setting": "Bus terminal, Monday morning",
@@ -221,8 +221,8 @@
   ],
   "ai_conversation": {
     "role": "agent",
-    "scenario": "Help a traveler book tickets and find directions.",
-    "opening_line": "Hello! Where are you traveling to today?",
+    "scenario": "Ask for directions to a nearby place.",
+    "opening_line": "Hi! Is this the right way to the market?",
     "level_constraints": {
       "max_sentence_length": 8,
       "allowed_grammar": [
@@ -236,5 +236,18 @@
       ]
     },
     "success_criteria": "Learner asks for directions and travel booking help politely."
-  }
+  },
+  "takeaway_lines": [
+    "Yesterday I went to school by bicycle.",
+    "Yes, let's buy it at that counter.",
+    "Yes, I went about three kilometres.",
+    "Thank you. You are very helpful!"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

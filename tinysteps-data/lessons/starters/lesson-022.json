@@ -4,7 +4,7 @@
   "topic_id": "topic_phone",
   "order": 22,
   "title": "Making a phone call",
-  "scenario": "You are in a caller role. Use English naturally in this phone situation.",
+  "scenario": "You take a short phone call from the school.",
   "estimated_minutes": 4,
   "dialogue": {
     "setting": "Office, on the phone, Tuesday morning",
@@ -27,7 +27,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "I am fine, thank you. Who is calling?"
+        "text": "I am fine, thank you. Who is this?"
       },
       {
         "character_id": "char_a",
@@ -68,11 +68,11 @@
           "correct_answer": "number"
         },
         {
-          "image_hint": "an action illustration showing a person to hear",
+          "image_hint": "a person trying to hear in a classroom",
           "correct_answer": "hear"
         },
         {
-          "image_hint": "an action illustration showing a person to contact",
+          "image_hint": "a person trying to contact in a classroom",
           "correct_answer": "contact"
         }
       ]
@@ -186,7 +186,7 @@
             "hear"
           ],
           "correct_answer": "hear",
-          "image_hint": "an action illustration showing a person to hear"
+          "image_hint": "a person trying to hear in a classroom"
         },
         {
           "prompt": "What is this?",
@@ -196,15 +196,15 @@
             "hear"
           ],
           "correct_answer": "contact",
-          "image_hint": "an action illustration showing a person to contact"
+          "image_hint": "a person trying to contact in a classroom"
         }
       ]
     }
   ],
   "ai_conversation": {
     "role": "colleague",
-    "scenario": "Coordinate plans over the phone.",
-    "opening_line": "Hello! This is Minh calling. Can we confirm the schedule?",
+    "scenario": "Make or answer a short phone call.",
+    "opening_line": "Hi! Can you hear me clearly?",
     "level_constraints": {
       "max_sentence_length": 6,
       "allowed_grammar": [
@@ -217,5 +217,18 @@
       ]
     },
     "success_criteria": "Learner coordinates plans and leaves a phone message successfully."
-  }
+  },
+  "takeaway_lines": [
+    "I am Ms. Lan from the school.",
+    "Who is this?",
+    "What is the news?",
+    "Can we talk about the schedule?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

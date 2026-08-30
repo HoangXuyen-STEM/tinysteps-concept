@@ -4,7 +4,7 @@
   "topic_id": "topic_school_communication",
   "order": 6,
   "title": "School communication",
-  "scenario": "You are in a teacher role. Use English naturally in this school communication situation.",
+  "scenario": "Speaking with a parent after class, you discuss parent meeting feedback.",
   "estimated_minutes": 10,
   "dialogue": {
     "setting": "School meeting room, Monday morning",
@@ -43,7 +43,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "Furthermore, the principal has asked for a formal report."
+        "text": "The principal has asked for a formal report."
       },
       {
         "character_id": "char_a",
@@ -232,8 +232,8 @@
   ],
   "ai_conversation": {
     "role": "parent",
-    "scenario": "Ask about student progress at parent-teacher meeting.",
-    "opening_line": "Hello, teacher. I wanted to ask about my child's progress.",
+    "scenario": "Discuss student feedback and progress politely with parents.",
+    "opening_line": "Good afternoon, teacher! Could we review the parents’ suggestions together?",
     "level_constraints": {
       "max_sentence_length": 12,
       "allowed_grammar": [
@@ -247,5 +247,18 @@
       ]
     },
     "success_criteria": "Learner discusses student progress and provides constructive advice."
-  }
+  },
+  "takeaway_lines": [
+    "I'd like to discuss the feedback from last week's parent meeting.",
+    "Yes, several parents raised concerns about homework volume.",
+    "I understand. We should adjust our policy accordingly.",
+    "I have drafted a new homework schedule for your review."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

@@ -4,7 +4,7 @@
   "topic_id": "topic_before_class",
   "order": 37,
   "title": "Preparing for class",
-  "scenario": "You are in a teacher role. Use English naturally in this before class situation.",
+  "scenario": "Inspecting the classroom early morning, you check lesson plans before students arrive.",
   "estimated_minutes": 12,
   "dialogue": {
     "setting": "Teachers room, Tuesday morning",
@@ -83,8 +83,9 @@
       "instruction": "Match the picture with the correct word.",
       "items": [
         {
-          "image_hint": "a step-by-step flowchart diagram on school safety",
-          "correct_answer": "procedure"
+          "prompt": "The school safety ___ must be followed.",
+          "correct_answer": "procedure",
+          "image_hint": ""
         },
         {
           "image_hint": "a clean graphic illustration of a timetable",
@@ -187,11 +188,11 @@
         },
         {
           "prompt": "We've ___ preparing this lesson since morning.",
-          "correct_answer": "been"
+          "correct_answer": "please"
         },
         {
           "prompt": "My colleague has ___ discussing the schedule with the headteacher.",
-          "correct_answer": "been"
+          "correct_answer": "now"
         }
       ]
     },
@@ -234,8 +235,8 @@
   ],
   "ai_conversation": {
     "role": "colleague",
-    "scenario": "Talk about class preparation before the lesson starts.",
-    "opening_line": "Good morning! Have you finished the lesson preparation?",
+    "scenario": "Talk about preparing materials and schedules before class starts.",
+    "opening_line": "Greetings! Did you inspect the updated lesson plan before class began?",
     "level_constraints": {
       "max_sentence_length": 15,
       "allowed_grammar": [
@@ -248,5 +249,18 @@
       ]
     },
     "success_criteria": "Learner answers appropriately and describes a classroom preparation task."
-  }
+  },
+  "takeaway_lines": [
+    "Good morning. I'd like to check the school schedule before class.",
+    "Sure. The principal updated the timetable this morning.",
+    "We should inform the other teachers about the change.",
+    "I have already sent them an email with the new details."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

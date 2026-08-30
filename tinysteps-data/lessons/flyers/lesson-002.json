@@ -4,7 +4,7 @@
   "topic_id": "topic_in_class",
   "order": 2,
   "title": "Learning in the classroom",
-  "scenario": "You are in a teacher role. Use English naturally in this in class situation.",
+  "scenario": "Class has started. You guide the lesson and keep students focused.",
   "estimated_minutes": 8,
   "dialogue": {
     "setting": "Classroom, Tuesday morning",
@@ -27,7 +27,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "I have been thinking about ways to improve my speaking."
+        "text": "I think now about ways to improve my speaking."
       },
       {
         "character_id": "char_a",
@@ -35,7 +35,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "Could you recommend some practice activities?"
+        "text": "Please recommend some practice activities?"
       },
       {
         "character_id": "char_a",
@@ -43,7 +43,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "I would if I had more free time after school."
+        "text": "I need more free time after school."
       },
       {
         "character_id": "char_a",
@@ -187,11 +187,11 @@
         },
         {
           "prompt": "She ___ me to clean the board.",
-          "correct_answer": "told"
+          "correct_answer": "please"
         },
         {
           "prompt": "I ___ the parent to call the doctor.",
-          "correct_answer": "told"
+          "correct_answer": "now"
         }
       ]
     },
@@ -234,8 +234,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Ask questions during class about the lesson.",
-    "opening_line": "Teacher, can you help me? I don't understand the task.",
+    "scenario": "Discuss and practice effective classroom communication.",
+    "opening_line": "Teacher, could you explain how we should practice this speaking task?",
     "level_constraints": {
       "max_sentence_length": 10,
       "allowed_grammar": [
@@ -249,5 +249,18 @@
       ]
     },
     "success_criteria": "Learner explains the task clearly using simple English."
-  }
+  },
+  "takeaway_lines": [
+    "Today we are going to discuss classroom communication.",
+    "I think now about ways to improve my speaking.",
+    "That is great. You should also focus on listening carefully.",
+    "Please recommend some practice activities?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

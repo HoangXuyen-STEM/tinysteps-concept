@@ -4,7 +4,7 @@
   "topic_id": "topic_in_class",
   "order": 2,
   "title": "Learning in the classroom",
-  "scenario": "You are in a teacher role. Use English naturally in this in class situation.",
+  "scenario": "Beginning the lesson, you introduce classroom communication topics to students.",
   "estimated_minutes": 10,
   "dialogue": {
     "setting": "Classroom, Tuesday morning",
@@ -27,7 +27,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "I have been thinking about ways to improve my speaking."
+        "text": "I think now about ways to improve my speaking."
       },
       {
         "character_id": "char_a",
@@ -43,7 +43,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "I would if I had more free time after school."
+        "text": "I need more free time after school."
       },
       {
         "character_id": "char_a",
@@ -233,8 +233,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Ask questions during class about the lesson.",
-    "opening_line": "Teacher, can you help me? I don't understand the task.",
+    "scenario": "Discuss and practice effective classroom communication.",
+    "opening_line": "Teacher, could you guide us on how to complete this speaking exercise?",
     "level_constraints": {
       "max_sentence_length": 12,
       "allowed_grammar": [
@@ -248,5 +248,18 @@
       ]
     },
     "success_criteria": "Learner explains the task clearly using simple English."
-  }
+  },
+  "takeaway_lines": [
+    "Today we are going to discuss classroom communication.",
+    "I think now about ways to improve my speaking.",
+    "That is great. You should also focus on listening carefully.",
+    "Could you recommend some practice activities?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

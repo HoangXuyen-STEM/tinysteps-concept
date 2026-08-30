@@ -4,7 +4,7 @@
   "topic_id": "topic_travel",
   "order": 33,
   "title": "Travel and directions",
-  "scenario": "You are in a traveler role. Use English naturally in this travel situation.",
+  "scenario": "Stopping near a station, you ask for directions to buy train tickets.",
   "estimated_minutes": 10,
   "dialogue": {
     "setting": "Bus terminal, Wednesday afternoon",
@@ -180,11 +180,11 @@
         },
         {
           "prompt": "___ you check my schedule?",
-          "correct_answer": "Could"
+          "correct_answer": "please"
         },
         {
           "prompt": "___ we correct the mistakes together?",
-          "correct_answer": "Could"
+          "correct_answer": "now"
         }
       ]
     },
@@ -227,8 +227,8 @@
   ],
   "ai_conversation": {
     "role": "agent",
-    "scenario": "Help a traveler book tickets and find directions.",
-    "opening_line": "Hello! Where are you traveling to today?",
+    "scenario": "Ask for directions, buy tickets, and check travel information.",
+    "opening_line": "Good morning! What time does the next train to Hue depart?",
     "level_constraints": {
       "max_sentence_length": 12,
       "allowed_grammar": [
@@ -242,5 +242,18 @@
       ]
     },
     "success_criteria": "Learner asks for directions and travel booking help politely."
-  }
+  },
+  "takeaway_lines": [
+    "I would like to buy a train ticket to Hue, please.",
+    "Certainly. When would you like to travel?",
+    "This Saturday morning, if possible.",
+    "There is a train at eight thirty that arrives at noon."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

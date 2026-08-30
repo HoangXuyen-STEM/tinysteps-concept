@@ -4,7 +4,7 @@
   "topic_id": "topic_praise_correction",
   "order": 17,
   "title": "Praise and correction",
-  "scenario": "You are in a teacher role. Use English naturally in this praise correction situation.",
+  "scenario": "You hear a good answer and give short praise to the student.",
   "estimated_minutes": 4,
   "dialogue": {
     "setting": "Front of classroom, Tuesday morning",
@@ -206,8 +206,8 @@
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Receive feedback and correct a spelling error.",
-    "opening_line": "Teacher, did I do a good job on my homework?",
+    "scenario": "Praise students and correct gently.",
+    "opening_line": "Teacher, is this correct now?",
     "level_constraints": {
       "max_sentence_length": 6,
       "allowed_grammar": [
@@ -220,5 +220,18 @@
       ]
     },
     "success_criteria": "Learner praises the student and guides correction of the mistake."
-  }
+  },
+  "takeaway_lines": [
+    "Look at this. That is correct.",
+    "Good job, Nam! Very good!",
+    "Great! I like this lesson.",
+    "Thank you, teacher! I am happy."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

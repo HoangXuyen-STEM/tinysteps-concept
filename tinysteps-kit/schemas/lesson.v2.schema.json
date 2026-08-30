@@ -1,0 +1,276 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TinySteps Lesson File v2",
+  "description": "Lesson schema v2: optional stations, takeaway_lines, picture_yes_no. schema_version is optional for v1 files.",
+  "type": "object",
+  "required": ["id", "level", "topic_id", "order", "title", "scenario", "estimated_minutes", "dialogue", "vocabulary_ids", "grammar_ids", "exercises", "ai_conversation"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(starters|movers|flyers|ket|pet)_lesson_\\d{3}$"
+    },
+    "level": {
+      "type": "string",
+      "enum": ["starters", "movers", "flyers", "ket", "pet"]
+    },
+    "topic_id": {
+      "type": "string",
+      "description": "Primary topic this lesson belongs to"
+    },
+    "order": {
+      "type": "integer",
+      "description": "Lesson order within the level (1-based)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Short, descriptive title in English. Example: 'Good morning, class!'"
+    },
+    "scenario": {
+      "type": "string",
+      "description": "1-2 sentence description of the real-life situation. Example: 'You arrive at school and greet your colleagues in the teachers room.'"
+    },
+    "estimated_minutes": {
+      "type": "integer",
+      "description": "Estimated time to complete. Starters: 3-5 min. Movers/Flyers: 5-8 min. KET/PET: 8-12 min."
+    },
+    "dialogue": {
+      "type": "object",
+      "required": ["setting", "characters", "lines"],
+      "properties": {
+        "setting": {
+          "type": "string",
+          "description": "Where the conversation takes place. Example: 'Teachers room, Monday morning'"
+        },
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "role"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "role": { "type": "string", "description": "Example: 'teacher', 'student', 'parent', 'waiter'" }
+            }
+          }
+        },
+        "lines": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["character_id", "text"],
+            "properties": {
+              "character_id": { "type": "string" },
+              "text": { "type": "string" },
+              "note": {
+                "type": "string",
+                "description": "Optional. Stage direction or tone hint. Example: '(smiling)', '(pointing at the board)'"
+              }
+            }
+          },
+          "description": "Dialogue lines. Starters: 4-6 lines. Movers: 6-8. Flyers: 8-10. KET: 10-12. PET: 12-16."
+        }
+      }
+    },
+    "vocabulary_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "IDs of vocabulary words that appear in this lesson. 6-12 words per lesson."
+    },
+    "grammar_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "IDs of grammar points practiced in this lesson. 1-2 per lesson."
+    },
+    "schema_version": { "type": "integer", "enum": [1, 2] },
+    "stations": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["look", "say", "practice", "takeaway"] }
+    },
+    "takeaway_lines": { "type": "array", "items": { "type": "string" } },
+    "scene_image_hint": { "type": "string" },
+    "exercises": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["type", "instruction", "items"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["match", "arrange", "listen_choose", "fill_blank", "multiple_choice", "picture_yes_no"],
+            "description": "match = nối hình-từ. arrange = sắp xếp câu. listen_choose = nghe-chọn. fill_blank = điền từ. multiple_choice = chọn đáp án."
+          },
+          "instruction": {
+            "type": "string",
+            "description": "Simple instruction in English. Example: 'Match the picture with the word.'"
+          },
+          "items": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 6,
+            "items": {
+              "type": "object",
+              "description": "Exercise item. Structure varies by type — see examples below.",
+              "properties": {
+                "prompt": { "type": "string", "description": "The question or prompt shown to the user" },
+                "correct_answer": { "type": "string", "description": "The correct answer" },
+                "options": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "For multiple_choice and listen_choose: list of options including correct one"
+                },
+                "words": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "For arrange: shuffled words to put in order"
+                },
+                "image_hint": {
+                  "type": "string",
+                  "description": "For match: image description to match with the word"
+                },
+                "audio_text": {
+                  "type": "string",
+                  "description": "For listen_choose: text that will be converted to audio via TTS"
+                }
+              }
+            }
+          }
+        }
+      },
+      "description": "Exactly 5 exercises, one of each type."
+    },
+    "ai_conversation": {
+      "type": "object",
+      "required": ["role", "scenario", "opening_line", "level_constraints"],
+      "properties": {
+        "role": {
+          "type": "string",
+          "description": "Who the AI pretends to be. Example: 'colleague', 'parent', 'student', 'waiter'"
+        },
+        "scenario": {
+          "type": "string",
+          "description": "Situation for the conversation practice"
+        },
+        "opening_line": {
+          "type": "string",
+          "description": "The first line AI says to start the conversation"
+        },
+        "level_constraints": {
+          "type": "object",
+          "required": ["max_sentence_length", "allowed_grammar", "target_vocabulary"],
+          "properties": {
+            "max_sentence_length": {
+              "type": "integer",
+              "description": "Max words per AI sentence. Starters: 6. Movers: 8. Flyers: 10. KET: 12. PET: 15."
+            },
+            "allowed_grammar": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Grammar IDs the AI is allowed to use (nothing above the current level)"
+            },
+            "target_vocabulary": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Vocabulary IDs the AI should try to use or elicit from the learner"
+            }
+          }
+        },
+        "success_criteria": {
+          "type": "string",
+          "description": "What counts as a successful conversation. Example: 'Learner greets the colleague and asks about their weekend.'"
+        }
+      }
+    }
+  },
+
+  "examples": [
+    {
+      "id": "starters_lesson_001",
+      "level": "starters",
+      "topic_id": "topic_before_class",
+      "order": 1,
+      "title": "Good morning!",
+      "scenario": "You arrive at school and meet a colleague in the teachers room.",
+      "estimated_minutes": 4,
+      "dialogue": {
+        "setting": "Teachers room, Monday morning",
+        "characters": [
+          { "id": "teacher_a", "name": "Ms. Lan", "role": "teacher" },
+          { "id": "teacher_b", "name": "Mr. Minh", "role": "teacher" }
+        ],
+        "lines": [
+          { "character_id": "teacher_a", "text": "Good morning!", "note": "(smiling)" },
+          { "character_id": "teacher_b", "text": "Good morning! How are you?" },
+          { "character_id": "teacher_a", "text": "I'm fine, thank you. And you?" },
+          { "character_id": "teacher_b", "text": "I'm good. Ready for class?" },
+          { "character_id": "teacher_a", "text": "Yes! See you later." },
+          { "character_id": "teacher_b", "text": "See you!" }
+        ]
+      },
+      "vocabulary_ids": [
+        "starters_vocab_001", "starters_vocab_002", "starters_vocab_003",
+        "starters_vocab_004", "starters_vocab_005", "starters_vocab_006"
+      ],
+      "grammar_ids": ["starters_grammar_002"],
+      "exercises": [
+        {
+          "type": "match",
+          "instruction": "Match the picture with the word.",
+          "items": [
+            { "image_hint": "a person waving hello", "correct_answer": "hello" },
+            { "image_hint": "a person waving goodbye", "correct_answer": "goodbye" },
+            { "image_hint": "a smiling face", "correct_answer": "fine" }
+          ]
+        },
+        {
+          "type": "arrange",
+          "instruction": "Put the words in the correct order.",
+          "items": [
+            { "words": ["morning", "Good", "!"], "correct_answer": "Good morning!" },
+            { "words": ["are", "How", "you", "?"], "correct_answer": "How are you?" },
+            { "words": ["you", "Thank", "."], "correct_answer": "Thank you." }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "Listen and choose the correct answer.",
+          "items": [
+            { "audio_text": "Good morning!", "options": ["Good morning!", "Good night!", "Goodbye!"], "correct_answer": "Good morning!" },
+            { "audio_text": "How are you?", "options": ["What is your name?", "How are you?", "Where are you?"], "correct_answer": "How are you?" },
+            { "audio_text": "I'm fine, thank you.", "options": ["I'm fine, thank you.", "I'm sorry.", "I don't know."], "correct_answer": "I'm fine, thank you." }
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "instruction": "Fill in the missing word.",
+          "items": [
+            { "prompt": "Good ___! How are you?", "correct_answer": "morning" },
+            { "prompt": "I'm ___, thank you.", "correct_answer": "fine" },
+            { "prompt": "___ you later!", "correct_answer": "See" }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the best answer.",
+          "items": [
+            { "prompt": "Someone says 'Good morning!' What do you say?", "options": ["Good night!", "Good morning!", "I'm sorry."], "correct_answer": "Good morning!" },
+            { "prompt": "Someone asks 'How are you?' What do you say?", "options": ["I'm a teacher.", "I'm fine, thank you.", "My name is Lan."], "correct_answer": "I'm fine, thank you." },
+            { "prompt": "You leave the teachers room. What do you say?", "options": ["Hello!", "Good morning!", "See you later!"], "correct_answer": "See you later!" }
+          ]
+        }
+      ],
+      "ai_conversation": {
+        "role": "colleague",
+        "scenario": "You meet a colleague at school in the morning. Greet them and have a short conversation.",
+        "opening_line": "Good morning! How are you today?",
+        "level_constraints": {
+          "max_sentence_length": 6,
+          "allowed_grammar": ["starters_grammar_001", "starters_grammar_002"],
+          "target_vocabulary": ["starters_vocab_001", "starters_vocab_003", "starters_vocab_004"]
+        },
+        "success_criteria": "Learner greets the colleague, answers how they are, and says goodbye."
+      }
+    }
+  ]
+}

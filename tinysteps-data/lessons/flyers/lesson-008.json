@@ -4,7 +4,7 @@
   "topic_id": "topic_restaurant",
   "order": 8,
   "title": "At the restaurant",
-  "scenario": "You are in a customer role. Use English naturally in this restaurant situation.",
+  "scenario": "Finishing your meal at a restaurant, you ask the server for the bill.",
   "estimated_minutes": 8,
   "dialogue": {
     "setting": "Local restaurant, Wednesday afternoon",
@@ -23,11 +23,11 @@
     "lines": [
       {
         "character_id": "char_a",
-        "text": "Good afternoon. Could we have the bill, please?"
+        "text": "Good afternoon. Can we have the bill, please?"
       },
       {
         "character_id": "char_b",
-        "text": "Of course. Was everything satisfactory today?"
+        "text": "Of course. is everything satisfactory today?"
       },
       {
         "character_id": "char_a",
@@ -83,7 +83,7 @@
       "instruction": "Match the picture with the correct word.",
       "items": [
         {
-          "image_hint": "a elegant restaurant menu card with food icons",
+          "image_hint": "an elegant restaurant menu card with food icons",
           "correct_answer": "menu"
         },
         {
@@ -199,7 +199,7 @@
             "menu"
           ],
           "correct_answer": "menu",
-          "image_hint": "a elegant restaurant menu card with food icons"
+          "image_hint": "an elegant restaurant menu card with food icons"
         },
         {
           "prompt": "What is this?",
@@ -226,8 +226,8 @@
   ],
   "ai_conversation": {
     "role": "waiter",
-    "scenario": "Take an order from a diner at a restaurant.",
-    "opening_line": "Welcome! What would you like to order today?",
+    "scenario": "Order food, ask about menu items, and request the bill politely.",
+    "opening_line": "Good afternoon! Could we please have the bill when you are ready?",
     "level_constraints": {
       "max_sentence_length": 10,
       "allowed_grammar": [
@@ -240,5 +240,18 @@
       ]
     },
     "success_criteria": "Learner orders food, states preferences, and asks for the bill."
-  }
+  },
+  "takeaway_lines": [
+    "Good afternoon. Can we have the bill, please?",
+    "Of course. is everything satisfactory today?",
+    "The food was excellent, but the service was a bit slow.",
+    "I apologise for that. We were very busy this evening."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

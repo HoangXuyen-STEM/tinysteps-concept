@@ -4,7 +4,7 @@
   "topic_id": "topic_social",
   "order": 36,
   "title": "Social conversations",
-  "scenario": "You are in a friend role. Use English naturally in this social situation.",
+  "scenario": "After work, you greet a friend and chat about recent plans.",
   "estimated_minutes": 8,
   "dialogue": {
     "setting": "Park, sunny afternoon, Monday morning",
@@ -31,7 +31,7 @@
       },
       {
         "character_id": "char_a",
-        "text": "I understand. I have been working on a new project."
+        "text": "I understand. I work now on a new project."
       },
       {
         "character_id": "char_b",
@@ -43,7 +43,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "Furthermore, a social event for teachers would be a great idea."
+        "text": "A social event for teachers would be a great idea."
       },
       {
         "character_id": "char_a",
@@ -51,7 +51,7 @@
       },
       {
         "character_id": "char_b",
-        "text": "If I had known earlier, I would have planned something already."
+        "text": "I always plan ahead when I know about events early."
       }
     ]
   },
@@ -184,11 +184,11 @@
         },
         {
           "prompt": "She is ___ to call the doctor.",
-          "correct_answer": "going"
+          "correct_answer": "please"
         },
         {
           "prompt": "We are ___ to have a meeting.",
-          "correct_answer": "going"
+          "correct_answer": "now"
         }
       ]
     },
@@ -231,8 +231,8 @@
   ],
   "ai_conversation": {
     "role": "colleague",
-    "scenario": "Have casual chat about weekend plans.",
-    "opening_line": "Hi! What a nice day. What are your plans for the weekend?",
+    "scenario": "Engage in friendly social conversation with colleagues after work.",
+    "opening_line": "Good afternoon! Have you been busy with work this week?",
     "level_constraints": {
       "max_sentence_length": 10,
       "allowed_grammar": [
@@ -246,5 +246,18 @@
       ]
     },
     "success_criteria": "Learner makes friendly small talk and discusses personal hobbies."
-  }
+  },
+  "takeaway_lines": [
+    "What a lovely afternoon! How have you been lately?",
+    "Very well, thank you. I have been quite busy with school.",
+    "I understand. I work now on a new project.",
+    "What kind of project? It sounds interesting."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

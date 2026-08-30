@@ -4,7 +4,7 @@
   "topic_id": "topic_social",
   "order": 12,
   "title": "Social conversations",
-  "scenario": "You are in a friend role. Use English naturally in this social situation.",
+  "scenario": "At the end of the school day, you catch up with a colleague on weekend plans.",
   "estimated_minutes": 12,
   "dialogue": {
     "setting": "Park, sunny afternoon, Tuesday morning",
@@ -88,8 +88,9 @@
           "correct_answer": "apologize"
         },
         {
-          "image_hint": "an arrow pointing to additional detail cards",
-          "correct_answer": "furthermore"
+          "prompt": "The room is clean. ___, it is bright.",
+          "correct_answer": "furthermore",
+          "image_hint": ""
         },
         {
           "image_hint": "a simple, clear colorful visualization of warm",
@@ -196,11 +197,11 @@
         },
         {
           "prompt": "If they didn't understand, I ___ explain it again.",
-          "correct_answer": "would"
+          "correct_answer": "please"
         },
         {
           "prompt": "If the price were lower, I ___ buy more fruit.",
-          "correct_answer": "would"
+          "correct_answer": "now"
         }
       ]
     },
@@ -243,8 +244,8 @@
   ],
   "ai_conversation": {
     "role": "colleague",
-    "scenario": "Have casual chat about weekend plans.",
-    "opening_line": "Hi! What a nice day. What are your plans for the weekend?",
+    "scenario": "Engage in friendly social conversation with colleagues after work.",
+    "opening_line": "What a pleasant afternoon! How have your recent school projects been going?",
     "level_constraints": {
       "max_sentence_length": 15,
       "allowed_grammar": [
@@ -258,5 +259,18 @@
       ]
     },
     "success_criteria": "Learner makes friendly small talk and discusses personal hobbies."
-  }
+  },
+  "takeaway_lines": [
+    "What a lovely afternoon! How have you been lately?",
+    "Very well, thank you. I have been quite busy with school.",
+    "I understand. I have been working on a new project.",
+    "What kind of project? It sounds interesting."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

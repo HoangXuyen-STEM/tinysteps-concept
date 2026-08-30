@@ -4,7 +4,7 @@
   "topic_id": "topic_giving_instructions",
   "order": 15,
   "title": "Giving instructions",
-  "scenario": "You are in a teacher role. Use English naturally in this giving instructions situation.",
+  "scenario": "Prior to starting an assessment, you outline test rules and expectations.",
   "estimated_minutes": 12,
   "dialogue": {
     "setting": "Classroom, Friday afternoon",
@@ -84,16 +84,19 @@
       "instruction": "Match the picture with the correct word.",
       "items": [
         {
-          "image_hint": "a step-by-step flowchart diagram on school safety",
-          "correct_answer": "procedure"
+          "prompt": "The school safety ___ must be followed.",
+          "correct_answer": "procedure",
+          "image_hint": ""
         },
         {
-          "image_hint": "an action illustration showing a person to should",
-          "correct_answer": "should"
+          "prompt": "Teachers ___ check the answers together.",
+          "correct_answer": "should",
+          "image_hint": ""
         },
         {
-          "image_hint": "a clean graphic illustration of a attention",
-          "correct_answer": "attention"
+          "prompt": "Please pay ___ to the board.",
+          "correct_answer": "attention",
+          "image_hint": ""
         }
       ]
     },
@@ -186,12 +189,12 @@
           "correct_answer": "be"
         },
         {
-          "prompt": "The reservation should ___ confirmed before Friday.",
-          "correct_answer": "be"
+          "prompt": "The reservation should ___ confirmed beenfore Friday.",
+          "correct_answer": "been"
         },
         {
           "prompt": "The ticket can ___ bought at the airport.",
-          "correct_answer": "be"
+          "correct_answer": "being"
         }
       ]
     },
@@ -217,7 +220,7 @@
             "procedure"
           ],
           "correct_answer": "should",
-          "image_hint": "an action illustration showing a person to should"
+          "image_hint": "an action illustration a teacher pointing at classroom rules"
         },
         {
           "prompt": "What is this?",
@@ -227,15 +230,15 @@
             "should"
           ],
           "correct_answer": "attention",
-          "image_hint": "a clean graphic illustration of a attention"
+          "image_hint": "a clean graphic illustration of an attention"
         }
       ]
     }
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Ask for clarification about task instructions.",
-    "opening_line": "Teacher, should we open our books or start writing?",
+    "scenario": "Give clear instructions and explain rules for tasks or tests.",
+    "opening_line": "Teacher, are dictionaries permitted during the reading assessment?",
     "level_constraints": {
       "max_sentence_length": 15,
       "allowed_grammar": [
@@ -249,5 +252,18 @@
       ]
     },
     "success_criteria": "Learner gives clear, polite instructions using imperatives or modal verbs."
-  }
+  },
+  "takeaway_lines": [
+    "You must follow the instructions carefully during the test.",
+    "Understood, teacher. Should we write our names on the paper?",
+    "Yes, write your full name at the top of the page.",
+    "Could we use a dictionary for the reading section?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

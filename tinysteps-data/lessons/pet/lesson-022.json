@@ -4,7 +4,7 @@
   "topic_id": "topic_phone",
   "order": 22,
   "title": "Making a phone call",
-  "scenario": "You are in a caller role. Use English naturally in this phone situation.",
+  "scenario": "Answering an incoming work call, you apologize for a delayed document submission.",
   "estimated_minutes": 12,
   "dialogue": {
     "setting": "Office, on the phone, Tuesday morning",
@@ -84,11 +84,11 @@
       "instruction": "Match the picture with the correct word.",
       "items": [
         {
-          "image_hint": "an action illustration showing a person to say",
+          "image_hint": "a person trying to say in a classroom",
           "correct_answer": "say"
         },
         {
-          "image_hint": "an action illustration showing a person to dial",
+          "image_hint": "a person trying to dial in a classroom",
           "correct_answer": "dial"
         },
         {
@@ -196,11 +196,11 @@
         },
         {
           "prompt": "If they didn't understand, I ___ explain it again.",
-          "correct_answer": "would"
+          "correct_answer": "please"
         },
         {
           "prompt": "If the price were lower, I ___ buy more fruit.",
-          "correct_answer": "would"
+          "correct_answer": "now"
         }
       ]
     },
@@ -216,7 +216,7 @@
             "say"
           ],
           "correct_answer": "say",
-          "image_hint": "an action illustration showing a person to say"
+          "image_hint": "a person trying to say in a classroom"
         },
         {
           "prompt": "What is this?",
@@ -226,7 +226,7 @@
             "say"
           ],
           "correct_answer": "dial",
-          "image_hint": "an action illustration showing a person to dial"
+          "image_hint": "a person trying to dial in a classroom"
         },
         {
           "prompt": "What is this?",
@@ -243,8 +243,8 @@
   ],
   "ai_conversation": {
     "role": "colleague",
-    "scenario": "Coordinate plans over the phone.",
-    "opening_line": "Hello! This is Minh calling. Can we confirm the schedule?",
+    "scenario": "Handle professional phone calls, explain updates, or make scheduling inquiries.",
+    "opening_line": "Good morning! I am calling to confirm when the delayed documents will arrive.",
     "level_constraints": {
       "max_sentence_length": 15,
       "allowed_grammar": [
@@ -258,5 +258,18 @@
       ]
     },
     "success_criteria": "Learner coordinates plans and leaves a phone message successfully."
-  }
+  },
+  "takeaway_lines": [
+    "I am calling to apologise for the delay in sending the report.",
+    "No problem. I understand you were very busy last week.",
+    "I will submit the completed report by tomorrow morning.",
+    "Thank you. Could you also send a digital copy by email?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

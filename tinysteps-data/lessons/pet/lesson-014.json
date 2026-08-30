@@ -4,7 +4,7 @@
   "topic_id": "topic_in_class",
   "order": 14,
   "title": "Learning in the classroom",
-  "scenario": "You are in a teacher role. Use English naturally in this in class situation.",
+  "scenario": "Transitions between activities, you direct focus toward effective speaking.",
   "estimated_minutes": 12,
   "dialogue": {
     "setting": "Classroom, Thursday morning",
@@ -88,11 +88,11 @@
           "correct_answer": "grammar"
         },
         {
-          "image_hint": "an action illustration showing a person to explain",
+          "image_hint": "a person trying to explain in a classroom",
           "correct_answer": "explaining"
         },
         {
-          "image_hint": "a clean graphic illustration of a activity",
+          "image_hint": "a clean graphic illustration of an activity",
           "correct_answer": "activity"
         }
       ]
@@ -196,11 +196,11 @@
         },
         {
           "prompt": "If they didn't understand, I ___ explain it again.",
-          "correct_answer": "would"
+          "correct_answer": "please"
         },
         {
           "prompt": "If the price were lower, I ___ buy more fruit.",
-          "correct_answer": "would"
+          "correct_answer": "now"
         }
       ]
     },
@@ -226,7 +226,7 @@
             "grammar"
           ],
           "correct_answer": "explaining",
-          "image_hint": "an action illustration showing a person to explain"
+          "image_hint": "a person trying to explain in a classroom"
         },
         {
           "prompt": "What is this?",
@@ -236,15 +236,15 @@
             "explaining"
           ],
           "correct_answer": "activity",
-          "image_hint": "a clean graphic illustration of a activity"
+          "image_hint": "a clean graphic illustration of an activity"
         }
       ]
     }
   ],
   "ai_conversation": {
     "role": "student",
-    "scenario": "Ask questions during class about the lesson.",
-    "opening_line": "Teacher, can you help me? I don't understand the task.",
+    "scenario": "Discuss and practice effective classroom communication.",
+    "opening_line": "Teacher, how much time do we have for this group discussion?",
     "level_constraints": {
       "max_sentence_length": 15,
       "allowed_grammar": [
@@ -258,5 +258,18 @@
       ]
     },
     "success_criteria": "Learner explains the task clearly using simple English."
-  }
+  },
+  "takeaway_lines": [
+    "Today we are going to discuss classroom communication.",
+    "I have been thinking about ways to improve my speaking.",
+    "That is great. You should also focus on listening carefully.",
+    "Could you recommend some practice activities?"
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

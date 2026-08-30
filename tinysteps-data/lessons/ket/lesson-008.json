@@ -4,7 +4,7 @@
   "topic_id": "topic_restaurant",
   "order": 8,
   "title": "At the restaurant",
-  "scenario": "You are in a customer role. Use English naturally in this restaurant situation.",
+  "scenario": "At the end of lunch, you politely request the bill from restaurant staff.",
   "estimated_minutes": 10,
   "dialogue": {
     "setting": "Local restaurant, Wednesday afternoon",
@@ -180,11 +180,11 @@
         },
         {
           "prompt": "___ you check my schedule?",
-          "correct_answer": "Could"
+          "correct_answer": "please"
         },
         {
           "prompt": "___ we correct the mistakes together?",
-          "correct_answer": "Could"
+          "correct_answer": "now"
         }
       ]
     },
@@ -227,8 +227,8 @@
   ],
   "ai_conversation": {
     "role": "waiter",
-    "scenario": "Take an order from a diner at a restaurant.",
-    "opening_line": "Welcome! What would you like to order today?",
+    "scenario": "Order food, ask about menu items, and request the bill politely.",
+    "opening_line": "Good afternoon! Could we ask for the bill, please?",
     "level_constraints": {
       "max_sentence_length": 12,
       "allowed_grammar": [
@@ -242,5 +242,18 @@
       ]
     },
     "success_criteria": "Learner orders food, states preferences, and asks for the bill."
-  }
+  },
+  "takeaway_lines": [
+    "Good afternoon. Could we have the bill, please?",
+    "Of course. Was everything satisfactory today?",
+    "The food was excellent, but the service was a bit slow.",
+    "I apologise for that. We were very busy this evening."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }

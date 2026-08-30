@@ -4,7 +4,7 @@
   "topic_id": "topic_before_class",
   "order": 1,
   "title": "Preparing for class",
-  "scenario": "You are in a teacher role. Use English naturally in this before class situation.",
+  "scenario": "You arrive early, tidy the room, and check the timetable with a colleague.",
   "estimated_minutes": 6,
   "dialogue": {
     "setting": "Teachers room, Monday morning",
@@ -81,7 +81,7 @@
           "correct_answer": "yesterday"
         },
         {
-          "image_hint": "a clean graphic illustration of a agenda",
+          "image_hint": "a clean graphic illustration of an agenda",
           "correct_answer": "agendas"
         },
         {
@@ -204,7 +204,7 @@
             "marker"
           ],
           "correct_answer": "agendas",
-          "image_hint": "a clean graphic illustration of a agenda"
+          "image_hint": "a clean graphic illustration of an agenda"
         },
         {
           "prompt": "What is this?",
@@ -221,8 +221,8 @@
   ],
   "ai_conversation": {
     "role": "colleague",
-    "scenario": "Talk about class preparation before the lesson starts.",
-    "opening_line": "Good morning! Have you finished the lesson preparation?",
+    "scenario": "Talk about getting ready before class.",
+    "opening_line": "Good morning! Did you prepare the classroom already?",
     "level_constraints": {
       "max_sentence_length": 8,
       "allowed_grammar": [
@@ -236,5 +236,18 @@
       ]
     },
     "success_criteria": "Learner answers appropriately and describes a classroom preparation task."
-  }
+  },
+  "takeaway_lines": [
+    "I prepared the classroom yesterday afternoon.",
+    "Excellent. Let's have a great lesson today!",
+    "Yes, I cleaned the board and wrote the timetable.",
+    "Yes, I arrived before seven o'clock."
+  ],
+  "schema_version": 2,
+  "stations": [
+    "look",
+    "say",
+    "practice",
+    "takeaway"
+  ]
 }
